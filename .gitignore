@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+
+# Environment / secrets
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Project specific
+cache/
+experience_kb/archive/
+methodology_kb/paperinsight/.git/
+test-pdf-spooky/
+
+# Logs
+*.log
