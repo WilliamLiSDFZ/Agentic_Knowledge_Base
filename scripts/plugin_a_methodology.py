@@ -2,13 +2,11 @@
 import os, re, time, json, argparse
 import urllib.request
 import pymupdf4llm
-from openai import OpenAI
 from pathlib import Path
 
-client = OpenAI(
-    api_key=os.environ["DEEPSEEK_API_KEY"],
-    base_url=os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com"),
-)
+from llm import client, MODEL
+
+REPO_ROOT = Path(__file__).resolve().parent.parent   # scripts/ -> repo root
 
 PROMPT = """Extract techniques from this ML/NLP paper. For each technique or design choice, identify whether it had a positive, negative, or neutral effect on results.
 
@@ -65,7 +63,7 @@ def render_methodology(title: str, source: str, techniques: list) -> str:
 
 def extract_methodology(text: str) -> list:
     resp = client.chat.completions.create(
-        model="deepseek-chat",
+        model=MODEL,
         messages=[{"role": "user", "content": PROMPT.format(text=text)}],
         temperature=0,
     )
@@ -80,7 +78,7 @@ def process_category(category_dir: Path, output_dir: Path):
         return
 
     output_dir.mkdir(parents=True, exist_ok=True)
-    tmp = Path("cache/plugin_a_pdfs")
+    tmp = REPO_ROOT / "cache" / "plugin_a_pdfs"
     tmp.mkdir(parents=True, exist_ok=True)
 
     ref_files = sorted(refs_dir.glob("*.md"))
@@ -144,9 +142,9 @@ if __name__ == "__main__":
     parser.add_argument("--category", required=True, help="category folder name")
     args = parser.parse_args()
 
-    base = Path("output") / f"{args.venue}-{args.year}"
+    base = REPO_ROOT / "output" / f"{args.venue}-{args.year}"
     category_dir = base / args.category
-    output_dir = Path("methodology_kb") / f"{args.venue}-{args.year}" / args.category
+    output_dir = REPO_ROOT / "methodology_kb" / f"{args.venue}-{args.year}" / args.category
 
     process_category(category_dir, output_dir)
     print("Done.")

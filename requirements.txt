@@ -1,10 +1,10 @@
 openreview-py
+openai
 anthropic
 sentence-transformers
 scikit-learn
 numpy
 arxiv
 pymupdf4llm
-marker-pdf
 tqdm
 python-dotenv

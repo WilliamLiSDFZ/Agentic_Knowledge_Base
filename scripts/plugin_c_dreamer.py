@@ -2,12 +2,10 @@
 import os, re, json, argparse, subprocess
 from pathlib import Path
 from datetime import datetime
-from openai import OpenAI
 
-client = OpenAI(
-    api_key=os.environ["DEEPSEEK_API_KEY"],
-    base_url=os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com"),
-)
+from llm import client, MODEL
+
+REPO_ROOT = Path(__file__).resolve().parent.parent   # scripts/ -> repo root
 
 MAX_FORGET_PER_RUN = 3
 FORGET_SEEN_THRESHOLD = 1
@@ -44,7 +42,7 @@ Return JSON: {{"decisions": [{{"name": "...", "action": "archive"|"keep", "reaso
 
 def call_llm(prompt: str) -> dict:
     resp = client.chat.completions.create(
-        model="deepseek-chat",
+        model=MODEL,
         messages=[{"role": "user", "content": prompt}],
         temperature=0,
     )
@@ -198,7 +196,7 @@ def task2_forget(output_dir: Path) -> list:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--output_dir", default="experience_kb")
+    parser.add_argument("--output_dir", default=str(REPO_ROOT / "experience_kb"))
     args = parser.parse_args()
 
     output_dir = Path(args.output_dir)

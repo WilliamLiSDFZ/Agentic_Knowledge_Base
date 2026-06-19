@@ -1,12 +1,10 @@
 """Plugin D — Insighter: cross-paper methodology synthesis agent with tool use."""
 import os, json, subprocess
 from pathlib import Path
-from openai import OpenAI
 
-client = OpenAI(
-    api_key=os.environ["DEEPSEEK_API_KEY"],
-    base_url=os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com"),
-)
+from llm import client, MODEL
+
+REPO_ROOT = Path(__file__).resolve().parent.parent   # scripts/ -> repo root
 
 SYSTEM = """You are a research synthesis agent building a knowledge base for an ML training agent. Your job is to read methodology files from ML/NLP papers and produce actionable, specific cross-paper insights.
 
@@ -181,7 +179,7 @@ Complete the full task: list files, read all, synthesize, write index file + one
     print(f"  Agent starting for {venue}-{year}/{category}...")
     while True:
         resp = client.chat.completions.create(
-            model="deepseek-chat",
+            model=MODEL,
             messages=[{"role": "system", "content": SYSTEM}] + messages,
             tools=TOOLS,
             tool_choice="auto",
@@ -214,7 +212,7 @@ if __name__ == "__main__":
     parser.add_argument("--category", required=True)
     args = parser.parse_args()
 
-    base = Path("methodology_kb")
+    base = REPO_ROOT / "methodology_kb"
     category_dir = base / f"{args.venue}-{args.year}" / args.category
     output_path = base / "paperinsight" / f"{args.venue}-{args.year}" / args.category / "insight.md"
 

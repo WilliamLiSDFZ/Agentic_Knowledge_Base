@@ -3,7 +3,7 @@ set -e
 
 cd "$(dirname "$0")"
 
-PYTHON=/opt/anaconda3/bin/python
+PYTHON="${PYTHON:-python}"
 VENUE=${1:-neurips}
 YEAR=${2:-2024}
 

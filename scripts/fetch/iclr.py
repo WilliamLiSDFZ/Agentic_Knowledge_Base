@@ -4,7 +4,7 @@ from tqdm import tqdm
 from dotenv import load_dotenv
 from .base import ConferenceFetcher
 
-load_dotenv("/Users/haoming/Downloads/paper-skills/.env")
+load_dotenv(os.path.join(os.path.dirname(__file__), "../../.env"))
 
 VENUEID_MAP = {
     2024: "ICLR.cc/2024/Conference",

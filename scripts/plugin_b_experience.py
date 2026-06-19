@@ -1,12 +1,10 @@
 """Plugin B: Analyze training run logs, extract wins/failures/hypotheses into experience_kb/"""
 import os, json, argparse, subprocess
 from pathlib import Path
-from openai import OpenAI
 
-client = OpenAI(
-    api_key=os.environ["DEEPSEEK_API_KEY"],
-    base_url=os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com"),
-)
+from llm import client, MODEL
+
+REPO_ROOT = Path(__file__).resolve().parent.parent   # scripts/ -> repo root
 
 SYSTEM = """You are analyzing ML training run logs from an automated AI agent system.
 Extract structured knowledge from judge evaluations and designer plans.
@@ -103,7 +101,7 @@ def load_logs(run_dir: Path) -> dict:
 
 def call_llm(prompt: str) -> dict:
     resp = client.chat.completions.create(
-        model="deepseek-chat",
+        model=MODEL,
         messages=[
             {"role": "system", "content": SYSTEM},
             {"role": "user", "content": prompt},
@@ -299,12 +297,12 @@ def resolve_git_conflicts(output_dir: Path, run_dir: Path, conflict_log_dir: Pat
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--run_dir", required=True, help="path to run directory")
-    parser.add_argument("--output_dir", default="experience_kb")
+    parser.add_argument("--output_dir", default=str(REPO_ROOT / "experience_kb"))
     args = parser.parse_args()
 
     run_dir = Path(args.run_dir)
     output_dir = Path(args.output_dir)
-    conflict_log_dir = Path("cache/conflict_logs")
+    conflict_log_dir = REPO_ROOT / "cache" / "conflict_logs"
     output_dir.mkdir(parents=True, exist_ok=True)
 
     git_init_if_needed(output_dir)

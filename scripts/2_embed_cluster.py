@@ -9,11 +9,9 @@ import os
 import numpy as np
 from sklearn.cluster import AgglomerativeClustering
 from sentence_transformers import SentenceTransformer
-from openai import OpenAI
-from dotenv import load_dotenv
 from tqdm import tqdm
 
-load_dotenv("/Users/haoming/Downloads/paper-skills/.env")
+from llm import client, MODEL
 
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "../cache")
 
@@ -36,7 +34,7 @@ def cluster(embeddings):
 def name_cluster(client, titles):
     sample = "\n".join(f"- {t}" for t in titles[:20])
     resp = client.chat.completions.create(
-        model="deepseek-chat",
+        model=MODEL,
         max_tokens=64,
         messages=[{"role": "user", "content": (
             "Given these paper titles from the same research cluster, "
@@ -68,10 +66,6 @@ def main():
     for i, (paper, label) in enumerate(zip(papers, labels)):
         clusters.setdefault(label, []).append(i)
 
-    client = OpenAI(
-        api_key=os.getenv("DEEPSEEK_API_KEY"),
-        base_url=os.getenv("DEEPSEEK_BASE_URL"),
-    )
     named = {}
     for label, indices in tqdm(clusters.items(), desc="Naming clusters"):
         titles = [papers[i]["title"] for i in indices]
