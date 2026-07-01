@@ -4,7 +4,7 @@ from pathlib import Path
 
 from llm import client, MODEL
 
-REPO_ROOT = Path(__file__).resolve().parent.parent   # scripts/ -> repo root
+REPO_ROOT = Path(__file__).resolve().parent.parent  # scripts/ -> repo root
 
 SYSTEM = """You are a research synthesis agent building a knowledge base for an ML training agent. Your job is to read methodology files from ML/NLP papers and produce actionable, specific cross-paper insights.
 
@@ -176,8 +176,9 @@ Complete the full task: list files, read all, synthesize, write index file + one
 
     messages = [{"role": "user", "content": user_msg}]
 
+    MAX_TURNS = 60  # hard cap so a misbehaving agent can't loop (and burn tokens) forever
     print(f"  Agent starting for {venue}-{year}/{category}...")
-    while True:
+    for turn in range(MAX_TURNS):
         resp = client.chat.completions.create(
             model=MODEL,
             messages=[{"role": "system", "content": SYSTEM}] + messages,
@@ -202,10 +203,14 @@ Complete the full task: list files, read all, synthesize, write index file + one
                 "tool_call_id": tc.id,
                 "content": str(result)[:64000],
             })
+    else:
+        print(f"  WARN: agent hit MAX_TURNS={MAX_TURNS} without finishing for "
+              f"{venue}-{year}/{category}; stopping early.")
 
 
 if __name__ == "__main__":
     import argparse
+
     parser = argparse.ArgumentParser()
     parser.add_argument("--venue", required=True)
     parser.add_argument("--year", type=int, required=True)

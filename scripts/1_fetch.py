@@ -12,14 +12,15 @@ from fetch.aaai import AAAIFetcher
 
 FETCHERS = {
     "neurips": lambda y: NeurIPSFetcher(y),
-    "icml":    lambda y: ICMLFetcher(y),
-    "cvpr":    lambda y: CVFFetcher("CVPR", y),
-    "iccv":    lambda y: CVFFetcher("ICCV", y),
-    "acl":     lambda y: ACLFetcher("ACL", y),
-    "naacl":   lambda y: ACLFetcher("NAACL", y),
-    "iclr":    lambda y: ICLRFetcher(y),
-    "aaai":    lambda y: AAAIFetcher(y),
+    "icml": lambda y: ICMLFetcher(y),
+    "cvpr": lambda y: CVFFetcher("CVPR", y),
+    "iccv": lambda y: CVFFetcher("ICCV", y),
+    "acl": lambda y: ACLFetcher("ACL", y),
+    "naacl": lambda y: ACLFetcher("NAACL", y),
+    "iclr": lambda y: ICLRFetcher(y),
+    "aaai": lambda y: AAAIFetcher(y),
 }
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -42,6 +43,7 @@ def main():
         with open(out, "w") as f:
             json.dump(papers, f, ensure_ascii=False, indent=2)
         print(f"Saved {len(papers)} papers -> {out}")
+
 
 if __name__ == "__main__":
     main()

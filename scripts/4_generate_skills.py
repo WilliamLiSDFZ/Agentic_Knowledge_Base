@@ -11,7 +11,8 @@ CACHE_DIR = os.path.join(os.path.dirname(__file__), "../cache")
 
 
 def slugify(text):
-    return re.sub(r"[^a-z0-9-]", "", text.lower().replace(" ", "-"))
+    s = re.sub(r"[^a-z0-9-]", "", str(text).lower().replace(" ", "-"))
+    return s or "untitled"
 
 
 def generate_description(category, papers):
@@ -35,9 +36,11 @@ def make_reference(paper):
     tldr = paper.get("tldr", "")
     venue = paper.get("venue", "")
     year = paper.get("year", "")
+    title = paper.get("title", "Untitled")
+    abstract = paper.get("abstract", "")
 
     return f"""---
-title: "{paper['title'].replace('"', "'")}"
+title: "{title.replace('"', "'")}"
 source: "{url}"
 categories: {categories}
 tags: {tags}
@@ -45,7 +48,7 @@ venue: "{venue} {year}"
 tldr: "{tldr}"
 ---
 
-# {paper['title']}
+# {title}
 
 **Source**: [{url}]({url})
 
@@ -53,13 +56,13 @@ tldr: "{tldr}"
 
 ## Abstract
 
-{paper['abstract']}"""
+{abstract}"""
 
 
-def make_skill_md(category, papers, description):
+def make_skill_md(category, papers, description, fnames):
     rows = "\n".join(
-        f"| {i+1} | {p['title'][:60]} | {', '.join(p.get('tags', [])[:3])} | {slugify(p['id'])}.md |"
-        for i, p in enumerate(papers)
+        f"| {i + 1} | {p.get('title', '')[:60]} | {', '.join(p.get('tags', [])[:3])} | {fname}.md |"
+        for i, (p, fname) in enumerate(zip(papers, fnames))
     )
     return f"""---
 name: {category}
@@ -94,13 +97,25 @@ def generate(classified_path, output_root):
         ref_dir = os.path.join(cat_dir, "references")
         os.makedirs(ref_dir, exist_ok=True)
 
+        # Assign a unique reference filename per paper within this category, so two
+        # papers whose ids slugify to the same string no longer overwrite each other
+        # (and the SKILL.md index row points at the matching unique file).
+        used_names, fnames = set(), []
+        for p in cat_papers:
+            base = slugify(p.get("id") or p.get("title", "untitled"))
+            fname, n = base, 1
+            while fname in used_names:
+                fname = f"{base}-{n}"
+                n += 1
+            used_names.add(fname)
+            fnames.append(fname)
+
         description = generate_description(category, cat_papers)
         with open(os.path.join(cat_dir, "SKILL.md"), "w") as f:
-            f.write(make_skill_md(category, cat_papers, description))
+            f.write(make_skill_md(category, cat_papers, description, fnames))
 
-        for paper in cat_papers:
-            fname = slugify(paper["id"]) + ".md"
-            with open(os.path.join(ref_dir, fname), "w") as f:
+        for paper, fname in zip(cat_papers, fnames):
+            with open(os.path.join(ref_dir, fname + ".md"), "w") as f:
                 f.write(make_reference(paper))
 
     print(f"Generated {len(by_category)} skills in {output_root}")

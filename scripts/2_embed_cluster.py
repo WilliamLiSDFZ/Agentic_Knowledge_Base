@@ -70,7 +70,14 @@ def main():
     for label, indices in tqdm(clusters.items(), desc="Naming clusters"):
         titles = [papers[i]["title"] for i in indices]
         name = name_cluster(client, titles)
-        named[name] = indices
+        if name in named:
+            # Two distinct clusters were given the same LLM-generated name.
+            # Merge their papers instead of overwriting (overwriting silently
+            # dropped every paper from the first cluster).
+            print(f"  Name collision on '{name}': merging {len(indices)} papers into existing cluster")
+            named[name].extend(indices)
+        else:
+            named[name] = indices
 
     with open(clusters_path, "w") as f:
         json.dump({"clusters": named, "paper_count": len(papers)}, f, indent=2)
