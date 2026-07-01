@@ -1,0 +1,18 @@
+---
+title: "LookHere: Vision Transformers with Directed Attention Generalize and Extrapolate"
+source: "https://papers.nips.cc/paper_files/paper/2024/hash/22d72e9f55bc29cafcca6814a7feac8c-Abstract-Conference.html"
+categories: ['transformer-based-learning-for-spatial-tasks', 'visual-language-multimodal-generation-reasoning']
+tags: ['vision-transformer', 'attention-mechanism', 'resolution-extrapolation']
+venue: "NeurIPS 2024"
+tldr: "LookHere directs ViT attention with local positional biases to enable generalization and extrapolation to higher-resolution images without finetuning."
+---
+
+# LookHere: Vision Transformers with Directed Attention Generalize and Extrapolate
+
+**Source**: [https://papers.nips.cc/paper_files/paper/2024/hash/22d72e9f55bc29cafcca6814a7feac8c-Abstract-Conference.html](https://papers.nips.cc/paper_files/paper/2024/hash/22d72e9f55bc29cafcca6814a7feac8c-Abstract-Conference.html)
+
+**TLDR**: LookHere directs ViT attention with local positional biases to enable generalization and extrapolation to higher-resolution images without finetuning.
+
+## Abstract
+
+High-resolution images offer more information about scenes that can improve model accuracy. However, the dominant model architecture in computer vision, the vision transformer (ViT), cannot effectively leverage larger images without finetuning — ViTs poorly extrapolate to more patches at test time, although transformers offer sequence length flexibility. We attribute this shortcoming to the current patch position encoding methods, which create a distribution shift when extrapolating.We propose a drop-in replacement for the position encoding of plain ViTs that restricts attention heads to fixed fields of view, pointed in different directions, using 2D attention masks. Our novel method, called LookHere, provides translation-equivariance, ensures attention head diversity, and limits the distribution shift that attention heads face when extrapolating. We demonstrate that LookHere improves performance on classification (avg. 1.6%), against adversarial attack (avg. 5.4%), and decreases calibration error (avg. 1.5%) — on ImageNet without extrapolation. With extrapolation, LookHere outperforms the current SoTA position encoding method, 2D-RoPE, by 21.7% on ImageNet when trained at $224^2$ px and tested at $1024^2$ px. Additionally, we release a high-resolution test set to improve the evaluation of high-resolution image classifiers, called ImageNet-HR.

@@ -1,0 +1,18 @@
+---
+title: "A Taxonomy of Challenges to Curating Fair Datasets"
+source: "https://papers.nips.cc/paper_files/paper/2024/hash/b142e78db191e19b17e60c1425a28b52-Abstract-Datasets_and_Benchmarks_Track.html"
+categories: ['fairness-aware-machine-learning-methods']
+tags: ['dataset-curation', 'fairness', 'qualitative-study']
+venue: "NeurIPS 2024"
+tldr: "A taxonomy of practical challenges and trade-offs in curating fair ML datasets, derived from interviews with 30 dataset curators."
+---
+
+# A Taxonomy of Challenges to Curating Fair Datasets
+
+**Source**: [https://papers.nips.cc/paper_files/paper/2024/hash/b142e78db191e19b17e60c1425a28b52-Abstract-Datasets_and_Benchmarks_Track.html](https://papers.nips.cc/paper_files/paper/2024/hash/b142e78db191e19b17e60c1425a28b52-Abstract-Datasets_and_Benchmarks_Track.html)
+
+**TLDR**: A taxonomy of practical challenges and trade-offs in curating fair ML datasets, derived from interviews with 30 dataset curators.
+
+## Abstract
+
+Despite extensive efforts to create fairer machine learning (ML) datasets, there remains a limited understanding of the practical aspects of dataset curation. Drawing from interviews with 30 ML dataset curators, we present a comprehensive taxonomy of the challenges and trade-offs encountered throughout the dataset curation lifecycle. Our findings underscore overarching issues within the broader fairness landscape that impact data curation. We conclude with recommendations aimed at fostering systemic changes to better facilitate fair dataset curation practices.

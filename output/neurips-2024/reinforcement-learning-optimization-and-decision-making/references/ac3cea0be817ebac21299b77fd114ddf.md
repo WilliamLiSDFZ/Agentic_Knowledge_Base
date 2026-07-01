@@ -1,0 +1,18 @@
+---
+title: "A Nearly Optimal and Low-Switching Algorithm for Reinforcement Learning with General Function Approximation"
+source: "https://papers.nips.cc/paper_files/paper/2024/hash/ac3cea0be817ebac21299b77fd114ddf-Abstract-Conference.html"
+categories: ['reinforcement-learning-optimization-and-decision-making']
+tags: ['reinforcement-learning', 'function-approximation', 'exploration-exploitation', 'UCB', 'sample-efficiency']
+venue: "NeurIPS 2024"
+tldr: "MQL-UCB achieves nearly optimal regret with low policy switching for reinforcement learning with general function approximation."
+---
+
+# A Nearly Optimal and Low-Switching Algorithm for Reinforcement Learning with General Function Approximation
+
+**Source**: [https://papers.nips.cc/paper_files/paper/2024/hash/ac3cea0be817ebac21299b77fd114ddf-Abstract-Conference.html](https://papers.nips.cc/paper_files/paper/2024/hash/ac3cea0be817ebac21299b77fd114ddf-Abstract-Conference.html)
+
+**TLDR**: MQL-UCB achieves nearly optimal regret with low policy switching for reinforcement learning with general function approximation.
+
+## Abstract
+
+The exploration-exploitation dilemma has been a central challenge in reinforcement learning (RL) with complex model classes. In this paper, we propose a new algorithm, Monotonic  Q-Learning with Upper Confidence Bound (MQL-UCB) for RL with general function approximation. Our key algorithmic design includes (1) a general deterministic policy-switching strategy that achieves low switching cost, (2) a monotonic value function structure with carefully controlled function class complexity, and (3) a variance-weighted regression scheme that exploits historical trajectories with high data efficiency. MQL-UCB achieves minimax optimal regret of $\tilde{O}(d\sqrt{HK})$ when $K$ is sufficiently large and near-optimal policy switching cost of $\tilde{O}(dH)$, with $d$ being the eluder dimension of the function class, $H$ being the planning horizon, and $K$ being the number of episodes.    Our work sheds light on designing provably sample-efficient and deployment-efficient Q-learning with nonlinear function approximation.

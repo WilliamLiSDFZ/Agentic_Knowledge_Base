@@ -1,0 +1,18 @@
+---
+title: "PhyloGen: Language Model-Enhanced Phylogenetic Inference via Graph Structure Generation"
+source: "https://papers.nips.cc/paper_files/paper/2024/hash/edcd1aa172dceda2ea9d45a48f25d3e3-Abstract-Conference.html"
+categories: ['machine-learning-for-molecular-biology']
+tags: ['phylogenetic-inference', 'language-model', 'graph-generation', 'evolutionary-trees', 'mcmc']
+venue: "NeurIPS 2024"
+tldr: "Enhances phylogenetic inference by integrating language model embeddings with graph structure generation to improve convergence."
+---
+
+# PhyloGen: Language Model-Enhanced Phylogenetic Inference via Graph Structure Generation
+
+**Source**: [https://papers.nips.cc/paper_files/paper/2024/hash/edcd1aa172dceda2ea9d45a48f25d3e3-Abstract-Conference.html](https://papers.nips.cc/paper_files/paper/2024/hash/edcd1aa172dceda2ea9d45a48f25d3e3-Abstract-Conference.html)
+
+**TLDR**: Enhances phylogenetic inference by integrating language model embeddings with graph structure generation to improve convergence.
+
+## Abstract
+
+Phylogenetic trees elucidate evolutionary relationships among species, but phylogenetic inference remains challenging due to the complexity of combining continuous (branch lengths) and discrete parameters (tree topology).     Traditional Markov Chain Monte Carlo methods face slow convergence and computational burdens. Existing Variational Inference methods, which require pre-generated topologies and typically treat tree structures and branch lengths independently, may overlook critical sequence features, limiting their accuracy and flexibility.    We propose PhyloGen, a novel method leveraging a pre-trained genomic language model to generate and optimize phylogenetic trees without dependence on evolutionary models or aligned sequence constraints. PhyloGen views phylogenetic inference as a conditionally constrained tree structure generation problem, jointly optimizing tree topology and branch lengths through three core modules: (i) Feature Extraction, (ii) PhyloTree Construction, and (iii) PhyloTree Structure Modeling.     Meanwhile, we introduce a Scoring Function to guide the model towards a more stable gradient descent.    We demonstrate the effectiveness and robustness of PhyloGen on eight real-world benchmark datasets. Visualization results confirm PhyloGen provides deeper insights into phylogenetic relationships.

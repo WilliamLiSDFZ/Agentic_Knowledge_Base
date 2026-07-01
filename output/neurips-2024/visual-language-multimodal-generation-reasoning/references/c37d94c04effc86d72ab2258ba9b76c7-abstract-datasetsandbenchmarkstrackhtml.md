@@ -1,0 +1,18 @@
+---
+title: "Image Textualization: An Automatic Framework for Generating Rich and Detailed Image Descriptions"
+source: "https://papers.nips.cc/paper_files/paper/2024/hash/c37d94c04effc86d72ab2258ba9b76c7-Abstract-Datasets_and_Benchmarks_Track.html"
+categories: ['visual-language-multimodal-generation-reasoning']
+tags: ['image-description', 'automatic-captioning', 'multimodal-datasets']
+venue: "NeurIPS 2024"
+tldr: "Presents an automatic framework for generating rich, detailed image descriptions to improve image-text datasets."
+---
+
+# Image Textualization: An Automatic Framework for Generating Rich and Detailed Image Descriptions
+
+**Source**: [https://papers.nips.cc/paper_files/paper/2024/hash/c37d94c04effc86d72ab2258ba9b76c7-Abstract-Datasets_and_Benchmarks_Track.html](https://papers.nips.cc/paper_files/paper/2024/hash/c37d94c04effc86d72ab2258ba9b76c7-Abstract-Datasets_and_Benchmarks_Track.html)
+
+**TLDR**: Presents an automatic framework for generating rich, detailed image descriptions to improve image-text datasets.
+
+## Abstract
+
+Image description datasets play a crucial role in the advancement of various applications such as image understanding, text-to-image generation, and text-image retrieval. Currently, image description datasets primarily originate from two sources. One source is the scraping of image-text pairs from the web. Despite their abundance, these descriptions are often of low quality and noisy. Another way is through human labeling. Datasets such as COCO are generally very short and lack details. Although detailed image descriptions can be annotated by humans, the high cost limits their quantity and feasibility. These limitations underscore the need for more efficient and scalable methods to generate accurate and detailed image descriptions. In this paper, we propose an innovative framework termed Image Textualization, which automatically produces high-quality image descriptions by leveraging existing mult-modal large language models (MLLMs) and multiple vision expert models in a collaborative manner. We conduct various experiments to validate the high quality of the descriptions constructed by our framework. Furthermore, we show that MLLMs fine-tuned on our dataset acquire an unprecedented capability of generating richer image descriptions, substantially increasing the length and detail of their output with even less hallucinations.

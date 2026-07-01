@@ -1,0 +1,18 @@
+---
+title: "MiraData: A Large-Scale Video Dataset with Long Durations and Structured Captions"
+source: "https://papers.nips.cc/paper_files/paper/2024/hash/57f6683e550eb067936c9e9f0bcb8e31-Abstract-Datasets_and_Benchmarks_Track.html"
+categories: ['visual-language-multimodal-generation-reasoning']
+tags: ['video-dataset', 'long-duration', 'structured-captions', 'motion-intensity', 'video-generation']
+venue: "NeurIPS 2024"
+tldr: "Presents MiraData, a large-scale video dataset with long durations and structured captions to support high-motion consistent video generation."
+---
+
+# MiraData: A Large-Scale Video Dataset with Long Durations and Structured Captions
+
+**Source**: [https://papers.nips.cc/paper_files/paper/2024/hash/57f6683e550eb067936c9e9f0bcb8e31-Abstract-Datasets_and_Benchmarks_Track.html](https://papers.nips.cc/paper_files/paper/2024/hash/57f6683e550eb067936c9e9f0bcb8e31-Abstract-Datasets_and_Benchmarks_Track.html)
+
+**TLDR**: Presents MiraData, a large-scale video dataset with long durations and structured captions to support high-motion consistent video generation.
+
+## Abstract
+
+Sora's high-motion intensity and long consistent videos have significantly impacted the field of video generation, attracting unprecedented attention. However, existing publicly available datasets are inadequate for generating Sora-like videos, as they mainly contain short videos with low motion intensity and brief captions. To address these issues, we propose MiraData, a high-quality video dataset that surpasses previous ones in video duration, caption detail, motion strength, and visual quality. We curate MiraData from diverse, manually selected sources and meticulously process the data to obtain semantically consistent clips. GPT-4V is employed to annotate structured captions, providing detailed descriptions from four different perspectives along with a summarized dense caption. To better assess temporal consistency and motion intensity in video generation, we introduce MiraBench, which enhances existing benchmarks by adding 3D consistency and tracking-based motion strength metrics. MiraBench includes 150 evaluation prompts and 17 metrics covering temporal consistency, motion strength, 3D consistency, visual quality, text-video alignment, and distribution similarity. To demonstrate the utility and effectiveness of MiraData, we conduct experiments using our DiT-based video generation model, MiraDiT. The experimental results on MiraBench demonstrate the superiority of MiraData, especially in motion strength.

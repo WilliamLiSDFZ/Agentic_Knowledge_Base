@@ -1,0 +1,18 @@
+---
+title: "Adaptive and Optimal Second-order Optimistic Methods for Minimax Optimization"
+source: "https://papers.nips.cc/paper_files/paper/2024/hash/ab41313eaa3cbedbe491c24cbfe6547d-Abstract-Conference.html"
+categories: ['stochastic-optimization-convergence-and-variance-reduction', 'reinforcement-learning-optimization-and-decision-making']
+tags: ['minimax-optimization', 'second-order-methods', 'adaptive-step-size']
+venue: "NeurIPS 2024"
+tldr: "Proposes adaptive line-search-free second-order methods achieving optimal convergence rates for convex-concave minimax problems."
+---
+
+# Adaptive and Optimal Second-order Optimistic Methods for Minimax Optimization
+
+**Source**: [https://papers.nips.cc/paper_files/paper/2024/hash/ab41313eaa3cbedbe491c24cbfe6547d-Abstract-Conference.html](https://papers.nips.cc/paper_files/paper/2024/hash/ab41313eaa3cbedbe491c24cbfe6547d-Abstract-Conference.html)
+
+**TLDR**: Proposes adaptive line-search-free second-order methods achieving optimal convergence rates for convex-concave minimax problems.
+
+## Abstract
+
+We propose adaptive, line-search-free second-order methods with optimal rate of convergence for solving convex-concave min-max problems. By means of an adaptive step size, our algorithms feature a simple update rule that requires solving only one linear system per iteration, eliminating the need for line-search or backtracking mechanisms. Specifically, we base our algorithms on the optimistic method and appropriately combine it with second-order information. Moreover, distinct from common adaptive schemes, we define the step size recursively as a function of the gradient norm and the prediction error in the optimistic update. We first analyze a variant where the step size requires knowledge of the Lipschitz constant of the Hessian. Under the additional assumption of Lipschitz continuous gradients, we further design a parameter-free version by tracking the Hessian Lipschitz constant locally and ensuring the iterates remain bounded. We also evaluate the practical performance of our algorithm by comparing it to existing second-order algorithms for minimax optimization.

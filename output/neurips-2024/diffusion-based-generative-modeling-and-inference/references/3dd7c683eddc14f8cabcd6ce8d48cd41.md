@@ -1,0 +1,18 @@
+---
+title: "Localize, Understand, Collaborate: Semantic-Aware Dragging via Intention Reasoner"
+source: "https://papers.nips.cc/paper_files/paper/2024/hash/3dd7c683eddc14f8cabcd6ce8d48cd41-Abstract-Conference.html"
+categories: ['diffusion-based-generative-modeling-and-inference', 'visual-language-multimodal-generation-reasoning']
+tags: ['drag-based-editing', 'diffusion-models', 'semantic-image-editing']
+venue: "NeurIPS 2024"
+tldr: "Presents an intention-reasoning framework for semantically aware drag-based image editing using diffusion models."
+---
+
+# Localize, Understand, Collaborate: Semantic-Aware Dragging via Intention Reasoner
+
+**Source**: [https://papers.nips.cc/paper_files/paper/2024/hash/3dd7c683eddc14f8cabcd6ce8d48cd41-Abstract-Conference.html](https://papers.nips.cc/paper_files/paper/2024/hash/3dd7c683eddc14f8cabcd6ce8d48cd41-Abstract-Conference.html)
+
+**TLDR**: Presents an intention-reasoning framework for semantically aware drag-based image editing using diffusion models.
+
+## Abstract
+
+Flexible and accurate drag-based editing is a challenging task that has recently garnered significant attention. Current methods typically model this problem as automatically learning "how to drag" through point dragging and often produce one deterministic estimation, which presents two key limitations: 1) Overlooking the inherently ill-posed nature of drag-based editing, where multiple results may correspond to a given input, as illustrated in Fig.1; 2) Ignoring the constraint of image quality, which may lead to unexpected distortion.To alleviate this, we propose LucidDrag, which shifts the focus from "how to drag" to "what-then-how" paradigm.  LucidDrag comprises an intention reasoner and a collaborative guidance sampling mechanism. The former infers several optimal editing strategies, identifying what content and what semantic direction to be edited. Based on the former, the latter addresses "how to drag" by collaboratively integrating existing editing guidance with the newly proposed semantic guidance and quality guidance.Specifically, semantic guidance is derived by establishing a semantic editing direction based on reasoned intentions, while quality guidance is achieved through classifier guidance using an image fidelity discriminator.Both qualitative and quantitative comparisons demonstrate the superiority of LucidDrag over previous methods.

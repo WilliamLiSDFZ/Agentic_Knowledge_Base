@@ -1,0 +1,18 @@
+---
+title: "Learning Segmentation from Point Trajectories"
+source: "https://papers.nips.cc/paper_files/paper/2024/hash/cc57fac10eacadb3b72a907ac48f9a98-Abstract-Conference.html"
+categories: ['deep-learning-optimization-and-generalization-theory']
+tags: ['video-segmentation', 'motion-segmentation', 'point-trajectories']
+venue: "NeurIPS 2024"
+tldr: "Proposes a method for unsupervised object segmentation in videos using point trajectory motion cues beyond simple common fate."
+---
+
+# Learning Segmentation from Point Trajectories
+
+**Source**: [https://papers.nips.cc/paper_files/paper/2024/hash/cc57fac10eacadb3b72a907ac48f9a98-Abstract-Conference.html](https://papers.nips.cc/paper_files/paper/2024/hash/cc57fac10eacadb3b72a907ac48f9a98-Abstract-Conference.html)
+
+**TLDR**: Proposes a method for unsupervised object segmentation in videos using point trajectory motion cues beyond simple common fate.
+
+## Abstract
+
+We consider the problem of segmenting objects in videos based on their motion and no other forms of supervision. Prior work has often approached this problem by using the principle of common fate, namely the fact that the motion of points that belong to the same object is strongly correlated. However, most authors have only considered instantaneous motion from optical flow. In this work, we present a way to train a segmentation network using long-term point trajectories as a supervisory signal to complement optical flow. The key difficulty is that long-term motion, unlike instantaneous motion, is difficult to model -- any parametric approximation is unlikely to capture complex motion patterns over long periods of time. We instead draw inspiration from subspace clustering approaches, proposing a loss function that seeks to group the trajectories into low-rank matrices where the motion of object points can be approximately explained as a linear combination of other point tracks. Our method outperforms the prior art on motion-based segmentation, which shows the utility of long-term motion and the effectiveness of our formulation.

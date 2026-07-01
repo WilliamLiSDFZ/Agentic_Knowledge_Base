@@ -1,0 +1,18 @@
+---
+title: "PROSPECT PTMs: Rich Labeled Tandem Mass Spectrometry Dataset of Modified Peptides for Machine Learning in Proteomics"
+source: "https://papers.nips.cc/paper_files/paper/2024/hash/ed0c1f444b603cf9d158918050770765-Abstract-Datasets_and_Benchmarks_Track.html"
+categories: ['machine-learning-for-molecular-biology', 'ai-benchmarking-and-evaluation-methodology']
+tags: ['proteomics', 'post-translational-modifications', 'mass-spectrometry']
+venue: "NeurIPS 2024"
+tldr: "Introduces a richly labeled tandem mass spectrometry dataset of modified peptides to support machine learning in proteomics."
+---
+
+# PROSPECT PTMs: Rich Labeled Tandem Mass Spectrometry Dataset of Modified Peptides for Machine Learning in Proteomics
+
+**Source**: [https://papers.nips.cc/paper_files/paper/2024/hash/ed0c1f444b603cf9d158918050770765-Abstract-Datasets_and_Benchmarks_Track.html](https://papers.nips.cc/paper_files/paper/2024/hash/ed0c1f444b603cf9d158918050770765-Abstract-Datasets_and_Benchmarks_Track.html)
+
+**TLDR**: Introduces a richly labeled tandem mass spectrometry dataset of modified peptides to support machine learning in proteomics.
+
+## Abstract
+
+Post-Translational Modifications (PTMs) are changes that occur in proteins after synthesis, influencing their structure, function, and cellular behavior. PTMs are essential in cell biology; they regulate protein function and stability, are involved in various cellular processes, and are linked to numerous diseases. A particularly interesting class of PTMs are chemical modifications such as phosphorylation introduced on amino acid side chains because they can drastically alter the physicochemical properties of the peptides once they are present. One or more PTMs can be attached to each amino acid of the peptide sequence. The most commonly applied technique to detect PTMs on proteins is bottom-up Mass Spectrometry-based proteomics (MS), where proteins are digested into peptides and subsequently analyzed using Tandem Mass Spectrometry (MS/MS). While an increasing number of machine learning models are published focusing on MS/MS-related property prediction of unmodified peptides, high-quality reference data for modified peptides is missing, impeding model development for this important class of peptides. To enable researchers to train machine learning models that can accurately predict the properties of modified peptides, we introduce four high-quality labeled datasets for applying machine and deep learning to tasks in MS-based proteomics. The four datasets comprise several subgroups of peptides with 1.2 million unique modified peptide sequences and 30 unique pairs of (amino-acid, PTM), covering both experimentally introduced and naturally occurring modifications on various amino acids. We evaluate the utility and importance of the dataset by providing benchmarking results on models trained with and without modifications and highlighting the impact of including modified sequences on downstream tasks. We demonstrate that predicting the properties of modified peptides is more challenging but has a broad impact since they are often the core of protein functionality and its regulation, and they have a potential role as biomarkers in clinical applications. Our datasets contribute to applied machine learning in proteomics by enabling the research community to experiment with methods to encode PTMs as model inputs and to benchmark against reference data for model comparison. With a proper data split for three common tasks in proteomics, we provide a robust way to evaluate model performance and assess generalization on unseen modified sequences.

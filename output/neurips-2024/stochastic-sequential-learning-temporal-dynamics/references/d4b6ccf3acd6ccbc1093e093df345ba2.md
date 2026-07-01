@@ -1,0 +1,18 @@
+---
+title: "In-Trajectory Inverse Reinforcement Learning: Learn Incrementally Before an Ongoing Trajectory Terminates"
+source: "https://papers.nips.cc/paper_files/paper/2024/hash/d4b6ccf3acd6ccbc1093e093df345ba2-Abstract-Conference.html"
+categories: ['reinforcement-learning-optimization-and-decision-making', 'stochastic-sequential-learning-temporal-dynamics']
+tags: ['inverse-reinforcement-learning', 'incremental-learning', 'online-trajectory', 'reward-learning']
+venue: "NeurIPS 2024"
+tldr: "Proposes an in-trajectory IRL method that learns reward functions incrementally from ongoing incomplete expert trajectories without waiting for termination."
+---
+
+# In-Trajectory Inverse Reinforcement Learning: Learn Incrementally Before an Ongoing Trajectory Terminates
+
+**Source**: [https://papers.nips.cc/paper_files/paper/2024/hash/d4b6ccf3acd6ccbc1093e093df345ba2-Abstract-Conference.html](https://papers.nips.cc/paper_files/paper/2024/hash/d4b6ccf3acd6ccbc1093e093df345ba2-Abstract-Conference.html)
+
+**TLDR**: Proposes an in-trajectory IRL method that learns reward functions incrementally from ongoing incomplete expert trajectories without waiting for termination.
+
+## Abstract
+
+Inverse reinforcement learning (IRL) aims to learn a reward function and a corresponding policy that best fit the demonstrated trajectories of an expert. However, current IRL works cannot learn incrementally from an ongoing trajectory because they have to wait to collect at least one complete trajectory to learn. To bridge the gap, this paper considers the problem of learning a reward function and a corresponding policy while observing the initial state-action pair of an ongoing trajectory and keeping updating the learned reward and policy when new state-action pairs of the ongoing trajectory are observed. We formulate this problem as an online bi-level optimization problem where the upper level dynamically adjusts the learned reward according to the newly observed state-action pairs with the help of a meta-regularization term, and the lower level learns the corresponding policy. We propose a novel algorithm to solve this problem and guarantee that the algorithm achieves sub-linear local regret $O(\sqrt{T}+\log T+\sqrt{T}\log T)$. If the reward function is linear, we prove that the proposed algorithm achieves sub-linear regret $O(\log T)$. Experiments are used to validate the proposed algorithm.

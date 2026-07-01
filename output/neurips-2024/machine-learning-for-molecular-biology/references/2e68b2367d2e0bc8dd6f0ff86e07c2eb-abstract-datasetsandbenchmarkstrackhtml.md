@@ -1,0 +1,18 @@
+---
+title: "ReactZyme: A Benchmark for Enzyme-Reaction Prediction"
+source: "https://papers.nips.cc/paper_files/paper/2024/hash/2e68b2367d2e0bc8dd6f0ff86e07c2eb-Abstract-Datasets_and_Benchmarks_Track.html"
+categories: ['machine-learning-for-molecular-biology', 'ai-benchmarking-and-evaluation-methodology']
+tags: ['enzyme-function-prediction', 'reaction-prediction', 'benchmark', 'bioinformatics', 'molecular-biology']
+venue: "NeurIPS 2024"
+tldr: "ReactZyme is a benchmark dataset and evaluation framework for predicting enzyme functions from reaction information."
+---
+
+# ReactZyme: A Benchmark for Enzyme-Reaction Prediction
+
+**Source**: [https://papers.nips.cc/paper_files/paper/2024/hash/2e68b2367d2e0bc8dd6f0ff86e07c2eb-Abstract-Datasets_and_Benchmarks_Track.html](https://papers.nips.cc/paper_files/paper/2024/hash/2e68b2367d2e0bc8dd6f0ff86e07c2eb-Abstract-Datasets_and_Benchmarks_Track.html)
+
+**TLDR**: ReactZyme is a benchmark dataset and evaluation framework for predicting enzyme functions from reaction information.
+
+## Abstract
+
+Enzymes, with their specific catalyzed reactions, are necessary for all aspects of life, enabling diverse biological processes and adaptations. Predicting enzyme functions is essential for understanding biological pathways, guiding drug development, enhancing bioproduct yields, and facilitating evolutionary studies.Addressing the inherent complexities, we introduce a new approach to annotating enzymes based on their catalyzed reactions. This method provides detailed insights into specific reactions and is adaptable to newly discovered reactions, diverging from traditional classifications by protein family or expert-derived reaction classes. We employ machine learning algorithms to analyze enzyme reaction datasets, delivering a much more refined view on the functionality of enzymes.Our evaluation leverages the largest enzyme-reaction dataset to date, derived from the SwissProt and Rhea databases with entries up to January 8, 2024. We frame the enzyme-reaction prediction as a retrieval problem, aiming to rank enzymes by their catalytic ability for specific reactions. With our model, we can recruit proteins for novel reactions and predict reactions in novel proteins, facilitating enzyme discovery and function annotation https://github.com/WillHua127/ReactZyme.

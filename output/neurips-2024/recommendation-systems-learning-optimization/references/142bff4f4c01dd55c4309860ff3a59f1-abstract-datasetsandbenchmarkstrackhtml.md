@@ -1,0 +1,18 @@
+---
+title: "FairJob: A Real-World Dataset for Fairness in Online Systems"
+source: "https://papers.nips.cc/paper_files/paper/2024/hash/142bff4f4c01dd55c4309860ff3a59f1-Abstract-Datasets_and_Benchmarks_Track.html"
+categories: ['fairness-aware-machine-learning-methods', 'recommendation-systems-learning-optimization']
+tags: ['fairness', 'job-recommendation', 'real-world-dataset']
+venue: "NeurIPS 2024"
+tldr: "FairJob introduces a real-world fairness-aware dataset for job recommendation in advertising, addressing privacy constraints and unobserved counterfactual outcomes."
+---
+
+# FairJob: A Real-World Dataset for Fairness in Online Systems
+
+**Source**: [https://papers.nips.cc/paper_files/paper/2024/hash/142bff4f4c01dd55c4309860ff3a59f1-Abstract-Datasets_and_Benchmarks_Track.html](https://papers.nips.cc/paper_files/paper/2024/hash/142bff4f4c01dd55c4309860ff3a59f1-Abstract-Datasets_and_Benchmarks_Track.html)
+
+**TLDR**: FairJob introduces a real-world fairness-aware dataset for job recommendation in advertising, addressing privacy constraints and unobserved counterfactual outcomes.
+
+## Abstract
+
+We introduce a fairness-aware dataset for job recommendation in advertising, designed to foster research in algorithmic fairness within real-world scenarios. It was collected and prepared to comply with privacy standards and business confidentiality. An additional challenge is the lack of access to protected user attributes such as gender, for which we propose a pragmatic solution to obtain a proxy estimate. Despite being anonymized and including a proxy for a sensitive attribute, our dataset preserves predictive power and maintains a realistic and challenging benchmark. This dataset addresses a significant gap in the availability of fairness-focused resources for high-impact domains like advertising -- the actual impact being having access or not to precious employment opportunities, where balancing fairness and utility is a common industrial challenge. We also explore various stages in the advertising process where unfairness can occur and introduce a method to compute a fair utility metric for the job recommendations in online systems case from a biased dataset. Experimental evaluations of bias mitigation techniques on the released dataset demonstrate potential improvements in fairness and the associated trade-offs with utility.The dataset is hosted at https://huggingface.co/datasets/criteo/FairJob. Source code for the experiments is hosted at https://github.com/criteo-research/FairJob-dataset/.

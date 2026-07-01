@@ -1,0 +1,18 @@
+---
+title: "Can Language Models Perform Robust Reasoning in Chain-of-thought Prompting with Noisy Rationales?"
+source: "https://papers.nips.cc/paper_files/paper/2024/hash/dfaa29ed28dfa175bcc5e2a54aa199f8-Abstract-Conference.html"
+categories: ['llm-training-and-optimization-techniques', 'ai-benchmarking-and-evaluation-methodology']
+tags: ['chain-of-thought', 'noisy-rationales', 'llm-robustness']
+venue: "NeurIPS 2024"
+tldr: "The NoRa dataset is introduced to evaluate LLM robustness in chain-of-thought prompting when in-context examples contain noisy or irrelevant reasoning steps."
+---
+
+# Can Language Models Perform Robust Reasoning in Chain-of-thought Prompting with Noisy Rationales?
+
+**Source**: [https://papers.nips.cc/paper_files/paper/2024/hash/dfaa29ed28dfa175bcc5e2a54aa199f8-Abstract-Conference.html](https://papers.nips.cc/paper_files/paper/2024/hash/dfaa29ed28dfa175bcc5e2a54aa199f8-Abstract-Conference.html)
+
+**TLDR**: The NoRa dataset is introduced to evaluate LLM robustness in chain-of-thought prompting when in-context examples contain noisy or irrelevant reasoning steps.
+
+## Abstract
+
+This paper investigates an under-explored challenge in large language models (LLMs): chain-of-thought prompting with noisy rationales, which include irrelevant or inaccurate reasoning thoughts within examples used for in-context learning. We construct NoRa dataset that is tailored to evaluate the robustness of reasoning in the presence of noisy rationales. Our findings on NoRa dataset reveal a prevalent vulnerability to such noise among current LLMs, with existing robust methods like self-correction and self-consistency showing limited efficacy. Notably, compared to prompting with clean rationales, base LLM drops by 1.4%-19.8% in accuracy with irrelevant thoughts and more drastically by 2.2%-40.4% with inaccurate thoughts.Addressing this challenge necessitates external supervision that should be accessible in practice. Here, we propose the method of contrastive denoising with noisy chain-of-thought (CD-CoT). It enhances LLMs' denoising-reasoning capabilities by contrasting noisy rationales with only one clean rationale, which can be the minimal requirement for denoising-purpose prompting. This method follows a principle of exploration and exploitation: (1) rephrasing and selecting rationales in the input space to achieve explicit denoising and (2) exploring diverse reasoning paths and voting on answers in the output space. Empirically, CD-CoT demonstrates an average improvement of 17.8% in accuracy over the base model and shows significantly stronger denoising capabilities than baseline methods. The source code is publicly available at: https://github.com/tmlr-group/NoisyRationales.

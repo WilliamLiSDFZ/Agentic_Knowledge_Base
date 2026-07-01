@@ -1,0 +1,18 @@
+---
+title: "Normal-GS: 3D Gaussian Splatting with Normal-Involved Rendering"
+source: "https://papers.nips.cc/paper_files/paper/2024/hash/8bd4f1dbc7a70c6b80ce81b8b4fdc0b2-Abstract-Conference.html"
+categories: ['neural-geometric-shape-representation-learning', 'visual-language-multimodal-generation-reasoning']
+tags: ['3d-gaussian-splatting', 'normal-estimation', 'rendering']
+venue: "NeurIPS 2024"
+tldr: "Integrates surface normal estimation into 3D Gaussian Splatting to improve geometry and rendering quality simultaneously."
+---
+
+# Normal-GS: 3D Gaussian Splatting with Normal-Involved Rendering
+
+**Source**: [https://papers.nips.cc/paper_files/paper/2024/hash/8bd4f1dbc7a70c6b80ce81b8b4fdc0b2-Abstract-Conference.html](https://papers.nips.cc/paper_files/paper/2024/hash/8bd4f1dbc7a70c6b80ce81b8b4fdc0b2-Abstract-Conference.html)
+
+**TLDR**: Integrates surface normal estimation into 3D Gaussian Splatting to improve geometry and rendering quality simultaneously.
+
+## Abstract
+
+Rendering and reconstruction are long-standing topics in computer vision and graphics. Achieving both high rendering quality and accurate geometry is a challenge. Recent advancements in 3D Gaussian Splatting (3DGS) have enabled high-fidelity novel view synthesis at real-time speeds. However, the noisy and discrete nature of 3D Gaussian primitives hinders accurate surface estimation. Previous attempts to regularize 3D Gaussian normals often degrade rendering quality due to the fundamental disconnect between normal vectors and the rendering pipeline in 3DGS-based methods. Therefore, we introduce Normal-GS, a novel approach that integrates normal vectors into the 3DGS rendering pipeline. The core idea is to model the interaction between normals and incident lighting using the physically-based rendering equation. Our approach re-parameterizes surface colors as the product of normals and a designed Integrated Directional Illumination Vector (IDIV). To optimize memory usage and simplify optimization, we employ an anchor-based 3DGS to implicitly encode locally-shared IDIVs. Additionally, Normal-GS leverages optimized normals and Integrated Directional Encoding (IDE) to accurately model specular effects, enhancing both rendering quality and surface normal precision. Extensive experiments demonstrate that Normal-GS achieves near state-of-the-art visual quality while obtaining accurate surface normals and preserving real-time rendering performance.

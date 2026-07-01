@@ -1,0 +1,18 @@
+---
+title: "$\texttt{ConflictBank}$: A Benchmark for Evaluating the Influence of Knowledge Conflicts in LLMs"
+source: "https://papers.nips.cc/paper_files/paper/2024/hash/baf4b960d118f838ad0b2c08247a9ebe-Abstract-Datasets_and_Benchmarks_Track.html"
+categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-values-ethics-alignment-evaluation']
+tags: ['knowledge-conflicts', 'LLM-benchmark', 'hallucination', 'retrieval-augmentation', 'evaluation']
+venue: "NeurIPS 2024"
+tldr: "Introduces ConflictBank, a comprehensive benchmark for systematically evaluating how different types of knowledge conflicts affect LLM reasoning and outputs."
+---
+
+# $\texttt{ConflictBank}$: A Benchmark for Evaluating the Influence of Knowledge Conflicts in LLMs
+
+**Source**: [https://papers.nips.cc/paper_files/paper/2024/hash/baf4b960d118f838ad0b2c08247a9ebe-Abstract-Datasets_and_Benchmarks_Track.html](https://papers.nips.cc/paper_files/paper/2024/hash/baf4b960d118f838ad0b2c08247a9ebe-Abstract-Datasets_and_Benchmarks_Track.html)
+
+**TLDR**: Introduces ConflictBank, a comprehensive benchmark for systematically evaluating how different types of knowledge conflicts affect LLM reasoning and outputs.
+
+## Abstract
+
+Large language models (LLMs) have achievedimpressive advancements across numerous disciplines, yet the critical issue of knowledge conflicts, a major source of hallucinations, has rarely been studied. While a few research explored the conflicts between the inherent knowledge of LLMs and the retrieved contextual knowledge, a comprehensive assessment of knowledge conflict in LLMs is still missing. Motivated by this research gap, we firstly propose ConflictBank, the largest benchmark with 7.45M claim-evidence pairs and 553k QA pairs, addressing conflicts from misinformation, temporal discrepancies, and semantic divergences.Using ConflictBank, we conduct the thorough and controlled experiments for a comprehensive understanding of LLM behavior in knowledge conflicts, focusing on three key aspects: (i) conflicts encountered in retrieved knowledge, (ii) conflicts within the models' encoded knowledge, and (iii) the interplay between these conflict forms.Our investigation delves into four model families and twelve LLM instances and provides insights into conflict types, model sizes, and the impact at different stages.We believe that knowledge conflicts represent a critical bottleneck to achieving trustworthy artificial intelligence and hope our work will offer valuable guidance for future model training and development.Resources are available at https://github.com/zhaochen0110/conflictbank.

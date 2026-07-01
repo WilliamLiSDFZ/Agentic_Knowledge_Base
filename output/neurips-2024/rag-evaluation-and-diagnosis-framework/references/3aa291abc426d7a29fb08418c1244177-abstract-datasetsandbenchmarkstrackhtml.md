@@ -1,0 +1,18 @@
+---
+title: "ClashEval: Quantifying the tug-of-war between an LLM’s internal prior and external evidence"
+source: "https://papers.nips.cc/paper_files/paper/2024/hash/3aa291abc426d7a29fb08418c1244177-Abstract-Datasets_and_Benchmarks_Track.html"
+categories: ['rag-evaluation-and-diagnosis-framework']
+tags: ['RAG', 'hallucination', 'LLM-prior', 'knowledge-conflict']
+venue: "NeurIPS 2024"
+tldr: "Benchmarks the tension between LLMs' internal knowledge and externally retrieved evidence in retrieval-augmented generation settings."
+---
+
+# ClashEval: Quantifying the tug-of-war between an LLM’s internal prior and external evidence
+
+**Source**: [https://papers.nips.cc/paper_files/paper/2024/hash/3aa291abc426d7a29fb08418c1244177-Abstract-Datasets_and_Benchmarks_Track.html](https://papers.nips.cc/paper_files/paper/2024/hash/3aa291abc426d7a29fb08418c1244177-Abstract-Datasets_and_Benchmarks_Track.html)
+
+**TLDR**: Benchmarks the tension between LLMs' internal knowledge and externally retrieved evidence in retrieval-augmented generation settings.
+
+## Abstract
+
+Retrieval augmented generation (RAG) is frequently used to mitigate hallucinations and provide up-to-date knowledge for large language models (LLMs). However, given that document retrieval is an imprecise task and sometimes results in erroneous or even harmful content being presented in context, this raises the question of how LLMs handle retrieved information: If the provided content is incorrect, does the model know to ignore it, or does it recapitulate the error? Conversely, when the model's initial response is incorrect, does it always know to use the retrieved information to correct itself, or does it insist on its wrong prior response? To answer this, we curate a dataset of over 1200 questions across six domains (e.g., drug dosages, Olympic records, locations) along with content relevant to answering each question. We further apply precise perturbations to the answers in the content that range from subtle to blatant errors.We benchmark six top-performing LLMs, including GPT-4o, on this dataset and find that LLMs are susceptible to adopting incorrect retrieved content, overriding their own correct prior knowledge over 60\% of the time. However, the more unrealistic the retrieved content is (i.e. more deviated from truth), the less likely the model is to adopt it. Also, the less confident a model is in its initial response (via measuring token probabilities), the more likely it is to adopt the information in the retrieved content. We exploit this finding and demonstrate simple methods for improving model accuracy where there is conflicting retrieved content. Our results highlight a difficult task and benchmark for LLMs -- namely, their ability to correctly discern when it is wrong in light of correct retrieved content and to reject cases when the provided content is incorrect. Our dataset, called ClashEval, and evaluations are open-sourced to allow for future benchmarking on top-performing models at https://github.com/kevinwu23/StanfordClashEval.

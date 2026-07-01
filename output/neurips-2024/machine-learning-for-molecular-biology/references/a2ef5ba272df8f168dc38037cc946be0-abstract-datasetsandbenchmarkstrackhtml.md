@@ -1,0 +1,18 @@
+---
+title: "CryoBench: Diverse and challenging datasets for the heterogeneity problem in cryo-EM"
+source: "https://papers.nips.cc/paper_files/paper/2024/hash/a2ef5ba272df8f168dc38037cc946be0-Abstract-Datasets_and_Benchmarks_Track.html"
+categories: ['machine-learning-for-molecular-biology']
+tags: ['cryo-em', 'heterogeneous-reconstruction', 'benchmark']
+venue: "NeurIPS 2024"
+tldr: "CryoBench provides diverse and challenging datasets for benchmarking heterogeneous 3D reconstruction algorithms in cryo-electron microscopy."
+---
+
+# CryoBench: Diverse and challenging datasets for the heterogeneity problem in cryo-EM
+
+**Source**: [https://papers.nips.cc/paper_files/paper/2024/hash/a2ef5ba272df8f168dc38037cc946be0-Abstract-Datasets_and_Benchmarks_Track.html](https://papers.nips.cc/paper_files/paper/2024/hash/a2ef5ba272df8f168dc38037cc946be0-Abstract-Datasets_and_Benchmarks_Track.html)
+
+**TLDR**: CryoBench provides diverse and challenging datasets for benchmarking heterogeneous 3D reconstruction algorithms in cryo-electron microscopy.
+
+## Abstract
+
+Cryo-electron microscopy (cryo-EM)  is a powerful technique for determining high-resolution 3D biomolecular structures from imaging data. Its unique ability to capture structural variability has spurred the development of heterogeneous reconstruction algorithms that can infer distributions of 3D structures from noisy, unlabeled imaging data. Despite the growing number of advanced methods, progress in the field is hindered by the lack of standardized benchmarks with ground truth information and reliable validation metrics. Here, we introduce CryoBench, a suite of datasets, metrics, and benchmarks for heterogeneous reconstruction in cryo-EM. CryoBench includes five datasets representing different sources of heterogeneity and degrees of difficulty. These include conformational heterogeneity generated from designed motions of antibody complexes or sampled from a molecular dynamics simulation, as well as {compositional heterogeneity from mixtures of ribosome assembly states or 100 common complexes present in cells. We then analyze state-of-the-art heterogeneous reconstruction tools, including neural and non-neural methods, assess their sensitivity to noise, and propose new metrics for quantitative evaluation. We hope that CryoBench will be a foundational resource for accelerating algorithmic development and evaluation in the cryo-EM and machine learning communities. Project page: https://cryobench.cs.princeton.edu.

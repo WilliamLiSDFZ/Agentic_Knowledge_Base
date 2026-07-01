@@ -1,0 +1,18 @@
+---
+title: "CURE4Rec: A Benchmark for Recommendation Unlearning with Deeper Influence"
+source: "https://papers.nips.cc/paper_files/paper/2024/hash/b364953e402d7d92e13830383677efb5-Abstract-Datasets_and_Benchmarks_Track.html"
+categories: ['recommendation-systems-learning-optimization', 'ai-benchmarking-and-evaluation-methodology']
+tags: ['machine-unlearning', 'recommendation-systems', 'privacy', 'right-to-be-forgotten']
+venue: "NeurIPS 2024"
+tldr: "Introduces a benchmark for evaluating recommendation unlearning methods that accounts for deeper influence of forgotten data on model behavior."
+---
+
+# CURE4Rec: A Benchmark for Recommendation Unlearning with Deeper Influence
+
+**Source**: [https://papers.nips.cc/paper_files/paper/2024/hash/b364953e402d7d92e13830383677efb5-Abstract-Datasets_and_Benchmarks_Track.html](https://papers.nips.cc/paper_files/paper/2024/hash/b364953e402d7d92e13830383677efb5-Abstract-Datasets_and_Benchmarks_Track.html)
+
+**TLDR**: Introduces a benchmark for evaluating recommendation unlearning methods that accounts for deeper influence of forgotten data on model behavior.
+
+## Abstract
+
+With increasing privacy concerns in artificial intelligence, regulations have mandated the right to be forgotten, granting individuals the right to withdraw their data from models. Machine unlearning has emerged as a potential solution to enable selective forgetting in models, particularly in recommender systems where historical data contains sensitive user information. Despite recent advances in recommendation unlearning, evaluating unlearning methods comprehensively remains challenging due to the absence of a unified evaluation framework and overlooked aspects of deeper influence, e.g., fairness. To address these gaps, we propose CURE4Rec, the first comprehensive benchmark for recommendation unlearning evaluation. CURE4Rec covers four aspects, i.e., unlearning Completeness, recommendation Utility, unleaRning efficiency, and recommendation fairnEss, under three data selection strategies, i.e., core data, edge data, and random data. Specifically, we consider the deeper influence of unlearning on recommendation fairness and robustness towards data with varying impact levels. We construct multiple datasets with CURE4Rec evaluation and conduct extensive experiments on existing recommendation unlearning methods. Our code is released at https://github.com/xiye7lai/CURE4Rec.

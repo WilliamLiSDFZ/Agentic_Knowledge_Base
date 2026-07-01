@@ -1,0 +1,18 @@
+---
+title: "BABILong: Testing the Limits of LLMs with Long Context Reasoning-in-a-Haystack"
+source: "https://papers.nips.cc/paper_files/paper/2024/hash/c0d62e70dbc659cc9bd44cbcf1cb652f-Abstract-Datasets_and_Benchmarks_Track.html"
+categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-training-and-optimization-techniques']
+tags: ['long-context', 'llm-benchmark', 'reasoning-in-a-haystack']
+venue: "NeurIPS 2024"
+tldr: "BABILong is a benchmark for evaluating LLMs on long-context reasoning tasks by embedding facts requiring multi-step inference within large irrelevant text contexts."
+---
+
+# BABILong: Testing the Limits of LLMs with Long Context Reasoning-in-a-Haystack
+
+**Source**: [https://papers.nips.cc/paper_files/paper/2024/hash/c0d62e70dbc659cc9bd44cbcf1cb652f-Abstract-Datasets_and_Benchmarks_Track.html](https://papers.nips.cc/paper_files/paper/2024/hash/c0d62e70dbc659cc9bd44cbcf1cb652f-Abstract-Datasets_and_Benchmarks_Track.html)
+
+**TLDR**: BABILong is a benchmark for evaluating LLMs on long-context reasoning tasks by embedding facts requiring multi-step inference within large irrelevant text contexts.
+
+## Abstract
+
+In recent years, the input context sizes of large language models (LLMs) have increased dramatically. However, existing evaluation methods have not kept pace, failing to comprehensively assess the efficiency of models in handling long contexts. To bridge this gap, we introduce the BABILong benchmark, designed to test language models' ability to reason across facts distributed in extremely long documents. BABILong includes a diverse set of 20 reasoning tasks, including fact chaining, simple induction, deduction, counting, and handling lists/sets. These tasks are challenging on their own, and even more demanding when the required facts are scattered across long natural text. Our evaluations show that popular LLMs effectively utilize only 10-20% of the context and their performance declines sharply with increased reasoning complexity. Among alternatives to in-context reasoning, Retrieval-Augmented Generation methods achieve a modest 60% accuracy on single-fact question answering, independent of context length. Among context extension methods, the highest performance is demonstrated by recurrent memory transformers after fine-tuning, enabling the processing of lengths up to 50 million tokens. The BABILong benchmark is extendable to any length to support the evaluation of new upcoming models with increased capabilities, and we provide splits up to 10 million token lengths.
