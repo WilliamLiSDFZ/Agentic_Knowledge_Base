@@ -6,6 +6,40 @@ affected files.
 
 ---
 
+## 2026-07-17 — Semantic retrieval index builder (design Phase 1)
+
+Implements the build side of `docs/semantic_retrieval_design.md`: a portable index that lets
+the consumer retrieve at the level of an individual technique instead of picking topic
+categories by name.
+
+### Added
+
+- **`scripts/build_retrieval_index.py`** — builds a semantic-retrieval index over a KB.
+  - One record per cross-paper insight (an `insight.md` row → its `references/{slug}.md`).
+  - Handles both KB layouts: flat (`{kb}/category/`) and nested (`{kb}/venue-year/category/`).
+  - `embed_text` = title + `Actionable Guidance` + `Condition` (what we match the task
+    against); `guidance_text` = the cleaned body (what the consumer injects).
+  - Writes `{kb}/index/`: `records.jsonl`, `embeddings.npy` (float32, row-aligned), and
+    `manifest.json` (`embedding_model`, `dim`, `count`, `kb_content_hash`, `schema_version`).
+  - Defaults to `BAAI/bge-m3` — multilingual, because experience_kb insights are partly
+    Chinese while task descriptions are English. Override with `--model`.
+  - No new dependencies: uses `sentence-transformers` + `numpy` already in requirements.
+    FAISS lives on the consumer side, which builds its index from `embeddings.npy`.
+
+Usage: `python scripts/build_retrieval_index.py --kb experience_kb`
+
+### Notes
+
+- The manifest is the build/query contract: the consumer instantiates the *same* embedding
+  model and asserts the dimension matches.
+- Verified by parsing the real KBs without embedding: 15 records from `experience_kb`
+  (10 HIGH / 5 MEDIUM) and 37 from `methodology_kb/paperinsight` (28 HIGH / 9 MEDIUM);
+  frontmatter and `Papers & Evidence` correctly stripped from `guidance_text`.
+- Consumer side (vector retrieval + `methodology_retrieval` mode switch) landed in the
+  clean MLEvolve repo, not here.
+
+---
+
 ## 2026-06-23 — Step 3: concurrent classification + truncation fix
 
 `scripts/3_classify.py` was rewritten to run classification batches concurrently and to
