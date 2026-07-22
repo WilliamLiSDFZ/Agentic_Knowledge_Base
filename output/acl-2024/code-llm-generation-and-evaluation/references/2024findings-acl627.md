@@ -1,6 +1,7 @@
 ---
 title: "LLM Performance Predictors are good initializers for Architecture Search"
 source: "https://aclanthology.org/2024.findings-acl.627/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'code-llm-generation-and-evaluation']
 tags: ['neural-architecture-search', 'performance-prediction', 'LLM-prompting']
 venue: "ACL 2024"

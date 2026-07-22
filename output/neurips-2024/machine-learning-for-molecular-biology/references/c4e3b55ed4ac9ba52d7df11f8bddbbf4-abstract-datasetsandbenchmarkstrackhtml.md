@@ -1,6 +1,7 @@
 ---
 title: "Learning Superconductivity from Ordered and Disordered Material Structures"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/c4e3b55ed4ac9ba52d7df11f8bddbbf4-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/c4e3b55ed4ac9ba52d7df11f8bddbbf4-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['machine-learning-for-molecular-biology', 'graph-neural-networks-and-representation-learning']
 tags: ['superconductivity', 'graph-neural-networks', 'materials-science', 'disordered-structures', 'data-driven']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "$\nabla^2$DFT: A Universal Quantum Chemistry Dataset of Drug-Like Molecules and a Benchmark for Neural Network Potentials"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/40d45b1e23d00d5895e65778e85cf8ee-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/40d45b1e23d00d5895e65778e85cf8ee-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['machine-learning-for-molecular-biology', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['quantum-chemistry', 'neural-network-potentials', 'drug-discovery']
 venue: "NeurIPS 2024"

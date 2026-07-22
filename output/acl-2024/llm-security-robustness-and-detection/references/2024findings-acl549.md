@@ -1,6 +1,7 @@
 ---
 title: "On the Vulnerability of Safety Alignment in Open-Access LLMs"
 source: "https://aclanthology.org/2024.findings-acl.549/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'llm-training-alignment-and-evaluation']
 tags: ['safety-alignment', 'jailbreak-attacks', 'open-access-llms']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Exploring Reversal Mathematical Reasoning Ability for Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.811/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-agents-reasoning-and-planning']
 tags: ['reversal-curse', 'mathematical-reasoning', 'llm-reasoning']
 venue: "ACL 2024"

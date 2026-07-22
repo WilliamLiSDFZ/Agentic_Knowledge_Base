@@ -1,6 +1,7 @@
 ---
 title: "Defending LLMs against Jailbreaking Attacks via Backtranslation"
 source: "https://aclanthology.org/2024.findings-acl.948/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection']
 tags: ['jailbreak-defense', 'backtranslation', 'safety']
 venue: "ACL 2024"

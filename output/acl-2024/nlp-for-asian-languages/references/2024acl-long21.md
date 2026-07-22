@@ -1,6 +1,7 @@
 ---
 title: "Retrieval-Augmented Multilingual Knowledge Editing"
 source: "https://aclanthology.org/2024.acl-long.21/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'nlp-for-asian-languages']
 tags: ['knowledge-editing', 'multilingual', 'retrieval-augmented']
 venue: "ACL 2024"

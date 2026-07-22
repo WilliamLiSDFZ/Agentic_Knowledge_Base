@@ -1,6 +1,7 @@
 ---
 title: "Towards a new research agenda for multimodal enterprise document understanding: What are we missing?"
 source: "https://aclanthology.org/2024.findings-acl.870/"
+pdf_url: ""
 categories: ['document-understanding-and-information-extraction', 'multimodal-language-vision-learning-systems']
 tags: ['document-understanding', 'enterprise', 'multimodal']
 venue: "ACL 2024"

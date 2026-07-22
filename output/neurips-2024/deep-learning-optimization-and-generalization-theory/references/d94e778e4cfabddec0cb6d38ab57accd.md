@@ -1,6 +1,7 @@
 ---
 title: "Learning from Offline Foundation Features with Tensor Augmentations"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d94e778e4cfabddec0cb6d38ab57accd-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d94e778e4cfabddec0cb6d38ab57accd-Paper-Conference.pdf"
 categories: ['self-distillation-knowledge-transfer-gains', 'deep-learning-optimization-and-generalization-theory']
 tags: ['foundation-models', 'offline-features', 'tensor-augmentation', 'efficient-training', 'limited-resources']
 venue: "NeurIPS 2024"

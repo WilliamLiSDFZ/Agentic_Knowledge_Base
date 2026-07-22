@@ -1,6 +1,7 @@
 ---
 title: "SS3DM: Benchmarking Street-View Surface Reconstruction with a Synthetic 3D Mesh Dataset"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/c11767cd469b8d8bd7f168e61b3cc8bc-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/c11767cd469b8d8bd7f168e61b3cc8bc-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'autonomous-driving-and-trajectory-prediction']
 tags: ['street-view', 'surface-reconstruction', '3D-mesh', 'synthetic-dataset', 'benchmark']
 venue: "NeurIPS 2024"

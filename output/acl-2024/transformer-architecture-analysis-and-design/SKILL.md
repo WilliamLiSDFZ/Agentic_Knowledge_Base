@@ -1,12 +1,12 @@
 ---
 name: transformer-architecture-analysis-and-design
 description: >-
-  This skill covers the analysis, optimization, and architectural modification of transformer-based language models, including techniques such as structured pruning, quantization, sparse activation, mixture-of-experts design, positional encoding improvements (e.g., RoPE variants), and linear attention approximations. It addresses efficiency challenges (memory, compute, context length generalization) alongside interpretability methods that examine information
+  This skill covers the analysis, optimization, and architectural modification of transformer-based language models, including techniques such as structured pruning, quantization, sparse activation, mixture-of-experts (MoE) routing/serving, positional encoding improvements (e.g., RoPE variants), and attention mechanism redesign (e.g., linear transformers, graph-based information flow).
 ---
 
 # Transformer Architecture Analysis And Design
 
-This skill covers the analysis, optimization, and architectural modification of transformer-based language models, including techniques such as structured pruning, quantization, sparse activation, mixture-of-experts design, positional encoding improvements (e.g., RoPE variants), and linear attention approximations. It addresses efficiency challenges (memory, compute, context length generalization) alongside interpretability methods that examine information
+This skill covers the analysis, optimization, and architectural modification of transformer-based language models, including techniques such as structured pruning, quantization, sparse activation, mixture-of-experts (MoE) routing/serving, positional encoding improvements (e.g., RoPE variants), and attention mechanism redesign (e.g., linear transformers, graph-based information flow).
 
 ## Entry Index
 

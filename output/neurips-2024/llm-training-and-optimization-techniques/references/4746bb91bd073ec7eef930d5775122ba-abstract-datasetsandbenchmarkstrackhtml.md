@@ -1,6 +1,7 @@
 ---
 title: "The Scandinavian Embedding Benchmarks: Comprehensive Assessment of Multilingual and Monolingual Text Embedding"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/4746bb91bd073ec7eef930d5775122ba-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/4746bb91bd073ec7eef930d5775122ba-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-training-and-optimization-techniques']
 tags: ['text-embeddings', 'multilingual-benchmark', 'Scandinavian-languages']
 venue: "NeurIPS 2024"

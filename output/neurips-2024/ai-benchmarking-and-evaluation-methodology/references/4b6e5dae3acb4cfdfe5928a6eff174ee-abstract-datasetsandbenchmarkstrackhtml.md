@@ -1,6 +1,7 @@
 ---
 title: "HEMM: Holistic Evaluation of Multimodal Foundation Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/4b6e5dae3acb4cfdfe5928a6eff174ee-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/4b6e5dae3acb4cfdfe5928a6eff174ee-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'visual-language-multimodal-generation-reasoning']
 tags: ['multimodal-evaluation', 'foundation-models', 'holistic-benchmarking']
 venue: "NeurIPS 2024"

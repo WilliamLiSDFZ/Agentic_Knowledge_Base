@@ -1,6 +1,7 @@
 ---
 title: "Towards Tracing Trustworthiness Dynamics: Revisiting Pre-training Period of Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.290/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'llm-security-robustness-and-detection']
 tags: ['trustworthiness', 'pre-training-dynamics', 'llm-safety']
 venue: "ACL 2024"

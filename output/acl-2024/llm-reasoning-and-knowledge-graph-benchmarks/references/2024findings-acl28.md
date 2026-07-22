@@ -1,6 +1,7 @@
 ---
 title: "Towards Verifiable Generation: A Benchmark for Knowledge-aware Language Model Attribution"
 source: "https://aclanthology.org/2024.findings-acl.28/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['hallucination', 'attribution', 'structured-knowledge']
 venue: "ACL 2024"

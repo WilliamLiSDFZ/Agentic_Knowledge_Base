@@ -1,6 +1,7 @@
 ---
 title: "Learning Multimodal Contrast with Cross-modal Memory and Reinforced Contrast Recognition"
 source: "https://aclanthology.org/2024.findings-acl.391/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems']
 tags: ['multimodal-contrast', 'cross-modal-memory', 'irony-humor']
 venue: "ACL 2024"

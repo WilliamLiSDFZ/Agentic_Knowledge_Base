@@ -1,6 +1,7 @@
 ---
 title: "Prefix Text as a Yarn: Eliciting Non-English Alignment in Foundation Language Model"
 source: "https://aclanthology.org/2024.findings-acl.722/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'language-technology-cultural-linguistic-diversity']
 tags: ['non-english-alignment', 'prefix-prompting', 'foundation-models']
 venue: "ACL 2024"

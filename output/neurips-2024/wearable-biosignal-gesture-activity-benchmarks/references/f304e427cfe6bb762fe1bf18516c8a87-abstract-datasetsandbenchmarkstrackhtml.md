@@ -1,6 +1,7 @@
 ---
 title: "A Benchmark Dataset for Event-Guided Human Pose Estimation and Tracking in Extreme Conditions"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/f304e427cfe6bb762fe1bf18516c8a87-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/f304e427cfe6bb762fe1bf18516c8a87-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'wearable-biosignal-gesture-activity-benchmarks']
 tags: ['event-camera', 'pose-estimation', 'extreme-conditions-benchmark']
 venue: "NeurIPS 2024"

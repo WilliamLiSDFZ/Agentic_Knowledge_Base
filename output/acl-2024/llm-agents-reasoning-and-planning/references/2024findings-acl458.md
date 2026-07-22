@@ -1,6 +1,7 @@
 ---
 title: "Improving Retrieval Augmented Open-Domain Question-Answering with Vectorized Contexts"
 source: "https://aclanthology.org/2024.findings-acl.458/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['retrieval-augmented-generation', 'open-domain-qa', 'vectorized-context']
 venue: "ACL 2024"

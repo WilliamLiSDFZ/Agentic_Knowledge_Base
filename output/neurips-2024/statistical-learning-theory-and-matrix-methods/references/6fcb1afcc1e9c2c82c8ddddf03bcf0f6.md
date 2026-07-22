@@ -1,6 +1,7 @@
 ---
 title: "Scaling Laws in Linear Regression: Compute, Parameters, and Data"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/6fcb1afcc1e9c2c82c8ddddf03bcf0f6-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/6fcb1afcc1e9c2c82c8ddddf03bcf0f6-Paper-Conference.pdf"
 categories: ['deep-learning-optimization-and-generalization-theory', 'statistical-learning-theory-and-matrix-methods']
 tags: ['scaling-laws', 'linear-regression', 'bias-variance-tradeoff']
 venue: "NeurIPS 2024"

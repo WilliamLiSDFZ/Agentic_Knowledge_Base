@@ -1,6 +1,7 @@
 ---
 title: "Graph Structure Inference with BAM: Neural Dependency Processing via Bilinear Attention"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/e8ccaec7aea6f5740a3a3fdba390e466-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/e8ccaec7aea6f5740a3a3fdba390e466-Paper-Conference.pdf"
 categories: ['graph-neural-networks-and-representation-learning', 'causal-discovery-and-inference-methods']
 tags: ['graph-structure-inference', 'bilinear-attention', 'dependency-detection']
 venue: "NeurIPS 2024"

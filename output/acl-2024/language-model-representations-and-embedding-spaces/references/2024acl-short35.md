@@ -1,6 +1,7 @@
 ---
 title: "Dwell in the Beginning: How Language Models Embed Long Documents for Dense Retrieval"
 source: "https://aclanthology.org/2024.acl-short.35/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces', 'transformer-architecture-analysis-and-design']
 tags: ['positional-bias', 'dense-retrieval', 'document-encoding']
 venue: "ACL 2024"

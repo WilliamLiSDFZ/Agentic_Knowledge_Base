@@ -1,6 +1,7 @@
 ---
 title: "TextBind: Multi-turn Interleaved Multimodal Instruction-following in the Wild"
 source: "https://aclanthology.org/2024.findings-acl.537/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llm-training-alignment-and-evaluation']
 tags: ['multimodal-instruction-following', 'interleaved-dialogue', 'dataset']
 venue: "ACL 2024"

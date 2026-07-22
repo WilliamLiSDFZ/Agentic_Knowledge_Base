@@ -1,6 +1,7 @@
 ---
 title: "ABCFair: an Adaptable Benchmark approach for Comparing Fairness Methods"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/46bae562da84d63269673808e8eff777-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/46bae562da84d63269673808e8eff777-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['fairness-aware-machine-learning-methods', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['fairness', 'benchmark', 'bias-mitigation']
 venue: "NeurIPS 2024"

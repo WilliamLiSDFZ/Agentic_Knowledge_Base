@@ -1,6 +1,7 @@
 ---
 title: "Classic GNNs are Strong Baselines: Reassessing GNNs for Node Classification"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/b10ed15ff1aa864f1be3a75f1ffc021b-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/b10ed15ff1aa864f1be3a75f1ffc021b-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['graph-neural-networks-and-representation-learning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['graph-neural-networks', 'node-classification', 'graph-transformers', 'benchmarking', 'baselines']
 venue: "NeurIPS 2024"

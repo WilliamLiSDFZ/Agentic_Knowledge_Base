@@ -1,6 +1,7 @@
 ---
 title: "LC4EE: LLMs as Good Corrector for Event Extraction"
 source: "https://aclanthology.org/2024.findings-acl.715/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'llm-hallucination-detection-and-mitigation']
 tags: ['event-extraction', 'llm-correction', 'hybrid-system']
 venue: "ACL 2024"

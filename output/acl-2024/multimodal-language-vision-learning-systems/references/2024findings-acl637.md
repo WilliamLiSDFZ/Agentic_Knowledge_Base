@@ -1,6 +1,7 @@
 ---
 title: "TAME-RD: Text Assisted Replication of Image Multi-Adjustments for Reverse Designing"
 source: "https://aclanthology.org/2024.findings-acl.637/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'document-understanding-and-information-extraction']
 tags: ['image-editing', 'reverse-design', 'text-assisted', 'multimodal', 'edit-replication']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Consistency Training by Synthetic Question Generation for Conversational Question Answering"
 source: "https://aclanthology.org/2024.acl-short.57/"
+pdf_url: ""
 categories: ['educational-question-generation-and-comprehension', 'coreference-resolution-and-dialogue-understanding']
 tags: ['conversational-QA', 'question-generation', 'consistency-training', 'history-modeling', 'dialogue']
 venue: "ACL 2024"

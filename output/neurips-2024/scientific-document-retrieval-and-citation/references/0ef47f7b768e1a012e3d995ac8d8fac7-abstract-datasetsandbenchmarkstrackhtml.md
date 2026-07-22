@@ -1,6 +1,7 @@
 ---
 title: "CiteME: Can Language Models Accurately Cite Scientific Claims?"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/0ef47f7b768e1a012e3d995ac8d8fac7-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/0ef47f7b768e1a012e3d995ac8d8fac7-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['scientific-document-retrieval-and-citation', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['scientific-citation', 'language-models', 'claim-attribution']
 venue: "NeurIPS 2024"

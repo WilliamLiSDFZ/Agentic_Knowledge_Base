@@ -1,6 +1,7 @@
 ---
 title: "“My Answer is C”: First-Token Probabilities Do Not Match Text Answers in Instruction-Tuned Language Models"
 source: "https://aclanthology.org/2024.findings-acl.441/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['multiple-choice', 'evaluation', 'first-token-probability', 'instruction-tuning']
 venue: "ACL 2024"

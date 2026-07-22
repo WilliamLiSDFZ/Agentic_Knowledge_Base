@@ -1,6 +1,7 @@
 ---
 title: "Getting Serious about Humor: Crafting Humor Datasets with Unfunny Large Language Models"
 source: "https://aclanthology.org/2024.acl-short.76/"
+pdf_url: ""
 categories: ['llm-based-computational-humor-generation', 'llm-training-alignment-and-evaluation']
 tags: ['humor-detection', 'dataset-creation', 'unfunny-LLMs', 'humor-datasets', 'NLP']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "PRewrite: Prompt Rewriting with Reinforcement Learning"
 source: "https://aclanthology.org/2024.acl-short.54/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'llm-agents-reasoning-and-planning']
 tags: ['prompt-engineering', 'reinforcement-learning', 'prompt-optimization']
 venue: "ACL 2024"

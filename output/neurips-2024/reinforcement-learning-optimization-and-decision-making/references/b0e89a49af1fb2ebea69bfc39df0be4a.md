@@ -1,6 +1,7 @@
 ---
 title: "Diffusion-based Curriculum Reinforcement Learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/b0e89a49af1fb2ebea69bfc39df0be4a-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/b0e89a49af1fb2ebea69bfc39df0be4a-Paper-Conference.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'diffusion-based-generative-modeling-and-inference']
 tags: ['curriculum-reinforcement-learning', 'diffusion-models', 'task-generation', 'exploration']
 venue: "NeurIPS 2024"

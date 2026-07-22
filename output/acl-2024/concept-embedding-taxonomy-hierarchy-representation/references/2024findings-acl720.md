@@ -1,6 +1,7 @@
 ---
 title: "EmoTransKG: An Innovative Emotion Knowledge Graph to Reveal Emotion Transformation"
 source: "https://aclanthology.org/2024.findings-acl.720/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems', 'concept-embedding-taxonomy-hierarchy-representation']
 tags: ['emotion-knowledge-graph', 'emotion-transformation', 'open-text']
 venue: "ACL 2024"

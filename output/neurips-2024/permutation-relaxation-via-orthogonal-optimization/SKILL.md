@@ -1,12 +1,12 @@
 ---
 name: permutation-relaxation-via-orthogonal-optimization
 description: >-
-  This skill covers relaxing discrete permutation optimization problems into continuous domains by parameterizing permutations via orthogonal matrices (e.g., Stiefel manifold optimization) or optimal transport, enabling gradient-based learning through combinatorial algorithms. Applications include model merging via weight permutation alignment, differentiable sorting/ranking, and cycle-consistent multi-network parameter matching,
+  This skill covers methods for relaxing discrete permutation optimization problems into continuous spaces by parameterizing solutions over orthogonal/unitary matrix groups (e.g., Stiefel manifold), enabling gradient-based optimization via tools like optimal transport and Sinkhorn operators. Applications include differentiable sorting/ranking algorithms with second-order (Newton) loss curvature, neural
 ---
 
 # Permutation Relaxation Via Orthogonal Optimization
 
-This skill covers relaxing discrete permutation optimization problems into continuous domains by parameterizing permutations via orthogonal matrices (e.g., Stiefel manifold optimization) or optimal transport, enabling gradient-based learning through combinatorial algorithms. Applications include model merging via weight permutation alignment, differentiable sorting/ranking, and cycle-consistent multi-network parameter matching,
+This skill covers methods for relaxing discrete permutation optimization problems into continuous spaces by parameterizing solutions over orthogonal/unitary matrix groups (e.g., Stiefel manifold), enabling gradient-based optimization via tools like optimal transport and Sinkhorn operators. Applications include differentiable sorting/ranking algorithms with second-order (Newton) loss curvature, neural
 
 ## Entry Index
 

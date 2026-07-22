@@ -1,6 +1,7 @@
 ---
 title: "ChatMusician: Understanding and Generating Music Intrinsically with LLM"
 source: "https://aclanthology.org/2024.findings-acl.373/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems', 'code-llm-generation-and-evaluation']
 tags: ['music-generation', 'llm-continual-pretraining', 'music-reasoning']
 venue: "ACL 2024"

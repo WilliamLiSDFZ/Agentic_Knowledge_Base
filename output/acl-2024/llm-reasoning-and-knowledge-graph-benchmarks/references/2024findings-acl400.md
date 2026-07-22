@@ -1,6 +1,7 @@
 ---
 title: "PiVe: Prompting with Iterative Verification Improving Graph-based Generative Capability of LLMs"
 source: "https://aclanthology.org/2024.findings-acl.400/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-agents-reasoning-and-planning']
 tags: ['graph-generation', 'iterative-verification', 'structured-data']
 venue: "ACL 2024"

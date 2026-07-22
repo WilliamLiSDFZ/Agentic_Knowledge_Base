@@ -1,6 +1,7 @@
 ---
 title: "VRSBench: A Versatile Vision-Language Benchmark Dataset for Remote Sensing Image Understanding"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/05b7f821234f66b78f99e7803fffa78a-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/05b7f821234f66b78f99e7803fffa78a-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['remote-sensing', 'vision-language-benchmark', 'image-understanding']
 venue: "NeurIPS 2024"

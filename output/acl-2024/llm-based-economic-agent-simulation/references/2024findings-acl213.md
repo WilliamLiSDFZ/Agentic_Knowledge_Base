@@ -1,6 +1,7 @@
 ---
 title: "Measuring Bargaining Abilities of LLMs: A Benchmark and A Buyer-Enhancement Method"
 source: "https://aclanthology.org/2024.findings-acl.213/"
+pdf_url: ""
 categories: ['llm-based-economic-agent-simulation']
 tags: ['bargaining', 'negotiation', 'LLM-agent-evaluation']
 venue: "ACL 2024"

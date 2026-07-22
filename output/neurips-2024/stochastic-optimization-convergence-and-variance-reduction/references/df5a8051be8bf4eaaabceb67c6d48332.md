@@ -1,6 +1,7 @@
 ---
 title: "No-regret Learning in Harmonic Games: Extrapolation in the Face of Conflicting Interests"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/df5a8051be8bf4eaaabceb67c6d48332-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/df5a8051be8bf4eaaabceb67c6d48332-Paper-Conference.pdf"
 categories: ['online-learning-augmented-algorithms-and-optimization', 'stochastic-optimization-convergence-and-variance-reduction']
 tags: ['no-regret-learning', 'harmonic-games', 'extrapolation']
 venue: "NeurIPS 2024"

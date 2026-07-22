@@ -1,6 +1,7 @@
 ---
 title: "IMDL-BenCo: A Comprehensive Benchmark and Codebase for Image Manipulation Detection & Localization"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/f280a398c243b5fdaa09f57ece880fc9-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/f280a398c243b5fdaa09f57ece880fc9-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'visual-language-multimodal-generation-reasoning']
 tags: ['image-manipulation-detection', 'benchmark', 'localization']
 venue: "NeurIPS 2024"

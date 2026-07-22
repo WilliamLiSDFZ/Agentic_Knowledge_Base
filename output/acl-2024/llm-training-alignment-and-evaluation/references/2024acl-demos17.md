@@ -1,6 +1,7 @@
 ---
 title: "IMGTB: A Framework for Machine-Generated Text Detection Benchmarking"
 source: "https://aclanthology.org/2024.acl-demos.17/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'llm-training-alignment-and-evaluation']
 tags: ['machine-generated-text', 'detection', 'benchmarking']
 venue: "ACL 2024"

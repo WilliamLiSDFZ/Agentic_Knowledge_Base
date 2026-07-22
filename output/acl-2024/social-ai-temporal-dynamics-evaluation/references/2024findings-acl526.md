@@ -1,6 +1,7 @@
 ---
 title: "Towards Objectively Benchmarking Social Intelligence of Language Agents at the Action Level"
 source: "https://aclanthology.org/2024.findings-acl.526/"
+pdf_url: ""
 categories: ['social-ai-temporal-dynamics-evaluation', 'llm-agents-reasoning-and-planning']
 tags: ['social-intelligence', 'agent-evaluation', 'action-level']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "SELECT: A Large-Scale Benchmark of Data Curation Strategies for Image Classification"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/f6de5ed486b1802874fe9c70b50277e4-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/f6de5ed486b1802874fe9c70b50277e4-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['data-curation', 'benchmark', 'image-classification']
 venue: "NeurIPS 2024"

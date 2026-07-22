@@ -1,6 +1,7 @@
 ---
 title: "From Representational Harms to Quality-of-Service Harms: A Case Study on Llama 2 Safety Safeguards"
 source: "https://aclanthology.org/2024.findings-acl.927/"
+pdf_url: ""
 categories: ['bias-and-fairness-in-llms', 'llm-training-alignment-and-evaluation']
 tags: ['safety', 'bias', 'quality-of-service-harms']
 venue: "ACL 2024"

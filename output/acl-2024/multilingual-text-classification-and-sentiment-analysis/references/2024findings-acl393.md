@@ -1,6 +1,7 @@
 ---
 title: "A multi-level multi-label text classification dataset of 19th century Ottoman and Russian literary and critical texts"
 source: "https://aclanthology.org/2024.findings-acl.393/"
+pdf_url: ""
 categories: ['multilingual-text-classification-and-sentiment-analysis']
 tags: ['multilingual-classification', 'ottoman-turkish', '19th-century-literary-texts']
 venue: "ACL 2024"

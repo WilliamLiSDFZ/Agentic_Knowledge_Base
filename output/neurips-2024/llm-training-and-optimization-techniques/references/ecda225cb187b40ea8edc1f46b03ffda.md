@@ -1,6 +1,7 @@
 ---
 title: "AutoMix: Automatically Mixing Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ecda225cb187b40ea8edc1f46b03ffda-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ecda225cb187b40ea8edc1f46b03ffda-Paper-Conference.pdf"
 categories: ['llm-training-and-optimization-techniques', 'llm-agent-communication-and-cooperation']
 tags: ['llm-routing', 'cost-optimization', 'model-mixing']
 venue: "NeurIPS 2024"

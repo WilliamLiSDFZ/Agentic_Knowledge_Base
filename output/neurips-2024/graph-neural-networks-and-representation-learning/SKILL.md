@@ -1,12 +1,12 @@
 ---
 name: graph-neural-networks-and-representation-learning
 description: >-
-  This skill covers the design and application of graph neural networks (GNNs) and graph-based representation learning across diverse tasks including anomaly detection, out-of-distribution detection, community detection, contrastive pre-training, and cross-modal retrieval. It spans theoretical foundations (equivariance, circuit complexity, activation functions) as well as applied domains such as educational lear
+  This skill covers the design and application of graph neural networks (GNNs) and graph-based representation learning across diverse tasks including anomaly detection, out-of-distribution detection, community detection, cross-modal retrieval, contrastive pre-training, and equivariant architectures. Methods span graph attention networks, node embeddings (Node2Vec), diffeomorphic
 ---
 
 # Graph Neural Networks And Representation Learning
 
-This skill covers the design and application of graph neural networks (GNNs) and graph-based representation learning across diverse tasks including anomaly detection, out-of-distribution detection, community detection, contrastive pre-training, and cross-modal retrieval. It spans theoretical foundations (equivariance, circuit complexity, activation functions) as well as applied domains such as educational lear
+This skill covers the design and application of graph neural networks (GNNs) and graph-based representation learning across diverse tasks including anomaly detection, out-of-distribution detection, community detection, cross-modal retrieval, contrastive pre-training, and equivariant architectures. Methods span graph attention networks, node embeddings (Node2Vec), diffeomorphic
 
 ## Entry Index
 

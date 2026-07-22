@@ -1,6 +1,7 @@
 ---
 title: "HelpSteer 2: Open-source dataset for training top-performing reward models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/02fd91a387a6a5a5751e81b58a75af90-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/02fd91a387a6a5a5751e81b58a75af90-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-training-and-optimization-techniques', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['preference-dataset', 'reward-model', 'human-alignment']
 venue: "NeurIPS 2024"

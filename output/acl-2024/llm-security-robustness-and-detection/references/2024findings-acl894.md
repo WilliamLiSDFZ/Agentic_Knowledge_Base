@@ -1,6 +1,7 @@
 ---
 title: "Here’s a Free Lunch: Sanitizing Backdoored Models with Model Merge"
 source: "https://aclanthology.org/2024.findings-acl.894/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection']
 tags: ['backdoor-attacks', 'model-merging', 'security']
 venue: "ACL 2024"

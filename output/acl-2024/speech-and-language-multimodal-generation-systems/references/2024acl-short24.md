@@ -1,6 +1,7 @@
 ---
 title: "On the Semantic Latent Space of Diffusion-Based Text-To-Speech Models"
 source: "https://aclanthology.org/2024.acl-short.24/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems', 'language-model-representations-and-embedding-spaces']
 tags: ['diffusion-tts', 'semantic-latent-space', 'speech-synthesis']
 venue: "ACL 2024"

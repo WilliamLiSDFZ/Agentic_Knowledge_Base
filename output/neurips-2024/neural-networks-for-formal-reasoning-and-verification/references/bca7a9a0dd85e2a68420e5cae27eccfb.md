@@ -1,6 +1,7 @@
 ---
 title: "Logical characterizations of recurrent graph neural networks with reals and floats"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/bca7a9a0dd85e2a68420e5cae27eccfb-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/bca7a9a0dd85e2a68420e5cae27eccfb-Paper-Conference.pdf"
 categories: ['graph-neural-networks-and-representation-learning', 'neural-networks-for-formal-reasoning-and-verification']
 tags: ['recurrent-GNNs', 'logical-characterization', 'expressive-power']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Can We Continually Edit Language Models? On the Knowledge Attenuation in Sequential Model Editing"
 source: "https://aclanthology.org/2024.findings-acl.323/"
+pdf_url: ""
 categories: ['continual-learning-for-nlp-tasks', 'llm-training-alignment-and-evaluation']
 tags: ['model-editing', 'knowledge-attenuation', 'sequential-editing', 'LLM', 'continual-learning']
 venue: "ACL 2024"

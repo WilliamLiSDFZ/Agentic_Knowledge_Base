@@ -1,6 +1,7 @@
 ---
 title: "Generative Input: Towards Next-Generation Input Methods Paradigm"
 source: "https://aclanthology.org/2024.findings-acl.218/"
+pdf_url: ""
 categories: ['text-input-and-generation-for-cjk-languages']
 tags: ['input-method', 'chinese-text-input', 'generative-models']
 venue: "ACL 2024"

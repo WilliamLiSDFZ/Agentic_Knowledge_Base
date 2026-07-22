@@ -1,6 +1,7 @@
 ---
 title: "Micro-Bench: A Microscopy Benchmark for Vision-Language Understanding"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/36b31e1bb8ecd4f4081686448e9eff2d-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/36b31e1bb8ecd4f4081686448e9eff2d-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'visual-language-multimodal-generation-reasoning']
 tags: ['microscopy-benchmark', 'vision-language-models', 'biomedical-imaging', 'cell-biology', 'multimodal-evaluation']
 venue: "NeurIPS 2024"

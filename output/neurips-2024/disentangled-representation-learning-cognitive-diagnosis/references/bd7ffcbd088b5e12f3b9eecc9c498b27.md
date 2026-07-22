@@ -1,6 +1,7 @@
 ---
 title: "Disentangled Representation Learning in Non-Markovian Causal Systems"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/bd7ffcbd088b5e12f3b9eecc9c498b27-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/bd7ffcbd088b5e12f3b9eecc9c498b27-Paper-Conference.pdf"
 categories: ['disentangled-representation-learning-cognitive-diagnosis', 'causal-discovery-and-inference-methods']
 tags: ['disentangled-representation', 'non-Markovian', 'causal-reasoning']
 venue: "NeurIPS 2024"

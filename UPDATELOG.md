@@ -6,6 +6,39 @@ affected files.
 
 ---
 
+## 2026-07-22 — Multi-venue PDF support (beyond ACL/NAACL)
+
+plugin A no longer skips every non-aclanthology paper; it resolves a downloadable PDF per
+paper across venues, so NeurIPS / ICML / CVPR / ICCV / ICLR (and AAAI where available) can
+now build methodology_kb.
+
+### Changed
+
+- **`scripts/4_generate_skills.py`** — reference frontmatter now includes `pdf_url` (the
+  fetchers already capture it; it was being dropped). Re-run step 4 to backfill existing KBs.
+- **`scripts/plugin_a_methodology.py`**
+  - New `resolve_pdf_url(source, pdf_url)`: prefers the fetcher-captured `pdf_url`, else a
+    source-URL rule (`aclanthology.org` → `+.pdf`; `openreview.net` `forum?id` → `pdf?id`),
+    else "". The hard `aclanthology-only` skip is removed.
+  - New `--allow-abstract-fallback`: when no PDF is resolvable, extract from the abstract
+    (lower quality). **Off by default** to protect KB quality.
+- **`scripts/5_build_methodology.py`** — Stage 1 uses the resolver + optional
+  `--allow-abstract-fallback`; papers with no PDF are counted as `skip`, not `fail`.
+
+### Coverage
+
+- ACL / NAACL / EMNLP: full (source rule). ICLR: full (captured or forum→pdf rule).
+- NeurIPS / ICML / CVPR / ICCV: work when the fetcher captured a PDF link.
+- AAAI (Semantic Scholar): partial — only papers with an open-access PDF.
+
+### Notes
+
+- Verified (stubbed, no network): resolver priority + ACL/OpenReview rules, frontmatter/
+  abstract parsing, and that a non-ACL NeurIPS paper with a captured PDF is now picked up
+  (and a no-PDF paper only under `--allow-abstract-fallback`). All 3 files `py_compile`.
+
+---
+
 ## 2026-07-17 — Merged, concurrent methodology builder (plugin A + A2)
 
 Adds one orchestrator that runs the whole plugin A → A2 pipeline for a venue with

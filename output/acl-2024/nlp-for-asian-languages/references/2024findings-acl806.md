@@ -1,6 +1,7 @@
 ---
 title: "Training a Better Chinese Spelling Correction Model via Prior-knowledge Guided Teacher"
 source: "https://aclanthology.org/2024.findings-acl.806/"
+pdf_url: ""
 categories: ['nlp-for-asian-languages', 'llm-training-alignment-and-evaluation']
 tags: ['Chinese-spelling-correction', 'prior-knowledge', 'teacher-model', 'PLM']
 venue: "ACL 2024"

@@ -1,12 +1,12 @@
 ---
 name: optimal-transport-and-learning-theory
 description: >-
-  This skill covers the theory and application of optimal transport (OT) methods—including Wasserstein distances, entropic/unbalanced OT, and semi-discrete solvers—for tasks such as distributionally robust optimization, gradient flows in Wasserstein space, fairness-constrained learning, and coreset construction. Applications span machine learning model benchmarking, outlier
+  This skill covers the theory and application of optimal transport (OT) methods — including Wasserstein distances, entropic/unbalanced OT, and gradient flows in Wasserstein space — for tasks such as distributionally robust optimization, fairness-constrained learning, coreset construction, outlier rectification, and label distribution adaptation. It encompasses both algorithmic development (combin
 ---
 
 # Optimal Transport And Learning Theory
 
-This skill covers the theory and application of optimal transport (OT) methods—including Wasserstein distances, entropic/unbalanced OT, and semi-discrete solvers—for tasks such as distributionally robust optimization, gradient flows in Wasserstein space, fairness-constrained learning, and coreset construction. Applications span machine learning model benchmarking, outlier
+This skill covers the theory and application of optimal transport (OT) methods — including Wasserstein distances, entropic/unbalanced OT, and gradient flows in Wasserstein space — for tasks such as distributionally robust optimization, fairness-constrained learning, coreset construction, outlier rectification, and label distribution adaptation. It encompasses both algorithmic development (combin
 
 ## Entry Index
 

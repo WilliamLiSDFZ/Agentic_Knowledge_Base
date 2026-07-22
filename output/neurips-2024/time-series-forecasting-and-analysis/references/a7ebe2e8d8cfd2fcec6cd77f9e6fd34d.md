@@ -1,6 +1,7 @@
 ---
 title: "Optimized Feature Generation for Tabular Data via LLMs with Decision Tree Reasoning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a7ebe2e8d8cfd2fcec6cd77f9e6fd34d-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a7ebe2e8d8cfd2fcec6cd77f9e6fd34d-Paper-Conference.pdf"
 categories: ['llm-training-and-optimization-techniques', 'time-series-forecasting-and-analysis']
 tags: ['feature-engineering', 'tabular-data', 'LLM-reasoning']
 venue: "NeurIPS 2024"

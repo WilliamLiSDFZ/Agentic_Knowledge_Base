@@ -1,6 +1,7 @@
 ---
 title: "DocLens: Multi-aspect Fine-grained Evaluation for Medical Text Generation"
 source: "https://aclanthology.org/2024.acl-long.39/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp', 'nlp-benchmark-design-and-interpretability']
 tags: ['medical-text-generation', 'evaluation-metrics', 'clinical-NLP']
 venue: "ACL 2024"

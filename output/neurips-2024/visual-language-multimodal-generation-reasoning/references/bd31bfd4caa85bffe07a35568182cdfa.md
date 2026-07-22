@@ -1,6 +1,7 @@
 ---
 title: "GVKF: Gaussian Voxel Kernel Functions for Highly Efficient Surface Reconstruction in Open Scenes"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/bd31bfd4caa85bffe07a35568182cdfa-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/bd31bfd4caa85bffe07a35568182cdfa-Paper-Conference.pdf"
 categories: ['neural-geometric-shape-representation-learning', 'visual-language-multimodal-generation-reasoning']
 tags: ['3D-gaussian-splatting', 'surface-reconstruction', 'neural-radiance-fields']
 venue: "NeurIPS 2024"

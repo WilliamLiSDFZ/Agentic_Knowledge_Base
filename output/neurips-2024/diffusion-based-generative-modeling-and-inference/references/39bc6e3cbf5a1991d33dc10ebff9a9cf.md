@@ -1,6 +1,7 @@
 ---
 title: "DiMSUM: Diffusion Mamba - A Scalable and Unified Spatial-Frequency Method for Image Generation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/39bc6e3cbf5a1991d33dc10ebff9a9cf-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/39bc6e3cbf5a1991d33dc10ebff9a9cf-Paper-Conference.pdf"
 categories: ['diffusion-based-generative-modeling-and-inference', 'llm-training-and-optimization-techniques']
 tags: ['diffusion-models', 'mamba', 'spatial-frequency']
 venue: "NeurIPS 2024"

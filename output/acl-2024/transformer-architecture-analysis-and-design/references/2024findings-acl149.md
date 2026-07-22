@@ -1,6 +1,7 @@
 ---
 title: "VISPool: Enhancing Transformer Encoders with Vector Visibility Graph Neural Networks"
 source: "https://aclanthology.org/2024.findings-acl.149/"
+pdf_url: ""
 categories: ['transformer-architecture-analysis-and-design']
 tags: ['graph-neural-networks', 'transformer', 'text-representation']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Fit for our purpose, not yours: Benchmark for a low-resource, Indigenous language"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/37f4dd559db9cd0a42ce72987d27ab27-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/37f4dd559db9cd0a42ce72987d27ab27-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'fairness-aware-machine-learning-methods']
 tags: ['low-resource-languages', 'indigenous-nlp', 'benchmark-design']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Random Function Descent"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/c980ad0fb46f0cfb0faabcd42b30a67a-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/c980ad0fb46f0cfb0faabcd42b30a67a-Paper-Conference.pdf"
 categories: ['deep-learning-optimization-and-generalization-theory', 'stochastic-optimization-convergence-and-variance-reduction']
 tags: ['stochastic-optimization', 'random-function', 'step-size-selection', 'convergence', 'learning-theory']
 venue: "NeurIPS 2024"

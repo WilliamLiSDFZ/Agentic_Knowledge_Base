@@ -1,6 +1,7 @@
 ---
 title: "Croissant: A Metadata Format for ML-Ready Datasets"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/9547b09b722f2948ff3ddb5d86002bc0-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/9547b09b722f2948ff3ddb5d86002bc0-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'scientific-document-retrieval-and-citation']
 tags: ['metadata-format', 'ML-datasets', 'data-discoverability']
 venue: "NeurIPS 2024"

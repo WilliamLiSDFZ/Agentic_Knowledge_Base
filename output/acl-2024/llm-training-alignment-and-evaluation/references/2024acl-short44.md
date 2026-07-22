@@ -1,6 +1,7 @@
 ---
 title: "An Empirical Analysis on Large Language Models in Debate Evaluation"
 source: "https://aclanthology.org/2024.acl-short.44/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'topic-modeling-and-essay-evaluation']
 tags: ['debate-evaluation', 'LLM-bias', 'GPT-4', 'argumentation', 'benchmark']
 venue: "ACL 2024"

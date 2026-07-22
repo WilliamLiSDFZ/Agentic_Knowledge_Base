@@ -1,6 +1,7 @@
 ---
 title: "Refining Corpora from a Model Calibration Perspective for Chinese Spelling Correction"
 source: "https://aclanthology.org/2024.findings-acl.914/"
+pdf_url: ""
 categories: ['nlp-for-asian-languages', 'label-noise-robust-annotation-learning']
 tags: ['chinese-spelling-correction', 'data-augmentation', 'model-calibration']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Understanding Fine-grained Distortions in Reports of Scientific Findings"
 source: "https://aclanthology.org/2024.findings-acl.369/"
+pdf_url: ""
 categories: ['computational-misinformation-narrative-framing-detection', 'llm-based-scientific-misinformation-detection']
 tags: ['science-communication', 'distortion-detection', 'misinformation']
 venue: "ACL 2024"

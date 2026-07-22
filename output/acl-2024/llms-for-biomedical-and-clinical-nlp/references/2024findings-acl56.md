@@ -1,6 +1,7 @@
 ---
 title: "Implanting LLM’s Knowledge via Reading Comprehension Tree for Toxicity Detection"
 source: "https://aclanthology.org/2024.findings-acl.56/"
+pdf_url: ""
 categories: ['hate-speech-and-toxic-content-detection', 'llms-for-biomedical-and-clinical-nlp']
 tags: ['toxicity-detection', 'knowledge-distillation', 'reading-comprehension']
 venue: "ACL 2024"

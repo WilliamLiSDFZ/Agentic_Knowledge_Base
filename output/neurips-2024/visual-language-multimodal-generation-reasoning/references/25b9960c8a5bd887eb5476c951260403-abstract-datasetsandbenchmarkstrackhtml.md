@@ -1,6 +1,7 @@
 ---
 title: "ChronoMagic-Bench: A Benchmark for Metamorphic Evaluation of Text-to-Time-lapse Video Generation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/25b9960c8a5bd887eb5476c951260403-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/25b9960c8a5bd887eb5476c951260403-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'visual-language-multimodal-generation-reasoning']
 tags: ['text-to-video', 'time-lapse', 'metamorphic-evaluation']
 venue: "NeurIPS 2024"

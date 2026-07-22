@@ -1,6 +1,7 @@
 ---
 title: "Enhancing Adverse Drug Event Detection with Multimodal Dataset: Corpus Creation and Model Development"
 source: "https://aclanthology.org/2024.findings-acl.667/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp', 'multimodal-language-vision-learning-systems']
 tags: ['adverse-drug-events', 'multimodal', 'pharmacovigilance', 'corpus', 'biomedical-NLP']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "What Makes Language Models Good-enough?"
 source: "https://aclanthology.org/2024.findings-acl.913/"
+pdf_url: ""
 categories: ['language-model-human-cognitive-linguistic-alignment', 'transformer-architecture-analysis-and-design']
 tags: ['good-enough-processing', 'psycholinguistics', 'language-model-architecture', 'layers', 'cognitive-alignment']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "E.T. Bench: Towards Open-Ended Event-Level Video-Language Understanding"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/38ace89a980ead30c6be2b46afc1a5bd-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/38ace89a980ead30c6be2b46afc1a5bd-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'visual-language-multimodal-generation-reasoning']
 tags: ['video-language-models', 'event-level-understanding', 'benchmark']
 venue: "NeurIPS 2024"

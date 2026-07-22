@@ -1,6 +1,7 @@
 ---
 title: "A Cross-Domain Benchmark for Active Learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/72de9826cfe582e175520f404eaad473-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/72de9826cfe582e175520f404eaad473-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'machine-learning-theory-and-evaluation-methods']
 tags: ['active-learning', 'benchmark', 'cross-domain', 'data-annotation', 'experimental-evaluation']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "ODA: Observation-Driven Agent for integrating LLMs and Knowledge Graphs"
 source: "https://aclanthology.org/2024.findings-acl.442/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-agents-reasoning-and-planning']
 tags: ['knowledge-graphs', 'LLM-agents', 'observation-driven', 'reasoning', 'NLP']
 venue: "ACL 2024"

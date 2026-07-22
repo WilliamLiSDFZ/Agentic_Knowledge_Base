@@ -1,6 +1,7 @@
 ---
 title: "Bias and Volatility: A Statistical Framework for Evaluating Large Language Model's Stereotypes and the Associated Generation Inconsistency"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/c6ec4a25a11393f277cfd64b7ea4d106-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/c6ec4a25a11393f277cfd64b7ea4d106-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-values-ethics-alignment-evaluation', 'statistical-inference-and-text-generation-methods\n\nhmm,-let-me-reconsider---looking-more-carefully-at-the-cluster:\n\n**score-matching-and-sampling-methods**']
 tags: ['llm-bias', 'stereotype-evaluation', 'generation-inconsistency']
 venue: "NeurIPS 2024"

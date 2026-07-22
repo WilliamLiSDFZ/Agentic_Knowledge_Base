@@ -1,6 +1,7 @@
 ---
 title: "Improving Low-Resource Machine Translation for Formosan Languages Using Bilingual Lexical Resources"
 source: "https://aclanthology.org/2024.findings-acl.670/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'nlp-for-asian-languages']
 tags: ['low-resource-mt', 'formosan-languages', 'bilingual-lexicon', 'endangered-languages', 'mandarin']
 venue: "ACL 2024"

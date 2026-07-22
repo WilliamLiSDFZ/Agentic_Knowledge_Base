@@ -1,6 +1,7 @@
 ---
 title: "Towards Better Utilization of Multi-Reference Training Data for Chinese Grammatical Error Correction"
 source: "https://aclanthology.org/2024.findings-acl.180/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'nlp-for-asian-languages']
 tags: ['grammatical-error-correction', 'multi-reference', 'Chinese-NLP', 'training-data']
 venue: "ACL 2024"

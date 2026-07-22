@@ -1,6 +1,7 @@
 ---
 title: "Benchmarking Out-of-Distribution Generalization Capabilities of DNN-based Encoding Models for the Ventral Visual Cortex."
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a27eda1ce7c14f4875f15cf3d1737cc5-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a27eda1ce7c14f4875f15cf3d1737cc5-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['neural-encoding-models', 'out-of-distribution-generalization', 'visual-cortex']
 venue: "NeurIPS 2024"

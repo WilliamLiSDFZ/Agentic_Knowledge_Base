@@ -1,6 +1,7 @@
 ---
 title: "SMART: Submodular Data Mixture Strategy for Instruction Tuning"
 source: "https://aclanthology.org/2024.findings-acl.766/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'text-clustering-with-limited-labels']
 tags: ['instruction-tuning', 'data-mixture', 'submodular-optimization']
 venue: "ACL 2024"

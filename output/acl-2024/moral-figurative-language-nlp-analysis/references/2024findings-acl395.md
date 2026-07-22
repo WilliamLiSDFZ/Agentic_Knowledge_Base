@@ -1,6 +1,7 @@
 ---
 title: "Whose Emotions and Moral Sentiments do Language Models Reflect?"
 source: "https://aclanthology.org/2024.findings-acl.395/"
+pdf_url: ""
 categories: ['bias-and-fairness-in-llms', 'moral-figurative-language-nlp-analysis']
 tags: ['moral-sentiments', 'bias', 'social-groups', 'content-moderation', 'hate-speech']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "LLMFactor: Extracting Profitable Factors through Prompts for Explainable Stock Movement Prediction"
 source: "https://aclanthology.org/2024.findings-acl.185/"
+pdf_url: ""
 categories: ['financial-reasoning-llm-benchmarks-and-datasets', 'natural-language-processing-information-extraction']
 tags: ['stock-prediction', 'factor-extraction', 'financial-nlp']
 venue: "ACL 2024"

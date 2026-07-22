@@ -1,6 +1,7 @@
 ---
 title: "To Believe or Not to Believe Your LLM: Iterative Prompting for Estimating Epistemic Uncertainty"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/6aebba00fff5b6de7b488e496f80edd7-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/6aebba00fff5b6de7b488e496f80edd7-Paper-Conference.pdf"
 categories: ['llm-training-and-optimization-techniques']
 tags: ['uncertainty-quantification', 'epistemic-uncertainty', 'iterative-prompting']
 venue: "NeurIPS 2024"

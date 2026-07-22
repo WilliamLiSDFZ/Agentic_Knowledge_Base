@@ -1,6 +1,7 @@
 ---
 title: "Benchmarking Uncertainty Disentanglement: Specialized Uncertainties for Specialized Tasks"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/5afa9cb1e917b898ad418216dc726fbd-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/5afa9cb1e917b898ad418216dc726fbd-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'machine-learning-theory-and-evaluation-methods']
 tags: ['uncertainty-quantification', 'disentanglement', 'out-of-distribution-detection']
 venue: "NeurIPS 2024"

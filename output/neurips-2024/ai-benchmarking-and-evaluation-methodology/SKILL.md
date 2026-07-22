@@ -1,12 +1,12 @@
 ---
 name: ai-benchmarking-and-evaluation-methodology
 description: >-
-  **AI benchmarking and evaluation methodology** covers the design, construction, and validation of datasets, benchmarks, and evaluation frameworks for assessing AI model capabilities across diverse tasks—including autonomous driving, scientific reasoning, mathematical problem-solving, vision-language understanding, remote sensing, and emotion recognition. Methods include curating domain-specific corpora, defining multi-ability evaluation metrics, addressing evaluation fl
+  Designing and evaluating **benchmark datasets and evaluation frameworks** across diverse AI domains—including autonomous driving, scientific reasoning, remote sensing, biological classification, emotion recognition, and task automation—with emphasis on dataset construction methodology (corpus design, annotation pipelines, sim-to-real transfer, self-reflective labeling), evaluation protocol correctness (e.g., fixing flaws in selective classification
 ---
 
 # Ai Benchmarking And Evaluation Methodology
 
-**AI benchmarking and evaluation methodology** covers the design, construction, and validation of datasets, benchmarks, and evaluation frameworks for assessing AI model capabilities across diverse tasks—including autonomous driving, scientific reasoning, mathematical problem-solving, vision-language understanding, remote sensing, and emotion recognition. Methods include curating domain-specific corpora, defining multi-ability evaluation metrics, addressing evaluation fl
+Designing and evaluating **benchmark datasets and evaluation frameworks** across diverse AI domains—including autonomous driving, scientific reasoning, remote sensing, biological classification, emotion recognition, and task automation—with emphasis on dataset construction methodology (corpus design, annotation pipelines, sim-to-real transfer, self-reflective labeling), evaluation protocol correctness (e.g., fixing flaws in selective classification
 
 ## Entry Index
 

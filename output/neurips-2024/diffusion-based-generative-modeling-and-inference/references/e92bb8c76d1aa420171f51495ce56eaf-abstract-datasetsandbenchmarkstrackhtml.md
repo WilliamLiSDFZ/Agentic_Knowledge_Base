@@ -1,6 +1,7 @@
 ---
 title: "TSGM: A Flexible Framework for Generative Modeling of Synthetic Time Series"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/e92bb8c76d1aa420171f51495ce56eaf-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/e92bb8c76d1aa420171f51495ce56eaf-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['time-series-forecasting-and-analysis', 'diffusion-based-generative-modeling-and-inference']
 tags: ['synthetic-time-series', 'generative-modeling', 'framework']
 venue: "NeurIPS 2024"

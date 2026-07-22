@@ -1,6 +1,7 @@
 ---
 title: "Are LLMs Capable of Data-based Statistical and Causal Reasoning? Benchmarking Advanced Quantitative Reasoning with Data"
 source: "https://aclanthology.org/2024.findings-acl.548/"
+pdf_url: ""
 categories: ['causal-reasoning-and-explanation-in-nlp', 'llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['quantitative-reasoning', 'causal-reasoning', 'statistical-reasoning', 'LLM-benchmark', 'data-analysis']
 venue: "ACL 2024"

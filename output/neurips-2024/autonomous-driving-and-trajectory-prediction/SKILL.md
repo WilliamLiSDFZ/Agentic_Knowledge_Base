@@ -1,12 +1,12 @@
 ---
 name: autonomous-driving-and-trajectory-prediction
 description: >-
-  This skill covers **autonomous driving perception, prediction, and planning**, including end-to-end driving benchmarks, trajectory/motion forecasting, HD map construction, 3D object detection (point clouds), and driving world models. Methods span cooperative learning, autoregressive modeling, group-equivariant features, and robustness evaluation under sensor corruptions, with applications in closed-
+  This skill covers **autonomous driving perception, prediction, and planning pipelines**, including end-to-end closed-loop driving evaluation, HD map construction robustness under sensor corruption, cooperative multi-agent trajectory/motion forecasting, and 3D object detection from point clouds. It also addresses supporting tasks such as driving world model development, traffic anomaly detection, and semantic/autoregressive
 ---
 
 # Autonomous Driving And Trajectory Prediction
 
-This skill covers **autonomous driving perception, prediction, and planning**, including end-to-end driving benchmarks, trajectory/motion forecasting, HD map construction, 3D object detection (point clouds), and driving world models. Methods span cooperative learning, autoregressive modeling, group-equivariant features, and robustness evaluation under sensor corruptions, with applications in closed-
+This skill covers **autonomous driving perception, prediction, and planning pipelines**, including end-to-end closed-loop driving evaluation, HD map construction robustness under sensor corruption, cooperative multi-agent trajectory/motion forecasting, and 3D object detection from point clouds. It also addresses supporting tasks such as driving world model development, traffic anomaly detection, and semantic/autoregressive
 
 ## Entry Index
 

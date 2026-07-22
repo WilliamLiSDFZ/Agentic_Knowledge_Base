@@ -1,6 +1,7 @@
 ---
 title: "QGym: Scalable Simulation and Benchmarking of Queuing Network Controllers"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a7f67788f7b4d77fa7cd6887de3dcbe7-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a7f67788f7b4d77fa7cd6887de3dcbe7-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['queuing-networks', 'reinforcement-learning', 'simulation-benchmarking']
 venue: "NeurIPS 2024"

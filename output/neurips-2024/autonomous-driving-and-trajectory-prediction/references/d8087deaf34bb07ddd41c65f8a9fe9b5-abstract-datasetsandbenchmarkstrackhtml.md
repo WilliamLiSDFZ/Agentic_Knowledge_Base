@@ -1,6 +1,7 @@
 ---
 title: "Human-Aware Vision-and-Language Navigation: Bridging Simulation to Reality with Dynamic Human Interactions"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d8087deaf34bb07ddd41c65f8a9fe9b5-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d8087deaf34bb07ddd41c65f8a9fe9b5-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['autonomous-driving-and-trajectory-prediction', 'visual-language-multimodal-generation-reasoning']
 tags: ['vision-language-navigation', 'dynamic-humans', 'sim-to-real']
 venue: "NeurIPS 2024"

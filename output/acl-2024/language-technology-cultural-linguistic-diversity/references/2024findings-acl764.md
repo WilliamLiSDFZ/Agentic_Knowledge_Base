@@ -1,6 +1,7 @@
 ---
 title: "CIDAR: Culturally Relevant Instruction Dataset For Arabic"
 source: "https://aclanthology.org/2024.findings-acl.764/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'llm-training-alignment-and-evaluation']
 tags: ['arabic-instruction-tuning', 'cultural-relevance', 'dataset']
 venue: "ACL 2024"

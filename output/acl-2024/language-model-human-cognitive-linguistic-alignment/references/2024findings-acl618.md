@@ -1,6 +1,7 @@
 ---
 title: "Are Machines Better at Complex Reasoning? Unveiling Human-Machine Inference Gaps in Entailment Verification"
 source: "https://aclanthology.org/2024.findings-acl.618/"
+pdf_url: ""
 categories: ['language-model-human-cognitive-linguistic-alignment', 'nlp-benchmark-design-and-interpretability']
 tags: ['entailment-verification', 'complex-reasoning', 'human-machine-comparison']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "imapScore: Medical Fact Evaluation Made Easy"
 source: "https://aclanthology.org/2024.findings-acl.610/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp']
 tags: ['medical-nlp', 'fact-evaluation', 'nlg-evaluation']
 venue: "ACL 2024"

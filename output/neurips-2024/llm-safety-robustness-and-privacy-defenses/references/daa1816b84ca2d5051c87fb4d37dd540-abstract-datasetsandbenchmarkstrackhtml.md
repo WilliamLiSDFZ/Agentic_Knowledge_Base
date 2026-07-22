@@ -1,6 +1,7 @@
 ---
 title: "A Synthetic Dataset for Personal Attribute Inference"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/daa1816b84ca2d5051c87fb4d37dd540-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/daa1816b84ca2d5051c87fb4d37dd540-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-safety-robustness-and-privacy-defenses', 'llm-benchmarks-for-clinical-healthcare']
 tags: ['llm-privacy', 'attribute-inference', 'synthetic-dataset']
 venue: "NeurIPS 2024"

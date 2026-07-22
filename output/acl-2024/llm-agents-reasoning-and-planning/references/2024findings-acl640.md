@@ -1,6 +1,7 @@
 ---
 title: "ViCor: Bridging Visual Understanding and Commonsense Reasoning with Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.640/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llm-agents-reasoning-and-planning']
 tags: ['visual-commonsense-reasoning', 'VLM', 'LLM', 'synergy', 'multimodal']
 venue: "ACL 2024"

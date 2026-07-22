@@ -1,6 +1,7 @@
 ---
 title: "A Globally Optimal Portfolio for m-Sparse Sharpe Ratio Maximization"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1eaa5146756be028ad6fff1efcc8e6bd-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1eaa5146756be028ad6fff1efcc8e6bd-Paper-Conference.pdf"
 categories: ['sparse-ratio-optimization-fractional-programming', 'statistical-learning-theory-and-matrix-methods']
 tags: ['sharpe-ratio', 'sparse-portfolio', 'fractional-programming']
 venue: "NeurIPS 2024"

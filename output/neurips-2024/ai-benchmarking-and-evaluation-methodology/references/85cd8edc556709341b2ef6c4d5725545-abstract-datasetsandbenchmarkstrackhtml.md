@@ -1,6 +1,7 @@
 ---
 title: "Towards Heterogeneous Long-tailed Learning: Benchmarking, Metrics, and Toolbox"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/85cd8edc556709341b2ef6c4d5725545-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/85cd8edc556709341b2ef6c4d5725545-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['long-tailed-learning', 'benchmarking', 'heterogeneous-data']
 venue: "NeurIPS 2024"

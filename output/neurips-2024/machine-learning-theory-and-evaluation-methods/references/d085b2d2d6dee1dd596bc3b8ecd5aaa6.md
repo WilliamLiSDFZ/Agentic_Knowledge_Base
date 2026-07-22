@@ -1,6 +1,7 @@
 ---
 title: "Mixture of Adversarial LoRAs: Boosting Robust Generalization in Meta-Tuning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d085b2d2d6dee1dd596bc3b8ecd5aaa6-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d085b2d2d6dee1dd596bc3b8ecd5aaa6-Paper-Conference.pdf"
 categories: ['llm-training-and-optimization-techniques', 'machine-learning-theory-and-evaluation-methods']
 tags: ['adversarial-meta-tuning', 'lora', 'few-shot-learning', 'out-of-domain-generalization', 'robust-fine-tuning']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Harnessing Large Language Models as Post-hoc Correctors"
 source: "https://aclanthology.org/2024.findings-acl.867/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'language-model-human-cognitive-linguistic-alignment']
 tags: ['post-hoc-correction', 'LLM', 'model-correction', 'fine-tuning']
 venue: "ACL 2024"

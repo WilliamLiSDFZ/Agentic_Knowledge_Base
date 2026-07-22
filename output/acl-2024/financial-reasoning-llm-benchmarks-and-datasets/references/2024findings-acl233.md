@@ -1,6 +1,7 @@
 ---
 title: "Can Large Language Models Mine Interpretable Financial Factors More Effectively? A Neural-Symbolic Factor Mining Agent Model"
 source: "https://aclanthology.org/2024.findings-acl.233/"
+pdf_url: ""
 categories: ['financial-reasoning-llm-benchmarks-and-datasets', 'llm-agents-reasoning-and-planning']
 tags: ['financial-factor-mining', 'neural-symbolic', 'stock-returns']
 venue: "ACL 2024"

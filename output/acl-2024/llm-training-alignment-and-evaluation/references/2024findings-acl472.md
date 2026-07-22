@@ -1,6 +1,7 @@
 ---
 title: "LLMCrit: Teaching Large Language Models to Use Criteria"
 source: "https://aclanthology.org/2024.findings-acl.472/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['criteria-following', 'feedback', 'LLM-evaluation', 'instruction']
 venue: "ACL 2024"

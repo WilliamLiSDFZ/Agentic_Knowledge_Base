@@ -1,6 +1,7 @@
 ---
 title: "Recurrent Complex-Weighted Autoencoders for Unsupervised Object Discovery"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/fe6bfafa8734bf34da716f3747d0fdba-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/fe6bfafa8734bf34da716f3747d0fdba-Paper-Conference.pdf"
 categories: ['recurrent-and-spiking-neural-network-dynamics', 'disentangled-representation-learning-cognitive-diagnosis']
 tags: ['recurrent-networks', 'complex-valued-weights', 'object-discovery']
 venue: "NeurIPS 2024"

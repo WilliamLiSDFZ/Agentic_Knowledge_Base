@@ -1,6 +1,7 @@
 ---
 title: "An Ensemble-of-Experts Framework for Rehearsal-free Continual Relation Extraction"
 source: "https://aclanthology.org/2024.findings-acl.83/"
+pdf_url: ""
 categories: ['continual-learning-for-nlp-tasks', 'natural-language-processing-information-extraction']
 tags: ['continual-relation-extraction', 'rehearsal-free', 'ensemble-of-experts']
 venue: "ACL 2024"

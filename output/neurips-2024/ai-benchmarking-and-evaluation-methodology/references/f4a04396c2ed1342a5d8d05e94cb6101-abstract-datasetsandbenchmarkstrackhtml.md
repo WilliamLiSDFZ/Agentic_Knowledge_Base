@@ -1,6 +1,7 @@
 ---
 title: "CaptainCook4D: A Dataset for Understanding Errors in Procedural Activities"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/f4a04396c2ed1342a5d8d05e94cb6101-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/f4a04396c2ed1342a5d8d05e94cb6101-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['procedural-activity', 'error-understanding', '4D-dataset']
 venue: "NeurIPS 2024"

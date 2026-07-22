@@ -1,6 +1,7 @@
 ---
 title: "Symmetric Dot-Product Attention for Efficient Training of BERT Language Models"
 source: "https://aclanthology.org/2024.findings-acl.476/"
+pdf_url: ""
 categories: ['transformer-architecture-analysis-and-design', 'llm-training-alignment-and-evaluation']
 tags: ['symmetric-attention', 'BERT', 'transformer', 'efficient-training', 'dot-product']
 venue: "ACL 2024"

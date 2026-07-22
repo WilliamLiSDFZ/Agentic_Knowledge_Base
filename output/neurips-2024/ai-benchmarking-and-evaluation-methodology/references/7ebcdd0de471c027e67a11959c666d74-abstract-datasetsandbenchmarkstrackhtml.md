@@ -1,6 +1,7 @@
 ---
 title: "Safetywashing: Do AI Safety Benchmarks Actually Measure Safety Progress?"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/7ebcdd0de471c027e67a11959c666d74-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/7ebcdd0de471c027e67a11959c666d74-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-safety-robustness-and-privacy-defenses']
 tags: ['ai-safety', 'benchmarking', 'safety-evaluation', 'model-capabilities', 'benchmark-validity']
 venue: "NeurIPS 2024"

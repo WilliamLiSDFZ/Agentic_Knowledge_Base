@@ -1,6 +1,7 @@
 ---
 title: "Mementos: A Comprehensive Benchmark for Multimodal Large Language Model Reasoning over Image Sequences"
 source: "https://aclanthology.org/2024.acl-long.25/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llm-training-alignment-and-evaluation']
 tags: ['multimodal-benchmark', 'image-sequences', 'temporal-reasoning']
 venue: "ACL 2024"

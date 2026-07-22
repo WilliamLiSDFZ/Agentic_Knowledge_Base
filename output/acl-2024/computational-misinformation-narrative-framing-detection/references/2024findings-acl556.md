@@ -1,6 +1,7 @@
 ---
 title: "EX-FEVER: A Dataset for Multi-hop Explainable Fact Verification"
 source: "https://aclanthology.org/2024.findings-acl.556/"
+pdf_url: ""
 categories: ['computational-misinformation-narrative-framing-detection', 'llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['fact-verification', 'explainability', 'multi-hop', 'evidence-retrieval', 'dataset']
 venue: "ACL 2024"

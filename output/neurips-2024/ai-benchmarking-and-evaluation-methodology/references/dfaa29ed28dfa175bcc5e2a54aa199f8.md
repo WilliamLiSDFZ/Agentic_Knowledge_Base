@@ -1,6 +1,7 @@
 ---
 title: "Can Language Models Perform Robust Reasoning in Chain-of-thought Prompting with Noisy Rationales?"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/dfaa29ed28dfa175bcc5e2a54aa199f8-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/dfaa29ed28dfa175bcc5e2a54aa199f8-Paper-Conference.pdf"
 categories: ['llm-training-and-optimization-techniques', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['chain-of-thought', 'noisy-rationales', 'llm-robustness']
 venue: "NeurIPS 2024"

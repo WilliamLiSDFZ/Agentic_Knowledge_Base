@@ -1,6 +1,7 @@
 ---
 title: "Knowledge-Infused Prompting: Assessing and Advancing Clinical Text Data Generation with Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.916/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp', 'llm-training-alignment-and-evaluation']
 tags: ['clinical-NLP', 'data-generation', 'knowledge-infused', 'LLM-prompting', 'privacy']
 venue: "ACL 2024"

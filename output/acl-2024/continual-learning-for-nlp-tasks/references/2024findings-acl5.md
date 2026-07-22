@@ -1,6 +1,7 @@
 ---
 title: "Overcoming Catastrophic Forgetting by Exemplar Selection in Task-oriented Dialogue System"
 source: "https://aclanthology.org/2024.findings-acl.5/"
+pdf_url: ""
 categories: ['continual-learning-for-nlp-tasks']
 tags: ['continual-learning', 'task-oriented-dialogue', 'catastrophic-forgetting']
 venue: "ACL 2024"

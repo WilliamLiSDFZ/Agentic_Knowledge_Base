@@ -1,6 +1,7 @@
 ---
 title: "MiraData: A Large-Scale Video Dataset with Long Durations and Structured Captions"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/57f6683e550eb067936c9e9f0bcb8e31-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/57f6683e550eb067936c9e9f0bcb8e31-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning']
 tags: ['video-dataset', 'long-duration', 'structured-captions', 'motion-intensity', 'video-generation']
 venue: "NeurIPS 2024"

@@ -1,12 +1,12 @@
 ---
 name: topic-modeling-and-essay-evaluation
 description: >-
-  This skill covers **automated evaluation of text quality and topic modeling**, spanning methods for dynamic topic discovery (contrastive learning, LLM-based modeling, neural networks), cross-prompt and domain-adaptive essay scoring, and rubric-based NLG evaluation. Applications include student essay assessment (topic relevance, automated scoring), topic classification of short/web texts, and dialogue/summar
+  This skill covers **automated evaluation of written and spoken content** combined with **topic modeling methods**, spanning transformer-based and LLM-driven approaches for essay scoring (including cross-prompt and domain-specific settings), dynamic topic model evaluation and evolution tracking, and short-text topic modeling using augmentation and large language models. Applications include educational assessment (student essay relevance scoring, Chinese K-
 ---
 
 # Topic Modeling And Essay Evaluation
 
-This skill covers **automated evaluation of text quality and topic modeling**, spanning methods for dynamic topic discovery (contrastive learning, LLM-based modeling, neural networks), cross-prompt and domain-adaptive essay scoring, and rubric-based NLG evaluation. Applications include student essay assessment (topic relevance, automated scoring), topic classification of short/web texts, and dialogue/summar
+This skill covers **automated evaluation of written and spoken content** combined with **topic modeling methods**, spanning transformer-based and LLM-driven approaches for essay scoring (including cross-prompt and domain-specific settings), dynamic topic model evaluation and evolution tracking, and short-text topic modeling using augmentation and large language models. Applications include educational assessment (student essay relevance scoring, Chinese K-
 
 ## Entry Index
 

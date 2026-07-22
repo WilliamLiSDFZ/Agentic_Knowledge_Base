@@ -1,6 +1,7 @@
 ---
 title: "Vector Quantization Prompting for Continual Learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/3baf4eeffad860ca9c54aeab632716b4-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/3baf4eeffad860ca9c54aeab632716b4-Paper-Conference.pdf"
 categories: ['graph-neural-networks-and-representation-learning', 'llm-training-and-optimization-techniques']
 tags: ['continual-learning', 'vector-quantization', 'prompt-tuning']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Unveiling the Achilles’ Heel of NLG Evaluators: A Unified Adversarial Framework Driven by Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.80/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'nlp-benchmark-design-and-interpretability']
 tags: ['NLG-evaluation', 'adversarial-robustness', 'automatic-metrics']
 venue: "ACL 2024"

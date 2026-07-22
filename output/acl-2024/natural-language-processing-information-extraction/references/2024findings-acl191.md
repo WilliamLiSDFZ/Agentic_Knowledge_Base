@@ -1,6 +1,7 @@
 ---
 title: "Refine, Align, and Aggregate: Multi-view Linguistic Features Enhancement for Aspect Sentiment Triplet Extraction"
 source: "https://aclanthology.org/2024.findings-acl.191/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction']
 tags: ['aspect-sentiment-triplet-extraction', 'multi-view', 'linguistic-features']
 venue: "ACL 2024"

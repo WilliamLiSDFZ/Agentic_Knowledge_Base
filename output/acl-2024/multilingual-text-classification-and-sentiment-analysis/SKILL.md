@@ -1,12 +1,12 @@
 ---
 name: multilingual-text-classification-and-sentiment-analysis
 description: >-
-  This skill covers multilingual and cross-lingual NLP tasks including sentiment analysis (aspect-based, quad prediction), text classification, language identification (including code-switching), and semantic similarity across diverse languages and scripts, with particular emphasis on low-resource and non-English settings (Ottoman, Indic, code-mixed languages). Core methods include LLM-based augmentation, in
+  This skill covers multilingual and cross-lingual natural language processing tasks including sentiment analysis (aspect-based, quad prediction), text classification, language identification (including code-switching), and text generation (summarization, machine translation), applied across diverse language families and low-resource settings. Core methods include LLM-based data augmentation, in-context learning, cross-lingual transfer,
 ---
 
 # Multilingual Text Classification And Sentiment Analysis
 
-This skill covers multilingual and cross-lingual NLP tasks including sentiment analysis (aspect-based, quad prediction), text classification, language identification (including code-switching), and semantic similarity across diverse languages and scripts, with particular emphasis on low-resource and non-English settings (Ottoman, Indic, code-mixed languages). Core methods include LLM-based augmentation, in
+This skill covers multilingual and cross-lingual natural language processing tasks including sentiment analysis (aspect-based, quad prediction), text classification, language identification (including code-switching), and text generation (summarization, machine translation), applied across diverse language families and low-resource settings. Core methods include LLM-based data augmentation, in-context learning, cross-lingual transfer,
 
 ## Entry Index
 

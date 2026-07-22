@@ -1,6 +1,7 @@
 ---
 title: "MEQA: A Benchmark for Multi-hop Event-centric Question Answering with Explanations"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/e560a0b22e4432003d0dba63ff8dc457-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/e560a0b22e4432003d0dba63ff8dc457-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'statistical-inference-and-text-generation-methods\n\nhmm,-let-me-reconsider---looking-more-carefully-at-the-cluster:\n\n**score-matching-and-sampling-methods**']
 tags: ['multi-hop-question-answering', 'event-centric-reasoning', 'benchmark']
 venue: "NeurIPS 2024"

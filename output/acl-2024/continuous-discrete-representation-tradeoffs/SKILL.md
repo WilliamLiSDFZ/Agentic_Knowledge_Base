@@ -1,12 +1,12 @@
 ---
 name: continuous-discrete-representation-tradeoffs
 description: >-
-  This skill covers the tradeoffs between continuous (embedding/latent space) and discrete (token/quantized) representations across NLP and multimodal tasks, including vector quantization methods, speech/sign language tokenization, and pixel-space autoregression. It addresses how models encode, compress, and decode information through techniques like VQ-VAE variants, wavelet transforms,
+  This skill covers the tradeoffs between continuous and discrete representations in NLP/multimodal systems, including vector quantization methods (VQ-VAE variants), speech/sign language tokenization codecs, pixel-space autoregressive modeling, and unified discrete sequence modeling across modalities (text, audio, video). It also encompasses embedding space decomposition, disentanglement techniques,
 ---
 
 # Continuous Discrete Representation Tradeoffs
 
-This skill covers the tradeoffs between continuous (embedding/latent space) and discrete (token/quantized) representations across NLP and multimodal tasks, including vector quantization methods, speech/sign language tokenization, and pixel-space autoregression. It addresses how models encode, compress, and decode information through techniques like VQ-VAE variants, wavelet transforms,
+This skill covers the tradeoffs between continuous and discrete representations in NLP/multimodal systems, including vector quantization methods (VQ-VAE variants), speech/sign language tokenization codecs, pixel-space autoregressive modeling, and unified discrete sequence modeling across modalities (text, audio, video). It also encompasses embedding space decomposition, disentanglement techniques,
 
 ## Entry Index
 

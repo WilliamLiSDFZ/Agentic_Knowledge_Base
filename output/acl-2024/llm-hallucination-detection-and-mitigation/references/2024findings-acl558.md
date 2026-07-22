@@ -1,6 +1,7 @@
 ---
 title: "Fact-Checking the Output of Large Language Models via Token-Level Uncertainty Quantification"
 source: "https://aclanthology.org/2024.findings-acl.558/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation']
 tags: ['hallucination-detection', 'uncertainty-quantification', 'token-level-analysis']
 venue: "ACL 2024"

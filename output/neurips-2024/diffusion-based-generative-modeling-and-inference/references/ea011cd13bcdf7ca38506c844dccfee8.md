@@ -1,6 +1,7 @@
 ---
 title: "$\textit{Bifr\'ost}$: 3D-Aware Image Compositing with Language Instructions"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ea011cd13bcdf7ca38506c844dccfee8-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ea011cd13bcdf7ca38506c844dccfee8-Paper-Conference.pdf"
 categories: ['diffusion-based-generative-modeling-and-inference', 'visual-language-multimodal-generation-reasoning']
 tags: ['image-compositing', '3D-aware', 'diffusion-models', 'language-instructions', 'spatial-reasoning']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "IncomeSCM: From tabular data set to time-series simulator and causal estimation benchmark"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/f5c7fb98367440a5eb01d70294c180ca-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/f5c7fb98367440a5eb01d70294c180ca-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['causal-discovery-and-inference-methods']
 tags: ['causal-estimation', 'benchmark', 'time-series-simulator']
 venue: "NeurIPS 2024"

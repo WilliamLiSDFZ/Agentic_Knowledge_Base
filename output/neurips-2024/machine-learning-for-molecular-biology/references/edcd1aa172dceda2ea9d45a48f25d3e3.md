@@ -1,6 +1,7 @@
 ---
 title: "PhyloGen: Language Model-Enhanced Phylogenetic Inference via Graph Structure Generation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/edcd1aa172dceda2ea9d45a48f25d3e3-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/edcd1aa172dceda2ea9d45a48f25d3e3-Paper-Conference.pdf"
 categories: ['machine-learning-for-molecular-biology']
 tags: ['phylogenetic-inference', 'language-model', 'graph-generation', 'evolutionary-trees', 'mcmc']
 venue: "NeurIPS 2024"

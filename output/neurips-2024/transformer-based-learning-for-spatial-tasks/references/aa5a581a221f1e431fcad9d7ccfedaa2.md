@@ -1,6 +1,7 @@
 ---
 title: "SSA-Seg: Semantic and Spatial Adaptive Pixel-level Classifier for Semantic Segmentation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/aa5a581a221f1e431fcad9d7ccfedaa2-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/aa5a581a221f1e431fcad9d7ccfedaa2-Paper-Conference.pdf"
 categories: ['transformer-based-learning-for-spatial-tasks']
 tags: ['semantic-segmentation', 'adaptive-classifier', 'prototype-deviation']
 venue: "NeurIPS 2024"

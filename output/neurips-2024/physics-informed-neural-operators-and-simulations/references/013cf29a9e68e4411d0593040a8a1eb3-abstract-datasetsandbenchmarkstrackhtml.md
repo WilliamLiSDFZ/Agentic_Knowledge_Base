@@ -1,6 +1,7 @@
 ---
 title: "DrivAerNet++: A Large-Scale Multimodal Car Dataset with Computational Fluid Dynamics Simulations and Deep Learning Benchmarks"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/013cf29a9e68e4411d0593040a8a1eb3-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/013cf29a9e68e4411d0593040a8a1eb3-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['physics-informed-neural-operators-and-simulations', 'neural-geometric-shape-representation-learning']
 tags: ['aerodynamic-car-design', 'CFD-simulation', 'multimodal-dataset']
 venue: "NeurIPS 2024"

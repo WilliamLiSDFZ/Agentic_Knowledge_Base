@@ -1,6 +1,7 @@
 ---
 title: "Explore Spurious Correlations at the Concept Level in Language Models for Text Classification"
 source: "https://aclanthology.org/2024.acl-long.28/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces', 'nlp-text-classification-applied-tasks']
 tags: ['spurious-correlations', 'concept-level', 'text-classification']
 venue: "ACL 2024"

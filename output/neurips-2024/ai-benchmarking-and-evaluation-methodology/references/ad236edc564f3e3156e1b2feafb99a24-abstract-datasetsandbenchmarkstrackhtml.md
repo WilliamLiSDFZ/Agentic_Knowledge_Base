@@ -1,6 +1,7 @@
 ---
 title: "MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ad236edc564f3e3156e1b2feafb99a24-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ad236edc564f3e3156e1b2feafb99a24-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['LLM-benchmark', 'MMLU', 'multi-task-language-understanding', 'robustness', 'evaluation']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "BertaQA: How Much Do Language Models Know About Local Culture?"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/3bb42f6bb1b1ab6809afd6c90865b087-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/3bb42f6bb1b1ab6809afd6c90865b087-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-values-ethics-alignment-evaluation']
 tags: ['cultural-knowledge', 'LLM-evaluation', 'local-culture']
 venue: "NeurIPS 2024"

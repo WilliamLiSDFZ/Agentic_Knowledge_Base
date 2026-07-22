@@ -1,6 +1,7 @@
 ---
 title: "LogiCity: Advancing Neuro-Symbolic AI with Abstract Urban Simulation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/8196be81e68289d7a9ece21ed7f5750a-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/8196be81e68289d7a9ece21ed7f5750a-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['neural-networks-for-formal-reasoning-and-verification', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['neuro-symbolic-AI', 'urban-simulation', 'multi-agent', 'long-horizon-reasoning']
 venue: "NeurIPS 2024"

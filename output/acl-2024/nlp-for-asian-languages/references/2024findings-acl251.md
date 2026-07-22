@@ -1,6 +1,7 @@
 ---
 title: "Wav2SQL: Direct Generalizable Speech-To-SQL Parsing"
 source: "https://aclanthology.org/2024.findings-acl.251/"
+pdf_url: ""
 categories: ['text-to-sql-parsing-and-benchmarks', 'nlp-for-asian-languages']
 tags: ['speech-to-sql', 'multi-accent', 'gradient-reversal']
 venue: "ACL 2024"

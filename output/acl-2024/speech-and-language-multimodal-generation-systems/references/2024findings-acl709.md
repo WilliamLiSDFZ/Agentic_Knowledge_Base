@@ -1,6 +1,7 @@
 ---
 title: "On the Evaluation of Speech Foundation Models for Spoken Language Understanding"
 source: "https://aclanthology.org/2024.findings-acl.709/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems', 'llm-training-alignment-and-evaluation']
 tags: ['spoken-language-understanding', 'speech-foundation-models', 'benchmark-evaluation']
 venue: "ACL 2024"

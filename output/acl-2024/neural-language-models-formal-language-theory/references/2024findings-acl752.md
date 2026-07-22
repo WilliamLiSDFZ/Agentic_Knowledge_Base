@@ -1,6 +1,7 @@
 ---
 title: "Strong hallucinations from negation and how to fix them"
 source: "https://aclanthology.org/2024.findings-acl.752/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'neural-language-models-formal-language-theory']
 tags: ['hallucination', 'negation', 'logical-consistency']
 venue: "ACL 2024"

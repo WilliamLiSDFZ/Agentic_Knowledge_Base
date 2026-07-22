@@ -1,12 +1,12 @@
 ---
 name: language-model-representations-and-embedding-spaces
 description: >-
-  This skill covers the analysis, interpretation, and manipulation of internal representations and embedding spaces in language models, including how semantic information (lexical meaning, negation, temporal knowledge, visual attributes) is encoded across layers, tokens, and modalities. It encompasses methods such as probing, inversion attacks, distillation, sparse activation, and cross-modal projection analysis, with applications in semantic search
+  This skill covers the analysis, interpretation, and manipulation of internal representations and embedding spaces in language models, including how semantic information (lexical meaning, negation, temporal knowledge, visual attributes) is encoded across layers, tokens, and modalities. Methods include probing, inversion attacks, distillation, sparse activation, cross-modal projection analysis, and embedding improvement techniques, applied to tasks such
 ---
 
 # Language Model Representations And Embedding Spaces
 
-This skill covers the analysis, interpretation, and manipulation of internal representations and embedding spaces in language models, including how semantic information (lexical meaning, negation, temporal knowledge, visual attributes) is encoded across layers, tokens, and modalities. It encompasses methods such as probing, inversion attacks, distillation, sparse activation, and cross-modal projection analysis, with applications in semantic search
+This skill covers the analysis, interpretation, and manipulation of internal representations and embedding spaces in language models, including how semantic information (lexical meaning, negation, temporal knowledge, visual attributes) is encoded across layers, tokens, and modalities. Methods include probing, inversion attacks, distillation, sparse activation, cross-modal projection analysis, and embedding improvement techniques, applied to tasks such
 
 ## Entry Index
 

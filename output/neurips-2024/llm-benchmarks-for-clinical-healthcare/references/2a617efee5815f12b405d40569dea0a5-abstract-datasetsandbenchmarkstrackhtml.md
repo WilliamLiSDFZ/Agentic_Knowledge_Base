@@ -1,6 +1,7 @@
 ---
 title: "Cross-Care: Assessing the Healthcare Implications of Pre-training Data on Language Model Bias"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/2a617efee5815f12b405d40569dea0a5-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/2a617efee5815f12b405d40569dea0a5-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-benchmarks-for-clinical-healthcare', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['LLM-bias', 'pre-training-data', 'healthcare-benchmarking']
 venue: "NeurIPS 2024"

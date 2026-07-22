@@ -1,12 +1,12 @@
 ---
 name: causal-attention-clustering-mechanism
 description: >-
-  **Causal-attention-clustering-mechanism** covers the analysis and exploitation of cluster structures that emerge in causal (autoregressive) attention masks, where tokens naturally group based on attention patterns or positional relationships. This includes methods for identifying, leveraging, or inducing such clusters to improve computational efficiency, interpretability, or sequence modeling performance in transformer-based architectures.
+  **Causal-attention-clustering-mechanism** covers the analysis and exploitation of emergent clustering behavior in causal (autoregressive) self-attention masks, where tokens or attention heads naturally group into discrete clusters based on attention weight patterns. This skill addresses how such clustering phenomena can be characterized, leveraged, or controlled to improve efficiency, interpretability, or representational structure in transformer-
 ---
 
 # Causal Attention Clustering Mechanism
 
-**Causal-attention-clustering-mechanism** covers the analysis and exploitation of cluster structures that emerge in causal (autoregressive) attention masks, where tokens naturally group based on attention patterns or positional relationships. This includes methods for identifying, leveraging, or inducing such clusters to improve computational efficiency, interpretability, or sequence modeling performance in transformer-based architectures.
+**Causal-attention-clustering-mechanism** covers the analysis and exploitation of emergent clustering behavior in causal (autoregressive) self-attention masks, where tokens or attention heads naturally group into discrete clusters based on attention weight patterns. This skill addresses how such clustering phenomena can be characterized, leveraged, or controlled to improve efficiency, interpretability, or representational structure in transformer-
 
 ## Entry Index
 

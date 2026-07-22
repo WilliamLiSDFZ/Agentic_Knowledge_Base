@@ -1,6 +1,7 @@
 ---
 title: "GATE X-E : A Challenge Set for Gender-Fair Translations from Weakly-Gendered Languages"
 source: "https://aclanthology.org/2024.findings-acl.504/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'bias-and-fairness-in-llms']
 tags: ['gender-bias', 'machine-translation', 'benchmark', 'weakly-gendered-languages', 'gender-fair']
 venue: "ACL 2024"

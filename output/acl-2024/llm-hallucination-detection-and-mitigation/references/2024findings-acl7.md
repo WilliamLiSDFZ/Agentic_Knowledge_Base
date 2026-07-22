@@ -1,6 +1,7 @@
 ---
 title: "The Counterfeit Conundrum: Can Code Language Models Grasp the Nuances of Their Incorrect Generations?"
 source: "https://aclanthology.org/2024.findings-acl.7/"
+pdf_url: ""
 categories: ['code-llm-generation-and-evaluation', 'llm-hallucination-detection-and-mitigation']
 tags: ['code-generation', 'error-understanding', 'counterfeit-programs']
 venue: "ACL 2024"

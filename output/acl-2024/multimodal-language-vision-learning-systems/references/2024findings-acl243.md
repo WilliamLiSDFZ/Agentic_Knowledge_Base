@@ -1,6 +1,7 @@
 ---
 title: "Optimal Transport Guided Correlation Assignment for Multimodal Entity Linking"
 source: "https://aclanthology.org/2024.findings-acl.243/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'concept-embedding-taxonomy-hierarchy-representation']
 tags: ['multimodal-entity-linking', 'optimal-transport', 'knowledge-graph', 'modality-gap', 'correlation']
 venue: "ACL 2024"

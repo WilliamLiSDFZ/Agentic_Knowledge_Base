@@ -1,6 +1,7 @@
 ---
 title: "A Simulation Benchmark for Autonomous Racing with Large-Scale Human Data"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/b91ea2ba1b6521940e204b7b81d5ef47-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/b91ea2ba1b6521940e204b7b81d5ef47-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['autonomous-driving-and-trajectory-prediction', 'reinforcement-learning-optimization-and-decision-making']
 tags: ['autonomous-racing', 'simulation-benchmark', 'human-driving-data']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "UniTox: Leveraging LLMs to Curate a Unified Dataset of Drug-Induced Toxicity from FDA Labels"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/16659e412de3965fa195ddb9f2c4b356-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/16659e412de3965fa195ddb9f2c4b356-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['machine-learning-for-molecular-biology']
 tags: ['drug-toxicity', 'LLM-curation', 'molecular-property-prediction']
 venue: "NeurIPS 2024"

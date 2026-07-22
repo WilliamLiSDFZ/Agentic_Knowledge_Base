@@ -1,6 +1,7 @@
 ---
 title: "MathPile: A Billion-Token-Scale Pretraining Corpus for Math"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/2d0be3cd5173c10b6ec075d1c393a13d-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/2d0be3cd5173c10b6ec075d1c393a13d-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-training-and-optimization-techniques']
 tags: ['math-pretraining', 'corpus-curation', 'foundation-models']
 venue: "NeurIPS 2024"

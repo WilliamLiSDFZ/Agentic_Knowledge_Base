@@ -1,6 +1,7 @@
 ---
 title: "Views Are My Own, but Also Yours: Benchmarking Theory of Mind Using Common Ground"
 source: "https://aclanthology.org/2024.findings-acl.880/"
+pdf_url: ""
 categories: ['language-model-human-cognitive-linguistic-alignment', 'llm-training-alignment-and-evaluation']
 tags: ['theory-of-mind', 'common-ground', 'benchmark']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Fundamental Limits of Prompt Compression: A Rate-Distortion Framework for Black-Box Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ac8fbba029dadca99d6b8c3f913d3ed6-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ac8fbba029dadca99d6b8c3f913d3ed6-Paper-Conference.pdf"
 categories: ['llm-training-and-optimization-techniques']
 tags: ['prompt-compression', 'rate-distortion', 'black-box-LLMs', 'information-theory', 'token-level-compression']
 venue: "NeurIPS 2024"

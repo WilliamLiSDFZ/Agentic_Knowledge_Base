@@ -1,6 +1,7 @@
 ---
 title: "Cleaner Pretraining Corpus Curation with Neural Web Scraping"
 source: "https://aclanthology.org/2024.acl-short.72/"
+pdf_url: ""
 categories: ['web-data-quality-and-llm-evaluation']
 tags: ['web-scraping', 'pretraining-data', 'corpus-curation']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Efficient Knowledge Infusion via KG-LLM Alignment"
 source: "https://aclanthology.org/2024.findings-acl.176/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llms-for-biomedical-and-clinical-nlp']
 tags: ['knowledge-graph', 'llm-alignment', 'domain-knowledge-infusion']
 venue: "ACL 2024"

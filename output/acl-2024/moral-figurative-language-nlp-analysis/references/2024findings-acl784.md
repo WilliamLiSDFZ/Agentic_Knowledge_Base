@@ -1,6 +1,7 @@
 ---
 title: "Figuratively Speaking: Authorship Attribution via Multi-Task Figurative Language Modeling"
 source: "https://aclanthology.org/2024.findings-acl.784/"
+pdf_url: ""
 categories: ['moral-figurative-language-nlp-analysis', 'natural-language-processing-information-extraction']
 tags: ['authorship-attribution', 'figurative-language', 'multi-task-learning']
 venue: "ACL 2024"

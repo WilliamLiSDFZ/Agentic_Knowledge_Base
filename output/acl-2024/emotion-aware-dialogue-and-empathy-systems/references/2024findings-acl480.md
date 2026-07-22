@@ -1,6 +1,7 @@
 ---
 title: "ECoK: Emotional Commonsense Knowledge Graph for Mining Emotional Gold"
 source: "https://aclanthology.org/2024.findings-acl.480/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems']
 tags: ['emotional-commonsense', 'knowledge-graph', 'emotion-understanding']
 venue: "ACL 2024"

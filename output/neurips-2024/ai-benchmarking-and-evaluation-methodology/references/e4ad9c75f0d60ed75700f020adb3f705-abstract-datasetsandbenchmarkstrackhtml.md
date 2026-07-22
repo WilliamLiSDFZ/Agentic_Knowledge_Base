@@ -1,6 +1,7 @@
 ---
 title: "INQUIRE: A Natural World Text-to-Image Retrieval Benchmark"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/e4ad9c75f0d60ed75700f020adb3f705-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/e4ad9c75f0d60ed75700f020adb3f705-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['text-to-image-retrieval', 'benchmark', 'natural-world']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Automated Focused Feedback Generation for Scientific Writing Assistance"
 source: "https://aclanthology.org/2024.findings-acl.580/"
+pdf_url: ""
 categories: ['educational-question-generation-and-comprehension', 'llm-training-alignment-and-evaluation']
 tags: ['scientific-writing', 'automated-feedback', 'peer-review']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Estimating Heterogeneous Treatment Effects by Combining Weak Instruments and Observational Data"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d738aefead8500f5aed667f0a7ca7b7c-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d738aefead8500f5aed667f0a7ca7b7c-Paper-Conference.pdf"
 categories: ['quantile-based-conditional-treatment-effect-estimation']
 tags: ['heterogeneous-treatment-effects', 'instrumental-variables', 'observational-data']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Self-Supervised Singing Voice Pre-Training towards Speech-to-Singing Conversion"
 source: "https://aclanthology.org/2024.findings-acl.585/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems', 'multimodal-language-vision-learning-systems']
 tags: ['speech-to-singing', 'self-supervised', 'voice-conversion']
 venue: "ACL 2024"

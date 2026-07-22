@@ -1,6 +1,7 @@
 ---
 title: "Beyond Literal Descriptions: Understanding and Locating Open-World Objects Aligned with Human Intentions"
 source: "https://aclanthology.org/2024.findings-acl.43/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llm-agents-reasoning-and-planning']
 tags: ['visual-grounding', 'human-intent', 'open-world']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "A Hitchhiker's Guide to Fine-Grained Face Forgery Detection Using Common Sense Reasoning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/059d2b9188cdb7ae00f4d78cc9469704-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/059d2b9188cdb7ae00f4d78cc9469704-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'llm-safety-robustness-and-privacy-defenses']
 tags: ['face-forgery-detection', 'common-sense-reasoning', 'explainability']
 venue: "NeurIPS 2024"

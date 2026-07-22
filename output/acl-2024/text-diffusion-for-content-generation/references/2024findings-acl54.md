@@ -1,6 +1,7 @@
 ---
 title: "DiffusPoll: Conditional Text Diffusion Model for Poll Generation"
 source: "https://aclanthology.org/2024.findings-acl.54/"
+pdf_url: ""
 categories: ['text-diffusion-for-content-generation', 'social-ai-temporal-dynamics-evaluation']
 tags: ['text-diffusion', 'poll-generation', 'social-media']
 venue: "ACL 2024"

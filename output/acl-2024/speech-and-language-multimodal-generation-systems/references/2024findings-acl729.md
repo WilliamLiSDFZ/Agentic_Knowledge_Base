@@ -1,6 +1,7 @@
 ---
 title: "X-ACE: Explainable and Multi-factor Audio Captioning Evaluation"
 source: "https://aclanthology.org/2024.findings-acl.729/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems', 'emotion-aware-dialogue-and-empathy-systems']
 tags: ['audio-captioning', 'evaluation-metrics', 'explainability', 'multi-factor']
 venue: "ACL 2024"

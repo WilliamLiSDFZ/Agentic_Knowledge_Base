@@ -1,6 +1,7 @@
 ---
 title: "Decomposing Argumentative Essay Generation via Dialectical Planning of Complex Reasoning"
 source: "https://aclanthology.org/2024.findings-acl.731/"
+pdf_url: ""
 categories: ['topic-modeling-and-essay-evaluation', 'causal-reasoning-and-explanation-in-nlp']
 tags: ['argumentative-essay-generation', 'dialectical-planning', 'complex-reasoning', 'computational-argumentation']
 venue: "ACL 2024"

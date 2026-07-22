@@ -1,6 +1,7 @@
 ---
 title: "Knowledge Context Modeling with Pre-trained Language Models for Contrastive Knowledge Graph Completion"
 source: "https://aclanthology.org/2024.findings-acl.509/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'language-model-representations-and-embedding-spaces']
 tags: ['knowledge-graph-completion', 'contrastive-learning', 'PLMs']
 venue: "ACL 2024"

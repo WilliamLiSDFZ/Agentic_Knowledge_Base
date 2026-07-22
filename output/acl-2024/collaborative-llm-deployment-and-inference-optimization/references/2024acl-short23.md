@@ -1,6 +1,7 @@
 ---
 title: "Sketch-Guided Constrained Decoding for Boosting Blackbox Large Language Models without Logit Access"
 source: "https://aclanthology.org/2024.acl-short.23/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'collaborative-llm-deployment-and-inference-optimization']
 tags: ['constrained-decoding', 'black-box-LLMs', 'text-generation', 'sketch-guided', 'inference']
 venue: "ACL 2024"

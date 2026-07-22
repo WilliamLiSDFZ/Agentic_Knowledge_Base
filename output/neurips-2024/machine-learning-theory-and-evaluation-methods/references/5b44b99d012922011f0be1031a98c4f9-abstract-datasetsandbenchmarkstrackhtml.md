@@ -1,6 +1,7 @@
 ---
 title: "dopanim: A Dataset of Doppelganger Animals with Noisy Annotations from Multiple Humans"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/5b44b99d012922011f0be1031a98c4f9-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/5b44b99d012922011f0be1031a98c4f9-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'machine-learning-theory-and-evaluation-methods']
 tags: ['noisy-annotations', 'doppelganger-animals', 'multi-annotator']
 venue: "NeurIPS 2024"

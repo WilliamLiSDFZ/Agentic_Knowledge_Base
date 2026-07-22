@@ -1,6 +1,7 @@
 ---
 title: "Integrating Pre-Trained Speech and Language Models for End-to-End Speech Recognition"
 source: "https://aclanthology.org/2024.findings-acl.787/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems', 'transformer-architecture-analysis-and-design']
 tags: ['ASR', 'speech-recognition', 'pre-trained-models', 'end-to-end', 'integration']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "ColJailBreak: Collaborative Generation and Editing for Jailbreaking Text-to-Image Deep Generation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/6f11132f6ecbbcafafdf6decfc98f7be-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/6f11132f6ecbbcafafdf6decfc98f7be-Paper-Conference.pdf"
 categories: ['llm-safety-robustness-and-privacy-defenses', 'generative-models-for-visual-style-and-appearance']
 tags: ['jailbreaking', 'text-to-image', 'safety-filter-bypass']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "MathBench: Evaluating the Theory and Application Proficiency of LLMs with a Hierarchical Mathematics Benchmark"
 source: "https://aclanthology.org/2024.findings-acl.411/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'financial-reasoning-llm-benchmarks-and-datasets']
 tags: ['math-benchmark', 'hierarchical', 'llm-evaluation', 'theory-application', 'mathematics']
 venue: "ACL 2024"

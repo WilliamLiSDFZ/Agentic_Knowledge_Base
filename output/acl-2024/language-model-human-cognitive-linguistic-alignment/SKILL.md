@@ -1,12 +1,12 @@
 ---
 name: language-model-human-cognitive-linguistic-alignment
 description: >-
-  This research area investigates the degree to which language models align with, deviate from, or can model human cognitive and linguistic processes, using methods such as psycholinguistic benchmarks (structural priming, overregularization, predictability measures), Theory of Mind evaluations, analogical reasoning tasks, and personality/dialect assessments to compare LLM behavior against human cognitive profiles, developmental
+  This research area investigates the degree to which language models align with or diverge from human cognitive and linguistic behavior, using methods such as psycholinguistic benchmarks (structural priming, overregularization, noun-noun compound interpretation), theory-of-mind evaluations, analogical reasoning tasks, and personality/dialect attitude surveys. Applications span using LMs as cognitive models of human language
 ---
 
 # Language Model Human Cognitive Linguistic Alignment
 
-This research area investigates the degree to which language models align with, deviate from, or can model human cognitive and linguistic processes, using methods such as psycholinguistic benchmarks (structural priming, overregularization, predictability measures), Theory of Mind evaluations, analogical reasoning tasks, and personality/dialect assessments to compare LLM behavior against human cognitive profiles, developmental
+This research area investigates the degree to which language models align with or diverge from human cognitive and linguistic behavior, using methods such as psycholinguistic benchmarks (structural priming, overregularization, noun-noun compound interpretation), theory-of-mind evaluations, analogical reasoning tasks, and personality/dialect attitude surveys. Applications span using LMs as cognitive models of human language
 
 ## Entry Index
 

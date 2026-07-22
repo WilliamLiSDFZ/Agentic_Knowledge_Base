@@ -1,6 +1,7 @@
 ---
 title: "Book2Dial: Generating Teacher Student Interactions from Textbooks for Cost-Effective Development of Educational Chatbots"
 source: "https://aclanthology.org/2024.findings-acl.578/"
+pdf_url: ""
 categories: ['educational-question-generation-and-comprehension', 'llm-training-alignment-and-evaluation']
 tags: ['educational-chatbot', 'synthetic-data', 'dialogue-generation']
 venue: "ACL 2024"

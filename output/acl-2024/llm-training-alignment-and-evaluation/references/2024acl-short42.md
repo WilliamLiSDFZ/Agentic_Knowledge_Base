@@ -1,6 +1,7 @@
 ---
 title: "DocFinQA: A Long-Context Financial Reasoning Dataset"
 source: "https://aclanthology.org/2024.acl-short.42/"
+pdf_url: ""
 categories: ['financial-reasoning-llm-benchmarks-and-datasets', 'llm-training-alignment-and-evaluation']
 tags: ['financial-reasoning', 'long-context', 'document-qa']
 venue: "ACL 2024"

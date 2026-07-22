@@ -1,6 +1,7 @@
 ---
 title: "X-Instruction: Aligning Language Model in Low-resource Languages with Self-curated Cross-lingual Instructions"
 source: "https://aclanthology.org/2024.findings-acl.30/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity']
 tags: ['low-resource-languages', 'cross-lingual', 'instruction-tuning']
 venue: "ACL 2024"

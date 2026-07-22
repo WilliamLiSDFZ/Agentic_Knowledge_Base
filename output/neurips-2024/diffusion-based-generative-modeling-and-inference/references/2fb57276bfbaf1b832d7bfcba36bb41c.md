@@ -1,6 +1,7 @@
 ---
 title: "Streaming Bayes GFlowNets"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/2fb57276bfbaf1b832d7bfcba36bb41c-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/2fb57276bfbaf1b832d7bfcba36bb41c-Paper-Conference.pdf"
 categories: ['diffusion-based-generative-modeling-and-inference']
 tags: ['gflownets', 'streaming-inference', 'bayesian-updates', 'posterior-estimation', 'continual-learning']
 venue: "NeurIPS 2024"

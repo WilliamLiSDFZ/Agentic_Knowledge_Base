@@ -1,6 +1,7 @@
 ---
 title: "Exploring Chain-of-Thought for Multi-modal Metaphor Detection"
 source: "https://aclanthology.org/2024.acl-long.6/"
+pdf_url: ""
 categories: ['moral-figurative-language-nlp-analysis', 'multimodal-language-vision-learning-systems']
 tags: ['metaphor-detection', 'chain-of-thought', 'multimodal']
 venue: "ACL 2024"

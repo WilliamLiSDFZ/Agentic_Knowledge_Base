@@ -1,6 +1,7 @@
 ---
 title: "Mass-Editing Memory with Attention in Transformers: A cross-lingual exploration of knowledge"
 source: "https://aclanthology.org/2024.findings-acl.347/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-training-alignment-and-evaluation']
 tags: ['knowledge-editing', 'cross-lingual', 'transformers', 'multilingual', 'factual-knowledge']
 venue: "ACL 2024"

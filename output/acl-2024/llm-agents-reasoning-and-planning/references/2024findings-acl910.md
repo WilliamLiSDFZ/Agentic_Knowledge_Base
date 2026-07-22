@@ -1,6 +1,7 @@
 ---
 title: "SAGA: A Participant-specific Examination of Story Alternatives and Goal Applicability for a Deeper Understanding of Complex Events"
 source: "https://aclanthology.org/2024.findings-acl.910/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'causal-reasoning-and-explanation-in-nlp']
 tags: ['complex-events', 'goal-reasoning', 'story-understanding']
 venue: "ACL 2024"

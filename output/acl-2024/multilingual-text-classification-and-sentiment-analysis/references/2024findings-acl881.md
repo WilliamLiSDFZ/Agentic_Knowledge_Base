@@ -1,6 +1,7 @@
 ---
 title: "MAPLE: Multilingual Evaluation of Parameter Efficient Finetuning of Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.881/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'multilingual-text-classification-and-sentiment-analysis']
 tags: ['parameter-efficient-finetuning', 'multilingual-evaluation', 'llm']
 venue: "ACL 2024"

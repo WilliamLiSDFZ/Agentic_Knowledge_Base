@@ -1,6 +1,7 @@
 ---
 title: "DPDLLM: A Black-box Framework for Detecting Pre-training Data from Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.35/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'privacy-risks-in-language-model-embeddings']
 tags: ['membership-inference', 'pre-training-data', 'black-box', 'copyright', 'llm-detection']
 venue: "ACL 2024"

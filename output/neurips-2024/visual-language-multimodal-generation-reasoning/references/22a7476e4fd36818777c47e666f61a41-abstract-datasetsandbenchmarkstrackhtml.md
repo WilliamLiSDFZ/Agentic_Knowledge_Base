@@ -1,6 +1,7 @@
 ---
 title: "ShareGPT4Video: Improving Video Understanding and Generation with Better Captions"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/22a7476e4fd36818777c47e666f61a41-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/22a7476e4fd36818777c47e666f61a41-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning']
 tags: ['video-understanding', 'video-captioning', 'GPT4V', 'large-video-language-models', 'text-to-video']
 venue: "NeurIPS 2024"

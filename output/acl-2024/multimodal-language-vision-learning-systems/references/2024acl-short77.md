@@ -1,6 +1,7 @@
 ---
 title: "Don’t Buy it! Reassessing the Ad Understanding Abilities of Contrastive Multimodal Models"
 source: "https://aclanthology.org/2024.acl-short.77/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'moral-figurative-language-nlp-analysis']
 tags: ['advertisement-understanding', 'contrastive-vision-language', 'multimodal-evaluation']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Computational Expressivity of Neural Language Models"
 source: "https://aclanthology.org/2024.acl-tutorials.3/"
+pdf_url: ""
 categories: ['neural-language-models-formal-language-theory', 'transformer-architecture-analysis-and-design']
 tags: ['formal-language-theory', 'neural-language-models', 'expressivity']
 venue: "ACL 2024"

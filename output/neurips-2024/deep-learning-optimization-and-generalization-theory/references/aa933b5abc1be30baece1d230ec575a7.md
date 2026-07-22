@@ -1,6 +1,7 @@
 ---
 title: "Parameter Symmetry and Noise Equilibrium of Stochastic Gradient Descent"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/aa933b5abc1be30baece1d230ec575a7-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/aa933b5abc1be30baece1d230ec575a7-Paper-Conference.pdf"
 categories: ['deep-learning-optimization-and-generalization-theory']
 tags: ['parameter-symmetry', 'stochastic-gradient-descent', 'noise-equilibrium']
 venue: "NeurIPS 2024"

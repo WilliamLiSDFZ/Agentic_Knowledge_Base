@@ -1,6 +1,7 @@
 ---
 title: "Finding and Editing Multi-Modal Neurons in Pre-Trained Transformers"
 source: "https://aclanthology.org/2024.findings-acl.60/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'transformer-architecture-analysis-and-design']
 tags: ['multimodal-neurons', 'model-editing', 'transformers']
 venue: "ACL 2024"

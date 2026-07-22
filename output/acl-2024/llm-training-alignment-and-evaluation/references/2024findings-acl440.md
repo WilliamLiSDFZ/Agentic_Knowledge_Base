@@ -1,6 +1,7 @@
 ---
 title: "An Empirical Study of In-context Learning in LLMs for Machine Translation"
 source: "https://aclanthology.org/2024.findings-acl.440/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'language-technology-cultural-linguistic-diversity']
 tags: ['in-context-learning', 'machine-translation', 'LLMs', 'ICL-analysis', 'multilingual']
 venue: "ACL 2024"

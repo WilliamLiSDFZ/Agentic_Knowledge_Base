@@ -1,6 +1,7 @@
 ---
 title: "ConceptMix: A Compositional Image Generation Benchmark with Controllable Difficulty"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/9c3563bbeb2ad7f3b3b8ed0fcd3b440f-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/9c3563bbeb2ad7f3b3b8ed0fcd3b440f-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['text-to-image', 'compositionality', 'benchmark', 'evaluation', 'controllable-difficulty']
 venue: "NeurIPS 2024"

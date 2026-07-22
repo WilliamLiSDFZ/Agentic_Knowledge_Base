@@ -1,6 +1,7 @@
 ---
 title: "Paying Attention to Deflections: Mining Pragmatic Nuances for Whataboutism Detection in Online Discourse"
 source: "https://aclanthology.org/2024.findings-acl.750/"
+pdf_url: ""
 categories: ['computational-misinformation-narrative-framing-detection', 'online-discourse-mental-health-language-analysis']
 tags: ['whataboutism', 'pragmatic-detection', 'misinformation']
 venue: "ACL 2024"

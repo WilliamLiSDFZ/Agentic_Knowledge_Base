@@ -1,6 +1,7 @@
 ---
 title: "SciMMIR: Benchmarking Scientific Multi-modal Information Retrieval"
 source: "https://aclanthology.org/2024.findings-acl.746/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems']
 tags: ['scientific-retrieval', 'multimodal-benchmark', 'image-text-pairing']
 venue: "ACL 2024"

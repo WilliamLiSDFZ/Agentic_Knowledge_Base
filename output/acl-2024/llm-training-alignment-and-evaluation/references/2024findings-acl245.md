@@ -1,6 +1,7 @@
 ---
 title: "A Survey on Modelling Morality for Text Analysis"
 source: "https://aclanthology.org/2024.findings-acl.245/"
+pdf_url: ""
 categories: ['moral-figurative-language-nlp-analysis', 'llm-training-alignment-and-evaluation']
 tags: ['morality', 'survey', 'text-analysis']
 venue: "ACL 2024"

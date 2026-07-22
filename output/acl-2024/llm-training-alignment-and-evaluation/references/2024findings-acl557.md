@@ -1,6 +1,7 @@
 ---
 title: "Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.557/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'llm-training-alignment-and-evaluation']
 tags: ['agent-tuning', 'llm', 'instruction-following']
 venue: "ACL 2024"

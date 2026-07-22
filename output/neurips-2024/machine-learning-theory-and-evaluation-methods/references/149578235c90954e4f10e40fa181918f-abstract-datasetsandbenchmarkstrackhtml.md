@@ -1,6 +1,7 @@
 ---
 title: "PertEval: Unveiling Real Knowledge Capacity of LLMs with Knowledge-Invariant Perturbations"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/149578235c90954e4f10e40fa181918f-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/149578235c90954e4f10e40fa181918f-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'machine-learning-theory-and-evaluation-methods']
 tags: ['benchmark-reliability', 'data-contamination', 'knowledge-evaluation']
 venue: "NeurIPS 2024"

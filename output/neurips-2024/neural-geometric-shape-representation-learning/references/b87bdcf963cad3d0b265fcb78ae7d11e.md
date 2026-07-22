@@ -1,6 +1,7 @@
 ---
 title: "Learning to Decouple the Lights for 3D Face Texture Modeling"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/b87bdcf963cad3d0b265fcb78ae7d11e-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/b87bdcf963cad3d0b265fcb78ae7d11e-Paper-Conference.pdf"
 categories: ['generative-models-for-visual-style-and-appearance', 'neural-geometric-shape-representation-learning']
 tags: ['3D-face-reconstruction', 'texture-modeling', 'illumination-disentanglement']
 venue: "NeurIPS 2024"

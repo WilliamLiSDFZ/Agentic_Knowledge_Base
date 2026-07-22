@@ -1,6 +1,7 @@
 ---
 title: "Kuro Siwo: 33 billion $m^2$ under the water. A global multi-temporal satellite dataset for rapid flood mapping"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/43612b0662cb6a4986edf859fd6ebafe-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/43612b0662cb6a4986edf859fd6ebafe-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'radar-based-scene-understanding-deep-learning']
 tags: ['flood-mapping', 'satellite-imagery', 'multi-temporal-dataset']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "RoleLLM: Benchmarking, Eliciting, and Enhancing Role-Playing Abilities of Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.878/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'llm-driven-interactive-narrative-and-games']
 tags: ['role-playing', 'LLM-benchmark', 'character-imitation']
 venue: "ACL 2024"

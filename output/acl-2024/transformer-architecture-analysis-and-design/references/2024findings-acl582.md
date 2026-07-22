@@ -1,6 +1,7 @@
 ---
 title: "Pruning Large Language Models to Intra-module Low-rank Architecture with Transitional Activations"
 source: "https://aclanthology.org/2024.findings-acl.582/"
+pdf_url: ""
 categories: ['transformer-architecture-analysis-and-design', 'collaborative-llm-deployment-and-inference-optimization']
 tags: ['structured-pruning', 'low-rank', 'llm-compression']
 venue: "ACL 2024"

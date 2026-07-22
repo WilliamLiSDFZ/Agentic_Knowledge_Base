@@ -1,12 +1,12 @@
 ---
 name: statistical-testing-under-distribution-shift
 description: >-
-  This skill covers statistical hypothesis testing, uncertainty quantification, and model evaluation methods that remain valid or adapt under distribution shift between training and deployment environments. It encompasses techniques including conformal prediction, multiple testing correction, AUC/accuracy estimation, calibration, domain adaptation, and risk-controlling prediction sets, with applications spanning causal inference, differential privacy, policy evaluation, and real-world deployment of
+  This skill covers statistical hypothesis testing, uncertainty quantification, and decision-making methods that remain valid or adapt when the data-generating distribution changes between training and deployment. It encompasses techniques for detecting distribution shift, calibrating models under label/covariate shift, constructing valid prediction intervals and conformal sets, multiple testing with error control, and policy evaluation with external validity—applied to domains including privacy
 ---
 
 # Statistical Testing Under Distribution Shift
 
-This skill covers statistical hypothesis testing, uncertainty quantification, and model evaluation methods that remain valid or adapt under distribution shift between training and deployment environments. It encompasses techniques including conformal prediction, multiple testing correction, AUC/accuracy estimation, calibration, domain adaptation, and risk-controlling prediction sets, with applications spanning causal inference, differential privacy, policy evaluation, and real-world deployment of
+This skill covers statistical hypothesis testing, uncertainty quantification, and decision-making methods that remain valid or adapt when the data-generating distribution changes between training and deployment. It encompasses techniques for detecting distribution shift, calibrating models under label/covariate shift, constructing valid prediction intervals and conformal sets, multiple testing with error control, and policy evaluation with external validity—applied to domains including privacy
 
 ## Entry Index
 

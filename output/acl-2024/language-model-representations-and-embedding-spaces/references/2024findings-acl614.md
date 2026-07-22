@@ -1,6 +1,7 @@
 ---
 title: "Bootstrapped Pre-training with Dynamic Identifier Prediction for Generative Retrieval"
 source: "https://aclanthology.org/2024.findings-acl.614/"
+pdf_url: ""
 categories: ['llm-based-ranking-and-recommendation', 'language-model-representations-and-embedding-spaces']
 tags: ['generative-retrieval', 'pre-training', 'document-identifiers']
 venue: "ACL 2024"

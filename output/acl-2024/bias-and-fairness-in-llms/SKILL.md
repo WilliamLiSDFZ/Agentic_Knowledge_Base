@@ -1,12 +1,12 @@
 ---
 name: bias-and-fairness-in-llms
 description: >-
-  This research area covers the detection, measurement, and mitigation of biases in large language models across social dimensions (gender, age, nationality, culture, beauty) and cognitive/evaluation biases, using methods such as Direct Preference Optimization (DPO), adversarial training, prompt-based metrics, and benchmark construction. It also addresses alignment techniques—including instruction tuning, multi
+  This research area covers the detection, measurement, and mitigation of biases in large language models across social dimensions (gender, age, nationality, culture, beauty) and cognitive/evaluation biases, using methods such as Direct Preference Optimization (DPO), adversarial training, prompt-based fairness metrics, and benchmark construction. It also addresses alignment techniques—including instruction tuning
 ---
 
 # Bias And Fairness In Llms
 
-This research area covers the detection, measurement, and mitigation of biases in large language models across social dimensions (gender, age, nationality, culture, beauty) and cognitive/evaluation biases, using methods such as Direct Preference Optimization (DPO), adversarial training, prompt-based metrics, and benchmark construction. It also addresses alignment techniques—including instruction tuning, multi
+This research area covers the detection, measurement, and mitigation of biases in large language models across social dimensions (gender, age, nationality, culture, beauty) and cognitive/evaluation biases, using methods such as Direct Preference Optimization (DPO), adversarial training, prompt-based fairness metrics, and benchmark construction. It also addresses alignment techniques—including instruction tuning
 
 ## Entry Index
 

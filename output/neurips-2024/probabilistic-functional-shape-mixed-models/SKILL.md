@@ -1,12 +1,12 @@
 ---
 name: probabilistic-functional-shape-mixed-models
 description: >-
-  This skill covers statistical modeling of complex structured data—including shapes, time series, and functional/longitudinal observations—using mixed-effects models, Gaussian processes, and semi-structured neural networks, with inference via methods like Hamiltonian Monte Carlo. Applications span psychological assessment, morphological shape analysis, and size-and-shape functional data, emphasizing probabilistic frameworks that capture both population
+  This skill covers probabilistic modeling of functional, shape, and longitudinal data using methods such as linear mixed-effects models, Gaussian processes, and semi-structured neural networks, with inference via Hamiltonian Monte Carlo and marginalization techniques. Applications span psychological assessment, size-and-shape analysis of time series, and extensions of structured additive models to handle complex, high-dimensional functional
 ---
 
 # Probabilistic Functional Shape Mixed Models
 
-This skill covers statistical modeling of complex structured data—including shapes, time series, and functional/longitudinal observations—using mixed-effects models, Gaussian processes, and semi-structured neural networks, with inference via methods like Hamiltonian Monte Carlo. Applications span psychological assessment, morphological shape analysis, and size-and-shape functional data, emphasizing probabilistic frameworks that capture both population
+This skill covers probabilistic modeling of functional, shape, and longitudinal data using methods such as linear mixed-effects models, Gaussian processes, and semi-structured neural networks, with inference via Hamiltonian Monte Carlo and marginalization techniques. Applications span psychological assessment, size-and-shape analysis of time series, and extensions of structured additive models to handle complex, high-dimensional functional
 
 ## Entry Index
 

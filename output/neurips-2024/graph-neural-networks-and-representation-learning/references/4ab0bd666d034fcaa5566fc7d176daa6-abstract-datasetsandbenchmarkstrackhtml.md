@@ -1,6 +1,7 @@
 ---
 title: "GLBench: A Comprehensive Benchmark for Graph with Large Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/4ab0bd666d034fcaa5566fc7d176daa6-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/4ab0bd666d034fcaa5566fc7d176daa6-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['graph-neural-networks-and-representation-learning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['graph-LLMs', 'benchmark', 'GraphLLM', 'evaluation']
 venue: "NeurIPS 2024"

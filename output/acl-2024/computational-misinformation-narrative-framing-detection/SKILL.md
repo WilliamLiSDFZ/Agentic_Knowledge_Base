@@ -1,12 +1,12 @@
 ---
 name: computational-misinformation-narrative-framing-detection
 description: >-
-  This skill covers computational detection and analysis of misinformation, propaganda, and narrative framing across text, images, and multimodal content, applying methods including LLMs, reinforcement learning, multi-view learning, and benchmark evaluation. Tasks span fact-checking (claim extraction, veracity prediction, evidence summarization, justification generation), fake news and AI-generated content detection, media
+  This skill covers computational detection and analysis of misinformation, propaganda, and narrative framing across text, images, and multimodal content, employing methods such as LLMs, reinforcement learning, multi-view learning, and benchmark-driven evaluation. Tasks include fact-checking (claim extraction, veracity prediction, justification generation), fake news detection, media bias/framing classification
 ---
 
 # Computational Misinformation Narrative Framing Detection
 
-This skill covers computational detection and analysis of misinformation, propaganda, and narrative framing across text, images, and multimodal content, applying methods including LLMs, reinforcement learning, multi-view learning, and benchmark evaluation. Tasks span fact-checking (claim extraction, veracity prediction, evidence summarization, justification generation), fake news and AI-generated content detection, media
+This skill covers computational detection and analysis of misinformation, propaganda, and narrative framing across text, images, and multimodal content, employing methods such as LLMs, reinforcement learning, multi-view learning, and benchmark-driven evaluation. Tasks include fact-checking (claim extraction, veracity prediction, justification generation), fake news detection, media bias/framing classification
 
 ## Entry Index
 

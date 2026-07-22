@@ -1,6 +1,7 @@
 ---
 title: "Building Bridges: A Dataset for Evaluating Gender-Fair Machine Translation into German"
 source: "https://aclanthology.org/2024.findings-acl.448/"
+pdf_url: ""
 categories: ['bias-and-fairness-in-llms', 'language-technology-cultural-linguistic-diversity']
 tags: ['gender-fair-language', 'machine-translation', 'german']
 venue: "ACL 2024"

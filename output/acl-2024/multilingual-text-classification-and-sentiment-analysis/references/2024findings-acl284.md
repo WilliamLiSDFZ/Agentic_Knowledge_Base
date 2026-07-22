@@ -1,6 +1,7 @@
 ---
 title: "Instruction Tuning with Retrieval-based Examples Ranking for Aspect-based Sentiment Analysis"
 source: "https://aclanthology.org/2024.findings-acl.284/"
+pdf_url: ""
 categories: ['multilingual-text-classification-and-sentiment-analysis', 'llm-training-alignment-and-evaluation']
 tags: ['aspect-based-sentiment-analysis', 'instruction-tuning', 'retrieval-augmented-examples']
 venue: "ACL 2024"

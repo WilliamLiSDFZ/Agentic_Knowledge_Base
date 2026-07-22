@@ -1,6 +1,7 @@
 ---
 title: "Explainability and Hate Speech: Structured Explanations Make Social Media Moderators Faster"
 source: "https://aclanthology.org/2024.acl-short.38/"
+pdf_url: ""
 categories: ['hate-speech-and-toxic-content-detection', 'causal-reasoning-and-explanation-in-nlp']
 tags: ['hate-speech', 'content-moderation', 'explainability']
 venue: "ACL 2024"

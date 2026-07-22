@@ -1,6 +1,7 @@
 ---
 title: "Referral Augmentation for Zero-Shot Information Retrieval"
 source: "https://aclanthology.org/2024.findings-acl.798/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'llm-based-ranking-and-recommendation']
 tags: ['zero-shot-retrieval', 'referral-augmentation', 'document-indexing']
 venue: "ACL 2024"

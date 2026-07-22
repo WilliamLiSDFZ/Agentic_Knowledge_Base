@@ -1,6 +1,7 @@
 ---
 title: "MODDP: A Multi-modal Open-domain Chinese Dataset for Dialogue Discourse Parsing"
 source: "https://aclanthology.org/2024.findings-acl.628/"
+pdf_url: ""
 categories: ['coreference-resolution-and-dialogue-understanding', 'multimodal-language-vision-learning-systems']
 tags: ['dialogue-discourse-parsing', 'multimodal', 'Chinese-dataset']
 venue: "ACL 2024"

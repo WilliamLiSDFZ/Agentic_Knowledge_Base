@@ -1,12 +1,12 @@
 ---
 name: language-models-physical-grounding-limitations
 description: >-
-  **Physical Grounding Limitations of Language Models** examines whether LLMs and vision-language models can accurately represent and reason about physical and spatial properties of the real world—including spatial relationships, object schemas, and physics-based world simulation—using benchmarks, probing tasks, and embodied/interactive settings. The research consistently identifies fundamental gaps between language-based representations and genuine physical
+  This skill covers the evaluation and improvement of large language and vision models on physical and spatial reasoning tasks, including benchmarking their understanding of spatial relationships, physical world simulation, and embodied perception. Research examines fundamental limitations of LLMs in grounding language to physical reality (e.g., object properties, spatial schemas, environmental dynamics) and proposes methods to close these gaps through multimod
 ---
 
 # Language Models Physical Grounding Limitations
 
-**Physical Grounding Limitations of Language Models** examines whether LLMs and vision-language models can accurately represent and reason about physical and spatial properties of the real world—including spatial relationships, object schemas, and physics-based world simulation—using benchmarks, probing tasks, and embodied/interactive settings. The research consistently identifies fundamental gaps between language-based representations and genuine physical
+This skill covers the evaluation and improvement of large language and vision models on physical and spatial reasoning tasks, including benchmarking their understanding of spatial relationships, physical world simulation, and embodied perception. Research examines fundamental limitations of LLMs in grounding language to physical reality (e.g., object properties, spatial schemas, environmental dynamics) and proposes methods to close these gaps through multimod
 
 ## Entry Index
 

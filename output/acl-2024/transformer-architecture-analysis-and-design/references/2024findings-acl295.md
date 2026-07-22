@@ -1,6 +1,7 @@
 ---
 title: "Anchor-based Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.295/"
+pdf_url: ""
 categories: ['transformer-architecture-analysis-and-design', 'collaborative-llm-deployment-and-inference-optimization']
 tags: ['anchor-tokens', 'KV-cache', 'efficient-transformer']
 venue: "ACL 2024"

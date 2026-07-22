@@ -1,6 +1,7 @@
 ---
 title: "Leveraging Collection-Wide Similarities for Unsupervised Document Structure Extraction"
 source: "https://aclanthology.org/2024.findings-acl.568/"
+pdf_url: ""
 categories: ['document-understanding-and-information-extraction', 'legal-nlp-benchmarks-and-applications']
 tags: ['document-structure', 'unsupervised-extraction', 'collection-wide-similarity']
 venue: "ACL 2024"

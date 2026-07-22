@@ -1,6 +1,7 @@
 ---
 title: "Towards Understanding How Transformers Learn In-context Through a Representation Learning Lens"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/01a8d63f9cb6dcbaa3092ccddd2075ac-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/01a8d63f9cb6dcbaa3092ccddd2075ac-Paper-Conference.pdf"
 categories: ['llm-training-and-optimization-techniques', 'deep-learning-optimization-and-generalization-theory']
 tags: ['in-context-learning', 'transformers', 'representation-learning']
 venue: "NeurIPS 2024"

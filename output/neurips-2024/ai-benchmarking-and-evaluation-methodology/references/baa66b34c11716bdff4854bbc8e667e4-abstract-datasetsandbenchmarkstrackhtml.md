@@ -1,6 +1,7 @@
 ---
 title: "APDDv2:  Aesthetics of Paintings and Drawings Dataset with Artist Labeled Scores and Comments"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/baa66b34c11716bdff4854bbc8e667e4-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/baa66b34c11716bdff4854bbc8e667e4-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'generative-models-for-visual-style-and-appearance']
 tags: ['aesthetics-dataset', 'painting-evaluation', 'artist-labeled', 'benchmark', 'visual-quality-assessment']
 venue: "NeurIPS 2024"

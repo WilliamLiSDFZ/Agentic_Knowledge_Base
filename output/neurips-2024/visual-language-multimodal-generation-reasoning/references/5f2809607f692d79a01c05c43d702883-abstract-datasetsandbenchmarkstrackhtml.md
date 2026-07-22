@@ -1,6 +1,7 @@
 ---
 title: "HourVideo: 1-Hour Video-Language Understanding"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/5f2809607f692d79a01c05c43d702883-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/5f2809607f692d79a01c05c43d702883-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['video-language-understanding', 'long-video-benchmark', 'visual-reasoning']
 venue: "NeurIPS 2024"

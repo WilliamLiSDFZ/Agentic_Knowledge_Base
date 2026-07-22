@@ -1,6 +1,7 @@
 ---
 title: "An Empirical Study on the Characteristics of Bias upon Context Length Variation for Bangla"
 source: "https://aclanthology.org/2024.findings-acl.88/"
+pdf_url: ""
 categories: ['bias-and-fairness-in-llms']
 tags: ['social-bias', 'Bangla', 'context-length']
 venue: "ACL 2024"

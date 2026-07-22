@@ -1,6 +1,7 @@
 ---
 title: "Semi-Truths: A Large-Scale Dataset of AI-Augmented Images for Evaluating Robustness of AI-Generated Image detectors"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d5cdf7e56422f2a229c497dd89c3b995-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d5cdf7e56422f2a229c497dd89c3b995-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'generative-models-for-visual-style-and-appearance']
 tags: ['AI-generated-image-detection', 'robustness', 'semi-synthetic-dataset']
 venue: "NeurIPS 2024"

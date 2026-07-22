@@ -1,12 +1,12 @@
 ---
 name: geometric-representation-learning-and-topology
 description: >-
-  This skill covers the design and application of geometrically-structured representations that respect or exploit symmetry, topology, and curvature, spanning methods such as equivariant neural networks (group/gauge equivariance, geometric algebra), graph neural networks with spectral or higher-order structure, topological optimization (persistent homology), and differentiable surface/manifold parameter
+  This skill covers the design and application of geometrically-structured neural architectures that respect or exploit mathematical symmetries, topological properties, and differential geometric structures. Methods include equivariant/invariant networks (group theory, geometric algebra, Schur decompositions), spectral graph methods, diffeomorphic mappings, persistent homology-based optimization, hyperbolic/
 ---
 
 # Geometric Representation Learning And Topology
 
-This skill covers the design and application of geometrically-structured representations that respect or exploit symmetry, topology, and curvature, spanning methods such as equivariant neural networks (group/gauge equivariance, geometric algebra), graph neural networks with spectral or higher-order structure, topological optimization (persistent homology), and differentiable surface/manifold parameter
+This skill covers the design and application of geometrically-structured neural architectures that respect or exploit mathematical symmetries, topological properties, and differential geometric structures. Methods include equivariant/invariant networks (group theory, geometric algebra, Schur decompositions), spectral graph methods, diffeomorphic mappings, persistent homology-based optimization, hyperbolic/
 
 ## Entry Index
 

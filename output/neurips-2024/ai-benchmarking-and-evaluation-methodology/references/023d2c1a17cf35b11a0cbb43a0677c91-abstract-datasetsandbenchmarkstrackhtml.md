@@ -1,6 +1,7 @@
 ---
 title: "GTSinger: A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/023d2c1a17cf35b11a0cbb43a0677c91-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/023d2c1a17cf35b11a0cbb43a0677c91-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['audio-visual-speech-processing-and-benchmarks', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['singing-corpus', 'multi-technique', 'dataset']
 venue: "NeurIPS 2024"

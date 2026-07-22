@@ -1,6 +1,7 @@
 ---
 title: "NoisyGL: A Comprehensive Benchmark for Graph Neural Networks under Label Noise"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/436ffa18e7e17be336fd884f8ebb5748-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/436ffa18e7e17be336fd884f8ebb5748-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['graph-neural-networks-and-representation-learning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['graph-neural-networks', 'label-noise', 'node-classification-benchmark']
 venue: "NeurIPS 2024"

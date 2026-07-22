@@ -1,6 +1,7 @@
 ---
 title: "Differentially Private Set Representations"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/94ffbc2939e18adac36eedf8d38d1ef3-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/94ffbc2939e18adac36eedf8d38d1ef3-Paper-Conference.pdf"
 categories: ['privacy-preserving-federated-distributed-learning', 'statistical-inference-and-text-generation-methods\n\nhmm,-let-me-reconsider---looking-more-carefully-at-the-cluster:\n\n**score-matching-and-sampling-methods**']
 tags: ['differential-privacy', 'set-representation', 'space-efficiency']
 venue: "NeurIPS 2024"

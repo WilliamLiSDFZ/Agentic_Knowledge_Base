@@ -1,6 +1,7 @@
 ---
 title: "SustainDC: Benchmarking for Sustainable Data Center Control"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/b6676756f8a935e208f394a1ba47f0bc-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/b6676756f8a935e208f394a1ba47f0bc-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'reinforcement-learning-optimization-and-decision-making']
 tags: ['data-center', 'sustainable-computing', 'benchmarking', 'reinforcement-learning', 'energy-efficiency']
 venue: "NeurIPS 2024"

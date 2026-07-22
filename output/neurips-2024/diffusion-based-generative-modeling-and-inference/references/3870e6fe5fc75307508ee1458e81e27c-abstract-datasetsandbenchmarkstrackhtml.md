@@ -1,6 +1,7 @@
 ---
 title: "FiVA: Fine-grained Visual Attribute Dataset for Text-to-Image Diffusion Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/3870e6fe5fc75307508ee1458e81e27c-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/3870e6fe5fc75307508ee1458e81e27c-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['generative-models-for-visual-style-and-appearance', 'diffusion-based-generative-modeling-and-inference']
 tags: ['text-to-image', 'visual-attributes', 'diffusion-models']
 venue: "NeurIPS 2024"

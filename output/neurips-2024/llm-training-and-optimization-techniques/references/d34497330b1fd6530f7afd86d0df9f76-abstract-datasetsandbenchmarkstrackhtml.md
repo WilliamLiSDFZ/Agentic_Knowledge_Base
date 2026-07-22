@@ -1,6 +1,7 @@
 ---
 title: "RedPajama: an Open Dataset for Training Large Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d34497330b1fd6530f7afd86d0df9f76-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d34497330b1fd6530f7afd86d0df9f76-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-training-and-optimization-techniques']
 tags: ['open-dataset', 'llm-pretraining', 'data-composition']
 venue: "NeurIPS 2024"

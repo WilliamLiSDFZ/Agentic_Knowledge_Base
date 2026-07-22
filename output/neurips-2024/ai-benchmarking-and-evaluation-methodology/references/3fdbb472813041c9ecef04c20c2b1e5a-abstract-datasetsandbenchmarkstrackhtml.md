@@ -1,6 +1,7 @@
 ---
 title: "BIOSCAN-5M: A Multimodal Dataset for Insect Biodiversity"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/3fdbb472813041c9ecef04c20c2b1e5a-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/3fdbb472813041c9ecef04c20c2b1e5a-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'machine-learning-for-molecular-biology']
 tags: ['biodiversity', 'multimodal-dataset', 'insect-classification']
 venue: "NeurIPS 2024"

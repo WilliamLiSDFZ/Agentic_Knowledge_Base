@@ -1,6 +1,7 @@
 ---
 title: "LEIA: Facilitating Cross-lingual Knowledge Transfer in Language Models with Entity-based Data Augmentation"
 source: "https://aclanthology.org/2024.findings-acl.419/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'multilingual-text-classification-and-sentiment-analysis']
 tags: ['cross-lingual-transfer', 'entity-augmentation', 'language-adaptation']
 venue: "ACL 2024"

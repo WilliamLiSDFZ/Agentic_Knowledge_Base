@@ -1,6 +1,7 @@
 ---
 title: "A Non-autoregressive Generation Framework for End-to-End Simultaneous Speech-to-Any Translation"
 source: "https://aclanthology.org/2024.acl-long.85/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems', 'multimodal-language-vision-learning-systems']
 tags: ['simultaneous-translation', 'non-autoregressive', 'speech-to-speech']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Teaching-Assistant-in-the-Loop: Improving Knowledge Distillation from Imperfect Teacher Models in Low-Budget Scenarios"
 source: "https://aclanthology.org/2024.findings-acl.17/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'label-noise-robust-annotation-learning']
 tags: ['knowledge-distillation', 'low-budget', 'imperfect-teacher']
 venue: "ACL 2024"

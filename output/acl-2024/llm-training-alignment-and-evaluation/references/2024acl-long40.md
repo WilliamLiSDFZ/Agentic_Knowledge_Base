@@ -1,6 +1,7 @@
 ---
 title: "FOFO: A Benchmark to Evaluate LLMs’ Format-Following Capability"
 source: "https://aclanthology.org/2024.acl-long.40/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['format-following', 'benchmark', 'llm-evaluation']
 venue: "ACL 2024"

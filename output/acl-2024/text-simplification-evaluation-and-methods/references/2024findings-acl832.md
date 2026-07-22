@@ -1,6 +1,7 @@
 ---
 title: "TextGenSHAP: Scalable Post-Hoc Explanations in Text Generation with Long Documents"
 source: "https://aclanthology.org/2024.findings-acl.832/"
+pdf_url: ""
 categories: ['causal-reasoning-and-explanation-in-nlp', 'text-simplification-evaluation-and-methods']
 tags: ['shapley-values', 'llm-explainability', 'long-documents']
 venue: "ACL 2024"

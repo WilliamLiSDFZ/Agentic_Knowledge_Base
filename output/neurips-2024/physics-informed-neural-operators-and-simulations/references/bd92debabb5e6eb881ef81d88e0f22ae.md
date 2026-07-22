@@ -1,6 +1,7 @@
 ---
 title: "PURE: Prompt Evolution with Graph ODE for Out-of-distribution Fluid Dynamics Modeling"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/bd92debabb5e6eb881ef81d88e0f22ae-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/bd92debabb5e6eb881ef81d88e0f22ae-Paper-Conference.pdf"
 categories: ['physics-informed-neural-operators-and-simulations', 'graph-neural-networks-and-representation-learning']
 tags: ['fluid-dynamics', 'out-of-distribution', 'graph-ODE']
 venue: "NeurIPS 2024"

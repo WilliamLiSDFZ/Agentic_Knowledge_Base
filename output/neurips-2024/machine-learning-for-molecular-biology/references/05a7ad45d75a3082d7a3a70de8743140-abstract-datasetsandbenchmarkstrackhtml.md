@@ -1,6 +1,7 @@
 ---
 title: "CARE: a Benchmark Suite for the Classification and Retrieval of Enzymes"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/05a7ad45d75a3082d7a3a70de8743140-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/05a7ad45d75a3082d7a3a70de8743140-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['machine-learning-for-molecular-biology', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['enzyme-function-prediction', 'benchmark', 'protein-sequence']
 venue: "NeurIPS 2024"

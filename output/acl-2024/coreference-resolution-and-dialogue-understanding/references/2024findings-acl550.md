@@ -1,6 +1,7 @@
 ---
 title: "PEK: A Parameter-Efficient Framework for Knowledge-Grounded Dialogue Generation"
 source: "https://aclanthology.org/2024.findings-acl.550/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems', 'coreference-resolution-and-dialogue-understanding']
 tags: ['parameter-efficient', 'knowledge-grounded-dialogue', 'PEFT']
 venue: "ACL 2024"

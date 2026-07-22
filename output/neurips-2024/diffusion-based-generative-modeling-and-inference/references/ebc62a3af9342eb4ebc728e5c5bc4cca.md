@@ -1,6 +1,7 @@
 ---
 title: "Resfusion: Denoising Diffusion Probabilistic Models for Image Restoration Based on Prior Residual Noise"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ebc62a3af9342eb4ebc728e5c5bc4cca-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ebc62a3af9342eb4ebc728e5c5bc4cca-Paper-Conference.pdf"
 categories: ['diffusion-based-generative-modeling-and-inference']
 tags: ['diffusion-models', 'image-restoration', 'residual-noise-prior']
 venue: "NeurIPS 2024"

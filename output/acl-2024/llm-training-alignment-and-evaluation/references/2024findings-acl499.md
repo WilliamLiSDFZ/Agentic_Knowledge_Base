@@ -1,6 +1,7 @@
 ---
 title: "Improving LLM Generations via Fine-Grained Self-Endorsement"
 source: "https://aclanthology.org/2024.findings-acl.499/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'llm-training-alignment-and-evaluation']
 tags: ['hallucination-mitigation', 'self-endorsement', 'fact-checking', 'inference-time']
 venue: "ACL 2024"

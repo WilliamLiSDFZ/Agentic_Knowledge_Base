@@ -1,6 +1,7 @@
 ---
 title: "InFoBench: Evaluating Instruction Following Ability in Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.772/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['instruction-following', 'evaluation-metric', 'LLM-benchmark']
 venue: "ACL 2024"

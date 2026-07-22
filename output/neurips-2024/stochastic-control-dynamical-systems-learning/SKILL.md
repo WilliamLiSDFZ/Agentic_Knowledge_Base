@@ -1,12 +1,12 @@
 ---
 name: stochastic-control-dynamical-systems-learning
 description: >-
-  This skill covers the modeling, identification, and control of dynamical systems under uncertainty, combining classical control theory (LQR, MDPs, robust control, stochastic optimal control) with modern machine learning methods (neural ODEs, Gaussian processes, reinforcement learning, world models). Key tasks include system identification with finite-sample guarantees, safe and risk-sensitive control under adversa
+  This skill covers the modeling, identification, and control of dynamical systems under uncertainty, combining classical control theory (LQR, MDPs, robust control) with modern machine learning methods (neural ODEs, Gaussian processes, world models, reinforcement learning). Key techniques include physics-informed regularization, stochastic optimal control, variational inference, and Helmholtz-Hod
 ---
 
 # Stochastic Control Dynamical Systems Learning
 
-This skill covers the modeling, identification, and control of dynamical systems under uncertainty, combining classical control theory (LQR, MDPs, robust control, stochastic optimal control) with modern machine learning methods (neural ODEs, Gaussian processes, reinforcement learning, world models). Key tasks include system identification with finite-sample guarantees, safe and risk-sensitive control under adversa
+This skill covers the modeling, identification, and control of dynamical systems under uncertainty, combining classical control theory (LQR, MDPs, robust control) with modern machine learning methods (neural ODEs, Gaussian processes, world models, reinforcement learning). Key techniques include physics-informed regularization, stochastic optimal control, variational inference, and Helmholtz-Hod
 
 ## Entry Index
 

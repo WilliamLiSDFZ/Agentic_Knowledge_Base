@@ -1,12 +1,12 @@
 ---
 name: document-understanding-and-information-extraction
 description: >-
-  This skill covers extracting, structuring, and summarizing information from diverse document types (web pages, tables, medical records, UI interfaces, visually-rich documents) using methods including few-shot learning, graph-based models, LLMs, and hybrid matching approaches. Tasks span named entity recognition, relation extraction, event extraction, keyphrase extraction, document retrieval, and summar
+  This skill covers extracting, structuring, and summarizing information from heterogeneous document types (visually-rich documents, tables, web pages, multi-source corpora) using methods including few-shot learning, graph-based models, LLMs, and hybrid matching approaches. Tasks span named entity recognition, relation extraction, event extraction, keyphrase extraction, document retrieval,
 ---
 
 # Document Understanding And Information Extraction
 
-This skill covers extracting, structuring, and summarizing information from diverse document types (web pages, tables, medical records, UI interfaces, visually-rich documents) using methods including few-shot learning, graph-based models, LLMs, and hybrid matching approaches. Tasks span named entity recognition, relation extraction, event extraction, keyphrase extraction, document retrieval, and summar
+This skill covers extracting, structuring, and summarizing information from heterogeneous document types (visually-rich documents, tables, web pages, multi-source corpora) using methods including few-shot learning, graph-based models, LLMs, and hybrid matching approaches. Tasks span named entity recognition, relation extraction, event extraction, keyphrase extraction, document retrieval,
 
 ## Entry Index
 

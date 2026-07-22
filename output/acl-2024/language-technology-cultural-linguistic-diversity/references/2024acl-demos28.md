@@ -1,6 +1,7 @@
 ---
 title: "SeaLLMs - Large Language Models for Southeast Asia"
 source: "https://aclanthology.org/2024.acl-demos.28/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity']
 tags: ['southeast-asia', 'multilingual-llm', 'low-resource-languages', 'regional-languages']
 venue: "ACL 2024"

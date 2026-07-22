@@ -1,6 +1,7 @@
 ---
 title: "Unsupervised Real-Time Hallucination Detection based on the Internal States of Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.854/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation']
 tags: ['hallucination-detection', 'internal-states', 'real-time', 'unsupervised']
 venue: "ACL 2024"

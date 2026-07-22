@@ -1,6 +1,7 @@
 ---
 title: "Optimistic Verifiable Training by Controlling Hardware Nondeterminism"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ad885a9caafff30ee9cafdf0ee42fda2-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ad885a9caafff30ee9cafdf0ee42fda2-Paper-Conference.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'machine-learning-theory-and-evaluation-methods']
 tags: ['verifiable-training', 'hardware-nondeterminism', 'training-integrity']
 venue: "NeurIPS 2024"

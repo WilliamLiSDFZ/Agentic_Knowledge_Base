@@ -1,6 +1,7 @@
 ---
 title: "LexEval: A Comprehensive Chinese Legal Benchmark for Evaluating Large Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/2cb40fc022ca7bdc1a9a78b793661284-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/2cb40fc022ca7bdc1a9a78b793661284-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-benchmarks-for-clinical-healthcare', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['legal-benchmark', 'chinese-llm-evaluation', 'fairness-in-law']
 venue: "NeurIPS 2024"

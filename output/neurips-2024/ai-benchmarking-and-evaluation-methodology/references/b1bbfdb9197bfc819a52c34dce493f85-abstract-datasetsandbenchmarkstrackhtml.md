@@ -1,6 +1,7 @@
 ---
 title: "Einsum Benchmark: Enabling the Development of Next-Generation Tensor Execution Engines"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/b1bbfdb9197bfc819a52c34dce493f85-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/b1bbfdb9197bfc819a52c34dce493f85-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['tensor-computation', 'einsum', 'benchmarking']
 venue: "NeurIPS 2024"

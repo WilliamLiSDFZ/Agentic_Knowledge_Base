@@ -1,6 +1,7 @@
 ---
 title: "Exploiting Positional Bias for Query-Agnostic Generative Content in Search"
 source: "https://aclanthology.org/2024.findings-acl.656/"
+pdf_url: ""
 categories: ['llm-based-ranking-and-recommendation', 'llm-security-robustness-and-detection']
 tags: ['neural-ranking', 'positional-bias', 'adversarial-content']
 venue: "ACL 2024"

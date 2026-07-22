@@ -1,6 +1,7 @@
 ---
 title: "Distantly-Supervised Joint Extraction with Noise-Robust Learning"
 source: "https://aclanthology.org/2024.findings-acl.607/"
+pdf_url: ""
 categories: ['label-noise-robust-annotation-learning', 'natural-language-processing-information-extraction']
 tags: ['joint-extraction', 'distant-supervision', 'noise-robust-learning']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "MoE-SLU: Towards ASR-Robust Spoken Language Understanding via Mixture-of-Experts"
 source: "https://aclanthology.org/2024.findings-acl.882/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems', 'emotion-aware-dialogue-and-empathy-systems']
 tags: ['spoken-language-understanding', 'asr-robustness', 'mixture-of-experts']
 venue: "ACL 2024"

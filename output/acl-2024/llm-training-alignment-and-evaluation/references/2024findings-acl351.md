@@ -1,6 +1,7 @@
 ---
 title: "CMDL: A Large-Scale Chinese Multi-Defendant Legal Judgment Prediction Dataset"
 source: "https://aclanthology.org/2024.findings-acl.351/"
+pdf_url: ""
 categories: ['legal-nlp-benchmarks-and-applications', 'llm-training-alignment-and-evaluation']
 tags: ['legal-judgment-prediction', 'multi-defendant', 'chinese-legal', 'dataset', 'benchmark']
 venue: "ACL 2024"

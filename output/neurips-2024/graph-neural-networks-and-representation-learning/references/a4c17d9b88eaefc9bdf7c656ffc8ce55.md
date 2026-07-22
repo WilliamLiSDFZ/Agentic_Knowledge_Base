@@ -1,6 +1,7 @@
 ---
 title: "GRANOLA: Adaptive Normalization for Graph Neural Networks"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a4c17d9b88eaefc9bdf7c656ffc8ce55-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a4c17d9b88eaefc9bdf7c656ffc8ce55-Paper-Conference.pdf"
 categories: ['graph-neural-networks-and-representation-learning', 'deep-learning-optimization-and-generalization-theory']
 tags: ['graph-neural-networks', 'normalization', 'adaptive-normalization', 'batch-normalization', 'graph-statistics']
 venue: "NeurIPS 2024"

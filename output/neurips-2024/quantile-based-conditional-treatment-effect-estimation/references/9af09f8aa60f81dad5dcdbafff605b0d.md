@@ -1,6 +1,7 @@
 ---
 title: "Dynamic Subgroup Identification in Covariate-adjusted Response-adaptive Randomization Experiments"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/9af09f8aa60f81dad5dcdbafff605b0d-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/9af09f8aa60f81dad5dcdbafff605b0d-Paper-Conference.pdf"
 categories: ['quantile-based-conditional-treatment-effect-estimation', 'fairness-aware-machine-learning-methods']
 tags: ['subgroup-identification', 'adaptive-randomization', 'clinical-trials']
 venue: "NeurIPS 2024"

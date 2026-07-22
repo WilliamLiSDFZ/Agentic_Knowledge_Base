@@ -1,6 +1,7 @@
 ---
 title: "xLSTM: Extended Long Short-Term Memory"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/c2ce2f2701c10a2b2f2ea0bfa43cfaa3-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/c2ce2f2701c10a2b2f2ea0bfa43cfaa3-Paper-Conference.pdf"
 categories: ['recurrent-and-spiking-neural-network-dynamics', 'llm-training-and-optimization-techniques']
 tags: ['LSTM', 'extended-memory', 'large-language-models']
 venue: "NeurIPS 2024"

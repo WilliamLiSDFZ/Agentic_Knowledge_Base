@@ -1,6 +1,7 @@
 ---
 title: "Bag of Tricks: Benchmarking of Jailbreak Attacks on LLMs"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/38c1dfb4f7625907b15e9515365e7803-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/38c1dfb4f7625907b15e9515365e7803-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-safety-robustness-and-privacy-defenses', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['jailbreak-attacks', 'llm-safety', 'benchmarking']
 venue: "NeurIPS 2024"

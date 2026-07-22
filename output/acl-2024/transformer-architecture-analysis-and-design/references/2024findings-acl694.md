@@ -1,6 +1,7 @@
 ---
 title: "XMoE: Sparse Models with Fine-grained and Adaptive Expert Selection"
 source: "https://aclanthology.org/2024.findings-acl.694/"
+pdf_url: ""
 categories: ['transformer-architecture-analysis-and-design', 'collaborative-llm-deployment-and-inference-optimization']
 tags: ['mixture-of-experts', 'sparse-models', 'adaptive-routing']
 venue: "ACL 2024"

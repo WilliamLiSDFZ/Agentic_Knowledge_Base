@@ -1,6 +1,7 @@
 ---
 title: "The State of Data Curation at NeurIPS: An Assessment of Dataset Development Practices in the Datasets and Benchmarks Track"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/605bbd006beee7e0589a51d6a50dcae1-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/605bbd006beee7e0589a51d6a50dcae1-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'data-governance-and-algorithmic-power']
 tags: ['data-curation', 'neurips-benchmark', 'dataset-practices']
 venue: "NeurIPS 2024"

@@ -1,12 +1,12 @@
 ---
 name: nlp-benchmark-design-and-interpretability
 description: >-
-  This skill covers the **design, analysis, and critique of NLP evaluation benchmarks and metrics** across diverse tasks including long-context understanding, legal judgment prediction, essay scoring, machine translation, medical text generation, and code generation. It addresses methodological issues such as dataset artifacts in multiple-choice QA, robustness to entity/prompt variations, train-test context inconsistency,
+  This skill covers the **design, analysis, and critique of NLP evaluation frameworks and benchmarks** across diverse tasks including long-context understanding, legal judgment prediction, essay scoring, machine translation, medical text generation, and code comprehension. It addresses methodological issues such as dataset artifacts, robustness to entity/prompt variations, consistency between training and inference conditions, and adversarial vulnerabilities
 ---
 
 # Nlp Benchmark Design And Interpretability
 
-This skill covers the **design, analysis, and critique of NLP evaluation benchmarks and metrics** across diverse tasks including long-context understanding, legal judgment prediction, essay scoring, machine translation, medical text generation, and code generation. It addresses methodological issues such as dataset artifacts in multiple-choice QA, robustness to entity/prompt variations, train-test context inconsistency,
+This skill covers the **design, analysis, and critique of NLP evaluation frameworks and benchmarks** across diverse tasks including long-context understanding, legal judgment prediction, essay scoring, machine translation, medical text generation, and code comprehension. It addresses methodological issues such as dataset artifacts, robustness to entity/prompt variations, consistency between training and inference conditions, and adversarial vulnerabilities
 
 ## Entry Index
 

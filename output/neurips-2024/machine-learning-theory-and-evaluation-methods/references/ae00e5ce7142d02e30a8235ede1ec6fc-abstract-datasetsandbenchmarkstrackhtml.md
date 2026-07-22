@@ -1,6 +1,7 @@
 ---
 title: "A Data-Centric Perspective on Evaluating Machine Learning Models for Tabular Data"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ae00e5ce7142d02e30a8235ede1ec6fc-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ae00e5ce7142d02e30a8235ede1ec6fc-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'machine-learning-theory-and-evaluation-methods']
 tags: ['tabular-data', 'data-centric-evaluation', 'benchmark']
 venue: "NeurIPS 2024"

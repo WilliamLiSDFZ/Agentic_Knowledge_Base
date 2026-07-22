@@ -1,6 +1,7 @@
 ---
 title: "SR-CACO-2: A Dataset for Confocal Fluorescence Microscopy Image Super-Resolution"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/6e4248741e35ab5dd7b29178633ddc28-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/6e4248741e35ab5dd7b29178633ddc28-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['computational-imaging-reconstruction-deep-learning']
 tags: ['confocal-microscopy', 'super-resolution', 'fluorescence-imaging', 'dataset', '3d-biological-imaging']
 venue: "NeurIPS 2024"

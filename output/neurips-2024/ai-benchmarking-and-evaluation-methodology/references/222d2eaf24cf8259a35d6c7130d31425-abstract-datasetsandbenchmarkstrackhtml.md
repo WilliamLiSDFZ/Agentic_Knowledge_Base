@@ -1,6 +1,7 @@
 ---
 title: "OlympicArena: Benchmarking Multi-discipline Cognitive Reasoning for Superintelligent AI"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/222d2eaf24cf8259a35d6c7130d31425-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/222d2eaf24cf8259a35d6c7130d31425-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['benchmarking', 'multimodal-reasoning', 'LLMs', 'olympiad', 'cognitive-reasoning']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Learning Low-dimensional Multi-domain Knowledge Graph Embedding via Dual Archimedean Spirals"
 source: "https://aclanthology.org/2024.findings-acl.118/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'language-model-representations-and-embedding-spaces']
 tags: ['knowledge-graph-embedding', 'multi-domain', 'low-dimensional']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "The Belebele Benchmark: a Parallel Reading Comprehension Dataset in 122 Language Variants"
 source: "https://aclanthology.org/2024.acl-long.44/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'multilingual-text-classification-and-sentiment-analysis']
 tags: ['multilingual-benchmark', 'reading-comprehension', '122-languages']
 venue: "ACL 2024"

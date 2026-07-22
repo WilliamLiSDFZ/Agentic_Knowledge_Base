@@ -1,6 +1,7 @@
 ---
 title: "CACL: Community-Aware Heterogeneous Graph Contrastive Learning for Social Media Bot Detection"
 source: "https://aclanthology.org/2024.findings-acl.617/"
+pdf_url: ""
 categories: ['graph-based-social-bot-detection', 'llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['bot-detection', 'heterogeneous-graph', 'community-aware']
 venue: "ACL 2024"

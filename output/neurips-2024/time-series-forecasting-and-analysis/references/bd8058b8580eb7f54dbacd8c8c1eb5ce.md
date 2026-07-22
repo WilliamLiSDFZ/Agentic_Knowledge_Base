@@ -1,6 +1,7 @@
 ---
 title: "Generalization Analysis for Label-Specific Representation Learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/bd8058b8580eb7f54dbacd8c8c1eb5ce-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/bd8058b8580eb7f54dbacd8c8c1eb5ce-Paper-Conference.pdf"
 categories: ['machine-learning-theory-and-evaluation-methods', 'time-series-forecasting-and-analysis']
 tags: ['multi-label-learning', 'generalization-analysis', 'label-specific-representation']
 venue: "NeurIPS 2024"

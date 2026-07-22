@@ -1,6 +1,7 @@
 ---
 title: "SRFUND: A Multi-Granularity Hierarchical Structure Reconstruction Benchmark in Form Understanding"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/cbeaff878d6446ed06c3e0ffa53477f2-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/cbeaff878d6446ed06c3e0ffa53477f2-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['form-understanding', 'document-benchmark', 'hierarchical-structure']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Play Guessing Game with LLM: Indirect Jailbreak Attack with Implicit Clues"
 source: "https://aclanthology.org/2024.findings-acl.304/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection']
 tags: ['jailbreak', 'indirect-attack', 'LLM-security']
 venue: "ACL 2024"

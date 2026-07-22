@@ -1,6 +1,7 @@
 ---
 title: "CoIN: A Benchmark of Continual Instruction Tuning for Multimodel Large Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/6a45500d9eda640deed90d8a62742be5-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/6a45500d9eda640deed90d8a62742be5-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['continual-learning', 'instruction-tuning', 'multimodal-llm-benchmark']
 venue: "NeurIPS 2024"

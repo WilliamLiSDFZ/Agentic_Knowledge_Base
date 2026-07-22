@@ -1,6 +1,7 @@
 ---
 title: "When LLMs Meet Cunning Texts: A Fallacy Understanding Benchmark for Large Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/cbfbf1a9adbcc29783475d2767f218e8-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/cbfbf1a9adbcc29783475d2767f218e8-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-values-ethics-alignment-evaluation']
 tags: ['fallacy-detection', 'llm-evaluation', 'logical-reasoning']
 venue: "NeurIPS 2024"

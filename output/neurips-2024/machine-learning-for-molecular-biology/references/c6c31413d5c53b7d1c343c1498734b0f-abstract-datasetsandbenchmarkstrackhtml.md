@@ -1,6 +1,7 @@
 ---
 title: "MassSpecGym: A benchmark for the discovery and identification of molecules"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/c6c31413d5c53b7d1c343c1498734b0f-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/c6c31413d5c53b7d1c343c1498734b0f-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['machine-learning-for-molecular-biology', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['mass-spectrometry', 'molecule-identification', 'benchmark']
 venue: "NeurIPS 2024"

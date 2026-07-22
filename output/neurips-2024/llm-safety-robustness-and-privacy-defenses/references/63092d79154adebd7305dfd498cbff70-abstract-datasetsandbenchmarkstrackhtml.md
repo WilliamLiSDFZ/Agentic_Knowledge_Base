@@ -1,6 +1,7 @@
 ---
 title: "JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/63092d79154adebd7305dfd498cbff70-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/63092d79154adebd7305dfd498cbff70-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-safety-robustness-and-privacy-defenses']
 tags: ['jailbreak', 'LLM-robustness', 'benchmark']
 venue: "NeurIPS 2024"

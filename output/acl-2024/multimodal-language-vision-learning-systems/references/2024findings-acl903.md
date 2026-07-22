@@ -1,6 +1,7 @@
 ---
 title: "3MVRD: Multimodal Multi-task Multi-teacher Visually-Rich Form Document Understanding"
 source: "https://aclanthology.org/2024.findings-acl.903/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'document-understanding-and-information-extraction']
 tags: ['multimodal', 'knowledge-distillation', 'document-understanding']
 venue: "ACL 2024"

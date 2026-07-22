@@ -1,6 +1,7 @@
 ---
 title: "Benchmarking Complex Instruction-Following with Multiple Constraints Composition"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/f8c24b08b96a08ec7a7a975feea7777e-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/f8c24b08b96a08ec7a7a975feea7777e-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-training-and-optimization-techniques']
 tags: ['instruction-following', 'benchmark', 'llm-evaluation', 'complex-instructions', 'constraint-composition']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "TimeChara: Evaluating Point-in-Time Character Hallucination of Role-Playing Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.197/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'social-ai-temporal-dynamics-evaluation']
 tags: ['role-playing-agents', 'hallucination', 'point-in-time-evaluation']
 venue: "ACL 2024"

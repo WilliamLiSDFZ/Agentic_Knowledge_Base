@@ -1,6 +1,7 @@
 ---
 title: "GeSS: Benchmarking Geometric Deep Learning under Scientific Applications with Distribution Shifts"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a8063075b00168dc39bc81683619f1a8-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a8063075b00168dc39bc81683619f1a8-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['graph-neural-networks-and-representation-learning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['geometric-deep-learning', 'distribution-shift', 'scientific-applications']
 venue: "NeurIPS 2024"

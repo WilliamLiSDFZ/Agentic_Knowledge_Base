@@ -1,6 +1,7 @@
 ---
 title: "A Shocking Amount of the Web is Machine Translated: Insights from Multi-Way Parallelism"
 source: "https://aclanthology.org/2024.findings-acl.103/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'web-data-quality-and-llm-evaluation']
 tags: ['machine-translation', 'web-data', 'multilingual-quality']
 venue: "ACL 2024"

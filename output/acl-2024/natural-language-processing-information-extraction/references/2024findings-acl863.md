@@ -1,6 +1,7 @@
 ---
 title: "Recognizing Everything from All Modalities at Once: Grounded Multimodal Universal Information Extraction"
 source: "https://aclanthology.org/2024.findings-acl.863/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction']
 tags: ['multimodal-information-extraction', 'cross-modal-grounding', 'universal-framework']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "HQP: A Human-Annotated Dataset for Detecting Online Propaganda"
 source: "https://aclanthology.org/2024.findings-acl.363/"
+pdf_url: ""
 categories: ['computational-misinformation-narrative-framing-detection']
 tags: ['propaganda-detection', 'human-annotation', 'online-content']
 venue: "ACL 2024"

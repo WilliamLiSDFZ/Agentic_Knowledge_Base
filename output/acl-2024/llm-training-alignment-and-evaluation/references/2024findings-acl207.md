@@ -1,6 +1,7 @@
 ---
 title: "WilKE: Wise-Layer Knowledge Editor for Lifelong Knowledge Editing"
 source: "https://aclanthology.org/2024.findings-acl.207/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'llm-hallucination-detection-and-mitigation']
 tags: ['knowledge-editing', 'lifelong-editing', 'layer-selection']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Multi-Modal Retrieval For Large Language Model Based Speech Recognition"
 source: "https://aclanthology.org/2024.findings-acl.262/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems']
 tags: ['multi-modal-retrieval', 'speech-recognition', 'llm']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "EasyEdit: An Easy-to-use Knowledge Editing Framework for Large Language Models"
 source: "https://aclanthology.org/2024.acl-demos.9/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'llm-hallucination-detection-and-mitigation']
 tags: ['knowledge-editing', 'LLM-frameworks', 'knowledge-cutoff']
 venue: "ACL 2024"

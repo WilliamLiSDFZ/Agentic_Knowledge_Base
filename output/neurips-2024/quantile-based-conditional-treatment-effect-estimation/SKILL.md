@@ -1,12 +1,12 @@
 ---
 name: quantile-based-conditional-treatment-effect-estimation
 description: >-
-  This skill covers estimation of heterogeneous and conditional treatment effects across quantiles of the outcome distribution, addressing challenges such as unmeasured confounding, weak instruments, and aleatoric uncertainty using methods including orthogonal/debiased learners, non-parametric direct learning, and quantile-based alternatives to CATE (e.g., conditional outcome equivalence). Applications span
+  This skill covers estimation of heterogeneous and conditional treatment effects across the full outcome distribution using quantile-based methods, orthogonal/debiased learners, and nonparametric approaches, with particular attention to handling unmeasured confounding, weak instruments, and uncertainty quantification. Applications include subgroup identification in adaptive trials, policy evaluation under unobserved confounders,
 ---
 
 # Quantile Based Conditional Treatment Effect Estimation
 
-This skill covers estimation of heterogeneous and conditional treatment effects across quantiles of the outcome distribution, addressing challenges such as unmeasured confounding, weak instruments, and aleatoric uncertainty using methods including orthogonal/debiased learners, non-parametric direct learning, and quantile-based alternatives to CATE (e.g., conditional outcome equivalence). Applications span
+This skill covers estimation of heterogeneous and conditional treatment effects across the full outcome distribution using quantile-based methods, orthogonal/debiased learners, and nonparametric approaches, with particular attention to handling unmeasured confounding, weak instruments, and uncertainty quantification. Applications include subgroup identification in adaptive trials, policy evaluation under unobserved confounders,
 
 ## Entry Index
 

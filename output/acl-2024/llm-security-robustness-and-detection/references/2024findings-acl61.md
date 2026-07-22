@@ -1,6 +1,7 @@
 ---
 title: "Realistic Evaluation of Toxicity in Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.61/"
+pdf_url: ""
 categories: ['hate-speech-and-toxic-content-detection', 'llm-security-robustness-and-detection']
 tags: ['toxicity', 'LLM-evaluation', 'bias', 'realistic-evaluation', 'safety']
 venue: "ACL 2024"

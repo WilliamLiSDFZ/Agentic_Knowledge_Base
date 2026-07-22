@@ -1,6 +1,7 @@
 ---
 title: "Toward Reliable Ad-hoc Scientific Information Extraction: A Case Study on Two Materials Dataset"
 source: "https://aclanthology.org/2024.findings-acl.897/"
+pdf_url: ""
 categories: ['materials-science-information-extraction', 'natural-language-processing-information-extraction']
 tags: ['information-extraction', 'materials-science', 'GPT-4']
 venue: "ACL 2024"

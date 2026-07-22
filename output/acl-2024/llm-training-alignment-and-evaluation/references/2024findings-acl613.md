@@ -1,6 +1,7 @@
 ---
 title: "Contrastive Instruction Tuning"
 source: "https://aclanthology.org/2024.findings-acl.613/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'natural-language-processing-information-extraction']
 tags: ['instruction-tuning', 'contrastive-learning', 'robustness']
 venue: "ACL 2024"

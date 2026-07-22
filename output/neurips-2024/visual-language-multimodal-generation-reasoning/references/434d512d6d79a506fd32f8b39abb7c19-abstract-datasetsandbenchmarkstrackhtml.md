@@ -1,6 +1,7 @@
 ---
 title: "Learning Action and Reasoning-Centric Image Editing from Videos and Simulation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/434d512d6d79a506fd32f8b39abb7c19-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/434d512d6d79a506fd32f8b39abb7c19-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'generative-models-for-visual-style-and-appearance']
 tags: ['instruction-guided-editing', 'action-reasoning', 'video-simulation-data']
 venue: "NeurIPS 2024"

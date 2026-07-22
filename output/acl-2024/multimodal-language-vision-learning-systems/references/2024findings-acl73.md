@@ -1,6 +1,7 @@
 ---
 title: "GeoEval: Benchmark for Evaluating LLMs and Multi-Modal Models on Geometry Problem-Solving"
 source: "https://aclanthology.org/2024.findings-acl.73/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'multimodal-language-vision-learning-systems']
 tags: ['geometry-problem-solving', 'multimodal-benchmark', 'mathematical-reasoning']
 venue: "ACL 2024"

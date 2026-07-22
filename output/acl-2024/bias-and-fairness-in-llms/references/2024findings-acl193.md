@@ -1,6 +1,7 @@
 ---
 title: "Likelihood-based Mitigation of Evaluation Bias in Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.193/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'bias-and-fairness-in-llms']
 tags: ['evaluation-bias', 'likelihood-bias', 'LLM-evaluation']
 venue: "ACL 2024"

@@ -1,12 +1,12 @@
 ---
 name: language-model-definition-and-scope
 description: >-
-  This skill covers the theoretical and definitional boundaries of what constitutes a language model, including debates about whether statistical or computational language processes qualify as genuine language models, whether such systems exhibit understanding or cognition, and the application of language model capabilities to structured semantic tasks such as automatic definition generation for induced semantic frames.
+  This skill covers the theoretical and conceptual boundaries of what constitutes a language model, including formal definitions distinguishing language processing systems from language models proper, and examines whether such models exhibit genuine understanding or cognition versus surface-level pattern matching. It also extends to applied definitional tasks such as generating natural language definitions for computationally induced semantic structures like frames.
 ---
 
 # Language Model Definition And Scope
 
-This skill covers the theoretical and definitional boundaries of what constitutes a language model, including debates about whether statistical or computational language processes qualify as genuine language models, whether such systems exhibit understanding or cognition, and the application of language model capabilities to structured semantic tasks such as automatic definition generation for induced semantic frames.
+This skill covers the theoretical and conceptual boundaries of what constitutes a language model, including formal definitions distinguishing language processing systems from language models proper, and examines whether such models exhibit genuine understanding or cognition versus surface-level pattern matching. It also extends to applied definitional tasks such as generating natural language definitions for computationally induced semantic structures like frames.
 
 ## Entry Index
 

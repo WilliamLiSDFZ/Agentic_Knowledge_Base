@@ -1,12 +1,12 @@
 ---
 name: continual-learning-for-nlp-tasks
 description: >-
-  This skill covers methods for enabling NLP models to learn sequentially across tasks and time without catastrophic forgetting, spanning techniques such as rehearsal/exemplar selection, prompt tuning, knowledge distillation, and model merging applied to tasks including relation extraction, dialogue state tracking, task-oriented dialogue systems, and legal text classification. It also addresses related challenges like temporal generalization of language
+  This skill covers continual learning techniques applied to NLP tasks—particularly relation extraction, dialogue systems (task-oriented dialogue, dialogue state tracking), and legal/temporal text classification—with emphasis on mitigating catastrophic forgetting through methods such as rehearsal/exemplar selection, knowledge distillation, prompt tuning, model merging, and ensemble-of-experts architectures. It
 ---
 
 # Continual Learning For Nlp Tasks
 
-This skill covers methods for enabling NLP models to learn sequentially across tasks and time without catastrophic forgetting, spanning techniques such as rehearsal/exemplar selection, prompt tuning, knowledge distillation, and model merging applied to tasks including relation extraction, dialogue state tracking, task-oriented dialogue systems, and legal text classification. It also addresses related challenges like temporal generalization of language
+This skill covers continual learning techniques applied to NLP tasks—particularly relation extraction, dialogue systems (task-oriented dialogue, dialogue state tracking), and legal/temporal text classification—with emphasis on mitigating catastrophic forgetting through methods such as rehearsal/exemplar selection, knowledge distillation, prompt tuning, model merging, and ensemble-of-experts architectures. It
 
 ## Entry Index
 

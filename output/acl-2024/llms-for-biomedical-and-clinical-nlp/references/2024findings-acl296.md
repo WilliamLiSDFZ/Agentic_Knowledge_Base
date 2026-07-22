@@ -1,6 +1,7 @@
 ---
 title: "MLeVLM: Improve Multi-level Progressive Capabilities based on Multimodal Large Language Model for Medical Visual Question Answering"
 source: "https://aclanthology.org/2024.findings-acl.296/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp']
 tags: ['medical-vqa', 'multimodal-llm', 'progressive-capabilities']
 venue: "ACL 2024"

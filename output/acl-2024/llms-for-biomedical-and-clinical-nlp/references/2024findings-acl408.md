@@ -1,6 +1,7 @@
 ---
 title: "REInstruct: Building Instruction Data from Unlabeled Corpus"
 source: "https://aclanthology.org/2024.findings-acl.408/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'llms-for-biomedical-and-clinical-nlp']
 tags: ['instruction-tuning', 'unlabeled-corpus', 'data-construction']
 venue: "ACL 2024"

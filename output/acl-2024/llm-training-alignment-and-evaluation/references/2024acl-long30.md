@@ -1,6 +1,7 @@
 ---
 title: "GradSafe: Detecting Jailbreak Prompts for LLMs via Safety-Critical Gradient Analysis"
 source: "https://aclanthology.org/2024.acl-long.30/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'llm-training-alignment-and-evaluation']
 tags: ['jailbreak-detection', 'gradient-analysis', 'safety']
 venue: "ACL 2024"

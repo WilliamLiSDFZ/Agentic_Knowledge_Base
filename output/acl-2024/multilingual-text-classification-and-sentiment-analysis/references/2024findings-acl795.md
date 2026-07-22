@@ -1,6 +1,7 @@
 ---
 title: "Boosting Zero-Shot Crosslingual Performance using LLM-Based Augmentations with Effective Data Selection"
 source: "https://aclanthology.org/2024.findings-acl.795/"
+pdf_url: ""
 categories: ['multilingual-text-classification-and-sentiment-analysis']
 tags: ['cross-lingual-transfer', 'data-augmentation', 'low-resource-languages']
 venue: "ACL 2024"

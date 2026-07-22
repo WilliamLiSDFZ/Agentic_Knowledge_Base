@@ -1,6 +1,7 @@
 ---
 title: "HeSum: a Novel Dataset for Abstractive Text Summarization in Hebrew"
 source: "https://aclanthology.org/2024.findings-acl.381/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity']
 tags: ['Hebrew', 'abstractive-summarization', 'low-resource']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Knowledge Graph-Enhanced Large Language Models via Path Selection"
 source: "https://aclanthology.org/2024.findings-acl.376/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['knowledge-graph', 'hallucination-mitigation', 'path-selection']
 venue: "ACL 2024"

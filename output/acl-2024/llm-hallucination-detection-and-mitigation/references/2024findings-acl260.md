@@ -1,6 +1,7 @@
 ---
 title: "Do Androids Know They’re Only Dreaming of Electric Sheep?"
 source: "https://aclanthology.org/2024.findings-acl.260/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation']
 tags: ['hallucination-detection', 'probing-classifiers', 'grounded-generation']
 venue: "ACL 2024"

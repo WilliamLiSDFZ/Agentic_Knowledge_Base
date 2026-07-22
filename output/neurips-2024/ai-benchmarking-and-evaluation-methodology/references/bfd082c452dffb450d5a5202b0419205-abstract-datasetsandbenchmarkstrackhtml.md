@@ -1,6 +1,7 @@
 ---
 title: "RedCode: Risky Code Execution and Generation Benchmark for Code Agents"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/bfd082c452dffb450d5a5202b0419205-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/bfd082c452dffb450d5a5202b0419205-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-safety-robustness-and-privacy-defenses']
 tags: ['code-agents', 'safety-benchmark', 'malicious-code']
 venue: "NeurIPS 2024"

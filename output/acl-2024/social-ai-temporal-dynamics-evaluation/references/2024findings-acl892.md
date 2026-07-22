@@ -1,6 +1,7 @@
 ---
 title: "Set the Clock: Temporal Alignment of Pretrained Language Models"
 source: "https://aclanthology.org/2024.findings-acl.892/"
+pdf_url: ""
 categories: ['social-ai-temporal-dynamics-evaluation']
 tags: ['temporal-alignment', 'pretrained-language-models', 'knowledge-grounding']
 venue: "ACL 2024"

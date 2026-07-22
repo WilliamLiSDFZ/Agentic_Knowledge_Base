@@ -1,6 +1,7 @@
 ---
 title: "Diffusion Guided Language Modeling"
 source: "https://aclanthology.org/2024.findings-acl.887/"
+pdf_url: ""
 categories: ['text-diffusion-for-content-generation', 'llm-security-robustness-and-detection']
 tags: ['text-diffusion', 'controllable-generation', 'sentiment-control']
 venue: "ACL 2024"

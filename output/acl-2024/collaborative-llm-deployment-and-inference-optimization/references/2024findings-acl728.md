@@ -1,6 +1,7 @@
 ---
 title: "Bayesian Prompt Ensembles: Model Uncertainty Estimation for Black-Box Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.728/"
+pdf_url: ""
 categories: ['collaborative-llm-deployment-and-inference-optimization']
 tags: ['uncertainty-estimation', 'bayesian', 'prompt-ensembles', 'black-box-llm']
 venue: "ACL 2024"

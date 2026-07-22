@@ -1,6 +1,7 @@
 ---
 title: "Developing PUGG for Polish: A Modern Approach to KBQA, MRC, and IR Dataset Construction"
 source: "https://aclanthology.org/2024.findings-acl.652/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'nlp-for-asian-languages']
 tags: ['polish-nlp', 'knowledge-base-qa', 'dataset-construction']
 venue: "ACL 2024"

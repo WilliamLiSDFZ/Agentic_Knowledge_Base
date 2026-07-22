@@ -1,6 +1,7 @@
 ---
 title: "Hire a Linguist!: Learning Endangered Languages in LLMs with In-Context Linguistic Descriptions"
 source: "https://aclanthology.org/2024.findings-acl.925/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'llm-training-alignment-and-evaluation']
 tags: ['endangered-languages', 'in-context-learning', 'linguistic-descriptions']
 venue: "ACL 2024"

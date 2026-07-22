@@ -1,6 +1,7 @@
 ---
 title: "Investigating Subtler Biases in LLMs: Ageism, Beauty, Institutional, and Nationality Bias in Generative Models"
 source: "https://aclanthology.org/2024.findings-acl.530/"
+pdf_url: ""
 categories: ['bias-and-fairness-in-llms']
 tags: ['ageism', 'beauty-bias', 'nationality-bias', 'llm-bias']
 venue: "ACL 2024"

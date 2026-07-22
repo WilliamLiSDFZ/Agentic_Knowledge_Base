@@ -1,6 +1,7 @@
 ---
 title: "Time-MMD: Multi-Domain Multimodal Dataset for Time Series Analysis"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/8e7768122f3eeec6d77cd2b424b72413-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/8e7768122f3eeec6d77cd2b424b72413-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['time-series-forecasting-and-analysis', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['time-series', 'multimodal-dataset', 'multi-domain']
 venue: "NeurIPS 2024"

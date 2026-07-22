@@ -1,6 +1,7 @@
 ---
 title: "GlotCC: An Open Broad-Coverage CommonCrawl Corpus and Pipeline for Minority Languages"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1e6057620ed314b0020b3a30284b0f83-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1e6057620ed314b0020b3a30284b0f83-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-training-and-optimization-techniques', 'statistical-inference-and-text-generation-methods\n\nhmm,-let-me-reconsider---looking-more-carefully-at-the-cluster:\n\n**score-matching-and-sampling-methods**']
 tags: ['minority-languages', 'CommonCrawl', 'multilingual-corpus', 'low-resource', 'language-models']
 venue: "NeurIPS 2024"

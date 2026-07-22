@@ -1,6 +1,7 @@
 ---
 title: "Speculative Contrastive Decoding"
 source: "https://aclanthology.org/2024.acl-short.5/"
+pdf_url: ""
 categories: ['collaborative-llm-deployment-and-inference-optimization', 'minimum-bayes-risk-decoding-efficiency']
 tags: ['speculative-decoding', 'contrastive-decoding', 'inference-efficiency', 'LLM', 'exposure-bias']
 venue: "ACL 2024"

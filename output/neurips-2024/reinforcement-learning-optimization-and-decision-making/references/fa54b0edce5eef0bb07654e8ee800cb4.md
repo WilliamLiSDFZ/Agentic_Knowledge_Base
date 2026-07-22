@@ -1,6 +1,7 @@
 ---
 title: "Reflective Multi-Agent Collaboration based on Large Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/fa54b0edce5eef0bb07654e8ee800cb4-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/fa54b0edce5eef0bb07654e8ee800cb4-Paper-Conference.pdf"
 categories: ['llm-agent-communication-and-cooperation', 'reinforcement-learning-optimization-and-decision-making']
 tags: ['multi-agent-LLM', 'reflection', 'collaboration', 'autonomous-agents', 'planning']
 venue: "NeurIPS 2024"

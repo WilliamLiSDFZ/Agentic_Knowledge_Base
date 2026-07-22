@@ -1,6 +1,7 @@
 ---
 title: "PyFoma: a Python finite-state compiler module"
 source: "https://aclanthology.org/2024.acl-demos.24/"
+pdf_url: ""
 categories: ['finite-state-toolkit-software-implementation']
 tags: ['finite-state-transducers', 'python-library', 'open-source']
 venue: "ACL 2024"

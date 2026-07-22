@@ -1,6 +1,7 @@
 ---
 title: "UrbanDataLayer: A Unified Data Pipeline for Urban Science"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/0db7f135f6991e8cec5e516ecc66bfba-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/0db7f135f6991e8cec5e516ecc66bfba-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['urban-building-environment-data-infrastructure', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['urban-data', 'unified-pipeline', 'urban-computing', 'data-infrastructure', 'geospatial']
 venue: "NeurIPS 2024"

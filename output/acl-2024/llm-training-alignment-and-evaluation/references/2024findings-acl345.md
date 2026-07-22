@@ -1,6 +1,7 @@
 ---
 title: "Controlled Text Generation for Large Language Model with Dynamic Attribute Graphs"
 source: "https://aclanthology.org/2024.findings-acl.345/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'text-diffusion-for-content-generation']
 tags: ['controlled-text-generation', 'attribute-graphs', 'pluggable-framework']
 venue: "ACL 2024"

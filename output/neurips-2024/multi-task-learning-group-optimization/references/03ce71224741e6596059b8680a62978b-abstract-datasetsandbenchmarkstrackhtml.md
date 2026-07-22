@@ -1,6 +1,7 @@
 ---
 title: "LibMOON: A Gradient-based MultiObjective OptimizatioN Library in PyTorch"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/03ce71224741e6596059b8680a62978b-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/03ce71224741e6596059b8680a62978b-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'multi-task-learning-group-optimization']
 tags: ['multiobjective-optimization', 'pareto-front', 'pytorch-library']
 venue: "NeurIPS 2024"

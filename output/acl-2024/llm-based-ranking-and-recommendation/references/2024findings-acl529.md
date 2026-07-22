@@ -1,6 +1,7 @@
 ---
 title: "LLM-REDIAL: A Large-Scale Dataset for Conversational Recommender Systems Created from User Behaviors with LLMs"
 source: "https://aclanthology.org/2024.findings-acl.529/"
+pdf_url: ""
 categories: ['llm-based-ranking-and-recommendation', 'llm-training-alignment-and-evaluation']
 tags: ['conversational-recommendation', 'dataset', 'LLM', 'user-behavior', 'benchmark']
 venue: "ACL 2024"

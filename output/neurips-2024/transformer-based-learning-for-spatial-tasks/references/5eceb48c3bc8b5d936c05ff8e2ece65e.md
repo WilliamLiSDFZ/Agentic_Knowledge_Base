@@ -1,6 +1,7 @@
 ---
 title: "Graph Convolutions Enrich the Self-Attention in Transformers!"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/5eceb48c3bc8b5d936c05ff8e2ece65e-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/5eceb48c3bc8b5d936c05ff8e2ece65e-Paper-Conference.pdf"
 categories: ['graph-neural-networks-and-representation-learning', 'transformer-based-learning-for-spatial-tasks']
 tags: ['graph-convolution', 'transformer', 'oversmoothing']
 venue: "NeurIPS 2024"

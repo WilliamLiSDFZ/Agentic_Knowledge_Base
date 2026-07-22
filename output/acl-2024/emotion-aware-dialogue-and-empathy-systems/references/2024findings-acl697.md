@@ -1,6 +1,7 @@
 ---
 title: "Deal, or no deal (or who knows)? Forecasting Uncertainty in Conversations using Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.697/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems', 'text-to-sql-parsing-and-benchmarks']
 tags: ['uncertainty-estimation', 'dialogue-forecasting', 'conversation-modeling']
 venue: "ACL 2024"

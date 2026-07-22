@@ -1,6 +1,7 @@
 ---
 title: "A Multidimensional Framework for Evaluating Lexical Semantic Change with Social Science Applications"
 source: "https://aclanthology.org/2024.acl-long.76/"
+pdf_url: ""
 categories: ['lexical-semantic-change-detection-methods', 'hate-speech-and-toxic-content-detection']
 tags: ['lexical-semantic-change', 'multidimensional', 'social-science']
 venue: "ACL 2024"

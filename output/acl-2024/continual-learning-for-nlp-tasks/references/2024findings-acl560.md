@@ -1,6 +1,7 @@
 ---
 title: "Critical Learning Periods: Leveraging Early Training Dynamics for Efficient Data Pruning"
 source: "https://aclanthology.org/2024.findings-acl.560/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'continual-learning-for-nlp-tasks']
 tags: ['data-pruning', 'critical-learning-periods', 'neural-machine-translation']
 venue: "ACL 2024"

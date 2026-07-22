@@ -1,6 +1,7 @@
 ---
 title: "The Butterfly Effect of Model Editing: Few Edits Can Trigger Large Language Models Collapse"
 source: "https://aclanthology.org/2024.findings-acl.322/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'llm-hallucination-detection-and-mitigation']
 tags: ['model-editing', 'llm-collapse', 'knowledge-editing']
 venue: "ACL 2024"

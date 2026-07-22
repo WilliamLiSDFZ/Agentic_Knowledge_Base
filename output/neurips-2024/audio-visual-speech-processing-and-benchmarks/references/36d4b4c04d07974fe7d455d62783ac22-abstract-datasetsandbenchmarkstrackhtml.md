@@ -1,6 +1,7 @@
 ---
 title: "Language Without Borders: A Dataset and Benchmark for Code-Switching Lip Reading"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/36d4b4c04d07974fe7d455d62783ac22-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/36d4b4c04d07974fe7d455d62783ac22-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['audio-visual-speech-processing-and-benchmarks', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['lip-reading', 'code-switching', 'multilingual', 'video-speech', 'benchmark-dataset']
 venue: "NeurIPS 2024"

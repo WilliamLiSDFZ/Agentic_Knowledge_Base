@@ -1,6 +1,7 @@
 ---
 title: "EmbSpatial-Bench: Benchmarking Spatial Understanding for Embodied Tasks with Large Vision-Language Models"
 source: "https://aclanthology.org/2024.acl-short.33/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'language-models-physical-grounding-limitations']
 tags: ['spatial-understanding', 'embodied-AI', 'vision-language-models']
 venue: "ACL 2024"

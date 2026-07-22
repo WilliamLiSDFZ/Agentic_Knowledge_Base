@@ -1,6 +1,7 @@
 ---
 title: "Incorporating Syntax and Lexical Knowledge to Multilingual Sentiment Classification on Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.286/"
+pdf_url: ""
 categories: ['multilingual-text-classification-and-sentiment-analysis', 'unsupervised-and-structured-syntactic-parsing-methods']
 tags: ['multilingual-sentiment', 'syntax', 'lexical-knowledge', 'generative-LLMs', 'sentiment-classification']
 venue: "ACL 2024"

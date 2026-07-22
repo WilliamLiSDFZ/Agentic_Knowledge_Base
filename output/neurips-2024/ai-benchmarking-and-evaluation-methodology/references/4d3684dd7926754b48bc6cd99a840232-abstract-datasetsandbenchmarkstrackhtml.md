@@ -1,6 +1,7 @@
 ---
 title: "ChaosBench: A Multi-Channel, Physics-Based Benchmark for Subseasonal-to-Seasonal Climate Prediction"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/4d3684dd7926754b48bc6cd99a840232-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/4d3684dd7926754b48bc6cd99a840232-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['time-series-forecasting-and-analysis', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['climate-prediction', 'subseasonal-to-seasonal', 'benchmark']
 venue: "NeurIPS 2024"

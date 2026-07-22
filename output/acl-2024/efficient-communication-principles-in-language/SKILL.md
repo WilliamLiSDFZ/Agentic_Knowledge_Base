@@ -1,12 +1,12 @@
 ---
 name: efficient-communication-principles-in-language
 description: >-
-  This skill covers the application of information-theoretic and cognitive efficiency principles (entropy rate constancy, uniform information density, frequency-complexity trade-offs) to analyze and model how languages optimize communication across modalities (spoken, signed, nonverbal) and structures (word order, valency frames, lexical borrowing). Methods include probabilistic language modeling, computational corpus analysis, and LL
+  This skill covers the application of information-theoretic and cognitive efficiency principles (entropy rate constancy, frequency-complexity trade-offs, uniform information density) to explain and model linguistic phenomena across modalities (spoken language, sign language, nonverbal cues), levels (lexicon, syntax, pragmatics), and languages. Methods include probabilistic language modeling, corpus analysis, and computational cognitive
 ---
 
 # Efficient Communication Principles In Language
 
-This skill covers the application of information-theoretic and cognitive efficiency principles (entropy rate constancy, uniform information density, frequency-complexity trade-offs) to analyze and model how languages optimize communication across modalities (spoken, signed, nonverbal) and structures (word order, valency frames, lexical borrowing). Methods include probabilistic language modeling, computational corpus analysis, and LL
+This skill covers the application of information-theoretic and cognitive efficiency principles (entropy rate constancy, frequency-complexity trade-offs, uniform information density) to explain and model linguistic phenomena across modalities (spoken language, sign language, nonverbal cues), levels (lexicon, syntax, pragmatics), and languages. Methods include probabilistic language modeling, corpus analysis, and computational cognitive
 
 ## Entry Index
 

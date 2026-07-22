@@ -1,6 +1,7 @@
 ---
 title: "CulturePark: Boosting Cross-cultural Understanding in Large Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/77f089cd16dbc36ddd1caeb18446fbdd-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/77f089cd16dbc36ddd1caeb18446fbdd-Paper-Conference.pdf"
 categories: ['llm-agent-communication-and-cooperation', 'llm-values-ethics-alignment-evaluation']
 tags: ['cultural-bias', 'llm-agents', 'cross-cultural-data']
 venue: "NeurIPS 2024"

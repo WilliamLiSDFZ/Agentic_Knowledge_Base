@@ -1,6 +1,7 @@
 ---
 title: "PIXAR: Auto-Regressive Language Modeling in Pixel Space"
 source: "https://aclanthology.org/2024.findings-acl.874/"
+pdf_url: ""
 categories: ['continuous-discrete-representation-tradeoffs']
 tags: ['pixel-space', 'autoregressive-LM', 'open-vocabulary']
 venue: "ACL 2024"

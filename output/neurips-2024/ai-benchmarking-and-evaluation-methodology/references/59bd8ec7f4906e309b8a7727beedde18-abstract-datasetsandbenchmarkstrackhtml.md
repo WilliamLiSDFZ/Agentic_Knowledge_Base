@@ -1,6 +1,7 @@
 ---
 title: "WebUOT-1M: Advancing Deep Underwater Object Tracking with A Million-Scale Benchmark"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/59bd8ec7f4906e309b8a7727beedde18-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/59bd8ec7f4906e309b8a7727beedde18-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['underwater-object-tracking', 'benchmark', 'deep-learning']
 venue: "NeurIPS 2024"

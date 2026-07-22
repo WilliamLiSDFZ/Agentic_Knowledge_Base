@@ -1,6 +1,7 @@
 ---
 title: "Banded Square Root Matrix Factorization for Differentially Private Model Training"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1f7b3b0dd7710af02aac0db5be4cfc8d-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1f7b3b0dd7710af02aac0db5be4cfc8d-Paper-Conference.pdf"
 categories: ['privacy-preserving-federated-distributed-learning', 'statistical-learning-theory-and-matrix-methods']
 tags: ['differential-privacy', 'matrix-factorization', 'banded-square-root']
 venue: "NeurIPS 2024"

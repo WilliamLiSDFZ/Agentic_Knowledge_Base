@@ -1,6 +1,7 @@
 ---
 title: "Cross-Modal Projection in Multimodal LLMs Doesn’t Really Project Visual Attributes to Textual Space"
 source: "https://aclanthology.org/2024.acl-short.60/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'language-model-representations-and-embedding-spaces']
 tags: ['multimodal-LLMs', 'visual-attribute-projection', 'cross-modal-alignment']
 venue: "ACL 2024"

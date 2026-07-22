@@ -1,12 +1,12 @@
 ---
 name: minimum-bayes-risk-decoding-efficiency
 description: >-
-  This skill covers methods for improving the quality and efficiency of text generation outputs—particularly in machine translation and general LLM inference—by selecting or combining candidates that minimize expected loss under a utility metric (Minimum Bayes Risk decoding), including approximations like centroid-based clustering, reference aggregation, and reranking. It also addresses related decoding strategies such as speculative dec
+  This skill covers methods for improving the efficiency and quality of text generation decoding, particularly **Minimum Bayes Risk (MBR) decoding** and hypothesis reranking/combination in machine translation and LLM inference. It encompasses techniques such as reference aggregation for linear-time MBR, centroid-based approximations, quality estimation-guided hypothesis selection, speculative
 ---
 
 # Minimum Bayes Risk Decoding Efficiency
 
-This skill covers methods for improving the quality and efficiency of text generation outputs—particularly in machine translation and general LLM inference—by selecting or combining candidates that minimize expected loss under a utility metric (Minimum Bayes Risk decoding), including approximations like centroid-based clustering, reference aggregation, and reranking. It also addresses related decoding strategies such as speculative dec
+This skill covers methods for improving the efficiency and quality of text generation decoding, particularly **Minimum Bayes Risk (MBR) decoding** and hypothesis reranking/combination in machine translation and LLM inference. It encompasses techniques such as reference aggregation for linear-time MBR, centroid-based approximations, quality estimation-guided hypothesis selection, speculative
 
 ## Entry Index
 

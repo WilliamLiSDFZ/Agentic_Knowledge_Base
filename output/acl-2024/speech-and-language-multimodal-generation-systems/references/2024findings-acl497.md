@@ -1,6 +1,7 @@
 ---
 title: "CausalCite: A Causal Formulation of Paper Citations"
 source: "https://aclanthology.org/2024.findings-acl.497/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems', 'causal-reasoning-and-explanation-in-nlp']
 tags: ['citation-impact', 'causal-inference', 'scientific-papers', 'bibliometrics', 'counterfactual']
 venue: "ACL 2024"

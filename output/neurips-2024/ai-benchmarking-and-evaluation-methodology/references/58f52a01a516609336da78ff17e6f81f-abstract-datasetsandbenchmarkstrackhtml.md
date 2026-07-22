@@ -1,6 +1,7 @@
 ---
 title: "Newswire: A Large-Scale Structured Database of a Century of Historical News"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/58f52a01a516609336da78ff17e6f81f-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/58f52a01a516609336da78ff17e6f81f-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'scientific-document-retrieval-and-citation']
 tags: ['historical-news', 'structured-database', 'newswire']
 venue: "NeurIPS 2024"

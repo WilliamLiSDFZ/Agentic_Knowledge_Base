@@ -1,6 +1,7 @@
 ---
 title: "Perceptions of Language Technology Failures from South Asian English Speakers"
 source: "https://aclanthology.org/2024.findings-acl.241/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity']
 tags: ['south-asian-english', 'dialect', 'language-technology-failures']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "SurgicAI: A Hierarchical Platform for Fine-Grained Surgical Policy Learning and Benchmarking"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/74c4f2b87b7499d365422152c76fd916-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/74c4f2b87b7499d365422152c76fd916-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['surgical-robotics', 'reinforcement-learning', 'hierarchical-benchmarking']
 venue: "NeurIPS 2024"

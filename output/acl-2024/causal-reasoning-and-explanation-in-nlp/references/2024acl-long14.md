@@ -1,6 +1,7 @@
 ---
 title: "Inference to the Best Explanation in Large Language Models"
 source: "https://aclanthology.org/2024.acl-long.14/"
+pdf_url: ""
 categories: ['causal-reasoning-and-explanation-in-nlp']
 tags: ['inference-to-best-explanation', 'llm-interpretability', 'causal-reasoning']
 venue: "ACL 2024"

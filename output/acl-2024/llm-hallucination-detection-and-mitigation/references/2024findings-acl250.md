@@ -1,6 +1,7 @@
 ---
 title: "Selectively Answering Visual Questions"
 source: "https://aclanthology.org/2024.findings-acl.250/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llm-hallucination-detection-and-mitigation']
 tags: ['visual-question-answering', 'selective-prediction', 'confidence-calibration']
 venue: "ACL 2024"

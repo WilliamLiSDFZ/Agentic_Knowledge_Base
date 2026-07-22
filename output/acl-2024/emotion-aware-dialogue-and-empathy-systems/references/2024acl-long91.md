@@ -1,6 +1,7 @@
 ---
 title: "LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression"
 source: "https://aclanthology.org/2024.acl-long.91/"
+pdf_url: ""
 categories: ['collaborative-llm-deployment-and-inference-optimization', 'emotion-aware-dialogue-and-empathy-systems']
 tags: ['prompt-compression', 'long-context', 'LLM-efficiency']
 venue: "ACL 2024"

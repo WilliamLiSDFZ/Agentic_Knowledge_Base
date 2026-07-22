@@ -1,6 +1,7 @@
 ---
 title: "Nuclear Fusion Diamond Polishing Dataset"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/578dbd6ddd458c08f623e15c9f1c1ce8-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/578dbd6ddd458c08f623e15c9f1c1ce8-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['nuclear-fusion-diamond-polishing-data']
 tags: ['nuclear-fusion', 'diamond-polishing', 'inertial-confinement', 'surface-quality', 'dataset']
 venue: "NeurIPS 2024"

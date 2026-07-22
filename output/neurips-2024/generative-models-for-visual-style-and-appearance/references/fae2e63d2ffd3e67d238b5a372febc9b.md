@@ -1,6 +1,7 @@
 ---
 title: "Novel Object Synthesis via Adaptive Text-Image Harmony"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/fae2e63d2ffd3e67d238b5a372febc9b-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/fae2e63d2ffd3e67d238b5a372febc9b-Paper-Conference.pdf"
 categories: ['generative-models-for-visual-style-and-appearance']
 tags: ['object-synthesis', 'text-image-harmony', 'diffusion-models', 'adaptive-generation']
 venue: "NeurIPS 2024"

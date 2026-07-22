@@ -1,6 +1,7 @@
 ---
 title: "Value Imprint: A Technique for Auditing the Human Values Embedded in RLHF Datasets"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/cf7ec6aa55ba2b2f7af0cf3fd25b7f8c-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/cf7ec6aa55ba2b2f7af0cf3fd25b7f8c-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-values-ethics-alignment-evaluation']
 tags: ['RLHF', 'human-values', 'auditing', 'preference-datasets', 'alignment']
 venue: "NeurIPS 2024"

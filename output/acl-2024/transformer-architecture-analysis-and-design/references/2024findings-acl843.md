@@ -1,6 +1,7 @@
 ---
 title: "Looking Right is Sometimes Right: Investigating the Capabilities of Decoder-only LLMs for Sequence Labeling"
 source: "https://aclanthology.org/2024.findings-acl.843/"
+pdf_url: ""
 categories: ['transformer-architecture-analysis-and-design', 'llm-training-alignment-and-evaluation']
 tags: ['decoder-only-llms', 'sequence-labeling', 'causal-language-models']
 venue: "ACL 2024"

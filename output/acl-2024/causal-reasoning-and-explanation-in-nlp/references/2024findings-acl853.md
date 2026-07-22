@@ -1,6 +1,7 @@
 ---
 title: "Towards Multi-Relational Multi-Hop Reasoning over Dense Temporal Knowledge Graphs"
 source: "https://aclanthology.org/2024.findings-acl.853/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'causal-reasoning-and-explanation-in-nlp']
 tags: ['temporal-knowledge-graphs', 'multi-hop-reasoning', 'multi-relational']
 venue: "ACL 2024"

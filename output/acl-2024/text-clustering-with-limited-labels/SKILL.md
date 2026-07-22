@@ -1,12 +1,12 @@
 ---
 name: text-clustering-with-limited-labels
 description: >-
-  This skill covers **clustering and classification of text with scarce or absent labeled data**, combining methods such as contrastive learning, VAEs, LLMs, and data augmentation (chain-of-thought, nearest-neighbor, demonstration selection) to discover or organize semantic categories. Applications span short text topic modeling, intent/utterance clustering, hate speech detection, hierarchical classification, and
+  This skill covers **clustering and classification of text with scarce or absent label supervision**, combining methods such as contrastive learning, VAEs, LLMs, and data augmentation (chain-of-thought, nearest-neighbor, demonstration selection) to group or categorize short texts, utterances, and documents. Applications span topic modeling, intent/hate speech detection, hierarchical classification,
 ---
 
 # Text Clustering With Limited Labels
 
-This skill covers **clustering and classification of text with scarce or absent labeled data**, combining methods such as contrastive learning, VAEs, LLMs, and data augmentation (chain-of-thought, nearest-neighbor, demonstration selection) to discover or organize semantic categories. Applications span short text topic modeling, intent/utterance clustering, hate speech detection, hierarchical classification, and
+This skill covers **clustering and classification of text with scarce or absent label supervision**, combining methods such as contrastive learning, VAEs, LLMs, and data augmentation (chain-of-thought, nearest-neighbor, demonstration selection) to group or categorize short texts, utterances, and documents. Applications span topic modeling, intent/hate speech detection, hierarchical classification,
 
 ## Entry Index
 

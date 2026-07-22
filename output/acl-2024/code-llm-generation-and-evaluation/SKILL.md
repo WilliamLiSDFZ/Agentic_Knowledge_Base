@@ -1,12 +1,12 @@
 ---
 name: code-llm-generation-and-evaluation
 description: >-
-  This skill covers the training, evaluation, and enhancement of large language models for code-related tasks, including code generation, completion, editing, translation, and vulnerability detection across repository-level and multilingual settings. Methods include instruction tuning, retrieval augmentation, agent-based tool integration, curriculum learning, iterative refinement with compiler feedback, and execution-based benchmarking to assess and
+  This skill covers the training, evaluation, and enhancement of large language models for code-related tasks, including code generation, completion, editing, vulnerability detection, and translation across multiple programming languages. Methods span instruction tuning, retrieval-augmented generation, curriculum learning, agent-based systems with tool integration, iterative refinement with compiler feedback, and execution-based benchmarking on datasets sour
 ---
 
 # Code Llm Generation And Evaluation
 
-This skill covers the training, evaluation, and enhancement of large language models for code-related tasks, including code generation, completion, editing, translation, and vulnerability detection across repository-level and multilingual settings. Methods include instruction tuning, retrieval augmentation, agent-based tool integration, curriculum learning, iterative refinement with compiler feedback, and execution-based benchmarking to assess and
+This skill covers the training, evaluation, and enhancement of large language models for code-related tasks, including code generation, completion, editing, vulnerability detection, and translation across multiple programming languages. Methods span instruction tuning, retrieval-augmented generation, curriculum learning, agent-based systems with tool integration, iterative refinement with compiler feedback, and execution-based benchmarking on datasets sour
 
 ## Entry Index
 

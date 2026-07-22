@@ -1,6 +1,7 @@
 ---
 title: "Learning rigid-body simulators over implicit shapes for large-scale scenes and vision"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/e3abc125ecacb71786cefb9f67b08c5d-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/e3abc125ecacb71786cefb9f67b08c5d-Paper-Conference.pdf"
 categories: ['physics-informed-neural-operators-and-simulations', 'neural-geometric-shape-representation-learning']
 tags: ['rigid-body-simulation', 'implicit-shapes', 'large-scale-scenes']
 venue: "NeurIPS 2024"

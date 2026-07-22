@@ -1,6 +1,7 @@
 ---
 title: "Direct Evaluation of Chain-of-Thought in Multi-hop Reasoning with Knowledge Graphs"
 source: "https://aclanthology.org/2024.findings-acl.168/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['chain-of-thought', 'knowledge-graph', 'multi-hop-reasoning']
 venue: "ACL 2024"

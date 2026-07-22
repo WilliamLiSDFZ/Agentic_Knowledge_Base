@@ -1,6 +1,7 @@
 ---
 title: "DBQR-QA: A Question Answering Dataset on a Hybrid of Database Querying and Reasoning"
 source: "https://aclanthology.org/2024.findings-acl.900/"
+pdf_url: ""
 categories: ['text-to-sql-parsing-and-benchmarks']
 tags: ['hybrid-qa', 'database-querying', 'reasoning']
 venue: "ACL 2024"

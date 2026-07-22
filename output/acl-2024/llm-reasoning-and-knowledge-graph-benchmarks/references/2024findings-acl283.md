@@ -1,6 +1,7 @@
 ---
 title: "Chain-of-Question: A Progressive Question Decomposition Approach for Complex Knowledge Base Question Answering"
 source: "https://aclanthology.org/2024.findings-acl.283/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-agents-reasoning-and-planning']
 tags: ['knowledge-base-qa', 'question-decomposition', 'multi-hop-reasoning', 'complex-kbqa', 'chain-of-thought']
 venue: "ACL 2024"

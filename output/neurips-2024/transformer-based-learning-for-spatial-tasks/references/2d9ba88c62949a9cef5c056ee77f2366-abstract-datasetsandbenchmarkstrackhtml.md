@@ -1,6 +1,7 @@
 ---
 title: "Archaeoscape: Bringing Aerial Laser Scanning Archaeology to the Deep Learning Era"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/2d9ba88c62949a9cef5c056ee77f2366-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/2d9ba88c62949a9cef5c056ee77f2366-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['transformer-based-learning-for-spatial-tasks']
 tags: ['aerial-laser-scanning', 'archaeology', 'deep-learning-dataset']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "A Taxonomy of Challenges to Curating Fair Datasets"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/b142e78db191e19b17e60c1425a28b52-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/b142e78db191e19b17e60c1425a28b52-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['fairness-aware-machine-learning-methods']
 tags: ['dataset-curation', 'fairness', 'qualitative-study']
 venue: "NeurIPS 2024"

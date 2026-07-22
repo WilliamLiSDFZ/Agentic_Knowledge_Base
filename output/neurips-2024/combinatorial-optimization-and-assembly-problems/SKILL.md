@@ -1,12 +1,12 @@
 ---
 name: combinatorial-optimization-and-assembly-problems
 description: >-
-  This skill covers neural and classical methods for solving combinatorial optimization problems (submodular maximization, MILP, vertex cover, causal discovery) and assembly/reconstruction tasks (2D/3D puzzle solving, point cloud registration, binary reassembly). It includes divide-and-conquer frameworks, approximation algorithms, SAT/ANF representations, spiking neural networks
+  This skill covers neural and learning-augmented methods for combinatorial optimization problems including submodular maximization, MILP solving, graph problems, and NP-hard constraints (vertex cover, cardinality-constrained optimization), alongside assembly/reconstruction tasks such as 2D/3D puzzle solving and point cloud registration. Methods span divide-and-conquer neural frameworks, SA
 ---
 
 # Combinatorial Optimization And Assembly Problems
 
-This skill covers neural and classical methods for solving combinatorial optimization problems (submodular maximization, MILP, vertex cover, causal discovery) and assembly/reconstruction tasks (2D/3D puzzle solving, point cloud registration, binary reassembly). It includes divide-and-conquer frameworks, approximation algorithms, SAT/ANF representations, spiking neural networks
+This skill covers neural and learning-augmented methods for combinatorial optimization problems including submodular maximization, MILP solving, graph problems, and NP-hard constraints (vertex cover, cardinality-constrained optimization), alongside assembly/reconstruction tasks such as 2D/3D puzzle solving and point cloud registration. Methods span divide-and-conquer neural frameworks, SA
 
 ## Entry Index
 

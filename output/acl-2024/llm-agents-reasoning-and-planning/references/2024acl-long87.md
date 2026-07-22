@@ -1,6 +1,7 @@
 ---
 title: "Analyzing Temporal Complex Events with Large Language Models? A Benchmark towards Temporal, Long Context Understanding"
 source: "https://aclanthology.org/2024.acl-long.87/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'social-ai-temporal-dynamics-evaluation']
 tags: ['temporal-reasoning', 'complex-events', 'long-context']
 venue: "ACL 2024"

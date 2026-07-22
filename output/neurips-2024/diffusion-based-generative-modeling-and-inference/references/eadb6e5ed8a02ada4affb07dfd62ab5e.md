@@ -1,6 +1,7 @@
 ---
 title: "How to Continually Adapt Text-to-Image Diffusion Models for Flexible Customization?"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/eadb6e5ed8a02ada4affb07dfd62ab5e-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/eadb6e5ed8a02ada4affb07dfd62ab5e-Paper-Conference.pdf"
 categories: ['diffusion-based-generative-modeling-and-inference', 'generative-models-for-visual-style-and-appearance']
 tags: ['continual-learning', 'text-to-image-diffusion', 'concept-customization']
 venue: "NeurIPS 2024"

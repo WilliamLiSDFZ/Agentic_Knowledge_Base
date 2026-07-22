@@ -1,12 +1,12 @@
 ---
 name: missing-data-imputation-methods-and-applications
 description: >-
-  This skill covers techniques for handling missing, incomplete, or asynchronous data across diverse data types including tabular, multimodal (clinical, imaging, genomic), and spatio-temporal time series. Methods span generative models (diffusion, VAEs, GANs), matrix completion, pseudo-likelihood approaches, and mixture-of-experts architectures, applied to tasks such as
+  This skill covers techniques for handling missing, incomplete, or heterogeneous data across diverse domains, including methods such as diffusion models, VAEs, generative imputation, matrix completion, and mixture-of-experts architectures. Applications span clinical multimodal fusion, single-cell RNA-seq imputation, spatio-temporal time series, tabular data, sentiment analysis, and phen
 ---
 
 # Missing Data Imputation Methods And Applications
 
-This skill covers techniques for handling missing, incomplete, or asynchronous data across diverse data types including tabular, multimodal (clinical, imaging, genomic), and spatio-temporal time series. Methods span generative models (diffusion, VAEs, GANs), matrix completion, pseudo-likelihood approaches, and mixture-of-experts architectures, applied to tasks such as
+This skill covers techniques for handling missing, incomplete, or heterogeneous data across diverse domains, including methods such as diffusion models, VAEs, generative imputation, matrix completion, and mixture-of-experts architectures. Applications span clinical multimodal fusion, single-cell RNA-seq imputation, spatio-temporal time series, tabular data, sentiment analysis, and phen
 
 ## Entry Index
 

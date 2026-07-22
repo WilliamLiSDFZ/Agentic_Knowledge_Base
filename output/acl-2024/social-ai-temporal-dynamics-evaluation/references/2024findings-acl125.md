@@ -1,6 +1,7 @@
 ---
 title: "SocialBench: Sociality Evaluation of Role-Playing Conversational Agents"
 source: "https://aclanthology.org/2024.findings-acl.125/"
+pdf_url: ""
 categories: ['social-ai-temporal-dynamics-evaluation']
 tags: ['role-playing-agents', 'sociality-evaluation', 'conversational-ai']
 venue: "ACL 2024"

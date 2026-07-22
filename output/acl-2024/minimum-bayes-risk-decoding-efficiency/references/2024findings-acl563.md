@@ -1,6 +1,7 @@
 ---
 title: "Domain-Aware k-Nearest-Neighbor Knowledge Distillation for Machine Translation"
 source: "https://aclanthology.org/2024.findings-acl.563/"
+pdf_url: ""
 categories: ['minimum-bayes-risk-decoding-efficiency']
 tags: ['knn-machine-translation', 'knowledge-distillation', 'domain-adaptation']
 venue: "ACL 2024"

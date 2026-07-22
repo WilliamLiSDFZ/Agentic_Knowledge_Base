@@ -1,6 +1,7 @@
 ---
 title: "DB-LLM: Accurate Dual-Binarization for Efficient LLMs"
 source: "https://aclanthology.org/2024.findings-acl.516/"
+pdf_url: ""
 categories: ['collaborative-llm-deployment-and-inference-optimization']
 tags: ['model-quantization', 'binarization', 'efficient-inference']
 venue: "ACL 2024"

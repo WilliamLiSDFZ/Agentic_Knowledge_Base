@@ -1,6 +1,7 @@
 ---
 title: "From Discrimination to Generation: Low-Resource Intent Detection with Language Model Instruction Tuning"
 source: "https://aclanthology.org/2024.findings-acl.605/"
+pdf_url: ""
 categories: ['language-model-human-cognitive-linguistic-alignment', 'nlp-text-classification-applied-tasks']
 tags: ['intent-detection', 'low-resource', 'instruction-tuning']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "ELAD: Explanation-Guided Large Language Models Active Distillation"
 source: "https://aclanthology.org/2024.findings-acl.264/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'collaborative-llm-deployment-and-inference-optimization']
 tags: ['knowledge-distillation', 'LLM', 'active-learning', 'explanation-guided', 'model-compression']
 venue: "ACL 2024"

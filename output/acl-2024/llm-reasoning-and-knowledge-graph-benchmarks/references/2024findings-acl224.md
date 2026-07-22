@@ -1,6 +1,7 @@
 ---
 title: "LLM as Prompter: Low-resource Inductive Reasoning on Arbitrary Knowledge Graphs"
 source: "https://aclanthology.org/2024.findings-acl.224/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-agents-reasoning-and-planning']
 tags: ['knowledge-graph', 'inductive-reasoning', 'low-resource']
 venue: "ACL 2024"

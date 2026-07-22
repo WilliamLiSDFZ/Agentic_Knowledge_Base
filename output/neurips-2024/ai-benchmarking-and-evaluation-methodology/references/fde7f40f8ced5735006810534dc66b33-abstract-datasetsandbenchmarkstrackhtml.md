@@ -1,6 +1,7 @@
 ---
 title: "CARES: A Comprehensive Benchmark of Trustworthiness in Medical Vision Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/fde7f40f8ced5735006810534dc66b33-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/fde7f40f8ced5735006810534dc66b33-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-benchmarks-for-clinical-healthcare', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['medical-vision-language-models', 'trustworthiness', 'benchmark', 'healthcare-ai', 'evaluation']
 venue: "NeurIPS 2024"

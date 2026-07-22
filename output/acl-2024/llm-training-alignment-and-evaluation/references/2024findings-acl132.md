@@ -1,6 +1,7 @@
 ---
 title: "Distilling Robustness into Natural Language Inference Models with Domain-Targeted Augmentation"
 source: "https://aclanthology.org/2024.findings-acl.132/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['knowledge-distillation', 'natural-language-inference', 'domain-robustness']
 venue: "ACL 2024"

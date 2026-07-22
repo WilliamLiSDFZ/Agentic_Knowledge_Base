@@ -1,6 +1,7 @@
 ---
 title: "Chinese Spoken Named Entity Recognition in Real-world Scenarios: Dataset and Approaches"
 source: "https://aclanthology.org/2024.findings-acl.111/"
+pdf_url: ""
 categories: ['nlp-for-asian-languages', 'natural-language-processing-information-extraction']
 tags: ['spoken-NER', 'Chinese', 'real-world-dataset']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Enhancing Text-to-SQL Parsing through Question Rewriting and Execution-Guided Refinement"
 source: "https://aclanthology.org/2024.findings-acl.120/"
+pdf_url: ""
 categories: ['text-to-sql-parsing-and-benchmarks', 'llm-training-alignment-and-evaluation']
 tags: ['text-to-sql', 'question-rewriting', 'execution-feedback']
 venue: "ACL 2024"

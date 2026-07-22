@@ -1,12 +1,12 @@
 ---
 name: probabilistic-circuits-and-tree-structured-models
 description: >-
-  This skill covers the theory and application of **tractable probabilistic models** — including probabilistic circuits, sum-product networks, tree-structured graphical models, and latent variable models — focusing on their expressive power, efficient exact/approximate inference (e.g., MPE queries, variational inference), and structural learning via techniques like tensor rank conditions, probability generating functions, and vine
+  This skill covers the theory and application of **tractable probabilistic models** — including probabilistic circuits, tree-structured graphical models, sum-product networks, and latent variable models — focusing on their expressive power, inference efficiency (e.g., MPE queries, variational inference), and structural learning via methods like tensor rank conditions and probability generating functions, with applications spanning causal
 ---
 
 # Probabilistic Circuits And Tree Structured Models
 
-This skill covers the theory and application of **tractable probabilistic models** — including probabilistic circuits, sum-product networks, tree-structured graphical models, and latent variable models — focusing on their expressive power, efficient exact/approximate inference (e.g., MPE queries, variational inference), and structural learning via techniques like tensor rank conditions, probability generating functions, and vine
+This skill covers the theory and application of **tractable probabilistic models** — including probabilistic circuits, tree-structured graphical models, sum-product networks, and latent variable models — focusing on their expressive power, inference efficiency (e.g., MPE queries, variational inference), and structural learning via methods like tensor rank conditions and probability generating functions, with applications spanning causal
 
 ## Entry Index
 

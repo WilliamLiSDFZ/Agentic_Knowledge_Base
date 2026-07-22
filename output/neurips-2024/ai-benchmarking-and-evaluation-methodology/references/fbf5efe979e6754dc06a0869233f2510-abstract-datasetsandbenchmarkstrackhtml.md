@@ -1,6 +1,7 @@
 ---
 title: "Visual Riddles: a Commonsense and World Knowledge Challenge for Large Vision and Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/fbf5efe979e6754dc06a0869233f2510-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/fbf5efe979e6754dc06a0869233f2510-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['visual-riddles', 'commonsense-reasoning', 'vision-language-benchmark']
 venue: "NeurIPS 2024"

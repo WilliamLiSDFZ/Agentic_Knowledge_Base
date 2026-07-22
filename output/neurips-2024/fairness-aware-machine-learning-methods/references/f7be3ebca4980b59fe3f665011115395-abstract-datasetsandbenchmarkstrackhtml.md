@@ -1,6 +1,7 @@
 ---
 title: "The Fragility of Fairness: Causal Sensitivity Analysis for Fair Machine Learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/f7be3ebca4980b59fe3f665011115395-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/f7be3ebca4980b59fe3f665011115395-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['fairness-aware-machine-learning-methods', 'causal-discovery-and-inference-methods']
 tags: ['fairness-metrics', 'causal-sensitivity', 'measurement-bias']
 venue: "NeurIPS 2024"

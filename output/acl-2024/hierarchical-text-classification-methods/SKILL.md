@@ -1,12 +1,12 @@
 ---
 name: hierarchical-text-classification-methods
 description: >-
-  Hierarchical text classification methods encompass techniques for assigning labels organized in taxonomic or ontological structures to text, spanning approaches such as hierarchy-aware loss functions, contrastive learning with prompt tuning, zero-shot label augmentation, and LLM-assisted organization. Applications include extreme multi-label classification, ideology detection, and scientific literature organization, with methods addressing challenges like scal
+  Hierarchical text classification methods encompass techniques for assigning labels organized in taxonomic or ontological structures to text, including approaches such as hierarchy-aware loss functions, contrastive learning with prompt tuning, and label augmentation for zero-shot settings. Applications span extreme multi-label classification (XMC), ideology detection, and scientific literature organization, with methods leveraging LLMs
 ---
 
 # Hierarchical Text Classification Methods
 
-Hierarchical text classification methods encompass techniques for assigning labels organized in taxonomic or ontological structures to text, spanning approaches such as hierarchy-aware loss functions, contrastive learning with prompt tuning, zero-shot label augmentation, and LLM-assisted organization. Applications include extreme multi-label classification, ideology detection, and scientific literature organization, with methods addressing challenges like scal
+Hierarchical text classification methods encompass techniques for assigning labels organized in taxonomic or ontological structures to text, including approaches such as hierarchy-aware loss functions, contrastive learning with prompt tuning, and label augmentation for zero-shot settings. Applications span extreme multi-label classification (XMC), ideology detection, and scientific literature organization, with methods leveraging LLMs
 
 ## Entry Index
 

@@ -1,6 +1,7 @@
 ---
 title: "FairJob: A Real-World Dataset for Fairness in Online Systems"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/142bff4f4c01dd55c4309860ff3a59f1-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/142bff4f4c01dd55c4309860ff3a59f1-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['fairness-aware-machine-learning-methods', 'recommendation-systems-learning-optimization']
 tags: ['fairness', 'job-recommendation', 'real-world-dataset']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "A Survey on Predicting the Factuality and the Bias of News Media"
 source: "https://aclanthology.org/2024.findings-acl.944/"
+pdf_url: ""
 categories: ['computational-misinformation-narrative-framing-detection', 'multilingual-text-classification-and-sentiment-analysis']
 tags: ['media-bias', 'factuality-prediction', 'news-profiling']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "AutoCAP: Towards Automatic Cross-lingual Alignment Planning for Zero-shot Chain-of-Thought"
 source: "https://aclanthology.org/2024.findings-acl.546/"
+pdf_url: ""
 categories: ['nlp-for-asian-languages', 'llm-agents-reasoning-and-planning']
 tags: ['cross-lingual', 'chain-of-thought', 'alignment-planning']
 venue: "ACL 2024"

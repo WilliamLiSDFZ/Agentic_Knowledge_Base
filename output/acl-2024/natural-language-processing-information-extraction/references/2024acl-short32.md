@@ -1,6 +1,7 @@
 ---
 title: "ATLAS: Improving Lay Summarisation with Attribute-based Control"
 source: "https://aclanthology.org/2024.acl-short.32/"
+pdf_url: ""
 categories: ['text-simplification-evaluation-and-methods', 'natural-language-processing-information-extraction']
 tags: ['lay-summarization', 'attribute-based-control', 'scientific-text']
 venue: "ACL 2024"

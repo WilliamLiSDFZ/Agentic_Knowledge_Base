@@ -1,6 +1,7 @@
 ---
 title: "Length-aware Byte Pair Encoding for Mitigating Over-segmentation in Korean Machine Translation"
 source: "https://aclanthology.org/2024.findings-acl.135/"
+pdf_url: ""
 categories: ['nlp-for-asian-languages', 'language-technology-cultural-linguistic-diversity']
 tags: ['bpe', 'korean', 'machine-translation']
 venue: "ACL 2024"

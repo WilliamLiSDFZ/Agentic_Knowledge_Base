@@ -1,6 +1,7 @@
 ---
 title: "UKnow: A Unified Knowledge Protocol with Multimodal Knowledge Graph Datasets for Reasoning and Vision-Language Pre-Training"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/126784e4d5a92afff92d13aee155554b-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/126784e4d5a92afff92d13aee155554b-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning']
 tags: ['knowledge-graph', 'multimodal-reasoning', 'vision-language-pretraining']
 venue: "NeurIPS 2024"

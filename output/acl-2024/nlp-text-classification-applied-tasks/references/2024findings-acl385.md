@@ -1,6 +1,7 @@
 ---
 title: "Better Synthetic Data by Retrieving and Transforming Existing Datasets"
 source: "https://aclanthology.org/2024.findings-acl.385/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'nlp-text-classification-applied-tasks']
 tags: ['synthetic-data', 'data-augmentation', 'retrieval-based']
 venue: "ACL 2024"

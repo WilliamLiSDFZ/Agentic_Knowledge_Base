@@ -1,6 +1,7 @@
 ---
 title: "CToolEval: A Chinese Benchmark for LLM-Powered Agent Evaluation in Real-World API Interactions"
 source: "https://aclanthology.org/2024.findings-acl.928/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'lexical-semantic-change-detection-methods']
 tags: ['llm-agents', 'api-interaction', 'chinese-benchmark']
 venue: "ACL 2024"

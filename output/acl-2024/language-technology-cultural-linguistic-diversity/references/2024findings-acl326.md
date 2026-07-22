@@ -1,6 +1,7 @@
 ---
 title: "StatBot.Swiss: Bilingual Open Data Exploration in Natural Language"
 source: "https://aclanthology.org/2024.findings-acl.326/"
+pdf_url: ""
 categories: ['text-to-sql-parsing-and-benchmarks', 'language-technology-cultural-linguistic-diversity']
 tags: ['text-to-sql', 'bilingual', 'open-data']
 venue: "ACL 2024"

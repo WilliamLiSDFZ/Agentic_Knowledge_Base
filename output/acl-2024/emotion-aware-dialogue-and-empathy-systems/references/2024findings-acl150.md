@@ -1,6 +1,7 @@
 ---
 title: "The Emotion Dynamics of Literary Novels"
 source: "https://aclanthology.org/2024.findings-acl.150/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems']
 tags: ['emotion-dynamics', 'literary-novels', 'narrative', 'computational-analysis']
 venue: "ACL 2024"

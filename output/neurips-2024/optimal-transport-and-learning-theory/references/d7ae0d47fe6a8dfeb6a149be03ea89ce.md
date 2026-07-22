@@ -1,6 +1,7 @@
 ---
 title: "Optimal Transport-based Labor-free Text Prompt Modeling for Sketch Re-identification"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d7ae0d47fe6a8dfeb6a149be03ea89ce-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d7ae0d47fe6a8dfeb6a149be03ea89ce-Paper-Conference.pdf"
 categories: ['optimal-transport-and-learning-theory', 'generative-models-for-visual-style-and-appearance']
 tags: ['optimal-transport', 'sketch-reidentification', 'text-prompt-modeling']
 venue: "NeurIPS 2024"

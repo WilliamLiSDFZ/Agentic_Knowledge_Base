@@ -1,6 +1,7 @@
 ---
 title: "Adam with model exponential moving average is effective for nonconvex optimization"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ac8ec9b4d94c03f0af8c4fe3d5fad4fd-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ac8ec9b4d94c03f0af8c4fe3d5fad4fd-Paper-Conference.pdf"
 categories: ['stochastic-optimization-convergence-and-variance-reduction']
 tags: ['Adam-optimizer', 'exponential-moving-average', 'nonconvex-optimization', 'convergence-theory', 'adaptive-methods']
 venue: "NeurIPS 2024"

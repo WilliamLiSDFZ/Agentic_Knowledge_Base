@@ -1,6 +1,7 @@
 ---
 title: "CF-TCIR: A Compositor-Free Framework for Hierarchical Text-Conditioned Image Retrieval"
 source: "https://aclanthology.org/2024.findings-acl.965/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'natural-language-processing-information-extraction']
 tags: ['image-retrieval', 'text-conditioned', 'multimodal', 'compositor-free', 'hierarchical']
 venue: "ACL 2024"

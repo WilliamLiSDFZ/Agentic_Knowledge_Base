@@ -1,6 +1,7 @@
 ---
 title: "SceMQA: A Scientific College Entrance Level Multimodal Question Answering Benchmark"
 source: "https://aclanthology.org/2024.acl-short.11/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems']
 tags: ['multimodal-QA', 'science-benchmark', 'college-entrance']
 venue: "ACL 2024"

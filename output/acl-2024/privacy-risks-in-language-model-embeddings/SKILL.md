@@ -1,12 +1,12 @@
 ---
 name: privacy-risks-in-language-model-embeddings
 description: >-
-  This skill covers privacy vulnerabilities and protection mechanisms in language model embeddings and LLMs, including embedding inversion attacks (recovering original text from embeddings), membership inference, training data detection, and watermarking methods for copyright protection. It also addresses mitigation techniques such as differential privacy, machine unlearning, neuron editing, and synthetic data generation to reduce privacy risks from memorization and
+  This skill covers privacy vulnerabilities and protection mechanisms in language model embeddings and LLMs, including attacks such as embedding inversion (reconstructing original text from embeddings), membership inference, and backdoor watermarking, as well as defenses including differential privacy, machine unlearning, and privacy neuron editing. Applications span embedding-as-a-service security, RAG privacy risks
 ---
 
 # Privacy Risks In Language Model Embeddings
 
-This skill covers privacy vulnerabilities and protection mechanisms in language model embeddings and LLMs, including embedding inversion attacks (recovering original text from embeddings), membership inference, training data detection, and watermarking methods for copyright protection. It also addresses mitigation techniques such as differential privacy, machine unlearning, neuron editing, and synthetic data generation to reduce privacy risks from memorization and
+This skill covers privacy vulnerabilities and protection mechanisms in language model embeddings and LLMs, including attacks such as embedding inversion (reconstructing original text from embeddings), membership inference, and backdoor watermarking, as well as defenses including differential privacy, machine unlearning, and privacy neuron editing. Applications span embedding-as-a-service security, RAG privacy risks
 
 ## Entry Index
 

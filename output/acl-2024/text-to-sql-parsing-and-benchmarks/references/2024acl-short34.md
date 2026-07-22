@@ -1,6 +1,7 @@
 ---
 title: "Understanding the Effects of Noise in Text-to-SQL: An Examination of the BIRD-Bench Benchmark"
 source: "https://aclanthology.org/2024.acl-short.34/"
+pdf_url: ""
 categories: ['text-to-sql-parsing-and-benchmarks', 'web-data-quality-and-llm-evaluation']
 tags: ['text-to-sql', 'benchmark-noise', 'data-quality']
 venue: "ACL 2024"

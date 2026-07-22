@@ -1,6 +1,7 @@
 ---
 title: "BeamAggR: Beam Aggregation Reasoning over Multi-source Knowledge for Multi-hop Question Answering"
 source: "https://aclanthology.org/2024.acl-long.67/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning']
 tags: ['multi-hop-QA', 'retrieval-augmented', 'beam-aggregation']
 venue: "ACL 2024"

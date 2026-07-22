@@ -1,6 +1,7 @@
 ---
 title: "Robust Fine-tuning of Zero-shot Models via Variance Reduction"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/8cc7e1509fbfee9cabaacd3ab0bfe2b1-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/8cc7e1509fbfee9cabaacd3ab0bfe2b1-Paper-Conference.pdf"
 categories: ['machine-learning-theory-and-evaluation-methods', 'deep-learning-optimization-and-generalization-theory']
 tags: ['zero-shot-models', 'fine-tuning-robustness', 'variance-reduction']
 venue: "NeurIPS 2024"

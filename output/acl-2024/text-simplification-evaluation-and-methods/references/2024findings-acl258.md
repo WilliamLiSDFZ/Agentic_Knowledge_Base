@@ -1,6 +1,7 @@
 ---
 title: "Evaluating the Smooth Control of Attribute Intensity in Text Generation with LLMs"
 source: "https://aclanthology.org/2024.findings-acl.258/"
+pdf_url: ""
 categories: ['text-simplification-evaluation-and-methods', 'llm-training-alignment-and-evaluation']
 tags: ['text-generation', 'attribute-control', 'intensity', 'LLM', 'evaluation']
 venue: "ACL 2024"

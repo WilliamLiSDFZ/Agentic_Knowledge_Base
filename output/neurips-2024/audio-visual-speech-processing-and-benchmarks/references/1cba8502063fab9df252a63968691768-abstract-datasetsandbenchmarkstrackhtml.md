@@ -1,6 +1,7 @@
 ---
 title: "EEVR: A Dataset of Paired Physiological Signals and Textual Descriptions for Joint Emotion Representation Learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1cba8502063fab9df252a63968691768-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1cba8502063fab9df252a63968691768-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['wearable-biosignal-gesture-activity-benchmarks', 'audio-visual-speech-processing-and-benchmarks']
 tags: ['physiological-signals', 'emotion-recognition', 'multimodal-dataset']
 venue: "NeurIPS 2024"

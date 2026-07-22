@@ -1,6 +1,7 @@
 ---
 title: "Bi-Chainer: Automated Large Language Models Reasoning with Bidirectional Chaining"
 source: "https://aclanthology.org/2024.findings-acl.507/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'causal-reasoning-and-explanation-in-nlp']
 tags: ['logical-reasoning', 'bidirectional-chaining', 'chain-of-thought']
 venue: "ACL 2024"

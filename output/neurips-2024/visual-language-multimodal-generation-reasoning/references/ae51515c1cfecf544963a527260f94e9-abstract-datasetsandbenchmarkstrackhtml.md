@@ -1,6 +1,7 @@
 ---
 title: "ImageNet3D: Towards General-Purpose Object-Level 3D Understanding"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ae51515c1cfecf544963a527260f94e9-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ae51515c1cfecf544963a527260f94e9-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'multi-view-clustering-and-3d-perception']
 tags: ['3D-understanding', 'object-pose-estimation', 'vision-benchmark']
 venue: "NeurIPS 2024"

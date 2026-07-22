@@ -1,6 +1,7 @@
 ---
 title: "Navigate through Enigmatic Labyrinth A Survey of Chain of Thought Reasoning: Advances, Frontiers and Future"
 source: "https://aclanthology.org/2024.acl-long.65/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning']
 tags: ['chain-of-thought', 'reasoning', 'survey']
 venue: "ACL 2024"

@@ -1,12 +1,12 @@
 ---
 name: monotone-dependence-correlation-adjustment-methods
 description: >-
-  This skill covers methods for measuring and adjusting statistical dependence between variables beyond linear correlation, including transforming Pearson's r to capture arbitrary monotone relationships and decomposing density ratios (e.g., via orthonormal bases) to quantify dependence structures. Applications span both statistical methodology and neuroscientific signal analysis, such as characterizing cortico-muscular coupling
+  This skill covers methods for quantifying and adjusting measures of statistical dependence between variables, particularly extending or replacing Pearson's correlation to capture arbitrary monotone (not just linear) relationships. Techniques include density ratio estimation and orthonormal decomposition, with applications in both general statistical adjustment and neuroscientific contexts such as measuring cortico-muscular functional connectivity.
 ---
 
 # Monotone Dependence Correlation Adjustment Methods
 
-This skill covers methods for measuring and adjusting statistical dependence between variables beyond linear correlation, including transforming Pearson's r to capture arbitrary monotone relationships and decomposing density ratios (e.g., via orthonormal bases) to quantify dependence structures. Applications span both statistical methodology and neuroscientific signal analysis, such as characterizing cortico-muscular coupling
+This skill covers methods for quantifying and adjusting measures of statistical dependence between variables, particularly extending or replacing Pearson's correlation to capture arbitrary monotone (not just linear) relationships. Techniques include density ratio estimation and orthonormal decomposition, with applications in both general statistical adjustment and neuroscientific contexts such as measuring cortico-muscular functional connectivity.
 
 ## Entry Index
 

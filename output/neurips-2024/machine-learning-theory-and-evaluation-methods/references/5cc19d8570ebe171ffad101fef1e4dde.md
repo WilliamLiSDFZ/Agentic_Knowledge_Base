@@ -1,6 +1,7 @@
 ---
 title: "The Many Faces of Optimal Weak-to-Strong Learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/5cc19d8570ebe171ffad101fef1e4dde-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/5cc19d8570ebe171ffad101fef1e4dde-Paper-Conference.pdf"
 categories: ['machine-learning-theory-and-evaluation-methods', 'deep-learning-optimization-and-generalization-theory']
 tags: ['boosting', 'weak-to-strong-learning', 'sample-complexity', 'voting-classifiers']
 venue: "NeurIPS 2024"

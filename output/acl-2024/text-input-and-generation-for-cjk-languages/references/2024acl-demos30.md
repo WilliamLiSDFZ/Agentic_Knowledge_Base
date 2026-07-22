@@ -1,6 +1,7 @@
 ---
 title: "CharPoet: A Chinese Classical Poetry Generation System Based on Token-free LLM"
 source: "https://aclanthology.org/2024.acl-demos.30/"
+pdf_url: ""
 categories: ['text-input-and-generation-for-cjk-languages', 'text-diffusion-for-content-generation']
 tags: ['chinese-poetry', 'token-free-llm', 'classical-generation']
 venue: "ACL 2024"

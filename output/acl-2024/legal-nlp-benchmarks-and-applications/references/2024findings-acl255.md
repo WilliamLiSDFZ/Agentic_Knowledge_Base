@@ -1,6 +1,7 @@
 ---
 title: "Legal Judgment Reimagined: PredEx and the Rise of Intelligent AI Interpretation in Indian Courts"
 source: "https://aclanthology.org/2024.findings-acl.255/"
+pdf_url: ""
 categories: ['legal-nlp-benchmarks-and-applications']
 tags: ['legal-judgment-prediction', 'indian-courts', 'explainability']
 venue: "ACL 2024"

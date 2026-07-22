@@ -1,6 +1,7 @@
 ---
 title: "Aligning Speech Segments Beyond Pure Semantics"
 source: "https://aclanthology.org/2024.findings-acl.216/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems', 'language-technology-cultural-linguistic-diversity']
 tags: ['speech-alignment', 'expressive-speech', 'multilingual']
 venue: "ACL 2024"

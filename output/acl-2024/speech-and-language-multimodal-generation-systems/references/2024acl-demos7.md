@@ -1,6 +1,7 @@
 ---
 title: "EmpathyEar: An Open-source Avatar Multimodal Empathetic Chatbot"
 source: "https://aclanthology.org/2024.acl-demos.7/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems', 'speech-and-language-multimodal-generation-systems']
 tags: ['empathetic-chatbot', 'multimodal', 'avatar']
 venue: "ACL 2024"

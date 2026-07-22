@@ -1,6 +1,7 @@
 ---
 title: "Deciphering Digital Detectives: Understanding LLM Behaviors and Capabilities in Multi-Agent Mystery Games"
 source: "https://aclanthology.org/2024.findings-acl.490/"
+pdf_url: ""
 categories: ['llm-driven-interactive-narrative-and-games', 'llm-agents-reasoning-and-planning']
 tags: ['multi-agent-games', 'role-playing', 'llm-gaming']
 venue: "ACL 2024"

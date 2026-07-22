@@ -1,6 +1,7 @@
 ---
 title: "Empowering Large Language Models for Textual Data Augmentation"
 source: "https://aclanthology.org/2024.findings-acl.756/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'natural-language-processing-information-extraction']
 tags: ['data-augmentation', 'LLM', 'instruction-tuning']
 venue: "ACL 2024"

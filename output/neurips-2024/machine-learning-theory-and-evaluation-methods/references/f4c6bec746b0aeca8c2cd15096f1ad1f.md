@@ -1,6 +1,7 @@
 ---
 title: "Weak Supervision Performance Evaluation via Partial Identification"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/f4c6bec746b0aeca8c2cd15096f1ad1f-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/f4c6bec746b0aeca8c2cd15096f1ad1f-Paper-Conference.pdf"
 categories: ['machine-learning-theory-and-evaluation-methods']
 tags: ['weak-supervision', 'partial-identification', 'performance-evaluation']
 venue: "NeurIPS 2024"

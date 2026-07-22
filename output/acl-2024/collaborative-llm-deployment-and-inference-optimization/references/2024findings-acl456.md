@@ -1,6 +1,7 @@
 ---
 title: "Unlocking Efficiency in Large Language Model Inference: A Comprehensive Survey of Speculative Decoding"
 source: "https://aclanthology.org/2024.findings-acl.456/"
+pdf_url: ""
 categories: ['collaborative-llm-deployment-and-inference-optimization', 'transformer-architecture-analysis-and-design']
 tags: ['speculative-decoding', 'inference-efficiency', 'survey']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Automatic Engineering of Long Prompts"
 source: "https://aclanthology.org/2024.findings-acl.634/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-training-alignment-and-evaluation']
 tags: ['prompt-optimization', 'automated-prompt-engineering', 'llm-instructions']
 venue: "ACL 2024"

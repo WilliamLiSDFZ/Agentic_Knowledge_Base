@@ -1,6 +1,7 @@
 ---
 title: "EasyGen: Easing Multimodal Generation with BiDiffuser and LLMs"
 source: "https://aclanthology.org/2024.acl-long.74/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'speech-and-language-multimodal-generation-systems']
 tags: ['multimodal-generation', 'diffusion-models', 'llm-integration']
 venue: "ACL 2024"

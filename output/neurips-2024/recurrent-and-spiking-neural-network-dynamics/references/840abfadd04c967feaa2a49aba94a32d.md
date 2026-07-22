@@ -1,6 +1,7 @@
 ---
 title: "Megalodon: Efficient LLM Pretraining and Inference with Unlimited Context Length"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/840abfadd04c967feaa2a49aba94a32d-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/840abfadd04c967feaa2a49aba94a32d-Paper-Conference.pdf"
 categories: ['llm-training-and-optimization-techniques', 'recurrent-and-spiking-neural-network-dynamics']
 tags: ['long-context-LLM', 'linear-complexity', 'efficient-pretraining']
 venue: "NeurIPS 2024"

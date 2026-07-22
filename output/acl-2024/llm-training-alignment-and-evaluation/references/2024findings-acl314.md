@@ -1,6 +1,7 @@
 ---
 title: "StructEval: Deepen and Broaden Large Language Model Assessment via Structured Evaluation"
 source: "https://aclanthology.org/2024.findings-acl.314/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'nlp-benchmark-design-and-interpretability']
 tags: ['evaluation-framework', 'structured-assessment', 'benchmark-design']
 venue: "ACL 2024"

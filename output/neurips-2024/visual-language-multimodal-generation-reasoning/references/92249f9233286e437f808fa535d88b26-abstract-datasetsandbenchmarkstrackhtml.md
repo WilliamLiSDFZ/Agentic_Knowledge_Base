@@ -1,6 +1,7 @@
 ---
 title: "GenAI Arena: An Open Evaluation Platform for Generative Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/92249f9233286e437f808fa535d88b26-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/92249f9233286e437f808fa535d88b26-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'visual-language-multimodal-generation-reasoning']
 tags: ['generative-model-evaluation', 'human-preference', 'open-platform']
 venue: "NeurIPS 2024"

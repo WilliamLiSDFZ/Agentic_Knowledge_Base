@@ -1,6 +1,7 @@
 ---
 title: "Breaking Semantic Artifacts for Generalized AI-generated Image Detection"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/6dddcff5b115b40c998a08fbd1cea4d7-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/6dddcff5b115b40c998a08fbd1cea4d7-Paper-Conference.pdf"
 categories: ['generative-models-for-visual-style-and-appearance']
 tags: ['ai-generated-image-detection', 'generalization', 'semantic-artifacts', 'forgery-detection']
 venue: "NeurIPS 2024"

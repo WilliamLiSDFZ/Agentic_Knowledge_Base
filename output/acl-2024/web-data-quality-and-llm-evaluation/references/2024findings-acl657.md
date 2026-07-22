@@ -1,6 +1,7 @@
 ---
 title: "ICC : Quantifying Image Caption Concreteness for Multimodal Dataset Curation"
 source: "https://aclanthology.org/2024.findings-acl.657/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'web-data-quality-and-llm-evaluation']
 tags: ['image-caption', 'concreteness', 'multimodal-data-curation']
 venue: "ACL 2024"

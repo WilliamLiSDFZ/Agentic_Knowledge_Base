@@ -1,6 +1,7 @@
 ---
 title: "On The Persona-based Summarization of Domain-Specific Documents"
 source: "https://aclanthology.org/2024.findings-acl.849/"
+pdf_url: ""
 categories: ['document-understanding-and-information-extraction']
 tags: ['persona-based-summarization', 'domain-specific', 'document-summarization']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "LangSuit·E: Planning, Controlling and Interacting with Large Language Models in Embodied Text Environments"
 source: "https://aclanthology.org/2024.findings-acl.879/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning']
 tags: ['embodied-agents', 'text-environments', 'llm-planning']
 venue: "ACL 2024"

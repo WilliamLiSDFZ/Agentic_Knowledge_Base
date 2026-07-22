@@ -1,6 +1,7 @@
 ---
 title: "ITAKE: Interactive Unstructured Text Annotation and Knowledge Extraction System with LLMs and ModelOps"
 source: "https://aclanthology.org/2024.acl-demos.31/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'document-understanding-and-information-extraction']
 tags: ['text-annotation', 'knowledge-extraction', 'LLM', 'ModelOps', 'human-machine-collaboration']
 venue: "ACL 2024"

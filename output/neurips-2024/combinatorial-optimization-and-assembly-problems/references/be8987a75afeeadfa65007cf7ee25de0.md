@@ -1,6 +1,7 @@
 ---
 title: "Self-Labeling the Job Shop Scheduling Problem"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/be8987a75afeeadfa65007cf7ee25de0-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/be8987a75afeeadfa65007cf7ee25de0-Paper-Conference.pdf"
 categories: ['neural-combinatorial-optimization-and-learning', 'combinatorial-optimization-and-assembly-problems']
 tags: ['self-supervised-learning', 'job-shop-scheduling', 'combinatorial-optimization']
 venue: "NeurIPS 2024"

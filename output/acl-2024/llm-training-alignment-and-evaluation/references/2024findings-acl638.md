@@ -1,6 +1,7 @@
 ---
 title: "Batch-ICL: Effective, Efficient, and Order-Agnostic In-Context Learning"
 source: "https://aclanthology.org/2024.findings-acl.638/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['in-context-learning', 'order-robustness', 'inference-efficiency']
 venue: "ACL 2024"

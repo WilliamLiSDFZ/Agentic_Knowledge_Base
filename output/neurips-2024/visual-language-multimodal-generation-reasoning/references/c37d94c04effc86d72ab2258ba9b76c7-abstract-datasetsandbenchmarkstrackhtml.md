@@ -1,6 +1,7 @@
 ---
 title: "Image Textualization: An Automatic Framework for Generating Rich and Detailed Image Descriptions"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/c37d94c04effc86d72ab2258ba9b76c7-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/c37d94c04effc86d72ab2258ba9b76c7-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning']
 tags: ['image-description', 'automatic-captioning', 'multimodal-datasets']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "AlphaMath Almost Zero: Process Supervision without Process"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/30dfe47a3ccbee68cffa0c19ccb1bc00-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/30dfe47a3ccbee68cffa0c19ccb1bc00-Paper-Conference.pdf"
 categories: ['llm-training-and-optimization-techniques', 'neural-networks-for-formal-reasoning-and-verification']
 tags: ['LLM', 'mathematical-reasoning', 'process-supervision', 'MCTS']
 venue: "NeurIPS 2024"

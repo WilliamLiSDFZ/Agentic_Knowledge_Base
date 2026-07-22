@@ -1,6 +1,7 @@
 ---
 title: "WhodunitBench: Evaluating Large Multimodal Agents via Murder Mystery Games"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/9dd4533e7e4e5ed809344280609c5b05-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/9dd4533e7e4e5ed809344280609c5b05-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-agent-communication-and-cooperation']
 tags: ['multimodal-agents', 'benchmark', 'murder-mystery']
 venue: "NeurIPS 2024"

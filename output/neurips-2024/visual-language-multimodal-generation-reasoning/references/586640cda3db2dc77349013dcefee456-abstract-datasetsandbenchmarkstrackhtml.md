@@ -1,6 +1,7 @@
 ---
 title: "MultiTrust: A Comprehensive Benchmark Towards Trustworthy Multimodal Large Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/586640cda3db2dc77349013dcefee456-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/586640cda3db2dc77349013dcefee456-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'visual-language-multimodal-generation-reasoning']
 tags: ['multimodal-llms', 'trustworthiness', 'benchmark', 'safety', 'evaluation']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Perspective Taking through Generating Responses to Conflict Situations"
 source: "https://aclanthology.org/2024.findings-acl.387/"
+pdf_url: ""
 categories: ['language-model-human-cognitive-linguistic-alignment', 'emotion-aware-dialogue-and-empathy-systems']
 tags: ['perspective-taking', 'theory-of-mind', 'conflict-resolution']
 venue: "ACL 2024"

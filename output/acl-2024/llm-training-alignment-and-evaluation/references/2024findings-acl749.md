@@ -1,6 +1,7 @@
 ---
 title: "Demonstrations Are All You Need: Advancing Offensive Content Paraphrasing using In-Context Learning"
 source: "https://aclanthology.org/2024.findings-acl.749/"
+pdf_url: ""
 categories: ['hate-speech-and-toxic-content-detection', 'llm-training-alignment-and-evaluation']
 tags: ['offensive-content', 'paraphrasing', 'in-context-learning']
 venue: "ACL 2024"

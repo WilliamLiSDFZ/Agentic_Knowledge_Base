@@ -1,6 +1,7 @@
 ---
 title: "Revisiting, Benchmarking and Understanding Unsupervised Graph Domain Adaptation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a2c548b2ed3141400d86a235eaa6fad0-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a2c548b2ed3141400d86a235eaa6fad0-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['graph-neural-networks-and-representation-learning']
 tags: ['graph-domain-adaptation', 'benchmarking', 'unsupervised-transfer']
 venue: "NeurIPS 2024"

@@ -1,12 +1,12 @@
 ---
 name: state-memory-replay-sequence-modeling
 description: >-
-  This skill covers methods for extending and managing memory in sequence models, including recurrent state compression, external memory augmentation, and retrieval mechanisms to handle long-context dependencies across tasks like document summarization, in-context learning, and streaming inference. Core techniques include retentive/linear attention variants, memory-augmented transformers, RNN hidden-state representations, and replay-based state
+  This research area covers techniques for managing and utilizing **sequential memory and state representations** in neural sequence models, including recurrent architectures (RNNs, linear transformers, retention-based LLMs) and retrieval-augmented systems, to handle **long-context dependencies** across tasks such as streaming inference, voice conversion, document summarization, and in-context learning. Core
 ---
 
 # State Memory Replay Sequence Modeling
 
-This skill covers methods for extending and managing memory in sequence models, including recurrent state compression, external memory augmentation, and retrieval mechanisms to handle long-context dependencies across tasks like document summarization, in-context learning, and streaming inference. Core techniques include retentive/linear attention variants, memory-augmented transformers, RNN hidden-state representations, and replay-based state
+This research area covers techniques for managing and utilizing **sequential memory and state representations** in neural sequence models, including recurrent architectures (RNNs, linear transformers, retention-based LLMs) and retrieval-augmented systems, to handle **long-context dependencies** across tasks such as streaming inference, voice conversion, document summarization, and in-context learning. Core
 
 ## Entry Index
 

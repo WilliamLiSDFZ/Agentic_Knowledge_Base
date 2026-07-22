@@ -1,6 +1,7 @@
 ---
 title: "LocalRQA: From Generating Data to Locally Training, Testing, and Deploying Retrieval-Augmented QA Systems"
 source: "https://aclanthology.org/2024.acl-demos.14/"
+pdf_url: ""
 categories: ['collaborative-llm-deployment-and-inference-optimization']
 tags: ['retrieval-augmented-generation', 'question-answering', 'local-deployment']
 venue: "ACL 2024"

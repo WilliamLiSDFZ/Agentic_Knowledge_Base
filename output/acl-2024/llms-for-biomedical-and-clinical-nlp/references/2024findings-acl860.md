@@ -1,6 +1,7 @@
 ---
 title: "MedREQAL: Examining Medical Knowledge Recall of Large Language Models via Question Answering"
 source: "https://aclanthology.org/2024.findings-acl.860/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp']
 tags: ['medical-question-answering', 'llm-evaluation', 'knowledge-recall']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "LoRA Meets Dropout under a Unified Framework"
 source: "https://aclanthology.org/2024.findings-acl.119/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'transformer-architecture-analysis-and-design']
 tags: ['LoRA', 'dropout', 'parameter-efficient-finetuning', 'regularization', 'unified-framework']
 venue: "ACL 2024"

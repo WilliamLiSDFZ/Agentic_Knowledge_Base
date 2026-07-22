@@ -1,12 +1,12 @@
 ---
 name: adaptive-testing-with-collaborative-ranking
 description: >-
-  This skill covers adaptive methods for efficiently learning pairwise preferences and rankings over items by sequentially selecting the most informative comparisons to make (active learning), with applications to computerized adaptive testing (CAT) where question selection is optimized per examinee. Key methods include collaborative filtering and ranking to generalize ordering to unseen items (out-of-sample), leveraging low-
+  This skill covers adaptive item selection strategies for efficiently learning total or partial orderings over items—both seen and unseen—using pairwise preference queries or response data, with applications to computerized adaptive testing (CAT) where collaborative filtering/ranking methods reduce the number of required test items while accurately estimating latent traits or item rankings.
 ---
 
 # Adaptive Testing With Collaborative Ranking
 
-This skill covers adaptive methods for efficiently learning pairwise preferences and rankings over items by sequentially selecting the most informative comparisons to make (active learning), with applications to computerized adaptive testing (CAT) where question selection is optimized per examinee. Key methods include collaborative filtering and ranking to generalize ordering to unseen items (out-of-sample), leveraging low-
+This skill covers adaptive item selection strategies for efficiently learning total or partial orderings over items—both seen and unseen—using pairwise preference queries or response data, with applications to computerized adaptive testing (CAT) where collaborative filtering/ranking methods reduce the number of required test items while accurately estimating latent traits or item rankings.
 
 ## Entry Index
 

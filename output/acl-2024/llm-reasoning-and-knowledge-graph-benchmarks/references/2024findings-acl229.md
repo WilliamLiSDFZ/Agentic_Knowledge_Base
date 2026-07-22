@@ -1,6 +1,7 @@
 ---
 title: "KG-Adapter: Enabling Knowledge Graph Integration in Large Language Models through Parameter-Efficient Fine-Tuning"
 source: "https://aclanthology.org/2024.findings-acl.229/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-training-alignment-and-evaluation']
 tags: ['knowledge-graph', 'parameter-efficient-fine-tuning', 'llm-integration']
 venue: "ACL 2024"

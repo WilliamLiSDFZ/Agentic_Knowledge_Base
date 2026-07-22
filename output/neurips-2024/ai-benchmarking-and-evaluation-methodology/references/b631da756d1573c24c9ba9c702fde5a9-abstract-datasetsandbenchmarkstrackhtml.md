@@ -1,6 +1,7 @@
 ---
 title: "Embodied Agent Interface: Benchmarking LLMs for Embodied Decision Making"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/b631da756d1573c24c9ba9c702fde5a9-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/b631da756d1573c24c9ba9c702fde5a9-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'reinforcement-learning-optimization-and-decision-making']
 tags: ['embodied-AI', 'LLM-benchmarking', 'decision-making', 'evaluation', 'agent-interface']
 venue: "NeurIPS 2024"

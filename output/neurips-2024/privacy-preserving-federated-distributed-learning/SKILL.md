@@ -1,12 +1,12 @@
 ---
 name: privacy-preserving-federated-distributed-learning
 description: >-
-  This skill covers privacy-preserving techniques (differential privacy, local differential privacy, secure aggregation) and communication-efficient methods (sketching, asynchronous SGD, model compression/pruning) for federated and distributed machine learning across heterogeneous clients, non-IID data, and constrained resources. Applications span medical foundation model training, reinforcement learning, graph algorithms, L
+  This skill covers privacy-preserving techniques (differential privacy, local differential privacy, secure aggregation) and communication-efficient methods (sketching, asynchronous SGD, model compression/pruning) for federated and distributed machine learning across heterogeneous clients, non-IID data, and constrained resources. Applications span medical foundation model fine-tuning, LLM adaptation,
 ---
 
 # Privacy Preserving Federated Distributed Learning
 
-This skill covers privacy-preserving techniques (differential privacy, local differential privacy, secure aggregation) and communication-efficient methods (sketching, asynchronous SGD, model compression/pruning) for federated and distributed machine learning across heterogeneous clients, non-IID data, and constrained resources. Applications span medical foundation model training, reinforcement learning, graph algorithms, L
+This skill covers privacy-preserving techniques (differential privacy, local differential privacy, secure aggregation) and communication-efficient methods (sketching, asynchronous SGD, model compression/pruning) for federated and distributed machine learning across heterogeneous clients, non-IID data, and constrained resources. Applications span medical foundation model fine-tuning, LLM adaptation,
 
 ## Entry Index
 

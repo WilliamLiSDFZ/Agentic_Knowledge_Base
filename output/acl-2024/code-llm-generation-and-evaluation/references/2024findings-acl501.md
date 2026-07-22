@@ -1,6 +1,7 @@
 ---
 title: "StudentEval: A Benchmark of Student-Written Prompts for Large Language Models of Code"
 source: "https://aclanthology.org/2024.findings-acl.501/"
+pdf_url: ""
 categories: ['code-llm-generation-and-evaluation', 'llm-training-alignment-and-evaluation']
 tags: ['code-llm', 'student-prompts', 'benchmark']
 venue: "ACL 2024"

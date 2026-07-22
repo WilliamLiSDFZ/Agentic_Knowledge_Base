@@ -1,6 +1,7 @@
 ---
 title: "STSPL-SSC: Semi-Supervised Few-Shot Short Text Clustering with Semantic text similarity Optimized Pseudo-Labels"
 source: "https://aclanthology.org/2024.findings-acl.725/"
+pdf_url: ""
 categories: ['text-clustering-with-limited-labels', 'llm-training-alignment-and-evaluation']
 tags: ['short-text-clustering', 'semi-supervised-learning', 'pseudo-labels']
 venue: "ACL 2024"

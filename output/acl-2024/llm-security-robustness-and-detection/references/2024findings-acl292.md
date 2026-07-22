@@ -1,6 +1,7 @@
 ---
 title: "Evaluating the Validity of Word-level Adversarial Attacks with Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.292/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'llm-training-alignment-and-evaluation']
 tags: ['adversarial-attacks', 'word-level-perturbation', 'semantic-validity']
 venue: "ACL 2024"

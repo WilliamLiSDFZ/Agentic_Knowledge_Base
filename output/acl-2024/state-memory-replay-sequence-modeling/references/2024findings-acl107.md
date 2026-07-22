@@ -1,6 +1,7 @@
 ---
 title: "Towards Safer Large Language Models through Machine Unlearning"
 source: "https://aclanthology.org/2024.findings-acl.107/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'state-memory-replay-sequence-modeling']
 tags: ['machine-unlearning', 'LLM-safety', 'harmful-content', 'knowledge-removal', 'alignment']
 venue: "ACL 2024"

@@ -38,10 +38,12 @@ def make_reference(paper):
     year = paper.get("year", "")
     title = paper.get("title", "Untitled")
     abstract = paper.get("abstract", "")
+    pdf_url = paper.get("pdf_url", "")
 
     return f"""---
 title: "{title.replace('"', "'")}"
 source: "{url}"
+pdf_url: "{pdf_url}"
 categories: {categories}
 tags: {tags}
 venue: "{venue} {year}"

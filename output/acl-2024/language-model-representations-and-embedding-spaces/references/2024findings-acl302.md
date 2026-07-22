@@ -1,6 +1,7 @@
 ---
 title: "KOMBO: Korean Character Representations Based on the Combination Rules of Subcharacters"
 source: "https://aclanthology.org/2024.findings-acl.302/"
+pdf_url: ""
 categories: ['nlp-for-asian-languages', 'language-model-representations-and-embedding-spaces']
 tags: ['Korean', 'subcharacter', 'language-model']
 venue: "ACL 2024"

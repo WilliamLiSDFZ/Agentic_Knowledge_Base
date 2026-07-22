@@ -1,6 +1,7 @@
 ---
 title: "FindingEmo: An Image Dataset for Emotion Recognition in the Wild"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/08a7229eaba3b35cd8f933ac678f2096-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/08a7229eaba3b35cd8f933ac678f2096-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'toxicity-detection-and-classification-datasets']
 tags: ['emotion-recognition', 'image-dataset', 'scene-understanding']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Definition Generation for Automatically Induced Semantic Frame"
 source: "https://aclanthology.org/2024.findings-acl.661/"
+pdf_url: ""
 categories: ['language-model-definition-and-scope', 'concept-embedding-taxonomy-hierarchy-representation']
 tags: ['semantic-frames', 'definition-generation', 'framenet']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Harmony4D: A Video Dataset for In-The-Wild Close Human Interactions"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/c20b843d0c6b1b40a8e6eb9a44e719c9-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/c20b843d0c6b1b40a8e6eb9a44e719c9-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['audio-visual-speech-processing-and-benchmarks', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['human-interaction', 'video-dataset', 'close-contact']
 venue: "NeurIPS 2024"

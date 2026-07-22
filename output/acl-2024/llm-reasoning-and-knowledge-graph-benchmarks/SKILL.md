@@ -1,12 +1,12 @@
 ---
 name: llm-reasoning-and-knowledge-graph-benchmarks
 description: >-
-  This research area covers methods for enhancing LLM reasoning capabilities through structured knowledge representations (knowledge graphs, chain-of-thought, multi-step verification) and evaluates performance across benchmarks spanning mathematical reasoning, temporal/relational knowledge, multi-hop QA, and business domains. Key techniques include KG-LLM alignment, retrieval-augmented generation, step-by
+  This skill covers the evaluation, augmentation, and reasoning capabilities of LLMs in structured and unstructured knowledge settings, including knowledge graph completion (link prediction, entity linking, relation extraction), multi-hop and temporal reasoning benchmarks, and chain-of-thought/step-by-step verification methods. It addresses techniques such as retrieval-augmented generation, KG-LL
 ---
 
 # Llm Reasoning And Knowledge Graph Benchmarks
 
-This research area covers methods for enhancing LLM reasoning capabilities through structured knowledge representations (knowledge graphs, chain-of-thought, multi-step verification) and evaluates performance across benchmarks spanning mathematical reasoning, temporal/relational knowledge, multi-hop QA, and business domains. Key techniques include KG-LLM alignment, retrieval-augmented generation, step-by
+This skill covers the evaluation, augmentation, and reasoning capabilities of LLMs in structured and unstructured knowledge settings, including knowledge graph completion (link prediction, entity linking, relation extraction), multi-hop and temporal reasoning benchmarks, and chain-of-thought/step-by-step verification methods. It addresses techniques such as retrieval-augmented generation, KG-LL
 
 ## Entry Index
 

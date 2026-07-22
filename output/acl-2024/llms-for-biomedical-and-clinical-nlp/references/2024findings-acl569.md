@@ -1,6 +1,7 @@
 ---
 title: "Enhancing Cross Text-Molecule Learning by Self-Augmentation"
 source: "https://aclanthology.org/2024.findings-acl.569/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp', 'llm-agents-for-scientific-data-tasks']
 tags: ['text-molecule', 'drug-discovery', 'self-augmentation', 'LLM', 'cross-modal']
 venue: "ACL 2024"

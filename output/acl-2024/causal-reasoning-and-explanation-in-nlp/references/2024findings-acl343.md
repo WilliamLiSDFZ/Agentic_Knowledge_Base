@@ -1,6 +1,7 @@
 ---
 title: "Predicting the Unpredictable: Uncertainty-Aware Reasoning over Temporal Knowledge Graphs via Diffusion Process"
 source: "https://aclanthology.org/2024.findings-acl.343/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'causal-reasoning-and-explanation-in-nlp']
 tags: ['temporal-knowledge-graph', 'reasoning', 'diffusion-process', 'uncertainty', 'future-prediction']
 venue: "ACL 2024"

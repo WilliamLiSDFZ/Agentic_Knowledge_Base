@@ -1,6 +1,7 @@
 ---
 title: "It takes two to borrow: a donor and a recipient. Who’s who?"
 source: "https://aclanthology.org/2024.findings-acl.360/"
+pdf_url: ""
 categories: ['lexical-semantic-change-detection-methods', 'language-technology-cultural-linguistic-diversity']
 tags: ['lexical-borrowing', 'language-contact', 'machine-learning']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "kGym: A Platform and Dataset to Benchmark Large Language Models on Linux Kernel Crash Resolution"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/8e9ed2a28af7d9085180e3817b2c9a57-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/8e9ed2a28af7d9085180e3817b2c9a57-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-training-and-optimization-techniques']
 tags: ['llm-benchmarking', 'linux-kernel', 'software-engineering']
 venue: "NeurIPS 2024"

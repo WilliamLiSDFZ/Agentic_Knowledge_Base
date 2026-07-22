@@ -1,6 +1,7 @@
 ---
 title: "Paying More Attention to Source Context: Mitigating Unfaithful Translations from Large Language Model"
 source: "https://aclanthology.org/2024.findings-acl.821/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'llm-hallucination-detection-and-mitigation']
 tags: ['machine-translation', 'faithfulness', 'source-attention']
 venue: "ACL 2024"

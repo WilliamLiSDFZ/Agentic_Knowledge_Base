@@ -1,6 +1,7 @@
 ---
 title: "AsEP: Benchmarking Deep Learning Methods for Antibody-specific Epitope Prediction"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/15add6732964d5b1f0954058bf3ccc88-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/15add6732964d5b1f0954058bf3ccc88-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['machine-learning-for-molecular-biology', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['epitope-prediction', 'antibody-design', 'deep-learning-benchmark']
 venue: "NeurIPS 2024"

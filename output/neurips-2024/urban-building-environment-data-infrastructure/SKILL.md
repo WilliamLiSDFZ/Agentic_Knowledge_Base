@@ -1,12 +1,12 @@
 ---
 name: urban-building-environment-data-infrastructure
 description: >-
-  This skill covers the construction, integration, and representation of urban and building data infrastructure, including knowledge graphs, unified data pipelines, road network embeddings, and multi-temporal land use datasets. Methods span graph-based representation learning, LLM-driven data construction and mobility simulation, and large-scale time-series dataset engineering for applications in urban analytics, land use change detection, and building
+  This skill covers the construction, integration, and representation of urban and building data infrastructure, including unified data pipelines, knowledge graphs, and benchmark datasets for urban environments. Methods span road network representation learning, LLM-based agents for mobility generation and knowledge graph construction, multi-temporal remote sensing segmentation, and large-scale building timeseries analytics.
 ---
 
 # Urban Building Environment Data Infrastructure
 
-This skill covers the construction, integration, and representation of urban and building data infrastructure, including knowledge graphs, unified data pipelines, road network embeddings, and multi-temporal land use datasets. Methods span graph-based representation learning, LLM-driven data construction and mobility simulation, and large-scale time-series dataset engineering for applications in urban analytics, land use change detection, and building
+This skill covers the construction, integration, and representation of urban and building data infrastructure, including unified data pipelines, knowledge graphs, and benchmark datasets for urban environments. Methods span road network representation learning, LLM-based agents for mobility generation and knowledge graph construction, multi-temporal remote sensing segmentation, and large-scale building timeseries analytics.
 
 ## Entry Index
 

@@ -1,6 +1,7 @@
 ---
 title: "APIGen: Automated PIpeline for Generating Verifiable and Diverse Function-Calling Datasets"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/61cce86d180b1184949e58939c4f983d-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/61cce86d180b1184949e58939c4f983d-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-agent-communication-and-cooperation', 'llm-training-and-optimization-techniques']
 tags: ['function-calling', 'dataset-generation', 'llm-agents']
 venue: "NeurIPS 2024"

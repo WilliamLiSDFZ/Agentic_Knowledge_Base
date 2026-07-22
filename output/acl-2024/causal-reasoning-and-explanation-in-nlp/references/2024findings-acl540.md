@@ -1,6 +1,7 @@
 ---
 title: "FRVA: Fact-Retrieval and Verification Augmented Entailment Tree Generation for Explainable Question Answering"
 source: "https://aclanthology.org/2024.findings-acl.540/"
+pdf_url: ""
 categories: ['causal-reasoning-and-explanation-in-nlp', 'educational-question-generation-and-comprehension']
 tags: ['entailment-tree', 'explainable-qa', 'fact-retrieval', 'verification', 'structured-reasoning']
 venue: "ACL 2024"

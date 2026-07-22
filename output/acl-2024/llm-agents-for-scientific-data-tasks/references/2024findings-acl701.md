@@ -1,6 +1,7 @@
 ---
 title: "MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization"
 source: "https://aclanthology.org/2024.findings-acl.701/"
+pdf_url: ""
 categories: ['llm-agents-for-scientific-data-tasks', 'code-llm-generation-and-evaluation']
 tags: ['scientific-visualization', 'LLM-agents', 'code-generation']
 venue: "ACL 2024"

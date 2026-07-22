@@ -1,6 +1,7 @@
 ---
 title: "Implicit Zoo: A Large-Scale Dataset of Neural Implicit Functions for 2D Images and 3D Scenes"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a1aa1edb47567545a4b037a95d658e6f-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a1aa1edb47567545a4b037a95d658e6f-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['neural-geometric-shape-representation-learning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['neural-implicit-functions', 'dataset', '3D-scenes', '2D-images']
 venue: "NeurIPS 2024"

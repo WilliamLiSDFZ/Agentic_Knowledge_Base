@@ -1,6 +1,7 @@
 ---
 title: "BiasDPO: Mitigating Bias in Language Models through Direct Preference Optimization"
 source: "https://aclanthology.org/2024.acl-srw.7/"
+pdf_url: ""
 categories: ['bias-and-fairness-in-llms', 'llm-training-alignment-and-evaluation']
 tags: ['bias-mitigation', 'direct-preference-optimization', 'fairness']
 venue: "ACL 2024"

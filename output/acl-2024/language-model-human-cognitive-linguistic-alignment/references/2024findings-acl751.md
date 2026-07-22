@@ -1,6 +1,7 @@
 ---
 title: "Epistemology of Language Models: Do Language Models Have Holistic Knowledge?"
 source: "https://aclanthology.org/2024.findings-acl.751/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'language-model-human-cognitive-linguistic-alignment']
 tags: ['epistemology', 'holistic-knowledge', 'language-model-reasoning']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "LookHere: Vision Transformers with Directed Attention Generalize and Extrapolate"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/22d72e9f55bc29cafcca6814a7feac8c-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/22d72e9f55bc29cafcca6814a7feac8c-Paper-Conference.pdf"
 categories: ['transformer-based-learning-for-spatial-tasks', 'visual-language-multimodal-generation-reasoning']
 tags: ['vision-transformer', 'attention-mechanism', 'resolution-extrapolation']
 venue: "NeurIPS 2024"

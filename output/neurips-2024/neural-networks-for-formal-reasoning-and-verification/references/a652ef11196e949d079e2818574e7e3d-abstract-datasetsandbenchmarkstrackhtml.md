@@ -1,6 +1,7 @@
 ---
 title: "NN4SysBench: Characterizing Neural Network Verification for Computer Systems"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a652ef11196e949d079e2818574e7e3d-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a652ef11196e949d079e2818574e7e3d-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['neural-networks-for-formal-reasoning-and-verification', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['neural-network-verification', 'computer-systems', 'benchmark']
 venue: "NeurIPS 2024"

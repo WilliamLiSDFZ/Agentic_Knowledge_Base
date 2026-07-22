@@ -1,6 +1,7 @@
 ---
 title: "SymTax: Symbiotic Relationship and Taxonomy Fusion for Effective Citation Recommendation"
 source: "https://aclanthology.org/2024.findings-acl.533/"
+pdf_url: ""
 categories: ['llm-based-ranking-and-recommendation']
 tags: ['citation-recommendation', 'taxonomy-fusion', 'scientific-documents']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "A Practitioner's Guide to Real-World Continual Multimodal Pretraining"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/f1a6a2cdc7e65dbb4579e78f97cd2665-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/f1a6a2cdc7e65dbb4579e78f97cd2665-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'llm-training-and-optimization-techniques']
 tags: ['continual-pretraining', 'multimodal-foundation-models', 'vision-language']
 venue: "NeurIPS 2024"

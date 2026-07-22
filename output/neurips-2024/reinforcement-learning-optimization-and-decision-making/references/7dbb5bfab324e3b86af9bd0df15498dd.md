@@ -1,6 +1,7 @@
 ---
 title: "iVideoGPT: Interactive VideoGPTs are Scalable World Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/7dbb5bfab324e3b86af9bd0df15498dd-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/7dbb5bfab324e3b86af9bd0df15498dd-Paper-Conference.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making']
 tags: ['world-models', 'video-generation', 'interactive-agents']
 venue: "NeurIPS 2024"

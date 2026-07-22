@@ -1,6 +1,7 @@
 ---
 title: "Text2DB: Integration-Aware Information Extraction with Large Language Model Agents"
 source: "https://aclanthology.org/2024.findings-acl.12/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'text-to-sql-parsing-and-benchmarks']
 tags: ['information-extraction', 'llm-agents', 'database-integration']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "TRAP: Targeted Random Adversarial Prompt Honeypot for Black-Box Identification"
 source: "https://aclanthology.org/2024.findings-acl.683/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'llm-training-alignment-and-evaluation']
 tags: ['adversarial-prompts', 'model-identification', 'black-box-detection']
 venue: "ACL 2024"

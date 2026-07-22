@@ -1,6 +1,7 @@
 ---
 title: "SenticVec: Toward Robust and Human-Centric Neurosymbolic Sentiment Analysis"
 source: "https://aclanthology.org/2024.findings-acl.289/"
+pdf_url: ""
 categories: ['multilingual-text-classification-and-sentiment-analysis', 'online-discourse-mental-health-language-analysis']
 tags: ['sentiment-analysis', 'neurosymbolic', 'robustness', 'human-centric']
 venue: "ACL 2024"

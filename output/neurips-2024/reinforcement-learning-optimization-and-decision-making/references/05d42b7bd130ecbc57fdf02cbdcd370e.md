@@ -1,6 +1,7 @@
 ---
 title: "Warm-up Free Policy Optimization: Improved Regret in Linear Markov Decision Processes"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/05d42b7bd130ecbc57fdf02cbdcd370e-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/05d42b7bd130ecbc57fdf02cbdcd370e-Paper-Conference.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'online-learning-augmented-algorithms-and-optimization']
 tags: ['policy-optimization', 'linear-mdp', 'regret-bounds']
 venue: "NeurIPS 2024"

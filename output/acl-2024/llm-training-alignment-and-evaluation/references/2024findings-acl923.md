@@ -1,6 +1,7 @@
 ---
 title: "PLaD: Preference-based Large Language Model Distillation with Pseudo-Preference Pairs"
 source: "https://aclanthology.org/2024.findings-acl.923/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['knowledge-distillation', 'preference-learning', 'pseudo-preference-pairs', 'llm-compression']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Uncertainty of Thoughts: Uncertainty-Aware Planning Enhances Information Seeking in LLMs"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/2b0e14abd8128e6bf98b6b0bec1cfcbf-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/2b0e14abd8128e6bf98b6b0bec1cfcbf-Paper-Conference.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'statistical-inference-and-text-generation-methods\n\nhmm,-let-me-reconsider---looking-more-carefully-at-the-cluster:\n\n**score-matching-and-sampling-methods**']
 tags: ['uncertainty-aware-planning', 'information-seeking', 'active-questioning']
 venue: "NeurIPS 2024"

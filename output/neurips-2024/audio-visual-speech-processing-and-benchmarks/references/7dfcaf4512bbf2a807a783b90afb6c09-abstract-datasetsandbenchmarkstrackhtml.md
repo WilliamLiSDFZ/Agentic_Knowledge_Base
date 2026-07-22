@@ -1,6 +1,7 @@
 ---
 title: "IndicVoices-R: Unlocking a Massive Multilingual Multi-speaker Speech Corpus for Scaling Indian TTS"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/7dfcaf4512bbf2a807a783b90afb6c09-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/7dfcaf4512bbf2a807a783b90afb6c09-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['audio-visual-speech-processing-and-benchmarks']
 tags: ['text-to-speech', 'Indian-languages', 'multilingual-corpus']
 venue: "NeurIPS 2024"

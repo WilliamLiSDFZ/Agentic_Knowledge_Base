@@ -1,12 +1,12 @@
 ---
 name: text-simplification-evaluation-and-methods
 description: >-
-  Text simplification evaluation and methods covers techniques for transforming complex text into more accessible forms across languages and domains, including sentence simplification, lexical substitution, readability control (targeting proficiency levels or age-appropriate vocabulary), and style transfer with constraints on content preservation. Research in this area develops and benchmarks both generative methods (LLM-based iterative simplification, disent
+  This skill covers automatic and human evaluation of text simplification, summarization, and style transfer systems, with emphasis on controlling output along dimensions such as readability level, language proficiency, and stylistic consistency. Methods include LLM-based generation and self-correction, disentangled representation learning, iterative simplification pipelines, and benchmarking lexical/syntactic simplification
 ---
 
 # Text Simplification Evaluation And Methods
 
-Text simplification evaluation and methods covers techniques for transforming complex text into more accessible forms across languages and domains, including sentence simplification, lexical substitution, readability control (targeting proficiency levels or age-appropriate vocabulary), and style transfer with constraints on content preservation. Research in this area develops and benchmarks both generative methods (LLM-based iterative simplification, disent
+This skill covers automatic and human evaluation of text simplification, summarization, and style transfer systems, with emphasis on controlling output along dimensions such as readability level, language proficiency, and stylistic consistency. Methods include LLM-based generation and self-correction, disentangled representation learning, iterative simplification pipelines, and benchmarking lexical/syntactic simplification
 
 ## Entry Index
 

@@ -1,6 +1,7 @@
 ---
 title: "On provable privacy vulnerabilities of graph representations"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a526cc8f6ffb74bedb6ff313e3fdb450-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a526cc8f6ffb74bedb6ff313e3fdb450-Paper-Conference.pdf"
 categories: ['graph-neural-networks-and-representation-learning', 'privacy-preserving-federated-distributed-learning']
 tags: ['graph-neural-networks', 'privacy-attacks', 'structural-vulnerability']
 venue: "NeurIPS 2024"

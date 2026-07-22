@@ -1,6 +1,7 @@
 ---
 title: "ClevrSkills: Compositional Language And Visual Reasoning in Robotics"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/439539557e9ba0d04055773ff1f3241c-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/439539557e9ba0d04055773ff1f3241c-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['compositional-reasoning', 'robotics-benchmark', 'visual-language']
 venue: "NeurIPS 2024"

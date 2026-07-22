@@ -1,6 +1,7 @@
 ---
 title: "Fantastic Semantics and Where to Find Them: Investigating Which Layers of Generative LLMs Reflect Lexical Semantics"
 source: "https://aclanthology.org/2024.findings-acl.866/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces', 'transformer-architecture-analysis-and-design']
 tags: ['lexical-semantics', 'generative-llm', 'layer-analysis']
 venue: "ACL 2024"

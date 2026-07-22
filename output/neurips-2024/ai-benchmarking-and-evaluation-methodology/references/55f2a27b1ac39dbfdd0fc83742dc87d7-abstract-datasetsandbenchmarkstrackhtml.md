@@ -1,6 +1,7 @@
 ---
 title: "ProbTS: Benchmarking Point and Distributional Forecasting across Diverse Prediction Horizons"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/55f2a27b1ac39dbfdd0fc83742dc87d7-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/55f2a27b1ac39dbfdd0fc83742dc87d7-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['time-series-forecasting-and-analysis', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['time-series-forecasting', 'benchmarking', 'distributional-forecasting', 'prediction-horizons', 'deep-learning']
 venue: "NeurIPS 2024"

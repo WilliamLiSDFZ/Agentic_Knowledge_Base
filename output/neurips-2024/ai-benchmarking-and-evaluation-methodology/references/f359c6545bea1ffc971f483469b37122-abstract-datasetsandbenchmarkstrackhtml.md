@@ -1,6 +1,7 @@
 ---
 title: "CALE: Continuous Arcade Learning Environment"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/f359c6545bea1ffc971f483469b37122-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/f359c6545bea1ffc971f483469b37122-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['arcade-learning-environment', 'continuous-actions', 'reinforcement-learning-benchmark']
 venue: "NeurIPS 2024"

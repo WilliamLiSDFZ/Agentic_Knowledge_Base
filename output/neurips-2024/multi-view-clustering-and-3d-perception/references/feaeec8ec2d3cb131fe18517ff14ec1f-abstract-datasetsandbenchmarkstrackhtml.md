@@ -1,6 +1,7 @@
 ---
 title: "Multi-modal Situated Reasoning in 3D Scenes"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/feaeec8ec2d3cb131fe18517ff14ec1f-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/feaeec8ec2d3cb131fe18517ff14ec1f-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'multi-view-clustering-and-3d-perception']
 tags: ['3D-scene-reasoning', 'situated-awareness', 'multimodal-benchmark']
 venue: "NeurIPS 2024"

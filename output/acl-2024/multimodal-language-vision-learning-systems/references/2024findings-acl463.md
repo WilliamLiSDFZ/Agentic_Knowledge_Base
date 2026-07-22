@@ -1,6 +1,7 @@
 ---
 title: "ChartAssistant: A Universal Chart Multimodal Language Model via Chart-to-Table Pre-training and Multitask Instruction Tuning"
 source: "https://aclanthology.org/2024.findings-acl.463/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems']
 tags: ['chart-understanding', 'multimodal-llm', 'chart-to-table']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "VideoGUI: A Benchmark for GUI Automation from Instructional Videos"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/804e757b7d7043c26701c3a313032101-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/804e757b7d7043c26701c3a313032101-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['gui-automation', 'instructional-videos', 'benchmark']
 venue: "NeurIPS 2024"

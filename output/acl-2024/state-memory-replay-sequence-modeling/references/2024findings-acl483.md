@@ -1,6 +1,7 @@
 ---
 title: "SMR: State Memory Replay for Long Sequence Modeling"
 source: "https://aclanthology.org/2024.findings-acl.483/"
+pdf_url: ""
 categories: ['state-memory-replay-sequence-modeling']
 tags: ['state-space-models', 'long-sequence-modeling', 'memory-replay']
 venue: "ACL 2024"

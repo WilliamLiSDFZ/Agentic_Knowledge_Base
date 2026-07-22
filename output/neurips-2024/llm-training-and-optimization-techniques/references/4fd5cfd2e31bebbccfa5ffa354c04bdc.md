@@ -1,6 +1,7 @@
 ---
 title: "Large Scale Transfer Learning for Tabular Data  via Language Modeling"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/4fd5cfd2e31bebbccfa5ffa354c04bdc-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/4fd5cfd2e31bebbccfa5ffa354c04bdc-Paper-Conference.pdf"
 categories: ['llm-training-and-optimization-techniques', 'autonomous-driving-and-trajectory-prediction']
 tags: ['tabular-data', 'language-modeling', 'transfer-learning', 'foundation-models', 'heterogeneous-data']
 venue: "NeurIPS 2024"

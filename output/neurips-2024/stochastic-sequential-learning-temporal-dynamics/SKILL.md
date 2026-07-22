@@ -1,12 +1,12 @@
 ---
 name: stochastic-sequential-learning-temporal-dynamics
 description: >-
-  This skill covers **probabilistic sequential modeling and inference**, encompassing state-space models (linear, nonlinear, switching, and exponential-family variants), particle methods (SMC, differentiable smoothers), and variational inference for temporal latent variable models. Applications span neural dynamics decoding, multi-agent system modeling, counterfactual reasoning over time, and reinforcement
+  This skill covers probabilistic modeling and inference for sequential and temporal data, including state-space models (linear, nonlinear, switching), particle methods (SMC, differentiable smoothers), and variational inference for latent dynamics. Applications span neuroscience (latent neural dynamics, spiking networks), multi-agent systems, causal counterfactual estimation over time,
 ---
 
 # Stochastic Sequential Learning Temporal Dynamics
 
-This skill covers **probabilistic sequential modeling and inference**, encompassing state-space models (linear, nonlinear, switching, and exponential-family variants), particle methods (SMC, differentiable smoothers), and variational inference for temporal latent variable models. Applications span neural dynamics decoding, multi-agent system modeling, counterfactual reasoning over time, and reinforcement
+This skill covers probabilistic modeling and inference for sequential and temporal data, including state-space models (linear, nonlinear, switching), particle methods (SMC, differentiable smoothers), and variational inference for latent dynamics. Applications span neuroscience (latent neural dynamics, spiking networks), multi-agent systems, causal counterfactual estimation over time,
 
 ## Entry Index
 

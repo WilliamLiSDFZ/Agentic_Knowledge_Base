@@ -1,12 +1,12 @@
 ---
 name: llm-assisted-structured-procedure-analysis
 description: >-
-  **LLM-Assisted Structured Procedure Analysis** covers the use of large language models to extract, represent, evaluate, and manipulate procedural knowledge from documents and manuals — including converting unstructured text into structured formats (graphs, DSLs, workflows) and automating tasks like procedure customization, PDF editing, and visual instruction generation. Methods span benchmark construction, constraint
+  **LLM-Assisted Structured Procedure Analysis** covers the use of large language models to extract, represent, evaluate, and manipulate procedural knowledge from documents and natural language, including converting unstructured text into structured formats (graphs, DSLs, workflows) and benchmarking implicit planning capabilities. Applications span automated document editing, procedure customization via targeted edits, visual
 ---
 
 # Llm Assisted Structured Procedure Analysis
 
-**LLM-Assisted Structured Procedure Analysis** covers the use of large language models to extract, represent, evaluate, and manipulate procedural knowledge from documents and manuals — including converting unstructured text into structured formats (graphs, DSLs, workflows) and automating tasks like procedure customization, PDF editing, and visual instruction generation. Methods span benchmark construction, constraint
+**LLM-Assisted Structured Procedure Analysis** covers the use of large language models to extract, represent, evaluate, and manipulate procedural knowledge from documents and natural language, including converting unstructured text into structured formats (graphs, DSLs, workflows) and benchmarking implicit planning capabilities. Applications span automated document editing, procedure customization via targeted edits, visual
 
 ## Entry Index
 

@@ -1,6 +1,7 @@
 ---
 title: "Automatic and Human-AI Interactive Text Generation (with a focus on Text Simplification and Revision)"
 source: "https://aclanthology.org/2024.acl-tutorials.2/"
+pdf_url: ""
 categories: ['text-simplification-evaluation-and-methods', 'llm-training-alignment-and-evaluation']
 tags: ['text-simplification', 'text-revision', 'human-ai-interaction', 'nlg', 'tutorial']
 venue: "ACL 2024"

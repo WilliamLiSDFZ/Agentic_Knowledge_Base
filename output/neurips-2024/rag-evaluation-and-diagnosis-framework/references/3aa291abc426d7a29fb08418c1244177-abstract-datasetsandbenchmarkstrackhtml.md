@@ -1,6 +1,7 @@
 ---
 title: "ClashEval: Quantifying the tug-of-war between an LLM’s internal prior and external evidence"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/3aa291abc426d7a29fb08418c1244177-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/3aa291abc426d7a29fb08418c1244177-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['rag-evaluation-and-diagnosis-framework']
 tags: ['RAG', 'hallucination', 'LLM-prior', 'knowledge-conflict']
 venue: "NeurIPS 2024"

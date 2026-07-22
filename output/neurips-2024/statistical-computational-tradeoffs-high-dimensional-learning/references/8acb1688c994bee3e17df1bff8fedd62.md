@@ -1,6 +1,7 @@
 ---
 title: "The Reliability of OKRidge Method in Solving Sparse Ridge Regression Problems"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/8acb1688c994bee3e17df1bff8fedd62-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/8acb1688c994bee3e17df1bff8fedd62-Paper-Conference.pdf"
 categories: ['statistical-learning-theory-and-matrix-methods', 'statistical-computational-tradeoffs-high-dimensional-learning']
 tags: ['sparse-ridge-regression', 'okridge', 'reliability-analysis']
 venue: "NeurIPS 2024"

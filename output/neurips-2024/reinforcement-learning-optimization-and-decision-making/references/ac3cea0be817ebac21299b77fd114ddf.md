@@ -1,6 +1,7 @@
 ---
 title: "A Nearly Optimal and Low-Switching Algorithm for Reinforcement Learning with General Function Approximation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ac3cea0be817ebac21299b77fd114ddf-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ac3cea0be817ebac21299b77fd114ddf-Paper-Conference.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making']
 tags: ['reinforcement-learning', 'function-approximation', 'exploration-exploitation', 'UCB', 'sample-efficiency']
 venue: "NeurIPS 2024"

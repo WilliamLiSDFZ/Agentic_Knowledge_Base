@@ -1,6 +1,7 @@
 ---
 title: "Generative Pre-trained Speech Language Model with Efficient Hierarchical Transformer"
 source: "https://aclanthology.org/2024.acl-long.97/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems', 'transformer-architecture-analysis-and-design']
 tags: ['speech-language-model', 'hierarchical-transformer', 'audio-codec']
 venue: "ACL 2024"

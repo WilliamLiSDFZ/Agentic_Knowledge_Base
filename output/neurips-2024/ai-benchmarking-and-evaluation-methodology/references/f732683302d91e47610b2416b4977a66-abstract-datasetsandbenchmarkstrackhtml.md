@@ -1,6 +1,7 @@
 ---
 title: "$\texttt{dattri}$: A Library for Efficient Data Attribution"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/f732683302d91e47610b2416b4977a66-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/f732683302d91e47610b2416b4977a66-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['machine-learning-theory-and-evaluation-methods', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['data-attribution', 'training-data-influence', 'library']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "VHELM: A Holistic Evaluation of Vision Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/fe2fc7dc60b55ccd8886220b40fb1f74-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/fe2fc7dc60b55ccd8886220b40fb1f74-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'visual-language-multimodal-generation-reasoning']
 tags: ['vision-language-models', 'holistic-evaluation', 'fairness-toxicity']
 venue: "NeurIPS 2024"

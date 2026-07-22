@@ -1,6 +1,7 @@
 ---
 title: "LLMs cannot find reasoning errors, but can correct them given the error location"
 source: "https://aclanthology.org/2024.findings-acl.826/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation']
 tags: ['self-correction', 'reasoning-errors', 'llm-evaluation']
 venue: "ACL 2024"

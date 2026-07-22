@@ -1,6 +1,7 @@
 ---
 title: "SciFIBench: Benchmarking Large Multimodal Models for Scientific Figure Interpretation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/217bb44ab14621754db8a392163e6b07-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/217bb44ab14621754db8a392163e6b07-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'visual-language-multimodal-generation-reasoning']
 tags: ['benchmark', 'large-multimodal-models', 'scientific-figures', 'evaluation']
 venue: "NeurIPS 2024"

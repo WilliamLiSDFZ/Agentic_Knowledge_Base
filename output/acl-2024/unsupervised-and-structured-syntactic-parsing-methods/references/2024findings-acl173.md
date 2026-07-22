@@ -1,6 +1,7 @@
 ---
 title: "Character-Level Chinese Dependency Parsing via Modeling Latent Intra-Word Structure"
 source: "https://aclanthology.org/2024.findings-acl.173/"
+pdf_url: ""
 categories: ['unsupervised-and-structured-syntactic-parsing-methods', 'nlp-for-asian-languages']
 tags: ['chinese-parsing', 'dependency-parsing', 'character-level']
 venue: "ACL 2024"

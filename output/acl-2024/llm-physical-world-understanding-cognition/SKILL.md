@@ -1,12 +1,12 @@
 ---
 name: llm-physical-world-understanding-cognition
 description: >-
-  **LLM Physical World Understanding & Cognition** examines how large language models acquire, represent, and reason about physical world dynamics — including learning environment transition models through language modeling (e.g., board games as world model proxies), grounding LLMs to sensory/physical data (e.g., IoT sensors, images) to enable physical-world inference, and
+  **LLM Physical World Understanding & Cognition** covers methods for grounding large language models in physical and spatial reasoning by training or prompting LLMs to internalize environment dynamics (world models), interpret sensor/physical data, and execute embodied instruction-following tasks. Research examines component-wise architectures (perception, planning, action) and evaluates how well LLMs
 ---
 
 # Llm Physical World Understanding Cognition
 
-**LLM Physical World Understanding & Cognition** examines how large language models acquire, represent, and reason about physical world dynamics — including learning environment transition models through language modeling (e.g., board games as world model proxies), grounding LLMs to sensory/physical data (e.g., IoT sensors, images) to enable physical-world inference, and
+**LLM Physical World Understanding & Cognition** covers methods for grounding large language models in physical and spatial reasoning by training or prompting LLMs to internalize environment dynamics (world models), interpret sensor/physical data, and execute embodied instruction-following tasks. Research examines component-wise architectures (perception, planning, action) and evaluates how well LLMs
 
 ## Entry Index
 

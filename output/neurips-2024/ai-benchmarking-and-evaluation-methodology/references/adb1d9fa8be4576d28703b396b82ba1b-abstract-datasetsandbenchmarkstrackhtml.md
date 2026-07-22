@@ -1,6 +1,7 @@
 ---
 title: "FinBen: A Holistic Financial Benchmark for Large Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/adb1d9fa8be4576d28703b396b82ba1b-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/adb1d9fa8be4576d28703b396b82ba1b-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-benchmarks-for-clinical-healthcare']
 tags: ['financial-benchmark', 'llm-evaluation', 'nlp']
 venue: "NeurIPS 2024"

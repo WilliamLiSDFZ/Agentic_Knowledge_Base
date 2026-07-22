@@ -1,6 +1,7 @@
 ---
 title: "Paraphrasing in Affirmative Terms Improves Negation Understanding"
 source: "https://aclanthology.org/2024.acl-short.55/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces', 'causal-reasoning-and-explanation-in-nlp']
 tags: ['negation-understanding', 'paraphrasing', 'natural-language-inference']
 venue: "ACL 2024"

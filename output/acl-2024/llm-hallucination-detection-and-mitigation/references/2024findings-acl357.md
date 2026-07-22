@@ -1,6 +1,7 @@
 ---
 title: "When to Trust LLMs: Aligning Confidence with Response Quality"
 source: "https://aclanthology.org/2024.findings-acl.357/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'llm-training-alignment-and-evaluation']
 tags: ['confidence-calibration', 'LLM-trustworthiness', 'response-quality']
 venue: "ACL 2024"

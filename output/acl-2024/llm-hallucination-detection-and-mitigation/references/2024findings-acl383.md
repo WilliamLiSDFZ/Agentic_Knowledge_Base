@@ -1,6 +1,7 @@
 ---
 title: "Knowledge of Knowledge: Exploring Known-Unknowns Uncertainty with Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.383/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['known-unknowns', 'uncertainty-estimation', 'LLM-self-knowledge']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Bias in News Summarization: Measures, Pitfalls and Corpora"
 source: "https://aclanthology.org/2024.findings-acl.356/"
+pdf_url: ""
 categories: ['bias-and-fairness-in-llms']
 tags: ['bias', 'news-summarization', 'llm-evaluation', 'corpora']
 venue: "ACL 2024"

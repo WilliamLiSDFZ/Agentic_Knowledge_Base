@@ -1,6 +1,7 @@
 ---
 title: "Learning Job Title Representation from Job Description Aggregation Network"
 source: "https://aclanthology.org/2024.findings-acl.77/"
+pdf_url: ""
 categories: ['job-title-representation-learning']
 tags: ['job-title-representation', 'job-description', 'aggregation-network']
 venue: "ACL 2024"

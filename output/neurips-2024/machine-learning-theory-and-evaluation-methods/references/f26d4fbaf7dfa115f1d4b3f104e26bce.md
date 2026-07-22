@@ -1,6 +1,7 @@
 ---
 title: "Semantic Density: Uncertainty Quantification for Large Language Models through Confidence Measurement in Semantic Space"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/f26d4fbaf7dfa115f1d4b3f104e26bce-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/f26d4fbaf7dfa115f1d4b3f104e26bce-Paper-Conference.pdf"
 categories: ['machine-learning-theory-and-evaluation-methods', 'llm-training-and-optimization-techniques']
 tags: ['uncertainty-quantification', 'hallucination', 'semantic-density']
 venue: "NeurIPS 2024"

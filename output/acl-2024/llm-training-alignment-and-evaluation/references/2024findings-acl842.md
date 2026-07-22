@@ -1,6 +1,7 @@
 ---
 title: "Self-Para-Consistency: Improving Reasoning Tasks at Low Cost for Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.842/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'llm-training-alignment-and-evaluation']
 tags: ['self-consistency', 'reasoning', 'paraphrase', 'low-cost', 'chain-of-thought']
 venue: "ACL 2024"

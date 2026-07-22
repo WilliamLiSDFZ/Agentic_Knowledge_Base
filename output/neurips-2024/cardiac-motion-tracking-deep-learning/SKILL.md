@@ -1,12 +1,12 @@
 ---
 name: cardiac-motion-tracking-deep-learning
 description: >-
-  This skill covers deep learning methods for tracking and modeling cardiac motion from medical imaging and physiological signals, including physics-informed self-supervised learning, recurrent neural networks with Gaussian process latent representations for myocardial deformation tracking, and diffusion-based generative models for reconstructing ECG morphology. Applications span non-invasive cardiac digital twins, ventricular wall motion
+  This skill covers deep learning methods for tracking and modeling cardiac motion from medical imaging and physiological signals, including recurrent neural networks with probabilistic latent representations, physics-informed self-supervised learning for building cardiac digital twins, and diffusion-based generative models for reconstructing ECG morphology from indirect measurements.
 ---
 
 # Cardiac Motion Tracking Deep Learning
 
-This skill covers deep learning methods for tracking and modeling cardiac motion from medical imaging and physiological signals, including physics-informed self-supervised learning, recurrent neural networks with Gaussian process latent representations for myocardial deformation tracking, and diffusion-based generative models for reconstructing ECG morphology. Applications span non-invasive cardiac digital twins, ventricular wall motion
+This skill covers deep learning methods for tracking and modeling cardiac motion from medical imaging and physiological signals, including recurrent neural networks with probabilistic latent representations, physics-informed self-supervised learning for building cardiac digital twins, and diffusion-based generative models for reconstructing ECG morphology from indirect measurements.
 
 ## Entry Index
 

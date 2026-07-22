@@ -1,6 +1,7 @@
 ---
 title: "RankMean: Module-Level Importance Score for Merging Fine-tuned LLM Models"
 source: "https://aclanthology.org/2024.findings-acl.104/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'collaborative-llm-deployment-and-inference-optimization']
 tags: ['model-merging', 'fine-tuned-LLMs', 'importance-scoring', 'multi-task', 'module-level']
 venue: "ACL 2024"

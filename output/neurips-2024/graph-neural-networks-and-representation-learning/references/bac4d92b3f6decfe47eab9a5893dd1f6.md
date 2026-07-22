@@ -1,6 +1,7 @@
 ---
 title: "Graph-based Unsupervised Disentangled Representation Learning via Multimodal Large Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/bac4d92b3f6decfe47eab9a5893dd1f6-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/bac4d92b3f6decfe47eab9a5893dd1f6-Paper-Conference.pdf"
 categories: ['disentangled-representation-learning-cognitive-diagnosis', 'graph-neural-networks-and-representation-learning']
 tags: ['disentangled-representation', 'graph-based', 'multimodal-LLM', 'unsupervised', 'semantic-factors']
 venue: "NeurIPS 2024"

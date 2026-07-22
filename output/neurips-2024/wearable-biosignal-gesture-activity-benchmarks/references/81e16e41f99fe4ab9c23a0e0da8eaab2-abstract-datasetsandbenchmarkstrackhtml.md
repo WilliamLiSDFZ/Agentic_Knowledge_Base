@@ -1,6 +1,7 @@
 ---
 title: "Indoor Air Quality Dataset with Activities of Daily Living in Low to Middle-income Communities"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/81e16e41f99fe4ab9c23a0e0da8eaab2-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/81e16e41f99fe4ab9c23a0e0da8eaab2-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['wearable-biosignal-gesture-activity-benchmarks', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['indoor-air-quality', 'activities-of-daily-living', 'low-income-communities', 'dataset']
 venue: "NeurIPS 2024"

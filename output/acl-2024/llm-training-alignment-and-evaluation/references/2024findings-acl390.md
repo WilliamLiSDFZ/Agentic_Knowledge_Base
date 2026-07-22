@@ -1,6 +1,7 @@
 ---
 title: "An Experimental Design Framework for Label-Efficient Supervised Finetuning of Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.390/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'label-noise-robust-annotation-learning']
 tags: ['supervised-finetuning', 'label-efficiency', 'experimental-design']
 venue: "ACL 2024"

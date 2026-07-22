@@ -1,6 +1,7 @@
 ---
 title: "MedDec: A Dataset for Extracting Medical Decisions from Discharge Summaries"
 source: "https://aclanthology.org/2024.findings-acl.975/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp', 'document-understanding-and-information-extraction']
 tags: ['clinical-nlp', 'medical-decision-extraction', 'discharge-summaries']
 venue: "ACL 2024"

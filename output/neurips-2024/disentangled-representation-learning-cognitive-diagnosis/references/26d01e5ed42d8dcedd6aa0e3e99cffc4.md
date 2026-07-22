@@ -1,6 +1,7 @@
 ---
 title: "Transferring disentangled representations: bridging the gap between synthetic and real images"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/26d01e5ed42d8dcedd6aa0e3e99cffc4-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/26d01e5ed42d8dcedd6aa0e3e99cffc4-Paper-Conference.pdf"
 categories: ['disentangled-representation-learning-cognitive-diagnosis', 'generative-models-for-visual-style-and-appearance']
 tags: ['disentangled-representations', 'synthetic-to-real-transfer', 'generative-factors']
 venue: "NeurIPS 2024"

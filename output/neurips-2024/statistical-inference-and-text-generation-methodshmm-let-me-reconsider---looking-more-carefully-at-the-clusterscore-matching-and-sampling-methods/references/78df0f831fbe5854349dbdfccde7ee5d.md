@@ -1,6 +1,7 @@
 ---
 title: "Generalized Fast Exact Conformalization"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/78df0f831fbe5854349dbdfccde7ee5d-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/78df0f831fbe5854349dbdfccde7ee5d-Paper-Conference.pdf"
 categories: ['machine-learning-theory-and-evaluation-methods', 'statistical-inference-and-text-generation-methods\n\nhmm,-let-me-reconsider---looking-more-carefully-at-the-cluster:\n\n**score-matching-and-sampling-methods**']
 tags: ['conformal-prediction', 'coverage-guarantee', 'computational-efficiency']
 venue: "NeurIPS 2024"

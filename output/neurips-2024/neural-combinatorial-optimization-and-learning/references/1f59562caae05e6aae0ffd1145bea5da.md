@@ -1,6 +1,7 @@
 ---
 title: "The Map Equation Goes Neural: Mapping Network Flows with Graph Neural Networks"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1f59562caae05e6aae0ffd1145bea5da-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1f59562caae05e6aae0ffd1145bea5da-Paper-Conference.pdf"
 categories: ['graph-neural-networks-and-representation-learning', 'neural-combinatorial-optimization-and-learning']
 tags: ['community-detection', 'map-equation', 'graph-neural-networks']
 venue: "NeurIPS 2024"

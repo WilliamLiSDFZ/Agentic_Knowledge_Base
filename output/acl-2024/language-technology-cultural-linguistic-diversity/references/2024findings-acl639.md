@@ -1,6 +1,7 @@
 ---
 title: "IndicVoices: Towards building an Inclusive Multilingual Speech Dataset for Indian Languages"
 source: "https://aclanthology.org/2024.findings-acl.639/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity']
 tags: ['multilingual-speech-dataset', 'indian-languages', 'low-resource-speech']
 venue: "ACL 2024"

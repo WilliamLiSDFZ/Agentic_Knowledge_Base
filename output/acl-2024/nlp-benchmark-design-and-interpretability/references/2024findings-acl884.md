@@ -1,6 +1,7 @@
 ---
 title: "What Makes a Good Order of Examples in In-Context Learning"
 source: "https://aclanthology.org/2024.findings-acl.884/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'nlp-benchmark-design-and-interpretability']
 tags: ['in-context-learning', 'example-ordering', 'few-shot-learning']
 venue: "ACL 2024"

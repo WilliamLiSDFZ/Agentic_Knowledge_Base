@@ -1,6 +1,7 @@
 ---
 title: "Stronger Than You Think: Benchmarking Weak Supervision on Realistic Tasks"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/dd26d03d50af993ed052578c730e9729-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/dd26d03d50af993ed052578c730e9729-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'machine-learning-theory-and-evaluation-methods']
 tags: ['weak-supervision', 'benchmarking', 'label-efficient-learning', 'noisy-labels']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Wav2Gloss: Generating Interlinear Glossed Text from Speech"
 source: "https://aclanthology.org/2024.acl-long.34/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'ocr-and-ancient-script-nlp']
 tags: ['interlinear-glossed-text', 'endangered-languages', 'speech', 'linguistic-documentation', 'low-resource']
 venue: "ACL 2024"

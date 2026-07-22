@@ -1,6 +1,7 @@
 ---
 title: "Incremental Sequence Labeling: A Tale of Two Shifts"
 source: "https://aclanthology.org/2024.findings-acl.44/"
+pdf_url: ""
 categories: ['continual-learning-for-nlp-tasks', 'natural-language-processing-information-extraction']
 tags: ['continual-learning', 'sequence-labeling', 'semantic-shift']
 venue: "ACL 2024"

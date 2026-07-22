@@ -1,6 +1,7 @@
 ---
 title: "Question-Instructed Visual Descriptions for Zero-Shot Video Answering"
 source: "https://aclanthology.org/2024.findings-acl.555/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'speech-and-language-multimodal-generation-systems']
 tags: ['video-qa', 'vision-language', 'zero-shot', 'instruction-following', 'open-model']
 venue: "ACL 2024"

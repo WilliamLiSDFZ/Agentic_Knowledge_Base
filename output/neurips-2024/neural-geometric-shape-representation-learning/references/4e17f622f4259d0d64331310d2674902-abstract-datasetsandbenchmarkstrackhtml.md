@@ -1,6 +1,7 @@
 ---
 title: "SCRREAM : SCan, Register, REnder And Map: A Framework for Annotating Accurate and Dense 3D Indoor Scenes with a Benchmark"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/4e17f622f4259d0d64331310d2674902-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/4e17f622f4259d0d64331310d2674902-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['neural-geometric-shape-representation-learning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['3D-indoor-scenes', 'annotation-framework', 'dense-geometry']
 venue: "NeurIPS 2024"

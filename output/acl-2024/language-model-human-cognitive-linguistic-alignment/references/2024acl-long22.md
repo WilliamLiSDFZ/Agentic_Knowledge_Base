@@ -1,6 +1,7 @@
 ---
 title: "Picturing Ambiguity: A Visual Twist on the Winograd Schema Challenge"
 source: "https://aclanthology.org/2024.acl-long.22/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'language-model-human-cognitive-linguistic-alignment']
 tags: ['Winograd-schema', 'multimodal', 'coreference']
 venue: "ACL 2024"

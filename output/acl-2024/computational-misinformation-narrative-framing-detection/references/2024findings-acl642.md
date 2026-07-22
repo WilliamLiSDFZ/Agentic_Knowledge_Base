@@ -1,6 +1,7 @@
 ---
 title: "Unveiling Opinion Evolution via Prompting and Diffusion for Short Video Fake News Detection"
 source: "https://aclanthology.org/2024.findings-acl.642/"
+pdf_url: ""
 categories: ['computational-misinformation-narrative-framing-detection', 'multimodal-language-vision-learning-systems']
 tags: ['fake-news-detection', 'short-video', 'opinion-diffusion']
 venue: "ACL 2024"

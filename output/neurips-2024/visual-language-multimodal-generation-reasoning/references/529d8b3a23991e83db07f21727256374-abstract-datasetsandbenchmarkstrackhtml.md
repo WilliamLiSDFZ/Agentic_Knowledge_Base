@@ -1,6 +1,7 @@
 ---
 title: "MARVEL: Multidimensional Abstraction and Reasoning through Visual Evaluation and Learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/529d8b3a23991e83db07f21727256374-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/529d8b3a23991e83db07f21727256374-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning']
 tags: ['abstract-visual-reasoning', 'multimodal-llm', 'benchmark']
 venue: "NeurIPS 2024"

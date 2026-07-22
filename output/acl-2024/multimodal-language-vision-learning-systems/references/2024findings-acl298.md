@@ -1,6 +1,7 @@
 ---
 title: "MIKE: A New Benchmark for Fine-grained Multimodal Entity Knowledge Editing"
 source: "https://aclanthology.org/2024.findings-acl.298/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['multimodal-knowledge-editing', 'fine-grained', 'entity-knowledge', 'benchmark', 'MLLMs']
 venue: "ACL 2024"

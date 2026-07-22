@@ -1,6 +1,7 @@
 ---
 title: "Few-shot Dialogue Strategy Learning for Motivational Interviewing via Inductive Reasoning"
 source: "https://aclanthology.org/2024.findings-acl.782/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems', 'llm-agents-reasoning-and-planning']
 tags: ['motivational-interviewing', 'dialogue-strategy', 'few-shot', 'inductive-reasoning', 'empathy']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Chain-of-History Reasoning for Temporal Knowledge Graph Forecasting"
 source: "https://aclanthology.org/2024.findings-acl.955/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-agents-reasoning-and-planning']
 tags: ['temporal-knowledge-graph', 'forecasting', 'chain-of-thought']
 venue: "ACL 2024"

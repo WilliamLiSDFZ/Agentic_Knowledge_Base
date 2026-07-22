@@ -1,6 +1,7 @@
 ---
 title: "Diffusion of Thought: Chain-of-Thought Reasoning in Diffusion Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/be30024e7fa2c29cac7a6dafcbb8571f-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/be30024e7fa2c29cac7a6dafcbb8571f-Paper-Conference.pdf"
 categories: ['diffusion-based-generative-modeling-and-inference', 'llm-training-and-optimization-techniques']
 tags: ['diffusion-language-models', 'chain-of-thought', 'reasoning']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "M3LEO: A Multi-Modal, Multi-Label Earth Observation Dataset Integrating Interferometric SAR and Multispectral Data"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/bd194b579f60879e04ca9ce8a4ea5da1-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/bd194b579f60879e04ca9ce8a4ea5da1-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['radar-based-scene-understanding-deep-learning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['earth-observation', 'SAR', 'multi-modal-dataset']
 venue: "NeurIPS 2024"

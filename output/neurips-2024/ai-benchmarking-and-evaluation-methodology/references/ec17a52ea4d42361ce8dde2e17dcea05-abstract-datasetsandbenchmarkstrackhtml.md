@@ -1,6 +1,7 @@
 ---
 title: "VastTrack: Vast Category Visual Object Tracking"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ec17a52ea4d42361ce8dde2e17dcea05-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ec17a52ea4d42361ce8dde2e17dcea05-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['visual-object-tracking', 'benchmark', 'large-scale-categories']
 venue: "NeurIPS 2024"

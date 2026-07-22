@@ -1,6 +1,7 @@
 ---
 title: "Effective In-Context Example Selection through Data Compression"
 source: "https://aclanthology.org/2024.findings-acl.50/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'text-clustering-with-limited-labels']
 tags: ['in-context-learning', 'example-selection', 'data-compression']
 venue: "ACL 2024"

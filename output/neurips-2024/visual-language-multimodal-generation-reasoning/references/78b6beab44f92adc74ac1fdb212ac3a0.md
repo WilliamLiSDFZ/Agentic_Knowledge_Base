@@ -1,6 +1,7 @@
 ---
 title: "NeuMA: Neural Material Adaptor for Visual Grounding of Intrinsic Dynamics"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/78b6beab44f92adc74ac1fdb212ac3a0-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/78b6beab44f92adc74ac1fdb212ac3a0-Paper-Conference.pdf"
 categories: ['physics-informed-neural-operators-and-simulations', 'visual-language-multimodal-generation-reasoning']
 tags: ['physical-simulation', 'neural-material', 'visual-grounding']
 venue: "NeurIPS 2024"

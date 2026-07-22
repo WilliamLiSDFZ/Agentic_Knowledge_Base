@@ -1,6 +1,7 @@
 ---
 title: "Expedited Training of Visual Conditioned Language Generation via Redundancy Reduction"
 source: "https://aclanthology.org/2024.acl-long.19/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'transformer-architecture-analysis-and-design']
 tags: ['vision-language-pretraining', 'redundancy-reduction', 'efficient-training']
 venue: "ACL 2024"

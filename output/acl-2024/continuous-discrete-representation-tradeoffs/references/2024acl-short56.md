@@ -1,6 +1,7 @@
 ---
 title: "Exploring Conditional Variational Mechanism to Pinyin Input Method for Addressing One-to-Many Mappings in Low-Resource Scenarios"
 source: "https://aclanthology.org/2024.acl-short.56/"
+pdf_url: ""
 categories: ['text-input-and-generation-for-cjk-languages', 'continuous-discrete-representation-tradeoffs']
 tags: ['pinyin-input', 'one-to-many-mapping', 'conditional-variational']
 venue: "ACL 2024"

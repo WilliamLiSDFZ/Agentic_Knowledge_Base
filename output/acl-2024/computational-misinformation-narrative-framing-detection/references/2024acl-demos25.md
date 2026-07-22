@@ -1,6 +1,7 @@
 ---
 title: "VeraCT Scan: Retrieval-Augmented Fake News Detection with Justifiable Reasoning"
 source: "https://aclanthology.org/2024.acl-demos.25/"
+pdf_url: ""
 categories: ['computational-misinformation-narrative-framing-detection', 'llm-hallucination-detection-and-mitigation']
 tags: ['fake-news-detection', 'retrieval-augmented', 'reasoning']
 venue: "ACL 2024"

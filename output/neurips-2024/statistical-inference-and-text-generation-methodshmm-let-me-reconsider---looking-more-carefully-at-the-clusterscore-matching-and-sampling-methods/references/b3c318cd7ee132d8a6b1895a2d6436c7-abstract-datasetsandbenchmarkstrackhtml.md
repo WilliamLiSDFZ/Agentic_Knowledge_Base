@@ -1,6 +1,7 @@
 ---
 title: "PersonalSum: A User-Subjective Guided Personalized Summarization Dataset for Large Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/b3c318cd7ee132d8a6b1895a2d6436c7-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/b3c318cd7ee132d8a6b1895a2d6436c7-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['statistical-inference-and-text-generation-methods\n\nhmm,-let-me-reconsider---looking-more-carefully-at-the-cluster:\n\n**score-matching-and-sampling-methods**', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['personalized-summarization', 'large-language-models', 'user-subjectivity', 'dataset']
 venue: "NeurIPS 2024"

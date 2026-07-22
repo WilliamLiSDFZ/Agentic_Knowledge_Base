@@ -1,6 +1,7 @@
 ---
 title: "V-PETL Bench: A Unified Visual Parameter-Efficient Transfer Learning Benchmark"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/935de67d1a033fd517cb49d192b5c008-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/935de67d1a033fd517cb49d192b5c008-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['parameter-efficient-transfer-learning', 'benchmark', 'computer-vision', 'fine-tuning', 'evaluation']
 venue: "NeurIPS 2024"

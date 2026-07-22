@@ -1,6 +1,7 @@
 ---
 title: "Mitigate Negative Transfer with Similarity Heuristic Lifelong Prompt Tuning"
 source: "https://aclanthology.org/2024.findings-acl.650/"
+pdf_url: ""
 categories: ['continual-learning-for-nlp-tasks', 'llm-training-alignment-and-evaluation']
 tags: ['lifelong-learning', 'prompt-tuning', 'negative-transfer']
 venue: "ACL 2024"

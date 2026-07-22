@@ -1,6 +1,7 @@
 ---
 title: "Information-theoretic Limits of Online Classification with Noisy Labels"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/cea5ebedc384c5f4b4ef6b6eb29c197f-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/cea5ebedc384c5f4b4ef6b6eb29c197f-Paper-Conference.pdf"
 categories: ['machine-learning-theory-and-evaluation-methods', 'online-learning-augmented-algorithms-and-optimization']
 tags: ['online-learning', 'noisy-labels', 'information-theoretic-limits']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "string2string: A Modern Python Library for String-to-String Algorithms"
 source: "https://aclanthology.org/2024.acl-demos.26/"
+pdf_url: ""
 categories: ['string-to-string-alignment-algorithms-library\n\nwait,-let-me-reconsider-for-conciseness-(3-7-words):\n\n`string-similarity-and-alignment-algorithms']
 tags: ['string-alignment', 'edit-distance', 'open-source-library', 'python']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "UltraEdit: Instruction-based Fine-Grained Image Editing at Scale"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/05a30a0fc9e6bacdd3abd4ca8508a9e6-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/05a30a0fc9e6bacdd3abd4ca8508a9e6-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'generative-models-for-visual-style-and-appearance']
 tags: ['image-editing', 'instruction-based', 'large-scale-dataset']
 venue: "NeurIPS 2024"

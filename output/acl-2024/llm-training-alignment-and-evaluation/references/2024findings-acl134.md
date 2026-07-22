@@ -1,6 +1,7 @@
 ---
 title: "Unpacking Tokenization: Evaluating Text Compression and its Correlation with Model Performance"
 source: "https://aclanthology.org/2024.findings-acl.134/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'language-technology-cultural-linguistic-diversity']
 tags: ['tokenization', 'compression', 'model-performance-correlation']
 venue: "ACL 2024"

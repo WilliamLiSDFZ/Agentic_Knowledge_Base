@@ -1,6 +1,7 @@
 ---
 title: "How Does Message Passing Improve Collaborative Filtering?"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/10a3b1c30b8cceb507b9e8ddcc9a1a6a-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/10a3b1c30b8cceb507b9e8ddcc9a1a6a-Paper-Conference.pdf"
 categories: ['recommendation-systems-learning-optimization', 'graph-neural-networks-and-representation-learning']
 tags: ['collaborative-filtering', 'message-passing', 'graph-neural-networks']
 venue: "NeurIPS 2024"

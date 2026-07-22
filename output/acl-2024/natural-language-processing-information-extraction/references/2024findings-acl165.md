@@ -1,6 +1,7 @@
 ---
 title: "MODABS: Multi-Objective Learning for Dynamic Aspect-Based Summarization"
 source: "https://aclanthology.org/2024.findings-acl.165/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'causal-reasoning-and-explanation-in-nlp']
 tags: ['summarization', 'aspect-based', 'multi-objective', 'dynamic-aspects', 'NLP']
 venue: "ACL 2024"

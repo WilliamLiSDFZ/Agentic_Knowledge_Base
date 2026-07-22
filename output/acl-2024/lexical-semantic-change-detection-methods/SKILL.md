@@ -1,12 +1,12 @@
 ---
 name: lexical-semantic-change-detection-methods
 description: >-
-  Lexical semantic change detection focuses on identifying and classifying how word meanings shift over time across corpora, employing methods such as semantic distance metric learning, contrastive learning, definition generation, and synchronic semantic relations to model diachronic meaning evolution. These techniques are evaluated through multidimensional frameworks and applied to tasks like tracking semantic drift, classifying change types (e.
+  Lexical semantic change detection covers computational methods for identifying and classifying how word meanings shift across time periods, using techniques such as semantic distance metric learning, contrastive learning, definition generation, and distributional semantic models. Applications span historical linguistics, social science analysis, and corpus-based studies, with evaluation frameworks assessing change types (e.g., broadening, narrowing, borrowing
 ---
 
 # Lexical Semantic Change Detection Methods
 
-Lexical semantic change detection focuses on identifying and classifying how word meanings shift over time across corpora, employing methods such as semantic distance metric learning, contrastive learning, definition generation, and synchronic semantic relations to model diachronic meaning evolution. These techniques are evaluated through multidimensional frameworks and applied to tasks like tracking semantic drift, classifying change types (e.
+Lexical semantic change detection covers computational methods for identifying and classifying how word meanings shift across time periods, using techniques such as semantic distance metric learning, contrastive learning, definition generation, and distributional semantic models. Applications span historical linguistics, social science analysis, and corpus-based studies, with evaluation frameworks assessing change types (e.g., broadening, narrowing, borrowing
 
 ## Entry Index
 

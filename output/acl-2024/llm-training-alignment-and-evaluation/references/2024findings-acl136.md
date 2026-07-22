@@ -1,6 +1,7 @@
 ---
 title: "Multilingual Instruction Tuning With Just a Pinch of Multilinguality"
 source: "https://aclanthology.org/2024.findings-acl.136/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'llm-training-alignment-and-evaluation']
 tags: ['multilingual', 'instruction-tuning', 'cross-lingual-transfer']
 venue: "ACL 2024"

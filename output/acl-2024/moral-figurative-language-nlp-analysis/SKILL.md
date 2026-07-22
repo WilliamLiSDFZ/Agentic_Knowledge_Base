@@ -1,12 +1,12 @@
 ---
 name: moral-figurative-language-nlp-analysis
 description: >-
-  This research area covers computational methods for detecting, interpreting, and evaluating **figurative language** (metaphor, euphemism, irony, non-literal intent) and **moral/affective dimensions** of text, applying NLP techniques including LLMs, chain-of-thought prompting, generative frameworks, and benchmark evaluation across modalities (text, multimodal
+  This research area covers computational methods for detecting, interpreting, and evaluating figurative language (metaphor, euphemism, idioms, non-literal intent) and moral/emotional reasoning in text, using approaches ranging from fine-tuned transformers and generative models to chain-of-thought prompting and multi-task learning. Applications span cross-cultural moral analysis of political discourse
 ---
 
 # Moral Figurative Language Nlp Analysis
 
-This research area covers computational methods for detecting, interpreting, and evaluating **figurative language** (metaphor, euphemism, irony, non-literal intent) and **moral/affective dimensions** of text, applying NLP techniques including LLMs, chain-of-thought prompting, generative frameworks, and benchmark evaluation across modalities (text, multimodal
+This research area covers computational methods for detecting, interpreting, and evaluating figurative language (metaphor, euphemism, idioms, non-literal intent) and moral/emotional reasoning in text, using approaches ranging from fine-tuned transformers and generative models to chain-of-thought prompting and multi-task learning. Applications span cross-cultural moral analysis of political discourse
 
 ## Entry Index
 

@@ -1,6 +1,7 @@
 ---
 title: "When is a Language Process a Language Model?"
 source: "https://aclanthology.org/2024.findings-acl.659/"
+pdf_url: ""
 categories: ['language-model-definition-and-scope', 'neural-language-models-formal-language-theory']
 tags: ['language-model-theory', 'stochastic-process', 'probability', 'formal-language', 'definition']
 venue: "ACL 2024"

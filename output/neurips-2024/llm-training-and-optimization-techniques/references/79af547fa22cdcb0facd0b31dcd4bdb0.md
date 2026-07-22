@@ -1,6 +1,7 @@
 ---
 title: "Model Decides How to Tokenize: Adaptive DNA Sequence Tokenization with MxDNA"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/79af547fa22cdcb0facd0b31dcd4bdb0-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/79af547fa22cdcb0facd0b31dcd4bdb0-Paper-Conference.pdf"
 categories: ['machine-learning-for-molecular-biology', 'llm-training-and-optimization-techniques']
 tags: ['DNA-tokenization', 'genomic-language-models', 'adaptive-tokenization', 'foundation-models', 'sequence-modeling']
 venue: "NeurIPS 2024"

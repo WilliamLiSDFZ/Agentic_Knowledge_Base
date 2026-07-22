@@ -1,6 +1,7 @@
 ---
 title: "Can LLMs Speak For Diverse People? Tuning LLMs via Debate to Generate Controllable Controversial Statements"
 source: "https://aclanthology.org/2024.findings-acl.956/"
+pdf_url: ""
 categories: ['bias-and-fairness-in-llms']
 tags: ['controllable-generation', 'debate-tuning', 'minority-representation']
 venue: "ACL 2024"

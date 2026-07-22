@@ -1,6 +1,7 @@
 ---
 title: "SharedCon: Implicit Hate Speech Detection using Shared Semantics"
 source: "https://aclanthology.org/2024.findings-acl.622/"
+pdf_url: ""
 categories: ['hate-speech-and-toxic-content-detection', 'language-model-representations-and-embedding-spaces']
 tags: ['implicit-hate-speech', 'shared-semantics', 'contrastive-learning']
 venue: "ACL 2024"

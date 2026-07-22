@@ -1,6 +1,7 @@
 ---
 title: "NeuralPlane: An Efficiently Parallelizable Platform for Fixed-wing Aircraft Control with Reinforcement Learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/af97b61e9fef8f55e32a2602af364d8c-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/af97b61e9fef8f55e32a2602af364d8c-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'network-simulation-reinforcement-learning-benchmarking']
 tags: ['reinforcement-learning', 'fixed-wing-aircraft', 'flight-control']
 venue: "NeurIPS 2024"

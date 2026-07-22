@@ -1,6 +1,7 @@
 ---
 title: "Adversarial Preference Optimization: Enhancing Your Alignment via RM-LLM Game"
 source: "https://aclanthology.org/2024.findings-acl.221/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'bias-and-fairness-in-llms']
 tags: ['preference-optimization', 'adversarial-training', 'reward-model']
 venue: "ACL 2024"

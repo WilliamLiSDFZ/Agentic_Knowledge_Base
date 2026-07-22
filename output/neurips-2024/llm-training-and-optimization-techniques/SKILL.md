@@ -1,12 +1,12 @@
 ---
 name: llm-training-and-optimization-techniques
 description: >-
-  This skill covers methods for improving the efficiency, accuracy, and capabilities of large language models and other neural architectures during training and inference, including memory-efficient optimizers (MicroAdam), KV cache quantization, attention compression, sparse autoencoders for activation analysis, and adaptive compute allocation. It also encompasses techniques for enhancing reasoning and alignment through preference optimization, chain-of-
+  This skill covers methods for improving the efficiency, accuracy, and capabilities of large language models and related architectures through techniques spanning memory-efficient optimizers (e.g., MicroAdam, KV cache quantization), inference acceleration (attention compression, adaptive token allocation), and training data/objective improvements (preference optimization, adversarial training, instruction dataset construction). It also addresses specialized applications including
 ---
 
 # Llm Training And Optimization Techniques
 
-This skill covers methods for improving the efficiency, accuracy, and capabilities of large language models and other neural architectures during training and inference, including memory-efficient optimizers (MicroAdam), KV cache quantization, attention compression, sparse autoencoders for activation analysis, and adaptive compute allocation. It also encompasses techniques for enhancing reasoning and alignment through preference optimization, chain-of-
+This skill covers methods for improving the efficiency, accuracy, and capabilities of large language models and related architectures through techniques spanning memory-efficient optimizers (e.g., MicroAdam, KV cache quantization), inference acceleration (attention compression, adaptive token allocation), and training data/objective improvements (preference optimization, adversarial training, instruction dataset construction). It also addresses specialized applications including
 
 ## Entry Index
 

@@ -1,6 +1,7 @@
 ---
 title: "SM3-Text-to-Query: Synthetic Multi-Model Medical Text-to-Query Benchmark"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a182a8e6ebc91728b6e6b6382c9f7b1e-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a182a8e6ebc91728b6e6b6382c9f7b1e-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-benchmarks-for-clinical-healthcare', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['electronic-health-records', 'text-to-query', 'benchmark', 'multi-model-databases']
 venue: "NeurIPS 2024"

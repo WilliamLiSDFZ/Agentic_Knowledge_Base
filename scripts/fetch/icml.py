@@ -1,4 +1,6 @@
 """ICML fetcher - proceedings.mlr.press"""
+import re
+from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 from .base import ConferenceFetcher
@@ -15,10 +17,18 @@ class ICMLFetcher(ConferenceFetcher):
 
     def fetch(self):
         vol = VOLUME_MAP.get(self.year, "v235")
-        r = self._get(f"{BASE_URL}/{vol}/")
+        index_url = f"{BASE_URL}/{vol}/"
+        r = self._get(index_url)
         soup = BeautifulSoup(r.text, "html.parser")
-        links = [a["href"] for a in soup.select("div.paper a[href]")
-                 if a["href"].endswith(".html") and "abs" not in a.text.lower()]
+        # Collect every paper-page link (/{vol}/<id>.html), robust to the wrapper markup.
+        # (The old `div.paper a` selector broke when mlr.press changed its HTML.)
+        pat = re.compile(rf"/{re.escape(vol)}/[^/]+\.html$")
+        seen, links = set(), []
+        for a in soup.find_all("a", href=True):
+            full = urljoin(index_url, a["href"])
+            if pat.search(full) and full not in seen:
+                seen.add(full)
+                links.append(full)
         papers = []
         for link in tqdm(links, desc=f"ICML {self.year}"):
             try:

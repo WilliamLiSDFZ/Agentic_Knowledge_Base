@@ -1,6 +1,7 @@
 ---
 title: "InstructProtein: Aligning Human and Protein Language via Knowledge Instruction"
 source: "https://aclanthology.org/2024.acl-long.62/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp', 'bias-and-fairness-in-llms']
 tags: ['protein-language', 'LLM-alignment', 'biological-sequences', 'instruction-tuning', 'bidirectional-generation']
 venue: "ACL 2024"

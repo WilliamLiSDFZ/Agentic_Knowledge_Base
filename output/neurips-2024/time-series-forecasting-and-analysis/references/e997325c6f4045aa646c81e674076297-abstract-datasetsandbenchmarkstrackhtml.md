@@ -1,6 +1,7 @@
 ---
 title: "Job-SDF: A Multi-Granularity Dataset for Job Skill Demand Forecasting and Benchmarking"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/e997325c6f4045aa646c81e674076297-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/e997325c6f4045aa646c81e674076297-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['time-series-forecasting-and-analysis', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['skill-demand-forecasting', 'job-market', 'benchmark-dataset', 'time-series', 'labor-economics']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "On the Role of Long-tail Knowledge in Retrieval Augmented Large Language Models"
 source: "https://aclanthology.org/2024.acl-short.12/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['retrieval-augmented-generation', 'long-tail-knowledge', 'LLM-performance']
 venue: "ACL 2024"

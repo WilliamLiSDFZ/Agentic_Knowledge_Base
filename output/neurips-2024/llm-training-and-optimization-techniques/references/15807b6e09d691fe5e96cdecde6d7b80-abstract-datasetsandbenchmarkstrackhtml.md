@@ -1,6 +1,7 @@
 ---
 title: "EffiBench: Benchmarking the Efficiency of Automatically Generated Code"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/15807b6e09d691fe5e96cdecde6d7b80-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/15807b6e09d691fe5e96cdecde6d7b80-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-training-and-optimization-techniques']
 tags: ['code-generation', 'efficiency-benchmarking', 'green-computing']
 venue: "NeurIPS 2024"

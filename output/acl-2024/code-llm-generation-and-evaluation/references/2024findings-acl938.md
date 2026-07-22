@@ -1,6 +1,7 @@
 ---
 title: "Fine-tuning Language Models for Joint Rewriting and Completion of Code with Potential Bugs"
 source: "https://aclanthology.org/2024.findings-acl.938/"
+pdf_url: ""
 categories: ['code-llm-generation-and-evaluation', 'llm-training-alignment-and-evaluation']
 tags: ['code-completion', 'bug-repair', 'fine-tuning', 'CodeLLM']
 venue: "ACL 2024"

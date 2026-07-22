@@ -1,6 +1,7 @@
 ---
 title: "Color-Oriented Redundancy Reduction in Dataset Distillation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/5f5f7b6080dcadced61cf5d96f7c6dde-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/5f5f7b6080dcadced61cf5d96f7c6dde-Paper-Conference.pdf"
 categories: ['self-distillation-knowledge-transfer-gains', 'deep-learning-optimization-and-generalization-theory']
 tags: ['dataset-distillation', 'color-redundancy', 'training-efficiency']
 venue: "NeurIPS 2024"

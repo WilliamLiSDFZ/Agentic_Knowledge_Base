@@ -1,6 +1,7 @@
 ---
 title: "RFLPA: A Robust Federated Learning Framework against Poisoning Attacks with Secure Aggregation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/bcbdc25dc4f0be5ae8ac07232df6e33a-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/bcbdc25dc4f0be5ae8ac07232df6e33a-Paper-Conference.pdf"
 categories: ['privacy-preserving-federated-distributed-learning', 'llm-safety-robustness-and-privacy-defenses']
 tags: ['federated-learning', 'poisoning-attacks', 'secure-aggregation']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Benchmarking Large Language Models on CFLUE - A Chinese Financial Language Understanding Evaluation Dataset"
 source: "https://aclanthology.org/2024.findings-acl.337/"
+pdf_url: ""
 categories: ['financial-reasoning-llm-benchmarks-and-datasets']
 tags: ['chinese-finance', 'llm-benchmark', 'financial-language-understanding']
 venue: "ACL 2024"

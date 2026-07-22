@@ -1,6 +1,7 @@
 ---
 title: "Data Contamination Calibration for Black-box LLMs"
 source: "https://aclanthology.org/2024.findings-acl.644/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['data-contamination', 'benchmark-evaluation', 'black-box-llms']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "When Do LLMs Need Retrieval Augmentation? Mitigating LLMs’ Overconfidence Helps Retrieval Augmentation"
 source: "https://aclanthology.org/2024.findings-acl.675/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'llm-training-alignment-and-evaluation']
 tags: ['retrieval-augmentation', 'hallucination-mitigation', 'overconfidence']
 venue: "ACL 2024"

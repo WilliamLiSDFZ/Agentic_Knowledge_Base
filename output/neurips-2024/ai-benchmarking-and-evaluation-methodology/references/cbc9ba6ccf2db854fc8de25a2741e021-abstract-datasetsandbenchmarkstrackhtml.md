@@ -1,6 +1,7 @@
 ---
 title: "ComBack: A Versatile Dataset for Enhancing Compiler Backend Development Efficiency"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/cbc9ba6ccf2db854fc8de25a2741e021-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/cbc9ba6ccf2db854fc8de25a2741e021-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['compiler-backend', 'dataset', 'code-generation']
 venue: "NeurIPS 2024"

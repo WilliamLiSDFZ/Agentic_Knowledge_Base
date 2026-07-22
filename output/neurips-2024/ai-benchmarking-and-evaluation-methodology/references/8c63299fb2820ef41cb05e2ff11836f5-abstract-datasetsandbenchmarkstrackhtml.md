@@ -1,6 +1,7 @@
 ---
 title: "PINNacle: A Comprehensive Benchmark of Physics-Informed Neural Networks for Solving PDEs"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/8c63299fb2820ef41cb05e2ff11836f5-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/8c63299fb2820ef41cb05e2ff11836f5-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['physics-informed-neural-operators-and-simulations', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['physics-informed-neural-networks', 'PDE-benchmarking', 'comparative-evaluation']
 venue: "NeurIPS 2024"

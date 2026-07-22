@@ -1,12 +1,12 @@
 ---
 name: clustering-algorithms-theory-and-scalability
 description: >-
-  **Clustering Algorithms: Theory and Scalability** covers the design, analysis, and optimization of clustering methods spanning hierarchical (agglomerative linkage, probabilistic hierarchies), density-based (DBSCAN with random projections), graph-based (community detection, semi-supervised partitioning), and deep/contrastive learning approaches, with theoretical guarantees on
+  **Clustering Algorithms: Theory and Scalability** covers the design, analysis, and optimization of clustering methods across both theoretical and applied settings. This includes hierarchical clustering (agglomerative linkage analysis, probabilistic hierarchies, causal clustering), density-based methods (DBSCAN with random projections), graph-based approaches (community detection via embeddings, semi-
 ---
 
 # Clustering Algorithms Theory And Scalability
 
-**Clustering Algorithms: Theory and Scalability** covers the design, analysis, and optimization of clustering methods spanning hierarchical (agglomerative linkage, probabilistic hierarchies), density-based (DBSCAN with random projections), graph-based (community detection, semi-supervised partitioning), and deep/contrastive learning approaches, with theoretical guarantees on
+**Clustering Algorithms: Theory and Scalability** covers the design, analysis, and optimization of clustering methods across both theoretical and applied settings. This includes hierarchical clustering (agglomerative linkage analysis, probabilistic hierarchies, causal clustering), density-based methods (DBSCAN with random projections), graph-based approaches (community detection via embeddings, semi-
 
 ## Entry Index
 

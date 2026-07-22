@@ -1,6 +1,7 @@
 ---
 title: "Evaluating Robustness of Generative Search Engine on Adversarial Factoid Questions"
 source: "https://aclanthology.org/2024.findings-acl.633/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'llm-hallucination-detection-and-mitigation']
 tags: ['generative-search', 'adversarial-robustness', 'retrieval-augmented-generation']
 venue: "ACL 2024"

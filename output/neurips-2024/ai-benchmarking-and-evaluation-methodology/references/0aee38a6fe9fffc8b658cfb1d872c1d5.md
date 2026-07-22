@@ -1,6 +1,7 @@
 ---
 title: "Multi-Label Open Set Recognition"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/0aee38a6fe9fffc8b658cfb1d872c1d5-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/0aee38a6fe9fffc8b658cfb1d872c1d5-Paper-Conference.pdf"
 categories: ['machine-learning-theory-and-evaluation-methods', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['multi-label-learning', 'open-set-recognition', 'unknown-classes']
 venue: "NeurIPS 2024"

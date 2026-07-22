@@ -1,6 +1,7 @@
 ---
 title: "ViLCo-Bench: VIdeo Language COntinual learning Benchmark"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/8219947e7bfbcd0cebd12ea85b9285b8-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/8219947e7bfbcd0cebd12ea85b9285b8-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'visual-language-multimodal-generation-reasoning']
 tags: ['continual-learning', 'video-language', 'benchmark']
 venue: "NeurIPS 2024"

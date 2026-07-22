@@ -1,6 +1,7 @@
 ---
 title: "Enhancing Idiomatic Representation in Multiple Languages via an Adaptive Contrastive Triplet Loss"
 source: "https://aclanthology.org/2024.findings-acl.741/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces', 'language-technology-cultural-linguistic-diversity']
 tags: ['idiom-representation', 'contrastive-learning', 'multilingual']
 venue: "ACL 2024"

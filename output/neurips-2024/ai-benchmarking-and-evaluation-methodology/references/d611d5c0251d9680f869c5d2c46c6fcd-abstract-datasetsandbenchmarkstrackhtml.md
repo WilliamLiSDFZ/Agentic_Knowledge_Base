@@ -1,6 +1,7 @@
 ---
 title: "$E^3$: Exploring Embodied Emotion Through A Large-Scale Egocentric Video Dataset"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d611d5c0251d9680f869c5d2c46c6fcd-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d611d5c0251d9680f869c5d2c46c6fcd-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['audio-visual-speech-processing-and-benchmarks', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['egocentric-video', 'embodied-emotion', 'dataset']
 venue: "NeurIPS 2024"

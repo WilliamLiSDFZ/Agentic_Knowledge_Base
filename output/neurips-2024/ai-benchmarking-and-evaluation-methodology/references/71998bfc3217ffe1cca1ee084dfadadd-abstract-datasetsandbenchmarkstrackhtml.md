@@ -1,6 +1,7 @@
 ---
 title: "DART-Eval: A Comprehensive DNA Language Model Evaluation Benchmark on Regulatory DNA"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/71998bfc3217ffe1cca1ee084dfadadd-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/71998bfc3217ffe1cca1ee084dfadadd-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['machine-learning-for-molecular-biology', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['dna-language-models', 'genomic-benchmarks', 'regulatory-dna']
 venue: "NeurIPS 2024"

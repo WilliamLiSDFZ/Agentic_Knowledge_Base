@@ -1,6 +1,7 @@
 ---
 title: "Extracting Polymer Nanocomposite Samples from Full-Length Documents"
 source: "https://aclanthology.org/2024.findings-acl.779/"
+pdf_url: ""
 categories: ['materials-science-information-extraction', 'natural-language-processing-information-extraction']
 tags: ['materials-science', 'information-extraction', 'polymer-nanocomposites']
 venue: "ACL 2024"

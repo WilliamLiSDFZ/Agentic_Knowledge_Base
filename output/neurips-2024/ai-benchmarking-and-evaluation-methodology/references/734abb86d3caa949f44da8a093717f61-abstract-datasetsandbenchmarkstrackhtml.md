@@ -1,6 +1,7 @@
 ---
 title: "JourneyBench: A Challenging One-Stop Vision-Language Understanding Benchmark of Generated Images"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/734abb86d3caa949f44da8a093717f61-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/734abb86d3caa949f44da8a093717f61-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['vision-language-benchmark', 'multimodal-evaluation', 'generated-images', 'visual-understanding', 'language-bias']
 venue: "NeurIPS 2024"

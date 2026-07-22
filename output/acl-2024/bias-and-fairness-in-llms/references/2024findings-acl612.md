@@ -1,6 +1,7 @@
 ---
 title: "Debiasing Large Language Models with Structured Knowledge"
 source: "https://aclanthology.org/2024.findings-acl.612/"
+pdf_url: ""
 categories: ['bias-and-fairness-in-llms', 'llm-training-alignment-and-evaluation']
 tags: ['debiasing', 'structured-knowledge', 'llm-fairness']
 venue: "ACL 2024"

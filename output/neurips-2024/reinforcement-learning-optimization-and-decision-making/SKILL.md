@@ -1,12 +1,12 @@
 ---
 name: reinforcement-learning-optimization-and-decision-making
 description: >-
-  This skill covers theoretical and applied reinforcement learning, bandit optimization, and multi-objective decision-making, spanning topics such as policy gradient methods, distributional robustness, regret bounds, and safe control via formal verification. Applications range from game playing (chess), robotic grasping, and LLM reasoning alignment to multi-modal visual RL and meta-RL,
+  This skill covers theoretical and applied reinforcement learning, spanning policy gradient methods, bandit optimization, and safe control, with emphasis on convergence guarantees, regret bounds, and robustness under distributional shift. It also encompasses multi-objective optimization, preference-based LLM alignment, sim-to-real transfer for robotics/games, and meta-RL adaptation across diverse
 ---
 
 # Reinforcement Learning Optimization And Decision Making
 
-This skill covers theoretical and applied reinforcement learning, bandit optimization, and multi-objective decision-making, spanning topics such as policy gradient methods, distributional robustness, regret bounds, and safe control via formal verification. Applications range from game playing (chess), robotic grasping, and LLM reasoning alignment to multi-modal visual RL and meta-RL,
+This skill covers theoretical and applied reinforcement learning, spanning policy gradient methods, bandit optimization, and safe control, with emphasis on convergence guarantees, regret bounds, and robustness under distributional shift. It also encompasses multi-objective optimization, preference-based LLM alignment, sim-to-real transfer for robotics/games, and meta-RL adaptation across diverse
 
 ## Entry Index
 

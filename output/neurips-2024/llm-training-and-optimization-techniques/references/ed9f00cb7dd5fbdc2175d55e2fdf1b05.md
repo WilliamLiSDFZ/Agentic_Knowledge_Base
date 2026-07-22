@@ -1,6 +1,7 @@
 ---
 title: "Unveiling LoRA Intrinsic Ranks via Salience Analysis"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ed9f00cb7dd5fbdc2175d55e2fdf1b05-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ed9f00cb7dd5fbdc2175d55e2fdf1b05-Paper-Conference.pdf"
 categories: ['llm-training-and-optimization-techniques']
 tags: ['lora', 'parameter-efficient-fine-tuning', 'rank-analysis', 'salience', 'llm']
 venue: "NeurIPS 2024"

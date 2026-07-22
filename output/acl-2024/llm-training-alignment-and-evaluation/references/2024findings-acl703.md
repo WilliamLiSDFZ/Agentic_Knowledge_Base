@@ -1,6 +1,7 @@
 ---
 title: "CMoralEval: A Moral Evaluation Benchmark for Chinese Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.703/"
+pdf_url: ""
 categories: ['moral-figurative-language-nlp-analysis', 'llm-training-alignment-and-evaluation']
 tags: ['morality', 'Chinese-LLM', 'benchmark', 'ethics', 'evaluation']
 venue: "ACL 2024"

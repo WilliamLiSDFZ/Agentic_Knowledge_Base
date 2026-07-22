@@ -1,6 +1,7 @@
 ---
 title: "Decoding the Narratives: Analyzing Personal Drug Experiences Shared on Reddit"
 source: "https://aclanthology.org/2024.findings-acl.367/"
+pdf_url: ""
 categories: ['online-discourse-mental-health-language-analysis', 'natural-language-processing-information-extraction']
 tags: ['drug-use-narratives', 'Reddit', 'NLP-analysis']
 venue: "ACL 2024"

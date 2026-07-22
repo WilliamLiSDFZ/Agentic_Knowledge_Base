@@ -1,6 +1,7 @@
 ---
 title: "Transition-based Opinion Generation for Aspect-based Sentiment Analysis"
 source: "https://aclanthology.org/2024.findings-acl.182/"
+pdf_url: ""
 categories: ['multilingual-text-classification-and-sentiment-analysis', 'unsupervised-and-structured-syntactic-parsing-methods']
 tags: ['aspect-based-sentiment', 'opinion-generation', 'transition-based']
 venue: "ACL 2024"

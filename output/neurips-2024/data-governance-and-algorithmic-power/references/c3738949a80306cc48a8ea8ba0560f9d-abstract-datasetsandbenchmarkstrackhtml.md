@@ -1,6 +1,7 @@
 ---
 title: "Consent in Crisis: The Rapid Decline of the AI Data Commons"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/c3738949a80306cc48a8ea8ba0560f9d-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/c3738949a80306cc48a8ea8ba0560f9d-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['data-governance-and-algorithmic-power']
 tags: ['AI-training-data', 'web-data-consent', 'data-governance']
 venue: "NeurIPS 2024"

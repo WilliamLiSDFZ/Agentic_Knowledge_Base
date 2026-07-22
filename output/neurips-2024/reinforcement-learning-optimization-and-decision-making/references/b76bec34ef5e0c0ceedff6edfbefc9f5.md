@@ -1,6 +1,7 @@
 ---
 title: "Foundations of Multivariate Distributional Reinforcement Learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/b76bec34ef5e0c0ceedff6edfbefc9f5-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/b76bec34ef5e0c0ceedff6edfbefc9f5-Paper-Conference.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making']
 tags: ['multivariate-rewards', 'distributional-rl', 'multi-objective']
 venue: "NeurIPS 2024"

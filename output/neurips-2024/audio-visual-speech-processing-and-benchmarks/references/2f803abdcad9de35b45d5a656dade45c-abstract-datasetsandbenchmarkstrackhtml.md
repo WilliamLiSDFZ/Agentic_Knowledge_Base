@@ -1,6 +1,7 @@
 ---
 title: "Towards Open Respiratory Acoustic Foundation Models: Pretraining and Benchmarking"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/2f803abdcad9de35b45d5a656dade45c-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/2f803abdcad9de35b45d5a656dade45c-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['audio-visual-speech-processing-and-benchmarks']
 tags: ['respiratory-audio', 'foundation-models', 'pretraining', 'benchmarking', 'healthcare-audio']
 venue: "NeurIPS 2024"

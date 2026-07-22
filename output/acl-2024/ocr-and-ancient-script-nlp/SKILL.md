@@ -1,12 +1,12 @@
 ---
 name: ocr-and-ancient-script-nlp
 description: >-
-  This skill covers OCR system development, post-OCR error correction, and NLP processing of historical and ancient scripts (e.g., Oracle Bone script, ancient logographic systems), including methods such as diffusion models, synthetic training data, visual/textual representation comparison, and radical-semantic analysis. Applications span digitizing diverse historical documents, deciphering undeciphered scripts
+  This skill covers OCR system development, post-OCR error correction, and NLP applied to historical and ancient writing systems, including oracle bones, logographic scripts, and classical Chinese characters. Methods span diffusion models for decipherment, synthetic training data generation, visual vs. textual representation comparison, radical-semantic glyph identification, and speech-to-gloss transcription,
 ---
 
 # Ocr And Ancient Script Nlp
 
-This skill covers OCR system development, post-OCR error correction, and NLP processing of historical and ancient scripts (e.g., Oracle Bone script, ancient logographic systems), including methods such as diffusion models, synthetic training data, visual/textual representation comparison, and radical-semantic analysis. Applications span digitizing diverse historical documents, deciphering undeciphered scripts
+This skill covers OCR system development, post-OCR error correction, and NLP applied to historical and ancient writing systems, including oracle bones, logographic scripts, and classical Chinese characters. Methods span diffusion models for decipherment, synthetic training data generation, visual vs. textual representation comparison, radical-semantic glyph identification, and speech-to-gloss transcription,
 
 ## Entry Index
 

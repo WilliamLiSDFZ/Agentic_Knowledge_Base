@@ -1,6 +1,7 @@
 ---
 title: "Detection-Correction Structure via General Language Model for Grammatical Error Correction"
 source: "https://aclanthology.org/2024.acl-long.96/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'llm-training-alignment-and-evaluation']
 tags: ['grammatical-error-correction', 'detection-correction', 'language-model']
 venue: "ACL 2024"

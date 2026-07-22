@@ -1,6 +1,7 @@
 ---
 title: "FreshLLMs: Refreshing Large Language Models with Search Engine Augmentation"
 source: "https://aclanthology.org/2024.findings-acl.813/"
+pdf_url: ""
 categories: ['web-data-quality-and-llm-evaluation']
 tags: ['dynamic-QA', 'search-augmentation', 'knowledge-freshness']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "What to Say and When to Say it: Live Fitness Coaching as a Testbed for Situated Interaction"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/8aa695b5d6bf9e958d4e56b22c9b859d-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/8aa695b5d6bf9e958d4e56b22c9b859d-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'audio-visual-speech-processing-and-benchmarks']
 tags: ['vision-language-models', 'situated-interaction', 'fitness-coaching']
 venue: "NeurIPS 2024"

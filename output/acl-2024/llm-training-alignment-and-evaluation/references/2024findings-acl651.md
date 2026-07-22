@@ -1,6 +1,7 @@
 ---
 title: "PANDA: Preference Adaptation for Enhancing Domain-Specific Abilities of LLMs"
 source: "https://aclanthology.org/2024.findings-acl.651/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['domain-adaptation', 'preference-learning', 'LLM', 'fine-tuning']
 venue: "ACL 2024"

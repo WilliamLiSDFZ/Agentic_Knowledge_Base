@@ -1,6 +1,7 @@
 ---
 title: "PEACE: A Dataset of Pharmaceutical Care for Cancer Pain Analgesia Evaluation and Medication Decision"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/26c05ef0790f2a8ad53700e1ef436643-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/26c05ef0790f2a8ad53700e1ef436643-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-benchmarks-for-clinical-healthcare', 'machine-learning-theory-and-evaluation-methods']
 tags: ['cancer-pain', 'medication-recommendation', 'clinical-NLP']
 venue: "NeurIPS 2024"

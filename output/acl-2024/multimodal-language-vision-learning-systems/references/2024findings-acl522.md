@@ -1,6 +1,7 @@
 ---
 title: "DiffChat: Learning to Chat with Text-to-Image Synthesis Models for Interactive Image Creation"
 source: "https://aclanthology.org/2024.findings-acl.522/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'text-diffusion-for-content-generation']
 tags: ['text-to-image', 'LLM-alignment', 'interactive-generation', 'prompt-editing', 'diffusion']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "PartialFormer: Modeling Part Instead of Whole for Machine Translation"
 source: "https://aclanthology.org/2024.findings-acl.434/"
+pdf_url: ""
 categories: ['transformer-architecture-analysis-and-design', 'collaborative-llm-deployment-and-inference-optimization']
 tags: ['transformer', 'machine-translation', 'feed-forward-network', 'efficient-architecture', 'lightweight']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "From Role-Play to Drama-Interaction: An LLM Solution"
 source: "https://aclanthology.org/2024.findings-acl.196/"
+pdf_url: ""
 categories: ['llm-driven-interactive-narrative-and-games', 'emotion-aware-dialogue-and-empathy-systems']
 tags: ['interactive-drama', 'llm-roleplay', 'narrative', 'storytelling', 'dialogue']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "LPNL: Scalable Link Prediction with Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.215/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['link-prediction', 'graph-learning', 'large-language-models']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Embodied Language Learning: Opportunities, Challenges, and Future Directions"
 source: "https://aclanthology.org/2024.findings-acl.908/"
+pdf_url: ""
 categories: ['language-models-physical-grounding-limitations', 'multimodal-language-vision-learning-systems']
 tags: ['embodied-language-learning', 'physical-grounding', 'vision-language']
 venue: "ACL 2024"

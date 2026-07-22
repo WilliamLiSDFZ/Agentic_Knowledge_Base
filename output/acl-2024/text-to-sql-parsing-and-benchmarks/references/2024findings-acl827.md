@@ -1,6 +1,7 @@
 ---
 title: "Investigating the Impact of Data Contamination of Large Language Models in Text-to-SQL translation"
 source: "https://aclanthology.org/2024.findings-acl.827/"
+pdf_url: ""
 categories: ['text-to-sql-parsing-and-benchmarks', 'web-data-quality-and-llm-evaluation']
 tags: ['text-to-sql', 'data-contamination', 'benchmark-leakage']
 venue: "ACL 2024"

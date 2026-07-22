@@ -1,6 +1,7 @@
 ---
 title: "TGB 2.0: A Benchmark for Learning on Temporal Knowledge Graphs and Heterogeneous Graphs"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/fda026cf2423a01fcbcf1e1e43ee9a50-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/fda026cf2423a01fcbcf1e1e43ee9a50-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'graph-neural-networks-and-representation-learning']
 tags: ['temporal-knowledge-graphs', 'heterogeneous-graphs', 'benchmark', 'multi-relational', 'link-prediction']
 venue: "NeurIPS 2024"

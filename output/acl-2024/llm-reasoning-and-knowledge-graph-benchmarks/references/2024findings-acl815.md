@@ -1,6 +1,7 @@
 ---
 title: "CR-LLM: A Dataset and Optimization for Concept Reasoning of Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.815/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-training-alignment-and-evaluation']
 tags: ['concept-reasoning', 'dataset', 'llm-evaluation']
 venue: "ACL 2024"

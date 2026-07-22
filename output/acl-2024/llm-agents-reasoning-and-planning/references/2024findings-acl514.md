@@ -1,6 +1,7 @@
 ---
 title: "PPTC Benchmark: Evaluating Large Language Models for PowerPoint Task Completion"
 source: "https://aclanthology.org/2024.findings-acl.514/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'llm-agents-reasoning-and-planning']
 tags: ['llm-evaluation', 'powerpoint', 'task-completion']
 venue: "ACL 2024"

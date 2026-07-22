@@ -1,6 +1,7 @@
 ---
 title: "Rethinking Efficient Multilingual Text Summarization Meta-Evaluation"
 source: "https://aclanthology.org/2024.findings-acl.930/"
+pdf_url: ""
 categories: ['multilingual-text-classification-and-sentiment-analysis', 'llm-training-alignment-and-evaluation']
 tags: ['multilingual-summarization', 'meta-evaluation', 'machine-translation', 'evaluation-metrics', 'NLP']
 venue: "ACL 2024"

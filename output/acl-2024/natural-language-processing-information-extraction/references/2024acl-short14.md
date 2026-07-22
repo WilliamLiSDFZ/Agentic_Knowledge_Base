@@ -1,6 +1,7 @@
 ---
 title: "Bi-Directional Multi-Granularity Generation Framework for Knowledge Graph-to-Text with Large Language Model"
 source: "https://aclanthology.org/2024.acl-short.14/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'natural-language-processing-information-extraction']
 tags: ['knowledge-graph-to-text', 'multi-granularity', 'LLM', 'bidirectional-generation', 'KG-triples']
 venue: "ACL 2024"

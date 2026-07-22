@@ -1,6 +1,7 @@
 ---
 title: "FlexMol: A Flexible Toolkit for Benchmarking Molecular Relational Learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/3e560698f840bceef29e9566b9bd7312-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/3e560698f840bceef29e9566b9bd7312-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['machine-learning-for-molecular-biology', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['molecular-relational-learning', 'benchmarking', 'drug-discovery']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "On Feature Learning in Structured State Space Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/9c7eeda2dc98e61baa9a5884afd231bc-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/9c7eeda2dc98e61baa9a5884afd231bc-Paper-Conference.pdf"
 categories: ['recurrent-and-spiking-neural-network-dynamics', 'deep-learning-optimization-and-generalization-theory']
 tags: ['state-space-models', 'Mamba', 'feature-learning', 'scaling', 'structured-SSMs']
 venue: "NeurIPS 2024"

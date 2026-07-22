@@ -1,6 +1,7 @@
 ---
 title: "How Vocabulary Sharing Facilitates Multilingualism in LLaMA?"
 source: "https://aclanthology.org/2024.findings-acl.721/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'llms-for-biomedical-and-clinical-nlp']
 tags: ['multilingualism', 'LLaMA', 'vocabulary-sharing']
 venue: "ACL 2024"

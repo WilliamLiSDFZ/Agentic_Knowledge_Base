@@ -1,6 +1,7 @@
 ---
 title: "Shoulders of Giants: A Look at the Degree and Utility of Openness in NLP Research"
 source: "https://aclanthology.org/2024.acl-short.48/"
+pdf_url: ""
 categories: ['nlp-research-culture-and-practices', 'web-data-quality-and-llm-evaluation']
 tags: ['openness', 'NLP-research-culture', 'artifact-reuse']
 venue: "ACL 2024"

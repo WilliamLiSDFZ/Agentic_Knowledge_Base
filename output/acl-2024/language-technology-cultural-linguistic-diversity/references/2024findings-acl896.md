@@ -1,6 +1,7 @@
 ---
 title: "How Far can 100 Samples Go? Unlocking Zero-Shot Translation with Tiny Multi-Parallel Data"
 source: "https://aclanthology.org/2024.findings-acl.896/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'llm-training-alignment-and-evaluation']
 tags: ['zero-shot-translation', 'multilingual-machine-translation', 'low-resource', 'multi-parallel-data', 'transfer-learning']
 venue: "ACL 2024"

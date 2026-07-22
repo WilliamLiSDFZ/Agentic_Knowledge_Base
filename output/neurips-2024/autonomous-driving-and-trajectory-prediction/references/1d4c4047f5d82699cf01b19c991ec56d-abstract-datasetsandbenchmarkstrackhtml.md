@@ -1,6 +1,7 @@
 ---
 title: "Text to Blind Motion"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1d4c4047f5d82699cf01b19c991ec56d-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1d4c4047f5d82699cf01b19c991ec56d-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['neural-geometric-shape-representation-learning', 'autonomous-driving-and-trajectory-prediction']
 tags: ['blind-motion', 'text-to-motion', 'accessibility']
 venue: "NeurIPS 2024"

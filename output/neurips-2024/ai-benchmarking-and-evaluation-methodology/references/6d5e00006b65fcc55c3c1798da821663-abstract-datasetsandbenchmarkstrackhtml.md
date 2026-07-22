@@ -1,6 +1,7 @@
 ---
 title: "Benchmarking Generative Models on Computational Thinking Tests in Elementary Visual Programming"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/6d5e00006b65fcc55c3c1798da821663-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/6d5e00006b65fcc55c3c1798da821663-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['benchmarking', 'generative-models', 'visual-programming', 'computational-thinking']
 venue: "NeurIPS 2024"

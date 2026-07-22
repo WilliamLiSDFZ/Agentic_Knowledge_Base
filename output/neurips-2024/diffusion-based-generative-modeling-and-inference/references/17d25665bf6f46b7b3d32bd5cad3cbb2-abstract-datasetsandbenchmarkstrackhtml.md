@@ -1,6 +1,7 @@
 ---
 title: "BLURD: Benchmarking and Learning using a Unified Rendering and Diffusion Model"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/17d25665bf6f46b7b3d32bd5cad3cbb2-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/17d25665bf6f46b7b3d32bd5cad3cbb2-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'diffusion-based-generative-modeling-and-inference']
 tags: ['benchmarking', 'diffusion-models', 'vision-evaluation']
 venue: "NeurIPS 2024"

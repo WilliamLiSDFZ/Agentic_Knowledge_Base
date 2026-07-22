@@ -5,7 +5,7 @@ wait,-let-me-reconsider-for-conciseness-(3-7-words):
 
 `string-similarity-and-alignment-algorithms
 description: >-
-  **String-to-String Alignment Algorithms** covers computational methods for measuring similarity, distance, and correspondence between strings, including edit distance (Levenshtein, AST-based), optimal transport alignment, and transformer-based sequence labeling. Applications span NLP tasks such as word alignment, record linkage, translation error detection (hallucinations/omissions), code similarity evaluation
+  **String-to-string alignment algorithms** covers computational methods for measuring similarity, distance, and correspondence between sequences — including edit distance variants (Levenshtein, AST-based), optimal transport alignment, and transformer-based approaches. Applications span NLP tasks such as word alignment, record linkage, translation error detection (hallucinations/omissions), code similarity evaluation, and document
 ---
 
 # String To String Alignment Algorithms Library
@@ -14,7 +14,7 @@ Wait, Let Me Reconsider For Conciseness (3 7 Words):
 
 `String Similarity And Alignment Algorithms
 
-**String-to-String Alignment Algorithms** covers computational methods for measuring similarity, distance, and correspondence between strings, including edit distance (Levenshtein, AST-based), optimal transport alignment, and transformer-based sequence labeling. Applications span NLP tasks such as word alignment, record linkage, translation error detection (hallucinations/omissions), code similarity evaluation
+**String-to-string alignment algorithms** covers computational methods for measuring similarity, distance, and correspondence between sequences — including edit distance variants (Levenshtein, AST-based), optimal transport alignment, and transformer-based approaches. Applications span NLP tasks such as word alignment, record linkage, translation error detection (hallucinations/omissions), code similarity evaluation, and document
 
 ## Entry Index
 

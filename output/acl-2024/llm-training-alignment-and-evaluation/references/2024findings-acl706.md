@@ -1,6 +1,7 @@
 ---
 title: "A Two-Stage Adaptation of Large Language Models for Text Ranking"
 source: "https://aclanthology.org/2024.findings-acl.706/"
+pdf_url: ""
 categories: ['llm-based-ranking-and-recommendation', 'llm-training-alignment-and-evaluation']
 tags: ['text-ranking', 'LLM-fine-tuning', 'information-retrieval']
 venue: "ACL 2024"

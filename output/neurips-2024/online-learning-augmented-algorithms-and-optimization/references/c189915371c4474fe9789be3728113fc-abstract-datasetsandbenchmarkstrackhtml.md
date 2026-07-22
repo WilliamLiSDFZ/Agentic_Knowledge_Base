@@ -1,6 +1,7 @@
 ---
 title: "StreamBench: Towards Benchmarking Continuous Improvement of Language Agents"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/c189915371c4474fe9789be3728113fc-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/c189915371c4474fe9789be3728113fc-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'online-learning-augmented-algorithms-and-optimization']
 tags: ['LLM-agent', 'continuous-improvement', 'benchmarking', 'online-learning', 'self-improvement']
 venue: "NeurIPS 2024"

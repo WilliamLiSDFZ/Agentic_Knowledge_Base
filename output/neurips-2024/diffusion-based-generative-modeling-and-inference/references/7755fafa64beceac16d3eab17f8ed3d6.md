@@ -1,6 +1,7 @@
 ---
 title: "LLM-AutoDA: Large Language Model-Driven Automatic Data Augmentation for Long-tailed Problems"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/7755fafa64beceac16d3eab17f8ed3d6-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/7755fafa64beceac16d3eab17f8ed3d6-Paper-Conference.pdf"
 categories: ['diffusion-based-generative-modeling-and-inference']
 tags: ['long-tailed-learning', 'data-augmentation', 'llm-driven', 'generative-models', 'class-imbalance']
 venue: "NeurIPS 2024"

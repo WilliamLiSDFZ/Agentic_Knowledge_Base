@@ -1,12 +1,12 @@
 ---
 name: time-series-forecasting-and-analysis
 description: >-
-  Time-series forecasting and analysis covers methods for predicting and characterizing temporal data across domains including energy, weather, and physiological signals, using architectures such as Transformers, diffusion models, GNNs, and Fourier/chaos-based approaches. Key tasks include multivariate and long-horizon forecasting with exogenous variables, time-series representation learning
+  **Time-series forecasting and analysis** covers methods for predicting and interpreting sequential temporal data, including multivariate/exogenous variable forecasting, long-term and fine-grained prediction, and change-point/boundary detection. Techniques span Transformer architectures, diffusion models, Fourier/basis function decomposition, graph neural networks, and physics-AI
 ---
 
 # Time Series Forecasting And Analysis
 
-Time-series forecasting and analysis covers methods for predicting and characterizing temporal data across domains including energy, weather, and physiological signals, using architectures such as Transformers, diffusion models, GNNs, and Fourier/chaos-based approaches. Key tasks include multivariate and long-horizon forecasting with exogenous variables, time-series representation learning
+**Time-series forecasting and analysis** covers methods for predicting and interpreting sequential temporal data, including multivariate/exogenous variable forecasting, long-term and fine-grained prediction, and change-point/boundary detection. Techniques span Transformer architectures, diffusion models, Fourier/basis function decomposition, graph neural networks, and physics-AI
 
 ## Entry Index
 

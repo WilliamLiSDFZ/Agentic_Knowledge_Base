@@ -1,6 +1,7 @@
 ---
 title: "Semantic Role Labeling from Chinese Speech via End-to-End Learning"
 source: "https://aclanthology.org/2024.findings-acl.527/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems', 'natural-language-processing-information-extraction']
 tags: ['semantic-role-labeling', 'speech', 'Chinese', 'end-to-end', 'multimodal']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "SubjECTive-QA: Measuring Subjectivity in Earnings Call Transcripts' QA Through Six-Dimensional Feature Analysis"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/6d0f9c415e2d779c78f32b74668e9d02-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/6d0f9c415e2d779c78f32b74668e9d02-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['subjectivity-detection', 'earnings-calls', 'qa-evaluation', 'financial-nlp']
 venue: "NeurIPS 2024"

@@ -1,12 +1,12 @@
 ---
 name: scientific-document-retrieval-and-citation
 description: >-
-  This skill covers methods and systems for scientific document retrieval, citation prediction, and knowledge extraction, including dense/generative retrieval architectures, retrieval-augmented generation (RAG), and LLM-based workflows applied to tasks such as citation attribution, claim verification, survey generation, and multimodal QA over scientific literature. It also encompasses dataset construction, metadata standards, and
+  This skill covers retrieval-augmented generation, scientific document retrieval, and citation prediction/verification using methods including dense/generative retrieval, hybrid language model workflows, and multi-vector encoding across tasks such as citation attribution, claim verification, retrosynthesis, and automated survey generation. Applications span scientific literature mining, knowledge graph construction, document analysis benchmarking, and large-scale
 ---
 
 # Scientific Document Retrieval And Citation
 
-This skill covers methods and systems for scientific document retrieval, citation prediction, and knowledge extraction, including dense/generative retrieval architectures, retrieval-augmented generation (RAG), and LLM-based workflows applied to tasks such as citation attribution, claim verification, survey generation, and multimodal QA over scientific literature. It also encompasses dataset construction, metadata standards, and
+This skill covers retrieval-augmented generation, scientific document retrieval, and citation prediction/verification using methods including dense/generative retrieval, hybrid language model workflows, and multi-vector encoding across tasks such as citation attribution, claim verification, retrosynthesis, and automated survey generation. Applications span scientific literature mining, knowledge graph construction, document analysis benchmarking, and large-scale
 
 ## Entry Index
 

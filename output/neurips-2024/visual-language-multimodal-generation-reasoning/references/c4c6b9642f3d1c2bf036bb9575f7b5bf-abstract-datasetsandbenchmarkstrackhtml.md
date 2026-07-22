@@ -1,6 +1,7 @@
 ---
 title: "MARPLE: A Benchmark for Long-Horizon Inference"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/c4c6b9642f3d1c2bf036bb9575f7b5bf-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/c4c6b9642f3d1c2bf036bb9575f7b5bf-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'visual-language-multimodal-generation-reasoning']
 tags: ['benchmark', 'long-horizon-inference', 'multimodal-reasoning', 'event-reconstruction', 'visual-language']
 venue: "NeurIPS 2024"

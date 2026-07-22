@@ -1,6 +1,7 @@
 ---
 title: "Improving In-Context Learning with Prediction Feedback for Sentiment Analysis"
 source: "https://aclanthology.org/2024.findings-acl.232/"
+pdf_url: ""
 categories: ['multilingual-text-classification-and-sentiment-analysis', 'llm-training-alignment-and-evaluation']
 tags: ['sentiment-analysis', 'in-context-learning', 'prediction-feedback']
 venue: "ACL 2024"

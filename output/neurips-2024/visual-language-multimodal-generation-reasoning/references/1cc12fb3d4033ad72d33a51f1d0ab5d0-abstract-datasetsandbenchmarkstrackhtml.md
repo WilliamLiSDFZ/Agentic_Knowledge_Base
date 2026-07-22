@@ -1,6 +1,7 @@
 ---
 title: "Evaluating Large Vision-and-Language Models on Children's Mathematical Olympiads"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1cc12fb3d4033ad72d33a51f1d0ab5d0-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1cc12fb3d4033ad72d33a51f1d0ab5d0-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['vision-language-models', 'mathematical-olympiad', 'children-benchmarks']
 venue: "NeurIPS 2024"

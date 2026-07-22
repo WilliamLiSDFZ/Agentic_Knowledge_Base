@@ -1,6 +1,7 @@
 ---
 title: "TELLER: A Trustworthy Framework for Explainable, Generalizable and Controllable Fake News Detection"
 source: "https://aclanthology.org/2024.findings-acl.919/"
+pdf_url: ""
 categories: ['computational-misinformation-narrative-framing-detection', 'llm-hallucination-detection-and-mitigation']
 tags: ['fake-news-detection', 'explainability', 'controllable-classification']
 venue: "ACL 2024"

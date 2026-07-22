@@ -1,6 +1,7 @@
 ---
 title: "Spectral Learning of Shared Dynamics Between Generalized-Linear Processes"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a267f6a1ea2bc9e0ec15ed4af7d5ae3f-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a267f6a1ea2bc9e0ec15ed4af7d5ae3f-Paper-Conference.pdf"
 categories: ['recurrent-and-spiking-neural-network-dynamics']
 tags: ['generalized-linear-dynamical-models', 'spectral-learning', 'neuroscience']
 venue: "NeurIPS 2024"

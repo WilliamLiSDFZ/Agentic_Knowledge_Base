@@ -1,6 +1,7 @@
 ---
 title: "Exploring Reasoning Biases in Large Language Models Through Syllogism: Insights from the NeuBAROCO Dataset"
 source: "https://aclanthology.org/2024.findings-acl.950/"
+pdf_url: ""
 categories: ['language-model-human-cognitive-linguistic-alignment', 'llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['syllogistic-reasoning', 'cognitive-bias', 'llm-evaluation']
 venue: "ACL 2024"

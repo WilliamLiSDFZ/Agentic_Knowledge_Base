@@ -1,6 +1,7 @@
 ---
 title: "SPIN: Sparsifying and Integrating Internal Neurons in Large Language Models for Text Classification"
 source: "https://aclanthology.org/2024.findings-acl.277/"
+pdf_url: ""
 categories: ['nlp-text-classification-applied-tasks', 'language-model-representations-and-embedding-spaces']
 tags: ['text-classification', 'internal-neurons', 'sparsification', 'LLM', 'representation']
 venue: "ACL 2024"

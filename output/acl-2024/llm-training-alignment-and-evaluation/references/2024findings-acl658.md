@@ -1,6 +1,7 @@
 ---
 title: "On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation: A Survey"
 source: "https://aclanthology.org/2024.findings-acl.658/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['synthetic-data', 'data-curation', 'LLM-evaluation']
 venue: "ACL 2024"

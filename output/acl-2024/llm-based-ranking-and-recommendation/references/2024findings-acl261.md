@@ -1,6 +1,7 @@
 ---
 title: "URG: A Unified Ranking and Generation Method for Ensembling Language Models"
 source: "https://aclanthology.org/2024.findings-acl.261/"
+pdf_url: ""
 categories: ['llm-based-ranking-and-recommendation', 'minimum-bayes-risk-decoding-efficiency']
 tags: ['ensemble-llm', 'ranking-and-generation', 'unified-framework']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Localize, Understand, Collaborate: Semantic-Aware Dragging via Intention Reasoner"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/3dd7c683eddc14f8cabcd6ce8d48cd41-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/3dd7c683eddc14f8cabcd6ce8d48cd41-Paper-Conference.pdf"
 categories: ['diffusion-based-generative-modeling-and-inference', 'visual-language-multimodal-generation-reasoning']
 tags: ['drag-based-editing', 'diffusion-models', 'semantic-image-editing']
 venue: "NeurIPS 2024"

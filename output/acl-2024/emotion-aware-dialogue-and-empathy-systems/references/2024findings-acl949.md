@@ -1,6 +1,7 @@
 ---
 title: "A Large Collection of Model-generated Contradictory Responses for Consistency-aware Dialogue Systems"
 source: "https://aclanthology.org/2024.findings-acl.949/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems', 'coreference-resolution-and-dialogue-understanding']
 tags: ['dialogue-systems', 'contradictory-responses', 'consistency', 'dataset']
 venue: "ACL 2024"

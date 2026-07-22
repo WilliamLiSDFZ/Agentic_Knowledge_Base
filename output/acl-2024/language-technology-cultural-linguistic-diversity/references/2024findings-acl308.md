@@ -1,6 +1,7 @@
 ---
 title: "Translation Deserves Better: Analyzing Translation Artifacts in Cross-lingual Visual Question Answering"
 source: "https://aclanthology.org/2024.findings-acl.308/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'language-technology-cultural-linguistic-diversity']
 tags: ['visual-question-answering', 'cross-lingual', 'translation-artifacts']
 venue: "ACL 2024"

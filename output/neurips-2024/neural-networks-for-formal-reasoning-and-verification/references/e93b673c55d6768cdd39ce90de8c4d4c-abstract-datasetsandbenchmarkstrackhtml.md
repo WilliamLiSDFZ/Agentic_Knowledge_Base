@@ -1,6 +1,7 @@
 ---
 title: "Towards General Loop Invariant Generation: A Benchmark of Programs with Memory Manipulation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/e93b673c55d6768cdd39ce90de8c4d4c-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/e93b673c55d6768cdd39ce90de8c4d4c-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['neural-networks-for-formal-reasoning-and-verification', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['loop-invariants', 'program-verification', 'benchmark']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Interactive Text-to-Image Retrieval with Large Language Models: A Plug-and-Play Approach"
 source: "https://aclanthology.org/2024.acl-long.46/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'speech-and-language-multimodal-generation-systems']
 tags: ['interactive-retrieval', 'text-to-image', 'LLM-plug-in']
 venue: "ACL 2024"

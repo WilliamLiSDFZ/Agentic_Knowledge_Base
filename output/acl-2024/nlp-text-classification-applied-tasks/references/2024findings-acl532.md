@@ -1,6 +1,7 @@
 ---
 title: "InstructCMP: Length Control in Sentence Compression through Instruction-based Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.532/"
+pdf_url: ""
 categories: ['text-simplification-evaluation-and-methods', 'nlp-text-classification-applied-tasks']
 tags: ['sentence-compression', 'length-control', 'instruction-tuning']
 venue: "ACL 2024"

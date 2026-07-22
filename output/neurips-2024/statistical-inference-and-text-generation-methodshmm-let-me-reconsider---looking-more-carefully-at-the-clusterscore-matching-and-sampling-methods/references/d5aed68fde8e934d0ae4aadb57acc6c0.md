@@ -1,6 +1,7 @@
 ---
 title: "PaDeLLM-NER: Parallel Decoding in Large Language Models for Named Entity Recognition"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d5aed68fde8e934d0ae4aadb57acc6c0-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d5aed68fde8e934d0ae4aadb57acc6c0-Paper-Conference.pdf"
 categories: ['llm-training-and-optimization-techniques', 'statistical-inference-and-text-generation-methods\n\nhmm,-let-me-reconsider---looking-more-carefully-at-the-cluster:\n\n**score-matching-and-sampling-methods**']
 tags: ['named-entity-recognition', 'parallel-decoding', 'latency-reduction']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Isotropy, Clusters, and Classifiers"
 source: "https://aclanthology.org/2024.acl-short.7/"
+pdf_url: ""
 categories: ['isotropy-based-text-representation-analysis\n\nwait,-let-me-reconsider-with-just-the-single-paper-title-given.\n\n**isotropy-clusters-classifiers-analysis**', 'language-model-representations-and-embedding-spaces']
 tags: ['isotropy', 'embedding-spaces', 'classifiers']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Codec-SUPERB: An In-Depth Analysis of Sound Codec Models"
 source: "https://aclanthology.org/2024.findings-acl.616/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems', 'llm-training-alignment-and-evaluation']
 tags: ['sound-codec', 'audio-tokenizer', 'benchmark']
 venue: "ACL 2024"

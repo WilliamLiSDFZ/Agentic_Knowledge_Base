@@ -1,6 +1,7 @@
 ---
 title: "XLand-MiniGrid: Scalable Meta-Reinforcement Learning Environments in JAX"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/4d8a58a62c1a85ebb2cbea798c2779e2-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/4d8a58a62c1a85ebb2cbea798c2779e2-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['meta-reinforcement-learning', 'JAX', 'grid-world-environments']
 venue: "NeurIPS 2024"

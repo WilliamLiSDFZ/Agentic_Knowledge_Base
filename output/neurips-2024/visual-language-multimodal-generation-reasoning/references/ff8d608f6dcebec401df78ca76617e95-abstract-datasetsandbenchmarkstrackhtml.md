@@ -1,6 +1,7 @@
 ---
 title: "Data curation via joint example selection further accelerates multimodal learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ff8d608f6dcebec401df78ca76617e95-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ff8d608f6dcebec401df78ca76617e95-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'multi-task-learning-group-optimization']
 tags: ['data-curation', 'multimodal-pretraining', 'batch-selection']
 venue: "NeurIPS 2024"

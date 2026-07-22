@@ -1,6 +1,7 @@
 ---
 title: "mCSQA: Multilingual Commonsense Reasoning Dataset with Unified Creation Strategy by Language Models and Humans"
 source: "https://aclanthology.org/2024.findings-acl.844/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity']
 tags: ['multilingual', 'commonsense-reasoning', 'dataset-creation', 'language-models']
 venue: "ACL 2024"

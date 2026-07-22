@@ -1,6 +1,7 @@
 ---
 title: "LLMLingua-2: Data Distillation for Efficient and Faithful Task-Agnostic Prompt Compression"
 source: "https://aclanthology.org/2024.findings-acl.57/"
+pdf_url: ""
 categories: ['collaborative-llm-deployment-and-inference-optimization', 'natural-language-processing-information-extraction']
 tags: ['prompt-compression', 'data-distillation', 'efficiency']
 venue: "ACL 2024"

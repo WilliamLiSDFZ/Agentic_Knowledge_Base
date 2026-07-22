@@ -1,6 +1,7 @@
 ---
 title: "Tell Me What’s Next: Textual Foresight for Generic UI Representations"
 source: "https://aclanthology.org/2024.findings-acl.273/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'document-understanding-and-information-extraction']
 tags: ['UI-representation', 'textual-foresight', 'mobile-apps']
 venue: "ACL 2024"

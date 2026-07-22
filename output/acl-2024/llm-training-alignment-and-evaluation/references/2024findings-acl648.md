@@ -1,6 +1,7 @@
 ---
 title: "RECOST: External Knowledge Guided Data-efficient Instruction Tuning"
 source: "https://aclanthology.org/2024.findings-acl.648/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'label-noise-robust-annotation-learning']
 tags: ['instruction-tuning', 'data-selection', 'external-knowledge']
 venue: "ACL 2024"

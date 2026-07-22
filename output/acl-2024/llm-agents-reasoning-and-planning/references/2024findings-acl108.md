@@ -1,6 +1,7 @@
 ---
 title: "The Impact of Reasoning Step Length on Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.108/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-agents-reasoning-and-planning']
 tags: ['chain-of-thought', 'reasoning-length', 'prompt-engineering']
 venue: "ACL 2024"

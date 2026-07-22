@@ -1,6 +1,7 @@
 ---
 title: "Scented-EAE: Stage-Customized Entity Type Embedding for Event Argument Extraction"
 source: "https://aclanthology.org/2024.findings-acl.309/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction']
 tags: ['event-argument-extraction', 'entity-type-embedding', 'NER']
 venue: "ACL 2024"

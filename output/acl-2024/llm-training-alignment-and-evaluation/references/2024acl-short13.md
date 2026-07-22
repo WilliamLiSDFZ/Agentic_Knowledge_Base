@@ -1,6 +1,7 @@
 ---
 title: "IEPile: Unearthing Large Scale Schema-Conditioned Information Extraction Corpus"
 source: "https://aclanthology.org/2024.acl-short.13/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'llm-training-alignment-and-evaluation']
 tags: ['information-extraction', 'schema-conditioned', 'instruction-data']
 venue: "ACL 2024"

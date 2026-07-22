@@ -1,6 +1,7 @@
 ---
 title: "Chain-of-Quizzes: Pedagogy-inspired Example Selection in In-Context-Learning"
 source: "https://aclanthology.org/2024.findings-acl.603/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'educational-question-generation-and-comprehension']
 tags: ['in-context-learning', 'example-selection', 'pedagogy']
 venue: "ACL 2024"

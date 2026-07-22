@@ -1,6 +1,7 @@
 ---
 title: "Subtle Biases Need Subtler Measures: Dual Metrics for Evaluating Representative and Affinity Bias in Large Language Models"
 source: "https://aclanthology.org/2024.acl-long.23/"
+pdf_url: ""
 categories: ['bias-and-fairness-in-llms', 'llm-training-alignment-and-evaluation']
 tags: ['bias-evaluation', 'representative-bias', 'affinity-bias']
 venue: "ACL 2024"

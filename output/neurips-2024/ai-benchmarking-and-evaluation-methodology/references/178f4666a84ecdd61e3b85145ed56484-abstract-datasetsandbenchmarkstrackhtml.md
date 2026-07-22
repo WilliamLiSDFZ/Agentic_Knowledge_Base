@@ -1,6 +1,7 @@
 ---
 title: "DrivingDojo Dataset: Advancing Interactive and Knowledge-Enriched Driving World Model"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/178f4666a84ecdd61e3b85145ed56484-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/178f4666a84ecdd61e3b85145ed56484-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['autonomous-driving-and-trajectory-prediction', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['driving-dataset', 'world-models', 'interactive-driving', 'video-diversity']
 venue: "NeurIPS 2024"

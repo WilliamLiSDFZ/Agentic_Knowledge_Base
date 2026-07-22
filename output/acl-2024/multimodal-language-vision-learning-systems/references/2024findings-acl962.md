@@ -1,6 +1,7 @@
 ---
 title: "PuzzleVQA: Diagnosing Multimodal Reasoning Challenges of Language Models with Abstract Visual Patterns"
 source: "https://aclanthology.org/2024.findings-acl.962/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'nlp-benchmark-design-and-interpretability']
 tags: ['multimodal-reasoning', 'abstract-visual-patterns', 'benchmark']
 venue: "ACL 2024"

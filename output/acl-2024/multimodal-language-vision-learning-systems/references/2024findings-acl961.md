@@ -1,6 +1,7 @@
 ---
 title: "ContextBLIP: Doubly Contextual Alignment for Contrastive Image Retrieval from Linguistically Complex Descriptions"
 source: "https://aclanthology.org/2024.findings-acl.961/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'language-model-representations-and-embedding-spaces']
 tags: ['image-retrieval', 'contrastive-learning', 'vision-language-alignment']
 venue: "ACL 2024"

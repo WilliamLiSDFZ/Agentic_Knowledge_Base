@@ -1,6 +1,7 @@
 ---
 title: "Semantic are Beacons: A Semantic Perspective for Unveiling Parameter-Efficient Fine-Tuning in Knowledge Learning"
 source: "https://aclanthology.org/2024.findings-acl.567/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['parameter-efficient-fine-tuning', 'knowledge-learning', 'semantic-analysis']
 venue: "ACL 2024"

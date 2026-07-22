@@ -1,6 +1,7 @@
 ---
 title: "SKGSum: Structured Knowledge-Guided Document Summarization"
 source: "https://aclanthology.org/2024.findings-acl.110/"
+pdf_url: ""
 categories: ['document-understanding-and-information-extraction', 'causal-reasoning-and-explanation-in-nlp']
 tags: ['summarization', 'structured-knowledge', 'genre-theory', 'document-structure', 'NLP']
 venue: "ACL 2024"

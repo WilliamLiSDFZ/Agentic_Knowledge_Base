@@ -1,6 +1,7 @@
 ---
 title: "Learning Fine-Grained Grounded Citations for Attributed Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.838/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'natural-language-processing-information-extraction']
 tags: ['hallucination-mitigation', 'citations', 'attributed-LLMs']
 venue: "ACL 2024"

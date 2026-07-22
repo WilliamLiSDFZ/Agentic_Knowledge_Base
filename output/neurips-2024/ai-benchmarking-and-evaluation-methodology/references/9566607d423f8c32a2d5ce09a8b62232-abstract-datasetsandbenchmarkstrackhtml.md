@@ -1,6 +1,7 @@
 ---
 title: "TAPVid-3D: A Benchmark for Tracking Any Point in 3D"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/9566607d423f8c32a2d5ce09a8b62232-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/9566607d423f8c32a2d5ce09a8b62232-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'autonomous-driving-and-trajectory-prediction']
 tags: ['3D-point-tracking', 'benchmark', 'video-understanding']
 venue: "NeurIPS 2024"

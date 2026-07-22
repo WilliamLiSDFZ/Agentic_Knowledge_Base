@@ -1,6 +1,7 @@
 ---
 title: "ConstitutionalExperts: Training a Mixture of Principle-based Prompts"
 source: "https://aclanthology.org/2024.acl-short.52/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['prompt-learning', 'constitutional-AI', 'mixture-of-experts']
 venue: "ACL 2024"

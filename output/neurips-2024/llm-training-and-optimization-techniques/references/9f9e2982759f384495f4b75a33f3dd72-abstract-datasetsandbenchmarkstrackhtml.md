@@ -1,6 +1,7 @@
 ---
 title: "Instruction Embedding: Latent Representations of Instructions Towards Task Identification"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/9f9e2982759f384495f4b75a33f3dd72-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/9f9e2982759f384495f4b75a33f3dd72-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-training-and-optimization-techniques']
 tags: ['instruction-tuning', 'latent-representations', 'task-identification']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Aggregate-and-Adapt Natural Language Prompts for Downstream Generalization of CLIP"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/93e67adb632d636bb2bcedf4eef1a6fe-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/93e67adb632d636bb2bcedf4eef1a6fe-Paper-Conference.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'llm-training-and-optimization-techniques']
 tags: ['CLIP', 'prompt-learning', 'vision-language', 'downstream-generalization', 'adaptation']
 venue: "NeurIPS 2024"

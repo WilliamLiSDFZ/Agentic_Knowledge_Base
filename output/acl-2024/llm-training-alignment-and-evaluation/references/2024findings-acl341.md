@@ -1,6 +1,7 @@
 ---
 title: "Phased Instruction Fine-Tuning for Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.341/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'continual-learning-for-nlp-tasks']
 tags: ['instruction-tuning', 'fine-tuning', 'curriculum-learning']
 venue: "ACL 2024"

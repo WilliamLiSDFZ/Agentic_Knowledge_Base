@@ -1,6 +1,7 @@
 ---
 title: "Towards Understanding Task-agnostic Debiasing Through the Lenses of Intrinsic Bias and Forgetfulness"
 source: "https://aclanthology.org/2024.findings-acl.109/"
+pdf_url: ""
 categories: ['bias-and-fairness-in-llms']
 tags: ['debiasing', 'social-bias', 'catastrophic-forgetting']
 venue: "ACL 2024"

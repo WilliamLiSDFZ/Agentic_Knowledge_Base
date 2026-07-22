@@ -1,6 +1,7 @@
 ---
 title: "Controllable Text Generation with Residual Memory Transformer"
 source: "https://aclanthology.org/2024.findings-acl.62/"
+pdf_url: ""
 categories: ['state-memory-replay-sequence-modeling', 'llm-training-alignment-and-evaluation']
 tags: ['controllable-text-generation', 'residual-memory', 'causal-language-models']
 venue: "ACL 2024"

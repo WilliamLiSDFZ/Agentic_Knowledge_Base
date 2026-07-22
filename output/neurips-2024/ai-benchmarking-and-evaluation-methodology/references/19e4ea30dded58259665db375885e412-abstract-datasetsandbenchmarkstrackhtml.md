@@ -1,6 +1,7 @@
 ---
 title: "DataComp-LM: In search of the next generation of training sets for language models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/19e4ea30dded58259665db375885e412-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/19e4ea30dded58259665db375885e412-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-training-and-optimization-techniques', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['language-model-pretraining', 'dataset-curation', 'benchmark', 'common-crawl']
 venue: "NeurIPS 2024"

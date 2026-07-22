@@ -1,6 +1,7 @@
 ---
 title: "AsyncDiff: Parallelizing Diffusion Models by Asynchronous Denoising"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ad15848baa3932c0d2deabf0e11d1dcd-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ad15848baa3932c0d2deabf0e11d1dcd-Paper-Conference.pdf"
 categories: ['diffusion-based-generative-modeling-and-inference']
 tags: ['diffusion-models', 'parallel-inference', 'asynchronous-denoising', 'latency-reduction', 'acceleration']
 venue: "NeurIPS 2024"

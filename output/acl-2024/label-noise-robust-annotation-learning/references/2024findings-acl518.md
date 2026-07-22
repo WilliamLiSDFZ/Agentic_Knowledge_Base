@@ -1,6 +1,7 @@
 ---
 title: "“Get Their Hands Dirty, Not Mine”: On Researcher-Annotator Collaboration and the Agency of Annotators"
 source: "https://aclanthology.org/2024.findings-acl.518/"
+pdf_url: ""
 categories: ['label-noise-robust-annotation-learning', 'nlp-research-culture-and-practices']
 tags: ['annotation-quality', 'annotator-agency', 'researcher-collaboration']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "WaterBench: Towards Holistic Evaluation of Watermarks for Large Language Models"
 source: "https://aclanthology.org/2024.acl-long.83/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'llm-security-robustness-and-detection']
 tags: ['watermarking', 'llm-evaluation', 'text-generation']
 venue: "ACL 2024"

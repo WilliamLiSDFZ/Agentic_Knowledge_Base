@@ -1,6 +1,7 @@
 ---
 title: "Prompt-Based Length Controlled Generation with Multiple Control Types"
 source: "https://aclanthology.org/2024.findings-acl.63/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['length-controlled-generation', 'prompt-based', 'llm']
 venue: "ACL 2024"

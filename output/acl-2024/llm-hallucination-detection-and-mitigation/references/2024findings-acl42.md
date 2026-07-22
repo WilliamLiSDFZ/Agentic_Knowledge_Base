@@ -1,6 +1,7 @@
 ---
 title: "BIDER: Bridging Knowledge Inconsistency for Efficient Retrieval-Augmented LLMs via Key Supporting Evidence"
 source: "https://aclanthology.org/2024.findings-acl.42/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'llm-agents-reasoning-and-planning']
 tags: ['retrieval-augmented-generation', 'knowledge-inconsistency', 'open-domain-qa', 'evidence-extraction', 'llm']
 venue: "ACL 2024"

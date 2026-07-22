@@ -1,6 +1,7 @@
 ---
 title: "Language-Informed Beam Search Decoding for Multilingual Machine Translation"
 source: "https://aclanthology.org/2024.findings-acl.932/"
+pdf_url: ""
 categories: ['minimum-bayes-risk-decoding-efficiency', 'multilingual-text-classification-and-sentiment-analysis']
 tags: ['beam-search', 'multilingual-translation', 'off-target']
 venue: "ACL 2024"

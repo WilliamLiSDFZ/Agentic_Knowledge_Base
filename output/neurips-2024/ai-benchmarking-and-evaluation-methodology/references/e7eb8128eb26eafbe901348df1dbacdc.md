@@ -1,6 +1,7 @@
 ---
 title: "SARDet-100K: Towards Open-Source Benchmark and ToolKit for Large-Scale SAR Object Detection"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/e7eb8128eb26eafbe901348df1dbacdc-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/e7eb8128eb26eafbe901348df1dbacdc-Paper-Conference.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['SAR-object-detection', 'benchmark-dataset', 'open-source']
 venue: "NeurIPS 2024"

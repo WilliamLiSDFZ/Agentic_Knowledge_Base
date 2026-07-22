@@ -1,6 +1,7 @@
 ---
 title: "SyntaxShap: Syntax-aware Explainability Method for Text Generation"
 source: "https://aclanthology.org/2024.findings-acl.270/"
+pdf_url: ""
 categories: ['causal-reasoning-and-explanation-in-nlp']
 tags: ['explainability', 'syntax-aware', 'text-generation']
 venue: "ACL 2024"

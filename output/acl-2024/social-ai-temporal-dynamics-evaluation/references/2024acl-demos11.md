@@ -1,6 +1,7 @@
 ---
 title: "BotEval: Facilitating Interactive Human Evaluation"
 source: "https://aclanthology.org/2024.acl-demos.11/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'social-ai-temporal-dynamics-evaluation']
 tags: ['human-evaluation', 'interactive-NLP', 'chatbot-evaluation', 'annotation']
 venue: "ACL 2024"

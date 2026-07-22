@@ -1,6 +1,7 @@
 ---
 title: "Coarse-to-Fine Concept Bottleneck Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/bdeab378efe6eb289714e2a5abc6ed42-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/bdeab378efe6eb289714e2a5abc6ed42-Paper-Conference.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'neural-geometric-shape-representation-learning']
 tags: ['concept-bottleneck', 'interpretability', 'coarse-to-fine']
 venue: "NeurIPS 2024"

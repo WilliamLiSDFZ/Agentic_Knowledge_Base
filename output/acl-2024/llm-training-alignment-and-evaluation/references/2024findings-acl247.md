@@ -1,6 +1,7 @@
 ---
 title: "DebugBench: Evaluating Debugging Capability of Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.247/"
+pdf_url: ""
 categories: ['code-llm-generation-and-evaluation', 'llm-training-alignment-and-evaluation']
 tags: ['debugging', 'code-LLM-evaluation', 'benchmark']
 venue: "ACL 2024"

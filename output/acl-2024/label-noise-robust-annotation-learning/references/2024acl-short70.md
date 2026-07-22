@@ -1,6 +1,7 @@
 ---
 title: "Estimating the Level of Dialectness Predicts Inter-annotator Agreement in Multi-dialect Arabic Datasets"
 source: "https://aclanthology.org/2024.acl-short.70/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'label-noise-robust-annotation-learning']
 tags: ['Arabic-dialects', 'inter-annotator-agreement', 'dialectness-level', 'annotation-quality', 'multi-dialect']
 venue: "ACL 2024"

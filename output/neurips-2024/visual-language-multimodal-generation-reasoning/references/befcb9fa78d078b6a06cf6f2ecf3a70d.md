@@ -1,6 +1,7 @@
 ---
 title: "Ask, Attend, Attack: An Effective Decision-Based Black-Box Targeted Attack for Image-to-Text Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/befcb9fa78d078b6a06cf6f2ecf3a70d-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/befcb9fa78d078b6a06cf6f2ecf3a70d-Paper-Conference.pdf"
 categories: ['llm-safety-robustness-and-privacy-defenses', 'visual-language-multimodal-generation-reasoning']
 tags: ['adversarial-attacks', 'image-to-text', 'black-box-attack']
 venue: "NeurIPS 2024"

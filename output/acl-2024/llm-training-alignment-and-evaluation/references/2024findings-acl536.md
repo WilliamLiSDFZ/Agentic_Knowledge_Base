@@ -1,6 +1,7 @@
 ---
 title: "Budget-Constrained Tool Learning with Planning"
 source: "https://aclanthology.org/2024.findings-acl.536/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'llm-training-alignment-and-evaluation']
 tags: ['tool-learning', 'budget-constraint', 'planning']
 venue: "ACL 2024"

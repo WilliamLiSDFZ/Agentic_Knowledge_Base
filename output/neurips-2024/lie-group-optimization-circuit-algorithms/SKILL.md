@@ -1,12 +1,12 @@
 ---
 name: lie-group-optimization-circuit-algorithms
 description: >-
-  This skill covers optimization algorithms that exploit Lie group structure (particularly rotation groups) for tasks including momentum-based gradient descent convergence analysis, neural circuit models of goal-directed motion planning, and rotation-based quantization of large language models (e.g., applying orthogonal transformations to eliminate activation outliers for 4-bit inference).
+  This skill covers optimization algorithms that exploit Lie group structure (particularly rotation groups like SO(n)) for tasks including momentum-based gradient descent convergence analysis, neural circuit models of navigation via group operator search, and applying random rotation transformations (e.g., Hadamard-based) to eliminate outliers in LLM weight/activation quantization for efficient 4-bit inference
 ---
 
 # Lie Group Optimization Circuit Algorithms
 
-This skill covers optimization algorithms that exploit Lie group structure (particularly rotation groups) for tasks including momentum-based gradient descent convergence analysis, neural circuit models of goal-directed motion planning, and rotation-based quantization of large language models (e.g., applying orthogonal transformations to eliminate activation outliers for 4-bit inference).
+This skill covers optimization algorithms that exploit Lie group structure (particularly rotation groups like SO(n)) for tasks including momentum-based gradient descent convergence analysis, neural circuit models of navigation via group operator search, and applying random rotation transformations (e.g., Hadamard-based) to eliminate outliers in LLM weight/activation quantization for efficient 4-bit inference
 
 ## Entry Index
 

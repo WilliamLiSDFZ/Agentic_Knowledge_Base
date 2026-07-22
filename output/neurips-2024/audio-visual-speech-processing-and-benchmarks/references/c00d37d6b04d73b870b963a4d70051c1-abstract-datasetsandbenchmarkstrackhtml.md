@@ -1,6 +1,7 @@
 ---
 title: "Vocal Call Locator Benchmark (VCL) for localizing rodent vocalizations from multi-channel audio"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/c00d37d6b04d73b870b963a4d70051c1-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/c00d37d6b04d73b870b963a4d70051c1-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['audio-visual-speech-processing-and-benchmarks', 'wearable-biosignal-gesture-activity-benchmarks']
 tags: ['rodent-vocalization', 'multi-channel-audio', 'sound-localization']
 venue: "NeurIPS 2024"

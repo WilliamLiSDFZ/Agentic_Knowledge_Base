@@ -1,6 +1,7 @@
 ---
 title: "Scalable Bayesian Optimization via Focalized Sparse Gaussian Processes"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/da30215ee52c1daaaaddada8137cfd0b-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/da30215ee52c1daaaaddada8137cfd0b-Paper-Conference.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'stochastic-optimization-convergence-and-variance-reduction']
 tags: ['bayesian-optimization', 'sparse-gaussian-processes', 'scalability']
 venue: "NeurIPS 2024"

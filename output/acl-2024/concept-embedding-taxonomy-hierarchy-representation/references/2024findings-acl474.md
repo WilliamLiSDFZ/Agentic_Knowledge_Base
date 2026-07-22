@@ -1,6 +1,7 @@
 ---
 title: "Ranking Entities along Conceptual Space Dimensions with LLMs: An Analysis of Fine-Tuning Strategies"
 source: "https://aclanthology.org/2024.findings-acl.474/"
+pdf_url: ""
 categories: ['concept-embedding-taxonomy-hierarchy-representation', 'language-model-representations-and-embedding-spaces']
 tags: ['conceptual-spaces', 'LLM', 'fine-tuning', 'entity-ranking', 'semantic-features']
 venue: "ACL 2024"

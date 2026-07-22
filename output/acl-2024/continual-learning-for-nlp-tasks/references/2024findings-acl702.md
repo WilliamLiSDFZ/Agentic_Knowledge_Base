@@ -1,6 +1,7 @@
 ---
 title: "Continual Few-shot Relation Extraction via Adaptive Gradient Correction and Knowledge Decomposition"
 source: "https://aclanthology.org/2024.findings-acl.702/"
+pdf_url: ""
 categories: ['continual-learning-for-nlp-tasks', 'natural-language-processing-information-extraction']
 tags: ['continual-learning', 'few-shot', 'relation-extraction', 'catastrophic-forgetting', 'knowledge-decomposition']
 venue: "ACL 2024"

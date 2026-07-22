@@ -1,6 +1,7 @@
 ---
 title: "SPIQA: A Dataset for Multimodal Question Answering on Scientific Papers"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d74033a247989e8f6f3bf9e0c9629fb5-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d74033a247989e8f6f3bf9e0c9629fb5-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['scientific-document-retrieval-and-citation']
 tags: ['multimodal-qa', 'scientific-papers', 'benchmark']
 venue: "NeurIPS 2024"

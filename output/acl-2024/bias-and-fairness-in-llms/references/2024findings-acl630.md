@@ -1,6 +1,7 @@
 ---
 title: "Beyond One-Preference-Fits-All Alignment: Multi-Objective Direct Preference Optimization"
 source: "https://aclanthology.org/2024.findings-acl.630/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'bias-and-fairness-in-llms']
 tags: ['multi-objective-alignment', 'direct-preference-optimization', 'rlhf']
 venue: "ACL 2024"

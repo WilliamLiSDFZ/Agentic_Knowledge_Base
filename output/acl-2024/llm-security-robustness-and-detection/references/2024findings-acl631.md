@@ -1,6 +1,7 @@
 ---
 title: "DORY: Deliberative Prompt Recovery for LLM"
 source: "https://aclanthology.org/2024.findings-acl.631/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'privacy-risks-in-language-model-embeddings']
 tags: ['prompt-recovery', 'llm-privacy', 'deliberative-inference']
 venue: "ACL 2024"

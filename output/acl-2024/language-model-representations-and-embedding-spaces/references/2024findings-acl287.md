@@ -1,6 +1,7 @@
 ---
 title: "Locating and Extracting Relational Concepts in Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.287/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces', 'natural-language-processing-information-extraction']
 tags: ['relational-concepts', 'knowledge-extraction', 'language-models']
 venue: "ACL 2024"

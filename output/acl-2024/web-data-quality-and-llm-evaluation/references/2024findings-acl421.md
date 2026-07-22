@@ -1,6 +1,7 @@
 ---
 title: "Cocktail: A Comprehensive Information Retrieval Benchmark with LLM-Generated Documents Integration"
 source: "https://aclanthology.org/2024.findings-acl.421/"
+pdf_url: ""
 categories: ['web-data-quality-and-llm-evaluation', 'llm-security-robustness-and-detection']
 tags: ['information-retrieval', 'llm-generated-content', 'benchmark']
 venue: "ACL 2024"

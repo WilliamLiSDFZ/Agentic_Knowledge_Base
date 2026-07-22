@@ -1,6 +1,7 @@
 ---
 title: "MELOV: Multimodal Entity Linking with Optimized Visual Features in Latent Space"
 source: "https://aclanthology.org/2024.findings-acl.46/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'natural-language-processing-information-extraction']
 tags: ['multimodal-entity-linking', 'visual-features', 'latent-space']
 venue: "ACL 2024"

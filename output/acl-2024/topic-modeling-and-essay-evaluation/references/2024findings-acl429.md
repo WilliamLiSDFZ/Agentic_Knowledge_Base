@@ -1,6 +1,7 @@
 ---
 title: "Personalized Topic Selection Model for Topic-Grounded Dialogue"
 source: "https://aclanthology.org/2024.findings-acl.429/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems', 'topic-modeling-and-essay-evaluation']
 tags: ['topic-grounded-dialogue', 'personalization', 'topic-selection']
 venue: "ACL 2024"

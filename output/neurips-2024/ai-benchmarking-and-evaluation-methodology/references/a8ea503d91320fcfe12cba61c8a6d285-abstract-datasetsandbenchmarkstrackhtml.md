@@ -1,6 +1,7 @@
 ---
 title: "BEACON: Benchmark for Comprehensive RNA Tasks and Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a8ea503d91320fcfe12cba61c8a6d285-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a8ea503d91320fcfe12cba61c8a6d285-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['machine-learning-for-molecular-biology', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['RNA-language-models', 'benchmarking', 'biological-sequences', 'deep-learning', 'genomics']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "SolarCube: An Integrative Benchmark Dataset Harnessing Satellite and In-situ Observations for Large-scale Solar Energy Forecasting"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/06477eb61ea6b85c6608d42a222462df-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/06477eb61ea6b85c6608d42a222462df-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['time-series-forecasting-and-analysis', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['solar-energy-forecasting', 'benchmark-dataset', 'satellite-observations']
 venue: "NeurIPS 2024"

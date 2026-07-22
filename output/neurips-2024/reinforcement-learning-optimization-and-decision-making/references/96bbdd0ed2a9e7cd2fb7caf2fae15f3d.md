@@ -1,6 +1,7 @@
 ---
 title: "RL in Latent MDPs is Tractable: Online Guarantees via Off-Policy Evaluation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/96bbdd0ed2a9e7cd2fb7caf2fae15f3d-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/96bbdd0ed2a9e7cd2fb7caf2fae15f3d-Paper-Conference.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'online-learning-augmented-algorithms-and-optimization']
 tags: ['latent-MDPs', 'reinforcement-learning', 'off-policy-evaluation', 'online-learning', 'partial-observability']
 venue: "NeurIPS 2024"

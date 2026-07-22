@@ -1,6 +1,7 @@
 ---
 title: "AudioMarkBench: Benchmarking Robustness of Audio Watermarking"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/5d9b7775296a641a1913ab6b4425d5e8-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/5d9b7775296a641a1913ab6b4425d5e8-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['audio-visual-speech-processing-and-benchmarks', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['audio-watermarking', 'benchmarking', 'robustness', 'synthetic-speech', 'text-to-speech']
 venue: "NeurIPS 2024"

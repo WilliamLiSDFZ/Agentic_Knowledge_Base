@@ -1,12 +1,12 @@
 ---
 name: learned-compression-entropy-coding-methods
 description: >-
-  This skill covers learned entropy coding and compression methods, spanning both lossy and lossless paradigms, with techniques including context models, bits-back coding, relative entropy coding, vector quantization, and lattice quantizers applied to images, video, 3D Gaussian representations, and neural network weights. Key focuses include designing efficient entropy models (autoregressive, hierarchical, multi-
+  This skill covers entropy coding and probabilistic modeling methods for learned compression systems, spanning image, video, and 3D scene (Gaussian splatting) codecs. It encompasses context models, entropy bottlenecks, bits-back coding, relative entropy coding, vector quantization, and lossless compression techniques applied to neural network weights, latent representations, and cluster assignments.
 ---
 
 # Learned Compression Entropy Coding Methods
 
-This skill covers learned entropy coding and compression methods, spanning both lossy and lossless paradigms, with techniques including context models, bits-back coding, relative entropy coding, vector quantization, and lattice quantizers applied to images, video, 3D Gaussian representations, and neural network weights. Key focuses include designing efficient entropy models (autoregressive, hierarchical, multi-
+This skill covers entropy coding and probabilistic modeling methods for learned compression systems, spanning image, video, and 3D scene (Gaussian splatting) codecs. It encompasses context models, entropy bottlenecks, bits-back coding, relative entropy coding, vector quantization, and lossless compression techniques applied to neural network weights, latent representations, and cluster assignments.
 
 ## Entry Index
 

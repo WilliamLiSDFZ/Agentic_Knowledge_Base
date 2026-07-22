@@ -1,6 +1,7 @@
 ---
 title: "The iNaturalist Sounds Dataset"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ef3713b8d72266e803f9346088fed92d-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ef3713b8d72266e803f9346088fed92d-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['audio-visual-speech-processing-and-benchmarks']
 tags: ['biodiversity-audio', 'species-sound-dataset', 'bioacoustics']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Don’t Augment, Rewrite? Assessing Abusive Language Detection with Synthetic Data"
 source: "https://aclanthology.org/2024.findings-acl.669/"
+pdf_url: ""
 categories: ['hate-speech-and-toxic-content-detection']
 tags: ['abusive-language-detection', 'synthetic-data', 'data-augmentation']
 venue: "ACL 2024"

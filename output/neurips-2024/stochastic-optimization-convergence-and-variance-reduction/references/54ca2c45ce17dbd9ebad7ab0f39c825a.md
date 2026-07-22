@@ -1,6 +1,7 @@
 ---
 title: "Remove that Square Root: A New Efficient Scale-Invariant Version of AdaGrad"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/54ca2c45ce17dbd9ebad7ab0f39c825a-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/54ca2c45ce17dbd9ebad7ab0f39c825a-Paper-Conference.pdf"
 categories: ['stochastic-optimization-convergence-and-variance-reduction']
 tags: ['AdaGrad', 'scale-invariant', 'adaptive-optimization']
 venue: "NeurIPS 2024"

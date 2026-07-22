@@ -1,6 +1,7 @@
 ---
 title: "Leveraging Codebook Knowledge with NLI and ChatGPT for Zero-Shot Political Relation Classification"
 source: "https://aclanthology.org/2024.acl-long.35/"
+pdf_url: ""
 categories: ['computational-misinformation-narrative-framing-detection', 'natural-language-processing-information-extraction']
 tags: ['zero-shot-learning', 'political-relations', 'NLI']
 venue: "ACL 2024"

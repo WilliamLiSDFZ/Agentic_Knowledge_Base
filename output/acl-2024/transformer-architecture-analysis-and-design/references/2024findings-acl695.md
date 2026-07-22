@@ -1,6 +1,7 @@
 ---
 title: "BranchNorm: Robustly Scaling Extremely Deep Transformers"
 source: "https://aclanthology.org/2024.findings-acl.695/"
+pdf_url: ""
 categories: ['transformer-architecture-analysis-and-design', 'llm-training-alignment-and-evaluation']
 tags: ['deep-transformers', 'training-stability', 'normalization']
 venue: "ACL 2024"

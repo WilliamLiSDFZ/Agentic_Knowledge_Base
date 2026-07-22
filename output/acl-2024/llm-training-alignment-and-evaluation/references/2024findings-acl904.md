@@ -1,6 +1,7 @@
 ---
 title: "Faithful Persona-based Conversational Dataset Generation with Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.904/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems', 'llm-training-alignment-and-evaluation']
 tags: ['persona-based-dialogue', 'dataset-generation', 'conversational-AI']
 venue: "ACL 2024"

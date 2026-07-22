@@ -1,6 +1,7 @@
 ---
 title: "M-QALM: A Benchmark to Assess Clinical Reading Comprehension and Knowledge Recall in Large Language Models via Question Answering"
 source: "https://aclanthology.org/2024.findings-acl.238/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp', 'llm-training-alignment-and-evaluation']
 tags: ['clinical-NLP', 'reading-comprehension', 'medical-QA', 'LLM-evaluation']
 venue: "ACL 2024"

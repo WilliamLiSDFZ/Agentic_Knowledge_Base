@@ -1,6 +1,7 @@
 ---
 title: "Large Language Models Can Learn Representation in Natural Language"
 source: "https://aclanthology.org/2024.findings-acl.542/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces', 'concept-embedding-taxonomy-hierarchy-representation']
 tags: ['natural-language-representations', 'entity-retrieval', 'tool-use']
 venue: "ACL 2024"

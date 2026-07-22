@@ -1,6 +1,7 @@
 ---
 title: "Is Function Similarity Over-Engineered? Building a Benchmark"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/2663c994c84a79b338bca613fe1ae223-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/2663c994c84a79b338bca613fe1ae223-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'machine-learning-theory-and-evaluation-methods']
 tags: ['binary-analysis', 'function-similarity', 'security-benchmarking']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "From One to Many: Expanding the Scope of Toxicity Mitigation in Language Models"
 source: "https://aclanthology.org/2024.findings-acl.893/"
+pdf_url: ""
 categories: ['hate-speech-and-toxic-content-detection', 'multilingual-text-classification-and-sentiment-analysis']
 tags: ['toxicity-mitigation', 'multilingual', 'language-models']
 venue: "ACL 2024"

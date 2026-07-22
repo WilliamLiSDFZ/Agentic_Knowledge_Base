@@ -1,12 +1,12 @@
 ---
 name: self-distillation-knowledge-transfer-gains
 description: >-
-  This research area covers theoretical and empirical analysis of iterative self-distillation mechanisms—where a model is trained on its own predictions across multiple rounds—to understand how repeated knowledge transfer improves generalization, representation quality, and compression, alongside related self-supervised and parameter-efficient adaptation methods. Key methods include sparse autoencoders, contrastive learning, low-rank/sparse
+  This research area covers theoretical and empirical analysis of self-distillation mechanisms—where a model is iteratively trained on its own predictions—and related knowledge transfer techniques that improve model representations, generalization, and compression without requiring external supervision. Methods span sparse autoencoders, contrastive learning, federated self-supervised learning, and parameter-efficient adaptation (LoRA variants,
 ---
 
 # Self Distillation Knowledge Transfer Gains
 
-This research area covers theoretical and empirical analysis of iterative self-distillation mechanisms—where a model is trained on its own predictions across multiple rounds—to understand how repeated knowledge transfer improves generalization, representation quality, and compression, alongside related self-supervised and parameter-efficient adaptation methods. Key methods include sparse autoencoders, contrastive learning, low-rank/sparse
+This research area covers theoretical and empirical analysis of self-distillation mechanisms—where a model is iteratively trained on its own predictions—and related knowledge transfer techniques that improve model representations, generalization, and compression without requiring external supervision. Methods span sparse autoencoders, contrastive learning, federated self-supervised learning, and parameter-efficient adaptation (LoRA variants,
 
 ## Entry Index
 

@@ -1,6 +1,7 @@
 ---
 title: "EgoSim: An Egocentric Multi-view Simulator and Real Dataset for Body-worn Cameras during Motion and Activity"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/c1017d0a006d31dfbfd4cf1e9189d747-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/c1017d0a006d31dfbfd4cf1e9189d747-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['wearable-biosignal-gesture-activity-benchmarks', 'audio-visual-speech-processing-and-benchmarks']
 tags: ['egocentric-vision', 'body-worn-cameras', 'multi-view', 'activity-recognition', 'dataset']
 venue: "NeurIPS 2024"

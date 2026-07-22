@@ -1,6 +1,7 @@
 ---
 title: "A Unified Generative Framework for Bilingual Euphemism Detection and Identification"
 source: "https://aclanthology.org/2024.findings-acl.403/"
+pdf_url: ""
 categories: ['moral-figurative-language-nlp-analysis', 'multilingual-text-classification-and-sentiment-analysis']
 tags: ['euphemism', 'bilingual', 'generative-framework']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "LLM can Achieve Self-Regulation via Hyperparameter Aware Generation"
 source: "https://aclanthology.org/2024.findings-acl.396/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['decoding-strategies', 'hyperparameter-awareness', 'self-regulation']
 venue: "ACL 2024"

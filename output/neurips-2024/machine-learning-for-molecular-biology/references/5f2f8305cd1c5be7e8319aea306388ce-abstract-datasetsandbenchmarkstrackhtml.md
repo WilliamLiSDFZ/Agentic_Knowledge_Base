@@ -1,6 +1,7 @@
 ---
 title: "WelQrate: Defining the Gold Standard in Small Molecule Drug Discovery Benchmarking"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/5f2f8305cd1c5be7e8319aea306388ce-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/5f2f8305cd1c5be7e8319aea306388ce-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['machine-learning-for-molecular-biology', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['drug-discovery', 'benchmarking', 'small-molecule']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Exploring Ordinality in Text Classification: A Comparative Study of Explicit and Implicit Techniques"
 source: "https://aclanthology.org/2024.findings-acl.320/"
+pdf_url: ""
 categories: ['nlp-text-classification-applied-tasks']
 tags: ['ordinal-classification', 'sentiment-analysis', 'text-classification', 'rating-prediction']
 venue: "ACL 2024"

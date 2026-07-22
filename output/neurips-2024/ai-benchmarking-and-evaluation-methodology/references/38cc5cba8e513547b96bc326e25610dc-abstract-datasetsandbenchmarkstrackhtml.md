@@ -1,6 +1,7 @@
 ---
 title: "Large Language Models' Expert-level Global History Knowledge Benchmark (HiST-LLM)"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/38cc5cba8e513547b96bc326e25610dc-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/38cc5cba8e513547b96bc326e25610dc-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-benchmarks-for-clinical-healthcare']
 tags: ['llm-benchmark', 'history-knowledge', 'humanities']
 venue: "NeurIPS 2024"

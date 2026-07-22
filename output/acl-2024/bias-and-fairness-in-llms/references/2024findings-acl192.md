@@ -1,6 +1,7 @@
 ---
 title: "Pro-Woman, Anti-Man? Identifying Gender Bias in Stance Detection"
 source: "https://aclanthology.org/2024.findings-acl.192/"
+pdf_url: ""
 categories: ['bias-and-fairness-in-llms', 'multilingual-text-classification-and-sentiment-analysis']
 tags: ['gender-bias', 'stance-detection', 'dataset-construction']
 venue: "ACL 2024"

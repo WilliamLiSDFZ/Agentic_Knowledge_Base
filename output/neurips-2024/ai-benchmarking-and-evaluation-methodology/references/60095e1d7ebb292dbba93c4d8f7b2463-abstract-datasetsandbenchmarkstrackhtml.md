@@ -1,6 +1,7 @@
 ---
 title: "AllClear: A Comprehensive Dataset and Benchmark for Cloud Removal in Satellite Imagery"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/60095e1d7ebb292dbba93c4d8f7b2463-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/60095e1d7ebb292dbba93c4d8f7b2463-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'visual-language-multimodal-generation-reasoning']
 tags: ['cloud-removal', 'satellite-imagery', 'benchmark-dataset']
 venue: "NeurIPS 2024"

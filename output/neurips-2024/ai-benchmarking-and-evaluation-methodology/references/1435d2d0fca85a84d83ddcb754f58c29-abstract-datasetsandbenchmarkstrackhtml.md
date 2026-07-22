@@ -1,6 +1,7 @@
 ---
 title: "CRAG - Comprehensive RAG Benchmark"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1435d2d0fca85a84d83ddcb754f58c29-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1435d2d0fca85a84d83ddcb754f58c29-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['rag-evaluation-and-diagnosis-framework', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['retrieval-augmented-generation', 'benchmark', 'question-answering']
 venue: "NeurIPS 2024"

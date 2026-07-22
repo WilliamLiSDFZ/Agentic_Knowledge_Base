@@ -1,12 +1,12 @@
 ---
 name: channel-simulation-via-error-correcting-codes
 description: >-
-  This skill covers algorithms for efficient channel simulation and relative entropy coding—the task of sampling from a target distribution using a shared random seed while minimizing communication cost (measured in bits near the KL divergence). Methods include error-correcting codes, space partitioning schemes, and universal coding approaches to reduce computational complexity from exponential to tractable, with applications in neural compression, differentially private
+  This skill covers the use of error-correcting codes and structured space partitioning methods to efficiently simulate communication channels and compress data according to target distributions, with the goal of minimizing computational complexity and codelength in relative entropy coding tasks. Key techniques include leveraging linear codes, lattice/space partitioning structures, and universal coding schemes to achieve near-optimal rates (bounded by relative
 ---
 
 # Channel Simulation Via Error Correcting Codes
 
-This skill covers algorithms for efficient channel simulation and relative entropy coding—the task of sampling from a target distribution using a shared random seed while minimizing communication cost (measured in bits near the KL divergence). Methods include error-correcting codes, space partitioning schemes, and universal coding approaches to reduce computational complexity from exponential to tractable, with applications in neural compression, differentially private
+This skill covers the use of error-correcting codes and structured space partitioning methods to efficiently simulate communication channels and compress data according to target distributions, with the goal of minimizing computational complexity and codelength in relative entropy coding tasks. Key techniques include leveraging linear codes, lattice/space partitioning structures, and universal coding schemes to achieve near-optimal rates (bounded by relative
 
 ## Entry Index
 

@@ -1,6 +1,7 @@
 ---
 title: "UOR: Universal Backdoor Attacks on Pre-trained Language Models"
 source: "https://aclanthology.org/2024.findings-acl.468/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'llm-training-alignment-and-evaluation']
 tags: ['backdoor-attacks', 'pre-trained-models', 'universal-trigger']
 venue: "ACL 2024"

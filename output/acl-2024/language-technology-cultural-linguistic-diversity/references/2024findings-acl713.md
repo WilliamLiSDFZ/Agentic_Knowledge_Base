@@ -1,6 +1,7 @@
 ---
 title: "AustroTox: A Dataset for Target-Based Austrian German Offensive Language Detection"
 source: "https://aclanthology.org/2024.findings-acl.713/"
+pdf_url: ""
 categories: ['hate-speech-and-toxic-content-detection', 'language-technology-cultural-linguistic-diversity']
 tags: ['offensive-language', 'austrian-german', 'token-level-annotation']
 venue: "ACL 2024"

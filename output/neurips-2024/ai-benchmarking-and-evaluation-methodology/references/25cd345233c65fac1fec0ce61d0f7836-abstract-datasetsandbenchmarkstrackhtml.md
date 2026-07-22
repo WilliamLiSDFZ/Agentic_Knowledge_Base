@@ -1,6 +1,7 @@
 ---
 title: "RelBench: A Benchmark for Deep Learning on Relational Databases"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/25cd345233c65fac1fec0ce61d0f7836-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/25cd345233c65fac1fec0ce61d0f7836-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'graph-neural-networks-and-representation-learning']
 tags: ['relational-databases', 'benchmark', 'graph-neural-networks']
 venue: "NeurIPS 2024"

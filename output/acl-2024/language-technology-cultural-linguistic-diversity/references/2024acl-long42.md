@@ -1,6 +1,7 @@
 ---
 title: "Analysis of Multi-Source Language Training in Cross-Lingual Transfer"
 source: "https://aclanthology.org/2024.acl-long.42/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'multilingual-text-classification-and-sentiment-analysis']
 tags: ['cross-lingual-transfer', 'multilingual', 'low-resource', 'language-models', 'multi-source-training']
 venue: "ACL 2024"

@@ -1,12 +1,12 @@
 ---
 name: rag-evaluation-and-diagnosis-framework
 description: >-
-  This skill covers the systematic evaluation, diagnosis, and optimization of Retrieval-Augmented Generation (RAG) systems across diverse tasks and modalities, including conversational QA, document analysis, table understanding, and vision-language settings. It encompasses benchmarking retrieval quality and generation faithfulness (RAGChecker, CRAG, UDA), handling knowledge conflicts between internal
+  This skill covers the systematic evaluation, benchmarking, and diagnosis of Retrieval-Augmented Generation (RAG) systems across diverse tasks including conversational QA, document analysis, table understanding, and graph learning. It addresses methods for measuring retrieval quality, context utilization, knowledge conflict resolution, attribution, and context compression, with applications spanning web search augmentation, ad auctions
 ---
 
 # Rag Evaluation And Diagnosis Framework
 
-This skill covers the systematic evaluation, diagnosis, and optimization of Retrieval-Augmented Generation (RAG) systems across diverse tasks and modalities, including conversational QA, document analysis, table understanding, and vision-language settings. It encompasses benchmarking retrieval quality and generation faithfulness (RAGChecker, CRAG, UDA), handling knowledge conflicts between internal
+This skill covers the systematic evaluation, benchmarking, and diagnosis of Retrieval-Augmented Generation (RAG) systems across diverse tasks including conversational QA, document analysis, table understanding, and graph learning. It addresses methods for measuring retrieval quality, context utilization, knowledge conflict resolution, attribution, and context compression, with applications spanning web search augmentation, ad auctions
 
 ## Entry Index
 

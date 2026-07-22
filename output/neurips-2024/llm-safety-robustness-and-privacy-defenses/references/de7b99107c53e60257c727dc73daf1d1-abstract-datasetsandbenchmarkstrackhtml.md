@@ -1,6 +1,7 @@
 ---
 title: "SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/de7b99107c53e60257c727dc73daf1d1-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/de7b99107c53e60257c727dc73daf1d1-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-safety-robustness-and-privacy-defenses']
 tags: ['llm-safety', 'benchmark', 'prompt-robustness']
 venue: "NeurIPS 2024"

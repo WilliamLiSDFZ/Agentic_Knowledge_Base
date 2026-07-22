@@ -1,6 +1,7 @@
 ---
 title: "Feriji: A French-Zarma Parallel Corpus, Glossary & Translator"
 source: "https://aclanthology.org/2024.acl-srw.1/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'nlp-for-asian-languages']
 tags: ['machine-translation', 'low-resource', 'African-languages', 'Zarma', 'French']
 venue: "ACL 2024"

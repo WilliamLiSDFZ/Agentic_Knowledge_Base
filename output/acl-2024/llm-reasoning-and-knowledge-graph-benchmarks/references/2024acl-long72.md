@@ -1,6 +1,7 @@
 ---
 title: "Advancing Abductive Reasoning in Knowledge Graphs through Complex Logical Hypothesis Generation"
 source: "https://aclanthology.org/2024.acl-long.72/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['abductive-reasoning', 'knowledge-graphs', 'logical-hypothesis-generation']
 venue: "ACL 2024"

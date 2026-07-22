@@ -1,6 +1,7 @@
 ---
 title: "Two-stage Generative Question Answering on Temporal Knowledge Graph Using Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.401/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-agents-reasoning-and-planning']
 tags: ['temporal-knowledge-graph', 'question-answering', 'two-stage-generation']
 venue: "ACL 2024"

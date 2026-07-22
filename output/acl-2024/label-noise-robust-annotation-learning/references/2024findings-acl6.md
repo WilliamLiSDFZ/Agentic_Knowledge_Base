@@ -1,6 +1,7 @@
 ---
 title: "Unveiling Imitation Learning: Exploring the impact of Data Falsity to Large Language Model"
 source: "https://aclanthology.org/2024.findings-acl.6/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'label-noise-robust-annotation-learning']
 tags: ['imitation-learning', 'noisy-data', 'synthetic-instructions']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Resisting the Lure of the Skyline: Grounding Practices in Active Learning for Morphological Inflection"
 source: "https://aclanthology.org/2024.acl-short.4/"
+pdf_url: ""
 categories: ['nlp-research-culture-and-practices']
 tags: ['active-learning', 'morphological-inflection', 'experimental-design', 'language-documentation']
 venue: "ACL 2024"

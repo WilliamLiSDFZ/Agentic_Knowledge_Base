@@ -1,6 +1,7 @@
 ---
 title: "Striking Gold in Advertising: Standardization and Exploration of Ad Text Generation"
 source: "https://aclanthology.org/2024.acl-long.54/"
+pdf_url: ""
 categories: ['nlp-text-classification-applied-tasks', 'natural-language-processing-information-extraction']
 tags: ['ad-text-generation', 'benchmark', 'NLP']
 venue: "ACL 2024"

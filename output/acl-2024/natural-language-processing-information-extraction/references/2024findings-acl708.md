@@ -1,6 +1,7 @@
 ---
 title: "Analyze, Generate and Refine: Query Expansion with LLMs for Zero-Shot Open-Domain QA"
 source: "https://aclanthology.org/2024.findings-acl.708/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'llm-agents-reasoning-and-planning']
 tags: ['query-expansion', 'open-domain-qa', 'zero-shot-retrieval']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Tox-BART: Leveraging Toxicity Attributes for Explanation Generation of Implicit Hate Speech"
 source: "https://aclanthology.org/2024.findings-acl.831/"
+pdf_url: ""
 categories: ['hate-speech-and-toxic-content-detection', 'moral-figurative-language-nlp-analysis']
 tags: ['implicit-hate-speech', 'explanation-generation', 'knowledge-graph']
 venue: "ACL 2024"

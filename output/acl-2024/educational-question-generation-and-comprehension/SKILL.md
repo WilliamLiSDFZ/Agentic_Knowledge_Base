@@ -1,12 +1,12 @@
 ---
 name: educational-question-generation-and-comprehension
 description: >-
-  This skill covers the automated generation and evaluation of educational content — including questions, feedback, distractors, and explanatory text — using LLMs, retrieval augmentation, and knowledge graphs, applied to tasks such as reading comprehension assessment, mathematical reasoning, peer counseling training, and L2 language learning. Methods span in-context learning with pedagogically-informed example selection, synthetic
+  This skill covers the automated generation and assessment of educational content — including questions, feedback, distractors, and example sentences — using methods such as large language models, retrieval-augmented generation, knowledge graphs, and in-context learning. Applications span reading comprehension, mathematical reasoning, peer counseling training, L2 language learning, and scientific writing assistance, targeting tasks like multiple-choice
 ---
 
 # Educational Question Generation And Comprehension
 
-This skill covers the automated generation and evaluation of educational content — including questions, feedback, distractors, and explanatory text — using LLMs, retrieval augmentation, and knowledge graphs, applied to tasks such as reading comprehension assessment, mathematical reasoning, peer counseling training, and L2 language learning. Methods span in-context learning with pedagogically-informed example selection, synthetic
+This skill covers the automated generation and assessment of educational content — including questions, feedback, distractors, and example sentences — using methods such as large language models, retrieval-augmented generation, knowledge graphs, and in-context learning. Applications span reading comprehension, mathematical reasoning, peer counseling training, L2 language learning, and scientific writing assistance, targeting tasks like multiple-choice
 
 ## Entry Index
 

@@ -1,6 +1,7 @@
 ---
 title: "Measuring and Addressing Indexical Bias in Information Retrieval"
 source: "https://aclanthology.org/2024.findings-acl.763/"
+pdf_url: ""
 categories: ['bias-and-fairness-in-llms', 'llm-based-ranking-and-recommendation']
 tags: ['information-retrieval', 'bias', 'fairness', 'ranking', 'indexical-bias']
 venue: "ACL 2024"

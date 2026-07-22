@@ -1,6 +1,7 @@
 ---
 title: "A Grounded Preference Model for LLM Alignment"
 source: "https://aclanthology.org/2024.findings-acl.10/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['alignment', 'hallucination', 'retrieval-augmented', 'preference-model']
 venue: "ACL 2024"

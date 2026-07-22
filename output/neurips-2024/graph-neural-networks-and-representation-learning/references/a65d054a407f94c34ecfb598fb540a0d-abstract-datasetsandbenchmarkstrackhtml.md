@@ -1,6 +1,7 @@
 ---
 title: "DTGB: A Comprehensive Benchmark for Dynamic Text-Attributed Graphs"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a65d054a407f94c34ecfb598fb540a0d-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a65d054a407f94c34ecfb598fb540a0d-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['graph-neural-networks-and-representation-learning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['dynamic-graphs', 'text-attributed-graphs', 'benchmark']
 venue: "NeurIPS 2024"

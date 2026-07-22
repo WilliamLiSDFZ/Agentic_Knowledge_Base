@@ -1,6 +1,7 @@
 ---
 title: "Diving Deep into the Motion Representation of Video-Text Models"
 source: "https://aclanthology.org/2024.findings-acl.747/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'speech-and-language-multimodal-generation-systems']
 tags: ['video-text-models', 'motion-representation', 'GPT-4', 'fine-grained-descriptions', 'dynamic-activities']
 venue: "ACL 2024"

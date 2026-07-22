@@ -1,6 +1,7 @@
 ---
 title: "FOOGD: Federated Collaboration for Both Out-of-distribution Generalization and Detection"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/efd1e27afcb94addd03b9e14c8d9f78f-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/efd1e27afcb94addd03b9e14c8d9f78f-Paper-Conference.pdf"
 categories: ['privacy-preserving-federated-distributed-learning']
 tags: ['federated-learning', 'out-of-distribution-detection', 'distribution-shift']
 venue: "NeurIPS 2024"

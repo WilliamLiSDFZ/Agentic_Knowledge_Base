@@ -1,6 +1,7 @@
 ---
 title: "A Systematic Review of NeurIPS Dataset Management Practices"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/398d2261db1a72f5d4dd03673d9a7c94-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/398d2261db1a72f5d4dd03673d9a7c94-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'machine-learning-theory-and-evaluation-methods']
 tags: ['dataset-management', 'neurips', 'ethics-review']
 venue: "NeurIPS 2024"

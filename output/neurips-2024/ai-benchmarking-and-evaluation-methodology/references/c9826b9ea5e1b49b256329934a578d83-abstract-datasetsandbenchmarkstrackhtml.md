@@ -1,6 +1,7 @@
 ---
 title: "FairMedFM: Fairness Benchmarking for Medical Imaging Foundation Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/c9826b9ea5e1b49b256329934a578d83-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/c9826b9ea5e1b49b256329934a578d83-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['fairness-aware-machine-learning-methods', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['fairness-benchmarking', 'medical-imaging', 'foundation-models', 'bias', 'healthcare']
 venue: "NeurIPS 2024"

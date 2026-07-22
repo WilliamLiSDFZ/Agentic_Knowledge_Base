@@ -1,6 +1,7 @@
 ---
 title: "Benchmarking PtO and PnO Methods in the Predictive Combinatorial Optimization Regime"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/796076672b00f54fb01d05a2e5fde363-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/796076672b00f54fb01d05a2e5fde363-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['neural-combinatorial-optimization-and-learning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['predict-then-optimize', 'combinatorial-optimization', 'benchmarking', 'decision-making', 'regret']
 venue: "NeurIPS 2024"

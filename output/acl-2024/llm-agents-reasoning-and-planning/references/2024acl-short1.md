@@ -1,6 +1,7 @@
 ---
 title: "Can Language Models Serve as Text-Based World Simulators?"
 source: "https://aclanthology.org/2024.acl-short.1/"
+pdf_url: ""
 categories: ['language-models-physical-grounding-limitations', 'llm-agents-reasoning-and-planning']
 tags: ['world-simulation', 'planning', 'action-prediction']
 venue: "ACL 2024"

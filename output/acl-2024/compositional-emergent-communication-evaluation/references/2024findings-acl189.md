@@ -1,6 +1,7 @@
 ---
 title: "Concept-Best-Matching: Evaluating Compositionality In Emergent Communication"
 source: "https://aclanthology.org/2024.findings-acl.189/"
+pdf_url: ""
 categories: ['compositional-emergent-communication-evaluation']
 tags: ['compositionality', 'emergent-communication', 'evaluation-metric']
 venue: "ACL 2024"

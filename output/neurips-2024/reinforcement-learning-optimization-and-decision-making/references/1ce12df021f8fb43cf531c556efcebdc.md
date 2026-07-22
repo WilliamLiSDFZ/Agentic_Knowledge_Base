@@ -1,6 +1,7 @@
 ---
 title: "Embedding-Aligned Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1ce12df021f8fb43cf531c556efcebdc-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1ce12df021f8fb43cf531c556efcebdc-Paper-Conference.pdf"
 categories: ['llm-training-and-optimization-techniques', 'reinforcement-learning-optimization-and-decision-making']
 tags: ['reinforcement-learning', 'embedding-alignment', 'language-model-training']
 venue: "NeurIPS 2024"

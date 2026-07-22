@@ -1,6 +1,7 @@
 ---
 title: "Lean Workbook: A large-scale Lean problem set formalized from natural language math problems"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/bf236666a2cc5f3ae05d2e08485efc4c-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/bf236666a2cc5f3ae05d2e08485efc4c-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['neural-networks-for-formal-reasoning-and-verification', 'llm-training-and-optimization-techniques']
 tags: ['lean', 'formal-theorem-proving', 'math-problem-formalization']
 venue: "NeurIPS 2024"

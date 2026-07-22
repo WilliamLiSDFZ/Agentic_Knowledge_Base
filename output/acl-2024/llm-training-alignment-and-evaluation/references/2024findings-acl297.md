@@ -1,6 +1,7 @@
 ---
 title: "Disentangling Length from Quality in Direct Preference Optimization"
 source: "https://aclanthology.org/2024.findings-acl.297/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'bias-and-fairness-in-llms']
 tags: ['RLHF', 'DPO', 'verbosity-bias', 'length-bias', 'preference-optimization']
 venue: "ACL 2024"

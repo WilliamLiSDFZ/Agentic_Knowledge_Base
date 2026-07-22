@@ -1,6 +1,7 @@
 ---
 title: "Better Late Than Never: Model-Agnostic Hallucination Post-Processing Framework Towards Clinical Text Summarization"
 source: "https://aclanthology.org/2024.findings-acl.59/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'llms-for-biomedical-and-clinical-nlp']
 tags: ['hallucination-mitigation', 'clinical-summarization', 'post-processing']
 venue: "ACL 2024"

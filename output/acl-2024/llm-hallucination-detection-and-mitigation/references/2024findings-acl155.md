@@ -1,6 +1,7 @@
 ---
 title: "DELL: Generating Reactions and Explanations for LLM-Based Misinformation Detection"
 source: "https://aclanthology.org/2024.findings-acl.155/"
+pdf_url: ""
 categories: ['computational-misinformation-narrative-framing-detection', 'llm-hallucination-detection-and-mitigation']
 tags: ['misinformation-detection', 'LLM-reasoning', 'explanation-generation']
 venue: "ACL 2024"

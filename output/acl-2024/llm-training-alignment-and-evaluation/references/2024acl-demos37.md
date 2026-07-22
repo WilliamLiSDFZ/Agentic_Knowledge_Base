@@ -1,6 +1,7 @@
 ---
 title: "LLMBox: A Comprehensive Library for Large Language Models"
 source: "https://aclanthology.org/2024.acl-demos.37/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['llm-library', 'evaluation', 'unified-framework']
 venue: "ACL 2024"

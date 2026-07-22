@@ -1,6 +1,7 @@
 ---
 title: "Truth-Aware Context Selection: Mitigating Hallucinations of Large Language Models Being Misled by Untruthful Contexts"
 source: "https://aclanthology.org/2024.findings-acl.645/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'online-discourse-mental-health-language-analysis']
 tags: ['hallucination-mitigation', 'context-selection', 'untruthful-context', 'retrieval-augmentation', 'llm']
 venue: "ACL 2024"

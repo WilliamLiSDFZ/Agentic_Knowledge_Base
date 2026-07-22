@@ -1,6 +1,7 @@
 ---
 title: "Pragmatic inference of scalar implicature by LLMs"
 source: "https://aclanthology.org/2024.acl-srw.2/"
+pdf_url: ""
 categories: ['language-model-human-cognitive-linguistic-alignment', 'efficient-communication-principles-in-language']
 tags: ['scalar-implicature', 'pragmatic-inference', 'BERT', 'GPT-2', 'language-model-cognition']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Instances Need More Care: Rewriting Prompts for Instances with LLMs in the Loop Yields Better Zero-Shot Performance"
 source: "https://aclanthology.org/2024.findings-acl.371/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['prompt-rewriting', 'zero-shot', 'instance-level-prompting']
 venue: "ACL 2024"

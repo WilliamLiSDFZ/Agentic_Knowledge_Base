@@ -1,6 +1,7 @@
 ---
 title: "EpiCare: A Reinforcement Learning Benchmark for Dynamic Treatment Regimes"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/eb86863306d17c58d18315b5261a4520-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/eb86863306d17c58d18315b5261a4520-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making']
 tags: ['healthcare-rl', 'dynamic-treatment-regimes', 'benchmark']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "DUAL-REFLECT: Enhancing Large Language Models for Reflective Translation through Dual Learning Feedback Mechanisms"
 source: "https://aclanthology.org/2024.acl-short.64/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['machine-translation', 'self-reflection', 'dual-learning']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Biasly: An Expert-Annotated Dataset for Subtle Misogyny Detection and Mitigation"
 source: "https://aclanthology.org/2024.findings-acl.24/"
+pdf_url: ""
 categories: ['hate-speech-and-toxic-content-detection']
 tags: ['misogyny-detection', 'subtle-bias', 'expert-annotation']
 venue: "ACL 2024"

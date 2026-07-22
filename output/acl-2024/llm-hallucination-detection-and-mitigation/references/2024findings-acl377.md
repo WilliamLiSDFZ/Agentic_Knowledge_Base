@@ -1,6 +1,7 @@
 ---
 title: "OTTAWA: Optimal TransporT Adaptive Word Aligner for Hallucination and Omission Translation Errors Detection"
 source: "https://aclanthology.org/2024.findings-acl.377/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'string-to-string-alignment-algorithms-library\n\nwait,-let-me-reconsider-for-conciseness-(3-7-words):\n\n`string-similarity-and-alignment-algorithms']
 tags: ['hallucination-detection', 'machine-translation', 'optimal-transport']
 venue: "ACL 2024"

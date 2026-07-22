@@ -1,6 +1,7 @@
 ---
 title: "Debatrix: Multi-dimensional Debate Judge with Iterative Chronological Analysis Based on LLM"
 source: "https://aclanthology.org/2024.findings-acl.868/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'legal-nlp-benchmarks-and-applications']
 tags: ['debate-judging', 'LLM', 'multi-dimensional-evaluation', 'argumentation', 'iterative-analysis']
 venue: "ACL 2024"

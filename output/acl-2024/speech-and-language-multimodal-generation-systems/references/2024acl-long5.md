@@ -1,6 +1,7 @@
 ---
 title: "GenTranslate: Large Language Models are Generative Multilingual Speech and Machine Translators"
 source: "https://aclanthology.org/2024.acl-long.5/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems']
 tags: ['multilingual-speech-translation', 'LLM', 'generative-decoding']
 venue: "ACL 2024"

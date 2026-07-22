@@ -1,6 +1,7 @@
 ---
 title: "Model Editing by Standard Fine-Tuning"
 source: "https://aclanthology.org/2024.findings-acl.352/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['model-editing', 'fine-tuning', 'knowledge-updating']
 venue: "ACL 2024"

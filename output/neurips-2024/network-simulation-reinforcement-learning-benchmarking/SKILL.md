@@ -1,12 +1,12 @@
 ---
 name: network-simulation-reinforcement-learning-benchmarking
 description: >-
-  This skill covers the design and implementation of simulation-based benchmarking environments and platforms for training reinforcement learning (and multi-agent RL) agents on domain-specific control tasks, including network traffic management, wind farm optimization, and aircraft control. It encompasses environment parallelization, reward shaping, state/action space definition, and integration with simulation engines (e.g., Unity,
+  This skill covers the design and evaluation of simulation-based environments and benchmarks for training reinforcement learning (including multi-agent RL) agents on domain-specific control and resource management tasks, including fixed-wing aircraft control, wind farm optimization, and multi-access network traffic management. It emphasizes parallelizable simulation platforms, standardized benchmark APIs, and integration with engines like Unity to acceler
 ---
 
 # Network Simulation Reinforcement Learning Benchmarking
 
-This skill covers the design and implementation of simulation-based benchmarking environments and platforms for training reinforcement learning (and multi-agent RL) agents on domain-specific control tasks, including network traffic management, wind farm optimization, and aircraft control. It encompasses environment parallelization, reward shaping, state/action space definition, and integration with simulation engines (e.g., Unity,
+This skill covers the design and evaluation of simulation-based environments and benchmarks for training reinforcement learning (including multi-agent RL) agents on domain-specific control and resource management tasks, including fixed-wing aircraft control, wind farm optimization, and multi-access network traffic management. It emphasizes parallelizable simulation platforms, standardized benchmark APIs, and integration with engines like Unity to acceler
 
 ## Entry Index
 

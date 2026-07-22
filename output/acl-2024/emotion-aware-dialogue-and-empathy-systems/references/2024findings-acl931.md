@@ -1,6 +1,7 @@
 ---
 title: "emotion2vec: Self-Supervised Pre-Training for Speech Emotion Representation"
 source: "https://aclanthology.org/2024.findings-acl.931/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems', 'emotion-aware-dialogue-and-empathy-systems']
 tags: ['speech-emotion', 'self-supervised', 'pre-training', 'emotion-representation', 'universal-model']
 venue: "ACL 2024"

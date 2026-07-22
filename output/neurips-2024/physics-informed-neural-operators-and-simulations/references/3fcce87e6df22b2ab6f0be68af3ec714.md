@@ -1,6 +1,7 @@
 ---
 title: "Causal discovery with endogenous context variables"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/3fcce87e6df22b2ab6f0be68af3ec714-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/3fcce87e6df22b2ab6f0be68af3ec714-Paper-Conference.pdf"
 categories: ['causal-discovery-and-inference-methods', 'physics-informed-neural-operators-and-simulations']
 tags: ['causal-discovery', 'context-variables', 'endogenous-variables']
 venue: "NeurIPS 2024"

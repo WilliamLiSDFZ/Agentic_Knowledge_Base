@@ -1,6 +1,7 @@
 ---
 title: "$SE(3)$ Equivariant Ray Embeddings for Implicit Multi-View Depth Estimation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/18aee41e1bb41bbb8fee53cfff8138b7-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/18aee41e1bb41bbb8fee53cfff8138b7-Paper-Conference.pdf"
 categories: ['neural-geometric-shape-representation-learning', 'visual-language-multimodal-generation-reasoning']
 tags: ['SE3-equivariance', 'multi-view-depth', 'ray-embeddings']
 venue: "NeurIPS 2024"

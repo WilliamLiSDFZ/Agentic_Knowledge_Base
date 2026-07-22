@@ -1,6 +1,7 @@
 ---
 title: "Practical Bayesian Algorithm Execution via Posterior Sampling"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/f3c8bfcc9c2bc13a0f141cb58afc6e5a-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/f3c8bfcc9c2bc13a0f141cb58afc6e5a-Paper-Conference.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'query-efficient-algorithms-with-imperfect-oracles']
 tags: ['Bayesian-algorithm-execution', 'posterior-sampling', 'active-learning']
 venue: "NeurIPS 2024"

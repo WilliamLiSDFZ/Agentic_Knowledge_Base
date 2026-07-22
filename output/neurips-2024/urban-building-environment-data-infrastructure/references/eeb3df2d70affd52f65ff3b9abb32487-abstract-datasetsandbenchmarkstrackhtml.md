@@ -1,6 +1,7 @@
 ---
 title: "FUSU: A Multi-temporal-source Land Use Change Segmentation Dataset for Fine-grained Urban Semantic Understanding"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/eeb3df2d70affd52f65ff3b9abb32487-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/eeb3df2d70affd52f65ff3b9abb32487-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['urban-building-environment-data-infrastructure']
 tags: ['land-use-change', 'urban-segmentation', 'multi-temporal-remote-sensing']
 venue: "NeurIPS 2024"

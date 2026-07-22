@@ -1,12 +1,12 @@
 ---
 name: neural-language-models-formal-language-theory
 description: >-
-  This research area investigates the computational and linguistic capabilities of neural language models (particularly transformers) through the lens of formal language theory, analyzing what classes of formal languages (e.g., regular, context-free) these models can represent, learn, and generalize over. It combines theoretical frameworks (circuit complexity, MDL, probabilistic automata) with empirical probing to explain phenomena
+  This research area investigates the computational and linguistic capabilities of neural language models (particularly transformers) through the lens of formal language theory, examining what classes of formal languages (e.g., regular, context-free) these models can represent, learn, and generalize. Work spans theoretical analysis of model expressivity and failure modes (e.g., sensitivity, length generalization, chain-of
 ---
 
 # Neural Language Models Formal Language Theory
 
-This research area investigates the computational and linguistic capabilities of neural language models (particularly transformers) through the lens of formal language theory, analyzing what classes of formal languages (e.g., regular, context-free) these models can represent, learn, and generalize over. It combines theoretical frameworks (circuit complexity, MDL, probabilistic automata) with empirical probing to explain phenomena
+This research area investigates the computational and linguistic capabilities of neural language models (particularly transformers) through the lens of formal language theory, examining what classes of formal languages (e.g., regular, context-free) these models can represent, learn, and generalize. Work spans theoretical analysis of model expressivity and failure modes (e.g., sensitivity, length generalization, chain-of
 
 ## Entry Index
 

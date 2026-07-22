@@ -1,6 +1,7 @@
 ---
 title: "Truthfulness of Calibration Measures"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d4cbcae8cfc8aa3ae897a1296e4e0cac-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d4cbcae8cfc8aa3ae897a1296e4e0cac-Paper-Conference.pdf"
 categories: ['machine-learning-theory-and-evaluation-methods', 'statistical-testing-under-distribution-shift']
 tags: ['calibration', 'truthfulness', 'sequential-prediction']
 venue: "NeurIPS 2024"

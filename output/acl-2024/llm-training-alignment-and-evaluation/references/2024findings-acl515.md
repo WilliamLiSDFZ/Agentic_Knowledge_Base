@@ -1,6 +1,7 @@
 ---
 title: "Fact-and-Reflection (FaR) Improves Confidence Calibration of Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.515/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'llm-training-alignment-and-evaluation']
 tags: ['confidence-calibration', 'prompting', 'fact-and-reflection']
 venue: "ACL 2024"

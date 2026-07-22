@@ -1,6 +1,7 @@
 ---
 title: "TempCompass: Do Video LLMs Really Understand Videos?"
 source: "https://aclanthology.org/2024.findings-acl.517/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'social-ai-temporal-dynamics-evaluation']
 tags: ['video-LLMs', 'temporal-perception', 'benchmark']
 venue: "ACL 2024"

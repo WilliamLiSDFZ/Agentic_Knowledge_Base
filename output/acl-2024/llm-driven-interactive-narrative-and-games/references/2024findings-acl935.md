@@ -1,6 +1,7 @@
 ---
 title: "STARLING: Self-supervised Training of Text-based Reinforcement Learning Agent with Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.935/"
+pdf_url: ""
 categories: ['llm-driven-interactive-narrative-and-games', 'llm-agents-reasoning-and-planning']
 tags: ['interactive-fiction', 'reinforcement-learning', 'text-based-games', 'LLM', 'self-supervised']
 venue: "ACL 2024"

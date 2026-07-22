@@ -1,6 +1,7 @@
 ---
 title: "Knowledge-to-SQL: Enhancing SQL Generation with Data Expert LLM"
 source: "https://aclanthology.org/2024.findings-acl.653/"
+pdf_url: ""
 categories: ['text-to-sql-parsing-and-benchmarks']
 tags: ['text-to-SQL', 'knowledge-augmentation', 'database']
 venue: "ACL 2024"

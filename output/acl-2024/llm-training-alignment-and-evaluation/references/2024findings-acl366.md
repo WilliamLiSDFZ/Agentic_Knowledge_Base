@@ -1,6 +1,7 @@
 ---
 title: "Efficient Detection of LLM-generated Texts with a Bayesian Surrogate Model"
 source: "https://aclanthology.org/2024.findings-acl.366/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'llm-training-alignment-and-evaluation']
 tags: ['LLM-text-detection', 'Bayesian-surrogate', 'machine-generated-text']
 venue: "ACL 2024"

@@ -1,12 +1,12 @@
 ---
 name: privacy-policy-annotation-research-methodology
 description: >-
-  This skill covers the automated analysis and annotation of privacy policies and data practices, combining large and small language models to identify, classify, and extract information about how organizations collect, use, and share user data. Methods include corpus-based detection systems, collaborative LLM frameworks, and context-aware instruction following to support compliance analysis and transparency in real-world privacy documents.
+  This skill covers methods for automatically identifying and classifying data collection, sharing, and usage practices in privacy policies and user agreements, using both large and small language models in collaborative or standalone frameworks. Tasks include corpus annotation, instruction-following under privacy constraints, and building classifiers or detection systems that can extract structured information about data practices from real-world policy text.
 ---
 
 # Privacy Policy Annotation Research Methodology
 
-This skill covers the automated analysis and annotation of privacy policies and data practices, combining large and small language models to identify, classify, and extract information about how organizations collect, use, and share user data. Methods include corpus-based detection systems, collaborative LLM frameworks, and context-aware instruction following to support compliance analysis and transparency in real-world privacy documents.
+This skill covers methods for automatically identifying and classifying data collection, sharing, and usage practices in privacy policies and user agreements, using both large and small language models in collaborative or standalone frameworks. Tasks include corpus annotation, instruction-following under privacy constraints, and building classifiers or detection systems that can extract structured information about data practices from real-world policy text.
 
 ## Entry Index
 

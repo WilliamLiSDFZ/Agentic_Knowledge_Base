@@ -1,6 +1,7 @@
 ---
 title: "HyperPrism: An Adaptive Non-linear Aggregation Framework for Distributed Machine Learning over Non-IID Data and Time-varying Communication Links"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/15e5fccdfeb10bb54f8e74944de1c8bf-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/15e5fccdfeb10bb54f8e74944de1c8bf-Paper-Conference.pdf"
 categories: ['privacy-preserving-federated-distributed-learning', 'stochastic-optimization-convergence-and-variance-reduction']
 tags: ['distributed-machine-learning', 'non-IID-data', 'non-linear-aggregation']
 venue: "NeurIPS 2024"

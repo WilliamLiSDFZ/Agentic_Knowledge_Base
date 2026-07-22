@@ -1,6 +1,7 @@
 ---
 title: "MTP: A Dataset for Multi-Modal Turning Points in Casual Conversations"
 source: "https://aclanthology.org/2024.acl-short.30/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems', 'multimodal-language-vision-learning-systems']
 tags: ['turning-points', 'multimodal-conversation', 'emotion-detection']
 venue: "ACL 2024"

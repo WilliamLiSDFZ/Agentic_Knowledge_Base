@@ -1,12 +1,12 @@
 ---
 name: radar-based-scene-understanding-deep-learning
 description: >-
-  This skill covers deep learning methods for interpreting radar sensor data across autonomous driving, indoor localization, and aerial/satellite remote sensing tasks, including semantic segmentation, 3D occupancy prediction, and multi-object detection. Key techniques include transformer architectures, temporal fusion, sparse convolution, multi-view processing, and multimodal sensor fusion (radar-camera-LiDAR
+  This skill covers deep learning methods for interpreting radar sensor data across autonomous driving, indoor perception, and remote sensing applications, including semantic segmentation, 3D object detection, and occupancy prediction. Key techniques include transformer architectures, temporal fusion, sparse convolution, multi-view processing, and multi-modal integration (radar-camera-LiDAR), applied to both automotive radar point
 ---
 
 # Radar Based Scene Understanding Deep Learning
 
-This skill covers deep learning methods for interpreting radar sensor data across autonomous driving, indoor localization, and aerial/satellite remote sensing tasks, including semantic segmentation, 3D occupancy prediction, and multi-object detection. Key techniques include transformer architectures, temporal fusion, sparse convolution, multi-view processing, and multimodal sensor fusion (radar-camera-LiDAR
+This skill covers deep learning methods for interpreting radar sensor data across autonomous driving, indoor perception, and remote sensing applications, including semantic segmentation, 3D object detection, and occupancy prediction. Key techniques include transformer architectures, temporal fusion, sparse convolution, multi-view processing, and multi-modal integration (radar-camera-LiDAR), applied to both automotive radar point
 
 ## Entry Index
 

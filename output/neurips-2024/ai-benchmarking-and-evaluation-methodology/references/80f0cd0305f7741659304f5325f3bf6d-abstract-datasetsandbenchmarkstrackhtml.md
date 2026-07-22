@@ -1,6 +1,7 @@
 ---
 title: "A Large-Scale Human-Centric Benchmark for Referring Expression Comprehension in the LMM Era"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/80f0cd0305f7741659304f5325f3bf6d-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/80f0cd0305f7741659304f5325f3bf6d-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['referring-expression-comprehension', 'human-centric', 'multimodal-benchmark']
 venue: "NeurIPS 2024"

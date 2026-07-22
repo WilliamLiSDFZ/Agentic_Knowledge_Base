@@ -1,6 +1,7 @@
 ---
 title: "AFPQ: Asymmetric Floating Point Quantization for LLMs"
 source: "https://aclanthology.org/2024.findings-acl.3/"
+pdf_url: ""
 categories: ['collaborative-llm-deployment-and-inference-optimization', 'transformer-architecture-analysis-and-design']
 tags: ['quantization', 'floating-point', 'llm-inference']
 venue: "ACL 2024"

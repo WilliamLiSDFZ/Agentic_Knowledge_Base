@@ -1,6 +1,7 @@
 ---
 title: "EmpathicStories++: A Multimodal Dataset for Empathy Towards Personal Experiences"
 source: "https://aclanthology.org/2024.findings-acl.268/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems', 'multimodal-language-vision-learning-systems']
 tags: ['empathy-modeling', 'multimodal-dataset', 'personal-experiences']
 venue: "ACL 2024"

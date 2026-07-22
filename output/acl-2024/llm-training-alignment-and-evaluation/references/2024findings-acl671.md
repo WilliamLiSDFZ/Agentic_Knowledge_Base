@@ -1,6 +1,7 @@
 ---
 title: "CMMLU: Measuring massive multitask language understanding in Chinese"
 source: "https://aclanthology.org/2024.findings-acl.671/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'nlp-for-asian-languages']
 tags: ['chinese-llm-benchmark', 'multitask-evaluation', 'mandarin']
 venue: "ACL 2024"

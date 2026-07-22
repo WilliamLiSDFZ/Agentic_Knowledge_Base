@@ -1,6 +1,7 @@
 ---
 title: "HelloFresh: LLM Evalutions on Streams of Real-World Human Editorial Actions across X Community Notes and Wikipedia edits"
 source: "https://aclanthology.org/2024.findings-acl.754/"
+pdf_url: ""
 categories: ['web-data-quality-and-llm-evaluation', 'llm-training-alignment-and-evaluation']
 tags: ['benchmarking', 'real-world-evaluation', 'llm-capabilities']
 venue: "ACL 2024"

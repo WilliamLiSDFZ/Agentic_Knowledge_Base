@@ -1,6 +1,7 @@
 ---
 title: "Benchmarking Cognitive Biases in Large Language Models as Evaluators"
 source: "https://aclanthology.org/2024.findings-acl.29/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'bias-and-fairness-in-llms']
 tags: ['llm-evaluators', 'cognitive-bias', 'preference-ranking']
 venue: "ACL 2024"

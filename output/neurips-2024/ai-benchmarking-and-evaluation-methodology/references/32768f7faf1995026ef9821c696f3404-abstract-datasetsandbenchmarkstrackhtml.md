@@ -1,6 +1,7 @@
 ---
 title: "NAVSIM: Data-Driven Non-Reactive Autonomous Vehicle Simulation and Benchmarking"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/32768f7faf1995026ef9821c696f3404-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/32768f7faf1995026ef9821c696f3404-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['autonomous-driving-and-trajectory-prediction', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['autonomous-driving', 'simulation-benchmarking', 'open-loop-evaluation']
 venue: "NeurIPS 2024"

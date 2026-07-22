@@ -1,12 +1,12 @@
 ---
 name: nlp-research-culture-and-practices
 description: >-
-  This skill covers research practices, methodologies, and meta-level concerns in NLP research, including annotation quality assessment (inter-annotator agreement, statistical quality estimation), dataset bias analysis, reproducibility and software quality standards, openness/replication in published research, peer review processes, and the communication of scientific findings. It also addresses practical LLM development concerns such as instruction tuning strategies
+  This skill covers meta-level practices and methodologies in NLP research, including annotation quality assessment (inter-annotator agreement, statistical quality estimation), dataset construction and bias analysis, reproducibility and software quality standards, open science practices, and the communication/presentation of research findings. It also addresses practical aspects of working with LLMs such as instruction tuning, prompt engineering, and benchmarking
 ---
 
 # Nlp Research Culture And Practices
 
-This skill covers research practices, methodologies, and meta-level concerns in NLP research, including annotation quality assessment (inter-annotator agreement, statistical quality estimation), dataset bias analysis, reproducibility and software quality standards, openness/replication in published research, peer review processes, and the communication of scientific findings. It also addresses practical LLM development concerns such as instruction tuning strategies
+This skill covers meta-level practices and methodologies in NLP research, including annotation quality assessment (inter-annotator agreement, statistical quality estimation), dataset construction and bias analysis, reproducibility and software quality standards, open science practices, and the communication/presentation of research findings. It also addresses practical aspects of working with LLMs such as instruction tuning, prompt engineering, and benchmarking
 
 ## Entry Index
 

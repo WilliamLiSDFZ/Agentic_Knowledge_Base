@@ -1,12 +1,12 @@
 ---
 name: llm-security-robustness-and-detection
 description: >-
-  This skill covers adversarial attacks, defenses, and detection methods for LLMs and LLM-powered systems, including backdoor injection in agents, jailbreaking via code/psychological manipulation, watermarking techniques (GumbelMax, lexical redundancy), and robustness evaluation against adversarial inputs and neologisms. It also encompasses detection of machine-
+  This skill covers methods for assessing and improving the security, reliability, and trustworthiness of LLMs, including adversarial robustness testing (jailbreaks, backdoor attacks, alignment-breaking), watermarking and provenance techniques for LLM-generated text, and detection frameworks for machine-generated content across domains like news, code, and multi-agent
 ---
 
 # Llm Security Robustness And Detection
 
-This skill covers adversarial attacks, defenses, and detection methods for LLMs and LLM-powered systems, including backdoor injection in agents, jailbreaking via code/psychological manipulation, watermarking techniques (GumbelMax, lexical redundancy), and robustness evaluation against adversarial inputs and neologisms. It also encompasses detection of machine-
+This skill covers methods for assessing and improving the security, reliability, and trustworthiness of LLMs, including adversarial robustness testing (jailbreaks, backdoor attacks, alignment-breaking), watermarking and provenance techniques for LLM-generated text, and detection frameworks for machine-generated content across domains like news, code, and multi-agent
 
 ## Entry Index
 

@@ -1,6 +1,7 @@
 ---
 title: "Two-Pronged Human Evaluation of ChatGPT Self-Correction in Radiology Report Simplification"
 source: "https://aclanthology.org/2024.findings-acl.279/"
+pdf_url: ""
 categories: ['text-simplification-evaluation-and-methods', 'llms-for-biomedical-and-clinical-nlp']
 tags: ['radiology-report-simplification', 'ChatGPT', 'self-correction', 'human-evaluation', 'text-simplification']
 venue: "ACL 2024"

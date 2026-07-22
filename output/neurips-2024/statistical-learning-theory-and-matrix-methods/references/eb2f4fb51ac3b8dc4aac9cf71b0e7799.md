@@ -1,6 +1,7 @@
 ---
 title: "Ultrafast classical phylogenetic method beats large protein language models on variant effect prediction"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/eb2f4fb51ac3b8dc4aac9cf71b0e7799-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/eb2f4fb51ac3b8dc4aac9cf71b0e7799-Paper-Conference.pdf"
 categories: ['machine-learning-for-molecular-biology', 'statistical-learning-theory-and-matrix-methods']
 tags: ['phylogenetics', 'variant-effect-prediction', 'substitution-matrices']
 venue: "NeurIPS 2024"

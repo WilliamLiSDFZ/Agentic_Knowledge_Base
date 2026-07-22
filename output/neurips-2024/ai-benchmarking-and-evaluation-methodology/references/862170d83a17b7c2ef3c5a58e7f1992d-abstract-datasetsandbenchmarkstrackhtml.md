@@ -1,6 +1,7 @@
 ---
 title: "Scalable Early Childhood Reading Performance Prediction"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/862170d83a17b7c2ef3c5a58e7f1992d-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/862170d83a17b7c2ef3c5a58e7f1992d-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['reading-performance-prediction', 'educational-data', 'early-childhood']
 venue: "NeurIPS 2024"

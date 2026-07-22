@@ -1,6 +1,7 @@
 ---
 title: "Revisiting Parallel Context Windows: A Frustratingly Simple Alternative and Chain-of-Thought Deterioration"
 source: "https://aclanthology.org/2024.findings-acl.523/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['parallel-context-windows', 'long-context', 'chain-of-thought', 'evaluation']
 venue: "ACL 2024"

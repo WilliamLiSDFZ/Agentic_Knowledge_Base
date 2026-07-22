@@ -1,6 +1,7 @@
 ---
 title: "ChartInstruct: Instruction Tuning for Chart Comprehension and Reasoning"
 source: "https://aclanthology.org/2024.findings-acl.619/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'educational-question-generation-and-comprehension']
 tags: ['chart-comprehension', 'instruction-tuning', 'multimodal', 'question-answering', 'visual-reasoning']
 venue: "ACL 2024"

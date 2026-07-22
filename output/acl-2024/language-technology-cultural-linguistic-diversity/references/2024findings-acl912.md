@@ -1,6 +1,7 @@
 ---
 title: "Deep Exploration of Cross-Lingual Zero-Shot Generalization in Instruction Tuning"
 source: "https://aclanthology.org/2024.findings-acl.912/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'llm-training-alignment-and-evaluation']
 tags: ['instruction-tuning', 'cross-lingual', 'zero-shot']
 venue: "ACL 2024"

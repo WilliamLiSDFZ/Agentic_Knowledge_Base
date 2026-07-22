@@ -1,6 +1,7 @@
 ---
 title: "Towards Unified Task Embeddings Across Multiple Models: Bridging the Gap for Prompt-Based Large Language Models and Beyond"
 source: "https://aclanthology.org/2024.findings-acl.493/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces', 'llm-training-alignment-and-evaluation']
 tags: ['task-embedding', 'meta-learning', 'prompt-based-LLMs']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Identifying Semantic Induction Heads to Understand In-Context Learning"
 source: "https://aclanthology.org/2024.findings-acl.412/"
+pdf_url: ""
 categories: ['transformer-architecture-analysis-and-design']
 tags: ['attention-heads', 'in-context-learning', 'interpretability']
 venue: "ACL 2024"

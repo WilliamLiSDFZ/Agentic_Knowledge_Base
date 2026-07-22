@@ -1,6 +1,7 @@
 ---
 title: "DF40: Toward Next-Generation Deepfake Detection"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/34239f60eca7ce9bee5280aaf81362d8-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/34239f60eca7ce9bee5280aaf81362d8-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'generative-models-for-visual-style-and-appearance']
 tags: ['deepfake-detection', 'benchmark', 'face-forgery', 'generalization', 'evaluation']
 venue: "NeurIPS 2024"

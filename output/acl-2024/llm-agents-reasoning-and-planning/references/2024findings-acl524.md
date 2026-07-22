@@ -1,6 +1,7 @@
 ---
 title: "Rationales for Answers to Simple Math Word Problems Confuse Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.524/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-agents-reasoning-and-planning']
 tags: ['math-reasoning', 'chain-of-thought', 'rationale-confusion']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "PUB: A Pragmatics Understanding Benchmark for Assessing LLMs’ Pragmatics Capabilities"
 source: "https://aclanthology.org/2024.findings-acl.719/"
+pdf_url: ""
 categories: ['language-model-human-cognitive-linguistic-alignment', 'nlp-benchmark-design-and-interpretability']
 tags: ['pragmatics', 'LLM-evaluation', 'benchmark']
 venue: "ACL 2024"

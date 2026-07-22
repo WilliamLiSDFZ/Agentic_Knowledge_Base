@@ -1,6 +1,7 @@
 ---
 title: "Fast Proxy Experiment Design for Causal Effect Identification"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/5bd9fbb3a5a985f80c16ddd0ec1dfc43-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/5bd9fbb3a5a985f80c16ddd0ec1dfc43-Paper-Conference.pdf"
 categories: ['causal-discovery-and-inference-methods', 'query-efficient-algorithms-with-imperfect-oracles']
 tags: ['causal-effect-identification', 'proxy-experiments', 'experimental-design']
 venue: "NeurIPS 2024"

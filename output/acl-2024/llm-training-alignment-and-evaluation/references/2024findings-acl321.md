@@ -1,6 +1,7 @@
 ---
 title: "Evaluating Large Language Models on Wikipedia-Style Survey Generation"
 source: "https://aclanthology.org/2024.findings-acl.321/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['survey-generation', 'Wikipedia-style', 'LLM-evaluation']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "ScaLearn: Simple and Highly Parameter-Efficient Task Transfer by Learning to Scale"
 source: "https://aclanthology.org/2024.findings-acl.699/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'bias-and-fairness-in-llms']
 tags: ['multi-task-learning', 'parameter-efficient', 'adapter', 'task-transfer', 'scaling']
 venue: "ACL 2024"

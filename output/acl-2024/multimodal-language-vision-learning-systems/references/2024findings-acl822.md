@@ -1,6 +1,7 @@
 ---
 title: "Unveiling the Power of Integration: Block Diagram Summarization through Local-Global Fusion"
 source: "https://aclanthology.org/2024.findings-acl.822/"
+pdf_url: ""
 categories: ['document-understanding-and-information-extraction', 'multimodal-language-vision-learning-systems']
 tags: ['block-diagram', 'summarization', 'local-global-fusion']
 venue: "ACL 2024"

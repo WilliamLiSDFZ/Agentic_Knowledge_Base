@@ -1,6 +1,7 @@
 ---
 title: "PACE: Improving Prompt with Actor-Critic Editing for Large Language Model"
 source: "https://aclanthology.org/2024.findings-acl.436/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['prompt-optimization', 'actor-critic', 'LLM']
 venue: "ACL 2024"

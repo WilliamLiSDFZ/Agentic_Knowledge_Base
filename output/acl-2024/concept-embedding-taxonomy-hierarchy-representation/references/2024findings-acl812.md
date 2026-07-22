@@ -1,6 +1,7 @@
 ---
 title: "A Unified Joint Approach with Topological Context Learning and Rule Augmentation for Knowledge Graph Completion"
 source: "https://aclanthology.org/2024.findings-acl.812/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'concept-embedding-taxonomy-hierarchy-representation']
 tags: ['knowledge-graph-completion', 'topological-context', 'rule-augmentation']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Progressive Tuning: Towards Generic Sentiment Abilities for Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.855/"
+pdf_url: ""
 categories: ['multilingual-text-classification-and-sentiment-analysis', 'llm-training-alignment-and-evaluation']
 tags: ['sentiment-analysis', 'progressive-tuning', 'llm', 'multitask', 'aspect-based-sentiment']
 venue: "ACL 2024"

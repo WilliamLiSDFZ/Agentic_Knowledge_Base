@@ -1,6 +1,7 @@
 ---
 title: "OVT-B: A New Large-Scale Benchmark for Open-Vocabulary Multi-Object Tracking"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1adeeac24ce6168e20bcee85645720e9-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1adeeac24ce6168e20bcee85645720e9-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'autonomous-driving-and-trajectory-prediction']
 tags: ['open-vocabulary', 'multi-object-tracking', 'benchmark', 'novel-classes', 'detection']
 venue: "NeurIPS 2024"

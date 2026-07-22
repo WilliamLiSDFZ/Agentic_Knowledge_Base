@@ -1,6 +1,7 @@
 ---
 title: "Centroid-Based Efficient Minimum Bayes Risk Decoding"
 source: "https://aclanthology.org/2024.findings-acl.654/"
+pdf_url: ""
 categories: ['minimum-bayes-risk-decoding-efficiency']
 tags: ['minimum-bayes-risk', 'centroid-approximation', 'machine-translation']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "LANS: A Layout-Aware Neural Solver for Plane Geometry Problem"
 source: "https://aclanthology.org/2024.findings-acl.153/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['geometry-problem-solving', 'layout-awareness', 'multimodal-reasoning']
 venue: "ACL 2024"

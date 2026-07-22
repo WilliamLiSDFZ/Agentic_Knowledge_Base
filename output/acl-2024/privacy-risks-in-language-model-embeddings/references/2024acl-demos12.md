@@ -1,6 +1,7 @@
 ---
 title: "GenGO: ACL Paper Explorer with Semantic Features"
 source: "https://aclanthology.org/2024.acl-demos.12/"
+pdf_url: ""
 categories: ['nlp-research-culture-and-practices', 'privacy-risks-in-language-model-embeddings']
 tags: ['paper-explorer', 'ACL', 'semantic-search', 'named-entity', 'text-embeddings']
 venue: "ACL 2024"

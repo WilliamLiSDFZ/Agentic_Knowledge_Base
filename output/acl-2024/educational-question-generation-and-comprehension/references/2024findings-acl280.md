@@ -1,6 +1,7 @@
 ---
 title: "Planning First, Question Second: An LLM-Guided Method for Controllable Question Generation"
 source: "https://aclanthology.org/2024.findings-acl.280/"
+pdf_url: ""
 categories: ['educational-question-generation-and-comprehension', 'llm-agents-reasoning-and-planning']
 tags: ['question-generation', 'controllable-generation', 'LLM', 'education', 'planning']
 venue: "ACL 2024"

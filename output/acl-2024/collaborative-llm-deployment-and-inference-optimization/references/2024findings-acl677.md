@@ -1,6 +1,7 @@
 ---
 title: "Graph-Structured Speculative Decoding"
 source: "https://aclanthology.org/2024.findings-acl.677/"
+pdf_url: ""
 categories: ['collaborative-llm-deployment-and-inference-optimization', 'llm-agents-reasoning-and-planning']
 tags: ['speculative-decoding', 'graph-structured-drafting', 'inference-acceleration']
 venue: "ACL 2024"

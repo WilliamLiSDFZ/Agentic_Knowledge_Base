@@ -1,6 +1,7 @@
 ---
 title: "Towards Visual Text Design Transfer Across Languages"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a32b2c64e6c4b0955f8c16b4bb2981a0-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a32b2c64e6c4b0955f8c16b4bb2981a0-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'generative-models-for-visual-style-and-appearance']
 tags: ['visual-text-design', 'cross-lingual-transfer', 'multimodal-generation']
 venue: "NeurIPS 2024"

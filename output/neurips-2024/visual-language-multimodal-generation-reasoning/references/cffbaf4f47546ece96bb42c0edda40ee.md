@@ -1,6 +1,7 @@
 ---
 title: "Q-VLM: Post-training Quantization for Large Vision-Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/cffbaf4f47546ece96bb42c0edda40ee-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/cffbaf4f47546ece96bb42c0edda40ee-Paper-Conference.pdf"
 categories: ['visual-language-multimodal-generation-reasoning']
 tags: ['quantization', 'vision-language-models', 'post-training', 'efficient-inference', 'multimodal']
 venue: "NeurIPS 2024"

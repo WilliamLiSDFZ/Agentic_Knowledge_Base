@@ -1,6 +1,7 @@
 ---
 title: "It Is Not About What You Say, It Is About How You Say It: A Surprisingly Simple Approach for Improving Reading Comprehension"
 source: "https://aclanthology.org/2024.findings-acl.491/"
+pdf_url: ""
 categories: ['nlp-benchmark-design-and-interpretability', 'educational-question-generation-and-comprehension']
 tags: ['reading-comprehension', 'input-formatting', 'question-answering', 'NLP-practices']
 venue: "ACL 2024"

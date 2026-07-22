@@ -1,6 +1,7 @@
 ---
 title: "WFCRL: A Multi-Agent Reinforcement Learning Benchmark for Wind Farm Control"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/f0a4a0ecdc29a0087c0848948e2fce81-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/f0a4a0ecdc29a0087c0848948e2fce81-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['network-simulation-reinforcement-learning-benchmarking']
 tags: ['wind-farm-control', 'multi-agent-reinforcement-learning', 'benchmark']
 venue: "NeurIPS 2024"

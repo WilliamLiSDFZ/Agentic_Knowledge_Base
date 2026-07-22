@@ -1,12 +1,12 @@
 ---
 name: disentangled-representation-learning-cognitive-diagnosis
 description: >-
-  **Disentangled representation learning for cognitive diagnosis** focuses on decomposing latent representations into interpretable, independent factors (e.g., knowledge concepts, learner proficiency, item difficulty) to model and diagnose learner performance in educational settings. Methods include structured autoencoders, dictionary-based decomposition, and hierarchical/multimodal representation learning, applied to
+  **Disentangled representation learning for cognitive diagnosis** covers methods that decompose latent spaces into interpretable, independent factors to model learner knowledge states, skills, and cognitive attributes — applied to educational assessment, learner modeling, and knowledge tracing. Techniques span dictionary-based decomposition, hierarchical encoders, and structured autoencoders, with extensions to multimodal
 ---
 
 # Disentangled Representation Learning Cognitive Diagnosis
 
-**Disentangled representation learning for cognitive diagnosis** focuses on decomposing latent representations into interpretable, independent factors (e.g., knowledge concepts, learner proficiency, item difficulty) to model and diagnose learner performance in educational settings. Methods include structured autoencoders, dictionary-based decomposition, and hierarchical/multimodal representation learning, applied to
+**Disentangled representation learning for cognitive diagnosis** covers methods that decompose latent spaces into interpretable, independent factors to model learner knowledge states, skills, and cognitive attributes — applied to educational assessment, learner modeling, and knowledge tracing. Techniques span dictionary-based decomposition, hierarchical encoders, and structured autoencoders, with extensions to multimodal
 
 ## Entry Index
 

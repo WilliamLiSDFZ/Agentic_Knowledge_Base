@@ -1,6 +1,7 @@
 ---
 title: "A survey and benchmark of high-dimensional Bayesian optimization of discrete sequences"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/fe0007fcfd707673660ec0f9014bc48e-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/fe0007fcfd707673660ec0f9014bc48e-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'machine-learning-for-molecular-biology']
 tags: ['bayesian-optimization', 'discrete-sequences', 'high-dimensional', 'protein-engineering', 'drug-design']
 venue: "NeurIPS 2024"

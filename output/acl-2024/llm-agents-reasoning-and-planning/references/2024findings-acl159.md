@@ -1,6 +1,7 @@
 ---
 title: "Chain of Logic: Rule-Based Reasoning with Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.159/"
+pdf_url: ""
 categories: ['legal-nlp-benchmarks-and-applications', 'llm-agents-reasoning-and-planning']
 tags: ['rule-based-reasoning', 'legal-reasoning', 'chain-of-thought']
 venue: "ACL 2024"

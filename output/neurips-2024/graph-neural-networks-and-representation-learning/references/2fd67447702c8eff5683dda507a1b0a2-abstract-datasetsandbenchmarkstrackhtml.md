@@ -1,6 +1,7 @@
 ---
 title: "4DBInfer:  A 4D Benchmarking Toolbox for Graph-Centric Predictive Modeling on RDBs"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/2fd67447702c8eff5683dda507a1b0a2-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/2fd67447702c8eff5683dda507a1b0a2-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['graph-neural-networks-and-representation-learning']
 tags: ['relational-databases', 'graph-neural-networks', 'benchmarking', 'predictive-modeling', 'multi-table']
 venue: "NeurIPS 2024"

@@ -1,12 +1,12 @@
 ---
 name: compositional-emergent-communication-evaluation
 description: >-
-  This skill covers methods for evaluating whether communication systems (both neural NLG models and emergent communication agents) can compositionally generalize—recombining known concepts in novel ways—using metrics like SPOR (systematicity, productivity, overgeneralization, and robustness) for data-to-text tasks and concept-best-matching for assessing symbolic compositionality
+  This skill covers methods for evaluating whether communication systems or language models exhibit **compositional generalization** — the ability to systematically combine known concepts/symbols to express novel meanings. It addresses both emergent communication protocols (testing whether agents develop structured, compositional signaling) and data-to-text generation tasks (using metrics like SPOR to assess systematic recombination), with a focus
 ---
 
 # Compositional Emergent Communication Evaluation
 
-This skill covers methods for evaluating whether communication systems (both neural NLG models and emergent communication agents) can compositionally generalize—recombining known concepts in novel ways—using metrics like SPOR (systematicity, productivity, overgeneralization, and robustness) for data-to-text tasks and concept-best-matching for assessing symbolic compositionality
+This skill covers methods for evaluating whether communication systems or language models exhibit **compositional generalization** — the ability to systematically combine known concepts/symbols to express novel meanings. It addresses both emergent communication protocols (testing whether agents develop structured, compositional signaling) and data-to-text generation tasks (using metrics like SPOR to assess systematic recombination), with a focus
 
 ## Entry Index
 

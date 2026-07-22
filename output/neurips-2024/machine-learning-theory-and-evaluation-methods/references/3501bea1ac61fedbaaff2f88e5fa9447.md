@@ -1,6 +1,7 @@
 ---
 title: "Measuring Dejavu Memorization Efficiently"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/3501bea1ac61fedbaaff2f88e5fa9447-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/3501bea1ac61fedbaaff2f88e5fa9447-Paper-Conference.pdf"
 categories: ['llm-safety-robustness-and-privacy-defenses', 'machine-learning-theory-and-evaluation-methods']
 tags: ['memorization', 'representation-learning', 'privacy']
 venue: "NeurIPS 2024"

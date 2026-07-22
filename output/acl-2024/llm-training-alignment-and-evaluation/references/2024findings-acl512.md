@@ -1,6 +1,7 @@
 ---
 title: "Generalized Category Discovery with Large Language Models in the Loop"
 source: "https://aclanthology.org/2024.findings-acl.512/"
+pdf_url: ""
 categories: ['text-clustering-with-limited-labels', 'llm-training-alignment-and-evaluation']
 tags: ['generalized-category-discovery', 'novel-categories', 'LLM-in-the-loop']
 venue: "ACL 2024"

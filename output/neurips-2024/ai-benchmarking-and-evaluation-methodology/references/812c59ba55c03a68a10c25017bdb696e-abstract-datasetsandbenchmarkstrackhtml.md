@@ -1,6 +1,7 @@
 ---
 title: "MM-WLAuslan: Multi-View Multi-Modal Word-Level Australian Sign Language Recognition Dataset"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/812c59ba55c03a68a10c25017bdb696e-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/812c59ba55c03a68a10c25017bdb696e-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['audio-visual-speech-processing-and-benchmarks', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['sign-language-recognition', 'multi-view', 'multi-modal', 'Australian-sign-language']
 venue: "NeurIPS 2024"

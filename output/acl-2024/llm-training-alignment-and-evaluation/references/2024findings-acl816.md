@@ -1,6 +1,7 @@
 ---
 title: "DATA-CUBE: Data Curriculum for Instruction-based Sentence Representation Learning"
 source: "https://aclanthology.org/2024.findings-acl.816/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'language-model-representations-and-embedding-spaces']
 tags: ['sentence-representation', 'instruction-tuning', 'data-curriculum', 'multi-task', 'contrastive-learning']
 venue: "ACL 2024"

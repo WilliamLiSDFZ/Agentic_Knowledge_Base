@@ -1,6 +1,7 @@
 ---
 title: "HairDiffusion: Vivid Multi-Colored Hair Editing via Latent Diffusion"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/08f0b541b6eb47bdafebea3a09ad79e5-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/08f0b541b6eb47bdafebea3a09ad79e5-Paper-Conference.pdf"
 categories: ['generative-models-for-visual-style-and-appearance', 'diffusion-based-generative-modeling-and-inference']
 tags: ['hair-editing', 'latent-diffusion', 'text-guided-image-synthesis']
 venue: "NeurIPS 2024"

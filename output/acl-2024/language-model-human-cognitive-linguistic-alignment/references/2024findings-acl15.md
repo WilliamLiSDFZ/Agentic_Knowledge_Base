@@ -1,6 +1,7 @@
 ---
 title: "Lexicon-Level Contrastive Visual-Grounding Improves Language Modeling"
 source: "https://aclanthology.org/2024.findings-acl.15/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'language-model-human-cognitive-linguistic-alignment']
 tags: ['visual-grounding', 'contrastive-learning', 'language-modeling']
 venue: "ACL 2024"

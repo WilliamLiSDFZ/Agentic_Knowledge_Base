@@ -1,6 +1,7 @@
 ---
 title: "Understanding Cross-Lingual Alignment—A Survey"
 source: "https://aclanthology.org/2024.findings-acl.649/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces', 'multilingual-text-classification-and-sentiment-analysis']
 tags: ['cross-lingual-alignment', 'multilingual-models', 'survey', 'representation-learning', 'language-transfer']
 venue: "ACL 2024"

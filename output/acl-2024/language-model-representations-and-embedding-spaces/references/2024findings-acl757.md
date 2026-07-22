@@ -1,6 +1,7 @@
 ---
 title: "Choose Your Transformer: Improved Transferability Estimation of Transformer Models on Classification Tasks"
 source: "https://aclanthology.org/2024.findings-acl.757/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces', 'llm-training-alignment-and-evaluation']
 tags: ['transfer-learning', 'model-selection', 'transformers']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "ProLex: A Benchmark for Language Proficiency-oriented Lexical Substitution"
 source: "https://aclanthology.org/2024.findings-acl.502/"
+pdf_url: ""
 categories: ['text-simplification-evaluation-and-methods', 'educational-question-generation-and-comprehension']
 tags: ['lexical-substitution', 'language-proficiency', 'benchmark']
 venue: "ACL 2024"

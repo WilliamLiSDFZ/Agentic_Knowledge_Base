@@ -1,6 +1,7 @@
 ---
 title: "CharXiv: Charting Gaps in Realistic Chart Understanding in Multimodal LLMs"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/cdf6f8e9fd9aeaf79b6024caec24f15b-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/cdf6f8e9fd9aeaf79b6024caec24f15b-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['chart-understanding', 'multimodal-LLM', 'benchmark']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Complex Logical Query Answering by Calibrating Knowledge Graph Completion Models"
 source: "https://aclanthology.org/2024.findings-acl.819/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['knowledge-graph', 'complex-logical-queries', 'KG-completion']
 venue: "ACL 2024"

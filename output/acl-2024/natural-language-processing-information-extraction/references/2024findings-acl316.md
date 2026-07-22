@@ -1,6 +1,7 @@
 ---
 title: "Which Information Matters? Dissecting Human-written Multi-document Summaries with Partial Information Decomposition"
 source: "https://aclanthology.org/2024.findings-acl.316/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'causal-reasoning-and-explanation-in-nlp']
 tags: ['multi-document-summarization', 'information-decomposition', 'mutual-information']
 venue: "ACL 2024"

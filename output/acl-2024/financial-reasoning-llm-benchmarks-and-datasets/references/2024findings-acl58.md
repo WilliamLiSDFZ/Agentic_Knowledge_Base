@@ -1,6 +1,7 @@
 ---
 title: "EconNLI: Evaluating Large Language Models on Economics Reasoning"
 source: "https://aclanthology.org/2024.findings-acl.58/"
+pdf_url: ""
 categories: ['financial-reasoning-llm-benchmarks-and-datasets', 'llm-training-alignment-and-evaluation']
 tags: ['economics-reasoning', 'LLM-evaluation', 'financial-NLP', 'benchmark']
 venue: "ACL 2024"

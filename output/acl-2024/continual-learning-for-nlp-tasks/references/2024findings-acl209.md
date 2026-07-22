@@ -1,6 +1,7 @@
 ---
 title: "STAR: Constraint LoRA with Dynamic Active Learning for Data-Efficient Fine-Tuning of Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.209/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'continual-learning-for-nlp-tasks']
 tags: ['lora', 'active-learning', 'data-efficient-fine-tuning']
 venue: "ACL 2024"

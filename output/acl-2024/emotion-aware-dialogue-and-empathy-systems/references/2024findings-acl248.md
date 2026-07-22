@@ -1,6 +1,7 @@
 ---
 title: "POP-CEE: Position-oriented Prompt-tuning Model for Causal Emotion Entailment"
 source: "https://aclanthology.org/2024.findings-acl.248/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems', 'causal-reasoning-and-explanation-in-nlp']
 tags: ['causal-emotion-entailment', 'prompt-tuning', 'conversation', 'emotion-cause', 'position-aware']
 venue: "ACL 2024"

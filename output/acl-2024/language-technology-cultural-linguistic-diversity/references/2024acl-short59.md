@@ -1,6 +1,7 @@
 ---
 title: "Zero-Shot Cross-Lingual Reranking with Large Language Models for Low-Resource Languages"
 source: "https://aclanthology.org/2024.acl-short.59/"
+pdf_url: ""
 categories: ['llm-based-ranking-and-recommendation', 'language-technology-cultural-linguistic-diversity']
 tags: ['cross-lingual', 'reranking', 'low-resource-languages']
 venue: "ACL 2024"

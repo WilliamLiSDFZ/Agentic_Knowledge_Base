@@ -1,6 +1,7 @@
 ---
 title: "Sign Language Translation with Sentence Embedding Supervision"
 source: "https://aclanthology.org/2024.acl-short.40/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'speech-and-language-multimodal-generation-systems']
 tags: ['sign-language', 'translation', 'sentence-embeddings']
 venue: "ACL 2024"

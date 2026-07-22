@@ -1,6 +1,7 @@
 ---
 title: "Definition generation for lexical semantic change detection"
 source: "https://aclanthology.org/2024.findings-acl.339/"
+pdf_url: ""
 categories: ['lexical-semantic-change-detection-methods', 'language-model-representations-and-embedding-spaces']
 tags: ['lexical-semantic-change', 'definition-generation', 'diachronic-nlp']
 venue: "ACL 2024"

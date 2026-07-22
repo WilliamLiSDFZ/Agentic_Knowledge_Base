@@ -1,6 +1,7 @@
 ---
 title: "Is Your HD Map Constructor Reliable under Sensor Corruptions?"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/281e0b9142763f2b6c944fedb8550ba9-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/281e0b9142763f2b6c944fedb8550ba9-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['autonomous-driving-and-trajectory-prediction']
 tags: ['HD-map-construction', 'sensor-corruption', 'robustness-evaluation']
 venue: "NeurIPS 2024"

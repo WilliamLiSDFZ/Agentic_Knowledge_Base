@@ -1,6 +1,7 @@
 ---
 title: "Unveiling the Art of Heading Design: A Harmonious Blend of Summarization, Neology, and Algorithm"
 source: "https://aclanthology.org/2024.findings-acl.368/"
+pdf_url: ""
 categories: ['llm-based-computational-humor-generation']
 tags: ['heading-generation', 'acronym-design', 'summarization']
 venue: "ACL 2024"

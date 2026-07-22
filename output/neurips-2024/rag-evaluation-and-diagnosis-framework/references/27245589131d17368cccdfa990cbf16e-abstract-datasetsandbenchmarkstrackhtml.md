@@ -1,6 +1,7 @@
 ---
 title: "RAGChecker: A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/27245589131d17368cccdfa990cbf16e-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/27245589131d17368cccdfa990cbf16e-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['rag-evaluation-and-diagnosis-framework', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['RAG-evaluation', 'retrieval-augmented-generation', 'fine-grained-diagnosis']
 venue: "NeurIPS 2024"

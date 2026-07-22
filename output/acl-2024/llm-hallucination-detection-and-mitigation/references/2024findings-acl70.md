@@ -1,6 +1,7 @@
 ---
 title: "Cutting Off the Head Ends the Conflict: A Mechanism for Interpreting and Mitigating Knowledge Conflicts in Language Models"
 source: "https://aclanthology.org/2024.findings-acl.70/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation']
 tags: ['knowledge-conflicts', 'retrieval-augmentation', 'attention-heads']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Improving Large Language Models via Fine-grained Reinforcement Learning with Minimum Editing Constraint"
 source: "https://aclanthology.org/2024.findings-acl.338/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'speech-and-language-multimodal-generation-systems']
 tags: ['reinforcement-learning', 'fine-grained-reward', 'minimum-editing']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Fair Federated Learning with Biased Vision-Language Models"
 source: "https://aclanthology.org/2024.findings-acl.595/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'bias-and-fairness-in-llms']
 tags: ['federated-learning', 'CLIP', 'fairness', 'bias', 'data-heterogeneity']
 venue: "ACL 2024"

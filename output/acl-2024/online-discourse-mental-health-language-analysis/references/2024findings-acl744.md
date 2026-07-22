@@ -1,6 +1,7 @@
 ---
 title: "Exciting Mood Changes: A Time-aware Hierarchical Transformer for Change Detection Modelling"
 source: "https://aclanthology.org/2024.findings-acl.744/"
+pdf_url: ""
 categories: ['online-discourse-mental-health-language-analysis']
 tags: ['mental-health', 'temporal-modeling', 'change-detection']
 venue: "ACL 2024"

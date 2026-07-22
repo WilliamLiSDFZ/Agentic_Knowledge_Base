@@ -1,6 +1,7 @@
 ---
 title: "Operator World Models for Reinforcement Learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/c9da56addea9c977cf4ba873e1da979d-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/c9da56addea9c977cf4ba873e1da979d-Paper-Conference.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'physics-informed-neural-operators-and-simulations']
 tags: ['reinforcement-learning', 'policy-mirror-descent', 'world-models', 'operator-learning', 'action-value-functions']
 venue: "NeurIPS 2024"

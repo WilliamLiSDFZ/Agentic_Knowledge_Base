@@ -1,6 +1,7 @@
 ---
 title: "Bootstrapping LLM-based Task-Oriented Dialogue Agents via Self-Talk"
 source: "https://aclanthology.org/2024.findings-acl.566/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning']
 tags: ['task-oriented-dialogue', 'self-talk', 'llm-bootstrapping']
 venue: "ACL 2024"

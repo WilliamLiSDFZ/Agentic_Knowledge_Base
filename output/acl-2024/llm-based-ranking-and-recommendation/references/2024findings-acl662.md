@@ -1,6 +1,7 @@
 ---
 title: "Distillation Enhanced Generative Retrieval"
 source: "https://aclanthology.org/2024.findings-acl.662/"
+pdf_url: ""
 categories: ['llm-based-ranking-and-recommendation', 'language-model-representations-and-embedding-spaces']
 tags: ['generative-retrieval', 'knowledge-distillation', 'passage-retrieval']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Towards Multiple References Era – Addressing Data Leakage and Limited Reference Diversity in Machine Translation Evaluation"
 source: "https://aclanthology.org/2024.findings-acl.710/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'language-technology-cultural-linguistic-diversity']
 tags: ['machine-translation-evaluation', 'data-leakage', 'reference-diversity']
 venue: "ACL 2024"

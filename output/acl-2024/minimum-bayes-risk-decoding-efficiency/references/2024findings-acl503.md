@@ -1,6 +1,7 @@
 ---
 title: "Generating Diverse and High-Quality Texts by Minimum Bayes Risk Decoding"
 source: "https://aclanthology.org/2024.findings-acl.503/"
+pdf_url: ""
 categories: ['minimum-bayes-risk-decoding-efficiency', 'llm-training-alignment-and-evaluation']
 tags: ['minimum-bayes-risk', 'diverse-generation', 'decoding']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "GC-Bench: An Open and Unified Benchmark for Graph Condensation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/42ed003e72eab5136e3d2fdbef4b8d7b-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/42ed003e72eab5136e3d2fdbef4b8d7b-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['graph-condensation', 'benchmark', 'evaluation']
 venue: "NeurIPS 2024"

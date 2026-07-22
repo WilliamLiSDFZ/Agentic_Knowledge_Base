@@ -1,6 +1,7 @@
 ---
 title: "Can Your Model Tell a Negation from an Implicature? Unravelling Challenges With Intent Encoders"
 source: "https://aclanthology.org/2024.acl-long.33/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces', 'coreference-resolution-and-dialogue-understanding']
 tags: ['intent-classification', 'embedding-models', 'negation-implicature']
 venue: "ACL 2024"

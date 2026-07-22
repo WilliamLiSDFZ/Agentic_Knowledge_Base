@@ -1,6 +1,7 @@
 ---
 title: "Codec Avatar Studio: Paired Human Captures for Complete, Driveable, and Generalizable Avatars"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/9712b78386cebdc3db7f1a48c2d20edb-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/9712b78386cebdc3db7f1a48c2d20edb-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['generative-models-for-visual-style-and-appearance', 'visual-language-multimodal-generation-reasoning']
 tags: ['photorealistic-avatars', 'human-modeling', 'paired-captures', 'full-body', 'generalization']
 venue: "NeurIPS 2024"

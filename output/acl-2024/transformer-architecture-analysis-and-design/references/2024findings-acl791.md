@@ -1,6 +1,7 @@
 ---
 title: "Raccoon: Prompt Extraction Benchmark of LLM-Integrated Applications"
 source: "https://aclanthology.org/2024.findings-acl.791/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'transformer-architecture-analysis-and-design']
 tags: ['prompt-extraction', 'benchmark', 'LLM-security']
 venue: "ACL 2024"

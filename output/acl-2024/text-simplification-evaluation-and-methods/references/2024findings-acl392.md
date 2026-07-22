@@ -1,6 +1,7 @@
 ---
 title: "Text Simplification via Adaptive Teaching"
 source: "https://aclanthology.org/2024.findings-acl.392/"
+pdf_url: ""
 categories: ['text-simplification-evaluation-and-methods']
 tags: ['text-simplification', 'adaptive-teaching', 'curriculum-learning']
 venue: "ACL 2024"

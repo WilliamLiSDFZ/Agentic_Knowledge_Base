@@ -1,6 +1,7 @@
 ---
 title: "Your Vision-Language Model Itself Is a Strong Filter: Towards High-Quality Instruction Tuning with Data Selection"
 source: "https://aclanthology.org/2024.findings-acl.246/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llm-training-alignment-and-evaluation']
 tags: ['data-selection', 'instruction-tuning', 'vision-language-model']
 venue: "ACL 2024"

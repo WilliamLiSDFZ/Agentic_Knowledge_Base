@@ -1,12 +1,12 @@
 ---
 name: natural-language-processing-information-extraction
 description: >-
-  This skill covers core NLP information extraction tasks including named entity recognition (NER), relation extraction, event extraction, entity linking, keyphrase extraction, and text summarization, with particular emphasis on improving model performance through techniques such as contrastive/instruction tuning, data augmentation, continual learning, and LLM-based correction. Methods span few-shot fine-tuning
+  This skill covers **structured information extraction and text processing tasks** including named entity recognition (NER), relation extraction, event extraction, entity linking, keyphrase extraction, and document summarization, using methods such as contrastive/instruction tuning, retrieval-augmented models, LLM-based correction, continual learning, and data augmentation. Applications span cross-document extraction
 ---
 
 # Natural Language Processing Information Extraction
 
-This skill covers core NLP information extraction tasks including named entity recognition (NER), relation extraction, event extraction, entity linking, keyphrase extraction, and text summarization, with particular emphasis on improving model performance through techniques such as contrastive/instruction tuning, data augmentation, continual learning, and LLM-based correction. Methods span few-shot fine-tuning
+This skill covers **structured information extraction and text processing tasks** including named entity recognition (NER), relation extraction, event extraction, entity linking, keyphrase extraction, and document summarization, using methods such as contrastive/instruction tuning, retrieval-augmented models, LLM-based correction, continual learning, and data augmentation. Applications span cross-document extraction
 
 ## Entry Index
 

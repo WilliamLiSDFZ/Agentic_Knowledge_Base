@@ -1,6 +1,7 @@
 ---
 title: "BASS: Batched Attention-optimized Speculative Sampling"
 source: "https://aclanthology.org/2024.findings-acl.489/"
+pdf_url: ""
 categories: ['collaborative-llm-deployment-and-inference-optimization', 'transformer-architecture-analysis-and-design']
 tags: ['speculative-decoding', 'batched-inference', 'throughput-optimization']
 venue: "ACL 2024"

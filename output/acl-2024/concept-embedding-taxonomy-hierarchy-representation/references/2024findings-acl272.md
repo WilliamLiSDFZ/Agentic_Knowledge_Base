@@ -1,6 +1,7 @@
 ---
 title: "Enhancing Hyperbolic Knowledge Graph Embeddings via Lorentz Transformations"
 source: "https://aclanthology.org/2024.findings-acl.272/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'concept-embedding-taxonomy-hierarchy-representation']
 tags: ['knowledge-graph-embedding', 'hyperbolic-space', 'Lorentz-transformation', 'link-prediction', 'hierarchical']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "PACIT: Unlocking the Power of Examples for Better In-Context Instruction Tuning"
 source: "https://aclanthology.org/2024.findings-acl.36/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'state-memory-replay-sequence-modeling']
 tags: ['instruction-tuning', 'in-context-learning', 'example-selection']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "RadGraph-XL: A Large-Scale Expert-Annotated Dataset for Entity and Relation Extraction from Radiology Reports"
 source: "https://aclanthology.org/2024.findings-acl.765/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp', 'document-understanding-and-information-extraction']
 tags: ['radiology', 'entity-extraction', 'relation-extraction', 'clinical-NLP', 'annotation']
 venue: "ACL 2024"

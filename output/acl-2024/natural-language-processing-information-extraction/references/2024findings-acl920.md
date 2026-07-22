@@ -1,6 +1,7 @@
 ---
 title: "Verifiable Generation with Subsentence-Level Fine-Grained Citations"
 source: "https://aclanthology.org/2024.findings-acl.920/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'natural-language-processing-information-extraction']
 tags: ['citation-generation', 'verifiable-generation', 'fine-grained']
 venue: "ACL 2024"

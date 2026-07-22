@@ -1,6 +1,7 @@
 ---
 title: "ColorSwap: A Color and Word Order Dataset for Multimodal Evaluation"
 source: "https://aclanthology.org/2024.findings-acl.99/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llm-training-alignment-and-evaluation']
 tags: ['color-understanding', 'multimodal-evaluation', 'dataset']
 venue: "ACL 2024"

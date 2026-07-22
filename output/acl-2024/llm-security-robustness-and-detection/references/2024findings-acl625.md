@@ -1,6 +1,7 @@
 ---
 title: "Generalization-Enhanced Code Vulnerability Detection via Multi-Task Instruction Fine-Tuning"
 source: "https://aclanthology.org/2024.findings-acl.625/"
+pdf_url: ""
 categories: ['code-llm-generation-and-evaluation', 'llm-security-robustness-and-detection']
 tags: ['vulnerability-detection', 'multi-task-fine-tuning', 'code-security']
 venue: "ACL 2024"

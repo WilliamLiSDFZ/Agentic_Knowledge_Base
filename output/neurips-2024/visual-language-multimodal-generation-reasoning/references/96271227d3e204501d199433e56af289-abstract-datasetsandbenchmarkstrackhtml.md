@@ -1,6 +1,7 @@
 ---
 title: "UniBench: Visual Reasoning Requires Rethinking Vision-Language Beyond Scaling"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/96271227d3e204501d199433e56af289-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/96271227d3e204501d199433e56af289-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'visual-language-multimodal-generation-reasoning']
 tags: ['vision-language-models', 'benchmarking', 'visual-reasoning']
 venue: "NeurIPS 2024"

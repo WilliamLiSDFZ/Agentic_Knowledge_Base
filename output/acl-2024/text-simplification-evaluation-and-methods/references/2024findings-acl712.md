@@ -1,6 +1,7 @@
 ---
 title: "BATS: BenchmArking Text Simplicity 🦇"
 source: "https://aclanthology.org/2024.findings-acl.712/"
+pdf_url: ""
 categories: ['text-simplification-evaluation-and-methods']
 tags: ['text-simplification', 'evaluation-metric', 'benchmark']
 venue: "ACL 2024"

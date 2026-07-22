@@ -1,6 +1,7 @@
 ---
 title: "Monotonic Representation of Numeric Attributes in Language Models"
 source: "https://aclanthology.org/2024.acl-short.18/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces', 'transformer-architecture-analysis-and-design']
 tags: ['numeric-attributes', 'monotonic-representation', 'language-model-editing']
 venue: "ACL 2024"

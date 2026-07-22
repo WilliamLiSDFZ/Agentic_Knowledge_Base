@@ -1,6 +1,7 @@
 ---
 title: "ActionAtlas: A VideoQA Benchmark for Domain-specialized Action Recognition"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/f8643596721dbac71d67f89497323efe-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/f8643596721dbac71d67f89497323efe-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'visual-language-multimodal-generation-reasoning']
 tags: ['video-question-answering', 'benchmark', 'action-recognition', 'fine-grained', 'multimodal']
 venue: "NeurIPS 2024"

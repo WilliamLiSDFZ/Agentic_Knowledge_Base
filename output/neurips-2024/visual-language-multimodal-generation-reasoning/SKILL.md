@@ -1,12 +1,12 @@
 ---
 name: visual-language-multimodal-generation-reasoning
 description: >-
-  This skill covers the development and application of vision-language models (VLMs) and multimodal systems that integrate visual, textual, audio, and geometric representations for tasks including graph reasoning, video understanding, 3D scene/object reconstruction, cross-modal retrieval, and content generation (talking faces, panoramas, NeRF). Methods span diffusion models, graph attention
+  This skill covers the design and application of vision-language models (VLMs) and multimodal systems that integrate visual, textual, audio, and geometric information for tasks including graph reasoning, video understanding, 3D scene completion, cross-modal retrieval, and generative modeling (e.g., talking faces, panorama synthesis, NeRF interaction). Methods span diff
 ---
 
 # Visual Language Multimodal Generation Reasoning
 
-This skill covers the development and application of vision-language models (VLMs) and multimodal systems that integrate visual, textual, audio, and geometric representations for tasks including graph reasoning, video understanding, 3D scene/object reconstruction, cross-modal retrieval, and content generation (talking faces, panoramas, NeRF). Methods span diffusion models, graph attention
+This skill covers the design and application of vision-language models (VLMs) and multimodal systems that integrate visual, textual, audio, and geometric information for tasks including graph reasoning, video understanding, 3D scene completion, cross-modal retrieval, and generative modeling (e.g., talking faces, panorama synthesis, NeRF interaction). Methods span diff
 
 ## Entry Index
 

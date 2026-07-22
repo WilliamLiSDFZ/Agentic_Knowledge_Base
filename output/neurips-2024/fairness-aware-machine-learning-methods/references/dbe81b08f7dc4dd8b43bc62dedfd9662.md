@@ -1,6 +1,7 @@
 ---
 title: "Robust Contrastive Multi-view Clustering against Dual Noisy Correspondence"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/dbe81b08f7dc4dd8b43bc62dedfd9662-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/dbe81b08f7dc4dd8b43bc62dedfd9662-Paper-Conference.pdf"
 categories: ['multi-view-clustering-and-3d-perception', 'fairness-aware-machine-learning-methods']
 tags: ['multi-view-clustering', 'contrastive-learning', 'noisy-correspondence']
 venue: "NeurIPS 2024"

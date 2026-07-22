@@ -1,6 +1,7 @@
 ---
 title: "Distributional Preference Alignment of LLMs via Optimal Transport"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/bce96750dcb64f3257ceabadf0b9c9bf-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/bce96750dcb64f3257ceabadf0b9c9bf-Paper-Conference.pdf"
 categories: ['ai-alignment-and-social-choice-aggregation', 'optimal-transport-and-learning-theory']
 tags: ['LLM-alignment', 'optimal-transport', 'distributional-preference']
 venue: "NeurIPS 2024"

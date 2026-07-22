@@ -1,6 +1,7 @@
 ---
 title: "An Empirical Study on Parameter-Efficient Fine-Tuning for MultiModal Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.598/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems']
 tags: ['parameter-efficient-fine-tuning', 'multimodal-llm', 'instruction-tuning']
 venue: "ACL 2024"

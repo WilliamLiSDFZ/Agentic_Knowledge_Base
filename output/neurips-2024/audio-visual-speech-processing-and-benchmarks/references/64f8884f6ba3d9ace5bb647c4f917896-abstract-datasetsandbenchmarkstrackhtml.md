@@ -1,6 +1,7 @@
 ---
 title: "emg2pose: A Large and Diverse Benchmark for Surface Electromyographic Hand Pose Estimation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/64f8884f6ba3d9ace5bb647c4f917896-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/64f8884f6ba3d9ace5bb647c4f917896-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['wearable-biosignal-gesture-activity-benchmarks', 'audio-visual-speech-processing-and-benchmarks']
 tags: ['electromyography', 'hand-pose-estimation', 'benchmark']
 venue: "NeurIPS 2024"

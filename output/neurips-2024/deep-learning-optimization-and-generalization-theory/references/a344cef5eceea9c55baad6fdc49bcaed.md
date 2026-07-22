@@ -1,6 +1,7 @@
 ---
 title: "Untrained Neural Nets for Snapshot Compressive Imaging: Theory and Algorithms"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a344cef5eceea9c55baad6fdc49bcaed-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a344cef5eceea9c55baad6fdc49bcaed-Paper-Conference.pdf"
 categories: ['computational-imaging-reconstruction-deep-learning', 'deep-learning-optimization-and-generalization-theory']
 tags: ['snapshot-compressive-imaging', 'untrained-neural-networks', 'compressed-sensing']
 venue: "NeurIPS 2024"

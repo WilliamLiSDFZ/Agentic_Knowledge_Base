@@ -1,6 +1,7 @@
 ---
 title: "Hybrid Alignment Training for Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.676/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'llm-training-alignment-and-evaluation']
 tags: ['alignment-training', 'instruction-following', 'human-preference', 'hybrid', 'LLMs']
 venue: "ACL 2024"

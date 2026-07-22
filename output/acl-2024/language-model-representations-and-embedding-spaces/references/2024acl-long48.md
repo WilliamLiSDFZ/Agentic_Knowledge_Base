@@ -1,6 +1,7 @@
 ---
 title: "Token-wise Influential Training Data Retrieval for Large Language Models"
 source: "https://aclanthology.org/2024.acl-long.48/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'language-model-representations-and-embedding-spaces']
 tags: ['training-data-influence', 'data-attribution', 'LLM-interpretability', 'token-wise', 'scalability']
 venue: "ACL 2024"

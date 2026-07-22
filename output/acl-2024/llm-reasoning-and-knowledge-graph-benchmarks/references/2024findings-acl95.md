@@ -1,6 +1,7 @@
 ---
 title: "Everything of Thoughts: Defying the Law of Penrose Triangle for Thought Generation"
 source: "https://aclanthology.org/2024.findings-acl.95/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['thought-prompting', 'Monte-Carlo-Tree-Search', 'LLM-reasoning']
 venue: "ACL 2024"

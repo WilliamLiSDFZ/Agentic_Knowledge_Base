@@ -1,6 +1,7 @@
 ---
 title: "VERIFIED: A Video Corpus Moment Retrieval Benchmark for Fine-Grained Video Understanding"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/477929b8d45ab759795b7aac94329b08-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/477929b8d45ab759795b7aac94329b08-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'visual-language-multimodal-generation-reasoning']
 tags: ['video-retrieval', 'fine-grained-understanding', 'benchmark']
 venue: "NeurIPS 2024"

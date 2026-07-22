@@ -1,6 +1,7 @@
 ---
 title: "ONSEP: A Novel Online Neural-Symbolic Framework for Event Prediction Based on Large Language Model"
 source: "https://aclanthology.org/2024.findings-acl.378/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-agents-reasoning-and-planning']
 tags: ['temporal-knowledge-graph', 'event-prediction', 'neural-symbolic', 'online-learning', 'llm']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Selective Reflection-Tuning: Student-Selected Data Recycling for LLM Instruction-Tuning"
 source: "https://aclanthology.org/2024.findings-acl.958/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'label-noise-robust-annotation-learning']
 tags: ['instruction-tuning', 'data-selection', 'data-quality']
 venue: "ACL 2024"

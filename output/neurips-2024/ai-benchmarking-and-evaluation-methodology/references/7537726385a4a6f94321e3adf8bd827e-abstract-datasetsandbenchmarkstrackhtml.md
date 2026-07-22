@@ -1,6 +1,7 @@
 ---
 title: "Me, Myself, and AI: The Situational Awareness Dataset (SAD) for LLMs"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/7537726385a4a6f94321e3adf8bd827e-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/7537726385a4a6f94321e3adf8bd827e-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-values-ethics-alignment-evaluation']
 tags: ['situational-awareness', 'LLM-self-knowledge', 'benchmark']
 venue: "NeurIPS 2024"

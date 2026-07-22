@@ -1,6 +1,7 @@
 ---
 title: "Unraveling the Gradient Descent Dynamics of Transformers"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a7d36e5cb41a1f21c46db25cb1aafab9-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a7d36e5cb41a1f21c46db25cb1aafab9-Paper-Conference.pdf"
 categories: ['deep-learning-optimization-and-generalization-theory', 'theoretical-foundations-of-neural-network-geometry']
 tags: ['transformer-optimization', 'gradient-descent-dynamics', 'theoretical-analysis']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "HonestLLM: Toward an Honest and Helpful Large Language Model"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/0d99a8c048befb6dd6e17d7684adacac-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/0d99a8c048befb6dd6e17d7684adacac-Paper-Conference.pdf"
 categories: ['llm-values-ethics-alignment-evaluation', 'llm-safety-robustness-and-privacy-defenses']
 tags: ['llm-honesty', 'helpfulness', 'alignment', 'safety', 'truthfulness']
 venue: "NeurIPS 2024"

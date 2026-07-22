@@ -1,6 +1,7 @@
 ---
 title: "LlamaFactory: Unified Efficient Fine-Tuning of 100+ Language Models"
 source: "https://aclanthology.org/2024.acl-demos.38/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'collaborative-llm-deployment-and-inference-optimization']
 tags: ['fine-tuning', 'llm', 'efficient-training', 'unified-framework', 'parameter-efficient']
 venue: "ACL 2024"

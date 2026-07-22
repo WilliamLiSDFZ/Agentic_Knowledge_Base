@@ -1,6 +1,7 @@
 ---
 title: "Exploiting Target Language Data for Neural Machine Translation Beyond Back Translation"
 source: "https://aclanthology.org/2024.findings-acl.727/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'continual-learning-for-nlp-tasks']
 tags: ['neural-machine-translation', 'translation-memories', 'low-resource']
 venue: "ACL 2024"

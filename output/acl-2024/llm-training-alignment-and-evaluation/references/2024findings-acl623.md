@@ -1,6 +1,7 @@
 ---
 title: "Smaller Language Models are capable of selecting Instruction-Tuning Training Data for Larger Language Models"
 source: "https://aclanthology.org/2024.findings-acl.623/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['instruction-tuning', 'data-selection', 'training-efficiency']
 venue: "ACL 2024"

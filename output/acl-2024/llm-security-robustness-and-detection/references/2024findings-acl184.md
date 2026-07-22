@@ -1,6 +1,7 @@
 ---
 title: "A Chinese Dataset for Evaluating the Safeguards in Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.184/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'collaborative-llm-deployment-and-inference-optimization']
 tags: ['LLM-safety', 'Chinese-dataset', 'harmful-content']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Conversational Question Answering with Language Models Generated Reformulations over Knowledge Graph"
 source: "https://aclanthology.org/2024.findings-acl.48/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'coreference-resolution-and-dialogue-understanding']
 tags: ['conversational-QA', 'knowledge-graphs', 'question-reformulation']
 venue: "ACL 2024"

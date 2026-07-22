@@ -1,6 +1,7 @@
 ---
 title: "Vision-Flan: Scaling Human-Labeled Tasks in Visual Instruction Tuning"
 source: "https://aclanthology.org/2024.findings-acl.905/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llm-training-alignment-and-evaluation']
 tags: ['visual-instruction-tuning', 'task-diversity', 'vision-language-models']
 venue: "ACL 2024"

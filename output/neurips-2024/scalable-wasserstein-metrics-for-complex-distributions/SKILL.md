@@ -1,12 +1,12 @@
 ---
 name: scalable-wasserstein-metrics-for-complex-distributions
 description: >-
-  This skill covers scalable variants and extensions of Wasserstein distances for complex data structures, including spherical domains, heterogeneous joint distributions, and metric-space comparisons via Gromov-Wasserstein, using techniques such as sliced approximations, semidefinite relaxations, and hierarchical decompositions. Applications span climate model validation, distribution-valued regression
+  This skill covers scalable variants and relaxations of Wasserstein and Gromov-Wasserstein distances for complex, structured distributions, including sliced/hierarchical decompositions for heterogeneous joint distributions, semidefinite programming relaxations, and spherical convolutional adaptations. Applications span distribution-valued supervised learning via gradient boosting, climate model validation on
 ---
 
 # Scalable Wasserstein Metrics For Complex Distributions
 
-This skill covers scalable variants and extensions of Wasserstein distances for complex data structures, including spherical domains, heterogeneous joint distributions, and metric-space comparisons via Gromov-Wasserstein, using techniques such as sliced approximations, semidefinite relaxations, and hierarchical decompositions. Applications span climate model validation, distribution-valued regression
+This skill covers scalable variants and relaxations of Wasserstein and Gromov-Wasserstein distances for complex, structured distributions, including sliced/hierarchical decompositions for heterogeneous joint distributions, semidefinite programming relaxations, and spherical convolutional adaptations. Applications span distribution-valued supervised learning via gradient boosting, climate model validation on
 
 ## Entry Index
 

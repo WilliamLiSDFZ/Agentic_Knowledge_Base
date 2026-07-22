@@ -1,6 +1,7 @@
 ---
 title: "Discourse Structure-Aware Prefix for Generation-Based End-to-End Argumentation Mining"
 source: "https://aclanthology.org/2024.findings-acl.689/"
+pdf_url: ""
 categories: ['causal-reasoning-and-explanation-in-nlp', 'natural-language-processing-information-extraction']
 tags: ['argumentation-mining', 'discourse-structure', 'prefix-tuning']
 venue: "ACL 2024"

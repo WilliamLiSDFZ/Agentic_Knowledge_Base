@@ -1,6 +1,7 @@
 ---
 title: "Language Model Adaption for Reinforcement Learning with Natural Language Action Space"
 source: "https://aclanthology.org/2024.acl-long.89/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'financial-reasoning-llm-benchmarks-and-datasets']
 tags: ['reinforcement-learning', 'natural-language-action-space', 'language-model-adaptation']
 venue: "ACL 2024"

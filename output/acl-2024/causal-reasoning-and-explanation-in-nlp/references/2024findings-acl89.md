@@ -1,6 +1,7 @@
 ---
 title: "ConTempo: A Unified Temporally Contrastive Framework for Temporal Relation Extraction"
 source: "https://aclanthology.org/2024.findings-acl.89/"
+pdf_url: ""
 categories: ['causal-reasoning-and-explanation-in-nlp', 'natural-language-processing-information-extraction']
 tags: ['temporal-relation-extraction', 'contrastive-learning', 'event-understanding']
 venue: "ACL 2024"

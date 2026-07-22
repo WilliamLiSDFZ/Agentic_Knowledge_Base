@@ -1,6 +1,7 @@
 ---
 title: "Optimization Algorithm Design via Electric Circuits"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/7db2ffcbfd0bd361d47b7fa612bd2ba2-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/7db2ffcbfd0bd361d47b7fa612bd2ba2-Paper-Conference.pdf"
 categories: ['deep-learning-optimization-and-generalization-theory']
 tags: ['convex-optimization', 'RLC-circuits', 'algorithm-design']
 venue: "NeurIPS 2024"

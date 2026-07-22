@@ -1,6 +1,7 @@
 ---
 title: "Revisiting OPRO: The Limitations of Small-Scale LLMs as Optimizers"
 source: "https://aclanthology.org/2024.findings-acl.100/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'llm-agents-reasoning-and-planning']
 tags: ['prompt-optimization', 'llm-limitations', 'opro']
 venue: "ACL 2024"

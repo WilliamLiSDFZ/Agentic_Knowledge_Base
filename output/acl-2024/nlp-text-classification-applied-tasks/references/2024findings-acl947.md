@@ -1,6 +1,7 @@
 ---
 title: "ProgGen: Generating Named Entity Recognition Datasets Step-by-step with Self-Reflexive Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.947/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'nlp-text-classification-applied-tasks']
 tags: ['named-entity-recognition', 'data-generation', 'self-reflection']
 venue: "ACL 2024"

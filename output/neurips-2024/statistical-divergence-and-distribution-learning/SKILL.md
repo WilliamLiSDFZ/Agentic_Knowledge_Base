@@ -1,12 +1,12 @@
 ---
 name: statistical-divergence-and-distribution-learning
 description: >-
-  This skill covers statistical methods for measuring, estimating, and testing distributional properties, including f-divergences, mutual information, score matching, and hypothesis testing (goodness-of-fit, equivalence testing) under constraints such as differential privacy and communication limits. Applications span domain adaptation, distribution valuation, causal learning, variational inference, and generative modeling via normalizing flows and
+  This skill covers theoretical and algorithmic aspects of **estimating, comparing, and learning probability distributions**, including hypothesis testing (goodness-of-fit, equivalence testing) under privacy and communication constraints, f-divergence and mutual information estimation, score matching, and distribution learning with optimality guarantees. Applications span domain adaptation, differential privacy, causal inference, variational inference, and emerg
 ---
 
 # Statistical Divergence And Distribution Learning
 
-This skill covers statistical methods for measuring, estimating, and testing distributional properties, including f-divergences, mutual information, score matching, and hypothesis testing (goodness-of-fit, equivalence testing) under constraints such as differential privacy and communication limits. Applications span domain adaptation, distribution valuation, causal learning, variational inference, and generative modeling via normalizing flows and
+This skill covers theoretical and algorithmic aspects of **estimating, comparing, and learning probability distributions**, including hypothesis testing (goodness-of-fit, equivalence testing) under privacy and communication constraints, f-divergence and mutual information estimation, score matching, and distribution learning with optimality guarantees. Applications span domain adaptation, differential privacy, causal inference, variational inference, and emerg
 
 ## Entry Index
 

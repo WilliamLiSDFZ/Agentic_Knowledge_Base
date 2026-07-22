@@ -1,6 +1,7 @@
 ---
 title: "IntactKV: Improving Large Language Model Quantization by Keeping Pivot Tokens Intact"
 source: "https://aclanthology.org/2024.findings-acl.460/"
+pdf_url: ""
 categories: ['collaborative-llm-deployment-and-inference-optimization', 'transformer-architecture-analysis-and-design']
 tags: ['LLM-quantization', 'KV-cache', 'pivot-tokens', 'outliers', 'efficiency']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Learning Segmentation from Point Trajectories"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/cc57fac10eacadb3b72a907ac48f9a98-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/cc57fac10eacadb3b72a907ac48f9a98-Paper-Conference.pdf"
 categories: ['deep-learning-optimization-and-generalization-theory']
 tags: ['video-segmentation', 'motion-segmentation', 'point-trajectories']
 venue: "NeurIPS 2024"

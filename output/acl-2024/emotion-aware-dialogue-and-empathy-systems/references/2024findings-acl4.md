@@ -1,6 +1,7 @@
 ---
 title: "End-to-End Emotion Semantic Parsing"
 source: "https://aclanthology.org/2024.findings-acl.4/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems']
 tags: ['emotion-detection', 'semantic-parsing', 'emotion-cause', 'end-to-end']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Leveraging Entailment Judgements in Cross-Lingual Summarisation"
 source: "https://aclanthology.org/2024.findings-acl.862/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'multilingual-text-classification-and-sentiment-analysis']
 tags: ['cross-lingual-summarization', 'hallucination', 'entailment', 'faithfulness', 'data-quality']
 venue: "ACL 2024"

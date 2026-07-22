@@ -1,6 +1,7 @@
 ---
 title: "Sowing the Wind, Reaping the Whirlwind: The Impact of Editing Language Models"
 source: "https://aclanthology.org/2024.findings-acl.960/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'llm-training-alignment-and-evaluation']
 tags: ['red-teaming', 'knowledge-editing', 'LLM-safety']
 venue: "ACL 2024"

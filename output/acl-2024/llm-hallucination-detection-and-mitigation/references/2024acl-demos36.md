@@ -1,6 +1,7 @@
 ---
 title: "ELLA: Empowering LLMs for Interpretable, Accurate and Informative Legal Advice"
 source: "https://aclanthology.org/2024.acl-demos.36/"
+pdf_url: ""
 categories: ['legal-nlp-benchmarks-and-applications', 'llm-hallucination-detection-and-mitigation']
 tags: ['legal-advice', 'llm', 'interpretable-retrieval']
 venue: "ACL 2024"

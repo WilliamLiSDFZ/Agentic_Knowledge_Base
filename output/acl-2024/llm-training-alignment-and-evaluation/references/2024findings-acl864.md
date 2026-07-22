@@ -1,6 +1,7 @@
 ---
 title: "Enhanced Visual Instruction Tuning with Synthesized Image-Dialogue Data"
 source: "https://aclanthology.org/2024.findings-acl.864/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llm-training-alignment-and-evaluation']
 tags: ['multimodal-LLMs', 'visual-instruction-tuning', 'image-dialogue-data']
 venue: "ACL 2024"

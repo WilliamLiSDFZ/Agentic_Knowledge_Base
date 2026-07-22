@@ -1,6 +1,7 @@
 ---
 title: "Self-Guiding Exploration for Combinatorial Problems"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/eb9120be0dcaac0aec66d2e75deb69dd-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/eb9120be0dcaac0aec66d2e75deb69dd-Paper-Conference.pdf"
 categories: ['neural-combinatorial-optimization-and-learning']
 tags: ['llm-reasoning', 'combinatorial-problems', 'self-guided-exploration']
 venue: "NeurIPS 2024"

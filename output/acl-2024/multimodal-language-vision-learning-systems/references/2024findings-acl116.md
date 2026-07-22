@@ -1,6 +1,7 @@
 ---
 title: "MolTC: Towards Molecular Relational Modeling In Language Models"
 source: "https://aclanthology.org/2024.findings-acl.116/"
+pdf_url: ""
 categories: ['llm-agents-for-scientific-data-tasks', 'multimodal-language-vision-learning-systems']
 tags: ['molecular-relational-learning', 'drug-interaction', 'multimodal-llm']
 venue: "ACL 2024"

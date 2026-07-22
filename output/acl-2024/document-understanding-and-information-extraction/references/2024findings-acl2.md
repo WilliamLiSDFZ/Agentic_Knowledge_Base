@@ -1,6 +1,7 @@
 ---
 title: "Match More, Extract Better! Hybrid Matching Model for Open Domain Web Keyphrase Extraction"
 source: "https://aclanthology.org/2024.findings-acl.2/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'document-understanding-and-information-extraction']
 tags: ['keyphrase-extraction', 'hybrid-matching', 'web-documents']
 venue: "ACL 2024"

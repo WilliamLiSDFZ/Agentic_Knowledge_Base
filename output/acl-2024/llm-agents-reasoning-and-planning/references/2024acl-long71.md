@@ -1,6 +1,7 @@
 ---
 title: "Grounding Language Model with Chunking-Free In-Context Retrieval"
 source: "https://aclanthology.org/2024.acl-long.71/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'llm-agents-reasoning-and-planning']
 tags: ['retrieval-augmented-generation', 'chunking-free', 'in-context-retrieval']
 venue: "ACL 2024"

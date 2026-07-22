@@ -1,12 +1,12 @@
 ---
 name: computational-imaging-reconstruction-deep-learning
 description: >-
-  This skill covers computational methods for recovering, enhancing, or reconstructing images from degraded, compressed, or unconventional measurements, spanning tasks such as denoising, deblurring, compressive sensing, lensless imaging, and inverse problems. Methods include deep learning architectures (transformers, diffusion models, implicit neural representations, autoencoders), self-supervised and
+  This skill covers computational methods for solving inverse problems in imaging—including denoising, deblurring, compressive sensing, super-resolution, and lensless reconstruction—using deep learning architectures such as diffusion models, transformers, implicit neural representations, and autoencoders. It encompasses both supervised and self-supervised training strategies, learned image priors, and theoretical analysis of
 ---
 
 # Computational Imaging Reconstruction Deep Learning
 
-This skill covers computational methods for recovering, enhancing, or reconstructing images from degraded, compressed, or unconventional measurements, spanning tasks such as denoising, deblurring, compressive sensing, lensless imaging, and inverse problems. Methods include deep learning architectures (transformers, diffusion models, implicit neural representations, autoencoders), self-supervised and
+This skill covers computational methods for solving inverse problems in imaging—including denoising, deblurring, compressive sensing, super-resolution, and lensless reconstruction—using deep learning architectures such as diffusion models, transformers, implicit neural representations, and autoencoders. It encompasses both supervised and self-supervised training strategies, learned image priors, and theoretical analysis of
 
 ## Entry Index
 

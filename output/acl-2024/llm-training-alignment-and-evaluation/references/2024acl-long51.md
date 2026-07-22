@@ -1,6 +1,7 @@
 ---
 title: "FineSurE: Fine-grained Summarization Evaluation using LLMs"
 source: "https://aclanthology.org/2024.acl-long.51/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'llm-hallucination-detection-and-mitigation']
 tags: ['summarization-evaluation', 'llm-metrics', 'fine-grained']
 venue: "ACL 2024"

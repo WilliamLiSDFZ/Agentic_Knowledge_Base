@@ -1,6 +1,7 @@
 ---
 title: "Real World Conversational Entity Linking Requires More Than Zero-Shots"
 source: "https://aclanthology.org/2024.findings-acl.829/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'coreference-resolution-and-dialogue-understanding']
 tags: ['entity-linking', 'conversational-ai', 'zero-shot']
 venue: "ACL 2024"

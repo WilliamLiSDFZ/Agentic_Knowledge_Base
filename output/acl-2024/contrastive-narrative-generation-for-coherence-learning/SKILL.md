@@ -1,12 +1,12 @@
 ---
 name: contrastive-narrative-generation-for-coherence-learning
 description: >-
-  This skill covers generating semantically similar but structurally distinct narrative pairs (contrastive/counterfactual stories) to train models on narrative coherence, using methods such as Brownian Bridge stochastic processes for controlled story generation, causal intervention frameworks for counterfactual reasoning, and retrospective question-based fine-grained context modeling to capture discourse-level dependencies between
+  This skill covers generating contrastive narrative pairs (coherent vs. incoherent) to train models for narrative coherence assessment, using methods such as Brownian Bridge stochastic processes for controlled story generation, causal/counterfactual reasoning frameworks, and retrospective question-based fine-grained context modeling. Applications include improving narrative coherence evaluation, story understanding, and
 ---
 
 # Contrastive Narrative Generation For Coherence Learning
 
-This skill covers generating semantically similar but structurally distinct narrative pairs (contrastive/counterfactual stories) to train models on narrative coherence, using methods such as Brownian Bridge stochastic processes for controlled story generation, causal intervention frameworks for counterfactual reasoning, and retrospective question-based fine-grained context modeling to capture discourse-level dependencies between
+This skill covers generating contrastive narrative pairs (coherent vs. incoherent) to train models for narrative coherence assessment, using methods such as Brownian Bridge stochastic processes for controlled story generation, causal/counterfactual reasoning frameworks, and retrospective question-based fine-grained context modeling. Applications include improving narrative coherence evaluation, story understanding, and
 
 ## Entry Index
 

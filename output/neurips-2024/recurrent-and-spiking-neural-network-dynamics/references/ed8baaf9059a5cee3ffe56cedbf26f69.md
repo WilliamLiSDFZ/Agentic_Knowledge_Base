@@ -1,6 +1,7 @@
 ---
 title: "Inference of Neural Dynamics Using Switching Recurrent Neural Networks"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ed8baaf9059a5cee3ffe56cedbf26f69-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ed8baaf9059a5cee3ffe56cedbf26f69-Paper-Conference.pdf"
 categories: ['recurrent-and-spiking-neural-network-dynamics', 'disentangled-representation-learning-cognitive-diagnosis']
 tags: ['neural-dynamics', 'switching-rnn', 'latent-variable-models']
 venue: "NeurIPS 2024"

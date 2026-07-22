@@ -1,6 +1,7 @@
 ---
 title: "Hints-In-Browser: Benchmarking Language Models for Programming Feedback Generation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/34cc2ded6daba59357134c0b9fb06bfe-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/34cc2ded6daba59357134c0b9fb06bfe-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-benchmarks-for-clinical-healthcare']
 tags: ['programming-education', 'feedback-generation', 'LLM-benchmarking', 'hints', 'code-learning']
 venue: "NeurIPS 2024"

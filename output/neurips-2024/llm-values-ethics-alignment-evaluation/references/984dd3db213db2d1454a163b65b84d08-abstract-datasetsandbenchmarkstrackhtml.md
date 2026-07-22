@@ -1,6 +1,7 @@
 ---
 title: "Cooperation, Competition, and Maliciousness: LLM-Stakeholders Interactive Negotiation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/984dd3db213db2d1454a163b65b84d08-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/984dd3db213db2d1454a163b65b84d08-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-agent-communication-and-cooperation', 'llm-values-ethics-alignment-evaluation']
 tags: ['llm-negotiation', 'multi-agent-systems', 'cooperation']
 venue: "NeurIPS 2024"

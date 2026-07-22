@@ -1,6 +1,7 @@
 ---
 title: "Exploring Defeasibility in Causal Reasoning"
 source: "https://aclanthology.org/2024.findings-acl.384/"
+pdf_url: ""
 categories: ['causal-reasoning-and-explanation-in-nlp', 'moral-figurative-language-nlp-analysis']
 tags: ['causal-reasoning', 'defeasibility', 'strengthening', 'weakening', 'argumentation']
 venue: "ACL 2024"

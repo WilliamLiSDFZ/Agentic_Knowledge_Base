@@ -1,6 +1,7 @@
 ---
 title: "PROSPECT PTMs: Rich Labeled Tandem Mass Spectrometry Dataset of Modified Peptides for Machine Learning in Proteomics"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ed0c1f444b603cf9d158918050770765-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ed0c1f444b603cf9d158918050770765-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['machine-learning-for-molecular-biology', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['proteomics', 'post-translational-modifications', 'mass-spectrometry']
 venue: "NeurIPS 2024"

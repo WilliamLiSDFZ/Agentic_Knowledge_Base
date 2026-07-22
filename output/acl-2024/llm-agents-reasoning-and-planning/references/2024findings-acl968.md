@@ -1,6 +1,7 @@
 ---
 title: "FragRel: Exploiting Fragment-level Relations in the External Memory of Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.968/"
+pdf_url: ""
 categories: ['state-memory-replay-sequence-modeling', 'llm-agents-reasoning-and-planning']
 tags: ['long-context', 'external-memory', 'fragment-relations']
 venue: "ACL 2024"

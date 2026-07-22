@@ -1,6 +1,7 @@
 ---
 title: "Hyperparameter-Free Approach for Faster Minimum Bayes Risk Decoding"
 source: "https://aclanthology.org/2024.findings-acl.505/"
+pdf_url: ""
 categories: ['minimum-bayes-risk-decoding-efficiency', 'collaborative-llm-deployment-and-inference-optimization']
 tags: ['minimum-bayes-risk', 'decoding-efficiency', 'hyperparameter-free']
 venue: "ACL 2024"

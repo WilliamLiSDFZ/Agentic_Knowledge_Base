@@ -1,6 +1,7 @@
 ---
 title: "KorNAT: LLM Alignment Benchmark for Korean Social Values and Common Knowledge"
 source: "https://aclanthology.org/2024.findings-acl.666/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'language-technology-cultural-linguistic-diversity']
 tags: ['LLM-alignment', 'Korean-culture', 'benchmark']
 venue: "ACL 2024"

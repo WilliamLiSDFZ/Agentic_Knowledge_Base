@@ -1,6 +1,7 @@
 ---
 title: "Competition-Level Problems are Effective LLM Evaluators"
 source: "https://aclanthology.org/2024.findings-acl.803/"
+pdf_url: ""
 categories: ['code-llm-generation-and-evaluation', 'llm-training-alignment-and-evaluation']
 tags: ['LLM-evaluation', 'competition-problems', 'reasoning', 'code', 'data-contamination']
 venue: "ACL 2024"

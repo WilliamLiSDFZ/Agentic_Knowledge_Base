@@ -1,6 +1,7 @@
 ---
 title: "On the Language Encoder of Contrastive Cross-modal Models"
 source: "https://aclanthology.org/2024.findings-acl.293/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'language-model-representations-and-embedding-spaces']
 tags: ['CLIP', 'language-encoder', 'cross-modal']
 venue: "ACL 2024"

@@ -1,12 +1,12 @@
 ---
 name: neural-networks-for-formal-reasoning-and-verification
 description: >-
-  This skill covers the intersection of neural networks with formal methods, including **verifying and certifying neural network properties** (robustness bounds, Lipschitz constants, safety guarantees via differential dynamic logic), **analyzing the computational expressivity of architectures** (transformers recognizing formal languages, GNNs and arithmetic circuits), and **applying neural models to formal reasoning tasks** (
+  This skill covers the application of formal methods, logic, and mathematical verification to neural networks — both analyzing what neural networks can provably compute (e.g., characterizing transformers via formal language theory, arithmetic circuits, and algorithmic composition limits) and ensuring correctness/safety guarantees (e.g., certified robustness via smoothing, Lipschitz estimation, differential dynamic logic
 ---
 
 # Neural Networks For Formal Reasoning And Verification
 
-This skill covers the intersection of neural networks with formal methods, including **verifying and certifying neural network properties** (robustness bounds, Lipschitz constants, safety guarantees via differential dynamic logic), **analyzing the computational expressivity of architectures** (transformers recognizing formal languages, GNNs and arithmetic circuits), and **applying neural models to formal reasoning tasks** (
+This skill covers the application of formal methods, logic, and mathematical verification to neural networks — both analyzing what neural networks can provably compute (e.g., characterizing transformers via formal language theory, arithmetic circuits, and algorithmic composition limits) and ensuring correctness/safety guarantees (e.g., certified robustness via smoothing, Lipschitz estimation, differential dynamic logic
 
 ## Entry Index
 

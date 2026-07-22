@@ -1,6 +1,7 @@
 ---
 title: "k-SemStamp: A Clustering-Based Semantic Watermark for Detection of Machine-Generated Text"
 source: "https://aclanthology.org/2024.findings-acl.98/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'language-model-representations-and-embedding-spaces']
 tags: ['watermarking', 'machine-generated-text-detection', 'semantic-clustering']
 venue: "ACL 2024"

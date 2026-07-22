@@ -1,6 +1,7 @@
 ---
 title: "How Proficient Are Large Language Models in Formal Languages? An In-Depth Insight for Knowledge Base Question Answering"
 source: "https://aclanthology.org/2024.findings-acl.45/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['knowledge-base-qa', 'formal-language', 'semantic-parsing']
 venue: "ACL 2024"

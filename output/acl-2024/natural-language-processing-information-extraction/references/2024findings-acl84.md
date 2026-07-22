@@ -1,6 +1,7 @@
 ---
 title: "Temporal Validity Change Prediction"
 source: "https://aclanthology.org/2024.findings-acl.84/"
+pdf_url: ""
 categories: ['social-ai-temporal-dynamics-evaluation', 'natural-language-processing-information-extraction']
 tags: ['temporal-validity', 'text-classification', 'temporal-reasoning']
 venue: "ACL 2024"

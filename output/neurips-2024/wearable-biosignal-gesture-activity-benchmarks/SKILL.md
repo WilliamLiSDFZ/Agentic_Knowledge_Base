@@ -1,12 +1,12 @@
 ---
 name: wearable-biosignal-gesture-activity-benchmarks
 description: >-
-  This skill covers the design, benchmarking, and learning-based analysis of wearable and biosignal data—including EEG, EMG/sEMG, PPG, IMU, and skeletal inputs—for tasks such as gesture recognition, activity/action recognition, seizure detection, emotion recognition, pose estimation, and neural signal synthesis. It encompasses methods including
+  This skill covers benchmarking, modeling, and domain adaptation for wearable and physiological biosignal processing across modalities including EEG, EMG/sEMG, PPG, IMU, and egocentric video, targeting tasks such as gesture recognition, activity/action recognition, seizure detection, emotion recognition, pose estimation, and cross-subject generalization.
 ---
 
 # Wearable Biosignal Gesture Activity Benchmarks
 
-This skill covers the design, benchmarking, and learning-based analysis of wearable and biosignal data—including EEG, EMG/sEMG, PPG, IMU, and skeletal inputs—for tasks such as gesture recognition, activity/action recognition, seizure detection, emotion recognition, pose estimation, and neural signal synthesis. It encompasses methods including
+This skill covers benchmarking, modeling, and domain adaptation for wearable and physiological biosignal processing across modalities including EEG, EMG/sEMG, PPG, IMU, and egocentric video, targeting tasks such as gesture recognition, activity/action recognition, seizure detection, emotion recognition, pose estimation, and cross-subject generalization.
 
 ## Entry Index
 

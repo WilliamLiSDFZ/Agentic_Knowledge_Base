@@ -1,6 +1,7 @@
 ---
 title: "Large Pre-trained time series models for cross-domain Time series analysis tasks"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/662dcc5c2b9aca77b2a0ec8a98aefae9-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/662dcc5c2b9aca77b2a0ec8a98aefae9-Paper-Conference.pdf"
 categories: ['time-series-forecasting-and-analysis', 'llm-training-and-optimization-techniques']
 tags: ['large-pretrained-models', 'time-series', 'cross-domain']
 venue: "NeurIPS 2024"

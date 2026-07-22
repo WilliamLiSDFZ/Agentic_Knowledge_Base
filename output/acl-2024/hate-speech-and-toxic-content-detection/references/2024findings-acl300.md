@@ -1,6 +1,7 @@
 ---
 title: "MemeMQA: Multimodal Question Answering for Memes via Rationale-Based Inferencing"
 source: "https://aclanthology.org/2024.findings-acl.300/"
+pdf_url: ""
 categories: ['hate-speech-and-toxic-content-detection']
 tags: ['meme-analysis', 'multimodal-qa', 'harmful-content']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Understanding the Impacts of Language Technologies’ Performance Disparities on African American Language Speakers"
 source: "https://aclanthology.org/2024.findings-acl.761/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'bias-and-fairness-in-llms']
 tags: ['African-American-language', 'performance-disparity', 'language-technology', 'qualitative']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "RAP: Efficient Text-Video Retrieval with Sparse-and-Correlated Adapter"
 source: "https://aclanthology.org/2024.findings-acl.427/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems']
 tags: ['text-video-retrieval', 'adapter-tuning', 'vision-language-models']
 venue: "ACL 2024"

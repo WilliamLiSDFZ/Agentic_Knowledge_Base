@@ -1,6 +1,7 @@
 ---
 title: "Unveiling the Truth and Facilitating Change: Towards Agent-based Large-scale Social Movement Simulation"
 source: "https://aclanthology.org/2024.findings-acl.285/"
+pdf_url: ""
 categories: ['social-ai-temporal-dynamics-evaluation']
 tags: ['social-movement-simulation', 'LLM-agents', 'social-media']
 venue: "ACL 2024"

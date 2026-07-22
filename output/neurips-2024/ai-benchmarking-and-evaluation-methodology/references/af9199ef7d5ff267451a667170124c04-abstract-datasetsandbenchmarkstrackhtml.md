@@ -1,6 +1,7 @@
 ---
 title: "SHDocs: A dataset, benchmark, and method to efficiently generate high-quality, real-world specular highlight data with near-perfect alignment"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/af9199ef7d5ff267451a667170124c04-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/af9199ef7d5ff267451a667170124c04-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'scene-text-and-document-recognition']
 tags: ['specular-highlights', 'dataset', 'document-recognition']
 venue: "NeurIPS 2024"

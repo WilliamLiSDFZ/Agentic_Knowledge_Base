@@ -1,12 +1,12 @@
 ---
 name: bayesian-change-point-detection-hawkes-process
 description: >-
-  This skill covers Bayesian and statistical methods for detecting structural changes and causal relationships in event sequence data modeled as Hawkes processes, including conjugate Bayesian change point detection and Granger causal structure learning. Applications focus on temporal point processes where the goal is to identify shifts in self-exciting process parameters or infer directed dependency topologies from discrete event time series.
+  This skill covers Bayesian and statistical methods for detecting structural changes and inferring causal relationships in temporal point process data, with a focus on Hawkes processes. Key techniques include conjugate Bayesian inference for change point detection and Granger causality-based structural learning applied to event sequence data in networked or topological settings.
 ---
 
 # Bayesian Change Point Detection Hawkes Process
 
-This skill covers Bayesian and statistical methods for detecting structural changes and causal relationships in event sequence data modeled as Hawkes processes, including conjugate Bayesian change point detection and Granger causal structure learning. Applications focus on temporal point processes where the goal is to identify shifts in self-exciting process parameters or infer directed dependency topologies from discrete event time series.
+This skill covers Bayesian and statistical methods for detecting structural changes and inferring causal relationships in temporal point process data, with a focus on Hawkes processes. Key techniques include conjugate Bayesian inference for change point detection and Granger causality-based structural learning applied to event sequence data in networked or topological settings.
 
 ## Entry Index
 

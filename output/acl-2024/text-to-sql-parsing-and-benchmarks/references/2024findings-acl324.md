@@ -1,6 +1,7 @@
 ---
 title: "Before Generation, Align it! A Novel and Effective Strategy for Mitigating Hallucinations in Text-to-SQL Generation"
 source: "https://aclanthology.org/2024.findings-acl.324/"
+pdf_url: ""
 categories: ['text-to-sql-parsing-and-benchmarks', 'llm-hallucination-detection-and-mitigation']
 tags: ['text-to-sql', 'hallucination-mitigation', 'in-context-learning']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "LMDX: Language Model-based Document Information Extraction and Localization"
 source: "https://aclanthology.org/2024.findings-acl.899/"
+pdf_url: ""
 categories: ['document-understanding-and-information-extraction', 'natural-language-processing-information-extraction']
 tags: ['document-information-extraction', 'LLMs', 'visually-rich-documents', 'localization', 'structured-extraction']
 venue: "ACL 2024"

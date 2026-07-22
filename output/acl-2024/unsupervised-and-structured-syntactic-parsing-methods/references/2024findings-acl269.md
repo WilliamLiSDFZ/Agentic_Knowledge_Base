@@ -1,6 +1,7 @@
 ---
 title: "MRL Parsing Without Tears: The Case of Hebrew"
 source: "https://aclanthology.org/2024.findings-acl.269/"
+pdf_url: ""
 categories: ['unsupervised-and-structured-syntactic-parsing-methods', 'nlp-for-asian-languages']
 tags: ['morphologically-rich-languages', 'hebrew', 'syntactic-parsing']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Reinforcement Tuning for Detecting Stances and Debunking Rumors Jointly with Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.796/"
+pdf_url: ""
 categories: ['computational-misinformation-narrative-framing-detection', 'llm-training-alignment-and-evaluation']
 tags: ['stance-detection', 'rumor-verification', 'multi-task-learning']
 venue: "ACL 2024"

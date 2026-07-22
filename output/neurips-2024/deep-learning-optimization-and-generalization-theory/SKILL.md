@@ -1,12 +1,12 @@
 ---
 name: deep-learning-optimization-and-generalization-theory
 description: >-
-  This skill covers theoretical analysis and practical optimization of deep learning training dynamics, including convergence guarantees, generalization bounds, and architectural efficiency across settings such as PINNs, transformers, LLMs, and reinforcement learning. It encompasses methods like quantization, neural architecture search, contrastive/self-supervised learning, continual learning, and automatic differentiation optimization, with applications
+  This skill covers theoretical analysis and practical optimization of deep learning training dynamics, architectures, and generalization, spanning convergence guarantees for methods like PINNs, policy gradient algorithms, and transformer in-context learning, alongside efficiency techniques including quantization (QBB), neural architecture search, adaptive compute allocation for LLMs, and structured matrix linear layers. It also addresses training stability (
 ---
 
 # Deep Learning Optimization And Generalization Theory
 
-This skill covers theoretical analysis and practical optimization of deep learning training dynamics, including convergence guarantees, generalization bounds, and architectural efficiency across settings such as PINNs, transformers, LLMs, and reinforcement learning. It encompasses methods like quantization, neural architecture search, contrastive/self-supervised learning, continual learning, and automatic differentiation optimization, with applications
+This skill covers theoretical analysis and practical optimization of deep learning training dynamics, architectures, and generalization, spanning convergence guarantees for methods like PINNs, policy gradient algorithms, and transformer in-context learning, alongside efficiency techniques including quantization (QBB), neural architecture search, adaptive compute allocation for LLMs, and structured matrix linear layers. It also addresses training stability (
 
 ## Entry Index
 

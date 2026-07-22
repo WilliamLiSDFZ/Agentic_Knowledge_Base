@@ -1,6 +1,7 @@
 ---
 title: "Are Female Carpenters like Blue Bananas? A Corpus Investigation of Occupation Gender Typicality"
 source: "https://aclanthology.org/2024.findings-acl.253/"
+pdf_url: ""
 categories: ['gender-typicality-in-occupational-language']
 tags: ['gender-typicality', 'occupation-language', 'corpus-study']
 venue: "ACL 2024"

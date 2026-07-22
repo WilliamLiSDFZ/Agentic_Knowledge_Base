@@ -1,6 +1,7 @@
 ---
 title: "OPEx: A Component-Wise Analysis of LLM-Centric Agents in Embodied Instruction Following"
 source: "https://aclanthology.org/2024.acl-long.37/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'llm-physical-world-understanding-cognition']
 tags: ['embodied-instruction-following', 'LLM-agents', 'component-analysis']
 venue: "ACL 2024"

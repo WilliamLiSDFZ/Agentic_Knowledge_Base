@@ -1,6 +1,7 @@
 ---
 title: "Benchmarking Large Language Models on Communicative Medical Coaching: A Dataset and a Novel System"
 source: "https://aclanthology.org/2024.findings-acl.94/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp']
 tags: ['medical-coaching', 'dialogue-systems', 'benchmark']
 venue: "ACL 2024"

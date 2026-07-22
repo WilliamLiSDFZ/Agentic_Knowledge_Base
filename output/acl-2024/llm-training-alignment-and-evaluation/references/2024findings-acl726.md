@@ -1,6 +1,7 @@
 ---
 title: "A Comprehensive Evaluation of Quantization Strategies for Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.726/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['quantization', 'model-compression', 'evaluation', 'deployment-efficiency']
 venue: "ACL 2024"

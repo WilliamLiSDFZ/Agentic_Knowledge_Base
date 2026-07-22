@@ -1,6 +1,7 @@
 ---
 title: "Revisiting Multimodal Transformers for Tabular Data with Text Fields"
 source: "https://aclanthology.org/2024.findings-acl.87/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'language-model-human-cognitive-linguistic-alignment']
 tags: ['multimodal-transformers', 'tabular-data', 'text-fields']
 venue: "ACL 2024"

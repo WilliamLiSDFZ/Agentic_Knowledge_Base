@@ -1,6 +1,7 @@
 ---
 title: "It is Simple Sometimes: A Study On Improving Aspect-Based Sentiment Analysis Performance"
 source: "https://aclanthology.org/2024.findings-acl.394/"
+pdf_url: ""
 categories: ['multilingual-text-classification-and-sentiment-analysis', 'natural-language-processing-information-extraction']
 tags: ['aspect-based-sentiment', 'ABSA', 'text-classification']
 venue: "ACL 2024"

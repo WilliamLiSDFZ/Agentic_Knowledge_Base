@@ -1,6 +1,7 @@
 ---
 title: "Spotting AI’s Touch: Identifying LLM-Paraphrased Spans in Text"
 source: "https://aclanthology.org/2024.findings-acl.423/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'computational-misinformation-narrative-framing-detection']
 tags: ['ai-text-detection', 'paraphrase-detection', 'span-detection']
 venue: "ACL 2024"

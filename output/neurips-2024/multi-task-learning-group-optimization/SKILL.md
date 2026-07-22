@@ -1,12 +1,12 @@
 ---
 name: multi-task-learning-group-optimization
 description: >-
-  This skill covers optimization algorithms and frameworks for simultaneously handling multiple objectives, tasks, or agents, including **Pareto front navigation, bilevel optimization, group distributionally robust optimization, and preference-guided gradient methods**. Applications span federated learning with fairness/personalization constraints, multi-task learning across vision, medical AI, and EHR prediction, and multi-agent reinforcement learning
+  This skill covers optimization algorithms and frameworks for multi-task and multi-objective learning, including gradient-based Pareto front methods, bilevel optimization, group distributionally robust optimization, and preference-guided loss balancing. Applications span federated learning with fairness/personalization constraints, multi-task RL with cross-task policy transfer, medical foundation models, and EHR disease prediction
 ---
 
 # Multi Task Learning Group Optimization
 
-This skill covers optimization algorithms and frameworks for simultaneously handling multiple objectives, tasks, or agents, including **Pareto front navigation, bilevel optimization, group distributionally robust optimization, and preference-guided gradient methods**. Applications span federated learning with fairness/personalization constraints, multi-task learning across vision, medical AI, and EHR prediction, and multi-agent reinforcement learning
+This skill covers optimization algorithms and frameworks for multi-task and multi-objective learning, including gradient-based Pareto front methods, bilevel optimization, group distributionally robust optimization, and preference-guided loss balancing. Applications span federated learning with fairness/personalization constraints, multi-task RL with cross-task policy transfer, medical foundation models, and EHR disease prediction
 
 ## Entry Index
 

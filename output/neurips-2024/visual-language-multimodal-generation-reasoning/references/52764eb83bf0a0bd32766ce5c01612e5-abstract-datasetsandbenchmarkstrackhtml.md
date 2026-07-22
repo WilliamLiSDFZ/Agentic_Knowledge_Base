@@ -1,6 +1,7 @@
 ---
 title: "II-Bench: An Image Implication Understanding Benchmark for Multimodal Large Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/52764eb83bf0a0bd32766ce5c01612e5-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/52764eb83bf0a0bd32766ce5c01612e5-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning']
 tags: ['multimodal-llm', 'image-implication', 'visual-reasoning-benchmark']
 venue: "NeurIPS 2024"

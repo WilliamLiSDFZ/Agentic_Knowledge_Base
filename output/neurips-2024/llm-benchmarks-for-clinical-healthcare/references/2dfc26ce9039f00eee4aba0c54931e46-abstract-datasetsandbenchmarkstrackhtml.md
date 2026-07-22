@@ -1,6 +1,7 @@
 ---
 title: "UltraMedical: Building Specialized Generalists in Biomedicine"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/2dfc26ce9039f00eee4aba0c54931e46-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/2dfc26ce9039f00eee4aba0c54931e46-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-benchmarks-for-clinical-healthcare']
 tags: ['biomedical-llm', 'specialized-generalist', 'fine-tuning']
 venue: "NeurIPS 2024"

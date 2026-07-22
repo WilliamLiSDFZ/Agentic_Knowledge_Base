@@ -1,6 +1,7 @@
 ---
 title: "InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents"
 source: "https://aclanthology.org/2024.findings-acl.624/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'llm-agents-reasoning-and-planning']
 tags: ['prompt-injection', 'LLM-agents', 'security']
 venue: "ACL 2024"

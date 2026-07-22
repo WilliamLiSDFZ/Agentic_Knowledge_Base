@@ -1,6 +1,7 @@
 ---
 title: "Teaching Small Language Models to Reason for Knowledge-Intensive Multi-Hop Question Answering"
 source: "https://aclanthology.org/2024.findings-acl.464/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['knowledge-distillation', 'chain-of-thought', 'multi-hop-QA']
 venue: "ACL 2024"

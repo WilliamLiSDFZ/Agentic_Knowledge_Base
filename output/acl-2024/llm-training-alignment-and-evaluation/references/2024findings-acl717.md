@@ -1,6 +1,7 @@
 ---
 title: "Efficient Training of Language Models with Compact and Consistent Next Token Distributions"
 source: "https://aclanthology.org/2024.findings-acl.717/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['language-model-pretraining', 'n-gram-distribution', 'token-efficiency']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "TLCR: Token-Level Continuous Reward for Fine-grained Reinforcement Learning from Human Feedback"
 source: "https://aclanthology.org/2024.findings-acl.889/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'continuous-discrete-representation-tradeoffs']
 tags: ['RLHF', 'token-level-reward', 'fine-grained-alignment']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "AdaLomo: Low-memory Optimization with Adaptive Learning Rate"
 source: "https://aclanthology.org/2024.findings-acl.742/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'transformer-architecture-analysis-and-design']
 tags: ['low-memory-optimization', 'adaptive-learning-rate', 'llm-training', 'parameter-efficiency', 'LOMO']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Geometry of naturalistic object representations in recurrent neural network models of working memory"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/b63dba40303ae7adb3e2b16e5dd5fd0b-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/b63dba40303ae7adb3e2b16e5dd5fd0b-Paper-Conference.pdf"
 categories: ['recurrent-and-spiking-neural-network-dynamics', 'theoretical-foundations-of-neural-network-geometry']
 tags: ['working-memory', 'recurrent-neural-networks', 'naturalistic-inputs', 'geometry', 'cognitive-modeling']
 venue: "NeurIPS 2024"

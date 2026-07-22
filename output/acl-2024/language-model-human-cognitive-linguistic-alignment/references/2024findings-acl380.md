@@ -1,6 +1,7 @@
 ---
 title: "Too Big to Fail: Larger Language Models are Disproportionately Resilient to Induction of Dementia-Related Linguistic Anomalies"
 source: "https://aclanthology.org/2024.findings-acl.380/"
+pdf_url: ""
 categories: ['language-model-human-cognitive-linguistic-alignment', 'online-discourse-mental-health-language-analysis']
 tags: ['language-models', 'dementia', 'perplexity']
 venue: "ACL 2024"

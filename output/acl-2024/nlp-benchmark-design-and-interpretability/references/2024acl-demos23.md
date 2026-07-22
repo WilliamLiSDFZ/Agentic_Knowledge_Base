@@ -1,6 +1,7 @@
 ---
 title: "UltraEval: A Lightweight Platform for Flexible and Comprehensive Evaluation for LLMs"
 source: "https://aclanthology.org/2024.acl-demos.23/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'nlp-benchmark-design-and-interpretability']
 tags: ['llm-evaluation-platform', 'benchmark-framework', 'lightweight-evaluation']
 venue: "ACL 2024"

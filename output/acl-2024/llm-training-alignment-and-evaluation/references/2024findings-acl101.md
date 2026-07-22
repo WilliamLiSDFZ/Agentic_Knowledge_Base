@@ -1,6 +1,7 @@
 ---
 title: "CeeBERT: Cross-Domain Inference in Early Exit BERT"
 source: "https://aclanthology.org/2024.findings-acl.101/"
+pdf_url: ""
 categories: ['transformer-architecture-analysis-and-design', 'llm-training-alignment-and-evaluation']
 tags: ['early-exit', 'bert', 'cross-domain-inference']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Initializing Variable-sized Vision Transformers from Learngene with Learnable Transformation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/4c5e2bcbf21bdf40d75fddad0bd43dc9-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/4c5e2bcbf21bdf40d75fddad0bd43dc9-Paper-Conference.pdf"
 categories: ['self-distillation-knowledge-transfer-gains']
 tags: ['learngene', 'vision-transformers', 'weight-initialization']
 venue: "NeurIPS 2024"

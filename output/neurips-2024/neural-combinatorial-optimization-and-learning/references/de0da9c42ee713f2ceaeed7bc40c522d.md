@@ -1,6 +1,7 @@
 ---
 title: "IPM-LSTM: A Learning-Based Interior Point Method for Solving Nonlinear Programs"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/de0da9c42ee713f2ceaeed7bc40c522d-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/de0da9c42ee713f2ceaeed7bc40c522d-Paper-Conference.pdf"
 categories: ['neural-combinatorial-optimization-and-learning']
 tags: ['interior-point-method', 'nonlinear-programming', 'lstm-solver']
 venue: "NeurIPS 2024"

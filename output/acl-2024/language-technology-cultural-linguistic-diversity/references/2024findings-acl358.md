@@ -1,6 +1,7 @@
 ---
 title: "Zero-shot Cross-lingual Alignment for Embedding Initialization"
 source: "https://aclanthology.org/2024.findings-acl.358/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'language-model-representations-and-embedding-spaces']
 tags: ['cross-lingual', 'embedding-initialization', "Zipf's-law", 'multilingual', 'unsupervised']
 venue: "ACL 2024"

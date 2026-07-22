@@ -1,6 +1,7 @@
 ---
 title: "Topic-Conversation Relevance (TCR)  Dataset and Benchmarks"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/fd9b0883e4c9f0f0b3db673ce54dc8f2-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/fd9b0883e4c9f0f0b3db673ce54dc8f2-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'statistical-inference-and-text-generation-methods\n\nhmm,-let-me-reconsider---looking-more-carefully-at-the-cluster:\n\n**score-matching-and-sampling-methods**']
 tags: ['topic-relevance', 'meeting-effectiveness', 'benchmark-dataset', 'conversation-analysis', 'workplace']
 venue: "NeurIPS 2024"

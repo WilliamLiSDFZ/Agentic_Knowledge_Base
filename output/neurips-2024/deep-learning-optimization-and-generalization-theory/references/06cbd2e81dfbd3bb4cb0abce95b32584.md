@@ -1,6 +1,7 @@
 ---
 title: "Optimizing Automatic Differentiation with Deep Reinforcement Learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/06cbd2e81dfbd3bb4cb0abce95b32584-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/06cbd2e81dfbd3bb4cb0abce95b32584-Paper-Conference.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'deep-learning-optimization-and-generalization-theory']
 tags: ['automatic-differentiation', 'jacobian-computation', 'deep-reinforcement-learning']
 venue: "NeurIPS 2024"

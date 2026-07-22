@@ -1,6 +1,7 @@
 ---
 title: "NewTerm: Benchmarking Real-Time New Terms for Large Language Models with Annual Updates"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/3eec719ab86712d32b065c5977f94ad0-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/3eec719ab86712d32b065c5977f94ad0-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-training-and-optimization-techniques']
 tags: ['LLM-benchmarking', 'real-time-knowledge', 'knowledge-cutoff']
 venue: "NeurIPS 2024"

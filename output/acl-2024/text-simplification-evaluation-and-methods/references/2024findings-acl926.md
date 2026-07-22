@@ -1,6 +1,7 @@
 ---
 title: "From Tarzan to Tolkien: Controlling the Language Proficiency Level of LLMs for Content Generation"
 source: "https://aclanthology.org/2024.findings-acl.926/"
+pdf_url: ""
 categories: ['text-simplification-evaluation-and-methods', 'llm-agents-reasoning-and-planning']
 tags: ['text-generation', 'language-proficiency', 'content-control']
 venue: "ACL 2024"

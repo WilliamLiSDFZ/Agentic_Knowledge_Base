@@ -1,6 +1,7 @@
 ---
 title: "Framing in the Presence of Supporting Data: A Case Study in U.S. Economic News"
 source: "https://aclanthology.org/2024.acl-long.24/"
+pdf_url: ""
 categories: ['computational-misinformation-narrative-framing-detection', 'natural-language-processing-information-extraction']
 tags: ['media-framing', 'economic-news', 'computational-journalism', 'bias-detection', 'nlp']
 venue: "ACL 2024"

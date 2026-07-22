@@ -1,6 +1,7 @@
 ---
 title: "DevEval: A Manually-Annotated Code Generation Benchmark Aligned with Real-World Code Repositories"
 source: "https://aclanthology.org/2024.findings-acl.214/"
+pdf_url: ""
 categories: ['code-llm-generation-and-evaluation', 'llm-training-alignment-and-evaluation']
 tags: ['code-generation', 'benchmark', 'LLM-evaluation', 'real-world', 'repository-level']
 venue: "ACL 2024"

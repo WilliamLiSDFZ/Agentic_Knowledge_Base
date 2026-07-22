@@ -1,6 +1,7 @@
 ---
 title: "Large Language Models are Few-Shot Training Example Generators: A Case Study in Fallacy Recognition"
 source: "https://aclanthology.org/2024.findings-acl.732/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'causal-reasoning-and-explanation-in-nlp']
 tags: ['fallacy-recognition', 'few-shot-learning', 'data-generation']
 venue: "ACL 2024"

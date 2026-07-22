@@ -1,6 +1,7 @@
 ---
 title: "Citation-Enhanced Generation for LLM-based Chatbots"
 source: "https://aclanthology.org/2024.acl-long.79/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'natural-language-processing-information-extraction']
 tags: ['hallucination-mitigation', 'citation-grounding', 'llm-chatbots']
 venue: "ACL 2024"

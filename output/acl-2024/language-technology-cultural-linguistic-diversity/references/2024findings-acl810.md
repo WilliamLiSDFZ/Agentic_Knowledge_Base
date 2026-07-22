@@ -1,6 +1,7 @@
 ---
 title: "Efficient Domain Adaptation for Non-Autoregressive Machine Translation"
 source: "https://aclanthology.org/2024.findings-acl.810/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'transformer-architecture-analysis-and-design']
 tags: ['domain-adaptation', 'non-autoregressive-MT', 'neural-machine-translation', 'efficiency']
 venue: "ACL 2024"

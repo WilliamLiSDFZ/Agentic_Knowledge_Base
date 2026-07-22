@@ -1,6 +1,7 @@
 ---
 title: "History-Aware Conversational Dense Retrieval"
 source: "https://aclanthology.org/2024.findings-acl.792/"
+pdf_url: ""
 categories: ['coreference-resolution-and-dialogue-understanding', 'llm-based-ranking-and-recommendation']
 tags: ['conversational-search', 'dense-retrieval', 'history-aware']
 venue: "ACL 2024"

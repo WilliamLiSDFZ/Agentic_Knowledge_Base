@@ -1,6 +1,7 @@
 ---
 title: "Exploring Spatial Schema Intuitions in Large Language and Vision Models"
 source: "https://aclanthology.org/2024.findings-acl.365/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'language-models-physical-grounding-limitations']
 tags: ['spatial-reasoning', 'embodiment', 'large-language-models', 'vision-models', 'schema']
 venue: "ACL 2024"

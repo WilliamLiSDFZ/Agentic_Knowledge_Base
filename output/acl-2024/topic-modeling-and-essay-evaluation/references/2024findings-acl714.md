@@ -1,6 +1,7 @@
 ---
 title: "Discovering influential text using convolutional neural networks"
 source: "https://aclanthology.org/2024.findings-acl.714/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'topic-modeling-and-essay-evaluation']
 tags: ['convolutional-neural-networks', 'influential-text', 'causal-text-effects']
 venue: "ACL 2024"

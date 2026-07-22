@@ -1,6 +1,7 @@
 ---
 title: "CLASP: Cross-modal Alignment Using Pre-trained Unimodal Models"
 source: "https://aclanthology.org/2024.findings-acl.684/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'speech-and-language-multimodal-generation-systems']
 tags: ['speech-text-alignment', 'cross-modal', 'unimodal-pretraining']
 venue: "ACL 2024"

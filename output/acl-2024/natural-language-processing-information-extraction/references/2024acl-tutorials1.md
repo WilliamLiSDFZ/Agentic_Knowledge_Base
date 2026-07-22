@@ -1,6 +1,7 @@
 ---
 title: "Computational Linguistics for Brain Encoding and Decoding: Principles, Practices and Beyond"
 source: "https://aclanthology.org/2024.acl-tutorials.1/"
+pdf_url: ""
 categories: ['neural-language-brain-interface-research', 'natural-language-processing-information-extraction']
 tags: ['brain-encoding', 'brain-decoding', 'computational-linguistics']
 venue: "ACL 2024"

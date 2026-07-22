@@ -1,6 +1,7 @@
 ---
 title: "Just Ask One More Time! Self-Agreement Improves Reasoning of Language Models in (Almost) All Scenarios"
 source: "https://aclanthology.org/2024.findings-acl.230/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'llm-hallucination-detection-and-mitigation']
 tags: ['chain-of-thought', 'self-consistency', 'reasoning', 'ensemble']
 venue: "ACL 2024"

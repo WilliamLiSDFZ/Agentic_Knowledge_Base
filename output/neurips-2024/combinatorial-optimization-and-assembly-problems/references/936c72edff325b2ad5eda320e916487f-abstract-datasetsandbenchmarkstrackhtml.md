@@ -1,6 +1,7 @@
 ---
 title: "IKEA Manuals at Work: 4D Grounding of Assembly Instructions on Internet Videos"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/936c72edff325b2ad5eda320e916487f-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/936c72edff325b2ad5eda320e916487f-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['combinatorial-optimization-and-assembly-problems']
 tags: ['shape-assembly', '4D-grounding', 'IKEA', 'instruction-following', 'video-understanding']
 venue: "NeurIPS 2024"

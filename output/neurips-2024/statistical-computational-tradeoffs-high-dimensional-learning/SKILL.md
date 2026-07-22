@@ -1,12 +1,12 @@
 ---
 name: statistical-computational-tradeoffs-high-dimensional-learning
 description: >-
-  This skill covers the analysis of fundamental tradeoffs between statistical efficiency and computational tractability in high-dimensional machine learning and inference tasks, including sparse regression, dimensionality reduction (PCA, CCA, subspace estimation), clustering, and hypothesis testing. It encompasses hardness results (cryptographic, low-degree polynomial), algorithm design under constraints (differential privacy, adversarial robustness
+  This skill covers the theoretical analysis of **statistical-computational tradeoffs** in high-dimensional learning problems, examining when computationally efficient algorithms can match information-theoretic optimal rates and when hardness barriers (cryptographic, low-degree polynomial, or otherwise) prevent this. It spans sparse regression/estimation, dimensionality reduction (PCA, CCA, random projections), differential
 ---
 
 # Statistical Computational Tradeoffs High Dimensional Learning
 
-This skill covers the analysis of fundamental tradeoffs between statistical efficiency and computational tractability in high-dimensional machine learning and inference tasks, including sparse regression, dimensionality reduction (PCA, CCA, subspace estimation), clustering, and hypothesis testing. It encompasses hardness results (cryptographic, low-degree polynomial), algorithm design under constraints (differential privacy, adversarial robustness
+This skill covers the theoretical analysis of **statistical-computational tradeoffs** in high-dimensional learning problems, examining when computationally efficient algorithms can match information-theoretic optimal rates and when hardness barriers (cryptographic, low-degree polynomial, or otherwise) prevent this. It spans sparse regression/estimation, dimensionality reduction (PCA, CCA, random projections), differential
 
 ## Entry Index
 

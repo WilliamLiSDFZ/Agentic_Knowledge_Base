@@ -1,6 +1,7 @@
 ---
 title: "DynaSemble: Dynamic Ensembling of Textual and Structure-Based Models for Knowledge Graph Completion"
 source: "https://aclanthology.org/2024.acl-short.20/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'concept-embedding-taxonomy-hierarchy-representation']
 tags: ['knowledge-graph-completion', 'dynamic-ensembling', 'textual-structural-models']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Benchmarking Structural Inference Methods for Interacting Dynamical Systems with Synthetic Data"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/f3c812da38d1bc796cb2e8235eee96bf-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/f3c812da38d1bc796cb2e8235eee96bf-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'graph-neural-networks-and-representation-learning']
 tags: ['structural-inference', 'dynamical-systems', 'benchmark']
 venue: "NeurIPS 2024"

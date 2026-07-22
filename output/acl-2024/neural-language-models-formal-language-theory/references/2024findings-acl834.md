@@ -1,6 +1,7 @@
 ---
 title: "Length Generalization of Causal Transformers without Position Encoding"
 source: "https://aclanthology.org/2024.findings-acl.834/"
+pdf_url: ""
 categories: ['transformer-architecture-analysis-and-design', 'neural-language-models-formal-language-theory']
 tags: ['length-generalization', 'transformers', 'position-encoding', 'NoPE']
 venue: "ACL 2024"

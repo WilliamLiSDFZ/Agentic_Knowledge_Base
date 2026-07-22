@@ -1,6 +1,7 @@
 ---
 title: "Wordflow: Social Prompt Engineering for Large Language Models"
 source: "https://aclanthology.org/2024.acl-demos.5/"
+pdf_url: ""
 categories: ['nlp-research-culture-and-practices', 'social-ai-temporal-dynamics-evaluation']
 tags: ['prompt-engineering', 'social-collaboration', 'LLM-tools']
 venue: "ACL 2024"

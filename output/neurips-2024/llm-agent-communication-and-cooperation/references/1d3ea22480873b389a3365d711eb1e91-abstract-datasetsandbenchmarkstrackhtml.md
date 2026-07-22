@@ -1,6 +1,7 @@
 ---
 title: "Melting Pot Contest: Charting the Future of Generalized Cooperative Intelligence"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1d3ea22480873b389a3365d711eb1e91-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1d3ea22480873b389a3365d711eb1e91-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'llm-agent-communication-and-cooperation']
 tags: ['multi-agent', 'cooperative-intelligence', 'melting-pot']
 venue: "NeurIPS 2024"

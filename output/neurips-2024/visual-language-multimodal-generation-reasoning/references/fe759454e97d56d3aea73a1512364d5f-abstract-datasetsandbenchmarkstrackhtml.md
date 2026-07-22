@@ -1,6 +1,7 @@
 ---
 title: "WikiDO: A New Benchmark Evaluating Cross-Modal Retrieval for Vision-Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/fe759454e97d56d3aea73a1512364d5f-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/fe759454e97d56d3aea73a1512364d5f-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'visual-language-multimodal-generation-reasoning']
 tags: ['cross-modal-retrieval', 'vision-language-benchmark', 'evaluation']
 venue: "NeurIPS 2024"

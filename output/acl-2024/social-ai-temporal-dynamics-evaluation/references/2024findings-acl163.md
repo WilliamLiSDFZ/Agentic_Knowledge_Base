@@ -1,6 +1,7 @@
 ---
 title: "Social Intelligence Data Infrastructure: Structuring the Present and Navigating the Future"
 source: "https://aclanthology.org/2024.findings-acl.163/"
+pdf_url: ""
 categories: ['social-ai-temporal-dynamics-evaluation', 'topic-modeling-and-essay-evaluation']
 tags: ['social-intelligence', 'dataset-infrastructure', 'benchmarking']
 venue: "ACL 2024"

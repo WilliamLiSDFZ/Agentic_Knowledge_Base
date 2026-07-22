@@ -1,6 +1,7 @@
 ---
 title: "OpenVNA: A Framework for Analyzing the Behavior of Multimodal Language Understanding System under Noisy Scenarios"
 source: "https://aclanthology.org/2024.acl-demos.2/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llm-security-robustness-and-detection']
 tags: ['multimodal-language-understanding', 'noise-robustness', 'open-source-framework']
 venue: "ACL 2024"

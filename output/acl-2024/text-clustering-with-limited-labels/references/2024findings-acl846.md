@@ -1,6 +1,7 @@
 ---
 title: "Demonstration Augmentation for Zero-shot In-context Learning"
 source: "https://aclanthology.org/2024.findings-acl.846/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'text-clustering-with-limited-labels']
 tags: ['in-context-learning', 'demonstration-augmentation', 'zero-shot']
 venue: "ACL 2024"

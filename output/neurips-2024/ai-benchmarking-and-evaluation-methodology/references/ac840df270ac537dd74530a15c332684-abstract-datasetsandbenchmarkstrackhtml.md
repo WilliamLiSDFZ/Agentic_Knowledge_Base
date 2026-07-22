@@ -1,6 +1,7 @@
 ---
 title: "SpreadsheetBench: Towards Challenging Real World Spreadsheet Manipulation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ac840df270ac537dd74530a15c332684-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ac840df270ac537dd74530a15c332684-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['spreadsheet-manipulation', 'LLM-benchmark', 'real-world-evaluation', 'table-reasoning', 'code-generation']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Structural Optimization Ambiguity and Simplicity Bias in Unsupervised Neural Grammar Induction"
 source: "https://aclanthology.org/2024.findings-acl.898/"
+pdf_url: ""
 categories: ['unsupervised-and-structured-syntactic-parsing-methods']
 tags: ['grammar-induction', 'unsupervised-parsing', 'neural-parameterization', 'simplicity-bias']
 venue: "ACL 2024"

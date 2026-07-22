@@ -1,6 +1,7 @@
 ---
 title: "Extracting and Encoding: Leveraging Large Language Models and Medical Knowledge to Enhance Radiological Text Representation"
 source: "https://aclanthology.org/2024.findings-acl.236/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp', 'multimodal-language-vision-learning-systems']
 tags: ['radiology', 'representation-learning', 'medical-nlp', 'knowledge-extraction', 'multimodal']
 venue: "ACL 2024"

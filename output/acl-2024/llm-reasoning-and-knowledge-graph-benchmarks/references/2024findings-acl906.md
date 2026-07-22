@@ -1,6 +1,7 @@
 ---
 title: "TAXI: Evaluating Categorical Knowledge Editing for Language Models"
 source: "https://aclanthology.org/2024.findings-acl.906/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-training-alignment-and-evaluation']
 tags: ['knowledge-editing', 'categorical-reasoning', 'LLM-evaluation', 'consistency', 'benchmark']
 venue: "ACL 2024"

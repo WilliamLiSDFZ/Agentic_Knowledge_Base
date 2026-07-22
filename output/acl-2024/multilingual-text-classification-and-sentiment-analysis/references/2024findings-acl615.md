@@ -1,6 +1,7 @@
 ---
 title: "Refining and Synthesis: A Simple yet Effective Data Augmentation Framework for Cross-Domain Aspect-based Sentiment Analysis"
 source: "https://aclanthology.org/2024.findings-acl.615/"
+pdf_url: ""
 categories: ['multilingual-text-classification-and-sentiment-analysis', 'natural-language-processing-information-extraction']
 tags: ['aspect-based-sentiment-analysis', 'data-augmentation', 'cross-domain']
 venue: "ACL 2024"

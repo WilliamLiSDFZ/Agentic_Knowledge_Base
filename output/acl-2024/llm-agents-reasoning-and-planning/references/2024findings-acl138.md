@@ -1,6 +1,7 @@
 ---
 title: "Iterative Refinement of Project-Level Code Context for Precise Code Generation with Compiler Feedback"
 source: "https://aclanthology.org/2024.findings-acl.138/"
+pdf_url: ""
 categories: ['code-llm-generation-and-evaluation', 'llm-agents-reasoning-and-planning']
 tags: ['code-generation', 'compiler-feedback', 'project-context']
 venue: "ACL 2024"

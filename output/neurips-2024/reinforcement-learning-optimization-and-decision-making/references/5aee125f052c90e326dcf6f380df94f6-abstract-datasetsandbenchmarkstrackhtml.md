@@ -1,6 +1,7 @@
 ---
 title: "JaxMARL: Multi-Agent RL Environments and Algorithms in JAX"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/5aee125f052c90e326dcf6f380df94f6-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/5aee125f052c90e326dcf6f380df94f6-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['multi-agent-reinforcement-learning', 'JAX', 'benchmarking']
 venue: "NeurIPS 2024"

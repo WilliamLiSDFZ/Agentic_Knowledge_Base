@@ -1,6 +1,7 @@
 ---
 title: "Is the Pope Catholic? Yes, the Pope is Catholic. Generative Evaluation of Non-Literal Intent Resolution in LLMs"
 source: "https://aclanthology.org/2024.acl-short.26/"
+pdf_url: ""
 categories: ['moral-figurative-language-nlp-analysis', 'language-model-human-cognitive-linguistic-alignment']
 tags: ['non-literal-intent', 'figurative-language', 'generative-evaluation']
 venue: "ACL 2024"

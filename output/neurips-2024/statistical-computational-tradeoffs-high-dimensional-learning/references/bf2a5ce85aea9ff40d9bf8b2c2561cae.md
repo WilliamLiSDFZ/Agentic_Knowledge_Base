@@ -1,6 +1,7 @@
 ---
 title: "Tight Bounds for Learning RUMs from Small Slates"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/bf2a5ce85aea9ff40d9bf8b2c2561cae-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/bf2a5ce85aea9ff40d9bf8b2c2561cae-Paper-Conference.pdf"
 categories: ['machine-learning-theory-and-evaluation-methods', 'statistical-computational-tradeoffs-high-dimensional-learning']
 tags: ['random-utility-models', 'learning-from-rankings', 'sample-complexity']
 venue: "NeurIPS 2024"

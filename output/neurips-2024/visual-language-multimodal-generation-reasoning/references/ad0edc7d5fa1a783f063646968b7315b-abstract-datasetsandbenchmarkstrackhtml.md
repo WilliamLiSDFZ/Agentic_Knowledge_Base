@@ -1,6 +1,7 @@
 ---
 title: "Measuring Multimodal Mathematical Reasoning with MATH-Vision Dataset"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ad0edc7d5fa1a783f063646968b7315b-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ad0edc7d5fa1a783f063646968b7315b-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning']
 tags: ['multimodal-mathematical-reasoning', 'LMM-benchmark', 'visual-math', 'dataset', 'evaluation']
 venue: "NeurIPS 2024"

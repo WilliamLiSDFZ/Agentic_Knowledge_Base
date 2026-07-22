@@ -1,12 +1,12 @@
 ---
 name: llm-agents-for-scientific-data-tasks
 description: >-
-  This skill covers the application of LLMs and multi-modal models as autonomous agents for scientific data tasks, including hypothesis generation, symbolic regression and function discovery, data visualization (chart recommendation and code-based plotting), molecular relational modeling, domain-specific scientific comprehension (ocean science, chemistry), and scientific document processing (summarization, peer review response editing, and literature-driven inspiration). Methods
+  This skill covers the application of LLMs and multimodal models as agents for scientific data tasks, including hypothesis generation, symbolic regression and function discovery, scientific visualization (chart recommendation and code-based plotting), molecule-text relational modeling, paper summarization and revision, and domain-specific scientific reasoning (e.g., oceanography). Methods span prompt engineering, in-context learning, a
 ---
 
 # Llm Agents For Scientific Data Tasks
 
-This skill covers the application of LLMs and multi-modal models as autonomous agents for scientific data tasks, including hypothesis generation, symbolic regression and function discovery, data visualization (chart recommendation and code-based plotting), molecular relational modeling, domain-specific scientific comprehension (ocean science, chemistry), and scientific document processing (summarization, peer review response editing, and literature-driven inspiration). Methods
+This skill covers the application of LLMs and multimodal models as agents for scientific data tasks, including hypothesis generation, symbolic regression and function discovery, scientific visualization (chart recommendation and code-based plotting), molecule-text relational modeling, paper summarization and revision, and domain-specific scientific reasoning (e.g., oceanography). Methods span prompt engineering, in-context learning, a
 
 ## Entry Index
 

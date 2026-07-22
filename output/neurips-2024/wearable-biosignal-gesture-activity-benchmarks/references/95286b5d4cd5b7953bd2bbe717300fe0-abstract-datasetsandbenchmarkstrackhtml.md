@@ -1,6 +1,7 @@
 ---
 title: "BuckTales: A multi-UAV dataset for multi-object tracking and re-identification of wild antelopes"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/95286b5d4cd5b7953bd2bbe717300fe0-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/95286b5d4cd5b7953bd2bbe717300fe0-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'wearable-biosignal-gesture-activity-benchmarks']
 tags: ['UAV-dataset', 'multi-object-tracking', 'wildlife-re-identification']
 venue: "NeurIPS 2024"

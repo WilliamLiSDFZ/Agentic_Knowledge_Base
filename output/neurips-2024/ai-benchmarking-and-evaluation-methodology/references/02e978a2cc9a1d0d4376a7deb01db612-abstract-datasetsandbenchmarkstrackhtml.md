@@ -1,6 +1,7 @@
 ---
 title: "Sim2Real-Fire: A Multi-modal Simulation Dataset for Forecast and Backtracking of Real-world Forest Fire"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/02e978a2cc9a1d0d4376a7deb01db612-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/02e978a2cc9a1d0d4376a7deb01db612-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['physics-informed-neural-operators-and-simulations', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['wildfire-simulation', 'sim-to-real', 'multimodal-dataset']
 venue: "NeurIPS 2024"

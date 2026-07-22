@@ -1,6 +1,7 @@
 ---
 title: "Expecting The Unexpected: Towards Broad Out-Of-Distribution Detection"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ec80d18205e39d42a27192d5f3ddd688-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ec80d18205e39d42a27192d5f3ddd688-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['machine-learning-theory-and-evaluation-methods', 'statistical-testing-under-distribution-shift']
 tags: ['out-of-distribution-detection', 'distribution-shift', 'anomaly-detection']
 venue: "NeurIPS 2024"

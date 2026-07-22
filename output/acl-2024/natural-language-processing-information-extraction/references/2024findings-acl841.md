@@ -1,6 +1,7 @@
 ---
 title: "FENICE: Factuality Evaluation of summarization based on Natural language Inference and Claim Extraction"
 source: "https://aclanthology.org/2024.findings-acl.841/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'natural-language-processing-information-extraction']
 tags: ['hallucination', 'summarization-factuality', 'NLI', 'claim-extraction', 'evaluation']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Fine-Tuning Pre-Trained Language Models with Gaze Supervision"
 source: "https://aclanthology.org/2024.acl-short.21/"
+pdf_url: ""
 categories: ['language-model-human-cognitive-linguistic-alignment']
 tags: ['gaze-supervision', 'cognitive-nlp', 'fine-tuning']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "What Is Missing For Graph Homophily? Disentangling Graph Homophily For Graph Neural Networks"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/7e810b2c75d69be186cadd2fe3febeab-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/7e810b2c75d69be186cadd2fe3febeab-Paper-Conference.pdf"
 categories: ['graph-neural-networks-and-representation-learning', 'disentangled-representation-learning-cognitive-diagnosis']
 tags: ['graph-homophily', 'graph-neural-networks', 'disentanglement', 'homophily-metrics', 'node-classification']
 venue: "NeurIPS 2024"

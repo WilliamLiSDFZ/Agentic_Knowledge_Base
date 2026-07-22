@@ -1,6 +1,7 @@
 ---
 title: "DetectRL: Benchmarking LLM-Generated Text Detection in Real-World Scenarios"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/b61bdf7e9f64c04ec75a26e781e2ad51-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/b61bdf7e9f64c04ec75a26e781e2ad51-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-safety-robustness-and-privacy-defenses']
 tags: ['LLM-text-detection', 'benchmarking', 'real-world-robustness', 'DetectGPT', 'zero-shot-detection']
 venue: "NeurIPS 2024"

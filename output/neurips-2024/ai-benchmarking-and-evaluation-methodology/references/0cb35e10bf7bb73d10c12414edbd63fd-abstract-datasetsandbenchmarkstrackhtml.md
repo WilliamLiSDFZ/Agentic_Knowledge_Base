@@ -1,6 +1,7 @@
 ---
 title: "BenchX: A Unified Benchmark Framework for Medical Vision-Language Pretraining on Chest X-Rays"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/0cb35e10bf7bb73d10c12414edbd63fd-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/0cb35e10bf7bb73d10c12414edbd63fd-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['medical-vision-language', 'chest-X-ray', 'benchmark', 'pretraining', 'evaluation-framework']
 venue: "NeurIPS 2024"

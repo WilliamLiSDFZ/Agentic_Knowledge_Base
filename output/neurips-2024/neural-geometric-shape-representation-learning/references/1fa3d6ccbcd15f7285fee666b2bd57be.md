@@ -1,6 +1,7 @@
 ---
 title: "From an Image to a Scene: Learning to Imagine the World from a Million 360° Videos"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1fa3d6ccbcd15f7285fee666b2bd57be-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1fa3d6ccbcd15f7285fee666b2bd57be-Paper-Conference.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'neural-geometric-shape-representation-learning']
 tags: ['3d-scene-generation', '360-video', 'world-models', 'novel-view-synthesis', 'video-understanding']
 venue: "NeurIPS 2024"

@@ -1,12 +1,12 @@
 ---
 name: causal-discovery-and-inference-methods
 description: >-
-  This skill covers methods for discovering causal structures from observational and interventional data (e.g., ordering-based discovery, Bayesian structure learning, identifiability of SCMs) and estimating causal effects (e.g., individualized treatment rules, covariate adjustment, counterfactual regression), including applications to feature selection, representation learning, and multi-modal systems
+  This skill covers methods for discovering causal structure from observational and interventional data (structure learning, identifiability analysis, Bayesian causal graph inference) and performing causal inference tasks including counterfactual estimation, individualized treatment effect estimation, and covariate adjustment. It spans both classical approaches (ordering-based discovery, structural causal models, knockoff-based feature selection
 ---
 
 # Causal Discovery And Inference Methods
 
-This skill covers methods for discovering causal structures from observational and interventional data (e.g., ordering-based discovery, Bayesian structure learning, identifiability of SCMs) and estimating causal effects (e.g., individualized treatment rules, covariate adjustment, counterfactual regression), including applications to feature selection, representation learning, and multi-modal systems
+This skill covers methods for discovering causal structure from observational and interventional data (structure learning, identifiability analysis, Bayesian causal graph inference) and performing causal inference tasks including counterfactual estimation, individualized treatment effect estimation, and covariate adjustment. It spans both classical approaches (ordering-based discovery, structural causal models, knockoff-based feature selection
 
 ## Entry Index
 

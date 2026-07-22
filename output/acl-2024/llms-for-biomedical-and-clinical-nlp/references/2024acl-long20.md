@@ -1,6 +1,7 @@
 ---
 title: "Confidence Under the Hood: An Investigation into the Confidence-Probability Alignment in Large Language Models"
 source: "https://aclanthology.org/2024.acl-long.20/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp', 'llm-training-alignment-and-evaluation']
 tags: ['confidence-calibration', 'LLM-reliability', 'probability-alignment']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Red Teaming Visual Language Models"
 source: "https://aclanthology.org/2024.findings-acl.198/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection']
 tags: ['red-teaming', 'vision-language-models', 'safety', 'adversarial']
 venue: "ACL 2024"

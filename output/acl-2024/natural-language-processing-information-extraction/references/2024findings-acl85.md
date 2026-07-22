@@ -1,6 +1,7 @@
 ---
 title: "RIFF: Learning to Rephrase Inputs for Few-shot Fine-tuning of Language Models"
 source: "https://aclanthology.org/2024.findings-acl.85/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'natural-language-processing-information-extraction']
 tags: ['input-rephrasing', 'few-shot-fine-tuning', 'prompt-optimization']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Revisiting Interpolation Augmentation for Speech-to-Text Generation"
 source: "https://aclanthology.org/2024.findings-acl.565/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems', 'continual-learning-for-nlp-tasks']
 tags: ['speech-to-text', 'interpolation-augmentation', 'low-resource']
 venue: "ACL 2024"

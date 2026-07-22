@@ -1,6 +1,7 @@
 ---
 title: "T2Vs Meet VLMs: A Scalable Multimodal Dataset for Visual Harmfulness Recognition"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/cd1640f5795c7cdc6aefce566d7a35b3-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/cd1640f5795c7cdc6aefce566d7a35b3-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['toxicity-detection-and-classification-datasets', 'visual-language-multimodal-generation-reasoning']
 tags: ['harmful-content', 'video-language-models', 'multimodal-dataset', 'visual-harmfulness', 'content-moderation']
 venue: "NeurIPS 2024"

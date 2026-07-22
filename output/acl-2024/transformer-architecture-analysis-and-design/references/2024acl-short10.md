@@ -1,6 +1,7 @@
 ---
 title: "UltraSparseBERT: 99% Conditionally Sparse Language Modelling"
 source: "https://aclanthology.org/2024.acl-short.10/"
+pdf_url: ""
 categories: ['transformer-architecture-analysis-and-design', 'language-model-representations-and-embedding-spaces']
 tags: ['sparse-transformers', 'conditional-computation', 'efficient-inference']
 venue: "ACL 2024"

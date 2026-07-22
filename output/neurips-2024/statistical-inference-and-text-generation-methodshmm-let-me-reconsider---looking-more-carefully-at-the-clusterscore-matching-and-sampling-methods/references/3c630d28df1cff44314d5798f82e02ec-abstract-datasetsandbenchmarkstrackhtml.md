@@ -1,6 +1,7 @@
 ---
 title: "OpenDebateEvidence: A Massive-Scale Argument Mining and Summarization Dataset"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/3c630d28df1cff44314d5798f82e02ec-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/3c630d28df1cff44314d5798f82e02ec-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['scientific-document-retrieval-and-citation', 'statistical-inference-and-text-generation-methods\n\nhmm,-let-me-reconsider---looking-more-carefully-at-the-cluster:\n\n**score-matching-and-sampling-methods**']
 tags: ['argument-mining', 'debate-evidence', 'summarization-dataset']
 venue: "NeurIPS 2024"

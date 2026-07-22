@@ -1,6 +1,7 @@
 ---
 title: "BlendSQL: A Scalable Dialect for Unifying Hybrid Question Answering in Relational Algebra"
 source: "https://aclanthology.org/2024.findings-acl.25/"
+pdf_url: ""
 categories: ['text-to-sql-parsing-and-benchmarks']
 tags: ['hybrid-qa', 'text-to-sql', 'relational-algebra']
 venue: "ACL 2024"

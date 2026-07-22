@@ -1,6 +1,7 @@
 ---
 title: "ACUEval: Fine-grained Hallucination Evaluation and Correction for Abstractive Summarization"
 source: "https://aclanthology.org/2024.findings-acl.597/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'llms-for-biomedical-and-clinical-nlp']
 tags: ['hallucination-evaluation', 'abstractive-summarization', 'fine-grained', 'correction', 'LLMs']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Infusing Synthetic Data with Real-World Patterns for Zero-Shot Material State Segmentation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/6ef4a4b387a5a547ea699f3df7fc1248-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/6ef4a4b387a5a547ea699f3df7fc1248-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['generative-models-for-visual-style-and-appearance', 'visual-language-multimodal-generation-reasoning']
 tags: ['material-segmentation', 'synthetic-data', 'zero-shot-learning']
 venue: "NeurIPS 2024"

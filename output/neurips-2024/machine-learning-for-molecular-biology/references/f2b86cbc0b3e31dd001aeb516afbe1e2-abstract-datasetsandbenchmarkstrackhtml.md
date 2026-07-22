@@ -1,6 +1,7 @@
 ---
 title: "GV-Rep: A Large-Scale Dataset for Genetic Variant Representation Learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/f2b86cbc0b3e31dd001aeb516afbe1e2-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/f2b86cbc0b3e31dd001aeb516afbe1e2-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['machine-learning-for-molecular-biology', 'machine-learning-theory-and-evaluation-methods']
 tags: ['genetic-variants', 'representation-learning', 'genomics-dataset']
 venue: "NeurIPS 2024"

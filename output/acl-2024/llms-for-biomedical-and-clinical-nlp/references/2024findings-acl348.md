@@ -1,6 +1,7 @@
 ---
 title: "BioMistral: A Collection of Open-Source Pretrained Large Language Models for Medical Domains"
 source: "https://aclanthology.org/2024.findings-acl.348/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp', 'llm-training-alignment-and-evaluation']
 tags: ['biomedical', 'pretraining', 'open-source']
 venue: "ACL 2024"

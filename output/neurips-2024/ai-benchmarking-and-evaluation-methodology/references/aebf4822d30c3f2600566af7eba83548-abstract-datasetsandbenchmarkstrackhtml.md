@@ -1,6 +1,7 @@
 ---
 title: "UnlearnCanvas:  Stylized Image Dataset for Enhanced Machine Unlearning Evaluation in Diffusion Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/aebf4822d30c3f2600566af7eba83548-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/aebf4822d30c3f2600566af7eba83548-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['generative-models-for-visual-style-and-appearance', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['machine-unlearning', 'diffusion-models', 'stylized-image-dataset']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "LibAMM: Empirical Insights into Approximate Computing for Accelerating Matrix Multiplication"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/6f7ee021d6fafc8ec7d1c97b61a38373-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/6f7ee021d6fafc8ec7d1c97b61a38373-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['statistical-learning-theory-and-matrix-methods', 'autonomous-driving-and-trajectory-prediction']
 tags: ['approximate-matrix-multiplication', 'empirical-benchmarking', 'computational-efficiency']
 venue: "NeurIPS 2024"

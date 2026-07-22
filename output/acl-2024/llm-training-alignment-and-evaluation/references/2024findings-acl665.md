@@ -1,6 +1,7 @@
 ---
 title: "Both Matter: Enhancing the Emotional Intelligence of Large Language Models without Compromising the General Intelligence"
 source: "https://aclanthology.org/2024.findings-acl.665/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems', 'llm-training-alignment-and-evaluation']
 tags: ['emotional-intelligence', 'llm-alignment', 'conversational-ai']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "An Information Bottleneck Perspective for Effective Noise Filtering on Retrieval-Augmented Generation"
 source: "https://aclanthology.org/2024.acl-long.59/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'collaborative-llm-deployment-and-inference-optimization']
 tags: ['retrieval-augmented-generation', 'noise-filtering', 'information-bottleneck']
 venue: "ACL 2024"

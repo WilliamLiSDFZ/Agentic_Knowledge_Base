@@ -1,6 +1,7 @@
 ---
 title: "What Do Dialect Speakers Want? A Survey of Attitudes Towards Language Technology for German Dialects"
 source: "https://aclanthology.org/2024.acl-short.74/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'language-model-human-cognitive-linguistic-alignment']
 tags: ['dialect-attitudes', 'german-dialects', 'speaker-needs']
 venue: "ACL 2024"

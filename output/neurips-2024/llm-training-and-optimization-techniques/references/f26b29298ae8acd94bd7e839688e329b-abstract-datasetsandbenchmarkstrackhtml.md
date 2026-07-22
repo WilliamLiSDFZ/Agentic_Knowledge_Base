@@ -1,6 +1,7 @@
 ---
 title: "IaC-Eval: A Code Generation Benchmark for Cloud Infrastructure-as-Code Programs"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/f26b29298ae8acd94bd7e839688e329b-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/f26b29298ae8acd94bd7e839688e329b-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-training-and-optimization-techniques']
 tags: ['infrastructure-as-code', 'code-generation', 'benchmark']
 venue: "NeurIPS 2024"

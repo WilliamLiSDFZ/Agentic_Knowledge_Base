@@ -1,6 +1,7 @@
 ---
 title: "Data-faithful Feature Attribution: Mitigating Unobservable Confounders via Instrumental Variables"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/4f84e81c0a4eed2024cebcfb8f9d6e7f-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/4f84e81c0a4eed2024cebcfb8f9d6e7f-Paper-Conference.pdf"
 categories: ['causal-discovery-and-inference-methods', 'machine-learning-theory-and-evaluation-methods']
 tags: ['feature-attribution', 'instrumental-variables', 'confounders', 'causal-inference', 'explainability']
 venue: "NeurIPS 2024"

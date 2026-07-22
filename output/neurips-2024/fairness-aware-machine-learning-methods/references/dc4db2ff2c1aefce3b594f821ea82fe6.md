@@ -1,6 +1,7 @@
 ---
 title: "The Group Robustness is in the Details: Revisiting Finetuning under Spurious Correlations"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/dc4db2ff2c1aefce3b594f821ea82fe6-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/dc4db2ff2c1aefce3b594f821ea82fe6-Paper-Conference.pdf"
 categories: ['fairness-aware-machine-learning-methods', 'llm-training-and-optimization-techniques']
 tags: ['spurious-correlations', 'worst-group-accuracy', 'finetuning']
 venue: "NeurIPS 2024"

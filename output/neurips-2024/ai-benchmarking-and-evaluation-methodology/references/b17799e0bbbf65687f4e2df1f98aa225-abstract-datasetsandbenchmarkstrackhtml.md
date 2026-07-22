@@ -1,6 +1,7 @@
 ---
 title: "Benchmarking the Attribution Quality of Vision Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/b17799e0bbbf65687f4e2df1f98aa225-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/b17799e0bbbf65687f4e2df1f98aa225-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['attribution-maps', 'explainability', 'benchmarking']
 venue: "NeurIPS 2024"

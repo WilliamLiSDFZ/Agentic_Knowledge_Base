@@ -1,6 +1,7 @@
 ---
 title: "CR-UTP: Certified Robustness against Universal Text Perturbations on Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.588/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'llm-training-alignment-and-evaluation']
 tags: ['certified-robustness', 'universal-perturbations', 'LLM-security']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "E2-LLM: Efficient and Extreme Length Extension of Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.252/"
+pdf_url: ""
 categories: ['transformer-architecture-analysis-and-design', 'llm-training-alignment-and-evaluation']
 tags: ['long-context', 'LLM-extension', 'efficient-training']
 venue: "ACL 2024"

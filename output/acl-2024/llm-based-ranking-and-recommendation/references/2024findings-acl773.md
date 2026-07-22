@@ -1,6 +1,7 @@
 ---
 title: "EcoRank: Budget-Constrained Text Re-ranking Using Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.773/"
+pdf_url: ""
 categories: ['llm-based-ranking-and-recommendation']
 tags: ['text-reranking', 'budget-constraint', 'llm-prompting']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "STimage-1K4M: A histopathology image-gene expression dataset for spatial transcriptomics"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/3ef2b740cb22dcce67c20989cb3d3fce-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/3ef2b740cb22dcce67c20989cb3d3fce-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'machine-learning-for-molecular-biology']
 tags: ['spatial-transcriptomics', 'histopathology', 'image-gene-expression']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Using Unity to Help Solve Reinforcement Learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/04c0c541d936f7cbfbb21085116236cd-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/04c0c541d936f7cbfbb21085116236cd-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'network-simulation-reinforcement-learning-benchmarking']
 tags: ['reinforcement-learning', 'environment-toolkit', 'open-source']
 venue: "NeurIPS 2024"

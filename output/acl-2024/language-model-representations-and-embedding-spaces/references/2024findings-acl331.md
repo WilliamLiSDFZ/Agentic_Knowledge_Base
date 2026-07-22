@@ -1,6 +1,7 @@
 ---
 title: "SSS: Editing Factual Knowledge in Language Models towards Semantic Sparse Space"
 source: "https://aclanthology.org/2024.findings-acl.331/"
+pdf_url: ""
 categories: ['continual-learning-for-nlp-tasks', 'language-model-representations-and-embedding-spaces']
 tags: ['knowledge-editing', 'sparse-representation', 'factual-updates']
 venue: "ACL 2024"

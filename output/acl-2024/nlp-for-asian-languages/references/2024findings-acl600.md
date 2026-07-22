@@ -1,6 +1,7 @@
 ---
 title: "TURNA: A Turkish Encoder-Decoder Language Model for Enhanced Understanding and Generation"
 source: "https://aclanthology.org/2024.findings-acl.600/"
+pdf_url: ""
 categories: ['nlp-for-asian-languages']
 tags: ['Turkish', 'encoder-decoder', 'low-resource-language']
 venue: "ACL 2024"

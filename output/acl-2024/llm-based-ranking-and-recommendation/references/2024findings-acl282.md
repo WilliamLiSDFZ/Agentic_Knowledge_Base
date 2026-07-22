@@ -1,6 +1,7 @@
 ---
 title: "MrRank: Improving Question Answering Retrieval System through Multi-Result Ranking Model"
 source: "https://aclanthology.org/2024.findings-acl.282/"
+pdf_url: ""
 categories: ['llm-based-ranking-and-recommendation', 'llm-hallucination-detection-and-mitigation']
 tags: ['question-answering', 'retrieval-augmentation', 'multi-result-ranking']
 venue: "ACL 2024"

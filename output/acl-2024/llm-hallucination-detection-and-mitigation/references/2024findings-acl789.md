@@ -1,6 +1,7 @@
 ---
 title: "Enhancing Hallucination Detection through Perturbation-Based Synthetic Data Generation in System Responses"
 source: "https://aclanthology.org/2024.findings-acl.789/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'collaborative-llm-deployment-and-inference-optimization']
 tags: ['hallucination-detection', 'synthetic-data', 'perturbation']
 venue: "ACL 2024"

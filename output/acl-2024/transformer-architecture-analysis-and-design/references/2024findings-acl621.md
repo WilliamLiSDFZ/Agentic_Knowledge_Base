@@ -1,6 +1,7 @@
 ---
 title: "Mixture-of-Supernets: Improving Weight-Sharing Supernet Training with Architecture-Routed Mixture-of-Experts"
 source: "https://aclanthology.org/2024.findings-acl.621/"
+pdf_url: ""
 categories: ['transformer-architecture-analysis-and-design', 'llm-training-alignment-and-evaluation']
 tags: ['neural-architecture-search', 'mixture-of-experts', 'weight-sharing', 'supernet', 'NLP']
 venue: "ACL 2024"

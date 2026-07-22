@@ -1,6 +1,7 @@
 ---
 title: "Listen Again and Choose the Right Answer: A New Paradigm for Automatic Speech Recognition with Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.37/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems', 'llm-hallucination-detection-and-mitigation']
 tags: ['ASR', 'generative-error-correction', 'N-best-hypotheses', 'LLM', 'speech-recognition']
 venue: "ACL 2024"

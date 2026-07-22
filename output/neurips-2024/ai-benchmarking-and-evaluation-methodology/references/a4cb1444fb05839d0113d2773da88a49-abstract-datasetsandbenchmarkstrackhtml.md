@@ -1,6 +1,7 @@
 ---
 title: "DACO: Towards Application-Driven and Comprehensive Data Analysis via Code Generation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a4cb1444fb05839d0113d2773da88a49-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a4cb1444fb05839d0113d2773da88a49-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['data-analysis', 'code-generation', 'llm', 'benchmark', 'reasoning']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Revisiting Code Similarity Evaluation with Abstract Syntax Tree Edit Distance"
 source: "https://aclanthology.org/2024.acl-short.3/"
+pdf_url: ""
 categories: ['code-llm-generation-and-evaluation', 'string-to-string-alignment-algorithms-library\n\nwait,-let-me-reconsider-for-conciseness-(3-7-words):\n\n`string-similarity-and-alignment-algorithms']
 tags: ['code-similarity', 'abstract-syntax-tree', 'edit-distance', 'evaluation-metrics', 'programming-languages']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "A Graph per Persona: Reasoning about Subjective Natural Language Descriptions"
 source: "https://aclanthology.org/2024.findings-acl.115/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['subjective-reasoning', 'knowledge-graph', 'persona', 'opinions-preferences']
 venue: "ACL 2024"

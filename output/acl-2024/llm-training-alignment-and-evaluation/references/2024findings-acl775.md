@@ -1,6 +1,7 @@
 ---
 title: "Aligning Large Multimodal Models with Factually Augmented RLHF"
 source: "https://aclanthology.org/2024.findings-acl.775/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llm-training-alignment-and-evaluation']
 tags: ['multimodal-alignment', 'hallucination-mitigation', 'factually-augmented-rlhf']
 venue: "ACL 2024"

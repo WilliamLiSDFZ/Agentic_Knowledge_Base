@@ -1,6 +1,7 @@
 ---
 title: "Arctique: An artificial histopathological dataset unifying realism and controllability for uncertainty quantification"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/840ba425392fbfede5cf50c755c608c6-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/840ba425392fbfede5cf50c755c608c6-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'computational-imaging-reconstruction-deep-learning']
 tags: ['uncertainty-quantification', 'histopathology', 'synthetic-benchmarks']
 venue: "NeurIPS 2024"

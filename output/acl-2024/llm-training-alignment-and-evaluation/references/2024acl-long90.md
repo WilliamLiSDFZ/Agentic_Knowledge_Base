@@ -1,6 +1,7 @@
 ---
 title: "Evaluating Intention Detection Capability of Large Language Models in Persuasive Dialogues"
 source: "https://aclanthology.org/2024.acl-long.90/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems', 'llm-training-alignment-and-evaluation']
 tags: ['intention-detection', 'persuasive-dialogue', 'LLM-evaluation', 'conversational-history', 'multi-turn']
 venue: "ACL 2024"

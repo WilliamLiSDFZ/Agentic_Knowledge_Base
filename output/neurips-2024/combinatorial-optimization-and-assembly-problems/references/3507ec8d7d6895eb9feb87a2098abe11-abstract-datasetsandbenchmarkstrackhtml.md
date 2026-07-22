@@ -1,6 +1,7 @@
 ---
 title: "Re-assembling the past: The RePAIR dataset and benchmark for real world 2D and 3D puzzle solving"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/3507ec8d7d6895eb9feb87a2098abe11-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/3507ec8d7d6895eb9feb87a2098abe11-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['combinatorial-optimization-and-assembly-problems', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['puzzle-solving', '3D-reassembly', 'benchmark-dataset']
 venue: "NeurIPS 2024"

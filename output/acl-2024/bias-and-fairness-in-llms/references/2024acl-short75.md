@@ -1,6 +1,7 @@
 ---
 title: "SeeGULL Multilingual: a Dataset of Geo-Culturally Situated Stereotypes"
 source: "https://aclanthology.org/2024.acl-short.75/"
+pdf_url: ""
 categories: ['bias-and-fairness-in-llms', 'language-technology-cultural-linguistic-diversity']
 tags: ['stereotypes', 'multilingual', 'geo-cultural', 'dataset', 'fairness']
 venue: "ACL 2024"

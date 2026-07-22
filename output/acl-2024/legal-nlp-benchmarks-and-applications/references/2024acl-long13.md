@@ -1,6 +1,7 @@
 ---
 title: "Through the Lens of Split Vote: Exploring Disagreement, Difficulty and Calibration in Legal Case Outcome Classification"
 source: "https://aclanthology.org/2024.acl-long.13/"
+pdf_url: ""
 categories: ['legal-nlp-benchmarks-and-applications', 'llm-training-alignment-and-evaluation']
 tags: ['legal-NLP', 'split-vote', 'disagreement', 'calibration', 'case-outcome-classification']
 venue: "ACL 2024"

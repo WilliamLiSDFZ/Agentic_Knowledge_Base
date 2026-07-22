@@ -1,6 +1,7 @@
 ---
 title: "InstructEd: Soft-Instruction Tuning for Model Editing with Hops"
 source: "https://aclanthology.org/2024.findings-acl.888/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation']
 tags: ['model-editing', 'soft-instruction', 'multi-hop']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Stratified Prediction-Powered Inference for Effective Hybrid Evaluation of Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/c9fcd02e6445c7dfbad6986abee53d0d-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/c9fcd02e6445c7dfbad6986abee53d0d-Paper-Conference.pdf"
 categories: ['statistical-inference-and-text-generation-methods\n\nhmm,-let-me-reconsider---looking-more-carefully-at-the-cluster:\n\n**score-matching-and-sampling-methods**', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['prediction-powered-inference', 'stratification', 'language-model-evaluation', 'hybrid-evaluation', 'statistical-estimation']
 venue: "NeurIPS 2024"

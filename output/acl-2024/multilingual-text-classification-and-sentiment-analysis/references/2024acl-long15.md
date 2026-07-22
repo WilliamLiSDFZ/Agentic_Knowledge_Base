@@ -1,6 +1,7 @@
 ---
 title: "A Novel Cartography-Based Curriculum Learning Method Applied on RoNLI: The First Romanian Natural Language Inference Corpus"
 source: "https://aclanthology.org/2024.acl-long.15/"
+pdf_url: ""
 categories: ['multilingual-text-classification-and-sentiment-analysis', 'label-noise-robust-annotation-learning']
 tags: ['natural-language-inference', 'curriculum-learning', 'romanian']
 venue: "ACL 2024"

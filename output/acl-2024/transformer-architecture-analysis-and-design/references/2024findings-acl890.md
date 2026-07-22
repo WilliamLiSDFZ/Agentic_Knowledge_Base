@@ -1,6 +1,7 @@
 ---
 title: "Found in the middle: Calibrating Positional Attention Bias Improves Long Context Utilization"
 source: "https://aclanthology.org/2024.findings-acl.890/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'transformer-architecture-analysis-and-design']
 tags: ['long-context', 'positional-bias', 'attention', 'LLM']
 venue: "ACL 2024"

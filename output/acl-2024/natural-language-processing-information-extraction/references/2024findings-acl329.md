@@ -1,6 +1,7 @@
 ---
 title: "Improving the Robustness of Distantly-Supervised Named Entity Recognition via Uncertainty-Aware Teacher Learning and Student-Student Collaborative Learning"
 source: "https://aclanthology.org/2024.findings-acl.329/"
+pdf_url: ""
 categories: ['label-noise-robust-annotation-learning', 'natural-language-processing-information-extraction']
 tags: ['distant-supervision', 'named-entity-recognition', 'label-noise', 'teacher-student', 'collaborative-learning']
 venue: "ACL 2024"

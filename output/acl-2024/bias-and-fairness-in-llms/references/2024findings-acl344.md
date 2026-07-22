@@ -1,6 +1,7 @@
 ---
 title: "Asymmetric Bias in Text-to-Image Generation with Adversarial Attacks"
 source: "https://aclanthology.org/2024.findings-acl.344/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'bias-and-fairness-in-llms']
 tags: ['text-to-image', 'adversarial-attacks', 'bias', 'safety', 'robustness']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "NetworkGym: Reinforcement Learning Environments for Multi-Access Traffic Management in Network Simulation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/c112271dab20d38b43a1c0669f86b4f6-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/c112271dab20d38b43a1c0669f86b4f6-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['network-simulation-reinforcement-learning-benchmarking', 'reinforcement-learning-optimization-and-decision-making']
 tags: ['reinforcement-learning', 'network-simulation', 'multi-access', 'traffic-management', 'benchmark']
 venue: "NeurIPS 2024"

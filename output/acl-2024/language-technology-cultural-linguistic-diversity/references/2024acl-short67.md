@@ -1,6 +1,7 @@
 ---
 title: "Self-Augmented In-Context Learning for Unsupervised Word Translation"
 source: "https://aclanthology.org/2024.acl-short.67/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'language-model-representations-and-embedding-spaces']
 tags: ['word-translation', 'bilingual-lexicon-induction', 'in-context-learning']
 venue: "ACL 2024"

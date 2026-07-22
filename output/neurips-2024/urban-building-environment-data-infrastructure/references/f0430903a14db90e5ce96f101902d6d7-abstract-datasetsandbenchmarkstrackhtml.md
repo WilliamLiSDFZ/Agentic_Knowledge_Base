@@ -1,6 +1,7 @@
 ---
 title: "Building Timeseries Dataset: Empowering Large-Scale Building Analytics"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/f0430903a14db90e5ce96f101902d6d7-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/f0430903a14db90e5ce96f101902d6d7-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['urban-building-environment-data-infrastructure']
 tags: ['building-timeseries', 'energy-analytics', 'smart-buildings']
 venue: "NeurIPS 2024"

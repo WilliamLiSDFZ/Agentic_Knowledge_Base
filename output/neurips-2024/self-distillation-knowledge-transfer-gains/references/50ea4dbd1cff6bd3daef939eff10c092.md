@@ -1,6 +1,7 @@
 ---
 title: "From Instance Training to Instruction Learning: Task Adapters Generation from Instructions"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/50ea4dbd1cff6bd3daef939eff10c092-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/50ea4dbd1cff6bd3daef939eff10c092-Paper-Conference.pdf"
 categories: ['llm-training-and-optimization-techniques', 'self-distillation-knowledge-transfer-gains']
 tags: ['instruction-finetuning', 'task-adapters', 'LLM', 'few-shot', 'meta-learning']
 venue: "NeurIPS 2024"

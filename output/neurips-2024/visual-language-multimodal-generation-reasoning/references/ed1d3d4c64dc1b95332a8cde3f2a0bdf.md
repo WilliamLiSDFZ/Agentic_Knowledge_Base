@@ -1,6 +1,7 @@
 ---
 title: "CuMo: Scaling Multimodal LLM with Co-Upcycled Mixture-of-Experts"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ed1d3d4c64dc1b95332a8cde3f2a0bdf-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ed1d3d4c64dc1b95332a8cde3f2a0bdf-Paper-Conference.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'llm-training-and-optimization-techniques']
 tags: ['multimodal-llm', 'mixture-of-experts', 'upcycling']
 venue: "NeurIPS 2024"

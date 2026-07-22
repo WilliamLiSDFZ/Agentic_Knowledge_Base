@@ -1,6 +1,7 @@
 ---
 title: "IBSEN: Director-Actor Agent Collaboration for Controllable and Interactive Drama Script Generation"
 source: "https://aclanthology.org/2024.acl-long.88/"
+pdf_url: ""
 categories: ['llm-driven-interactive-narrative-and-games', 'llm-agents-reasoning-and-planning']
 tags: ['drama-generation', 'multi-agent', 'director-actor', 'controllable-generation', 'LLM']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Do Large Language Models have Problem-Solving Capability under Incomplete Information Scenarios?"
 source: "https://aclanthology.org/2024.findings-acl.131/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning']
 tags: ['incomplete-information', 'problem-solving', 'llm-evaluation']
 venue: "ACL 2024"

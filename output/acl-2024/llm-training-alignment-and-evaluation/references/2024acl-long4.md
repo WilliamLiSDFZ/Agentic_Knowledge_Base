@@ -1,6 +1,7 @@
 ---
 title: "PrivLM-Bench: A Multi-level Privacy Evaluation Benchmark for Language Models"
 source: "https://aclanthology.org/2024.acl-long.4/"
+pdf_url: ""
 categories: ['privacy-risks-in-language-model-embeddings', 'llm-training-alignment-and-evaluation']
 tags: ['privacy', 'language-model', 'benchmark', 'membership-inference', 'evaluation']
 venue: "ACL 2024"

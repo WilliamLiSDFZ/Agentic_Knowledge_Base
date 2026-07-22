@@ -1,12 +1,12 @@
 ---
 name: language-technology-cultural-linguistic-diversity
 description: >-
-  This research area covers multilingual and cross-lingual NLP, focusing on developing models, datasets, and evaluation benchmarks that extend language technology to low-resource, minority, and typologically diverse languages. Core tasks include machine translation (document-level, code-switching, pivot-language approaches, gender-fair output), cross-lingual transfer for token-level tasks, OCR for
+  This skill covers the development and evaluation of NLP systems across linguistically and culturally diverse languages, including low-resource, minority, and dialectal varieties. Methods span cross-lingual transfer, multilingual benchmarking, machine translation (including code-switching, pivot languages, and document-level approaches), OCR, speech dataset construction, and automatic subtitling, with applications targeting cultural
 ---
 
 # Language Technology Cultural Linguistic Diversity
 
-This research area covers multilingual and cross-lingual NLP, focusing on developing models, datasets, and evaluation benchmarks that extend language technology to low-resource, minority, and typologically diverse languages. Core tasks include machine translation (document-level, code-switching, pivot-language approaches, gender-fair output), cross-lingual transfer for token-level tasks, OCR for
+This skill covers the development and evaluation of NLP systems across linguistically and culturally diverse languages, including low-resource, minority, and dialectal varieties. Methods span cross-lingual transfer, multilingual benchmarking, machine translation (including code-switching, pivot languages, and document-level approaches), OCR, speech dataset construction, and automatic subtitling, with applications targeting cultural
 
 ## Entry Index
 

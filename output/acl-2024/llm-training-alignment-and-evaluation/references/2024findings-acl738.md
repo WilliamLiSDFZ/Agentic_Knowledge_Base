@@ -1,6 +1,7 @@
 ---
 title: "MM-LLMs: Recent Advances in MultiModal Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.738/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llm-training-alignment-and-evaluation']
 tags: ['multimodal-LLM', 'survey', 'MM-LLMs', 'vision-language', 'advances']
 venue: "ACL 2024"

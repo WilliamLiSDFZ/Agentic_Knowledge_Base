@@ -1,6 +1,7 @@
 ---
 title: "Alirector: Alignment-Enhanced Chinese Grammatical Error Corrector"
 source: "https://aclanthology.org/2024.findings-acl.148/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'nlp-for-asian-languages']
 tags: ['Chinese-GEC', 'overcorrection', 'alignment']
 venue: "ACL 2024"

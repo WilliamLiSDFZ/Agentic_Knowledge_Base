@@ -1,6 +1,7 @@
 ---
 title: "IndicIRSuite: Multilingual Dataset and Neural Information Models for Indian Languages"
 source: "https://aclanthology.org/2024.acl-short.46/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'nlp-for-asian-languages']
 tags: ['Indian-languages', 'information-retrieval', 'multilingual-NLP']
 venue: "ACL 2024"

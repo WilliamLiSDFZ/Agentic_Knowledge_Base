@@ -1,12 +1,12 @@
 ---
 name: multimodal-language-vision-learning-systems
 description: >-
-  This skill covers the development, evaluation, and analysis of multimodal systems that jointly process visual and textual information, spanning vision-language models (VLMs), multimodal large language models (MLLMs), and text-to-image pipelines. Key tasks include visual instruction tuning, few-shot entity recognition on documents, multimodal reasoning with knowledge graphs, hateful
+  This skill covers the development, evaluation, and analysis of multimodal systems that integrate vision and language, including training paradigms (instruction tuning, fine-tuning, few-shot learning), cross-modal alignment mechanisms, and multimodal knowledge representations applied to tasks such as document understanding, image captioning, visual question answering, hate speech detection, and domain-specific applications (medical
 ---
 
 # Multimodal Language Vision Learning Systems
 
-This skill covers the development, evaluation, and analysis of multimodal systems that jointly process visual and textual information, spanning vision-language models (VLMs), multimodal large language models (MLLMs), and text-to-image pipelines. Key tasks include visual instruction tuning, few-shot entity recognition on documents, multimodal reasoning with knowledge graphs, hateful
+This skill covers the development, evaluation, and analysis of multimodal systems that integrate vision and language, including training paradigms (instruction tuning, fine-tuning, few-shot learning), cross-modal alignment mechanisms, and multimodal knowledge representations applied to tasks such as document understanding, image captioning, visual question answering, hate speech detection, and domain-specific applications (medical
 
 ## Entry Index
 

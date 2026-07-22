@@ -1,6 +1,7 @@
 ---
 title: "RRNorm: A Novel Framework for Chinese Disease Diagnoses Normalization via LLM-Driven Terminology Component Recognition and Reconstruction"
 source: "https://aclanthology.org/2024.findings-acl.544/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp', 'natural-language-processing-information-extraction']
 tags: ['clinical-terminology', 'normalization', 'chinese-nlp']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Peering into the Mind of Language Models: An Approach for Attribution in Contextual Question Answering"
 source: "https://aclanthology.org/2024.findings-acl.682/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'document-understanding-and-information-extraction']
 tags: ['attribution', 'contextual-QA', 'interpretability']
 venue: "ACL 2024"

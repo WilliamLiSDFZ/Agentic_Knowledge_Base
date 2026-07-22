@@ -1,12 +1,12 @@
 ---
 name: query-efficient-algorithms-with-imperfect-oracles
 description: >-
-  This research area covers query-efficient algorithms that operate under imperfect, noisy, or constrained information sources—including faulty oracles, predicted hints, limited comparison budgets, and zeroth-order feedback—across tasks such as hypothesis testing, best-arm identification, distribution learning, optimization, and online selection. Key methods include prediction-augmented algorithms (learning-augmented/
+  This research area focuses on designing query-efficient algorithms that operate under imperfect, noisy, biased, or computationally limited information sources—including faulty oracles, comparison-based feedback, zeroth-order function access, and ML-generated predictions. Core tasks span hypothesis testing, best-arm identification, optimization, streaming estimation, and online selection, with methods that exploit learned
 ---
 
 # Query Efficient Algorithms With Imperfect Oracles
 
-This research area covers query-efficient algorithms that operate under imperfect, noisy, or constrained information sources—including faulty oracles, predicted hints, limited comparison budgets, and zeroth-order feedback—across tasks such as hypothesis testing, best-arm identification, distribution learning, optimization, and online selection. Key methods include prediction-augmented algorithms (learning-augmented/
+This research area focuses on designing query-efficient algorithms that operate under imperfect, noisy, biased, or computationally limited information sources—including faulty oracles, comparison-based feedback, zeroth-order function access, and ML-generated predictions. Core tasks span hypothesis testing, best-arm identification, optimization, streaming estimation, and online selection, with methods that exploit learned
 
 ## Entry Index
 

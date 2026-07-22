@@ -1,12 +1,12 @@
 ---
 name: audio-visual-speech-processing-and-benchmarks
 description: >-
-  This research area covers multimodal learning and generation at the intersection of audio, visual, and speech signals, including tasks such as talking face generation, audio-visual question answering, speech enhancement, gesture synthesis, and joint audio-visual content generation. Methods span diffusion models, mixture-of-experts architectures, state space models, and large language models applied to benchmarks and systems for
+  This research area covers multimodal learning and generation at the intersection of audio, visual, and speech signals, encompassing tasks such as talking face generation, audio-visual question answering, speech enhancement, gesture synthesis, and joint audio-visual content generation. Key methods include diffusion models, mixture-of-experts architectures, large language models for dialogue, state space models, and multi-
 ---
 
 # Audio Visual Speech Processing And Benchmarks
 
-This research area covers multimodal learning and generation at the intersection of audio, visual, and speech signals, including tasks such as talking face generation, audio-visual question answering, speech enhancement, gesture synthesis, and joint audio-visual content generation. Methods span diffusion models, mixture-of-experts architectures, state space models, and large language models applied to benchmarks and systems for
+This research area covers multimodal learning and generation at the intersection of audio, visual, and speech signals, encompassing tasks such as talking face generation, audio-visual question answering, speech enhancement, gesture synthesis, and joint audio-visual content generation. Key methods include diffusion models, mixture-of-experts architectures, large language models for dialogue, state space models, and multi-
 
 ## Entry Index
 

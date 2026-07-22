@@ -1,6 +1,7 @@
 ---
 title: "Multi-Chain Graphs of Graphs: A New Approach to Analyzing Blockchain Datasets"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/3205b048f9cc54b9f7963db0b0f52d53-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/3205b048f9cc54b9f7963db0b0f52d53-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['blockchain-smart-contract-analysis-techniques', 'graph-neural-networks-and-representation-learning']
 tags: ['blockchain', 'graph-neural-networks', 'cross-chain-dataset']
 venue: "NeurIPS 2024"

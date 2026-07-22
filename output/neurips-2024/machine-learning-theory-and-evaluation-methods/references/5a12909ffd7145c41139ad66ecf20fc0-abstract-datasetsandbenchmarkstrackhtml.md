@@ -1,6 +1,7 @@
 ---
 title: "SETLEXSEM CHALLENGE: Using Set Operations to Evaluate the Lexical and Semantic Robustness of Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/5a12909ffd7145c41139ad66ecf20fc0-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/5a12909ffd7145c41139ad66ecf20fc0-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'machine-learning-theory-and-evaluation-methods']
 tags: ['set-operations', 'llm-robustness', 'lexical-semantic-evaluation']
 venue: "NeurIPS 2024"

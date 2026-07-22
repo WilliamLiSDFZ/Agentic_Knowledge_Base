@@ -1,6 +1,7 @@
 ---
 title: "Symmetry Discovery Beyond Affine Transformations"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/cd04ec5aebfbe397c7fd718c35d02e0b-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/cd04ec5aebfbe397c7fd718c35d02e0b-Paper-Conference.pdf"
 categories: ['geometric-representation-learning-and-topology', 'audio-visual-speech-processing-and-benchmarks']
 tags: ['symmetry-detection', 'manifold-learning', 'continuous-symmetry', 'non-affine-transformations', 'geometric-learning']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Linear-time Minimum Bayes Risk Decoding with Reference Aggregation"
 source: "https://aclanthology.org/2024.acl-short.71/"
+pdf_url: ""
 categories: ['minimum-bayes-risk-decoding-efficiency']
 tags: ['minimum-bayes-risk', 'decoding-efficiency', 'machine-translation']
 venue: "ACL 2024"

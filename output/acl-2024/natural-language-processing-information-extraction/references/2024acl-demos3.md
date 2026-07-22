@@ -1,6 +1,7 @@
 ---
 title: "XNLP: An Interactive Demonstration System for Universal Structured NLP"
 source: "https://aclanthology.org/2024.acl-demos.3/"
+pdf_url: ""
 categories: ['unsupervised-and-structured-syntactic-parsing-methods', 'natural-language-processing-information-extraction']
 tags: ['structured-NLP', 'universal-model', 'semantic-parsing', 'syntactic-structure', 'interactive-demo']
 venue: "ACL 2024"

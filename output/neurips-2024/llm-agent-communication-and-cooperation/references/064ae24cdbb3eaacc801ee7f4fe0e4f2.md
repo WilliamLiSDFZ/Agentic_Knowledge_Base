@@ -1,6 +1,7 @@
 ---
 title: "Feint Behaviors and Strategies: Formalization, Implementation and Evaluation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/064ae24cdbb3eaacc801ee7f4fe0e4f2-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/064ae24cdbb3eaacc801ee7f4fe0e4f2-Paper-Conference.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'llm-agent-communication-and-cooperation']
 tags: ['feint-behavior', 'deception-strategies', 'competitive-games']
 venue: "NeurIPS 2024"

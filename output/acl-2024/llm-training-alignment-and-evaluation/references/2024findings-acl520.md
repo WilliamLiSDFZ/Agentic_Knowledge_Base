@@ -1,6 +1,7 @@
 ---
 title: "Error Analysis Prompting Enables Human-Like Translation Evaluation in Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.520/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['machine-translation-evaluation', 'error-analysis', 'prompting', 'llm-evaluation']
 venue: "ACL 2024"

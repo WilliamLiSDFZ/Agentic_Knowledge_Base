@@ -1,6 +1,7 @@
 ---
 title: "Transcendence: Generative Models Can Outperform The Experts That Train Them"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/9e3bba153aa362f961dc43de5cababac-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/9e3bba153aa362f961dc43de5cababac-Paper-Conference.pdf"
 categories: ['machine-learning-theory-and-evaluation-methods', 'neural-geometric-shape-representation-learning']
 tags: ['generative-models', 'imitation-learning', 'outperforming-experts']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning"
 source: "https://aclanthology.org/2024.findings-acl.33/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp', 'llm-agents-reasoning-and-planning']
 tags: ['medical-reasoning', 'multi-agent', 'zero-shot']
 venue: "ACL 2024"

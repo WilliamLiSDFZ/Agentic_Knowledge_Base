@@ -1,6 +1,7 @@
 ---
 title: "OpenSatMap: A Fine-grained High-resolution Satellite Dataset for Large-scale Map Construction"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/6cc6c2be42c838827d2f1d12baa05539-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/6cc6c2be42c838827d2f1d12baa05539-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['autonomous-driving-and-trajectory-prediction']
 tags: ['satellite-imagery', 'map-construction', 'road-segmentation', 'dataset']
 venue: "NeurIPS 2024"

@@ -1,12 +1,12 @@
 ---
 name: llm-benchmarks-for-clinical-healthcare
 description: >-
-  This skill covers the **design, evaluation, and benchmarking of large language models (LLMs) and foundation models for clinical and biomedical applications**, including tasks such as clinical reasoning, medical question answering, pharmaceutical decision-making, multimodal medical imaging, and safety assessment. Methods span federated learning for medical model scaling, bias analysis from pre-training data, interactive diagnostic
+  This skill covers the **design, evaluation, and benchmarking of large language models (LLMs) and foundation models for clinical and healthcare applications**, including tasks such as clinical reasoning, medical question answering, pharmaceutical decision support, biomedical specialization, and medical image segmentation assessment. It also addresses domain-specific challenges including safety evaluation, training data bias on health outcomes, federated
 ---
 
 # Llm Benchmarks For Clinical Healthcare
 
-This skill covers the **design, evaluation, and benchmarking of large language models (LLMs) and foundation models for clinical and biomedical applications**, including tasks such as clinical reasoning, medical question answering, pharmaceutical decision-making, multimodal medical imaging, and safety assessment. Methods span federated learning for medical model scaling, bias analysis from pre-training data, interactive diagnostic
+This skill covers the **design, evaluation, and benchmarking of large language models (LLMs) and foundation models for clinical and healthcare applications**, including tasks such as clinical reasoning, medical question answering, pharmaceutical decision support, biomedical specialization, and medical image segmentation assessment. It also addresses domain-specific challenges including safety evaluation, training data bias on health outcomes, federated
 
 ## Entry Index
 

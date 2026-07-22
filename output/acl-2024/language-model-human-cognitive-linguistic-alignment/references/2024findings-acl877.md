@@ -1,6 +1,7 @@
 ---
 title: "Do Language Models Exhibit Human-like Structural Priming Effects?"
 source: "https://aclanthology.org/2024.findings-acl.877/"
+pdf_url: ""
 categories: ['language-model-human-cognitive-linguistic-alignment', 'online-discourse-mental-health-language-analysis']
 tags: ['structural-priming', 'language-models', 'human-alignment']
 venue: "ACL 2024"

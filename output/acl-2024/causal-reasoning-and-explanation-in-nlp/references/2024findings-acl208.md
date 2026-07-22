@@ -1,6 +1,7 @@
 ---
 title: "DINER: Debiasing Aspect-based Sentiment Analysis with Multi-variable Causal Inference"
 source: "https://aclanthology.org/2024.findings-acl.208/"
+pdf_url: ""
 categories: ['causal-reasoning-and-explanation-in-nlp', 'multilingual-text-classification-and-sentiment-analysis']
 tags: ['aspect-based-sentiment', 'debiasing', 'causal-inference']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "SIBO: A Simple Booster for Parameter-Efficient Fine-Tuning"
 source: "https://aclanthology.org/2024.findings-acl.72/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'language-model-representations-and-embedding-spaces']
 tags: ['parameter-efficient', 'fine-tuning', 'LoRA']
 venue: "ACL 2024"

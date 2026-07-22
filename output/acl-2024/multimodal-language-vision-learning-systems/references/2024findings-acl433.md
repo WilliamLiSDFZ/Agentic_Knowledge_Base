@@ -1,6 +1,7 @@
 ---
 title: "BBA: Bi-Modal Behavioral Alignment for Reasoning with Large Vision-Language Models"
 source: "https://aclanthology.org/2024.findings-acl.433/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llm-agents-reasoning-and-planning']
 tags: ['vision-language-models', 'multimodal-reasoning', 'behavioral-alignment', 'domain-specific-languages', 'bi-modal']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Mars: Situated Inductive Reasoning in an Open-World Environment"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1fb6d0b52f5e41b11392841a66dbfe7d-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1fb6d0b52f5e41b11392841a66dbfe7d-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-agent-communication-and-cooperation', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['inductive-reasoning', 'open-world', 'llm-agents', 'situated-learning', 'knowledge-acquisition']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "KPEval: Towards Fine-Grained Semantic-Based Keyphrase Evaluation"
 source: "https://aclanthology.org/2024.findings-acl.117/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems', 'nlp-benchmark-design-and-interpretability']
 tags: ['keyphrase-evaluation', 'semantic-matching', 'fine-grained-metrics']
 venue: "ACL 2024"

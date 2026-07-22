@@ -1,6 +1,7 @@
 ---
 title: "InstructGraph: Boosting Large Language Models via Graph-centric Instruction Tuning and Preference Alignment"
 source: "https://aclanthology.org/2024.findings-acl.801/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-agents-reasoning-and-planning']
 tags: ['knowledge-graphs', 'instruction-tuning', 'graph-reasoning', 'LLM', 'preference-alignment']
 venue: "ACL 2024"

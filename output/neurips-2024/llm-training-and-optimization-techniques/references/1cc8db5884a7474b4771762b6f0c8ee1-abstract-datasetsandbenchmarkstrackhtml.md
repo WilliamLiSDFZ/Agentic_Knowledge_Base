@@ -1,6 +1,7 @@
 ---
 title: "Stress-Testing Long-Context Language Models with Lifelong ICL and Task Haystack"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1cc8db5884a7474b4771762b6f0c8ee1-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1cc8db5884a7474b4771762b6f0c8ee1-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-training-and-optimization-techniques']
 tags: ['long-context-llm', 'in-context-learning', 'evaluation-suite']
 venue: "NeurIPS 2024"

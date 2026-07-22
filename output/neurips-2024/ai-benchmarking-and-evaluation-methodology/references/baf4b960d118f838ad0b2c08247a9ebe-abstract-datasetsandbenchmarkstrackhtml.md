@@ -1,6 +1,7 @@
 ---
 title: "$\texttt{ConflictBank}$: A Benchmark for Evaluating the Influence of Knowledge Conflicts in LLMs"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/baf4b960d118f838ad0b2c08247a9ebe-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/baf4b960d118f838ad0b2c08247a9ebe-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-values-ethics-alignment-evaluation']
 tags: ['knowledge-conflicts', 'LLM-benchmark', 'hallucination', 'retrieval-augmentation', 'evaluation']
 venue: "NeurIPS 2024"

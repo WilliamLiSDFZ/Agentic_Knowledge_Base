@@ -1,6 +1,7 @@
 ---
 title: "Prometheus-Vision: Vision-Language Model as a Judge for Fine-Grained Evaluation"
 source: "https://aclanthology.org/2024.findings-acl.672/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems']
 tags: ['vision-language-model', 'evaluation', 'fine-grained-assessment']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "OpenWebAgent: An Open Toolkit to Enable Web Agents on Large Language Models"
 source: "https://aclanthology.org/2024.acl-demos.8/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'multimodal-language-vision-learning-systems']
 tags: ['web-agents', 'LLM-toolkit', 'browser-automation']
 venue: "ACL 2024"

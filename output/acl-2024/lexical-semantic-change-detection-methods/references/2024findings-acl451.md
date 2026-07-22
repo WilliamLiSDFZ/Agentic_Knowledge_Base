@@ -1,6 +1,7 @@
 ---
 title: "A Semantic Distance Metric Learning approach for Lexical Semantic Change Detection"
 source: "https://aclanthology.org/2024.findings-acl.451/"
+pdf_url: ""
 categories: ['lexical-semantic-change-detection-methods', 'language-model-representations-and-embedding-spaces']
 tags: ['lexical-semantic-change', 'metric-learning', 'word-embeddings']
 venue: "ACL 2024"

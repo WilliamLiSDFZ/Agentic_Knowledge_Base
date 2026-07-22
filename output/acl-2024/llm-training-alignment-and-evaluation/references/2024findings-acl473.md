@@ -1,6 +1,7 @@
 ---
 title: "Empowering cross-lingual abilities of instruction-tuned large language models by translation-following demonstrations"
 source: "https://aclanthology.org/2024.findings-acl.473/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'llm-training-alignment-and-evaluation']
 tags: ['cross-lingual', 'instruction-tuning', 'translation-demonstrations']
 venue: "ACL 2024"

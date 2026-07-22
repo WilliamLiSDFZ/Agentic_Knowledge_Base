@@ -1,6 +1,7 @@
 ---
 title: "Multi-modal Stance Detection: New Datasets and Model"
 source: "https://aclanthology.org/2024.findings-acl.736/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'multilingual-text-classification-and-sentiment-analysis']
 tags: ['stance-detection', 'multimodal', 'social-media', 'tweets', 'opinion-mining']
 venue: "ACL 2024"

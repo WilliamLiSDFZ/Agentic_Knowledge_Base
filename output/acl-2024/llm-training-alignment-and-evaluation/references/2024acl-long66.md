@@ -1,6 +1,7 @@
 ---
 title: "TimeBench: A Comprehensive Evaluation of Temporal Reasoning Abilities in Large Language Models"
 source: "https://aclanthology.org/2024.acl-long.66/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-training-alignment-and-evaluation']
 tags: ['temporal-reasoning', 'benchmark', 'llm-evaluation', 'time-comprehension', 'dataset']
 venue: "ACL 2024"

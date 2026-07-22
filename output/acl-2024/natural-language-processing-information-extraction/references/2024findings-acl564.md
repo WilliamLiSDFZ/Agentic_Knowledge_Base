@@ -1,6 +1,7 @@
 ---
 title: "Beyond Single-Event Extraction: Towards Efficient Document-Level Multi-Event Argument Extraction"
 source: "https://aclanthology.org/2024.findings-acl.564/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'document-understanding-and-information-extraction']
 tags: ['event-extraction', 'multi-event', 'argument-extraction']
 venue: "ACL 2024"

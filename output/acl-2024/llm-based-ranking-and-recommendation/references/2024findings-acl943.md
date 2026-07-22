@@ -1,6 +1,7 @@
 ---
 title: "Retrieval-Augmented Retrieval: Large Language Models are Strong Zero-Shot Retriever"
 source: "https://aclanthology.org/2024.findings-acl.943/"
+pdf_url: ""
 categories: ['llm-based-ranking-and-recommendation']
 tags: ['retrieval-augmented', 'zero-shot-retrieval', 'LLM']
 venue: "ACL 2024"

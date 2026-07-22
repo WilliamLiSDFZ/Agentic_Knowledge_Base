@@ -1,6 +1,7 @@
 ---
 title: "AGR: Reinforced Causal Agent-Guided Self-explaining Rationalization"
 source: "https://aclanthology.org/2024.acl-short.47/"
+pdf_url: ""
 categories: ['causal-reasoning-and-explanation-in-nlp', 'llm-agents-reasoning-and-planning']
 tags: ['rationalization', 'causal-reasoning', 'reinforcement-learning', 'agent']
 venue: "ACL 2024"

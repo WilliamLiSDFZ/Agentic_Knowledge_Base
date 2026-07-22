@@ -1,6 +1,7 @@
 ---
 title: "Preference Learning of Latent Decision Utilities with a Human-like Model of Preferential Choice"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/df559d92fba6dc86dec1a2be59ebfce3-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/df559d92fba6dc86dec1a2be59ebfce3-Paper-Conference.pdf"
 categories: ['ai-alignment-and-social-choice-aggregation', 'personalized-psychological-modeling-with-dimensionality-reduction']
 tags: ['preference-learning', 'latent-utilities', 'cognitive-choice-modeling']
 venue: "NeurIPS 2024"

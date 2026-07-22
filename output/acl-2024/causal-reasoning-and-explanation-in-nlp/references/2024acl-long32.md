@@ -1,6 +1,7 @@
 ---
 title: "An Information-Theoretic Approach to Analyze NLP Classification Tasks"
 source: "https://aclanthology.org/2024.acl-long.32/"
+pdf_url: ""
 categories: ['nlp-benchmark-design-and-interpretability', 'causal-reasoning-and-explanation-in-nlp']
 tags: ['information-theory', 'text-classification', 'input-contribution']
 venue: "ACL 2024"

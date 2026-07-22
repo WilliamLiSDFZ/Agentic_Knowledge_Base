@@ -1,6 +1,7 @@
 ---
 title: "Intrinsic Self-Supervision for Data Quality Audits"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a7ce9b6a4db012cdaac28dd48989a17d-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a7ce9b6a4db012cdaac28dd48989a17d-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'machine-learning-theory-and-evaluation-methods']
 tags: ['data-cleaning', 'benchmark-auditing', 'self-supervision']
 venue: "NeurIPS 2024"

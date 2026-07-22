@@ -1,6 +1,7 @@
 ---
 title: "Unsupervised Information Refinement Training of Large Language Models for Retrieval-Augmented Generation"
 source: "https://aclanthology.org/2024.acl-long.9/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation']
 tags: ['retrieval-augmented-generation', 'information-refinement', 'unsupervised-training']
 venue: "ACL 2024"

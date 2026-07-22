@@ -1,6 +1,7 @@
 ---
 title: "MATES: Model-Aware Data Selection for Efficient Pretraining with Data Influence Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/c4bec0d2fd217e6c2c3eafeced432582-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/c4bec0d2fd217e6c2c3eafeced432582-Paper-Conference.pdf"
 categories: ['llm-training-and-optimization-techniques', 'self-distillation-knowledge-transfer-gains']
 tags: ['data-selection', 'LLM-pretraining', 'data-influence', 'efficient-training', 'model-aware']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Time Sensitive Knowledge Editing through Efficient Finetuning"
 source: "https://aclanthology.org/2024.acl-short.53/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-training-alignment-and-evaluation']
 tags: ['knowledge-editing', 'time-sensitive', 'finetuning', 'llm', 'knowledge-update']
 venue: "ACL 2024"

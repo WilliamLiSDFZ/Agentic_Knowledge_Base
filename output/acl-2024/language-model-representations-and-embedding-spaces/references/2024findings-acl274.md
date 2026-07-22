@@ -1,6 +1,7 @@
 ---
 title: "Probing the Uniquely Identifiable Linguistic Patterns of Conversational AI Agents"
 source: "https://aclanthology.org/2024.findings-acl.274/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'language-model-representations-and-embedding-spaces']
 tags: ['AI-text-detection', 'conversational-AI', 'linguistic-patterns', 'forensics', 'machine-generated-text']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Plum: Prompt Learning using Metaheuristics"
 source: "https://aclanthology.org/2024.findings-acl.129/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'llm-agents-reasoning-and-planning']
 tags: ['prompt-optimization', 'metaheuristics', 'llm-prompting']
 venue: "ACL 2024"

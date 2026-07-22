@@ -1,6 +1,7 @@
 ---
 title: "E-EVAL: A Comprehensive Chinese K-12 Education Evaluation Benchmark for Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.462/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['chinese-education', 'k-12-benchmark', 'llm-evaluation']
 venue: "ACL 2024"

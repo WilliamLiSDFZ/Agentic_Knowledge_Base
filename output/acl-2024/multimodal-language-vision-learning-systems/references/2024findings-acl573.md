@@ -1,6 +1,7 @@
 ---
 title: "Visual Hallucinations of Multi-modal Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.573/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'multimodal-language-vision-learning-systems']
 tags: ['visual-hallucination', 'multimodal-llm', 'benchmark']
 venue: "ACL 2024"

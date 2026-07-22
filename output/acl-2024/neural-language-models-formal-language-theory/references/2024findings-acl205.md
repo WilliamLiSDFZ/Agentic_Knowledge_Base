@@ -1,6 +1,7 @@
 ---
 title: "Compositional Generalization with Grounded Language Models"
 source: "https://aclanthology.org/2024.findings-acl.205/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'neural-language-models-formal-language-theory']
 tags: ['compositional-generalization', 'grounded-language-models', 'knowledge-graphs', 'semantic-parsing', 'evaluation']
 venue: "ACL 2024"

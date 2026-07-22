@@ -1,6 +1,7 @@
 ---
 title: "SciInstruct: a Self-Reflective Instruction Annotated Dataset for Training Scientific Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/02ee6b7295f720407b56c457b34c54d5-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/02ee6b7295f720407b56c457b34c54d5-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-training-and-optimization-techniques', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['scientific-llm', 'self-reflective-annotation', 'instruction-tuning']
 venue: "NeurIPS 2024"

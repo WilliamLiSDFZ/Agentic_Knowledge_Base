@@ -1,6 +1,7 @@
 ---
 title: "SPAGHETTI: Open-Domain Question Answering from Heterogeneous Data Sources with Retrieval and Semantic Parsing"
 source: "https://aclanthology.org/2024.findings-acl.96/"
+pdf_url: ""
 categories: ['text-to-sql-parsing-and-benchmarks']
 tags: ['open-domain-QA', 'semantic-parsing', 'heterogeneous-sources']
 venue: "ACL 2024"

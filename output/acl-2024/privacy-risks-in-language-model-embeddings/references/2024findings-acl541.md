@@ -1,6 +1,7 @@
 ---
 title: "P4: Plug-and-Play Discrete Prompting for Large Language Models Personalization"
 source: "https://aclanthology.org/2024.findings-acl.541/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'privacy-risks-in-language-model-embeddings']
 tags: ['personalization', 'discrete-prompting', 'plug-and-play']
 venue: "ACL 2024"

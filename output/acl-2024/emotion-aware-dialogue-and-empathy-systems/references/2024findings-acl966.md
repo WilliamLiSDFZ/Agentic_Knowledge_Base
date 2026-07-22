@@ -1,6 +1,7 @@
 ---
 title: "DMIN: A Discourse-specific Multi-granularity Integration Network for Conversational Aspect-based Sentiment Quadruple Analysis"
 source: "https://aclanthology.org/2024.findings-acl.966/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems', 'coreference-resolution-and-dialogue-understanding']
 tags: ['aspect-based-sentiment', 'dialogue', 'discourse-structure']
 venue: "ACL 2024"

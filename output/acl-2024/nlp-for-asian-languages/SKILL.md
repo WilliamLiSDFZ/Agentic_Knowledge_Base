@@ -1,12 +1,12 @@
 ---
 name: nlp-for-asian-languages
 description: >-
-  This skill covers NLP methods and applications specifically targeting Asian and morphologically complex languages (Chinese, Arabic, Thai, Korean, Polish), including spelling correction, word sense disambiguation, character/subcharacter representation, and diacritization. It also addresses multilingual model efficiency challenges such as excessive tokenization, cross-lingual transfer without multilingual supervision, and low-resource ASR, with
+  This skill covers NLP tasks and model development specifically targeting morphologically complex, low-resource, or non-Latin-script languages (Arabic, Chinese, Korean, Thai, Polish, etc.), including spelling correction, word sense disambiguation, diacritization, speech recognition, and multilingual reasoning. Methods include character/subcharacter representations, grammar-based semantic parsing, corpus refinement, and
 ---
 
 # Nlp For Asian Languages
 
-This skill covers NLP methods and applications specifically targeting Asian and morphologically complex languages (Chinese, Arabic, Thai, Korean, Polish), including spelling correction, word sense disambiguation, character/subcharacter representation, and diacritization. It also addresses multilingual model efficiency challenges such as excessive tokenization, cross-lingual transfer without multilingual supervision, and low-resource ASR, with
+This skill covers NLP tasks and model development specifically targeting morphologically complex, low-resource, or non-Latin-script languages (Arabic, Chinese, Korean, Thai, Polish, etc.), including spelling correction, word sense disambiguation, diacritization, speech recognition, and multilingual reasoning. Methods include character/subcharacter representations, grammar-based semantic parsing, corpus refinement, and
 
 ## Entry Index
 

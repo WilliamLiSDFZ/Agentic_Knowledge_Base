@@ -1,6 +1,7 @@
 ---
 title: "Towards Artwork Explanation in Large-scale Vision Language Models"
 source: "https://aclanthology.org/2024.acl-short.65/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'nlp-benchmark-design-and-interpretability']
 tags: ['vision-language-models', 'artwork-explanation', 'visual-understanding', 'multimodal', 'evaluation']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "ANT: Adaptive Noise Schedule for Time Series Diffusion Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/db5ca61dbc08cf5143c05ad2d1b0b2ca-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/db5ca61dbc08cf5143c05ad2d1b0b2ca-Paper-Conference.pdf"
 categories: ['time-series-forecasting-and-analysis', 'diffusion-based-generative-modeling-and-inference']
 tags: ['diffusion-models', 'time-series', 'noise-schedule-adaptation']
 venue: "NeurIPS 2024"

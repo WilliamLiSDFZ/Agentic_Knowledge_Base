@@ -1,6 +1,7 @@
 ---
 title: "BetterBench: Assessing AI Benchmarks, Uncovering Issues, and Establishing Best Practices"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/26889e8359e7ef8a7f5d77457364ca55-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/26889e8359e7ef8a7f5d77457364ca55-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'machine-learning-theory-and-evaluation-methods']
 tags: ['benchmark-evaluation', 'best-practices', 'AI-assessment']
 venue: "NeurIPS 2024"

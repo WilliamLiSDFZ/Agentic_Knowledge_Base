@@ -1,6 +1,7 @@
 ---
 title: "Selective Prefix Tuning for Pre-trained Language Models"
 source: "https://aclanthology.org/2024.findings-acl.164/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'transformer-architecture-analysis-and-design']
 tags: ['prefix-tuning', 'parameter-efficient', 'fine-tuning', 'pre-trained-LM', 'selective']
 venue: "ACL 2024"

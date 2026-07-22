@@ -1,6 +1,7 @@
 ---
 title: "Towards Better Graph-based Cross-document Relation Extraction via Non-bridge Entity Enhancement and Prediction Debiasing"
 source: "https://aclanthology.org/2024.findings-acl.38/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'document-understanding-and-information-extraction']
 tags: ['cross-document-relation-extraction', 'graph-based', 'entity-enhancement']
 venue: "ACL 2024"

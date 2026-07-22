@@ -1,6 +1,7 @@
 ---
 title: "Swift Sampler: Efficient Learning of Sampler by 10 Parameters"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/6c9dcffe0b9cc3b05d83bcdddb250690-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/6c9dcffe0b9cc3b05d83bcdddb250690-Paper-Conference.pdf"
 categories: ['deep-learning-optimization-and-generalization-theory']
 tags: ['data-sampling', 'meta-learning', 'training-efficiency']
 venue: "NeurIPS 2024"

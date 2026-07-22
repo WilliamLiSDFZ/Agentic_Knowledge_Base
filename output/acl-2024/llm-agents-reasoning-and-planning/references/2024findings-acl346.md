@@ -1,6 +1,7 @@
 ---
 title: "Coconut: Contextualized Commonsense Unified Transformers for Graph-Based Commonsense Augmentation of Language Models"
 source: "https://aclanthology.org/2024.findings-acl.346/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-agents-reasoning-and-planning']
 tags: ['commonsense-reasoning', 'knowledge-graphs', 'contextualization']
 venue: "ACL 2024"

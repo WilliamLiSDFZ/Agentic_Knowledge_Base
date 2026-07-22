@@ -1,6 +1,7 @@
 ---
 title: "ALaRM: Align Language Models via Hierarchical Rewards Modeling"
 source: "https://aclanthology.org/2024.findings-acl.465/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'ocr-and-ancient-script-nlp']
 tags: ['rlhf', 'hierarchical-rewards', 'alignment']
 venue: "ACL 2024"

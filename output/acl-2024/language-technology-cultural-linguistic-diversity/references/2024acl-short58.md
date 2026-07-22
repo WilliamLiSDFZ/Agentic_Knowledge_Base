@@ -1,6 +1,7 @@
 ---
 title: "How Good is Zero-Shot MT Evaluation for Low Resource Indian Languages?"
 source: "https://aclanthology.org/2024.acl-short.58/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'llm-training-alignment-and-evaluation']
 tags: ['machine-translation-evaluation', 'low-resource', 'Indian-languages', 'zero-shot', 'evaluation-metrics']
 venue: "ACL 2024"

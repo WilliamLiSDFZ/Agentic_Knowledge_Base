@@ -1,6 +1,7 @@
 ---
 title: "Modeling Emotional Trajectories in Written Stories Utilizing Transformers and Weakly-Supervised Learning"
 source: "https://aclanthology.org/2024.findings-acl.426/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems', 'transformer-architecture-analysis-and-design']
 tags: ['emotional-trajectories', 'story-analysis', 'weakly-supervised']
 venue: "ACL 2024"

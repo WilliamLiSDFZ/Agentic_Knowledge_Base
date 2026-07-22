@@ -1,6 +1,7 @@
 ---
 title: "SDA: Semantic Discrepancy Alignment for Text-conditioned Image Retrieval"
 source: "https://aclanthology.org/2024.findings-acl.311/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'language-model-representations-and-embedding-spaces']
 tags: ['image-retrieval', 'text-conditioned-retrieval', 'semantic-alignment']
 venue: "ACL 2024"

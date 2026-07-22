@@ -1,6 +1,7 @@
 ---
 title: "CLAVE: An Adaptive Framework for Evaluating Values of LLM Generated Responses"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/6c1d2496c04d1ef648d58684b699643f-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/6c1d2496c04d1ef648d58684b699643f-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-values-ethics-alignment-evaluation', 'llm-safety-robustness-and-privacy-defenses']
 tags: ['LLM-value-evaluation', 'adaptive-framework', 'alignment-assessment']
 venue: "NeurIPS 2024"

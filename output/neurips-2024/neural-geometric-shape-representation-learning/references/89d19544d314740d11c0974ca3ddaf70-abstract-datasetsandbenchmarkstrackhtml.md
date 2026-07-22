@@ -1,6 +1,7 @@
 ---
 title: "ConceptFactory: Facilitate 3D Object Knowledge Annotation with Object Conceptualization"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/89d19544d314740d11c0974ca3ddaf70-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/89d19544d314740d11c0974ca3ddaf70-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['neural-geometric-shape-representation-learning', 'multi-view-clustering-and-3d-perception']
 tags: ['3d-object-knowledge', 'conceptualization', 'annotation']
 venue: "NeurIPS 2024"

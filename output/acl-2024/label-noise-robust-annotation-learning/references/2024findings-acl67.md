@@ -1,6 +1,7 @@
 ---
 title: "Modelling Variability in Human Annotator Simulation"
 source: "https://aclanthology.org/2024.findings-acl.67/"
+pdf_url: ""
 categories: ['label-noise-robust-annotation-learning']
 tags: ['annotator-simulation', 'variability', 'human-evaluation', 'annotation']
 venue: "ACL 2024"

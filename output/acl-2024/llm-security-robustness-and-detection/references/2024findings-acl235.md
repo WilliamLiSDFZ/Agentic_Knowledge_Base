@@ -1,6 +1,7 @@
 ---
 title: "SALAD-Bench: A Hierarchical and Comprehensive Safety Benchmark for Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.235/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'nlp-for-asian-languages']
 tags: ['safety-benchmark', 'hierarchical-evaluation', 'LLM-robustness']
 venue: "ACL 2024"

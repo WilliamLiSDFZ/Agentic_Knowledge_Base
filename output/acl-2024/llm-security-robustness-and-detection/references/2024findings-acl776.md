@@ -1,6 +1,7 @@
 ---
 title: "The Art of Defending: A Systematic Evaluation and Analysis of LLM Defense Strategies on Safety and Over-Defensiveness"
 source: "https://aclanthology.org/2024.findings-acl.776/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'llm-training-alignment-and-evaluation']
 tags: ['LLM-safety', 'defense-strategies', 'over-defensiveness', 'evaluation', 'red-teaming']
 venue: "ACL 2024"

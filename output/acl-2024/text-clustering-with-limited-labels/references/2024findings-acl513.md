@@ -1,6 +1,7 @@
 ---
 title: "VAEGPT-Sim: Improving Sentence Representation with Limited Corpus Using Gradually-Denoising VAE"
 source: "https://aclanthology.org/2024.findings-acl.513/"
+pdf_url: ""
 categories: ['text-clustering-with-limited-labels']
 tags: ['sentence-embedding', 'VAE', 'limited-data']
 venue: "ACL 2024"

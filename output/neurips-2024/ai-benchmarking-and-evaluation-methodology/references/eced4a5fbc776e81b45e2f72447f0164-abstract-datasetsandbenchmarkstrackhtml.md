@@ -1,6 +1,7 @@
 ---
 title: "VLM4Bio: A Benchmark Dataset to Evaluate Pretrained Vision-Language Models for Trait Discovery from Biological Images"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/eced4a5fbc776e81b45e2f72447f0164-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/eced4a5fbc776e81b45e2f72447f0164-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['vision-language-models', 'biological-images', 'trait-discovery']
 venue: "NeurIPS 2024"

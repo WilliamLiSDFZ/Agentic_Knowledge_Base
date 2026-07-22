@@ -1,12 +1,12 @@
 ---
 name: diffusion-based-generative-modeling-and-inference
 description: >-
-  This skill covers the design, optimization, and application of diffusion-based generative models and related probabilistic frameworks, including accelerating inference (adaptive sampling, attention compression, efficient gradient computation), conditioning and fine-tuning (few-shot domain adaptation, retrieval augmentation, patch-based priors), and extending diffusion models to diverse modalities and tasks such as panorama generation,
+  This skill covers the design, optimization, and application of diffusion-based generative models and related probabilistic inference methods, including techniques for efficient sampling (adaptive stepping, attention compression, adjoint gradient computation), conditional generation across modalities (text-to-image/video/panorama, time series, graphs, 3D scenes), and fine-tuning strategies for domain adaptation. It
 ---
 
 # Diffusion Based Generative Modeling And Inference
 
-This skill covers the design, optimization, and application of diffusion-based generative models and related probabilistic frameworks, including accelerating inference (adaptive sampling, attention compression, efficient gradient computation), conditioning and fine-tuning (few-shot domain adaptation, retrieval augmentation, patch-based priors), and extending diffusion models to diverse modalities and tasks such as panorama generation,
+This skill covers the design, optimization, and application of diffusion-based generative models and related probabilistic inference methods, including techniques for efficient sampling (adaptive stepping, attention compression, adjoint gradient computation), conditional generation across modalities (text-to-image/video/panorama, time series, graphs, 3D scenes), and fine-tuning strategies for domain adaptation. It
 
 ## Entry Index
 

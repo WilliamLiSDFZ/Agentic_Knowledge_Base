@@ -1,6 +1,7 @@
 ---
 title: "iSign: A Benchmark for Indian Sign Language Processing"
 source: "https://aclanthology.org/2024.findings-acl.643/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'speech-and-language-multimodal-generation-systems']
 tags: ['Indian-sign-language', 'benchmark', 'multimodal']
 venue: "ACL 2024"

@@ -1,12 +1,12 @@
 ---
 name: web-data-quality-and-llm-evaluation
 description: >-
-  This skill covers methods for assessing and improving web data quality for LLM pretraining and evaluation, including corpus curation techniques (deduplication, neural scraping, rephrasing), detection of data contamination and machine-generated content, and evaluation of LLM outputs for hallucination, citation accuracy, and task performance (text-to-SQL, topic classification, summar
+  This skill covers methods for **assessing and improving data quality in web-scale NLP corpora and evaluating LLM reliability**, including techniques for deduplication, decontamination, and corpus curation for pretraining (e.g., neural scraping, soft reweighting, rephrasing), detection of machine-translated or AI-generated content, and evaluation of
 ---
 
 # Web Data Quality And Llm Evaluation
 
-This skill covers methods for assessing and improving web data quality for LLM pretraining and evaluation, including corpus curation techniques (deduplication, neural scraping, rephrasing), detection of data contamination and machine-generated content, and evaluation of LLM outputs for hallucination, citation accuracy, and task performance (text-to-SQL, topic classification, summar
+This skill covers methods for **assessing and improving data quality in web-scale NLP corpora and evaluating LLM reliability**, including techniques for deduplication, decontamination, and corpus curation for pretraining (e.g., neural scraping, soft reweighting, rephrasing), detection of machine-translated or AI-generated content, and evaluation of
 
 ## Entry Index
 

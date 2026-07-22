@@ -1,6 +1,7 @@
 ---
 title: "Multimodal Instruction Tuning with Conditional Mixture of LoRA"
 source: "https://aclanthology.org/2024.acl-long.38/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llm-training-alignment-and-evaluation']
 tags: ['multimodal-instruction-tuning', 'mixture-of-lora', 'zero-shot-generalization']
 venue: "ACL 2024"

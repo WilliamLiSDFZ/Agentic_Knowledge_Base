@@ -1,6 +1,7 @@
 ---
 title: "Proofread: Fixes All Errors with One Tap"
 source: "https://aclanthology.org/2024.acl-demos.27/"
+pdf_url: ""
 categories: ['text-input-and-generation-for-cjk-languages', 'multimodal-language-vision-learning-systems']
 tags: ['GBoard', 'proofreading', 'LLM', 'mobile-keyboard', 'text-correction']
 venue: "ACL 2024"

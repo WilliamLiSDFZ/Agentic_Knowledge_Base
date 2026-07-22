@@ -1,6 +1,7 @@
 ---
 title: "Detection and Positive Reconstruction of Cognitive Distortion Sentences: Mandarin Dataset and Evaluation"
 source: "https://aclanthology.org/2024.findings-acl.399/"
+pdf_url: ""
 categories: ['online-discourse-mental-health-language-analysis', 'emotion-aware-dialogue-and-empathy-systems']
 tags: ['cognitive-distortion', 'positive-reconstruction', 'Mandarin']
 venue: "ACL 2024"

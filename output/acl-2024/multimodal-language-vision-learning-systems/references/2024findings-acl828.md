@@ -1,6 +1,7 @@
 ---
 title: "ChartCheck: Explainable Fact-Checking over Real-World Chart Images"
 source: "https://aclanthology.org/2024.findings-acl.828/"
+pdf_url: ""
 categories: ['computational-misinformation-narrative-framing-detection', 'multimodal-language-vision-learning-systems']
 tags: ['fact-checking', 'chart-verification', 'explainable-verification']
 venue: "ACL 2024"

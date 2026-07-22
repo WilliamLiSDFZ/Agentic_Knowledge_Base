@@ -1,6 +1,7 @@
 ---
 title: "Uncovering Limitations of Large Language Models in Information Seeking from Tables"
 source: "https://aclanthology.org/2024.findings-acl.82/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'document-understanding-and-information-extraction']
 tags: ['table-question-answering', 'llm-limitations', 'information-seeking']
 venue: "ACL 2024"

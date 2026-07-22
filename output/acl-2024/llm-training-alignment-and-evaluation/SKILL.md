@@ -1,12 +1,12 @@
 ---
 name: llm-training-alignment-and-evaluation
 description: >-
-  This skill covers the training, alignment, and evaluation of large language models across diverse tasks including preference optimization (DPO, RLHF, adversarial RM-LLM frameworks), synthetic data generation for fine-tuning (persona-based dialogue, Text-to-SQL, embeddings), and benchmarking across domains (math reasoning, Korean social values, multi
+  This skill covers the training, alignment, and evaluation of large language models (LLMs) across diverse tasks, including preference optimization (RLHF, DPO), instruction tuning, in-context learning, and benchmark development. Methods span synthetic data generation, step-by-step reinforcement, quantization-aware alignment, multi-agent reasoning, and text embedding improvement,
 ---
 
 # Llm Training Alignment And Evaluation
 
-This skill covers the training, alignment, and evaluation of large language models across diverse tasks including preference optimization (DPO, RLHF, adversarial RM-LLM frameworks), synthetic data generation for fine-tuning (persona-based dialogue, Text-to-SQL, embeddings), and benchmarking across domains (math reasoning, Korean social values, multi
+This skill covers the training, alignment, and evaluation of large language models (LLMs) across diverse tasks, including preference optimization (RLHF, DPO), instruction tuning, in-context learning, and benchmark development. Methods span synthetic data generation, step-by-step reinforcement, quantization-aware alignment, multi-agent reasoning, and text embedding improvement,
 
 ## Entry Index
 

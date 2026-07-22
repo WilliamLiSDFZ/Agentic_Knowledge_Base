@@ -1,6 +1,7 @@
 ---
 title: "wav2vec-S: Adapting Pre-trained Speech Models for Streaming"
 source: "https://aclanthology.org/2024.findings-acl.681/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems', 'state-memory-replay-sequence-modeling']
 tags: ['streaming-speech', 'wav2vec', 'adaptation']
 venue: "ACL 2024"

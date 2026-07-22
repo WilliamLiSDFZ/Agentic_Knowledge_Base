@@ -1,6 +1,7 @@
 ---
 title: "NaturalBench: Evaluating Vision-Language Models on Natural Adversarial Samples"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1e69ff56d0ebff0752ff29caaddc25dd-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1e69ff56d0ebff0752ff29caaddc25dd-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['vision-language-models', 'visual-question-answering', 'adversarial-evaluation']
 venue: "NeurIPS 2024"

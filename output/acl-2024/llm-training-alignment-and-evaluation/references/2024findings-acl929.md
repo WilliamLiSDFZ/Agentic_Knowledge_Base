@@ -1,6 +1,7 @@
 ---
 title: "Token Alignment via Character Matching for Subword Completion"
 source: "https://aclanthology.org/2024.findings-acl.929/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces', 'llm-training-alignment-and-evaluation']
 tags: ['tokenization', 'subword', 'partial-token']
 venue: "ACL 2024"

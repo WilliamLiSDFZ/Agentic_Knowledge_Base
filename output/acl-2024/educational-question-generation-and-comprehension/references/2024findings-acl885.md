@@ -1,6 +1,7 @@
 ---
 title: "BloomVQA: Assessing Hierarchical Multi-modal Comprehension"
 source: "https://aclanthology.org/2024.findings-acl.885/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'educational-question-generation-and-comprehension']
 tags: ['visual-question-answering', 'bloom-taxonomy', 'hierarchical-comprehension']
 venue: "ACL 2024"

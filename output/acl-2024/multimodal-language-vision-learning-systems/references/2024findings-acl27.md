@@ -1,6 +1,7 @@
 ---
 title: "InfiMM: Advancing Multimodal Understanding with an Open-Sourced Visual Language Model"
 source: "https://aclanthology.org/2024.findings-acl.27/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llm-training-alignment-and-evaluation']
 tags: ['multimodal-LLM', 'vision-language-model', 'open-source', 'Flamingo']
 venue: "ACL 2024"

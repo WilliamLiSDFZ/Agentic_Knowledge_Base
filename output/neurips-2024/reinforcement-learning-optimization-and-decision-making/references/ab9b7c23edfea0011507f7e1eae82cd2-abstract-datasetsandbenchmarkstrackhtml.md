@@ -1,6 +1,7 @@
 ---
 title: "AuctionNet: A Novel Benchmark for Decision-Making in Large-Scale Games"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ab9b7c23edfea0011507f7e1eae82cd2-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ab9b7c23edfea0011507f7e1eae82cd2-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['benchmark', 'large-scale-games', 'decision-making']
 venue: "NeurIPS 2024"

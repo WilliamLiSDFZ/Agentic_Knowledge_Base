@@ -1,6 +1,7 @@
 ---
 title: "Mitigating Privacy Seesaw in Large Language Models: Augmented Privacy Neuron Editing via Activation Patching"
 source: "https://aclanthology.org/2024.findings-acl.315/"
+pdf_url: ""
 categories: ['privacy-risks-in-language-model-embeddings', 'llm-security-robustness-and-detection']
 tags: ['privacy-leakage', 'neuron-editing', 'activation-patching']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "SynRS3D: A Synthetic Dataset for Global 3D Semantic Understanding from Monocular Remote Sensing Imagery"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d4f3da38b491b44d40a0d5a5b37134ba-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d4f3da38b491b44d40a0d5a5b37134ba-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['multi-view-clustering-and-3d-perception', 'neural-geometric-shape-representation-learning']
 tags: ['synthetic-dataset', 'remote-sensing', '3D-semantic-understanding']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Knowledge-Driven Cross-Document Relation Extraction"
 source: "https://aclanthology.org/2024.findings-acl.227/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'document-understanding-and-information-extraction']
 tags: ['relation-extraction', 'cross-document', 'knowledge-driven', 'NLP']
 venue: "ACL 2024"

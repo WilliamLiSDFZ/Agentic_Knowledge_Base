@@ -1,6 +1,7 @@
 ---
 title: "AttributionBench: How Hard is Automatic Attribution Evaluation?"
 source: "https://aclanthology.org/2024.findings-acl.886/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'nlp-benchmark-design-and-interpretability']
 tags: ['attribution-evaluation', 'retrieval-augmented-generation', 'claim-verification']
 venue: "ACL 2024"

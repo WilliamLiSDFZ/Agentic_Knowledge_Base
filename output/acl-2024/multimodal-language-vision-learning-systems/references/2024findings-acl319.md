@@ -1,6 +1,7 @@
 ---
 title: "Multi-modal Concept Alignment Pre-training for Generative Medical Visual Question Answering"
 source: "https://aclanthology.org/2024.findings-acl.319/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llms-for-biomedical-and-clinical-nlp']
 tags: ['medical-VQA', 'multimodal-pretraining', 'concept-alignment']
 venue: "ACL 2024"

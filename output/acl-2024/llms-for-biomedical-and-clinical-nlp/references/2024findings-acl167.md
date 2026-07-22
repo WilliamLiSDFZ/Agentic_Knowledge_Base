@@ -1,6 +1,7 @@
 ---
 title: "Medical Dialogue System: A Survey of Categories, Methods, Evaluation and Challenges"
 source: "https://aclanthology.org/2024.findings-acl.167/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp', 'llm-training-alignment-and-evaluation']
 tags: ['medical-dialogue', 'survey', 'evaluation', 'clinical-nlp', 'conversational-ai']
 venue: "ACL 2024"

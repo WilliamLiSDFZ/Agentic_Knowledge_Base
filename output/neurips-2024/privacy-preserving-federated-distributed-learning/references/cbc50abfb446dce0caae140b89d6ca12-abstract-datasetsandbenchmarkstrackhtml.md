@@ -1,6 +1,7 @@
 ---
 title: "DECO-Bench: Unified Benchmark for Decoupled Task-Agnostic Synthetic Data Release"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/cbc50abfb446dce0caae140b89d6ca12-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/cbc50abfb446dce0caae140b89d6ca12-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['privacy-preserving-federated-distributed-learning']
 tags: ['synthetic-data', 'privacy-preserving', 'benchmarking']
 venue: "NeurIPS 2024"

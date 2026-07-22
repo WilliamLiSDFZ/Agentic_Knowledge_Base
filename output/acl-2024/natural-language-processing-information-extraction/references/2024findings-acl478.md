@@ -1,6 +1,7 @@
 ---
 title: "Can Large Language Models Follow Concept Annotation Guidelines? A Case Study on Scientific and Financial Domains"
 source: "https://aclanthology.org/2024.findings-acl.478/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'llm-training-alignment-and-evaluation']
 tags: ['annotation-guidelines', 'in-context-learning', 'concept-definitions']
 venue: "ACL 2024"

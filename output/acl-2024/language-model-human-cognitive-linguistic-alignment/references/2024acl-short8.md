@@ -1,6 +1,7 @@
 ---
 title: "Language Models Do Hard Arithmetic Tasks Easily and Hardly Do Easy Arithmetic Tasks"
 source: "https://aclanthology.org/2024.acl-short.8/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'language-model-human-cognitive-linguistic-alignment']
 tags: ['arithmetic-reasoning', 'llm-limitations', 'digit-prediction']
 venue: "ACL 2024"

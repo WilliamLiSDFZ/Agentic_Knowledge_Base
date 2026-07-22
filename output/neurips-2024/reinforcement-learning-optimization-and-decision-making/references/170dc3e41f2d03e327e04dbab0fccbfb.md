@@ -1,6 +1,7 @@
 ---
 title: "Distributionally Robust Reinforcement Learning with Interactive Data Collection: Fundamental Hardness and Near-Optimal Algorithms"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/170dc3e41f2d03e327e04dbab0fccbfb-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/170dc3e41f2d03e327e04dbab0fccbfb-Paper-Conference.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making']
 tags: ['distributionally-robust-RL', 'sim-to-real', 'robust-MDP']
 venue: "NeurIPS 2024"

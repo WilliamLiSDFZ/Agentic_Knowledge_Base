@@ -1,6 +1,7 @@
 ---
 title: "Topic Modeling for Short Texts with Large Language Models"
 source: "https://aclanthology.org/2024.acl-srw.3/"
+pdf_url: ""
 categories: ['topic-modeling-and-essay-evaluation', 'natural-language-processing-information-extraction']
 tags: ['topic-modeling', 'short-texts', 'LLMs']
 venue: "ACL 2024"

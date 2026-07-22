@@ -1,6 +1,7 @@
 ---
 title: "WildVision: Evaluating Vision-Language Models in the Wild with Human Preferences"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/563991b5c8b45fe75bea42db738223b2-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/563991b5c8b45fe75bea42db738223b2-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['vision-language-models', 'human-preference-evaluation', 'benchmarking', 'multimodal', 'wild-evaluation']
 venue: "NeurIPS 2024"

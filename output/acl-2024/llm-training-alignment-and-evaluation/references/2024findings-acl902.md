@@ -1,6 +1,7 @@
 ---
 title: "Model Editing at Scale leads to Gradual and Catastrophic Forgetting"
 source: "https://aclanthology.org/2024.findings-acl.902/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'continual-learning-for-nlp-tasks']
 tags: ['model-editing', 'catastrophic-forgetting', 'knowledge-updating']
 venue: "ACL 2024"

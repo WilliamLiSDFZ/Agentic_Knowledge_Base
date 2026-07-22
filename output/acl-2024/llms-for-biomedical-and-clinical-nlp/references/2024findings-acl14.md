@@ -1,6 +1,7 @@
 ---
 title: "MediSwift: Efficient Sparse Pre-trained Biomedical Language Models"
 source: "https://aclanthology.org/2024.findings-acl.14/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp', 'llm-training-alignment-and-evaluation']
 tags: ['biomedical-nlp', 'sparse-pretraining', 'domain-specific-llm', 'efficient-language-models', 'biomedicine']
 venue: "ACL 2024"

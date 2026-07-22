@@ -1,6 +1,7 @@
 ---
 title: "Random Cycle Coding: Lossless Compression of Cluster Assignments via Bits-Back Coding"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/b93fda2862db7a7ac4a5c412adfb1ac2-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/b93fda2862db7a7ac4a5c412adfb1ac2-Paper-Conference.pdf"
 categories: ['learned-compression-entropy-coding-methods', 'probabilistic-circuits-and-tree-structured-models']
 tags: ['lossless-compression', 'bits-back-coding', 'cluster-assignments']
 venue: "NeurIPS 2024"

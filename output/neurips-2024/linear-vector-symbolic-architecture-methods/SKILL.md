@@ -1,12 +1,12 @@
 ---
 name: linear-vector-symbolic-architecture-methods
 description: >-
-  This skill covers **Vector Symbolic Architectures (VSAs) and hyperdimensional computing methods** that use high-dimensional algebraic representations (via operations like binding, bundling, and permutation) to encode compositional, structured, and symbolic information. Applications span neural network compression (replacing FC layers with hash-based lookups), structured representation learning, positional encoding, cognitive map
+  This research area covers **Vector Symbolic Architectures (VSAs) and hyperdimensional computing methods** that use high-dimensional algebraic operations (binding, bundling, superposition via Hadamard transforms, tensor products, sparse codes) to encode and manipulate structured, compositional representations. Applications span neural network efficiency (replacing FC layers with hash-based memory), structured representation
 ---
 
 # Linear Vector Symbolic Architecture Methods
 
-This skill covers **Vector Symbolic Architectures (VSAs) and hyperdimensional computing methods** that use high-dimensional algebraic representations (via operations like binding, bundling, and permutation) to encode compositional, structured, and symbolic information. Applications span neural network compression (replacing FC layers with hash-based lookups), structured representation learning, positional encoding, cognitive map
+This research area covers **Vector Symbolic Architectures (VSAs) and hyperdimensional computing methods** that use high-dimensional algebraic operations (binding, bundling, superposition via Hadamard transforms, tensor products, sparse codes) to encode and manipulate structured, compositional representations. Applications span neural network efficiency (replacing FC layers with hash-based memory), structured representation
 
 ## Entry Index
 

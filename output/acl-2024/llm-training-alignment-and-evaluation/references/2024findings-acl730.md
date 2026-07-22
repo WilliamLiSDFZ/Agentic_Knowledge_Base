@@ -1,6 +1,7 @@
 ---
 title: "Reasons to Reject? Aligning Language Models with Judgments"
 source: "https://aclanthology.org/2024.findings-acl.730/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['rlhf', 'language-feedback', 'alignment']
 venue: "ACL 2024"

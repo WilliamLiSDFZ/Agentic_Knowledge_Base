@@ -1,6 +1,7 @@
 ---
 title: "Do Zombies Understand? A Choose-Your-Own-Adventure Exploration of Machine Cognition"
 source: "https://aclanthology.org/2024.findings-acl.425/"
+pdf_url: ""
 categories: ['language-model-definition-and-scope']
 tags: ['machine-cognition', 'understanding', 'consciousness']
 venue: "ACL 2024"

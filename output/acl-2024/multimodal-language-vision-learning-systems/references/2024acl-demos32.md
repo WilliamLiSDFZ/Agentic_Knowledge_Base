@@ -1,6 +1,7 @@
 ---
 title: "LEGENT: Open Platform for Embodied Agents"
 source: "https://aclanthology.org/2024.acl-demos.32/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'multimodal-language-vision-learning-systems']
 tags: ['embodied-agents', 'open-platform', 'multimodal-llm']
 venue: "ACL 2024"

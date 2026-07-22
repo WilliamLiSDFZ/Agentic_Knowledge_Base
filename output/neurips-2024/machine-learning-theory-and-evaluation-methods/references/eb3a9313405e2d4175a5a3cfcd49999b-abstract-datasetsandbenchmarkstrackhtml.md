@@ -1,6 +1,7 @@
 ---
 title: "shapiq: Shapley Interactions for Machine Learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/eb3a9313405e2d4175a5a3cfcd49999b-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/eb3a9313405e2d4175a5a3cfcd49999b-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['machine-learning-theory-and-evaluation-methods', 'causal-discovery-and-inference-methods']
 tags: ['shapley-values', 'feature-attribution', 'shapley-interactions']
 venue: "NeurIPS 2024"

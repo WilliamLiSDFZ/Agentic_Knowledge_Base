@@ -1,6 +1,7 @@
 ---
 title: "MuTox: Universal MUltilingual Audio-based TOXicity Dataset and Zero-shot Detector"
 source: "https://aclanthology.org/2024.findings-acl.340/"
+pdf_url: ""
 categories: ['hate-speech-and-toxic-content-detection', 'language-technology-cultural-linguistic-diversity']
 tags: ['multilingual', 'audio-toxicity', 'zero-shot-detection']
 venue: "ACL 2024"

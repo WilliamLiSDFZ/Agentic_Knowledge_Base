@@ -1,6 +1,7 @@
 ---
 title: "Incentivizing Quality Text Generation via Statistical Contracts"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/5b93ce41ac6de2bf9aca7e4ba5ba01d5-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/5b93ce41ac6de2bf9aca7e4ba5ba01d5-Paper-Conference.pdf"
 categories: ['statistical-inference-and-text-generation-methods\n\nhmm,-let-me-reconsider---looking-more-carefully-at-the-cluster:\n\n**score-matching-and-sampling-methods**', 'llm-values-ethics-alignment-evaluation']
 tags: ['statistical-contracts', 'llm-incentives', 'text-quality']
 venue: "NeurIPS 2024"

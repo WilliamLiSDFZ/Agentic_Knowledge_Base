@@ -1,6 +1,7 @@
 ---
 title: "Linguistically Conditioned Semantic Textual Similarity"
 source: "https://aclanthology.org/2024.acl-long.64/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces', 'nlp-text-classification-applied-tasks']
 tags: ['semantic-textual-similarity', 'conditional-STS', 'linguistic-conditioning', 'sentence-similarity', 'NLP']
 venue: "ACL 2024"

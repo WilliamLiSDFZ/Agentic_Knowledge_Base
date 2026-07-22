@@ -1,6 +1,7 @@
 ---
 title: "DreamCatcher: A Wearer-aware Multi-modal Sleep Event Dataset Based on Earables in Non-restrictive Environments"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/9ab8bb568825d49ce31aa87b7e2f4ad7-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/9ab8bb568825d49ce31aa87b7e2f4ad7-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['wearable-biosignal-gesture-activity-benchmarks', 'audio-visual-speech-processing-and-benchmarks']
 tags: ['earables', 'sleep-event-detection', 'multimodal-biosignals']
 venue: "NeurIPS 2024"

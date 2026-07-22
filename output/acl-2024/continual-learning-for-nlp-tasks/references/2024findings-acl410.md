@@ -1,6 +1,7 @@
 ---
 title: "PEMT: Multi-Task Correlation Guided Mixture-of-Experts Enables Parameter-Efficient Transfer Learning"
 source: "https://aclanthology.org/2024.findings-acl.410/"
+pdf_url: ""
 categories: ['transformer-architecture-analysis-and-design', 'continual-learning-for-nlp-tasks']
 tags: ['parameter-efficient', 'mixture-of-experts', 'multi-task']
 venue: "ACL 2024"

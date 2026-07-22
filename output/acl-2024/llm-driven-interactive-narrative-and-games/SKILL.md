@@ -1,12 +1,12 @@
 ---
 name: llm-driven-interactive-narrative-and-games
 description: >-
-  This skill covers the design and application of LLMs for interactive narrative systems and game environments, including role-playing agents, text-based reinforcement learning, drama/script generation, and collaborative multi-agent storytelling. Methods span self-supervised training, self-alignment for character embodiment, director-actor agent architectures, and automated evaluation frameworks applied to tasks such as mystery game reasoning,
+  This skill covers the design and evaluation of LLM-based systems for interactive narrative, role-playing, and game environments, including methods for eliciting character-consistent behavior (self-alignment, benchmarking), multi-agent collaboration frameworks (director-actor architectures), and reinforcement learning with LLM-guided rewards. Applications span text-based game playing and bug detection,
 ---
 
 # Llm Driven Interactive Narrative And Games
 
-This skill covers the design and application of LLMs for interactive narrative systems and game environments, including role-playing agents, text-based reinforcement learning, drama/script generation, and collaborative multi-agent storytelling. Methods span self-supervised training, self-alignment for character embodiment, director-actor agent architectures, and automated evaluation frameworks applied to tasks such as mystery game reasoning,
+This skill covers the design and evaluation of LLM-based systems for interactive narrative, role-playing, and game environments, including methods for eliciting character-consistent behavior (self-alignment, benchmarking), multi-agent collaboration frameworks (director-actor architectures), and reinforcement learning with LLM-guided rewards. Applications span text-based game playing and bug detection,
 
 ## Entry Index
 

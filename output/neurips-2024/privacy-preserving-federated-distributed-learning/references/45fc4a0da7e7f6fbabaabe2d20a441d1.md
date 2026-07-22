@@ -1,6 +1,7 @@
 ---
 title: "The Sample-Communication Complexity Trade-off in Federated Q-Learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/45fc4a0da7e7f6fbabaabe2d20a441d1-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/45fc4a0da7e7f6fbabaabe2d20a441d1-Paper-Conference.pdf"
 categories: ['privacy-preserving-federated-distributed-learning']
 tags: ['federated-q-learning', 'sample-complexity', 'communication-complexity']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "InterDreamer: Zero-Shot Text to 3D Dynamic Human-Object Interaction"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/5eca2e4fe7858cbbfef4e08573cfcb25-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/5eca2e4fe7858cbbfef4e08573cfcb25-Paper-Conference.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'neural-geometric-shape-representation-learning']
 tags: ['text-to-3d', 'human-object-interaction', 'zero-shot-generation']
 venue: "NeurIPS 2024"

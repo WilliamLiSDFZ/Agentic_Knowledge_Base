@@ -1,6 +1,7 @@
 ---
 title: "Modeling Overregularization in Children with Small Language Models"
 source: "https://aclanthology.org/2024.findings-acl.865/"
+pdf_url: ""
 categories: ['language-model-human-cognitive-linguistic-alignment', 'neural-language-models-formal-language-theory']
 tags: ['language-acquisition', 'overregularization', 'small-language-models']
 venue: "ACL 2024"

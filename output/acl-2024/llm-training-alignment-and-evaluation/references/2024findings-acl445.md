@@ -1,6 +1,7 @@
 ---
 title: "Balancing Speciality and Versatility: a Coarse to Fine Framework for Supervised Fine-tuning Large Language Model"
 source: "https://aclanthology.org/2024.findings-acl.445/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'llm-agents-reasoning-and-planning']
 tags: ['supervised-fine-tuning', 'LLM-alignment', 'coarse-to-fine']
 venue: "ACL 2024"

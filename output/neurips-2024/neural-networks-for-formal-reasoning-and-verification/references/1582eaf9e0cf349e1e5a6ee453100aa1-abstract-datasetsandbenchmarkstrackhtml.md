@@ -1,6 +1,7 @@
 ---
 title: "PutnamBench: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1582eaf9e0cf349e1e5a6ee453100aa1-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1582eaf9e0cf349e1e5a6ee453100aa1-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['neural-networks-for-formal-reasoning-and-verification', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['neural-theorem-proving', 'competition-mathematics', 'formal-verification']
 venue: "NeurIPS 2024"

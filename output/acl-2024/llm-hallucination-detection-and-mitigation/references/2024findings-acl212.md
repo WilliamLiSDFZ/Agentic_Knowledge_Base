@@ -1,6 +1,7 @@
 ---
 title: "Chain-of-Verification Reduces Hallucination in Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.212/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'llm-agents-reasoning-and-planning']
 tags: ['hallucination', 'chain-of-verification', 'LLM', 'factual-accuracy', 'self-correction']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Meta-Reasoning: Semantics-Symbol Deconstruction for Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.34/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-agents-reasoning-and-planning']
 tags: ['neural-symbolic', 'meta-reasoning', 'formal-language']
 venue: "ACL 2024"

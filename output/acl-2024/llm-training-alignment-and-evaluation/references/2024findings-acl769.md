@@ -1,6 +1,7 @@
 ---
 title: "Differentially Private Knowledge Distillation via Synthetic Text Generation"
 source: "https://aclanthology.org/2024.findings-acl.769/"
+pdf_url: ""
 categories: ['privacy-risks-in-language-model-embeddings', 'llm-training-alignment-and-evaluation']
 tags: ['differential-privacy', 'knowledge-distillation', 'synthetic-text']
 venue: "ACL 2024"

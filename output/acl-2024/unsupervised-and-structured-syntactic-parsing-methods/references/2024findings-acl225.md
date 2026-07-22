@@ -1,6 +1,7 @@
 ---
 title: "Unsupervised Parsing by Searching for Frequent Word Sequences among Sentences with Equivalent Predicate-Argument Structures"
 source: "https://aclanthology.org/2024.findings-acl.225/"
+pdf_url: ""
 categories: ['unsupervised-and-structured-syntactic-parsing-methods']
 tags: ['unsupervised-parsing', 'constituency', 'predicate-argument']
 venue: "ACL 2024"

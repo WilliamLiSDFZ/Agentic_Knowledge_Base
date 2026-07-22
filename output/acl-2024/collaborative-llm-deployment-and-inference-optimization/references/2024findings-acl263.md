@@ -1,6 +1,7 @@
 ---
 title: "LoraRetriever: Input-Aware LoRA Retrieval and Composition for Mixed Tasks in the Wild"
 source: "https://aclanthology.org/2024.findings-acl.263/"
+pdf_url: ""
 categories: ['collaborative-llm-deployment-and-inference-optimization', 'llm-training-alignment-and-evaluation']
 tags: ['LoRA', 'retrieval', 'composition', 'multi-task', 'LLM-fine-tuning']
 venue: "ACL 2024"

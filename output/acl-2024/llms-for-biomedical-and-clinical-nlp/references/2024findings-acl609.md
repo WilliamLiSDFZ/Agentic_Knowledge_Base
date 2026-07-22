@@ -1,6 +1,7 @@
 ---
 title: "DictLLM: Harnessing Key-Value Data Structures with Large Language Models for Enhanced Medical Diagnostics"
 source: "https://aclanthology.org/2024.findings-acl.609/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp', 'document-understanding-and-information-extraction']
 tags: ['structured-data', 'key-value-representation', 'medical-diagnostics']
 venue: "ACL 2024"

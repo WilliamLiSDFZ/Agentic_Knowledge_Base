@@ -1,6 +1,7 @@
 ---
 title: "Rewriting the Code: A Simple Method for Large Language Model Augmented Code Search"
 source: "https://aclanthology.org/2024.acl-long.75/"
+pdf_url: ""
 categories: ['code-llm-generation-and-evaluation']
 tags: ['code-search', 'generation-augmented-retrieval', 'query-augmentation', 'modality-alignment']
 venue: "ACL 2024"

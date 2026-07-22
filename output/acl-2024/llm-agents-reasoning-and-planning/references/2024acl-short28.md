@@ -1,6 +1,7 @@
 ---
 title: "Soft Self-Consistency Improves Language Models Agents"
 source: "https://aclanthology.org/2024.acl-short.28/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'minimum-bayes-risk-decoding-efficiency']
 tags: ['self-consistency', 'sampling-strategies', 'llm-agents']
 venue: "ACL 2024"

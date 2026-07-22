@@ -1,6 +1,7 @@
 ---
 title: "How Do Moral Emotions Shape Political Participation? A Cross-Cultural Analysis of Online Petitions Using Language Models"
 source: "https://aclanthology.org/2024.findings-acl.963/"
+pdf_url: ""
 categories: ['moral-figurative-language-nlp-analysis', 'online-discourse-mental-health-language-analysis']
 tags: ['moral-emotions', 'political-participation', 'cross-cultural', 'online-petitions', 'NLP']
 venue: "ACL 2024"

@@ -1,12 +1,12 @@
 ---
 name: sparse-ratio-optimization-fractional-programming
 description: >-
-  This skill covers optimization of fractional/ratio objectives (e.g., Sharpe ratio, normalized cuts, ROI, distributionally robust objectives) under sparsity constraints, combining techniques such as iterative hard thresholding, primal-dual methods, variance reduction, and Dinkelbach-style fractional programming. Applications span portfolio optimization, neural network pruning (including
+  This skill covers optimization of fractional/ratio objectives (e.g., Sharpe ratio, normalized cuts, return-on-investment) under sparsity constraints, combining techniques such as iterative hard thresholding, primal-dual methods, and variance reduction with fractional programming frameworks. Applications span portfolio optimization, neural network pruning, distributionally robust optimization, and rare-
 ---
 
 # Sparse Ratio Optimization Fractional Programming
 
-This skill covers optimization of fractional/ratio objectives (e.g., Sharpe ratio, normalized cuts, ROI, distributionally robust objectives) under sparsity constraints, combining techniques such as iterative hard thresholding, primal-dual methods, variance reduction, and Dinkelbach-style fractional programming. Applications span portfolio optimization, neural network pruning (including
+This skill covers optimization of fractional/ratio objectives (e.g., Sharpe ratio, normalized cuts, return-on-investment) under sparsity constraints, combining techniques such as iterative hard thresholding, primal-dual methods, and variance reduction with fractional programming frameworks. Applications span portfolio optimization, neural network pruning, distributionally robust optimization, and rare-
 
 ## Entry Index
 

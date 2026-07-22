@@ -1,6 +1,7 @@
 ---
 title: "Needle In A Multimodal Haystack"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/24a8968affe71ffe4067d022b9d16566-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/24a8968affe71ffe4067d022b9d16566-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'visual-language-multimodal-generation-reasoning']
 tags: ['multimodal-llm', 'long-context', 'evaluation-benchmark', 'needle-in-haystack', 'multimodal-understanding']
 venue: "NeurIPS 2024"

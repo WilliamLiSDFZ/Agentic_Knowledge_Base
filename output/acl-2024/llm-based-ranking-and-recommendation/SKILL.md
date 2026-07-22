@@ -1,12 +1,12 @@
 ---
 name: llm-based-ranking-and-recommendation
 description: >-
-  This skill covers the application of LLMs to ranking, retrieval, and recommendation tasks, including pointwise, pairwise, and listwise reranking methods, generative retrieval, conversational recommendation, and personalization. It spans techniques such as retrieval-augmented generation, collaborative filtering integration, prompt-based optimization, knowledge distillation, and controllable/scrutable
+  This skill covers the application of LLMs to ranking, retrieval, and recommendation tasks, including listwise/pairwise reranking methods, generative retrieval with docid generation, conversational and personalized recommendation systems, and retrieval-augmented generation pipelines. It also addresses alignment, controllability, bias mitigation, adversarial attacks, and optimization of LL
 ---
 
 # Llm Based Ranking And Recommendation
 
-This skill covers the application of LLMs to ranking, retrieval, and recommendation tasks, including pointwise, pairwise, and listwise reranking methods, generative retrieval, conversational recommendation, and personalization. It spans techniques such as retrieval-augmented generation, collaborative filtering integration, prompt-based optimization, knowledge distillation, and controllable/scrutable
+This skill covers the application of LLMs to ranking, retrieval, and recommendation tasks, including listwise/pairwise reranking methods, generative retrieval with docid generation, conversational and personalized recommendation systems, and retrieval-augmented generation pipelines. It also addresses alignment, controllability, bias mitigation, adversarial attacks, and optimization of LL
 
 ## Entry Index
 

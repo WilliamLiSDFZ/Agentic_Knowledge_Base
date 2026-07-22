@@ -1,6 +1,7 @@
 ---
 title: "MS2SL: Multimodal Spoken Data-Driven Continuous Sign Language Production"
 source: "https://aclanthology.org/2024.findings-acl.432/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems', 'multimodal-language-vision-learning-systems']
 tags: ['sign-language', 'multimodal', 'speech-to-sign', 'continuous-production', 'unified-framework']
 venue: "ACL 2024"

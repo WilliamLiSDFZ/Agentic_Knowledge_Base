@@ -1,6 +1,7 @@
 ---
 title: "NUMCoT: Numerals and Units of Measurement in Chain-of-Thought Reasoning using Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.848/"
+pdf_url: ""
 categories: ['language-model-human-cognitive-linguistic-alignment', 'llm-training-alignment-and-evaluation']
 tags: ['numerals', 'units-of-measurement', 'chain-of-thought', 'mathematical-reasoning', 'LLM-evaluation']
 venue: "ACL 2024"

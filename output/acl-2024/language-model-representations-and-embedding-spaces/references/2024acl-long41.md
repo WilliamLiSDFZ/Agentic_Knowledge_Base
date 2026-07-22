@@ -1,6 +1,7 @@
 ---
 title: "Hyper-CL: Conditioning Sentence Representations with Hypernetworks"
 source: "https://aclanthology.org/2024.acl-long.41/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces', 'language-model-human-cognitive-linguistic-alignment']
 tags: ['contrastive-learning', 'sentence-representation', 'hypernetworks']
 venue: "ACL 2024"

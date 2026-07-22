@@ -1,6 +1,7 @@
 ---
 title: "A SARS-CoV-2 Interaction Dataset and VHH Sequence Corpus for Antibody Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d2a1e47f7dc635fac77fbd6e2ec799e4-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d2a1e47f7dc635fac77fbd6e2ec799e4-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['machine-learning-for-molecular-biology']
 tags: ['antibody-language-models', 'SARS-CoV-2', 'VHH-sequences']
 venue: "NeurIPS 2024"

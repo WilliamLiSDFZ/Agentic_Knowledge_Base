@@ -1,6 +1,7 @@
 ---
 title: "Unsupervised Sign Language Translation and Generation"
 source: "https://aclanthology.org/2024.findings-acl.835/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems', 'language-technology-cultural-linguistic-diversity']
 tags: ['unsupervised-translation', 'sign-language', 'multimodal']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "LoRAPrune: Structured Pruning Meets Low-Rank Parameter-Efficient Fine-Tuning"
 source: "https://aclanthology.org/2024.findings-acl.178/"
+pdf_url: ""
 categories: ['transformer-architecture-analysis-and-design']
 tags: ['structured-pruning', 'LoRA', 'efficient-fine-tuning']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Duwak: Dual Watermarks in Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.678/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'llm-training-alignment-and-evaluation']
 tags: ['watermarking', 'llm-text-generation', 'detection']
 venue: "ACL 2024"

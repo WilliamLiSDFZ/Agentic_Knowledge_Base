@@ -1,6 +1,7 @@
 ---
 title: "Test-time Adaptation in Non-stationary Environments via Adaptive Representation Alignment"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/abe31a12e83111fdf2cfd54deed5a2ce-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/abe31a12e83111fdf2cfd54deed5a2ce-Paper-Conference.pdf"
 categories: ['machine-learning-theory-and-evaluation-methods', 'stochastic-sequential-learning-temporal-dynamics']
 tags: ['test-time-adaptation', 'distribution-shift', 'non-stationary']
 venue: "NeurIPS 2024"

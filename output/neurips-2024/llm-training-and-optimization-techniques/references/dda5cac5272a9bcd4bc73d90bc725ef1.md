@@ -1,6 +1,7 @@
 ---
 title: "EMR-Merging: Tuning-Free High-Performance Model Merging"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/dda5cac5272a9bcd4bc73d90bc725ef1-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/dda5cac5272a9bcd4bc73d90bc725ef1-Paper-Conference.pdf"
 categories: ['llm-training-and-optimization-techniques', 'self-distillation-knowledge-transfer-gains']
 tags: ['model-merging', 'multi-task-learning', 'tuning-free', 'fine-tuned-models']
 venue: "NeurIPS 2024"

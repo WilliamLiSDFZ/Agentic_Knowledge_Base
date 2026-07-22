@@ -1,6 +1,7 @@
 ---
 title: "Which Side Are You On? A Multi-task Dataset for End-to-End Argument Summarisation and Evaluation"
 source: "https://aclanthology.org/2024.findings-acl.9/"
+pdf_url: ""
 categories: ['causal-reasoning-and-explanation-in-nlp', 'legal-nlp-benchmarks-and-applications']
 tags: ['argument-mining', 'summarization', 'debate', 'multi-task']
 venue: "ACL 2024"

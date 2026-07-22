@@ -1,6 +1,7 @@
 ---
 title: "ULTRA: Unleash LLMs’ Potential for Event Argument Extraction through Hierarchical Modeling and Pair-wise Self-Refinement"
 source: "https://aclanthology.org/2024.findings-acl.487/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction']
 tags: ['event-argument-extraction', 'hierarchical-modeling', 'self-refinement']
 venue: "ACL 2024"

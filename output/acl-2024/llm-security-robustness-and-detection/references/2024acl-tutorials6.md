@@ -1,6 +1,7 @@
 ---
 title: "Watermarking for Large Language Models"
 source: "https://aclanthology.org/2024.acl-tutorials.6/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'llm-training-alignment-and-evaluation']
 tags: ['watermarking', 'ai-generated-text', 'detection', 'llm-security', 'text-attribution']
 venue: "ACL 2024"

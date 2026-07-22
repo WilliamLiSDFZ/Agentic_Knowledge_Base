@@ -1,6 +1,7 @@
 ---
 title: "SPOR: A Comprehensive and Practical Evaluation Method for Compositional Generalization in Data-to-Text Generation"
 source: "https://aclanthology.org/2024.acl-long.36/"
+pdf_url: ""
 categories: ['nlp-benchmark-design-and-interpretability', 'compositional-emergent-communication-evaluation']
 tags: ['compositional-generalization', 'data-to-text', 'evaluation']
 venue: "ACL 2024"

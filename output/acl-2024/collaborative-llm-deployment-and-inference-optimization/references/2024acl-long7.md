@@ -1,6 +1,7 @@
 ---
 title: "BitDistiller: Unleashing the Potential of Sub-4-Bit LLMs via Self-Distillation"
 source: "https://aclanthology.org/2024.acl-long.7/"
+pdf_url: ""
 categories: ['collaborative-llm-deployment-and-inference-optimization', 'transformer-architecture-analysis-and-design']
 tags: ['quantization', 'self-distillation', 'sub-4-bit']
 venue: "ACL 2024"

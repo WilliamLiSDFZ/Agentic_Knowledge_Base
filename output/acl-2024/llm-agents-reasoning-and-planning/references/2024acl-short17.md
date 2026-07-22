@@ -1,6 +1,7 @@
 ---
 title: "DDPrompt: Differential Diversity Prompting in Large Language Models"
 source: "https://aclanthology.org/2024.acl-short.17/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'llm-training-alignment-and-evaluation']
 tags: ['chain-of-thought', 'differential-prompting', 'llm-reasoning']
 venue: "ACL 2024"

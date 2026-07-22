@@ -1,6 +1,7 @@
 ---
 title: "Feature-Adaptive and Data-Scalable In-Context Learning"
 source: "https://aclanthology.org/2024.acl-long.81/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'language-model-representations-and-embedding-spaces']
 tags: ['in-context-learning', 'feature-adaptation', 'data-scaling', 'demonstration-selection', 'LLM']
 venue: "ACL 2024"

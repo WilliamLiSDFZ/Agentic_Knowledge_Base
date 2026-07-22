@@ -1,6 +1,7 @@
 ---
 title: "Merging Facts, Crafting Fallacies: Evaluating the Contradictory Nature of Aggregated Factual Claims in Long-Form Generations"
 source: "https://aclanthology.org/2024.findings-acl.160/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'llm-training-alignment-and-evaluation']
 tags: ['hallucination', 'factuality-evaluation', 'long-form-generation']
 venue: "ACL 2024"

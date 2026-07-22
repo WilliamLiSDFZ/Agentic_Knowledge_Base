@@ -1,6 +1,7 @@
 ---
 title: "Using Time-Aware Graph Neural Networks to Predict Temporal Centralities in Dynamic Graphs"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/3514dbacaebf0f38b25adfe59ed81a8a-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/3514dbacaebf0f38b25adfe59ed81a8a-Paper-Conference.pdf"
 categories: ['graph-neural-networks-and-representation-learning', 'time-series-forecasting-and-analysis']
 tags: ['temporal-graphs', 'node-centrality', 'graph-neural-networks']
 venue: "NeurIPS 2024"

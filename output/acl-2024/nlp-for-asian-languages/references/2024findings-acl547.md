@@ -1,6 +1,7 @@
 ---
 title: "LCS: A Language Converter Strategy for Zero-Shot Neural Machine Translation"
 source: "https://aclanthology.org/2024.findings-acl.547/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'nlp-for-asian-languages']
 tags: ['zero-shot-translation', 'language-tag', 'multilingual-NMT']
 venue: "ACL 2024"

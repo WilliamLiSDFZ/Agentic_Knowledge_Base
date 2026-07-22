@@ -1,6 +1,7 @@
 ---
 title: "Amanda: Adaptively Modality-Balanced Domain Adaptation for Multimodal Emotion Recognition"
 source: "https://aclanthology.org/2024.findings-acl.859/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems', 'multimodal-language-vision-learning-systems']
 tags: ['multimodal-emotion-recognition', 'domain-adaptation', 'modality-balance']
 venue: "ACL 2024"

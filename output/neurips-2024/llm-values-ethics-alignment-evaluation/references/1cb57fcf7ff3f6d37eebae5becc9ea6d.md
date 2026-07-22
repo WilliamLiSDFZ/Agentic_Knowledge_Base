@@ -1,6 +1,7 @@
 ---
 title: "Can Large Language Model Agents Simulate Human Trust Behavior?"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1cb57fcf7ff3f6d37eebae5becc9ea6d-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1cb57fcf7ff3f6d37eebae5becc9ea6d-Paper-Conference.pdf"
 categories: ['llm-agent-communication-and-cooperation', 'llm-values-ethics-alignment-evaluation']
 tags: ['llm-agents', 'trust-behavior', 'social-simulation']
 venue: "NeurIPS 2024"

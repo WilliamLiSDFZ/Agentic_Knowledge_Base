@@ -1,6 +1,7 @@
 ---
 title: "BIGOS V2 Benchmark for Polish ASR: Curated Datasets and Tools for Reproducible Evaluation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/69bddcea866e8210cf483769841282dd-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/69bddcea866e8210cf483769841282dd-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['audio-visual-speech-processing-and-benchmarks', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['speech-recognition', 'Polish-ASR', 'benchmark-evaluation']
 venue: "NeurIPS 2024"

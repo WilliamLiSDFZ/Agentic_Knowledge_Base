@@ -1,6 +1,7 @@
 ---
 title: "Alignment-Based Decoding Policy for Low-Latency and Anticipation-Free Neural Japanese Input Method Editors"
 source: "https://aclanthology.org/2024.findings-acl.479/"
+pdf_url: ""
 categories: ['text-input-and-generation-for-cjk-languages']
 tags: ['Japanese-IME', 'low-latency', 'alignment-based-decoding']
 venue: "ACL 2024"

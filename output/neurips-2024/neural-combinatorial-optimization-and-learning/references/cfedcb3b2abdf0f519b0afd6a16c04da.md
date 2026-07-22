@@ -1,6 +1,7 @@
 ---
 title: "Learning to Solve Quadratic Unconstrained Binary Optimization in a Classification Way"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/cfedcb3b2abdf0f519b0afd6a16c04da-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/cfedcb3b2abdf0f519b0afd6a16c04da-Paper-Conference.pdf"
 categories: ['neural-combinatorial-optimization-and-learning']
 tags: ['QUBO', 'combinatorial-optimization', 'binary-optimization', 'classification', 'learning-based']
 venue: "NeurIPS 2024"

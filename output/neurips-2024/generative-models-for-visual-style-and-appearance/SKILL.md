@@ -1,12 +1,12 @@
 ---
 name: generative-models-for-visual-style-and-appearance
 description: >-
-  This skill covers generative and diffusion-based methods for controlling and customizing visual appearance, style, and identity across images, avatars, and scenes, including techniques such as fine-tuning diffusion models, Gaussian splatting, and latent-space editing. Applications span personalized image generation, hair/style editing, pose-guided person synthesis, scene stylization, and
+  This skill covers generative modeling techniques for controlling and customizing visual appearance, style, and content in images and avatars, including diffusion model fine-tuning, NeRF/Gaussian splatting-based stylization, and conditional generation frameworks. Key tasks include personalized image synthesis, hair/appearance editing, pose-guided person generation, scene stylization, and 3
 ---
 
 # Generative Models For Visual Style And Appearance
 
-This skill covers generative and diffusion-based methods for controlling and customizing visual appearance, style, and identity across images, avatars, and scenes, including techniques such as fine-tuning diffusion models, Gaussian splatting, and latent-space editing. Applications span personalized image generation, hair/style editing, pose-guided person synthesis, scene stylization, and
+This skill covers generative modeling techniques for controlling and customizing visual appearance, style, and content in images and avatars, including diffusion model fine-tuning, NeRF/Gaussian splatting-based stylization, and conditional generation frameworks. Key tasks include personalized image synthesis, hair/appearance editing, pose-guided person generation, scene stylization, and 3
 
 ## Entry Index
 

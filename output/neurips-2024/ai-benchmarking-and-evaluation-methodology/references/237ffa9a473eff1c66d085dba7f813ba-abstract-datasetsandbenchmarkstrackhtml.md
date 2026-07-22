@@ -1,6 +1,7 @@
 ---
 title: "Task Me Anything"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/237ffa9a473eff1c66d085dba7f813ba-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/237ffa9a473eff1c66d085dba7f813ba-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'visual-language-multimodal-generation-reasoning']
 tags: ['benchmark', 'multimodal-llm', 'task-adaptive-evaluation']
 venue: "NeurIPS 2024"

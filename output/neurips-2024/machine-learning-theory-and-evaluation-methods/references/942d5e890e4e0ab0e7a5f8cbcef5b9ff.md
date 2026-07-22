@@ -1,6 +1,7 @@
 ---
 title: "The Implicit Bias of Gradient Descent on Separable Multiclass Data"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/942d5e890e4e0ab0e7a5f8cbcef5b9ff-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/942d5e890e4e0ab0e7a5f8cbcef5b9ff-Paper-Conference.pdf"
 categories: ['deep-learning-optimization-and-generalization-theory', 'machine-learning-theory-and-evaluation-methods']
 tags: ['implicit-bias', 'gradient-descent', 'multiclass-classification']
 venue: "NeurIPS 2024"

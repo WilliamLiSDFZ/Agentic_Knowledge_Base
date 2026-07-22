@@ -1,6 +1,7 @@
 ---
 title: "ETAS: Zero-Shot Transformer Architecture Search via Network Trainability and Expressivity"
 source: "https://aclanthology.org/2024.findings-acl.405/"
+pdf_url: ""
 categories: ['transformer-architecture-analysis-and-design', 'llm-training-alignment-and-evaluation']
 tags: ['transformer-architecture-search', 'zero-shot', 'trainability']
 venue: "ACL 2024"

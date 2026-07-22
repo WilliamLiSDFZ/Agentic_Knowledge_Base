@@ -1,6 +1,7 @@
 ---
 title: "LT-Defense: Searching-free Backdoor Defense via Exploiting the Long-tailed Effect"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/064f6bcd7d3c72fb187bfca35ba2bfd4-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/064f6bcd7d3c72fb187bfca35ba2bfd4-Paper-Conference.pdf"
 categories: ['llm-safety-robustness-and-privacy-defenses', 'llm-training-and-optimization-techniques']
 tags: ['backdoor-defense', 'long-tailed-effect', 'language-models']
 venue: "NeurIPS 2024"

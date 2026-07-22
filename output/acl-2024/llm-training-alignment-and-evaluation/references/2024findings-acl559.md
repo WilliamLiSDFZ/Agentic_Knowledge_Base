@@ -1,6 +1,7 @@
 ---
 title: "Deciphering the Impact of Pretraining Data on Large Language Models through Machine Unlearning"
 source: "https://aclanthology.org/2024.findings-acl.559/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'nlp-for-asian-languages']
 tags: ['machine-unlearning', 'pretraining-data', 'llm-analysis']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Adaptive and Optimal Second-order Optimistic Methods for Minimax Optimization"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ab41313eaa3cbedbe491c24cbfe6547d-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ab41313eaa3cbedbe491c24cbfe6547d-Paper-Conference.pdf"
 categories: ['stochastic-optimization-convergence-and-variance-reduction', 'reinforcement-learning-optimization-and-decision-making']
 tags: ['minimax-optimization', 'second-order-methods', 'adaptive-step-size']
 venue: "NeurIPS 2024"

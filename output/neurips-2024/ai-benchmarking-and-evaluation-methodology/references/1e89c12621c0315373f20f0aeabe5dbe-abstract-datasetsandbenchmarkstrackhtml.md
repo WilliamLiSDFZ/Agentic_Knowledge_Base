@@ -1,6 +1,7 @@
 ---
 title: "Automating Dataset Updates Towards Reliable and Timely Evaluation of Large Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1e89c12621c0315373f20f0aeabe5dbe-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1e89c12621c0315373f20f0aeabe5dbe-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-training-and-optimization-techniques']
 tags: ['llm-evaluation', 'benchmark-automation', 'dataset-updating']
 venue: "NeurIPS 2024"

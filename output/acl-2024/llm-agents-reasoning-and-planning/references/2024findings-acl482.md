@@ -1,6 +1,7 @@
 ---
 title: "Latent Learningscape Guided In-context Learning"
 source: "https://aclanthology.org/2024.findings-acl.482/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-agents-reasoning-and-planning']
 tags: ['in-context-learning', 'example-selection', 'latent-space']
 venue: "ACL 2024"

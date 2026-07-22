@@ -1,6 +1,7 @@
 ---
 title: "Gradient Rewiring for Editable Graph Neural Network Training"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/716ddcbb5aa8802f56a7dfd94c4df3db-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/716ddcbb5aa8802f56a7dfd94c4df3db-Paper-Conference.pdf"
 categories: ['graph-neural-networks-and-representation-learning', 'machine-learning-theory-and-evaluation-methods']
 tags: ['model-editing', 'graph-neural-networks', 'gradient-rewiring']
 venue: "NeurIPS 2024"

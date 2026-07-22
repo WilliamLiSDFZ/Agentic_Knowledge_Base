@@ -1,6 +1,7 @@
 ---
 title: "Speech-to-Speech Translation with Discrete-Unit-Based Style Transfer"
 source: "https://aclanthology.org/2024.acl-srw.5/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems']
 tags: ['speech-to-speech-translation', 'style-transfer', 'discrete-units']
 venue: "ACL 2024"

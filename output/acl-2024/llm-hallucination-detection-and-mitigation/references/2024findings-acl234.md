@@ -1,6 +1,7 @@
 ---
 title: "Discerning and Resolving Knowledge Conflicts through Adaptive Decoding with Contextual Information-Entropy Constraint"
 source: "https://aclanthology.org/2024.findings-acl.234/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation']
 tags: ['knowledge-conflicts', 'adaptive-decoding', 'contextual-information-entropy']
 venue: "ACL 2024"

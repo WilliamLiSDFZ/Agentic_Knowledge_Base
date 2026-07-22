@@ -1,6 +1,7 @@
 ---
 title: "A Curious Case of Searching for the Correlation between Training Data and Adversarial Robustness of Transformer Textual Models"
 source: "https://aclanthology.org/2024.findings-acl.800/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'llm-training-alignment-and-evaluation']
 tags: ['adversarial-robustness', 'transformer-models', 'training-data-analysis']
 venue: "ACL 2024"

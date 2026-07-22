@@ -1,6 +1,7 @@
 ---
 title: "MultiSQL: A Schema-Integrated Context-Dependent Text2SQL Dataset with Diverse SQL Operations"
 source: "https://aclanthology.org/2024.findings-acl.823/"
+pdf_url: ""
 categories: ['text-to-sql-parsing-and-benchmarks', 'natural-language-processing-information-extraction']
 tags: ['text-to-SQL', 'context-dependent', 'multi-turn-dialogue']
 venue: "ACL 2024"

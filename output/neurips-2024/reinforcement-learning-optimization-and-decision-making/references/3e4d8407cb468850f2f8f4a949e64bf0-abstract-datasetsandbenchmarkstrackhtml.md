@@ -1,6 +1,7 @@
 ---
 title: "AdaSociety: An Adaptive Environment with Social Structures for Multi-Agent Decision-Making"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/3e4d8407cb468850f2f8f4a949e64bf0-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/3e4d8407cb468850f2f8f4a949e64bf0-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'llm-agent-communication-and-cooperation']
 tags: ['multi-agent-systems', 'adaptive-environments', 'social-structures']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "On the Robustness of Document-Level Relation Extraction Models to Entity Name Variations"
 source: "https://aclanthology.org/2024.findings-acl.969/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'nlp-benchmark-design-and-interpretability']
 tags: ['relation-extraction', 'document-level', 'entity-name-variation', 'robustness', 'NLP']
 venue: "ACL 2024"

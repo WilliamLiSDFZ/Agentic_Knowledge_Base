@@ -1,6 +1,7 @@
 ---
 title: "LLMs as Narcissistic Evaluators: When Ego Inflates Evaluation Scores"
 source: "https://aclanthology.org/2024.findings-acl.753/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'collaborative-llm-deployment-and-inference-optimization']
 tags: ['llm-evaluation', 'self-preference-bias', 'narcissism', 'automatic-metrics', 'evaluation']
 venue: "ACL 2024"

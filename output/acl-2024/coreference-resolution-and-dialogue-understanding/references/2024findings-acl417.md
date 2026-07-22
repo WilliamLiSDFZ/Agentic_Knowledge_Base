@@ -1,6 +1,7 @@
 ---
 title: "Plan, Generate and Complicate: Improving Low-resource Dialogue State Tracking via Easy-to-Difficult Zero-shot Data Augmentation"
 source: "https://aclanthology.org/2024.findings-acl.417/"
+pdf_url: ""
 categories: ['coreference-resolution-and-dialogue-understanding', 'continual-learning-for-nlp-tasks']
 tags: ['dialogue-state-tracking', 'data-augmentation', 'low-resource']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Cyclical Contrastive Learning Based on Geodesic for Zero-shot Cross-lingual Spoken Language Understanding"
 source: "https://aclanthology.org/2024.findings-acl.106/"
+pdf_url: ""
 categories: ['multilingual-text-classification-and-sentiment-analysis', 'language-technology-cultural-linguistic-diversity']
 tags: ['zero-shot', 'cross-lingual', 'spoken-language-understanding', 'contrastive-learning', 'geodesic']
 venue: "ACL 2024"

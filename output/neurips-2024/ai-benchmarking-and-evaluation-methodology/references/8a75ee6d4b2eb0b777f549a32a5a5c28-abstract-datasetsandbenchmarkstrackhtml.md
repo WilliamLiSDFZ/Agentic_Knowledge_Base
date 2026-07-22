@@ -1,6 +1,7 @@
 ---
 title: "GTA: A Benchmark for General Tool Agents"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/8a75ee6d4b2eb0b777f549a32a5a5c28-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/8a75ee6d4b2eb0b777f549a32a5a5c28-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-agent-communication-and-cooperation']
 tags: ['tool-use-benchmark', 'llm-agents', 'real-world-evaluation']
 venue: "NeurIPS 2024"

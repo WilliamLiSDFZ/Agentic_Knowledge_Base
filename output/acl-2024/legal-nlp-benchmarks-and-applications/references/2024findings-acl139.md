@@ -1,6 +1,7 @@
 ---
 title: "An Element is Worth a Thousand Words: Enhancing Legal Case Retrieval by Incorporating Legal Elements"
 source: "https://aclanthology.org/2024.findings-acl.139/"
+pdf_url: ""
 categories: ['legal-nlp-benchmarks-and-applications']
 tags: ['legal-case-retrieval', 'legal-elements', 'relevance-modeling']
 venue: "ACL 2024"

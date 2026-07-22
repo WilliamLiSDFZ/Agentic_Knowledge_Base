@@ -1,6 +1,7 @@
 ---
 title: "CHAMP: A Competition-level Dataset for Fine-Grained Analyses of LLMs’ Mathematical Reasoning Capabilities"
 source: "https://aclanthology.org/2024.findings-acl.785/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['mathematical-reasoning', 'competition-benchmarks', 'chain-of-thought']
 venue: "ACL 2024"

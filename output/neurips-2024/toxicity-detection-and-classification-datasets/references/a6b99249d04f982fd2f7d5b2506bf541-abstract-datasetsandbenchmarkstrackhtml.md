@@ -1,6 +1,7 @@
 ---
 title: "BeanCounter: A low-toxicity, large-scale, and open dataset of business-oriented text"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a6b99249d04f982fd2f7d5b2506bf541-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a6b99249d04f982fd2f7d5b2506bf541-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['toxicity-detection-and-classification-datasets']
 tags: ['low-toxicity', 'business-text', 'pretraining-dataset', 'open-dataset']
 venue: "NeurIPS 2024"

@@ -5,7 +5,7 @@ hmm,-let-me-reconsider---looking-more-carefully-at-the-cluster:
 
 **score-matching-and-sampling-methods**
 description: >-
-  This research area covers **statistical estimation and uncertainty quantification methods applied to text generation**, including score matching, kernel-based sampling/thinning, Monte Carlo influence functions, and causal inference techniques alongside LLM-specific tasks such as generated text detection, watermark segmentation, uncertainty modeling (via tokens, entropy, or planning), and in-context learning evaluation. The unifying thread
+  This skill covers statistical inference methods for evaluating and detecting LLM-generated text, including uncertainty quantification (semantic entropy, IDK tokens, uncertainty-aware planning), watermark detection, and AI-generated text identification, alongside foundational estimation techniques such as score matching, kernel thinning, Monte Carlo influence functions, and causal adjustment methods. Applications span LLM output analysis (
 ---
 
 # Statistical Inference And Text Generation Methods
@@ -14,7 +14,7 @@ Hmm, Let Me Reconsider   Looking More Carefully At The Cluster:
 
 **Score Matching And Sampling Methods**
 
-This research area covers **statistical estimation and uncertainty quantification methods applied to text generation**, including score matching, kernel-based sampling/thinning, Monte Carlo influence functions, and causal inference techniques alongside LLM-specific tasks such as generated text detection, watermark segmentation, uncertainty modeling (via tokens, entropy, or planning), and in-context learning evaluation. The unifying thread
+This skill covers statistical inference methods for evaluating and detecting LLM-generated text, including uncertainty quantification (semantic entropy, IDK tokens, uncertainty-aware planning), watermark detection, and AI-generated text identification, alongside foundational estimation techniques such as score matching, kernel thinning, Monte Carlo influence functions, and causal adjustment methods. Applications span LLM output analysis (
 
 ## Entry Index
 

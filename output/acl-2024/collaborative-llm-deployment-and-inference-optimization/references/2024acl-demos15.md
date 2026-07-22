@@ -1,6 +1,7 @@
 ---
 title: "JORA: JAX Tensor-Parallel LoRA Library for Retrieval Augmented Fine-Tuning"
 source: "https://aclanthology.org/2024.acl-demos.15/"
+pdf_url: ""
 categories: ['collaborative-llm-deployment-and-inference-optimization']
 tags: ['retrieval-augmented-generation', 'lora', 'tensor-parallelism']
 venue: "ACL 2024"

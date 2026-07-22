@@ -1,6 +1,7 @@
 ---
 title: "RA-ISF: Learning to Answer and Understand from Retrieval Augmentation via Iterative Self-Feedback"
 source: "https://aclanthology.org/2024.findings-acl.281/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'llm-agents-reasoning-and-planning']
 tags: ['retrieval-augmented-generation', 'iterative-self-feedback', 'question-answering']
 venue: "ACL 2024"

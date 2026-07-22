@@ -1,6 +1,7 @@
 ---
 title: "DeiSAM: Segment Anything with Deictic Prompting"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/5ddcfaad1cb72ce6f1a365e8f1ecf791-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/5ddcfaad1cb72ce6f1a365e8f1ecf791-Paper-Conference.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'neural-networks-for-formal-reasoning-and-verification']
 tags: ['image-segmentation', 'deictic-prompting', 'neuro-symbolic', 'natural-language', 'zero-shot']
 venue: "NeurIPS 2024"

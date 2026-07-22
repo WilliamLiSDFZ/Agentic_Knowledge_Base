@@ -1,6 +1,7 @@
 ---
 title: "HaloScope: Harnessing Unlabeled LLM Generations for Hallucination Detection"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ba92705991cfbbcedc26e27e833ebbae-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ba92705991cfbbcedc26e27e833ebbae-Paper-Conference.pdf"
 categories: ['llm-safety-robustness-and-privacy-defenses', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['hallucination-detection', 'LLM', 'unlabeled-data', 'semi-supervised', 'trustworthiness']
 venue: "NeurIPS 2024"

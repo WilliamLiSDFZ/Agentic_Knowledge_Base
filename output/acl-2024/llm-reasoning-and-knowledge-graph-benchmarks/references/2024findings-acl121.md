@@ -1,6 +1,7 @@
 ---
 title: "The Knowledge Alignment Problem: Bridging Human and External Knowledge for Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.121/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['knowledge-alignment', 'hallucination', 'grounding']
 venue: "ACL 2024"

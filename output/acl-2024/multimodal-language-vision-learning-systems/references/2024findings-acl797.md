@@ -1,6 +1,7 @@
 ---
 title: "Exploring the Potential of Dense Information in Multimodal Alignment"
 source: "https://aclanthology.org/2024.findings-acl.797/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'language-model-representations-and-embedding-spaces']
 tags: ['multimodal-alignment', 'CLIP', 'data-augmentation', 'dense-information', 'vision-language']
 venue: "ACL 2024"

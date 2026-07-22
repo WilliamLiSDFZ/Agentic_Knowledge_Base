@@ -1,6 +1,7 @@
 ---
 title: "Combating Label Sparsity in Short Text Topic Modeling via Nearest Neighbor Augmentation"
 source: "https://aclanthology.org/2024.findings-acl.817/"
+pdf_url: ""
 categories: ['topic-modeling-and-essay-evaluation', 'text-clustering-with-limited-labels']
 tags: ['short-text-topic-modeling', 'label-sparsity', 'nearest-neighbor-augmentation']
 venue: "ACL 2024"

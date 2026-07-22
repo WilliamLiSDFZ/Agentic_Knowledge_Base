@@ -1,6 +1,7 @@
 ---
 title: "CoMix: A Comprehensive Benchmark for Multi-Task Comic Understanding"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/fe79898dcf078ec54b6feeea10ebb751-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/fe79898dcf078ec54b6feeea10ebb751-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'visual-language-multimodal-generation-reasoning']
 tags: ['comic-understanding', 'multi-task-benchmark', 'visual-reasoning']
 venue: "NeurIPS 2024"

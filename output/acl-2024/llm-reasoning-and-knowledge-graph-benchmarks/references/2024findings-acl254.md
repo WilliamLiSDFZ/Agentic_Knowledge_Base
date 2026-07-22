@@ -1,6 +1,7 @@
 ---
 title: "Call Me When Necessary: LLMs can Efficiently and Faithfully Reason over Structured Environments"
 source: "https://aclanthology.org/2024.findings-acl.254/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['knowledge-graphs', 'structured-reasoning', 'LLM-efficiency']
 venue: "ACL 2024"

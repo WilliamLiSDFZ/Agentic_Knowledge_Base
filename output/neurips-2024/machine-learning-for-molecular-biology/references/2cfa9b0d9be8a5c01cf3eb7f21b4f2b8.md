@@ -1,6 +1,7 @@
 ---
 title: "Retrieval-Retro: Retrieval-based Inorganic Retrosynthesis with Expert Knowledge"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/2cfa9b0d9be8a5c01cf3eb7f21b4f2b8-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/2cfa9b0d9be8a5c01cf3eb7f21b4f2b8-Paper-Conference.pdf"
 categories: ['machine-learning-for-molecular-biology', 'scientific-document-retrieval-and-citation']
 tags: ['inorganic-retrosynthesis', 'retrieval-augmented-planning', 'expert-knowledge']
 venue: "NeurIPS 2024"

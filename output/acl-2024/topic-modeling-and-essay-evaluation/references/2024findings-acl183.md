@@ -1,6 +1,7 @@
 ---
 title: "Modeling Dynamic Topics in Chain-Free Fashion by Evolution-Tracking Contrastive Learning and Unassociated Word Exclusion"
 source: "https://aclanthology.org/2024.findings-acl.183/"
+pdf_url: ""
 categories: ['topic-modeling-and-essay-evaluation', 'lexical-semantic-change-detection-methods']
 tags: ['dynamic-topic-models', 'contrastive-learning', 'evolution-tracking']
 venue: "ACL 2024"

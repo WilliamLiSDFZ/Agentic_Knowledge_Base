@@ -1,6 +1,7 @@
 ---
 title: "StableToolBench: Towards Stable Large-Scale Benchmarking on Tool Learning of Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.664/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'llm-agents-reasoning-and-planning']
 tags: ['tool-learning', 'benchmark-stability', 'LLM-evaluation']
 venue: "ACL 2024"

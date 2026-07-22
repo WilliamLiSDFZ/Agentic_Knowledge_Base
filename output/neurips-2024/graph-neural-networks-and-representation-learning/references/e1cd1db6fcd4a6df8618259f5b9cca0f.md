@@ -1,6 +1,7 @@
 ---
 title: "Almost Surely Asymptotically Constant Graph Neural Networks"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/e1cd1db6fcd4a6df8618259f5b9cca0f-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/e1cd1db6fcd4a6df8618259f5b9cca0f-Paper-Conference.pdf"
 categories: ['graph-neural-networks-and-representation-learning', 'machine-learning-theory-and-evaluation-methods']
 tags: ['graph-neural-networks', 'expressive-power', 'random-graph-models']
 venue: "NeurIPS 2024"

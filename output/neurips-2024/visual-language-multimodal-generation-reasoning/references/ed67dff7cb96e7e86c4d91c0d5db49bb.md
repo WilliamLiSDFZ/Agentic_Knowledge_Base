@@ -1,6 +1,7 @@
 ---
 title: "FreeLong: Training-Free Long Video Generation with SpectralBlend Temporal Attention"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ed67dff7cb96e7e86c4d91c0d5db49bb-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ed67dff7cb96e7e86c4d91c0d5db49bb-Paper-Conference.pdf"
 categories: ['diffusion-based-generative-modeling-and-inference', 'visual-language-multimodal-generation-reasoning']
 tags: ['long-video-generation', 'training-free', 'spectral-attention']
 venue: "NeurIPS 2024"

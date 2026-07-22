@@ -1,6 +1,7 @@
 ---
 title: "Controllable Text Summarization: Unraveling Challenges, Approaches, and Prospects - A Survey"
 source: "https://aclanthology.org/2024.findings-acl.93/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'text-simplification-evaluation-and-methods']
 tags: ['controllable-summarization', 'survey', 'text-generation']
 venue: "ACL 2024"

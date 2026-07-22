@@ -1,12 +1,12 @@
 ---
 name: llm-based-economic-agent-simulation
 description: >-
-  This skill covers the use of large language models as autonomous agents to simulate economic behavior, including macroeconomic dynamics (e.g., labor markets, consumption, policy responses) and micro-level strategic interactions such as price negotiation and bargaining. Methods include agent-based modeling with LLM decision-making, benchmark evaluation of negotiation outcomes, and targeted enhancement techniques to improve agent performance
+  This skill covers the design and evaluation of LLM-powered agents that simulate economic behaviors—including macroeconomic activity modeling (e.g., labor and consumption decisions in agent-based frameworks) and strategic negotiation tasks (e.g., buyer-seller bargaining). It encompasses benchmarking LLM economic reasoning, developing agent enhancement methods, and assessing how well LL
 ---
 
 # Llm Based Economic Agent Simulation
 
-This skill covers the use of large language models as autonomous agents to simulate economic behavior, including macroeconomic dynamics (e.g., labor markets, consumption, policy responses) and micro-level strategic interactions such as price negotiation and bargaining. Methods include agent-based modeling with LLM decision-making, benchmark evaluation of negotiation outcomes, and targeted enhancement techniques to improve agent performance
+This skill covers the design and evaluation of LLM-powered agents that simulate economic behaviors—including macroeconomic activity modeling (e.g., labor and consumption decisions in agent-based frameworks) and strategic negotiation tasks (e.g., buyer-seller bargaining). It encompasses benchmarking LLM economic reasoning, developing agent enhancement methods, and assessing how well LL
 
 ## Entry Index
 

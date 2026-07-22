@@ -1,6 +1,7 @@
 ---
 title: "Balanced Data Sampling for Language Model Training with Clustering"
 source: "https://aclanthology.org/2024.findings-acl.833/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'text-clustering-with-limited-labels']
 tags: ['data-sampling', 'LLM-training', 'clustering']
 venue: "ACL 2024"

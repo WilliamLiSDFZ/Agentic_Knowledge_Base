@@ -1,6 +1,7 @@
 ---
 title: "Hierarchy-aware Biased Bound Margin Loss Function for Hierarchical Text Classification"
 source: "https://aclanthology.org/2024.findings-acl.457/"
+pdf_url: ""
 categories: ['hierarchical-text-classification-methods']
 tags: ['hierarchical-text-classification', 'label-imbalance', 'margin-loss']
 venue: "ACL 2024"

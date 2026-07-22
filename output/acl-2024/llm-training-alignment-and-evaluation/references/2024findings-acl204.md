@@ -1,6 +1,7 @@
 ---
 title: "GKT: A Novel Guidance-Based Knowledge Transfer Framework For Efficient Cloud-edge Collaboration LLM Deployment"
 source: "https://aclanthology.org/2024.findings-acl.204/"
+pdf_url: ""
 categories: ['collaborative-llm-deployment-and-inference-optimization', 'llm-training-alignment-and-evaluation']
 tags: ['cloud-edge-collaboration', 'knowledge-transfer', 'llm-deployment']
 venue: "ACL 2024"

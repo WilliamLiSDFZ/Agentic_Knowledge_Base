@@ -1,6 +1,7 @@
 ---
 title: "Large Language Models can Share Images, Too!"
 source: "https://aclanthology.org/2024.findings-acl.39/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'social-ai-temporal-dynamics-evaluation']
 tags: ['image-sharing', 'LLM-multimodal', 'zero-shot-evaluation']
 venue: "ACL 2024"

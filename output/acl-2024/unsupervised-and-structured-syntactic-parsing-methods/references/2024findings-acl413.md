@@ -1,6 +1,7 @@
 ---
 title: "Chinese Spelling Corrector Is Just a Language Learner"
 source: "https://aclanthology.org/2024.findings-acl.413/"
+pdf_url: ""
 categories: ['nlp-for-asian-languages', 'unsupervised-and-structured-syntactic-parsing-methods']
 tags: ['chinese-spelling-correction', 'self-supervised-learning', 'nlp']
 venue: "ACL 2024"

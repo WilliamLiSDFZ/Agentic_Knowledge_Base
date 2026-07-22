@@ -1,6 +1,7 @@
 ---
 title: "GS-Blur: A 3D Scene-Based Dataset for Realistic Image Deblurring"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/e2df455342ea37b0365ab7b6ce2c48fe-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/e2df455342ea37b0365ab7b6ce2c48fe-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['generative-models-for-visual-style-and-appearance', 'computational-imaging-reconstruction-deep-learning']
 tags: ['image-deblurring', '3D-scene-synthesis', 'dataset-generation']
 venue: "NeurIPS 2024"

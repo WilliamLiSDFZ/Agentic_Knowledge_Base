@@ -1,6 +1,7 @@
 ---
 title: "AbsInstruct: Eliciting Abstraction Ability from LLMs through Explanation Tuning with Plausibility Estimation"
 source: "https://aclanthology.org/2024.acl-long.55/"
+pdf_url: ""
 categories: ['concept-embedding-taxonomy-hierarchy-representation', 'language-model-representations-and-embedding-spaces']
 tags: ['abstraction', 'instruction-tuning', 'plausibility-estimation']
 venue: "ACL 2024"

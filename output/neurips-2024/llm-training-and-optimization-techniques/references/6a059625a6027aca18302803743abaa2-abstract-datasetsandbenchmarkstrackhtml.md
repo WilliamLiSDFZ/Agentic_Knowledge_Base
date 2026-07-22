@@ -1,6 +1,7 @@
 ---
 title: "EvoCodeBench: An Evolving Code Generation Benchmark with Domain-Specific Evaluations"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/6a059625a6027aca18302803743abaa2-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/6a059625a6027aca18302803743abaa2-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-training-and-optimization-techniques']
 tags: ['code-generation', 'LLM-evaluation', 'domain-specific-benchmark']
 venue: "NeurIPS 2024"

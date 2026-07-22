@@ -1,6 +1,7 @@
 ---
 title: "Outdated Issue Aware Decoding for Factual Knowledge Editing"
 source: "https://aclanthology.org/2024.findings-acl.552/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'llm-training-alignment-and-evaluation']
 tags: ['knowledge-editing', 'factual-knowledge', 'decoding', 'outdated-knowledge', 'LLM']
 venue: "ACL 2024"

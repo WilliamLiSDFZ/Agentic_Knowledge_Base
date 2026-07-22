@@ -1,12 +1,12 @@
 ---
 name: online-learning-augmented-algorithms-and-optimization
 description: >-
-  This skill covers the design and analysis of online learning algorithms and decision-making under uncertainty, focusing on regret minimization, bandit optimization (convex, linear, generalized), and learning-augmented algorithms that integrate predictions to improve worst-case guarantees. Key methods include FTRL variants, primal-dual approaches, adaptive learning rates, and algorithms-with-predictions frameworks,
+  This research area covers online learning algorithms with regret minimization guarantees, including bandit optimization (convex, linear, generalized linear), learning-augmented algorithms that incorporate ML predictions, and adaptive decision-making under delayed feedback, adversarial/stochastic constraints, and non-stationary reward structures. Applications span sequential resource allocation problems (secretary problems, budgeted matching,
 ---
 
 # Online Learning Augmented Algorithms And Optimization
 
-This skill covers the design and analysis of online learning algorithms and decision-making under uncertainty, focusing on regret minimization, bandit optimization (convex, linear, generalized), and learning-augmented algorithms that integrate predictions to improve worst-case guarantees. Key methods include FTRL variants, primal-dual approaches, adaptive learning rates, and algorithms-with-predictions frameworks,
+This research area covers online learning algorithms with regret minimization guarantees, including bandit optimization (convex, linear, generalized linear), learning-augmented algorithms that incorporate ML predictions, and adaptive decision-making under delayed feedback, adversarial/stochastic constraints, and non-stationary reward structures. Applications span sequential resource allocation problems (secretary problems, budgeted matching,
 
 ## Entry Index
 

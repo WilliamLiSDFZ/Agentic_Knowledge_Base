@@ -1,6 +1,7 @@
 ---
 title: "TaskBench: Benchmarking Large Language Models for Task Automation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/085185ea97db31ae6dcac7497616fd3e-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/085185ea97db31ae6dcac7497616fd3e-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['llm-benchmarking', 'task-automation', 'tool-use']
 venue: "NeurIPS 2024"

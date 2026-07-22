@@ -1,6 +1,7 @@
 ---
 title: "Prompt Engineering a Prompt Engineer"
 source: "https://aclanthology.org/2024.findings-acl.21/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'llm-agents-reasoning-and-planning']
 tags: ['prompt-engineering', 'automated-optimization', 'LLM-reasoning']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Contrastive-Equivariant Self-Supervised Learning Improves Alignment with Primate Visual Area IT"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ae28c7bc9414ffd8ffd2b3d454e6ef3e-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ae28c7bc9414ffd8ffd2b3d454e6ef3e-Paper-Conference.pdf"
 categories: ['disentangled-representation-learning-cognitive-diagnosis', 'self-distillation-knowledge-transfer-gains']
 tags: ['self-supervised-learning', 'visual-cortex', 'neural-prediction']
 venue: "NeurIPS 2024"

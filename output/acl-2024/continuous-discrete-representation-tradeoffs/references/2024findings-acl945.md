@@ -1,6 +1,7 @@
 ---
 title: "Semantic Compression for Word and Sentence Embeddings using Discrete Wavelet Transform"
 source: "https://aclanthology.org/2024.findings-acl.945/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces', 'continuous-discrete-representation-tradeoffs']
 tags: ['wavelet-transform', 'embedding-compression', 'discrete-wavelet']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Continual Contrastive Spoken Language Understanding"
 source: "https://aclanthology.org/2024.findings-acl.223/"
+pdf_url: ""
 categories: ['continual-learning-for-nlp-tasks', 'nlp-for-asian-languages']
 tags: ['continual-learning', 'spoken-language-understanding', 'contrastive-learning', 'speech', 'NLP']
 venue: "ACL 2024"

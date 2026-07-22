@@ -1,6 +1,7 @@
 ---
 title: "VLKEB: A Large Vision-Language Model Knowledge Editing Benchmark"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1198b53fa686831d5f0c0860d7ec4f34-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1198b53fa686831d5f0c0860d7ec4f34-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['knowledge-editing', 'vision-language-models', 'benchmark']
 venue: "NeurIPS 2024"

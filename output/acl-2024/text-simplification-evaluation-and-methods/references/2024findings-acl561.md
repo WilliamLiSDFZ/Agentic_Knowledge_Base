@@ -1,6 +1,7 @@
 ---
 title: "What Are You Token About? Differentiable Perturbed Top-k Token Selection for Scientific Document Summarization"
 source: "https://aclanthology.org/2024.findings-acl.561/"
+pdf_url: ""
 categories: ['text-simplification-evaluation-and-methods']
 tags: ['scientific-summarization', 'token-selection', 'differentiable']
 venue: "ACL 2024"

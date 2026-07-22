@@ -1,12 +1,12 @@
 ---
 name: nlp-text-classification-applied-tasks
 description: >-
-  This skill covers the application of large language models and specialized architectures (e.g., sparse neuron integration, embedding-based classification) to text classification tasks including stance detection, intent detection, ordinal classification, story detection, and post-purchase intention analysis, across standard, few-shot, and zero-shot settings. It addresses practical challenges such as spurious correlations, boundary ambigu
+  This skill covers the application of large language models and traditional NLP methods to practical text classification tasks, including stance detection, intent detection, sentiment/opinion analysis, and domain generalization, with emphasis on handling class imbalance (few-shot/zero-shot settings), spurious correlations, and dataset biases. It also addresses specialized applications such as ad text generation, story detection, ord
 ---
 
 # Nlp Text Classification Applied Tasks
 
-This skill covers the application of large language models and specialized architectures (e.g., sparse neuron integration, embedding-based classification) to text classification tasks including stance detection, intent detection, ordinal classification, story detection, and post-purchase intention analysis, across standard, few-shot, and zero-shot settings. It addresses practical challenges such as spurious correlations, boundary ambigu
+This skill covers the application of large language models and traditional NLP methods to practical text classification tasks, including stance detection, intent detection, sentiment/opinion analysis, and domain generalization, with emphasis on handling class imbalance (few-shot/zero-shot settings), spurious correlations, and dataset biases. It also addresses specialized applications such as ad text generation, story detection, ord
 
 ## Entry Index
 

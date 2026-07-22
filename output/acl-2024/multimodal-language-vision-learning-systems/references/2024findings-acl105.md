@@ -1,6 +1,7 @@
 ---
 title: "VALOR-EVAL: Holistic Coverage and Faithfulness Evaluation of Large Vision-Language Models"
 source: "https://aclanthology.org/2024.findings-acl.105/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems']
 tags: ['vision-language-models', 'hallucination', 'evaluation']
 venue: "ACL 2024"

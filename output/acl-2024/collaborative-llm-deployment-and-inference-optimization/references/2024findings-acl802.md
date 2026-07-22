@@ -1,6 +1,7 @@
 ---
 title: "RaDA: Retrieval-augmented Web Agent Planning with LLMs"
 source: "https://aclanthology.org/2024.findings-acl.802/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'collaborative-llm-deployment-and-inference-optimization']
 tags: ['web-agents', 'retrieval-augmented-planning', 'llm-agents']
 venue: "ACL 2024"

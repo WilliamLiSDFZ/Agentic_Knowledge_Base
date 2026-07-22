@@ -1,6 +1,7 @@
 ---
 title: "Se2: Sequential Example Selection for In-Context Learning"
 source: "https://aclanthology.org/2024.findings-acl.312/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'llm-agents-reasoning-and-planning']
 tags: ['in-context-learning', 'example-selection', 'sequential']
 venue: "ACL 2024"

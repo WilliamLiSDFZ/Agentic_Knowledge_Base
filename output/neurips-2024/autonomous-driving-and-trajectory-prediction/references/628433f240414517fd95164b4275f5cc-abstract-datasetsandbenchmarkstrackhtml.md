@@ -1,6 +1,7 @@
 ---
 title: "USCILab3D: A Large-scale, Long-term, Semantically Annotated Outdoor Dataset"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/628433f240414517fd95164b4275f5cc-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/628433f240414517fd95164b4275f5cc-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['autonomous-driving-and-trajectory-prediction', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['outdoor-3d-dataset', 'semantic-annotation', 'mobile-robot-lidar']
 venue: "NeurIPS 2024"

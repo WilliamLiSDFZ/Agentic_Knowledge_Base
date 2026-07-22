@@ -1,6 +1,7 @@
 ---
 title: "FlowVQA: Mapping Multimodal Logic in Visual Question Answering with Flowcharts"
 source: "https://aclanthology.org/2024.findings-acl.78/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'educational-question-generation-and-comprehension']
 tags: ['visual-question-answering', 'flowcharts', 'spatial-reasoning']
 venue: "ACL 2024"

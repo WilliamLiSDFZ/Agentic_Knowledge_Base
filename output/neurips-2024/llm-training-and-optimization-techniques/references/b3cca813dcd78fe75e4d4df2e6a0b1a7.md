@@ -1,6 +1,7 @@
 ---
 title: "PaCE: Parsimonious Concept Engineering for Large Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/b3cca813dcd78fe75e4d4df2e6a0b1a7-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/b3cca813dcd78fe75e4d4df2e6a0b1a7-Paper-Conference.pdf"
 categories: ['llm-safety-robustness-and-privacy-defenses', 'llm-training-and-optimization-techniques']
 tags: ['concept-engineering', 'llm-alignment', 'harmful-content-reduction', 'parsimonious-representation']
 venue: "NeurIPS 2024"

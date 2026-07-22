@@ -1,6 +1,7 @@
 ---
 title: "Knowledge-Infused Legal Wisdom: Navigating LLM Consultation through the Lens of Diagnostics and Positive-Unlabeled Reinforcement Learning"
 source: "https://aclanthology.org/2024.findings-acl.918/"
+pdf_url: ""
 categories: ['legal-nlp-benchmarks-and-applications', 'llm-training-alignment-and-evaluation']
 tags: ['legal-NLP', 'LLM-consultation', 'positive-unlabeled-learning', 'diagnostics', 'reinforcement']
 venue: "ACL 2024"

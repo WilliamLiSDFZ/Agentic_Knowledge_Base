@@ -1,6 +1,7 @@
 ---
 title: "It’s Not Easy Being Wrong: Large Language Models Struggle with Process of Elimination Reasoning"
 source: "https://aclanthology.org/2024.findings-acl.604/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['chain-of-thought', 'process-of-elimination', 'reasoning']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "EVIT: Event-Oriented Instruction Tuning for Event Reasoning"
 source: "https://aclanthology.org/2024.findings-acl.531/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'causal-reasoning-and-explanation-in-nlp']
 tags: ['event-reasoning', 'instruction-tuning', 'event-relations']
 venue: "ACL 2024"

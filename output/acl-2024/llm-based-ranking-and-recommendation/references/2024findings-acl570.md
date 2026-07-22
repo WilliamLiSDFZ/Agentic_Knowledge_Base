@@ -1,6 +1,7 @@
 ---
 title: "RePALM: Popular Quote Tweet Generation via Auto-Response Augmentation"
 source: "https://aclanthology.org/2024.findings-acl.570/"
+pdf_url: ""
 categories: ['social-ai-temporal-dynamics-evaluation', 'llm-based-ranking-and-recommendation']
 tags: ['quote-tweet', 'text-generation', 'social-media', 'popularity-prediction', 'augmentation']
 venue: "ACL 2024"

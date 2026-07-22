@@ -1,6 +1,7 @@
 ---
 title: "Active Classification with Few Queries under Misspecification"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/5c6bcabf220f35df0b90f3d1d0ac1ad0-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/5c6bcabf220f35df0b90f3d1d0ac1ad0-Paper-Conference.pdf"
 categories: ['query-efficient-algorithms-with-imperfect-oracles', 'machine-learning-theory-and-evaluation-methods']
 tags: ['active-learning', 'pool-based', 'misspecification']
 venue: "NeurIPS 2024"

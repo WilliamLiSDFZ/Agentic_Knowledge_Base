@@ -1,6 +1,7 @@
 ---
 title: "Multi-language Diversity Benefits Autoformalization"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/984de836e696ba653bbfbbbfce31d3bc-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/984de836e696ba653bbfbbbfce31d3bc-Paper-Conference.pdf"
 categories: ['neural-networks-for-formal-reasoning-and-verification', 'llm-training-and-optimization-techniques']
 tags: ['autoformalization', 'multilingual', 'formal-verification']
 venue: "NeurIPS 2024"

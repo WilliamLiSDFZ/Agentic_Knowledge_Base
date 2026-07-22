@@ -1,6 +1,7 @@
 ---
 title: "Chinese MentalBERT: Domain-Adaptive Pre-training on Social Media for Chinese Mental Health Text Analysis"
 source: "https://aclanthology.org/2024.findings-acl.629/"
+pdf_url: ""
 categories: ['online-discourse-mental-health-language-analysis', 'llms-for-biomedical-and-clinical-nlp']
 tags: ['mental-health-nlp', 'domain-adaptive-pretraining', 'chinese-social-media']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "DADA: Distribution-Aware Domain Adaptation of PLMs for Information Retrieval"
 source: "https://aclanthology.org/2024.findings-acl.825/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces', 'continual-learning-for-nlp-tasks']
 tags: ['domain-adaptation', 'information-retrieval', 'distribution-shift']
 venue: "ACL 2024"

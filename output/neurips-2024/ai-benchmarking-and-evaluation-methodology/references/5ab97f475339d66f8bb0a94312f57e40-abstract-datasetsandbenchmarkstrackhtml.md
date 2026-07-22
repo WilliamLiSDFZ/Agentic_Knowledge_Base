@@ -1,6 +1,7 @@
 ---
 title: "Noisy Ostracods: A Fine-Grained, Imbalanced Real-World Dataset for Benchmarking Robust Machine Learning and Label Correction Methods"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/5ab97f475339d66f8bb0a94312f57e40-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/5ab97f475339d66f8bb0a94312f57e40-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'machine-learning-theory-and-evaluation-methods']
 tags: ['noisy-labels', 'imbalanced-dataset', 'benchmarking']
 venue: "NeurIPS 2024"

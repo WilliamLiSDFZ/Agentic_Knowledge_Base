@@ -1,6 +1,7 @@
 ---
 title: "Unsupervised Distractor Generation via Large Language Model Distilling and Counterfactual Contrastive Decoding"
 source: "https://aclanthology.org/2024.findings-acl.47/"
+pdf_url: ""
 categories: ['educational-question-generation-and-comprehension', 'llm-training-alignment-and-evaluation']
 tags: ['distractor-generation', 'counterfactual-decoding', 'reading-comprehension']
 venue: "ACL 2024"

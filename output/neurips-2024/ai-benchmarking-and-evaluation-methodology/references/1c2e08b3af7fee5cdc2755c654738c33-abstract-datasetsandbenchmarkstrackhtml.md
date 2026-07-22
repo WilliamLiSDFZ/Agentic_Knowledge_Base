@@ -1,6 +1,7 @@
 ---
 title: "FT-AED: Benchmark Dataset for Early Freeway Traffic Anomalous Event Detection"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1c2e08b3af7fee5cdc2755c654738c33-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1c2e08b3af7fee5cdc2755c654738c33-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'autonomous-driving-and-trajectory-prediction']
 tags: ['traffic-anomaly-detection', 'freeway-benchmark', 'event-detection', 'dataset']
 venue: "NeurIPS 2024"

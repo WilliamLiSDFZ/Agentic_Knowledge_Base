@@ -1,6 +1,7 @@
 ---
 title: "Are LLMs classical or nonmonotonic reasoners? Lessons from generics"
 source: "https://aclanthology.org/2024.acl-short.51/"
+pdf_url: ""
 categories: ['language-model-human-cognitive-linguistic-alignment', 'llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['nonmonotonic-reasoning', 'generics', 'LLM-evaluation']
 venue: "ACL 2024"

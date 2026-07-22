@@ -1,6 +1,7 @@
 ---
 title: "SUGARCREPE++ Dataset: Vision-Language Model Sensitivity to Semantic and Lexical Alterations"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/200661bf8f4993b7828a45a2a90f2ecf-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/200661bf8f4993b7828a45a2a90f2ecf-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'visual-language-multimodal-generation-reasoning']
 tags: ['vision-language-models', 'semantic-sensitivity', 'lexical-variation', 'benchmark', 'compositionality']
 venue: "NeurIPS 2024"

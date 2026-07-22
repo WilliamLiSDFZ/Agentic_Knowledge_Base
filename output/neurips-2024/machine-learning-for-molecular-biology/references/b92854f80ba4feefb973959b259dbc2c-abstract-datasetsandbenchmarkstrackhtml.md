@@ -1,6 +1,7 @@
 ---
 title: "BioTrove: A Large Curated Image Dataset Enabling AI for Biodiversity"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/b92854f80ba4feefb973959b259dbc2c-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/b92854f80ba4feefb973959b259dbc2c-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['machine-learning-for-molecular-biology', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['biodiversity', 'image-dataset', 'iNaturalist']
 venue: "NeurIPS 2024"

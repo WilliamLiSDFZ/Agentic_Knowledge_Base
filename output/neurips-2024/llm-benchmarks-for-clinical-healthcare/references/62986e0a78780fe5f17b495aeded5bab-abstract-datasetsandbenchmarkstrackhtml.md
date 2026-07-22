@@ -1,6 +1,7 @@
 ---
 title: "Instruction Tuning Large Language Models to Understand Electronic Health Records"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/62986e0a78780fe5f17b495aeded5bab-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/62986e0a78780fe5f17b495aeded5bab-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-benchmarks-for-clinical-healthcare', 'llm-training-and-optimization-techniques']
 tags: ['electronic-health-records', 'instruction-tuning', 'clinical-llm']
 venue: "NeurIPS 2024"

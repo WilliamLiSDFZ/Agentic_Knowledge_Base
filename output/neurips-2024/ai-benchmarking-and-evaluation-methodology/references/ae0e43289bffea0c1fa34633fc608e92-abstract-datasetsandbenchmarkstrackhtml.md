@@ -1,6 +1,7 @@
 ---
 title: "MMLONGBENCH-DOC: Benchmarking Long-context Document Understanding with Visualizations"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ae0e43289bffea0c1fa34633fc608e92-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ae0e43289bffea0c1fa34633fc608e92-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['document-understanding', 'long-context', 'vision-language-models']
 venue: "NeurIPS 2024"

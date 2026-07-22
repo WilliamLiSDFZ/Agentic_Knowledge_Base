@@ -1,6 +1,7 @@
 ---
 title: "ConMe: Rethinking Evaluation of Compositional Reasoning for Modern VLMs"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/28aad3b3b315d86910d7f4ee2867dfa4-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/28aad3b3b315d86910d7f4ee2867dfa4-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['compositional-reasoning', 'vision-language-models', 'benchmark-evaluation']
 venue: "NeurIPS 2024"

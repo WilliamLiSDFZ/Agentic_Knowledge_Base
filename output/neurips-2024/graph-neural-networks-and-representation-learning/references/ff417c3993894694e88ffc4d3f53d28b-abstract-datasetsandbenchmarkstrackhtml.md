@@ -1,6 +1,7 @@
 ---
 title: "Can Large Language Models Analyze Graphs like Professionals? A Benchmark, Datasets and Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ff417c3993894694e88ffc4d3f53d28b-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ff417c3993894694e88ffc4d3f53d28b-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'graph-neural-networks-and-representation-learning']
 tags: ['LLM-graph-analysis', 'benchmark', 'graph-reasoning']
 venue: "NeurIPS 2024"

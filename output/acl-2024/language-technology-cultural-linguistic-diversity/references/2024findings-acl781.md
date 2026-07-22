@@ -1,6 +1,7 @@
 ---
 title: "Toucan: Many-to-Many Translation for 150 African Language Pairs"
 source: "https://aclanthology.org/2024.findings-acl.781/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity']
 tags: ['African-languages', 'machine-translation', 'low-resource', 'multilingual']
 venue: "ACL 2024"

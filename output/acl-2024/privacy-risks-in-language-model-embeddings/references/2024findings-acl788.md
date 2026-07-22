@@ -1,6 +1,7 @@
 ---
 title: "Proving membership in LLM pretraining data via data watermarks"
 source: "https://aclanthology.org/2024.findings-acl.788/"
+pdf_url: ""
 categories: ['privacy-risks-in-language-model-embeddings', 'llm-security-robustness-and-detection']
 tags: ['data-watermarks', 'membership-inference', 'pretraining-data', 'copyright', 'black-box-access']
 venue: "ACL 2024"

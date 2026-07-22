@@ -1,6 +1,7 @@
 ---
 title: "HuRef: HUman-REadable Fingerprint for Large Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/e46fc33e80e9fa2febcdb058fba4beca-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/e46fc33e80e9fa2febcdb058fba4beca-Paper-Conference.pdf"
 categories: ['llm-safety-robustness-and-privacy-defenses', 'llm-training-and-optimization-techniques']
 tags: ['LLM-fingerprinting', 'copyright-protection', 'model-identification']
 venue: "NeurIPS 2024"

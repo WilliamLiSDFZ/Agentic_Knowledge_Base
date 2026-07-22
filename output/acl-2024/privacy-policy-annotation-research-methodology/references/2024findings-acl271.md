@@ -1,6 +1,7 @@
 ---
 title: "Automated Detection and Analysis of Data Practices Using A Real-World Corpus"
 source: "https://aclanthology.org/2024.findings-acl.271/"
+pdf_url: ""
 categories: ['privacy-policy-annotation-research-methodology', 'document-understanding-and-information-extraction']
 tags: ['privacy-policy', 'data-practices', 'automated-detection']
 venue: "ACL 2024"

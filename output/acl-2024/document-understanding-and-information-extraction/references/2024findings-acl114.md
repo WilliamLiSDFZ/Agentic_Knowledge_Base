@@ -1,6 +1,7 @@
 ---
 title: "Harvesting Events from Multiple Sources: Towards a Cross-Document Event Extraction Paradigm"
 source: "https://aclanthology.org/2024.findings-acl.114/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'document-understanding-and-information-extraction']
 tags: ['event-extraction', 'cross-document', 'information-extraction']
 venue: "ACL 2024"

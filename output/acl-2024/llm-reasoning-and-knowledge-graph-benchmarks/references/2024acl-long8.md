@@ -1,6 +1,7 @@
 ---
 title: "A Unified Temporal Knowledge Graph Reasoning Model Towards Interpolation and Extrapolation"
 source: "https://aclanthology.org/2024.acl-long.8/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-agents-reasoning-and-planning']
 tags: ['temporal-knowledge-graph', 'interpolation', 'extrapolation', 'reasoning']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Thinking about how to extract: Energizing LLMs’ emergence capabilities for document-level event argument extraction"
 source: "https://aclanthology.org/2024.findings-acl.328/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'llm-agents-reasoning-and-planning']
 tags: ['event-argument-extraction', 'document-level', 'LLM', 'emergence-capabilities', 'information-extraction']
 venue: "ACL 2024"

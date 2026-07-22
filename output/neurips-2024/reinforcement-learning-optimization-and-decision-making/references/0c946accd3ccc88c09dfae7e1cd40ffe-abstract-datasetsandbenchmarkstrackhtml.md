@@ -1,6 +1,7 @@
 ---
 title: "DMC-VB: A Benchmark for Representation Learning for Control with Visual Distractors"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/0c946accd3ccc88c09dfae7e1cd40ffe-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/0c946accd3ccc88c09dfae7e1cd40ffe-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making']
 tags: ['offline-reinforcement-learning', 'visual-distractors', 'representation-learning', 'benchmark', 'behavioral-cloning']
 venue: "NeurIPS 2024"

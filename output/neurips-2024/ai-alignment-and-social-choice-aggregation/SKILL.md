@@ -1,12 +1,12 @@
 ---
 name: ai-alignment-and-social-choice-aggregation
 description: >-
-  This skill covers methods for aligning AI systems (particularly LLMs and RL agents) with human preferences, values, and social welfare, spanning both theoretical foundations and practical techniques. Core methods include best-of-n sampling, reward modeling, multi-objective optimization, social choice aggregation, online learning with fairness constraints, and debate/oversight frameworks, applied to tasks such as preference learning
+  This skill covers the alignment of AI systems with human values, preferences, and social welfare through techniques spanning reinforcement learning from human feedback, best-of-n sampling, multi-objective optimization, and social choice aggregation methods. Applications include LLM alignment, fair resource division, AI-assisted decision making, scalable oversight, and learning human behavioral models to aggregate individual preferences into collective utility functions
 ---
 
 # Ai Alignment And Social Choice Aggregation
 
-This skill covers methods for aligning AI systems (particularly LLMs and RL agents) with human preferences, values, and social welfare, spanning both theoretical foundations and practical techniques. Core methods include best-of-n sampling, reward modeling, multi-objective optimization, social choice aggregation, online learning with fairness constraints, and debate/oversight frameworks, applied to tasks such as preference learning
+This skill covers the alignment of AI systems with human values, preferences, and social welfare through techniques spanning reinforcement learning from human feedback, best-of-n sampling, multi-objective optimization, and social choice aggregation methods. Applications include LLM alignment, fair resource division, AI-assisted decision making, scalable oversight, and learning human behavioral models to aggregate individual preferences into collective utility functions
 
 ## Entry Index
 

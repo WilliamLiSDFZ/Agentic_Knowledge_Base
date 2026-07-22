@@ -1,6 +1,7 @@
 ---
 title: "Integrating Physician Diagnostic Logic into Large Language Models: Preference Learning from Process Feedback"
 source: "https://aclanthology.org/2024.findings-acl.144/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp', 'llm-training-alignment-and-evaluation']
 tags: ['medical-dialogue', 'preference-learning', 'process-feedback']
 venue: "ACL 2024"

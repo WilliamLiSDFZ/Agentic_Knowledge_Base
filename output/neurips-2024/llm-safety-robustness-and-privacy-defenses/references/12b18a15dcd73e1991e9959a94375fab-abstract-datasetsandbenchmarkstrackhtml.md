@@ -1,6 +1,7 @@
 ---
 title: "PrivAuditor: Benchmarking Data Protection Vulnerabilities in LLM Adaptation Techniques"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/12b18a15dcd73e1991e9959a94375fab-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/12b18a15dcd73e1991e9959a94375fab-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-safety-robustness-and-privacy-defenses']
 tags: ['privacy', 'llm-adaptation', 'vulnerability-benchmarking']
 venue: "NeurIPS 2024"

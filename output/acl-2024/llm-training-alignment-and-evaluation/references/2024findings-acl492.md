@@ -1,6 +1,7 @@
 ---
 title: "Large Language Models Relearn Removed Concepts"
 source: "https://aclanthology.org/2024.findings-acl.492/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'continual-learning-for-nlp-tasks']
 tags: ['concept-relearning', 'neuron-pruning', 'model-editing']
 venue: "ACL 2024"

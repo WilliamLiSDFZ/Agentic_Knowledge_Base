@@ -1,12 +1,12 @@
 ---
 name: statistical-learning-theory-and-matrix-methods
 description: >-
-  This skill covers the theoretical foundations and algorithmic development of statistical learning, spanning generalization bounds (PAC-Bayes), sparse estimation (sparse regression, canonical correlation analysis, structured sparsity), matrix methods (matrix completion, matrix sensing, spectral algorithms), and sequential prediction under minimax frameworks. Applications include feature selection, dataset valuation, multi-label learning, hyperparameter optimization
+  This skill covers theoretical and algorithmic foundations of statistical learning, with emphasis on high-dimensional estimation (sparse regression, canonical correlation analysis, matrix completion, spectral methods), model complexity and generalization (PAC-Bayes bounds, minimax regret, consistency guarantees), and structured matrix methods (Fisher information estimation, Gaussian processes, linear solvers). It also addresses practical ML tasks
 ---
 
 # Statistical Learning Theory And Matrix Methods
 
-This skill covers the theoretical foundations and algorithmic development of statistical learning, spanning generalization bounds (PAC-Bayes), sparse estimation (sparse regression, canonical correlation analysis, structured sparsity), matrix methods (matrix completion, matrix sensing, spectral algorithms), and sequential prediction under minimax frameworks. Applications include feature selection, dataset valuation, multi-label learning, hyperparameter optimization
+This skill covers theoretical and algorithmic foundations of statistical learning, with emphasis on high-dimensional estimation (sparse regression, canonical correlation analysis, matrix completion, spectral methods), model complexity and generalization (PAC-Bayes bounds, minimax regret, consistency guarantees), and structured matrix methods (Fisher information estimation, Gaussian processes, linear solvers). It also addresses practical ML tasks
 
 ## Entry Index
 

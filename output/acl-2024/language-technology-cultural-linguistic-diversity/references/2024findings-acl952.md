@@ -1,6 +1,7 @@
 ---
 title: "DIMSIM: Distilled Multilingual Critics for Indic Text Simplification"
 source: "https://aclanthology.org/2024.findings-acl.952/"
+pdf_url: ""
 categories: ['text-simplification-evaluation-and-methods', 'language-technology-cultural-linguistic-diversity']
 tags: ['text-simplification', 'multilingual', 'indic-languages']
 venue: "ACL 2024"

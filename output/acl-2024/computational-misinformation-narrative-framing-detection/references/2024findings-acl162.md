@@ -1,6 +1,7 @@
 ---
 title: "Simulated Misinformation Susceptibility (SMISTS): Enhancing Misinformation Research with Large Language Model Simulations"
 source: "https://aclanthology.org/2024.findings-acl.162/"
+pdf_url: ""
 categories: ['computational-misinformation-narrative-framing-detection', 'llm-based-scientific-misinformation-detection']
 tags: ['misinformation', 'inoculation', 'LLM-simulation', 'susceptibility']
 venue: "ACL 2024"

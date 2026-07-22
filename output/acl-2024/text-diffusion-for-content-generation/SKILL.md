@@ -1,12 +1,12 @@
 ---
 name: text-diffusion-for-content-generation
 description: >-
-  **Text diffusion models and controlled generation techniques applied to diverse NLP tasks.** This skill covers methods including score-based diffusion, dynamic attribute graphs, disentangled counterfactual augmentation, and feedforward-layer control mechanisms for steering text generation across tasks such as sentiment analysis, story generation, poetry composition, poll generation, commonsense knowledge inference, and cross-modal
+  **Text diffusion models and controlled generation techniques for diverse content creation tasks.** This skill covers applying diffusion processes and controllable generation methods (attribute graphs, disentangled representations, score-based editing, feedforward control) to tasks including sentiment analysis, story generation, poetry, poll creation, commonsense knowledge, ancient language decipherment, and cross-modal generation (text-
 ---
 
 # Text Diffusion For Content Generation
 
-**Text diffusion models and controlled generation techniques applied to diverse NLP tasks.** This skill covers methods including score-based diffusion, dynamic attribute graphs, disentangled counterfactual augmentation, and feedforward-layer control mechanisms for steering text generation across tasks such as sentiment analysis, story generation, poetry composition, poll generation, commonsense knowledge inference, and cross-modal
+**Text diffusion models and controlled generation techniques for diverse content creation tasks.** This skill covers applying diffusion processes and controllable generation methods (attribute graphs, disentangled representations, score-based editing, feedforward control) to tasks including sentiment analysis, story generation, poetry, poll creation, commonsense knowledge, ancient language decipherment, and cross-modal generation (text-
 
 ## Entry Index
 

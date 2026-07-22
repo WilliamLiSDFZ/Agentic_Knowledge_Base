@@ -1,6 +1,7 @@
 ---
 title: "DART-Math: Difficulty-Aware Rejection Tuning for Mathematical Problem-Solving"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/0ef1afa0daa888d695dcd5e9513bafa3-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/0ef1afa0daa888d695dcd5e9513bafa3-Paper-Conference.pdf"
 categories: ['llm-training-and-optimization-techniques', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['mathematical-reasoning', 'rejection-tuning', 'difficulty-aware']
 venue: "NeurIPS 2024"

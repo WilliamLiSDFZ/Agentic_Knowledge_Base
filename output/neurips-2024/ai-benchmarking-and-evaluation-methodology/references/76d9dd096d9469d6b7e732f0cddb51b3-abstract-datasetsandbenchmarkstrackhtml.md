@@ -1,6 +1,7 @@
 ---
 title: "CableInspect-AD: An Expert-Annotated Anomaly Detection Dataset"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/76d9dd096d9469d6b7e732f0cddb51b3-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/76d9dd096d9469d6b7e732f0cddb51b3-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['anomaly-detection', 'benchmark-dataset', 'power-line-inspection', 'robotics', 'expert-annotation']
 venue: "NeurIPS 2024"

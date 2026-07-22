@@ -1,12 +1,14 @@
 ---
 name: llm-stakeholder-alignment-decision-making
 description: >-
-  **LLM Stakeholder Alignment & Decision Making** covers methods for aligning large language model outputs with the preferences and interests of multiple, potentially conflicting stakeholders when making decisions, using techniques such as multi-party preference modeling and game-theoretic or incentive-based frameworks (e.g., "skin-in-the-game" accountability mechanisms) to produce decisions that
+  **Skill Description:**
+This skill covers methods for aligning LLM outputs with the preferences and interests of multiple, potentially conflicting stakeholders in decision-making contexts, examining how models can balance competing objectives (e.g., user, developer, society) rather than optimizing for a single principal. It addresses techniques for eliciting, representing, and reconciling heterogeneous stak
 ---
 
 # Llm Stakeholder Alignment Decision Making
 
-**LLM Stakeholder Alignment & Decision Making** covers methods for aligning large language model outputs with the preferences and interests of multiple, potentially conflicting stakeholders when making decisions, using techniques such as multi-party preference modeling and game-theoretic or incentive-based frameworks (e.g., "skin-in-the-game" accountability mechanisms) to produce decisions that
+**Skill Description:**
+This skill covers methods for aligning LLM outputs with the preferences and interests of multiple, potentially conflicting stakeholders in decision-making contexts, examining how models can balance competing objectives (e.g., user, developer, society) rather than optimizing for a single principal. It addresses techniques for eliciting, representing, and reconciling heterogeneous stak
 
 ## Entry Index
 

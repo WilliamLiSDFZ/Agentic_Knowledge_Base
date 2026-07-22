@@ -1,6 +1,7 @@
 ---
 title: "CycleAlign: Iterative Distillation from Black-box LLM to White-box Models for Better Human Alignment"
 source: "https://aclanthology.org/2024.findings-acl.869/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'online-discourse-mental-health-language-analysis']
 tags: ['alignment', 'distillation', 'RLHF', 'human-values', 'white-box']
 venue: "ACL 2024"

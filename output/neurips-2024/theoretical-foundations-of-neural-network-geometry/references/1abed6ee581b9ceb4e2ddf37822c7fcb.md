@@ -1,6 +1,7 @@
 ---
 title: "Unconditional stability of a recurrent neural circuit implementing divisive normalization"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1abed6ee581b9ceb4e2ddf37822c7fcb-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1abed6ee581b9ceb4e2ddf37822c7fcb-Paper-Conference.pdf"
 categories: ['recurrent-and-spiking-neural-network-dynamics', 'theoretical-foundations-of-neural-network-geometry']
 tags: ['recurrent-neural-networks', 'divisive-normalization', 'stability', 'cortical-circuits', 'neurodynamics']
 venue: "NeurIPS 2024"

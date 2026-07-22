@@ -1,6 +1,7 @@
 ---
 title: "Touchstone Benchmark: Are We on the Right Way for Evaluating AI Algorithms for Medical Segmentation?"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1b8726b572e0dfa72793f9f6590664fd-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1b8726b572e0dfa72793f9f6590664fd-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-benchmarks-for-clinical-healthcare']
 tags: ['medical-segmentation', 'benchmarking', 'evaluation-methodology', 'AI-performance']
 venue: "NeurIPS 2024"

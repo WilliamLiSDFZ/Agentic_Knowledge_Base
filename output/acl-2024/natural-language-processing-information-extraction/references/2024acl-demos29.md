@@ -1,6 +1,7 @@
 ---
 title: "Fundus: A Simple-to-Use News Scraper Optimized for High Quality Extractions"
 source: "https://aclanthology.org/2024.acl-demos.29/"
+pdf_url: ""
 categories: ['web-data-quality-and-llm-evaluation', 'natural-language-processing-information-extraction']
 tags: ['news-scraping', 'data-collection', 'web-extraction']
 venue: "ACL 2024"

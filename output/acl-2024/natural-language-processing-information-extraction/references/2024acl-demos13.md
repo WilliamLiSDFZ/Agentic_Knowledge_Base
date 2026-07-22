@@ -1,6 +1,7 @@
 ---
 title: "NLP-KG: A System for Exploratory Search of Scientific Literature in Natural Language Processing"
 source: "https://aclanthology.org/2024.acl-demos.13/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'natural-language-processing-information-extraction']
 tags: ['scientific-literature-search', 'knowledge-graph', 'exploratory-search']
 venue: "ACL 2024"

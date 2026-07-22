@@ -1,12 +1,12 @@
 ---
 name: machine-learning-for-molecular-biology
 description: >-
-  This skill covers the application of deep learning, graph neural networks, foundation models, and generative methods to molecular and biological data, including tasks such as de novo peptide sequencing, molecular generation and property prediction, gene expression imputation, protein-ligand/antibody-epitope interaction prediction, and enzyme classification. Methods span transformer-based and diffusion models operating on sequences, graphs,
+  This skill covers the application of machine learning methods—including deep learning, graph neural networks, diffusion models, transformers, and large language models—to molecular and biological data tasks such as protein/peptide analysis (de novo sequencing, epitope prediction, enzyme classification), molecular generation and property prediction (charge density, 3D structure, toxicity), and genomics (single-cell
 ---
 
 # Machine Learning For Molecular Biology
 
-This skill covers the application of deep learning, graph neural networks, foundation models, and generative methods to molecular and biological data, including tasks such as de novo peptide sequencing, molecular generation and property prediction, gene expression imputation, protein-ligand/antibody-epitope interaction prediction, and enzyme classification. Methods span transformer-based and diffusion models operating on sequences, graphs,
+This skill covers the application of machine learning methods—including deep learning, graph neural networks, diffusion models, transformers, and large language models—to molecular and biological data tasks such as protein/peptide analysis (de novo sequencing, epitope prediction, enzyme classification), molecular generation and property prediction (charge density, 3D structure, toxicity), and genomics (single-cell
 
 ## Entry Index
 

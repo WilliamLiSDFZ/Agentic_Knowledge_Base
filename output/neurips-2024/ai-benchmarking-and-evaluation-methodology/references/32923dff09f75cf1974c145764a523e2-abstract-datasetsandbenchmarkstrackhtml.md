@@ -1,6 +1,7 @@
 ---
 title: "MLLM-CompBench: A Comparative Reasoning Benchmark for Multimodal LLMs"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/32923dff09f75cf1974c145764a523e2-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/32923dff09f75cf1974c145764a523e2-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['comparative-reasoning', 'multimodal-LLM', 'benchmark']
 venue: "NeurIPS 2024"

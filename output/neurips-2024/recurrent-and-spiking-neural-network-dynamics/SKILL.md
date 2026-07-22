@@ -1,12 +1,12 @@
 ---
 name: recurrent-and-spiking-neural-network-dynamics
 description: >-
-  This skill covers the dynamics, training, and architectural design of recurrent neural networks (RNNs), spiking neural networks (SNNs), and state-space models, with methods including surrogate gradient learning, neuromodulation, feedback control for credit assignment, and parallelization strategies. Applications span computational neuroscience (place cells, visual cortex modeling, episod
+  This skill covers the dynamics, training, and architectural design of recurrent neural networks (RNNs), spiking neural networks (SNNs), and state-space models, with methods including neuromodulation, surrogate gradient learning, feedback-based credit assignment, and parallelization techniques. Applications span computational neuroscience modeling (place cells, visual cortex, episod
 ---
 
 # Recurrent And Spiking Neural Network Dynamics
 
-This skill covers the dynamics, training, and architectural design of recurrent neural networks (RNNs), spiking neural networks (SNNs), and state-space models, with methods including surrogate gradient learning, neuromodulation, feedback control for credit assignment, and parallelization strategies. Applications span computational neuroscience (place cells, visual cortex modeling, episod
+This skill covers the dynamics, training, and architectural design of recurrent neural networks (RNNs), spiking neural networks (SNNs), and state-space models, with methods including neuromodulation, surrogate gradient learning, feedback-based credit assignment, and parallelization techniques. Applications span computational neuroscience modeling (place cells, visual cortex, episod
 
 ## Entry Index
 

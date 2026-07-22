@@ -1,12 +1,12 @@
 ---
 name: quantum-machine-learning-algorithms-optimization
 description: >-
-  This skill covers the design and analysis of quantum algorithms and parameterized quantum circuits (e.g., QAOA, VQE, quantum VAEs) for optimization, statistical estimation, machine learning, and scientific computing tasks including molecular generation, linear control, and market equilibrium. It encompasses theoretical analysis (approximation error bounds, sample complexity, communication complexity) alongside practical methods for circuit architecture
+  This skill covers the design and analysis of quantum algorithms and parameterized quantum circuits (e.g., QAOA, VQE, quantum VAEs) for optimization, statistical estimation, machine learning, and scientific computing tasks including molecular generation, linear control, and market equilibrium. It addresses theoretical aspects such as approximation error bounds, sample complexity, and quantum communication advantages, alongside practical circuit
 ---
 
 # Quantum Machine Learning Algorithms Optimization
 
-This skill covers the design and analysis of quantum algorithms and parameterized quantum circuits (e.g., QAOA, VQE, quantum VAEs) for optimization, statistical estimation, machine learning, and scientific computing tasks including molecular generation, linear control, and market equilibrium. It encompasses theoretical analysis (approximation error bounds, sample complexity, communication complexity) alongside practical methods for circuit architecture
+This skill covers the design and analysis of quantum algorithms and parameterized quantum circuits (e.g., QAOA, VQE, quantum VAEs) for optimization, statistical estimation, machine learning, and scientific computing tasks including molecular generation, linear control, and market equilibrium. It addresses theoretical aspects such as approximation error bounds, sample complexity, and quantum communication advantages, alongside practical circuit
 
 ## Entry Index
 

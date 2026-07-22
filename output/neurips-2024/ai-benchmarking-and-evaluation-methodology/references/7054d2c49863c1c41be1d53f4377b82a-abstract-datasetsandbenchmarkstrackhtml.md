@@ -1,6 +1,7 @@
 ---
 title: "TEG-DB: A Comprehensive Dataset and Benchmark of Textual-Edge Graphs"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/7054d2c49863c1c41be1d53f4377b82a-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/7054d2c49863c1c41be1d53f4377b82a-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['graph-neural-networks-and-representation-learning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['textual-edge-graphs', 'graph-benchmarks', 'text-attributed-graphs']
 venue: "NeurIPS 2024"

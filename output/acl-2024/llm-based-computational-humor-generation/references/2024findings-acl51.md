@@ -1,6 +1,7 @@
 ---
 title: "Are U a Joke Master? Pun Generation via Multi-Stage Curriculum Learning towards a Humor LLM"
 source: "https://aclanthology.org/2024.findings-acl.51/"
+pdf_url: ""
 categories: ['llm-based-computational-humor-generation', 'llm-training-alignment-and-evaluation']
 tags: ['pun-generation', 'humor', 'curriculum-learning', 'LLM', 'fine-tuning']
 venue: "ACL 2024"

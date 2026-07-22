@@ -1,6 +1,7 @@
 ---
 title: "ToxVidLM: A Multimodal Framework for Toxicity Detection in Code-Mixed Videos"
 source: "https://aclanthology.org/2024.findings-acl.663/"
+pdf_url: ""
 categories: ['hate-speech-and-toxic-content-detection', 'multimodal-language-vision-learning-systems']
 tags: ['toxicity-detection', 'multimodal', 'code-mixed-language', 'video-understanding', 'low-resource']
 venue: "ACL 2024"

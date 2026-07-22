@@ -1,12 +1,12 @@
 ---
 name: label-noise-robust-annotation-learning
 description: >-
-  This skill covers methods for handling label noise, annotation uncertainty, and data quality in NLP training pipelines, including techniques for identifying and filtering noisy/inconsistent annotations, modeling annotator disagreement, and leveraging uncertainty estimates during learning. It encompasses applications such as active learning with noise-robust selection, distantly-supervised NER, instruction tuning data filtering, and LLM alignment
+  This skill covers methods for handling noisy, inconsistent, or incomplete annotations in NLP training pipelines, including techniques for detecting and filtering label noise, modeling annotator disagreement/variability, and leveraging uncertainty estimation to improve learning robustness. It spans applications such as data-efficient fine-tuning of LLMs, distant supervision for NER, instruction tuning, and
 ---
 
 # Label Noise Robust Annotation Learning
 
-This skill covers methods for handling label noise, annotation uncertainty, and data quality in NLP training pipelines, including techniques for identifying and filtering noisy/inconsistent annotations, modeling annotator disagreement, and leveraging uncertainty estimates during learning. It encompasses applications such as active learning with noise-robust selection, distantly-supervised NER, instruction tuning data filtering, and LLM alignment
+This skill covers methods for handling noisy, inconsistent, or incomplete annotations in NLP training pipelines, including techniques for detecting and filtering label noise, modeling annotator disagreement/variability, and leveraging uncertainty estimation to improve learning robustness. It spans applications such as data-efficient fine-tuning of LLMs, distant supervision for NER, instruction tuning, and
 
 ## Entry Index
 

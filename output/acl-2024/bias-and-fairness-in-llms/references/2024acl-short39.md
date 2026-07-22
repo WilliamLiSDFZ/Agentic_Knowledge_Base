@@ -1,6 +1,7 @@
 ---
 title: "Born Differently Makes a Difference: Counterfactual Study of Bias in Biography Generation from a Data-to-Text Perspective"
 source: "https://aclanthology.org/2024.acl-short.39/"
+pdf_url: ""
 categories: ['bias-and-fairness-in-llms']
 tags: ['biography-generation', 'counterfactual', 'bias']
 venue: "ACL 2024"

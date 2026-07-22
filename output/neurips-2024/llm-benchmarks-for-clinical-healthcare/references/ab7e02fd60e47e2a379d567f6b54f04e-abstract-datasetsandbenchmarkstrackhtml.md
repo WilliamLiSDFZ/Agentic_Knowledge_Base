@@ -1,6 +1,7 @@
 ---
 title: "GMAI-MMBench: A Comprehensive Multimodal Evaluation Benchmark Towards General Medical AI"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ab7e02fd60e47e2a379d567f6b54f04e-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ab7e02fd60e47e2a379d567f6b54f04e-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-benchmarks-for-clinical-healthcare', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['multimodal-benchmark', 'medical-AI', 'vision-language-models']
 venue: "NeurIPS 2024"

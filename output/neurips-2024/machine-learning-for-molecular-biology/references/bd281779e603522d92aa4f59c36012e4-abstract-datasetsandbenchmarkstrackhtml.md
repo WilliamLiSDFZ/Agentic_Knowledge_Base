@@ -1,6 +1,7 @@
 ---
 title: "NovoBench: Benchmarking Deep Learning-based \emph{De Novo} Sequencing Methods in Proteomics"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/bd281779e603522d92aa4f59c36012e4-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/bd281779e603522d92aa4f59c36012e4-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'machine-learning-for-molecular-biology']
 tags: ['proteomics', 'de-novo-sequencing', 'mass-spectrometry']
 venue: "NeurIPS 2024"

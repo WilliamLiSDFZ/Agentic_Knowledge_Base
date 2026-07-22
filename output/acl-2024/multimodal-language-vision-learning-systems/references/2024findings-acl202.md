@@ -1,6 +1,7 @@
 ---
 title: "See It All: Contextualized Late Aggregation for 3D Dense Captioning"
 source: "https://aclanthology.org/2024.findings-acl.202/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems']
 tags: ['3D-dense-captioning', 'late-aggregation', 'transformer-decoder']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Language Models can Evaluate Themselves via Probability Discrepancy"
 source: "https://aclanthology.org/2024.findings-acl.291/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'llm-hallucination-detection-and-mitigation']
 tags: ['LLM-self-evaluation', 'probability-discrepancy', 'hallucination', 'output-distribution', 'self-assessment']
 venue: "ACL 2024"

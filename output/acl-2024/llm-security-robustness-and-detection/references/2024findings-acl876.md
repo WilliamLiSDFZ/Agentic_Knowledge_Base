@@ -1,6 +1,7 @@
 ---
 title: "Preemptive Answer “Attacks” on Chain-of-Thought Reasoning"
 source: "https://aclanthology.org/2024.findings-acl.876/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'llm-agents-reasoning-and-planning']
 tags: ['chain-of-thought', 'robustness', 'adversarial-prompting']
 venue: "ACL 2024"

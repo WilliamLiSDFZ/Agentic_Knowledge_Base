@@ -1,6 +1,7 @@
 ---
 title: "GENDEX: Generative Data Augmentation Strategy Leveraging External Data for Abstractive Dialogue Summarization"
 source: "https://aclanthology.org/2024.findings-acl.188/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction']
 tags: ['data-augmentation', 'dialogue-summarization', 'generative-models']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Every Answer Matters: Evaluating Commonsense with Probabilistic Measures"
 source: "https://aclanthology.org/2024.acl-long.29/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['commonsense-reasoning', 'probabilistic-evaluation', 'multiple-choice']
 venue: "ACL 2024"

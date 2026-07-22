@@ -1,6 +1,7 @@
 ---
 title: "ResLoRA: Identity Residual Mapping in Low-Rank Adaption"
 source: "https://aclanthology.org/2024.findings-acl.525/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'transformer-architecture-analysis-and-design']
 tags: ['parameter-efficient-fine-tuning', 'LoRA', 'residual-mapping']
 venue: "ACL 2024"

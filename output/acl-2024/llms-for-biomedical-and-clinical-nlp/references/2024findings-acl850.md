@@ -1,6 +1,7 @@
 ---
 title: "Evaluating Large Language Models for Health-related Queries with Presuppositions"
 source: "https://aclanthology.org/2024.findings-acl.850/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'llms-for-biomedical-and-clinical-nlp']
 tags: ['health-misinformation', 'presuppositions', 'LLM-evaluation', 'factuality', 'robustness']
 venue: "ACL 2024"

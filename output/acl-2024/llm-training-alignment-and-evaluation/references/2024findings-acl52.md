@@ -1,6 +1,7 @@
 ---
 title: "Knowledgeable Preference Alignment for LLMs in Domain-specific Question Answering"
 source: "https://aclanthology.org/2024.findings-acl.52/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'nlp-for-asian-languages']
 tags: ['preference-alignment', 'domain-specific-QA', 'LLM', 'knowledge-grounding', 'fine-tuning']
 venue: "ACL 2024"

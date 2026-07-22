@@ -1,6 +1,7 @@
 ---
 title: "Encoding Hierarchical Schema via Concept Flow for Multifaceted Ideology Detection"
 source: "https://aclanthology.org/2024.findings-acl.172/"
+pdf_url: ""
 categories: ['hierarchical-text-classification-methods']
 tags: ['ideology-detection', 'concept-flow', 'hierarchical-schema']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Beyond Text: Leveraging Multi-Task Learning and Cognitive Appraisal Theory for Post-Purchase Intention Analysis"
 source: "https://aclanthology.org/2024.findings-acl.734/"
+pdf_url: ""
 categories: ['nlp-text-classification-applied-tasks', 'emotion-aware-dialogue-and-empathy-systems']
 tags: ['multi-task-learning', 'post-purchase-intention', 'cognitive-appraisal']
 venue: "ACL 2024"

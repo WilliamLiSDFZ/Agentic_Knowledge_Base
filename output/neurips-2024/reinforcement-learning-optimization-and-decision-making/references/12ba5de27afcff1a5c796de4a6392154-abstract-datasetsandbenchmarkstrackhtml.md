@@ -1,6 +1,7 @@
 ---
 title: "A Retrospective on the Robot Air Hockey Challenge: Benchmarking Robust, Reliable, and Safe Learning Techniques for Real-world Robotics"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/12ba5de27afcff1a5c796de4a6392154-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/12ba5de27afcff1a5c796de4a6392154-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making']
 tags: ['robot-learning', 'benchmarking', 'safe-reinforcement-learning']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Can Large Language Model Summarizers Adapt to Diverse Scientific Communication Goals?"
 source: "https://aclanthology.org/2024.findings-acl.508/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'llm-agents-for-scientific-data-tasks']
 tags: ['scientific-summarization', 'LLM-controllability', 'stylistic-control', 'content-coverage']
 venue: "ACL 2024"

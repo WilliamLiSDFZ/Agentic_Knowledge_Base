@@ -1,12 +1,12 @@
 ---
 name: stochastic-optimization-convergence-and-variance-reduction
 description: >-
-  This skill covers the theoretical analysis and algorithmic development of stochastic optimization methods, including adaptive optimizers (Adam, SGD variants), variance reduction techniques, and convergence guarantees under relaxed assumptions (non-convexity, heavy-tailed noise, asynchronous/distributed settings). Applications span machine learning training (diffusion models, mixture models, performative prediction) with considerations
+  This skill covers theoretical analysis and algorithmic development of stochastic optimization methods, focusing on convergence guarantees, variance reduction, and adaptive learning rates (e.g., Adam, SGD variants) under relaxed assumptions such as non-convexity, heavy-tailed noise, and heterogeneous computation. Applications span distributed/asynchronous training, differentially private learning, diff
 ---
 
 # Stochastic Optimization Convergence And Variance Reduction
 
-This skill covers the theoretical analysis and algorithmic development of stochastic optimization methods, including adaptive optimizers (Adam, SGD variants), variance reduction techniques, and convergence guarantees under relaxed assumptions (non-convexity, heavy-tailed noise, asynchronous/distributed settings). Applications span machine learning training (diffusion models, mixture models, performative prediction) with considerations
+This skill covers theoretical analysis and algorithmic development of stochastic optimization methods, focusing on convergence guarantees, variance reduction, and adaptive learning rates (e.g., Adam, SGD variants) under relaxed assumptions such as non-convexity, heavy-tailed noise, and heterogeneous computation. Applications span distributed/asynchronous training, differentially private learning, diff
 
 ## Entry Index
 

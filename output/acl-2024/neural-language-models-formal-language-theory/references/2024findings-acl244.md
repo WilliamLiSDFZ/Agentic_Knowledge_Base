@@ -1,6 +1,7 @@
 ---
 title: "On Efficiently Representing Regular Languages as RNNs"
 source: "https://aclanthology.org/2024.findings-acl.244/"
+pdf_url: ""
 categories: ['neural-language-models-formal-language-theory']
 tags: ['rnn', 'regular-languages', 'formal-language-theory']
 venue: "ACL 2024"

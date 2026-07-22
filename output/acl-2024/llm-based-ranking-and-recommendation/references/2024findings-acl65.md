@@ -1,6 +1,7 @@
 ---
 title: "Pearl: A Review-driven Persona-Knowledge Grounded Conversational Recommendation Dataset"
 source: "https://aclanthology.org/2024.findings-acl.65/"
+pdf_url: ""
 categories: ['llm-based-ranking-and-recommendation']
 tags: ['conversational-recommendation', 'persona', 'knowledge-grounded']
 venue: "ACL 2024"

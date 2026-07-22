@@ -1,6 +1,7 @@
 ---
 title: "CodeInsight: A Curated Dataset of Practical Coding Solutions from Stack Overflow"
 source: "https://aclanthology.org/2024.findings-acl.354/"
+pdf_url: ""
 categories: ['code-llm-generation-and-evaluation', 'nlp-benchmark-design-and-interpretability']
 tags: ['code-generation', 'Stack-Overflow-dataset', 'unit-tests']
 venue: "ACL 2024"

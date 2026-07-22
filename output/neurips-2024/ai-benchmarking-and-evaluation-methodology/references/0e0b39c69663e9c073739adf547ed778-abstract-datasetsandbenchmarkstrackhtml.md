@@ -1,6 +1,7 @@
 ---
 title: "Text-space Graph Foundation Models: Comprehensive Benchmarks and New Insights"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/0e0b39c69663e9c073739adf547ed778-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/0e0b39c69663e9c073739adf547ed778-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['graph-neural-networks-and-representation-learning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['graph-foundation-model', 'text-attributed-graphs', 'benchmark', 'unified-backbone', 'graph-learning']
 venue: "NeurIPS 2024"

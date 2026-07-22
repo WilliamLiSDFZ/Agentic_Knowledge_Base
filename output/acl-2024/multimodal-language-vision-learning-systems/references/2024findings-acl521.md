@@ -1,6 +1,7 @@
 ---
 title: "GAOKAO-MM: A Chinese Human-Level Benchmark for Multimodal Models Evaluation"
 source: "https://aclanthology.org/2024.findings-acl.521/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'nlp-benchmark-design-and-interpretability']
 tags: ['multimodal-benchmark', 'vision-language-models', 'chinese', 'gaokao', 'evaluation']
 venue: "ACL 2024"

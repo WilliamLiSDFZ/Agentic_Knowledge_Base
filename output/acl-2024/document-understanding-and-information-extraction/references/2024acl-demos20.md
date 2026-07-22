@@ -1,6 +1,7 @@
 ---
 title: "AutoRE: Document-Level Relation Extraction with Large Language Models"
 source: "https://aclanthology.org/2024.acl-demos.20/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'document-understanding-and-information-extraction']
 tags: ['relation-extraction', 'document-level', 'large-language-models']
 venue: "ACL 2024"

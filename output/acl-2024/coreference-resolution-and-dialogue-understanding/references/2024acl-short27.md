@@ -1,6 +1,7 @@
 ---
 title: "Generating Harder Cross-document Event Coreference Resolution Datasets using Metaphoric Paraphrasing"
 source: "https://aclanthology.org/2024.acl-short.27/"
+pdf_url: ""
 categories: ['coreference-resolution-and-dialogue-understanding']
 tags: ['coreference-resolution', 'metaphoric-paraphrasing', 'dataset-generation']
 venue: "ACL 2024"

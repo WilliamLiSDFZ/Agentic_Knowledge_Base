@@ -1,6 +1,7 @@
 ---
 title: "Learning to Maximize Mutual Information for Chain-of-Thought Distillation"
 source: "https://aclanthology.org/2024.findings-acl.409/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['knowledge-distillation', 'chain-of-thought', 'mutual-information']
 venue: "ACL 2024"

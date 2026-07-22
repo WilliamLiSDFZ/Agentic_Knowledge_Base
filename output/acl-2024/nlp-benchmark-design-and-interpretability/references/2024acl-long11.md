@@ -1,6 +1,7 @@
 ---
 title: "Evaluating Dynamic Topic Models"
 source: "https://aclanthology.org/2024.acl-long.11/"
+pdf_url: ""
 categories: ['topic-modeling-and-essay-evaluation', 'nlp-benchmark-design-and-interpretability']
 tags: ['dynamic-topic-models', 'evaluation-metrics', 'temporal-topic-quality']
 venue: "ACL 2024"

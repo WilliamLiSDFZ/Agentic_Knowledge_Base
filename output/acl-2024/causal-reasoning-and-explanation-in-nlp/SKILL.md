@@ -1,12 +1,12 @@
 ---
 name: causal-reasoning-and-explanation-in-nlp
 description: >-
-  This skill covers methods for generating, evaluating, and improving causal and logical reasoning in NLP systems, including chain-of-thought and bidirectional reasoning chains, rationale faithfulness/consistency metrics, and causal interpretability benchmarks. It also addresses applications such as temporal knowledge graph reasoning, hate speech moderation with structured explanations, negation understanding, and multi-modal event
+  This skill covers methods for generating, evaluating, and improving causal and logical reasoning in NLP systems, including chain-of-thought and bidirectional reasoning chains, rationale faithfulness evaluation, and interpretability benchmarking. It addresses tasks such as temporal knowledge graph reasoning, multi-hop inference, negation understanding, and hate speech explanation, with applications spanning LLM self-
 ---
 
 # Causal Reasoning And Explanation In Nlp
 
-This skill covers methods for generating, evaluating, and improving causal and logical reasoning in NLP systems, including chain-of-thought and bidirectional reasoning chains, rationale faithfulness/consistency metrics, and causal interpretability benchmarks. It also addresses applications such as temporal knowledge graph reasoning, hate speech moderation with structured explanations, negation understanding, and multi-modal event
+This skill covers methods for generating, evaluating, and improving causal and logical reasoning in NLP systems, including chain-of-thought and bidirectional reasoning chains, rationale faithfulness evaluation, and interpretability benchmarking. It addresses tasks such as temporal knowledge graph reasoning, multi-hop inference, negation understanding, and hate speech explanation, with applications spanning LLM self-
 
 ## Entry Index
 

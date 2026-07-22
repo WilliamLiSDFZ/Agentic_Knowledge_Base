@@ -1,6 +1,7 @@
 ---
 title: "Dual-Stage Multi-Task Syntax-Oriented Pre-Training for Syntactically Controlled Paraphrase Generation"
 source: "https://aclanthology.org/2024.findings-acl.845/"
+pdf_url: ""
 categories: ['unsupervised-and-structured-syntactic-parsing-methods', 'natural-language-processing-information-extraction']
 tags: ['paraphrase-generation', 'syntax-controlled', 'pre-training', 'multi-task', 'syntactic-structure']
 venue: "ACL 2024"

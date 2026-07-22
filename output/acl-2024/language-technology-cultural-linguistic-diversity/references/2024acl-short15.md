@@ -1,6 +1,7 @@
 ---
 title: "Code-Switching Can be Better Aligners: Advancing Cross-Lingual SLU through Representation-Level and Prediction-Level Alignment"
 source: "https://aclanthology.org/2024.acl-short.15/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity']
 tags: ['code-switching', 'cross-lingual', 'spoken-language-understanding']
 venue: "ACL 2024"

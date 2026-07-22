@@ -1,6 +1,7 @@
 ---
 title: "Can ChatGPT’s Performance be Improved on Verb Metaphor Detection Tasks? Bootstrapping and Combining Tacit Knowledge"
 source: "https://aclanthology.org/2024.acl-long.57/"
+pdf_url: ""
 categories: ['moral-figurative-language-nlp-analysis', 'llm-training-alignment-and-evaluation']
 tags: ['metaphor-detection', 'chatgpt', 'bootstrapping']
 venue: "ACL 2024"

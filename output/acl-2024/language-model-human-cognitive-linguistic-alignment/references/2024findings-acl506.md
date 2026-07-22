@@ -1,6 +1,7 @@
 ---
 title: "Simplifying Translations for Children: Iterative Simplification Considering Age of Acquisition with LLMs"
 source: "https://aclanthology.org/2024.findings-acl.506/"
+pdf_url: ""
 categories: ['text-simplification-evaluation-and-methods', 'language-model-human-cognitive-linguistic-alignment']
 tags: ['text-simplification', 'machine-translation', 'age-of-acquisition']
 venue: "ACL 2024"

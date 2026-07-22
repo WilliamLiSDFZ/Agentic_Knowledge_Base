@@ -1,6 +1,7 @@
 ---
 title: "Towards Precise Localization of Critical Errors in Machine Translation"
 source: "https://aclanthology.org/2024.findings-acl.177/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction']
 tags: ['machine-translation', 'error-localization', 'critical-errors']
 venue: "ACL 2024"

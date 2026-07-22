@@ -1,6 +1,7 @@
 ---
 title: "Achilles-Bench: A Challenging Benchmark for Low-Resource Evaluation"
 source: "https://aclanthology.org/2024.findings-acl.123/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-training-alignment-and-evaluation']
 tags: ['low-resource', 'benchmark', 'hard-examples']
 venue: "ACL 2024"

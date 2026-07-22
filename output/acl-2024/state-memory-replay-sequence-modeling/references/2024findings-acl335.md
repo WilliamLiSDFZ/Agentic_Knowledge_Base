@@ -1,6 +1,7 @@
 ---
 title: "On the Relationship Between RNN Hidden-State Vectors and Semantic Structures"
 source: "https://aclanthology.org/2024.findings-acl.335/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces', 'state-memory-replay-sequence-modeling']
 tags: ['rnn-hidden-states', 'semantic-clustering', 'representation-analysis']
 venue: "ACL 2024"

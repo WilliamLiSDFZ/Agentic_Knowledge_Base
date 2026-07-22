@@ -1,6 +1,7 @@
 ---
 title: "VillagerAgent: A Graph-Based Multi-Agent Framework for Coordinating Complex Task Dependencies in Minecraft"
 source: "https://aclanthology.org/2024.findings-acl.964/"
+pdf_url: ""
 categories: ['graph-based-multi-agent-task-coordination']
 tags: ['multi-agent', 'graph-coordination', 'minecraft']
 venue: "ACL 2024"

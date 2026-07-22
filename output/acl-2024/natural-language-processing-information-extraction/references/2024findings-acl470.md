@@ -1,6 +1,7 @@
 ---
 title: "The State of Relation Extraction Data Quality: Is Bigger Always Better?"
 source: "https://aclanthology.org/2024.findings-acl.470/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'nlp-research-culture-and-practices']
 tags: ['relation-extraction', 'data-quality', 'evaluation-practices', 'benchmarks']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Plausible Extractive Rationalization through Semi-Supervised Entailment Signal"
 source: "https://aclanthology.org/2024.findings-acl.307/"
+pdf_url: ""
 categories: ['causal-reasoning-and-explanation-in-nlp', 'hate-speech-and-toxic-content-detection']
 tags: ['extractive-rationalization', 'semi-supervised', 'entailment']
 venue: "ACL 2024"

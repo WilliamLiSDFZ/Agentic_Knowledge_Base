@@ -1,6 +1,7 @@
 ---
 title: "Machine-Generated Text Localization"
 source: "https://aclanthology.org/2024.findings-acl.495/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'natural-language-processing-information-extraction']
 tags: ['machine-generated-text', 'detection', 'localization', 'text-segmentation']
 venue: "ACL 2024"

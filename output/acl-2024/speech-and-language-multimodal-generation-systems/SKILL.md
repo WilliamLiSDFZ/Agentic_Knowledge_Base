@@ -1,12 +1,12 @@
 ---
 name: speech-and-language-multimodal-generation-systems
 description: >-
-  This skill covers the development and evaluation of systems that convert, translate, or transform speech and language across modalities and representations, including automatic speech recognition (ASR), speech-to-text/speech translation, text-to-sign language production, speech tokenization/codec methods, and multimodal generation (gestures, avatars, subtitles). Key methods include discrete unit representations,
+  This skill covers **multimodal speech and language generation and processing systems**, spanning tasks such as automatic speech recognition (ASR), speech-to-text/speech translation, text-to-speech synthesis, sign language production, and cross-modal generation (e.g., speech-to-gesture, empathetic avatar chatbots). Methods include discrete speech tokenization/codecs,
 ---
 
 # Speech And Language Multimodal Generation Systems
 
-This skill covers the development and evaluation of systems that convert, translate, or transform speech and language across modalities and representations, including automatic speech recognition (ASR), speech-to-text/speech translation, text-to-sign language production, speech tokenization/codec methods, and multimodal generation (gestures, avatars, subtitles). Key methods include discrete unit representations,
+This skill covers **multimodal speech and language generation and processing systems**, spanning tasks such as automatic speech recognition (ASR), speech-to-text/speech translation, text-to-speech synthesis, sign language production, and cross-modal generation (e.g., speech-to-gesture, empathetic avatar chatbots). Methods include discrete speech tokenization/codecs,
 
 ## Entry Index
 

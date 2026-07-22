@@ -1,6 +1,7 @@
 ---
 title: "Ask LLMs Directly, “What shapes your bias?”: Measuring Social Bias in Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.954/"
+pdf_url: ""
 categories: ['bias-and-fairness-in-llms']
 tags: ['social-bias', 'demographic-identity', 'llm-evaluation']
 venue: "ACL 2024"

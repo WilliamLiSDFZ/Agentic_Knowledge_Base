@@ -1,6 +1,7 @@
 ---
 title: "Assessing News Thumbnail Representativeness: Counterfactual text can enhance the cross-modal matching ability"
 source: "https://aclanthology.org/2024.findings-acl.534/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'computational-misinformation-narrative-framing-detection']
 tags: ['news-thumbnails', 'cross-modal-matching', 'counterfactual-text', 'representativeness']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Beyond Prompts: Dynamic Conversational Benchmarking of Large Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/4aedf0cba303537fcb6cf948bb41b2df-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/4aedf0cba303537fcb6cf948bb41b2df-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-agent-communication-and-cooperation']
 tags: ['conversational-benchmarking', 'LLM-evaluation', 'dynamic-interaction']
 venue: "NeurIPS 2024"

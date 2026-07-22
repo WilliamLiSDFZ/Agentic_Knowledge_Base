@@ -1,6 +1,7 @@
 ---
 title: "Empowering and Assessing the Utility of Large Language Models in Crop Science"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/5e5783c673cf05cfd4b3ebf46e96abfc-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/5e5783c673cf05cfd4b3ebf46e96abfc-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-benchmarks-for-clinical-healthcare', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['llm-agriculture', 'crop-science', 'instruction-tuning']
 venue: "NeurIPS 2024"

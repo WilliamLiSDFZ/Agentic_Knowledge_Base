@@ -1,6 +1,7 @@
 ---
 title: "A Careful Examination of Large Language Model Performance on Grade School Arithmetic"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/53384f2090c6a5cac952c598fd67992f-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/53384f2090c6a5cac952c598fd67992f-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-benchmarks-for-clinical-healthcare']
 tags: ['dataset-contamination', 'mathematical-reasoning', 'benchmark-evaluation', 'grade-school-arithmetic']
 venue: "NeurIPS 2024"

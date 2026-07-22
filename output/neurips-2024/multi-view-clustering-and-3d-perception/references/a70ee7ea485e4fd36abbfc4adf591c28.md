@@ -1,6 +1,7 @@
 ---
 title: "Multi-scale Consistency for Robust 3D Registration via Hierarchical Sinkhorn Tree"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a70ee7ea485e4fd36abbfc4adf591c28-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a70ee7ea485e4fd36abbfc4adf591c28-Paper-Conference.pdf"
 categories: ['multi-view-clustering-and-3d-perception']
 tags: ['point-cloud-registration', 'multi-scale-consistency', 'Sinkhorn', 'correspondence-matching']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Can You Learn Semantics Through Next-Word Prediction? The Case of Entailment"
 source: "https://aclanthology.org/2024.findings-acl.161/"
+pdf_url: ""
 categories: ['language-model-human-cognitive-linguistic-alignment']
 tags: ['entailment', 'next-word-prediction', 'language-model-semantics']
 venue: "ACL 2024"

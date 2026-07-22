@@ -1,6 +1,7 @@
 ---
 title: "PrivacyLens: Evaluating Privacy Norm Awareness of Language Models in Action"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a2a7e58309d5190082390ff10ff3b2b8-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a2a7e58309d5190082390ff10ff3b2b8-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-safety-robustness-and-privacy-defenses']
 tags: ['privacy-norms', 'language-model-evaluation', 'contextual-integrity']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "The Good and The Bad: Exploring Privacy Issues in Retrieval-Augmented Generation (RAG)"
 source: "https://aclanthology.org/2024.findings-acl.267/"
+pdf_url: ""
 categories: ['privacy-risks-in-language-model-embeddings', 'state-memory-replay-sequence-modeling']
 tags: ['retrieval-augmented-generation', 'privacy', 'data-leakage']
 venue: "ACL 2024"

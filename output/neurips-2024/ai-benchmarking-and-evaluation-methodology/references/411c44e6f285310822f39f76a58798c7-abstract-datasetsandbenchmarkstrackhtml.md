@@ -1,6 +1,7 @@
 ---
 title: "Dataset and Lessons Learned from the 2024 SaTML LLM Capture-the-Flag Competition"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/411c44e6f285310822f39f76a58798c7-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/411c44e6f285310822f39f76a58798c7-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-safety-robustness-and-privacy-defenses', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['llm-security', 'prompt-injection', 'capture-the-flag']
 venue: "NeurIPS 2024"

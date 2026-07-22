@@ -1,6 +1,7 @@
 ---
 title: "NoteChat: A Dataset of Synthetic Patient-Physician Conversations Conditioned on Clinical Notes"
 source: "https://aclanthology.org/2024.findings-acl.901/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp', 'emotion-aware-dialogue-and-empathy-systems']
 tags: ['patient-physician-dialogue', 'multi-agent-llm', 'clinical-notes']
 venue: "ACL 2024"

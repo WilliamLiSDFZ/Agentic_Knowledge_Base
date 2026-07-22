@@ -1,6 +1,7 @@
 ---
 title: "Watch Out for Your Agents! Investigating Backdoor Threats to LLM-Based Agents"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/b6e9d6f4f3428cd5f3f9e9bbae2cab10-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/b6e9d6f4f3428cd5f3f9e9bbae2cab10-Paper-Conference.pdf"
 categories: ['llm-safety-robustness-and-privacy-defenses', 'llm-agent-communication-and-cooperation']
 tags: ['backdoor-attacks', 'LLM-agents', 'security', 'adversarial', 'reliability']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Towards Understanding the Working Mechanism of Text-to-Image Diffusion Model"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/63e8bc7bbf1cfea36d1d1b6538aecce5-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/63e8bc7bbf1cfea36d1d1b6538aecce5-Paper-Conference.pdf"
 categories: ['diffusion-based-generative-modeling-and-inference']
 tags: ['text-to-image', 'diffusion-model', 'mechanistic-understanding']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "LIRE: listwise reward enhancement for preference alignment"
 source: "https://aclanthology.org/2024.findings-acl.201/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['RLHF', 'preference-alignment', 'listwise-reward']
 venue: "ACL 2024"

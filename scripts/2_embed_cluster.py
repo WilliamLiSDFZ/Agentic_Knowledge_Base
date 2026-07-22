@@ -76,6 +76,13 @@ def main():
     with open(papers_path) as f:
         papers = json.load(f)
 
+    if not papers:
+        raise SystemExit(
+            f"No papers in {papers_path} — step 1 (fetch) returned nothing for "
+            f"{args.venue} {args.year}. The venue fetcher likely needs updating; "
+            f"nothing to embed/cluster."
+        )
+
     print(f"Loaded {len(papers)} papers")
     print(f"[step2] HF_ENDPOINT={os.environ.get('HF_ENDPOINT', '(unset — using huggingface.co)')}", flush=True)
     embeddings = embed_abstracts(papers)

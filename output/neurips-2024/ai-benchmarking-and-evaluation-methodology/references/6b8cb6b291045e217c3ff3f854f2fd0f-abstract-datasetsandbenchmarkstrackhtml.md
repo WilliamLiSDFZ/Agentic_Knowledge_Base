@@ -1,6 +1,7 @@
 ---
 title: "Muharaf: Manuscripts of Handwritten Arabic Dataset for Cursive Text Recognition"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/6b8cb6b291045e217c3ff3f854f2fd0f-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/6b8cb6b291045e217c3ff3f854f2fd0f-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['scene-text-and-document-recognition', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['handwritten-arabic', 'historical-manuscripts', 'cursive-text-recognition']
 venue: "NeurIPS 2024"

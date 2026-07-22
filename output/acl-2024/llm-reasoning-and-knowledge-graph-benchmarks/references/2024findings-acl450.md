@@ -1,6 +1,7 @@
 ---
 title: "Trust in Internal or External Knowledge? Generative Multi-Modal Entity Linking with Knowledge Retriever"
 source: "https://aclanthology.org/2024.findings-acl.450/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['multimodal-entity-linking', 'knowledge-retrieval', 'generative-models']
 venue: "ACL 2024"

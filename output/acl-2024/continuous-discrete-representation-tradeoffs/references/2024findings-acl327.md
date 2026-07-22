@@ -1,6 +1,7 @@
 ---
 title: "Subtle Signatures, Strong Shields: Advancing Robust and Imperceptible Watermarking in Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.327/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'continuous-discrete-representation-tradeoffs']
 tags: ['watermarking', 'LLM', 'AI-generated-text', 'imperceptible', 'robustness']
 venue: "ACL 2024"

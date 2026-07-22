@@ -1,6 +1,7 @@
 ---
 title: "TACT: Advancing Complex Aggregative Reasoning with Information Extraction Tools"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/3d7025dc9bd4c8b6fb1eef80cc618008-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/3d7025dc9bd4c8b6fb1eef80cc618008-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['aggregative-reasoning', 'information-extraction', 'llm-benchmark']
 venue: "NeurIPS 2024"

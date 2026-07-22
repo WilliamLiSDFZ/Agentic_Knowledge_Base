@@ -1,6 +1,7 @@
 ---
 title: "FUSE: Measure-Theoretic Compact Fuzzy Set Representation for Taxonomy Expansion"
 source: "https://aclanthology.org/2024.findings-acl.158/"
+pdf_url: ""
 categories: ['concept-embedding-taxonomy-hierarchy-representation', 'language-model-representations-and-embedding-spaces']
 tags: ['taxonomy-expansion', 'fuzzy-set-representation', 'concept-embedding']
 venue: "ACL 2024"

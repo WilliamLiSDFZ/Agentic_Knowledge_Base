@@ -1,6 +1,7 @@
 ---
 title: "The Butterfly Effect of Altering Prompts: How Small Changes and Jailbreaks Affect Large Language Model Performance"
 source: "https://aclanthology.org/2024.findings-acl.275/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'llm-training-alignment-and-evaluation']
 tags: ['prompt-sensitivity', 'jailbreak', 'llm-robustness', 'prompt-engineering', 'evaluation']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Prompt Refinement with Image Pivot for Text-to-Image Generation"
 source: "https://aclanthology.org/2024.acl-long.53/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'speech-and-language-multimodal-generation-systems']
 tags: ['text-to-image', 'prompt-refinement', 'image-pivot']
 venue: "ACL 2024"

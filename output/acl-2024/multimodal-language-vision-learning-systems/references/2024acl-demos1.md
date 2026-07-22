@@ -1,6 +1,7 @@
 ---
 title: "PAI-Diffusion: Constructing and Serving a Family of Open Chinese Diffusion Models for Text-to-image Synthesis on the Cloud"
 source: "https://aclanthology.org/2024.acl-demos.1/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'text-input-and-generation-for-cjk-languages']
 tags: ['text-to-image', 'diffusion-models', 'Chinese-language', 'cloud-serving', 'generation']
 venue: "ACL 2024"

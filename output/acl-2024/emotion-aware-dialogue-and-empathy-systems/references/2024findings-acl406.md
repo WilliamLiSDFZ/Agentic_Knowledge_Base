@@ -1,6 +1,7 @@
 ---
 title: "Reasoning Like a Doctor: Improving Medical Dialogue Systems via Diagnostic Reasoning Process Alignment"
 source: "https://aclanthology.org/2024.findings-acl.406/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp', 'emotion-aware-dialogue-and-empathy-systems']
 tags: ['medical-dialogue', 'diagnostic-reasoning', 'process-alignment']
 venue: "ACL 2024"

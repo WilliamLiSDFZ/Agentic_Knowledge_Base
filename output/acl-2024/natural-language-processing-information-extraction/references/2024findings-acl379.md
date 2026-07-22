@@ -1,6 +1,7 @@
 ---
 title: "Speech-based Slot Filling using Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.379/"
+pdf_url: ""
 categories: ['lexical-semantic-change-detection-methods', 'natural-language-processing-information-extraction']
 tags: ['slot-filling', 'ASR', 'large-language-models']
 venue: "ACL 2024"

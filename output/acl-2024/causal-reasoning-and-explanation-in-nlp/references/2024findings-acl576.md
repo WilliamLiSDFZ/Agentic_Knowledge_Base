@@ -1,6 +1,7 @@
 ---
 title: "Understanding and Patching Compositional Reasoning in LLMs"
 source: "https://aclanthology.org/2024.findings-acl.576/"
+pdf_url: ""
 categories: ['causal-reasoning-and-explanation-in-nlp', 'transformer-architecture-analysis-and-design']
 tags: ['compositional-reasoning', 'LLM-failure', 'implicit-relations', 'patching', 'reasoning-chains']
 venue: "ACL 2024"

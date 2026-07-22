@@ -1,12 +1,12 @@
 ---
 name: ai-diplomacy-game-performance-evaluation
 description: >-
-  **AI Diplomacy Game Performance Evaluation** examines how AI agents (such as Meta's Cicero) perform in the board game Diplomacy, analyzing the tension between optimizing for win-rate metrics versus engaging in genuine cooperative negotiation and alliance-building. It evaluates agent behavior through game outcome statistics, communication analysis, and strategic decision-making patterns to assess whether AI systems
+  **AI Diplomacy Game Performance Evaluation** assesses the strategic and social capabilities of AI agents (e.g., Meta's Cicero) in the board game Diplomacy, examining metrics such as win rates, alliance formation, negotiation quality, and deception through natural language communication. Research in this area analyzes trade-offs between competitive performance and cooperative behavior, using game outcomes
 ---
 
 # Ai Diplomacy Game Performance Evaluation
 
-**AI Diplomacy Game Performance Evaluation** examines how AI agents (such as Meta's Cicero) perform in the board game Diplomacy, analyzing the tension between optimizing for win-rate metrics versus engaging in genuine cooperative negotiation and alliance-building. It evaluates agent behavior through game outcome statistics, communication analysis, and strategic decision-making patterns to assess whether AI systems
+**AI Diplomacy Game Performance Evaluation** assesses the strategic and social capabilities of AI agents (e.g., Meta's Cicero) in the board game Diplomacy, examining metrics such as win rates, alliance formation, negotiation quality, and deception through natural language communication. Research in this area analyzes trade-offs between competitive performance and cooperative behavior, using game outcomes
 
 ## Entry Index
 

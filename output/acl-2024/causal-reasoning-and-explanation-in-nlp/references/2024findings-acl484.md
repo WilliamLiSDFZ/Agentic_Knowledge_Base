@@ -1,6 +1,7 @@
 ---
 title: "Characterizing Large Language Models as Rationalizers of Knowledge-intensive Tasks"
 source: "https://aclanthology.org/2024.findings-acl.484/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'causal-reasoning-and-explanation-in-nlp']
 tags: ['rationale-generation', 'knowledge-intensive-tasks', 'LLM-evaluation']
 venue: "ACL 2024"

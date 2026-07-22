@@ -1,6 +1,7 @@
 ---
 title: "The PRISM Alignment Dataset: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/be2e1b68b44f2419e19f6c35a1b8cf35-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/be2e1b68b44f2419e19f6c35a1b8cf35-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-values-ethics-alignment-evaluation', 'ai-alignment-and-social-choice-aggregation']
 tags: ['human-feedback', 'multicultural-alignment', 'participatory-design']
 venue: "NeurIPS 2024"

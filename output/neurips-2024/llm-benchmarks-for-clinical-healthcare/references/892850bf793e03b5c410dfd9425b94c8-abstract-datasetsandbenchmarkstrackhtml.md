@@ -1,6 +1,7 @@
 ---
 title: "DiReCT: Diagnostic Reasoning for Clinical Notes via Large Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/892850bf793e03b5c410dfd9425b94c8-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/892850bf793e03b5c410dfd9425b94c8-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-benchmarks-for-clinical-healthcare', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['clinical-notes', 'diagnostic-reasoning', 'large-language-models']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Beyond Aesthetics: Cultural Competence in Text-to-Image Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/18c669b80d1a8f589713b768bc8fe9a4-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/18c669b80d1a8f589713b768bc8fe9a4-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'visual-language-multimodal-generation-reasoning']
 tags: ['text-to-image', 'cultural-competence', 'benchmarking']
 venue: "NeurIPS 2024"

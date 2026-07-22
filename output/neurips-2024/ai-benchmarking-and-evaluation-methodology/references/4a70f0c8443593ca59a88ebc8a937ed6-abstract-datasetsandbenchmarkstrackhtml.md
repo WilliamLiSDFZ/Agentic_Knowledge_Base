@@ -1,6 +1,7 @@
 ---
 title: "Evaluating Numerical Reasoning in Text-to-Image Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/4a70f0c8443593ca59a88ebc8a937ed6-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/4a70f0c8443593ca59a88ebc8a937ed6-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['text-to-image', 'numerical-reasoning', 'evaluation', 'generative-models']
 venue: "NeurIPS 2024"

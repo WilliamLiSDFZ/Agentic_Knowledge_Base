@@ -1,6 +1,7 @@
 ---
 title: "OpenEval: Benchmarking Chinese LLMs across Capability, Alignment and Safety"
 source: "https://aclanthology.org/2024.acl-demos.19/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['chinese-llm', 'evaluation-benchmark', 'safety-alignment']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Episodic Memory Retrieval from LLMs: A Neuromorphic Mechanism to Generate Commonsense Counterfactuals for Relation Extraction"
 source: "https://aclanthology.org/2024.findings-acl.146/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction']
 tags: ['relation-extraction', 'counterfactual-generation', 'episodic-memory']
 venue: "ACL 2024"

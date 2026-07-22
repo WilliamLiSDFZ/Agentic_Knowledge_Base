@@ -1,6 +1,7 @@
 ---
 title: "Markov Equivalence and Consistency in Differentiable Structure Learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a6eeb95990fc2704bacbba9b5aca3cff-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a6eeb95990fc2704bacbba9b5aca3cff-Paper-Conference.pdf"
 categories: ['causal-discovery-and-inference-methods']
 tags: ['structure-learning', 'DAGs', 'Markov-equivalence', 'acyclicity-constraints']
 venue: "NeurIPS 2024"

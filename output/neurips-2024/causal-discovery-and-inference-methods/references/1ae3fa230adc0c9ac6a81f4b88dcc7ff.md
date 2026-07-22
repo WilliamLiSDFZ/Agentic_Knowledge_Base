@@ -1,6 +1,7 @@
 ---
 title: "The Implicit Bias of Heterogeneity towards Invariance: A Study of Multi-Environment Matrix Sensing"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1ae3fa230adc0c9ac6a81f4b88dcc7ff-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1ae3fa230adc0c9ac6a81f4b88dcc7ff-Paper-Conference.pdf"
 categories: ['causal-discovery-and-inference-methods', 'statistical-learning-theory-and-matrix-methods']
 tags: ['invariance-learning', 'multi-environment', 'matrix-sensing', 'heterogeneity', 'causal-features']
 venue: "NeurIPS 2024"

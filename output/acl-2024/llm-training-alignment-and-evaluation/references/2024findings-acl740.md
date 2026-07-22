@@ -1,6 +1,7 @@
 ---
 title: "Countering Reward Over-Optimization in LLM with Demonstration-Guided Reinforcement Learning"
 source: "https://aclanthology.org/2024.findings-acl.740/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['reinforcement-learning', 'reward-over-optimization', 'demonstration-guidance']
 venue: "ACL 2024"

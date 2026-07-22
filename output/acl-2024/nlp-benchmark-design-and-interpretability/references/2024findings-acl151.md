@@ -1,6 +1,7 @@
 ---
 title: "Accurate and Nuanced Open-QA Evaluation Through Textual Entailment"
 source: "https://aclanthology.org/2024.findings-acl.151/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'nlp-benchmark-design-and-interpretability']
 tags: ['open-QA', 'evaluation', 'textual-entailment']
 venue: "ACL 2024"

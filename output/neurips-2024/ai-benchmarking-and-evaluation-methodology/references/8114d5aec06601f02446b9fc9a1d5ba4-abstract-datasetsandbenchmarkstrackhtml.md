@@ -1,6 +1,7 @@
 ---
 title: "A New Multi-Source Light Detection Benchmark and Semi-Supervised Focal Light Detection"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/8114d5aec06601f02446b9fc9a1d5ba4-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/8114d5aec06601f02446b9fc9a1d5ba4-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['autonomous-driving-and-trajectory-prediction', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['light-detection', 'autonomous-driving', 'semi-supervised', 'benchmark']
 venue: "NeurIPS 2024"

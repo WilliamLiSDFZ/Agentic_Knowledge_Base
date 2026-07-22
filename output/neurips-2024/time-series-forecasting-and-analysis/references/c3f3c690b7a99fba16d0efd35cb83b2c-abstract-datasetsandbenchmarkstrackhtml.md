@@ -1,6 +1,7 @@
 ---
 title: "The Elephant in the Room: Towards A Reliable Time-Series Anomaly Detection Benchmark"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/c3f3c690b7a99fba16d0efd35cb83b2c-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/c3f3c690b7a99fba16d0efd35cb83b2c-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['time-series-forecasting-and-analysis']
 tags: ['anomaly-detection', 'benchmark-evaluation', 'time-series']
 venue: "NeurIPS 2024"

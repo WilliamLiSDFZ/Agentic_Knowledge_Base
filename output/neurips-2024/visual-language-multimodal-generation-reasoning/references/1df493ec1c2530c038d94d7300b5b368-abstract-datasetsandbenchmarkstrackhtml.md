@@ -1,6 +1,7 @@
 ---
 title: "LVD-2M: A Long-take Video Dataset with Temporally Dense Captions"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1df493ec1c2530c038d94d7300b5b368-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1df493ec1c2530c038d94d7300b5b368-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'time-series-forecasting-and-analysis']
 tags: ['video-generation', 'long-video', 'dense-captions', 'training-dataset', 'temporal']
 venue: "NeurIPS 2024"

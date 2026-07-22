@@ -1,6 +1,7 @@
 ---
 title: "UQ-Guided Hyperparameter Optimization for Iterative Learners"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/010c5ba0cafc743fece8be02e7adb8dd-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/010c5ba0cafc743fece8be02e7adb8dd-Paper-Conference.pdf"
 categories: ['machine-learning-theory-and-evaluation-methods', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['hyperparameter-optimization', 'uncertainty-quantification', 'iterative-learners']
 venue: "NeurIPS 2024"

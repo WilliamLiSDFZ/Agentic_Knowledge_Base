@@ -1,6 +1,7 @@
 ---
 title: "RWKU: Benchmarking Real-World Knowledge Unlearning for Large Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/b1f78dfc9ca0156498241012aec4efa0-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/b1f78dfc9ca0156498241012aec4efa0-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-safety-robustness-and-privacy-defenses']
 tags: ['machine-unlearning', 'knowledge-erasure', 'benchmarking']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "ProgressGym: Alignment with a Millennium of Moral Progress"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1a6d49c1a298ebb799d005b7b90ab31d-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1a6d49c1a298ebb799d005b7b90ab31d-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-alignment-and-social-choice-aggregation', 'llm-values-ethics-alignment-evaluation']
 tags: ['ai-alignment', 'moral-progress', 'rlhf', 'epistemology', 'value-lock-in']
 venue: "NeurIPS 2024"

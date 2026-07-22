@@ -1,6 +1,7 @@
 ---
 title: "Large Language Models Fall Short: Understanding Complex Relationships in Detective Narratives"
 source: "https://aclanthology.org/2024.findings-acl.454/"
+pdf_url: ""
 categories: ['coreference-resolution-and-dialogue-understanding', 'llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['narrative-understanding', 'relation-extraction', 'detective-fiction']
 venue: "ACL 2024"

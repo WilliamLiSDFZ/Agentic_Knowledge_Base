@@ -1,6 +1,7 @@
 ---
 title: "PUZZLES: A Benchmark for Neural Algorithmic Reasoning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/e5d1eaadeed651ba1021c09149db4b92-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/e5d1eaadeed651ba1021c09149db4b92-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'reinforcement-learning-optimization-and-decision-making']
 tags: ['algorithmic-reasoning', 'reinforcement-learning', 'benchmark']
 venue: "NeurIPS 2024"

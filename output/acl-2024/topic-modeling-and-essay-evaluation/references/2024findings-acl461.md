@@ -1,6 +1,7 @@
 ---
 title: "Learning Adverbs with Spectral Mixture Kernels"
 source: "https://aclanthology.org/2024.findings-acl.461/"
+pdf_url: ""
 categories: ['topic-modeling-and-essay-evaluation']
 tags: ['adverbs', 'spectral-mixture-kernels', 'topic-model', 'motion-understanding']
 venue: "ACL 2024"

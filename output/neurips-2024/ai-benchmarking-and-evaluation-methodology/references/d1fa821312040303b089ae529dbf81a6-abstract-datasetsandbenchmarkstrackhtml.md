@@ -1,6 +1,7 @@
 ---
 title: "WONDERBREAD: A Benchmark for Evaluating Multimodal Foundation Models on Business Process Management Tasks"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d1fa821312040303b089ae529dbf81a6-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d1fa821312040303b089ae529dbf81a6-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['business-process-management', 'multimodal-evaluation', 'workflow-automation']
 venue: "NeurIPS 2024"

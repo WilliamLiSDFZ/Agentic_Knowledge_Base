@@ -1,6 +1,7 @@
 ---
 title: "IWBVT: Instance Weighting-based Bias-Variance Trade-off for Crowdsourcing"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/9baf31febefde7bd76023c2d2f13cbd7-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/9baf31febefde7bd76023c2d2f13cbd7-Paper-Conference.pdf"
 categories: ['machine-learning-theory-and-evaluation-methods', 'statistical-inference-and-text-generation-methods\n\nhmm,-let-me-reconsider---looking-more-carefully-at-the-cluster:\n\n**score-matching-and-sampling-methods**']
 tags: ['crowdsourcing', 'bias-variance-tradeoff', 'instance-weighting', 'label-integration', 'noise-correction']
 venue: "NeurIPS 2024"

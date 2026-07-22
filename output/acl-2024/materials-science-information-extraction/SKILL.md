@@ -1,12 +1,12 @@
 ---
 name: materials-science-information-extraction
 description: >-
-  Materials science information extraction covers the automated identification and structured extraction of domain-specific entities, relationships, and properties (e.g., polymer nanocomposite compositions, synthesis conditions, material attributes) from scientific literature using NLP methods including LLMs, specialized pretraining, and programming-language-guided approaches applied to full-length documents and ad-hoc datasets.
+  Materials science information extraction covers NLP methods—including LLMs, structured extraction pipelines, and domain-specific pretraining—applied to automatically identify and extract structured data (material properties, compositions, synthesis conditions, molecular reactions, and vulnerability-affected packages) from scientific literature and full-length documents. Tasks include named entity recognition, relation extraction, and dataset construction targeting materials and chemistry domains.
 ---
 
 # Materials Science Information Extraction
 
-Materials science information extraction covers the automated identification and structured extraction of domain-specific entities, relationships, and properties (e.g., polymer nanocomposite compositions, synthesis conditions, material attributes) from scientific literature using NLP methods including LLMs, specialized pretraining, and programming-language-guided approaches applied to full-length documents and ad-hoc datasets.
+Materials science information extraction covers NLP methods—including LLMs, structured extraction pipelines, and domain-specific pretraining—applied to automatically identify and extract structured data (material properties, compositions, synthesis conditions, molecular reactions, and vulnerability-affected packages) from scientific literature and full-length documents. Tasks include named entity recognition, relation extraction, and dataset construction targeting materials and chemistry domains.
 
 ## Entry Index
 

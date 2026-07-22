@@ -1,6 +1,7 @@
 ---
 title: "WikiDBs: A Large-Scale Corpus Of Relational Databases From Wikidata"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/4847447cae911dde321ca19afe7d8707-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/4847447cae911dde321ca19afe7d8707-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['graph-neural-networks-and-representation-learning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['relational-databases', 'tabular-data', 'representation-learning', 'Wikidata', 'benchmark']
 venue: "NeurIPS 2024"

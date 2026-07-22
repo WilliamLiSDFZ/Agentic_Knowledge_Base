@@ -1,6 +1,7 @@
 ---
 title: "SumSurvey: An Abstractive Dataset of Scientific Survey Papers for Long Document Summarization"
 source: "https://aclanthology.org/2024.findings-acl.574/"
+pdf_url: ""
 categories: ['state-memory-replay-sequence-modeling']
 tags: ['long-document-summarization', 'scientific-surveys', 'abstractive-summarization']
 venue: "ACL 2024"

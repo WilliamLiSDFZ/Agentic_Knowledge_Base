@@ -1,6 +1,7 @@
 ---
 title: "Persuading across Diverse Domains: a Dataset and Persuasion Large Language Model"
 source: "https://aclanthology.org/2024.acl-long.92/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems', 'llm-training-alignment-and-evaluation']
 tags: ['persuasion', 'dialogue', 'multi-domain', 'dataset', 'LLM']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "An LLM-based Knowledge Synthesis and Scientific Reasoning Framework for Biomedical Discovery"
 source: "https://aclanthology.org/2024.acl-demos.34/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp']
 tags: ['biomedical', 'knowledge-synthesis', 'scientific-reasoning', 'LLM-agents']
 venue: "ACL 2024"

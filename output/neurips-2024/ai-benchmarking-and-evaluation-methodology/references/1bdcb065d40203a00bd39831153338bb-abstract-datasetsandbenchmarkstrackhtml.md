@@ -1,6 +1,7 @@
 ---
 title: "Benchmarking LLMs via Uncertainty Quantification"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1bdcb065d40203a00bd39831153338bb-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1bdcb065d40203a00bd39831153338bb-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-training-and-optimization-techniques']
 tags: ['LLM-evaluation', 'uncertainty-quantification', 'benchmarking', 'calibration']
 venue: "NeurIPS 2024"

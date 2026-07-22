@@ -1,6 +1,7 @@
 ---
 title: "TTM-RE: Memory-Augmented Document-Level Relation Extraction"
 source: "https://aclanthology.org/2024.acl-long.26/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'coreference-resolution-and-dialogue-understanding']
 tags: ['relation-extraction', 'document-level', 'memory-augmented']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "VeLoRA: Memory Efficient Training using Rank-1 Sub-Token Projections"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/4a9eaf6dff3fdac9ab1aaf4c0fe2d563-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/4a9eaf6dff3fdac9ab1aaf4c0fe2d563-Paper-Conference.pdf"
 categories: ['llm-training-and-optimization-techniques', 'stochastic-optimization-convergence-and-variance-reduction']
 tags: ['memory-efficient-training', 'LoRA', 'rank-1-projections', 'LLM-fine-tuning']
 venue: "NeurIPS 2024"

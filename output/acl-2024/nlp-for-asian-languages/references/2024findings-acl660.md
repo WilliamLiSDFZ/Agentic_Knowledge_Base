@@ -1,6 +1,7 @@
 ---
 title: "Accelerating Multilingual Language Model for Excessively Tokenized Languages"
 source: "https://aclanthology.org/2024.findings-acl.660/"
+pdf_url: ""
 categories: ['nlp-for-asian-languages', 'transformer-architecture-analysis-and-design']
 tags: ['multilingual-tokenization', 'non-roman-scripts', 'inference-acceleration']
 venue: "ACL 2024"

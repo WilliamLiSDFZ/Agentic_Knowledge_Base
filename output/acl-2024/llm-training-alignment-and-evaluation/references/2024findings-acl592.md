@@ -1,6 +1,7 @@
 ---
 title: "Direct Preference Optimization with an Offset"
 source: "https://aclanthology.org/2024.findings-acl.592/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'continuous-discrete-representation-tradeoffs']
 tags: ['direct-preference-optimization', 'alignment', 'fine-tuning']
 venue: "ACL 2024"

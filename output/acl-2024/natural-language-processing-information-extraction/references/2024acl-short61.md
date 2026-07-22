@@ -1,6 +1,7 @@
 ---
 title: "Guidance-Based Prompt Data Augmentation in Specialized Domains for Named Entity Recognition"
 source: "https://aclanthology.org/2024.acl-short.61/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'llm-training-alignment-and-evaluation']
 tags: ['data-augmentation', 'named-entity-recognition', 'specialized-domains']
 venue: "ACL 2024"

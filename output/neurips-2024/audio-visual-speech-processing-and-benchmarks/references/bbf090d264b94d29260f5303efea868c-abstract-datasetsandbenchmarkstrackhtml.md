@@ -1,6 +1,7 @@
 ---
 title: "Infer Induced Sentiment of Comment Response to Video: A New Task, Dataset and Baseline"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/bbf090d264b94d29260f5303efea868c-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/bbf090d264b94d29260f5303efea868c-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['audio-visual-speech-processing-and-benchmarks']
 tags: ['sentiment-analysis', 'video-multimodal', 'viewer-induced-sentiment']
 venue: "NeurIPS 2024"

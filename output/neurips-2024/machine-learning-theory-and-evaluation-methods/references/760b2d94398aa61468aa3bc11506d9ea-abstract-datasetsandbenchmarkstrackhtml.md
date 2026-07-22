@@ -1,6 +1,7 @@
 ---
 title: "Paloma: A Benchmark for Evaluating Language Model Fit"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/760b2d94398aa61468aa3bc11506d9ea-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/760b2d94398aa61468aa3bc11506d9ea-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'machine-learning-theory-and-evaluation-methods']
 tags: ['language-model-evaluation', 'perplexity', 'domain-benchmark']
 venue: "NeurIPS 2024"

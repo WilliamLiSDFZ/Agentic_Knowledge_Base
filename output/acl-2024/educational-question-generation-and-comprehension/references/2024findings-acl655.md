@@ -1,6 +1,7 @@
 ---
 title: "Enhancing Distractor Generation for Multiple-Choice Questions with Retrieval Augmented Pretraining and Knowledge Graph Integration"
 source: "https://aclanthology.org/2024.findings-acl.655/"
+pdf_url: ""
 categories: ['educational-question-generation-and-comprehension']
 tags: ['distractor-generation', 'multiple-choice-questions', 'retrieval-augmented', 'knowledge-graph']
 venue: "ACL 2024"

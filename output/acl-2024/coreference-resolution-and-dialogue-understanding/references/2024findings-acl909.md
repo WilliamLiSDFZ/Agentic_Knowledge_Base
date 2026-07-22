@@ -1,6 +1,7 @@
 ---
 title: "Challenges to Evaluating the Generalization of Coreference Resolution Models: A Measurement Modeling Perspective"
 source: "https://aclanthology.org/2024.findings-acl.909/"
+pdf_url: ""
 categories: ['coreference-resolution-and-dialogue-understanding', 'nlp-benchmark-design-and-interpretability']
 tags: ['coreference-resolution', 'generalization', 'measurement-modeling']
 venue: "ACL 2024"

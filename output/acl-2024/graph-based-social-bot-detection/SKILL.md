@@ -1,12 +1,12 @@
 ---
 name: graph-based-social-bot-detection
 description: >-
-  This skill covers graph-based methods for detecting automated bot accounts and modeling information diffusion in social networks, employing techniques such as heterogeneous graph neural networks, contrastive learning, and community-aware graph representations. It also examines the application of large language models as complementary tools for bot detection, alongside benchmark development for evaluating propagation prediction across social media platforms.
+  This skill covers graph-based methods for detecting automated bot accounts and modeling information diffusion in social media networks, including heterogeneous graph neural networks, contrastive learning on community structures, and the integration of large language models as node/edge feature encoders. Key tasks include binary bot/human classification, propagation path prediction, and benchmark evaluation across platforms like Twitter, with applications in combating
 ---
 
 # Graph Based Social Bot Detection
 
-This skill covers graph-based methods for detecting automated bot accounts and modeling information diffusion in social networks, employing techniques such as heterogeneous graph neural networks, contrastive learning, and community-aware graph representations. It also examines the application of large language models as complementary tools for bot detection, alongside benchmark development for evaluating propagation prediction across social media platforms.
+This skill covers graph-based methods for detecting automated bot accounts and modeling information diffusion in social media networks, including heterogeneous graph neural networks, contrastive learning on community structures, and the integration of large language models as node/edge feature encoders. Key tasks include binary bot/human classification, propagation path prediction, and benchmark evaluation across platforms like Twitter, with applications in combating
 
 ## Entry Index
 

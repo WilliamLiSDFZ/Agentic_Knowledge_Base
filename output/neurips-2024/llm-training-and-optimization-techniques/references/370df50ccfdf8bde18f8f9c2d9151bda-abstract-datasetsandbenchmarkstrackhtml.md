@@ -1,6 +1,7 @@
 ---
 title: "The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/370df50ccfdf8bde18f8f9c2d9151bda-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/370df50ccfdf8bde18f8f9c2d9151bda-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-training-and-optimization-techniques', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['pretraining-data', 'web-text-curation', 'data-quality', 'large-language-models', 'dataset']
 venue: "NeurIPS 2024"

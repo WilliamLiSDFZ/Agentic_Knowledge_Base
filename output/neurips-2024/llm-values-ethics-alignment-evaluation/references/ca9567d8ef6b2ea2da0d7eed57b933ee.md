@@ -1,6 +1,7 @@
 ---
 title: "Cooperate or Collapse:  Emergence of Sustainable Cooperation in a Society of LLM Agents"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ca9567d8ef6b2ea2da0d7eed57b933ee-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ca9567d8ef6b2ea2da0d7eed57b933ee-Paper-Conference.pdf"
 categories: ['llm-agent-communication-and-cooperation', 'llm-values-ethics-alignment-evaluation']
 tags: ['llm-agents', 'cooperation', 'commons-governance-simulation']
 venue: "NeurIPS 2024"

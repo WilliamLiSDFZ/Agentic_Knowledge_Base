@@ -1,6 +1,7 @@
 ---
 title: "Word Sense Linking: Disambiguating Outside the Sandbox"
 source: "https://aclanthology.org/2024.findings-acl.851/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'concept-embedding-taxonomy-hierarchy-representation']
 tags: ['word-sense-disambiguation', 'sense-linking', 'knowledge-bases']
 venue: "ACL 2024"

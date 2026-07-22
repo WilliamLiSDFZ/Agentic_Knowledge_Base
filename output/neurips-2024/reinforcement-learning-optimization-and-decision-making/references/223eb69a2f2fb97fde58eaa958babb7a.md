@@ -1,6 +1,7 @@
 ---
 title: "Make-An-Agent: A Generalizable Policy Network Generator with Behavior-Prompted Diffusion"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/223eb69a2f2fb97fde58eaa958babb7a-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/223eb69a2f2fb97fde58eaa958babb7a-Paper-Conference.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making']
 tags: ['policy-generation', 'diffusion-models', 'behavior-prompted', 'reinforcement-learning', 'generalization']
 venue: "NeurIPS 2024"

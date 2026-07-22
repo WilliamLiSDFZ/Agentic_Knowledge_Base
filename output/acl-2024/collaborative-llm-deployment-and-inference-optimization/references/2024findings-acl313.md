@@ -1,6 +1,7 @@
 ---
 title: "Generation Meets Verification: Accelerating Large Language Model Inference with Smart Parallel Auto-Correct Decoding"
 source: "https://aclanthology.org/2024.findings-acl.313/"
+pdf_url: ""
 categories: ['collaborative-llm-deployment-and-inference-optimization', 'minimum-bayes-risk-decoding-efficiency']
 tags: ['inference-acceleration', 'speculative-decoding', 'semi-autoregressive']
 venue: "ACL 2024"

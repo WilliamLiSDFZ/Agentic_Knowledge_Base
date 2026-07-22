@@ -1,6 +1,7 @@
 ---
 title: "Synergizing Large Language Models and Pre-Trained Smaller Models for Conversational Intent Discovery"
 source: "https://aclanthology.org/2024.findings-acl.840/"
+pdf_url: ""
 categories: ['text-clustering-with-limited-labels', 'llm-training-alignment-and-evaluation']
 tags: ['intent-discovery', 'conversational-ai', 'small-language-models', 'llm-collaboration', 'clustering']
 venue: "ACL 2024"

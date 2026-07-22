@@ -1,6 +1,7 @@
 ---
 title: "Probing the Emergence of Cross-lingual Alignment during LLM Training"
 source: "https://aclanthology.org/2024.findings-acl.724/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces', 'language-technology-cultural-linguistic-diversity']
 tags: ['multilingual-LLM', 'cross-lingual-alignment', 'representation', 'training-dynamics', 'zero-shot-transfer']
 venue: "ACL 2024"

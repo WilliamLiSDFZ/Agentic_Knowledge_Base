@@ -1,6 +1,7 @@
 ---
 title: "Towards Comprehensive Detection of Chinese Harmful Memes"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/17fc467c11997914127c001fdc801bea-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/17fc467c11997914127c001fdc801bea-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['toxicity-detection-and-classification-datasets', 'visual-language-multimodal-generation-reasoning']
 tags: ['harmful-memes', 'chinese-content-moderation', 'multimodal-detection']
 venue: "NeurIPS 2024"

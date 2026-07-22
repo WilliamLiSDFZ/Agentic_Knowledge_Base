@@ -1,6 +1,7 @@
 ---
 title: "Controllable Data Augmentation for Few-Shot Text Mining with Chain-of-Thought Attribute Manipulation"
 source: "https://aclanthology.org/2024.findings-acl.1/"
+pdf_url: ""
 categories: ['text-clustering-with-limited-labels', 'natural-language-processing-information-extraction']
 tags: ['data-augmentation', 'few-shot-learning', 'chain-of-thought']
 venue: "ACL 2024"

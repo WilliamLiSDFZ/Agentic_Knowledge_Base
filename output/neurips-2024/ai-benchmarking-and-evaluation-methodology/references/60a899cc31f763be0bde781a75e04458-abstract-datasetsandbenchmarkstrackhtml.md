@@ -1,6 +1,7 @@
 ---
 title: "HEST-1k: A Dataset For Spatial Transcriptomics and Histology Image Analysis"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/60a899cc31f763be0bde781a75e04458-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/60a899cc31f763be0bde781a75e04458-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['machine-learning-for-molecular-biology', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['spatial-transcriptomics', 'histology-image-analysis', 'multimodal-dataset', 'computational-pathology', 'benchmarking']
 venue: "NeurIPS 2024"

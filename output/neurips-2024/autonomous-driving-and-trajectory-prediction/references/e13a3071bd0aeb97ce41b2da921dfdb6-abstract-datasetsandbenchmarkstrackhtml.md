@@ -1,6 +1,7 @@
 ---
 title: "Pedestrian Trajectory Prediction with Missing Data: Datasets, Imputation, and Benchmarking"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/e13a3071bd0aeb97ce41b2da921dfdb6-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/e13a3071bd0aeb97ce41b2da921dfdb6-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['missing-data-imputation-methods-and-applications', 'autonomous-driving-and-trajectory-prediction']
 tags: ['trajectory-prediction', 'missing-data', 'imputation', 'pedestrian', 'benchmarking']
 venue: "NeurIPS 2024"

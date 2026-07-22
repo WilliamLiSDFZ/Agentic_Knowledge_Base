@@ -1,6 +1,7 @@
 ---
 title: "Latent Diffusion for Neural Spiking Data"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d60b6b7f0ba6bf07d975b3bbdacea702-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d60b6b7f0ba6bf07d975b3bbdacea702-Paper-Conference.pdf"
 categories: ['diffusion-based-generative-modeling-and-inference', 'recurrent-and-spiking-neural-network-dynamics']
 tags: ['latent-diffusion', 'neural-spiking-data', 'neuroscience']
 venue: "NeurIPS 2024"

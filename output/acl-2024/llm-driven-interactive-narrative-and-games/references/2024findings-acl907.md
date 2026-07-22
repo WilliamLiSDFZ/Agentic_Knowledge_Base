@@ -1,6 +1,7 @@
 ---
 title: "Automatic Bug Detection in LLM-Powered Text-Based Games Using LLMs"
 source: "https://aclanthology.org/2024.findings-acl.907/"
+pdf_url: ""
 categories: ['llm-driven-interactive-narrative-and-games']
 tags: ['LLM-game-design', 'bug-detection', 'hallucination']
 venue: "ACL 2024"

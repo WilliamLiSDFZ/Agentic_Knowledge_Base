@@ -1,6 +1,7 @@
 ---
 title: "Brain Treebank: Large-scale intracranial recordings from naturalistic language stimuli"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/aefa2385b3f33abf1526ae4e2c208cd9-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/aefa2385b3f33abf1526ae4e2c208cd9-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'recurrent-and-spiking-neural-network-dynamics']
 tags: ['intracranial-recordings', 'naturalistic-stimuli', 'neural-dataset']
 venue: "NeurIPS 2024"

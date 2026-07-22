@@ -1,6 +1,7 @@
 ---
 title: "The Music Maestro or The Musically Challenged, A Massive Music Evaluation Benchmark for Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.194/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'nlp-benchmark-design-and-interpretability']
 tags: ['music-evaluation', 'LLM-benchmark', 'musical-ability']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Fine-Tuned Machine Translation Metrics Struggle in Unseen Domains"
 source: "https://aclanthology.org/2024.acl-short.45/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['machine-translation-metrics', 'domain-generalization', 'biomedical-mt']
 venue: "ACL 2024"

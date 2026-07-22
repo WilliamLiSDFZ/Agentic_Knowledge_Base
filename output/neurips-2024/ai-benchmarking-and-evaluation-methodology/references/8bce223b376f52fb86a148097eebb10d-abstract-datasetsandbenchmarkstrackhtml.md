@@ -1,6 +1,7 @@
 ---
 title: "NanoBaseLib: A Multi-Task Benchmark Dataset for Nanopore Sequencing"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/8bce223b376f52fb86a148097eebb10d-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/8bce223b376f52fb86a148097eebb10d-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['machine-learning-for-molecular-biology', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['nanopore-sequencing', 'benchmark', 'multi-task']
 venue: "NeurIPS 2024"

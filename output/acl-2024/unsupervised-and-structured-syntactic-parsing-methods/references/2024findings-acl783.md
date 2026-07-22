@@ -1,6 +1,7 @@
 ---
 title: "Evaluating Structural Generalization in Neural Machine Translation"
 source: "https://aclanthology.org/2024.findings-acl.783/"
+pdf_url: ""
 categories: ['unsupervised-and-structured-syntactic-parsing-methods', 'nlp-benchmark-design-and-interpretability']
 tags: ['compositional-generalization', 'neural-machine-translation', 'structural-generalization', 'benchmark', 'syntactic-structures']
 venue: "ACL 2024"

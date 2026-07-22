@@ -1,6 +1,7 @@
 ---
 title: "CTIBench: A Benchmark for Evaluating LLMs in Cyber Threat Intelligence"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/5acd3c628aa1819fbf07c39ef73e7285-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/5acd3c628aa1819fbf07c39ef73e7285-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-benchmarks-for-clinical-healthcare']
 tags: ['cyber-threat-intelligence', 'llm-evaluation', 'cybersecurity-benchmark']
 venue: "NeurIPS 2024"

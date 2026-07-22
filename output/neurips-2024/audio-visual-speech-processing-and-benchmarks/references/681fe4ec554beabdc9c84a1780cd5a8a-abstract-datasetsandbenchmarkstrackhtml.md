@@ -1,6 +1,7 @@
 ---
 title: "SD-Eval: A  Benchmark Dataset for Spoken Dialogue Understanding Beyond Words"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/681fe4ec554beabdc9c84a1780cd5a8a-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/681fe4ec554beabdc9c84a1780cd5a8a-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['audio-visual-speech-processing-and-benchmarks', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['spoken-dialogue', 'benchmark', 'paralinguistic', 'speech-understanding', 'chat-llm']
 venue: "NeurIPS 2024"

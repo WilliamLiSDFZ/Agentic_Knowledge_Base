@@ -1,6 +1,7 @@
 ---
 title: "Mitigating Hallucinations in Large Vision-Language Models with Instruction Contrastive Decoding"
 source: "https://aclanthology.org/2024.findings-acl.937/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llm-hallucination-detection-and-mitigation']
 tags: ['vision-language-models', 'hallucination', 'contrastive-decoding']
 venue: "ACL 2024"

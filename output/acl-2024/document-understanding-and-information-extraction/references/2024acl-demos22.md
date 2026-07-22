@@ -1,6 +1,7 @@
 ---
 title: "DocPilot: Copilot for Automating PDF Edit Workflows in Documents"
 source: "https://aclanthology.org/2024.acl-demos.22/"
+pdf_url: ""
 categories: ['llm-assisted-structured-procedure-analysis', 'document-understanding-and-information-extraction']
 tags: ['PDF', 'document-editing', 'LLM-agents']
 venue: "ACL 2024"

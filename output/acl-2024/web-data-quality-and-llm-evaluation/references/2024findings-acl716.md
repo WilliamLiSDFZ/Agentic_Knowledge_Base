@@ -1,6 +1,7 @@
 ---
 title: "Generalization or Memorization: Data Contamination and Trustworthy Evaluation for Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.716/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'web-data-quality-and-llm-evaluation']
 tags: ['data-contamination', 'benchmark-evaluation', 'memorization', 'generalization', 'LLM']
 venue: "ACL 2024"

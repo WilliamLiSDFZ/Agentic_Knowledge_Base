@@ -1,6 +1,7 @@
 ---
 title: "MedSafetyBench: Evaluating and Improving the Medical Safety of Large Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/3ac952d0264ef7a505393868a70a46b6-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/3ac952d0264ef7a505393868a70a46b6-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-benchmarks-for-clinical-healthcare']
 tags: ['medical-safety', 'LLM-evaluation', 'healthcare', 'safety-benchmark']
 venue: "NeurIPS 2024"

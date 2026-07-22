@@ -1,6 +1,7 @@
 ---
 title: "ShowMaker: Creating High-Fidelity 2D Human Video via Fine-Grained Diffusion Modeling"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/5b0c0b2c2efdd736a53688ebfdc3bcdb-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/5b0c0b2c2efdd736a53688ebfdc3bcdb-Paper-Conference.pdf"
 categories: ['diffusion-based-generative-modeling-and-inference', 'visual-language-multimodal-generation-reasoning']
 tags: ['human-video-generation', 'diffusion-models', 'gesture-animation']
 venue: "NeurIPS 2024"

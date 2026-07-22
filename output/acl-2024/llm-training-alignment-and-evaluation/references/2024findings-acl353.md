@@ -1,6 +1,7 @@
 ---
 title: "Abstract Meaning Representation-Based Logic-Driven Data Augmentation for Logical Reasoning"
 source: "https://aclanthology.org/2024.findings-acl.353/"
+pdf_url: ""
 categories: ['causal-reasoning-and-explanation-in-nlp', 'llm-training-alignment-and-evaluation']
 tags: ['logical-reasoning', 'AMR', 'data-augmentation']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Grid4D: 4D Decomposed Hash Encoding for High-Fidelity Dynamic Gaussian Splatting"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/df8b8c12afcaf65639aa686ececbf00c-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/df8b8c12afcaf65639aa686ececbf00c-Paper-Conference.pdf"
 categories: ['neural-geometric-shape-representation-learning', 'visual-language-multimodal-generation-reasoning']
 tags: ['gaussian-splatting', 'dynamic-scenes', '4d-hash-encoding']
 venue: "NeurIPS 2024"

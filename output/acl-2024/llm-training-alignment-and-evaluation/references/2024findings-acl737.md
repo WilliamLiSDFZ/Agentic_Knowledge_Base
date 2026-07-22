@@ -1,6 +1,7 @@
 ---
 title: "Enhanced Language Model Truthfulness with Learnable Intervention and Uncertainty Expression"
 source: "https://aclanthology.org/2024.findings-acl.737/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'llm-training-alignment-and-evaluation']
 tags: ['hallucination-mitigation', 'truthfulness', 'llm', 'uncertainty', 'inference-time-intervention']
 venue: "ACL 2024"

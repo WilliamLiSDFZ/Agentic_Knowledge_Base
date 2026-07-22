@@ -1,12 +1,12 @@
 ---
 name: machine-learning-theory-and-evaluation-methods
 description: >-
-  This skill covers theoretical and empirical methods for evaluating, interpreting, and improving machine learning models, including uncertainty quantification, hyperparameter optimization, feature/data attribution (e.g., Shapley values, unlearning-based methods), and robustness of explanations. It also addresses learning paradigms such as meta-reinforcement learning, multi-label learning, selective
+  This skill covers theoretical and empirical methods for evaluating, explaining, and improving machine learning systems, including feature/data attribution (Shapley values, unlearning-based attribution), uncertainty quantification, conformal prediction, selective classification, and consistency guarantees for structured prediction. It also addresses meta-learning, domain generalization, prompt optimization, and robustness of explanation methods across supervised
 ---
 
 # Machine Learning Theory And Evaluation Methods
 
-This skill covers theoretical and empirical methods for evaluating, interpreting, and improving machine learning models, including uncertainty quantification, hyperparameter optimization, feature/data attribution (e.g., Shapley values, unlearning-based methods), and robustness of explanations. It also addresses learning paradigms such as meta-reinforcement learning, multi-label learning, selective
+This skill covers theoretical and empirical methods for evaluating, explaining, and improving machine learning systems, including feature/data attribution (Shapley values, unlearning-based attribution), uncertainty quantification, conformal prediction, selective classification, and consistency guarantees for structured prediction. It also addresses meta-learning, domain generalization, prompt optimization, and robustness of explanation methods across supervised
 
 ## Entry Index
 

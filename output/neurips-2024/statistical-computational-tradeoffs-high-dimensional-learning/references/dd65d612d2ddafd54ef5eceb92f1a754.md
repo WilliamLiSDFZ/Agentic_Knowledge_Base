@@ -1,6 +1,7 @@
 ---
 title: "Non-Asymptotic Uncertainty Quantification in High-Dimensional Learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/dd65d612d2ddafd54ef5eceb92f1a754-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/dd65d612d2ddafd54ef5eceb92f1a754-Paper-Conference.pdf"
 categories: ['statistical-computational-tradeoffs-high-dimensional-learning', 'statistical-learning-theory-and-matrix-methods']
 tags: ['uncertainty-quantification', 'high-dimensional-learning', 'LASSO', 'non-asymptotic-statistics']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "More than Minorities and Majorities: Understanding Multilateral Bias in Language Generation"
 source: "https://aclanthology.org/2024.findings-acl.594/"
+pdf_url: ""
 categories: ['bias-and-fairness-in-llms', 'multilingual-text-classification-and-sentiment-analysis']
 tags: ['bias-mitigation', 'demographic-groups', 'multilateral-bias']
 venue: "ACL 2024"

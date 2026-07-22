@@ -1,6 +1,7 @@
 ---
 title: "LSTPrompt: Large Language Models as Zero-Shot Time Series Forecasters by Long-Short-Term Prompting"
 source: "https://aclanthology.org/2024.findings-acl.466/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'llm-training-alignment-and-evaluation']
 tags: ['time-series-forecasting', 'zero-shot', 'prompting']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "P-TA: Using Proximal Policy Optimization to Enhance Tabular Data Augmentation via Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.16/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'natural-language-processing-information-extraction']
 tags: ['tabular-data', 'augmentation', 'reinforcement-learning']
 venue: "ACL 2024"

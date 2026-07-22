@@ -1,6 +1,7 @@
 ---
 title: "ZeroStance: Leveraging ChatGPT for Open-Domain Stance Detection via Dataset Generation"
 source: "https://aclanthology.org/2024.findings-acl.794/"
+pdf_url: ""
 categories: ['computational-misinformation-narrative-framing-detection']
 tags: ['stance-detection', 'zero-shot', 'dataset-generation']
 venue: "ACL 2024"

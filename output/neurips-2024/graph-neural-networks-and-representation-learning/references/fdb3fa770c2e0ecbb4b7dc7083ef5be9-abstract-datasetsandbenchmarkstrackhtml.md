@@ -1,6 +1,7 @@
 ---
 title: "MOTIVE: A Drug-Target Interaction Graph For Inductive Link Prediction"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/fdb3fa770c2e0ecbb4b7dc7083ef5be9-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/fdb3fa770c2e0ecbb4b7dc7083ef5be9-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['machine-learning-for-molecular-biology', 'graph-neural-networks-and-representation-learning']
 tags: ['drug-target-interaction', 'graph', 'inductive-link-prediction', 'cell-painting', 'molecular-biology']
 venue: "NeurIPS 2024"

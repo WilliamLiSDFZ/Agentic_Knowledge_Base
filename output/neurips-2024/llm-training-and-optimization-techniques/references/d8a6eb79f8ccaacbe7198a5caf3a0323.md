@@ -1,6 +1,7 @@
 ---
 title: "Ensemble Learning for Heterogeneous Large Language Models with Deep Parallel Collaboration"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d8a6eb79f8ccaacbe7198a5caf3a0323-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d8a6eb79f8ccaacbe7198a5caf3a0323-Paper-Conference.pdf"
 categories: ['llm-training-and-optimization-techniques', 'llm-agent-communication-and-cooperation']
 tags: ['llm-ensemble', 'heterogeneous-models', 'deep-parallel-collaboration', 'answer-fusion', 'generalization']
 venue: "NeurIPS 2024"

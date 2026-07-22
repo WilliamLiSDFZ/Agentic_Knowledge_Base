@@ -1,6 +1,7 @@
 ---
 title: "Dynamic Tuning Towards Parameter and Inference Efficiency for ViT Adaptation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d0241a0fb1fc9be477bdfde5e0da276a-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d0241a0fb1fc9be477bdfde5e0da276a-Paper-Conference.pdf"
 categories: ['llm-training-and-optimization-techniques', 'self-distillation-knowledge-transfer-gains']
 tags: ['parameter-efficient-fine-tuning', 'vision-transformers', 'inference-efficiency', 'dynamic-tuning', 'adaptation']
 venue: "NeurIPS 2024"

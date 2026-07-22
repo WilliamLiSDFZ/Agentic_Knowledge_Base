@@ -1,6 +1,7 @@
 ---
 title: "cPAPERS: A Dataset of Situated and Multimodal Interactive Conversations in Scientific Papers"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/7a19a9d527ed544d1272f07b0f8f934e-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/7a19a9d527ed544d1272f07b0f8f934e-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['multimodal-conversations', 'scientific-papers', 'situated-interaction', 'dataset', 'benchmark']
 venue: "NeurIPS 2024"

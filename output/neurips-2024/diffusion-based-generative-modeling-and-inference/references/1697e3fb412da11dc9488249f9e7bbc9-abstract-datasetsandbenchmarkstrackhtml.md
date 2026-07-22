@@ -1,6 +1,7 @@
 ---
 title: "MMM-RS: A Multi-modal, Multi-GSD, Multi-scene Remote Sensing  Dataset and Benchmark for Text-to-Image Generation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1697e3fb412da11dc9488249f9e7bbc9-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1697e3fb412da11dc9488249f9e7bbc9-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['diffusion-based-generative-modeling-and-inference']
 tags: ['remote-sensing', 'text-to-image', 'multi-modal-dataset']
 venue: "NeurIPS 2024"

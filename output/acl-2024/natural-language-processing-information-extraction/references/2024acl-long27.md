@@ -1,6 +1,7 @@
 ---
 title: "Answer is All You Need: Instruction-following Text Embedding via Answering the Question"
 source: "https://aclanthology.org/2024.acl-long.27/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces', 'natural-language-processing-information-extraction']
 tags: ['text-embedding', 'instruction-following', 'question-answering', 'similarity', 'representation-learning']
 venue: "ACL 2024"

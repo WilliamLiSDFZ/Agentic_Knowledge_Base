@@ -1,6 +1,7 @@
 ---
 title: "Navigating Extremes: Dynamic Sparsity in Large Output Spaces"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d4bdeed749a437de2cbe2e2c7e5a6a8a-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d4bdeed749a437de2cbe2e2c7e5a6a8a-Paper-Conference.pdf"
 categories: ['llm-training-and-optimization-techniques', 'deep-learning-optimization-and-generalization-theory']
 tags: ['dynamic-sparse-training', 'large-output-spaces', 'model-pruning', 'efficiency']
 venue: "NeurIPS 2024"

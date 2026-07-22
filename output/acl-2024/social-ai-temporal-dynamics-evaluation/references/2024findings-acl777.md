@@ -1,6 +1,7 @@
 ---
 title: "PAT-Questions: A Self-Updating Benchmark for Present-Anchored Temporal Question-Answering"
 source: "https://aclanthology.org/2024.findings-acl.777/"
+pdf_url: ""
 categories: ['social-ai-temporal-dynamics-evaluation', 'llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['temporal-QA', 'self-updating-benchmark', 'present-anchored']
 venue: "ACL 2024"

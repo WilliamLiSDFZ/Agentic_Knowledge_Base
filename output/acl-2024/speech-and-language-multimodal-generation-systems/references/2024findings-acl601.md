@@ -1,6 +1,7 @@
 ---
 title: "MELD-ST: An Emotion-aware Speech Translation Dataset"
 source: "https://aclanthology.org/2024.findings-acl.601/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems', 'speech-and-language-multimodal-generation-systems']
 tags: ['emotion-aware', 'speech-translation', 'multimodal', 'dataset']
 venue: "ACL 2024"

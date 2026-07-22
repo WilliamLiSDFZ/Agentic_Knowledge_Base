@@ -5,7 +5,7 @@ wait,-let-me-reconsider-with-just-the-single-paper-title-given.
 
 **isotropy-clusters-classifiers-analysis**
 description: >-
-  **Isotropy, Clusters, and Classifiers** examines how the geometric distribution of contextual word embeddings (particularly their isotropy — uniform spread across vector space dimensions) affects downstream NLP task performance, analyzing the relationship between embedding space structure, clustering behavior, and classifier effectiveness. The work investigates methods such as spectral analysis, clustering algorithms, and probing classifiers to
+  **Isotropy, Clusters, and Classifiers** examines how the geometric distribution of token or sentence embeddings in representation spaces — specifically their isotropy (uniform directional spread) — affects the quality of clustering and downstream classification tasks. The work analyzes how anisotropic embedding geometries distort distance-based methods and evaluates techniques to correct or leverage distributional properties for
 ---
 
 # Isotropy Based Text Representation Analysis
@@ -14,7 +14,7 @@ Wait, Let Me Reconsider With Just The Single Paper Title Given.
 
 **Isotropy Clusters Classifiers Analysis**
 
-**Isotropy, Clusters, and Classifiers** examines how the geometric distribution of contextual word embeddings (particularly their isotropy — uniform spread across vector space dimensions) affects downstream NLP task performance, analyzing the relationship between embedding space structure, clustering behavior, and classifier effectiveness. The work investigates methods such as spectral analysis, clustering algorithms, and probing classifiers to
+**Isotropy, Clusters, and Classifiers** examines how the geometric distribution of token or sentence embeddings in representation spaces — specifically their isotropy (uniform directional spread) — affects the quality of clustering and downstream classification tasks. The work analyzes how anisotropic embedding geometries distort distance-based methods and evaluates techniques to correct or leverage distributional properties for
 
 ## Entry Index
 

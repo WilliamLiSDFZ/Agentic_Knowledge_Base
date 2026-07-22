@@ -1,6 +1,7 @@
 ---
 title: "Combining Hierachical VAEs with LLMs for clinically meaningful timeline summarisation in social media"
 source: "https://aclanthology.org/2024.findings-acl.873/"
+pdf_url: ""
 categories: ['online-discourse-mental-health-language-analysis', 'llms-for-biomedical-and-clinical-nlp']
 tags: ['hierarchical-vae', 'social-media-summarization', 'mental-health']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Non-Autoregressive Machine Translation as Constrained HMM"
 source: "https://aclanthology.org/2024.findings-acl.735/"
+pdf_url: ""
 categories: ['neural-language-models-formal-language-theory', 'state-memory-replay-sequence-modeling']
 tags: ['non-autoregressive', 'machine-translation', 'hidden-markov-model', 'directed-acyclic-transformer', 'sequence-modeling']
 venue: "ACL 2024"

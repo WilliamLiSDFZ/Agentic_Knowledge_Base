@@ -1,6 +1,7 @@
 ---
 title: "Towards Demonstration-Aware Large Language Models for Machine Translation"
 source: "https://aclanthology.org/2024.findings-acl.824/"
+pdf_url: ""
 categories: ['multilingual-text-classification-and-sentiment-analysis', 'llm-training-alignment-and-evaluation']
 tags: ['machine-translation', 'in-context-learning', 'LLMs']
 venue: "ACL 2024"

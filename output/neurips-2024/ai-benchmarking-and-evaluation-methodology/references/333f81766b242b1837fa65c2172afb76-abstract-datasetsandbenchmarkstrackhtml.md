@@ -1,6 +1,7 @@
 ---
 title: "LAVIB: A Large-scale Video Interpolation Benchmark"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/333f81766b242b1837fa65c2172afb76-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/333f81766b242b1837fa65c2172afb76-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'visual-language-multimodal-generation-reasoning']
 tags: ['video-frame-interpolation', 'benchmark', 'high-resolution']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Teaching Large Language Models an Unseen Language on the Fly"
 source: "https://aclanthology.org/2024.findings-acl.519/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity']
 tags: ['low-resource-languages', 'in-context-learning', 'on-the-fly-language-learning']
 venue: "ACL 2024"

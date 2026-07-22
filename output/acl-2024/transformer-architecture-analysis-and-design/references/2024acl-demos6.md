@@ -1,6 +1,7 @@
 ---
 title: "LM Transparency Tool: Interactive Tool for Analyzing Transformer Language Models"
 source: "https://aclanthology.org/2024.acl-demos.6/"
+pdf_url: ""
 categories: ['transformer-architecture-analysis-and-design', 'llm-training-alignment-and-evaluation']
 tags: ['transformer-interpretability', 'interactive-tool', 'attention-analysis']
 venue: "ACL 2024"

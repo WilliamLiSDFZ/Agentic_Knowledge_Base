@@ -1,6 +1,7 @@
 ---
 title: "UAV3D: A Large-scale 3D Perception Benchmark for Unmanned Aerial Vehicles"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/643ea9b3843bd8f525ad8801437a2022-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/643ea9b3843bd8f525ad8801437a2022-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['multi-view-clustering-and-3d-perception']
 tags: ['UAV', '3D-perception', 'benchmark']
 venue: "NeurIPS 2024"

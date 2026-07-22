@@ -1,6 +1,7 @@
 ---
 title: "Benchmarking Retrieval-Augmented Generation for Medicine"
 source: "https://aclanthology.org/2024.findings-acl.372/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp', 'llm-hallucination-detection-and-mitigation']
 tags: ['RAG', 'medical-QA', 'benchmarking', 'hallucination']
 venue: "ACL 2024"

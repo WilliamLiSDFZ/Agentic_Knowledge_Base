@@ -1,6 +1,7 @@
 ---
 title: "Two Issues with Chinese Spelling Correction and A Refinement Solution"
 source: "https://aclanthology.org/2024.acl-short.19/"
+pdf_url: ""
 categories: ['nlp-for-asian-languages', 'natural-language-processing-information-extraction']
 tags: ['Chinese-spelling-correction', 'transformer', 'character-features']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "LLM Factoscope: Uncovering LLMs’ Factual Discernment through Measuring Inner States"
 source: "https://aclanthology.org/2024.findings-acl.608/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'language-model-representations-and-embedding-spaces']
 tags: ['hallucination', 'factual-discernment', 'inner-states', 'LLM', 'probability-analysis']
 venue: "ACL 2024"

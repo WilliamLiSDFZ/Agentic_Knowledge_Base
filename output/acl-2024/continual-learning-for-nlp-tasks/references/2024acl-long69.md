@@ -1,6 +1,7 @@
 ---
 title: "TaSL: Continual Dialog State Tracking via Task Skill Localization and Consolidation"
 source: "https://aclanthology.org/2024.acl-long.69/"
+pdf_url: ""
 categories: ['continual-learning-for-nlp-tasks']
 tags: ['continual-learning', 'dialogue-state-tracking', 'catastrophic-forgetting']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Learning to Generate Instruction Tuning Datasets for Zero-Shot Task Adaptation"
 source: "https://aclanthology.org/2024.findings-acl.748/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'financial-reasoning-llm-benchmarks-and-datasets']
 tags: ['instruction-tuning', 'zero-shot-adaptation', 'dataset-generation']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "MMScan: A Multi-Modal 3D Scene Dataset with Hierarchical Grounded Language Annotations"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/5aed0d900297bd5593afc14ff452d4a8-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/5aed0d900297bd5593afc14ff452d4a8-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'multi-view-clustering-and-3d-perception']
 tags: ['3d-scene-understanding', 'multimodal-dataset', 'grounded-language']
 venue: "NeurIPS 2024"

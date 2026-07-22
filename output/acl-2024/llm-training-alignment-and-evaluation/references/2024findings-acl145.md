@@ -1,6 +1,7 @@
 ---
 title: "LM-Cocktail: Resilient Tuning of Language Models via Model Merging"
 source: "https://aclanthology.org/2024.findings-acl.145/"
+pdf_url: ""
 categories: ['continual-learning-for-nlp-tasks', 'llm-training-alignment-and-evaluation']
 tags: ['model-merging', 'fine-tuning', 'catastrophic-forgetting', 'language-models', 'resilience']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Light-PEFT: Lightening Parameter-Efficient Fine-Tuning via Early Pruning"
 source: "https://aclanthology.org/2024.findings-acl.447/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'transformer-architecture-analysis-and-design']
 tags: ['parameter-efficient-fine-tuning', 'pruning', 'training-efficiency']
 venue: "ACL 2024"

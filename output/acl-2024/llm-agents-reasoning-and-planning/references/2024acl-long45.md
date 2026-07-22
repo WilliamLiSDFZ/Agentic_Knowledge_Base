@@ -1,6 +1,7 @@
 ---
 title: "Learn from Failure: Fine-tuning LLMs with Trial-and-Error Data for Intuitionistic Propositional Logic Proving"
 source: "https://aclanthology.org/2024.acl-long.45/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'neural-language-models-formal-language-theory']
 tags: ['theorem-proving', 'fine-tuning', 'trial-and-error-learning']
 venue: "ACL 2024"

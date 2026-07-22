@@ -1,6 +1,7 @@
 ---
 title: "Copycats: the many lives of a publicly available medical imaging dataset"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/cdbeaeb8a0313940a5752c4ec8838ca6-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/cdbeaeb8a0313940a5752c4ec8838ca6-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-benchmarks-for-clinical-healthcare']
 tags: ['medical-imaging', 'dataset-governance', 'fairness']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "An Analysis of Elo Rating Systems via Markov Chains"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/f9db8bd38c36391ddc4ccc0d23effdbe-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/f9db8bd38c36391ddc4ccc0d23effdbe-Paper-Conference.pdf"
 categories: ['voting-and-ranking-system-analysis', 'statistical-learning-theory-and-matrix-methods']
 tags: ['Elo-rating', 'Markov-chains', 'Bradley-Terry-Luce', 'online-ranking', 'convergence-analysis']
 venue: "NeurIPS 2024"

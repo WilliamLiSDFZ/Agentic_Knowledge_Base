@@ -1,6 +1,7 @@
 ---
 title: "Improving Machine Translation with Large Language Models: A Preliminary Study with Cooperative Decoding"
 source: "https://aclanthology.org/2024.findings-acl.786/"
+pdf_url: ""
 categories: ['collaborative-llm-deployment-and-inference-optimization', 'nlp-for-asian-languages']
 tags: ['machine-translation', 'cooperative-decoding', 'LLM', 'encoder-decoder', 'translation-quality']
 venue: "ACL 2024"

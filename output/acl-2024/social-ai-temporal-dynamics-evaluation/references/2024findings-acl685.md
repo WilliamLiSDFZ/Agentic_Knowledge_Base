@@ -1,6 +1,7 @@
 ---
 title: "TimeToM: Temporal Space is the Key to Unlocking the Door of Large Language Models’ Theory-of-Mind"
 source: "https://aclanthology.org/2024.findings-acl.685/"
+pdf_url: ""
 categories: ['language-model-human-cognitive-linguistic-alignment', 'social-ai-temporal-dynamics-evaluation']
 tags: ['theory-of-mind', 'temporal-reasoning', 'llm', 'social-cognition', 'mental-state-reasoning']
 venue: "ACL 2024"

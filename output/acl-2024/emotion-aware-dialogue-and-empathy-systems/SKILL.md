@@ -1,12 +1,12 @@
 ---
 name: emotion-aware-dialogue-and-empathy-systems
 description: >-
-  This skill covers the design and evaluation of dialogue systems that incorporate emotional intelligence, empathy, and personalization, spanning tasks such as empathetic response generation, mental health counseling, peer support feedback, and manipulation detection in conversations. Methods include multimodal clustering, LLM-based dataset generation and augmentation, persona-grounded dialogue modeling, prompt compression, and hybrid small/large
+  This skill covers the design and evaluation of dialogue systems that incorporate emotional intelligence, empathy, and personalization, spanning tasks such as empathetic response generation, mental health counseling support, manipulation detection, and user satisfaction estimation. Methods include multimodal fusion, LLM-based data generation and augmentation, persona modeling, prompt compression, and multi-turn dialogue evaluation frameworks applied to convers
 ---
 
 # Emotion Aware Dialogue And Empathy Systems
 
-This skill covers the design and evaluation of dialogue systems that incorporate emotional intelligence, empathy, and personalization, spanning tasks such as empathetic response generation, mental health counseling, peer support feedback, and manipulation detection in conversations. Methods include multimodal clustering, LLM-based dataset generation and augmentation, persona-grounded dialogue modeling, prompt compression, and hybrid small/large
+This skill covers the design and evaluation of dialogue systems that incorporate emotional intelligence, empathy, and personalization, spanning tasks such as empathetic response generation, mental health counseling support, manipulation detection, and user satisfaction estimation. Methods include multimodal fusion, LLM-based data generation and augmentation, persona modeling, prompt compression, and multi-turn dialogue evaluation frameworks applied to convers
 
 ## Entry Index
 

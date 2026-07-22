@@ -1,6 +1,7 @@
 ---
 title: "X-Shot: A Unified System to Handle Frequent, Few-shot and Zero-shot Learning Simultaneously in Classification"
 source: "https://aclanthology.org/2024.findings-acl.276/"
+pdf_url: ""
 categories: ['text-clustering-with-limited-labels', 'nlp-text-classification-applied-tasks']
 tags: ['few-shot-learning', 'zero-shot-learning', 'unified-classification']
 venue: "ACL 2024"

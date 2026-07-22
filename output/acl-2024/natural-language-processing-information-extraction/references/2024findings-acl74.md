@@ -1,6 +1,7 @@
 ---
 title: "Boosting Textural NER with Synthetic Image and Instructive Alignment"
 source: "https://aclanthology.org/2024.findings-acl.74/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction']
 tags: ['named-entity-recognition', 'synthetic-images', 'multimodal-alignment']
 venue: "ACL 2024"

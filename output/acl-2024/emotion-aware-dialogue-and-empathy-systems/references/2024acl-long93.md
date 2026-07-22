@@ -1,6 +1,7 @@
 ---
 title: "HealMe: Harnessing Cognitive Reframing in Large Language Models for Psychotherapy"
 source: "https://aclanthology.org/2024.acl-long.93/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems']
 tags: ['cognitive-reframing', 'psychotherapy', 'LLM']
 venue: "ACL 2024"

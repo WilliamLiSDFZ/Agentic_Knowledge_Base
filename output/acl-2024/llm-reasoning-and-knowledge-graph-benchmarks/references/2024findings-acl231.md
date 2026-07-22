@@ -1,6 +1,7 @@
 ---
 title: "Evaluating LLMs’ Mathematical Reasoning in Financial Document Question Answering"
 source: "https://aclanthology.org/2024.findings-acl.231/"
+pdf_url: ""
 categories: ['financial-reasoning-llm-benchmarks-and-datasets', 'llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['financial-QA', 'mathematical-reasoning', 'LLM', 'tabular-data', 'benchmark']
 venue: "ACL 2024"

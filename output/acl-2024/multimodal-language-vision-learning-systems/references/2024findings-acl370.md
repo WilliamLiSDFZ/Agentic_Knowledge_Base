@@ -1,6 +1,7 @@
 ---
 title: "MM-SOC: Benchmarking Multimodal Large Language Models in Social Media Platforms"
 source: "https://aclanthology.org/2024.findings-acl.370/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems']
 tags: ['multimodal-benchmarking', 'social-media', 'large-language-models']
 venue: "ACL 2024"

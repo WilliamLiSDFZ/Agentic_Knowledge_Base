@@ -1,6 +1,7 @@
 ---
 title: "MetaPro 2.0: Computational Metaphor Processing on the Effectiveness of Anomalous Language Modeling"
 source: "https://aclanthology.org/2024.findings-acl.590/"
+pdf_url: ""
 categories: ['moral-figurative-language-nlp-analysis', 'language-model-human-cognitive-linguistic-alignment']
 tags: ['metaphor-interpretation', 'anomalous-language-modeling', 'pre-trained-LMs', 'dataset', 'figurative-language']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Self-Specialization: Uncovering Latent Expertise within Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.157/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['self-alignment', 'specialization', 'instruction-tuning']
 venue: "ACL 2024"

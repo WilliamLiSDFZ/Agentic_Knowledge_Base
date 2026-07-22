@@ -1,6 +1,7 @@
 ---
 title: "TorchSpatial: A Location Encoding Framework and Benchmark for Spatial Representation Learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/9449c2d5b0cc8c9a445752f3ff195a1c-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/9449c2d5b0cc8c9a445752f3ff195a1c-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['transformer-based-learning-for-spatial-tasks', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['spatial-representation-learning', 'location-encoding', 'benchmark']
 venue: "NeurIPS 2024"

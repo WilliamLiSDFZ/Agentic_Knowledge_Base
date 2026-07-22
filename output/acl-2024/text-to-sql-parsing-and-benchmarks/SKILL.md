@@ -1,12 +1,12 @@
 ---
 name: text-to-sql-parsing-and-benchmarks
 description: >-
-  This skill covers the development, evaluation, and optimization of systems that translate natural language queries into structured database queries (primarily SQL), including dataset construction, benchmark design, and parsing methodologies. It encompasses techniques such as LLM-based synthesis, execution-guided refinement, speech-to-SQL conversion, multi-lingual semantic parsing, and cross-domain generalization across relational databases,
+  Text-to-SQL parsing and benchmarks covers the translation of natural language questions into structured database queries (SQL), encompassing dataset construction, model training (fine-tuning LLMs, data synthesis, multilingual/speech inputs), and evaluation challenges such as data contamination, out-of-distribution generalization, and execution-guided self-correction. It also addresses adjacent semantic parsing tasks
 ---
 
 # Text To Sql Parsing And Benchmarks
 
-This skill covers the development, evaluation, and optimization of systems that translate natural language queries into structured database queries (primarily SQL), including dataset construction, benchmark design, and parsing methodologies. It encompasses techniques such as LLM-based synthesis, execution-guided refinement, speech-to-SQL conversion, multi-lingual semantic parsing, and cross-domain generalization across relational databases,
+Text-to-SQL parsing and benchmarks covers the translation of natural language questions into structured database queries (SQL), encompassing dataset construction, model training (fine-tuning LLMs, data synthesis, multilingual/speech inputs), and evaluation challenges such as data contamination, out-of-distribution generalization, and execution-guided self-correction. It also addresses adjacent semantic parsing tasks
 
 ## Entry Index
 

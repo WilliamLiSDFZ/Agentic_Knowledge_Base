@@ -1,6 +1,7 @@
 ---
 title: "SciMON: Scientific Inspiration Machines Optimized for Novelty"
 source: "https://aclanthology.org/2024.acl-long.18/"
+pdf_url: ""
 categories: ['llm-agents-for-scientific-data-tasks', 'llm-based-scientific-misinformation-detection']
 tags: ['scientific-hypothesis-generation', 'novelty', 'literature-based-discovery', 'neural-language-models']
 venue: "ACL 2024"

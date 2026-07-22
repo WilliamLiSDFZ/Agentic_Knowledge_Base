@@ -1,6 +1,7 @@
 ---
 title: "MMBench-Video: A Long-Form Multi-Shot Benchmark for Holistic Video Understanding"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a2326c9715a516c91174132e0170073a-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a2326c9715a516c91174132e0170073a-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['video-understanding', 'vision-language-models', 'benchmark']
 venue: "NeurIPS 2024"

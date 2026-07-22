@@ -1,6 +1,7 @@
 ---
 title: "RORA: Robust Free-Text Rationale Evaluation"
 source: "https://aclanthology.org/2024.acl-long.60/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'causal-reasoning-and-explanation-in-nlp']
 tags: ['rationale-evaluation', 'explainable-nlp', 'robustness']
 venue: "ACL 2024"

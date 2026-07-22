@@ -1,6 +1,7 @@
 ---
 title: "Into the Unknown: Generating Geospatial Descriptions for New Environments"
 source: "https://aclanthology.org/2024.findings-acl.133/"
+pdf_url: ""
 categories: ['llm-based-geospatial-text-processing', 'llm-agents-reasoning-and-planning']
 tags: ['geospatial-description', 'navigation', 'spatial-reasoning']
 venue: "ACL 2024"

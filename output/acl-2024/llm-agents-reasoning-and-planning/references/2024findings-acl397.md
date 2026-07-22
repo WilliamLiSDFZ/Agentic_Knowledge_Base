@@ -1,6 +1,7 @@
 ---
 title: "Forward-Backward Reasoning in Large Language Models for Mathematical Verification"
 source: "https://aclanthology.org/2024.findings-acl.397/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['mathematical-reasoning', 'LLM', 'forward-backward-reasoning', 'self-consistency', 'verification']
 venue: "ACL 2024"

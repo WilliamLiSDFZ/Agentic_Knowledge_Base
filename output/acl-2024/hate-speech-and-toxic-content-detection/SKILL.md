@@ -1,12 +1,12 @@
 ---
 name: hate-speech-and-toxic-content-detection
 description: >-
-  This skill covers the detection, classification, and mitigation of hate speech, toxic content, and abusive language across text, audio, and multimodal (meme) formats, spanning multilingual and cross-cultural settings (Vietnamese, Nigerian Twitter, multilingual audio). Methods include fine-tuned transformers, LLM/VLM-based frameworks, synthetic data rewriting,
+  This skill covers the detection, classification, and mitigation of hate speech, toxic content, and abusive language across text, audio, and multimodal (meme) formats, spanning multilingual and cross-cultural settings (e.g., Vietnamese, Nigerian, multilingual audio). Methods include fine-tuned transformers, LLM/VLM-based frameworks, reinforcement
 ---
 
 # Hate Speech And Toxic Content Detection
 
-This skill covers the detection, classification, and mitigation of hate speech, toxic content, and abusive language across text, audio, and multimodal (meme) formats, spanning multilingual and cross-cultural settings (Vietnamese, Nigerian Twitter, multilingual audio). Methods include fine-tuned transformers, LLM/VLM-based frameworks, synthetic data rewriting,
+This skill covers the detection, classification, and mitigation of hate speech, toxic content, and abusive language across text, audio, and multimodal (meme) formats, spanning multilingual and cross-cultural settings (e.g., Vietnamese, Nigerian, multilingual audio). Methods include fine-tuned transformers, LLM/VLM-based frameworks, reinforcement
 
 ## Entry Index
 

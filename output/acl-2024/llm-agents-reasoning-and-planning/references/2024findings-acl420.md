@@ -1,6 +1,7 @@
 ---
 title: "Comments as Natural Logic Pivots: Improve Code Generation via Comment Perspective"
 source: "https://aclanthology.org/2024.findings-acl.420/"
+pdf_url: ""
 categories: ['code-llm-generation-and-evaluation', 'llm-agents-reasoning-and-planning']
 tags: ['code-generation', 'chain-of-thought', 'comment-guided']
 venue: "ACL 2024"

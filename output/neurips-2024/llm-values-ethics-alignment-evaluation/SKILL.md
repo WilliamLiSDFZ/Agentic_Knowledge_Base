@@ -1,12 +1,12 @@
 ---
 name: llm-values-ethics-alignment-evaluation
 description: >-
-  This skill covers the evaluation, alignment, and calibration of LLMs with respect to human values, ethical behavior, and preference learning, including methods such as RLHF, DPO/PPO, AI feedback mechanisms, and fine-tuning techniques. Tasks span measuring honesty, bias, moral consistency, cultural knowledge, trust simulation, persona faithfulness, and contextual
+  This skill covers the evaluation, alignment, and ethical calibration of large language models, encompassing methods such as RLHF, DPO, PPO, preference feedback optimization, and fine-tuning techniques to instill honesty, fairness, and culturally-aware behavior. Tasks include measuring bias amplification, moral consistency, persona faithfulness, human trust simulation, calib
 ---
 
 # Llm Values Ethics Alignment Evaluation
 
-This skill covers the evaluation, alignment, and calibration of LLMs with respect to human values, ethical behavior, and preference learning, including methods such as RLHF, DPO/PPO, AI feedback mechanisms, and fine-tuning techniques. Tasks span measuring honesty, bias, moral consistency, cultural knowledge, trust simulation, persona faithfulness, and contextual
+This skill covers the evaluation, alignment, and ethical calibration of large language models, encompassing methods such as RLHF, DPO, PPO, preference feedback optimization, and fine-tuning techniques to instill honesty, fairness, and culturally-aware behavior. Tasks include measuring bias amplification, moral consistency, persona faithfulness, human trust simulation, calib
 
 ## Entry Index
 

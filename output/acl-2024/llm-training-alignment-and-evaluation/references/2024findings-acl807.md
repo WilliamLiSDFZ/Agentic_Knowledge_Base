@@ -1,6 +1,7 @@
 ---
 title: "The Revolution of Multimodal Large Language Models: A Survey"
 source: "https://aclanthology.org/2024.findings-acl.807/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llm-training-alignment-and-evaluation']
 tags: ['multimodal-llm', 'survey', 'vision-language']
 venue: "ACL 2024"

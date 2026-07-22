@@ -1,6 +1,7 @@
 ---
 title: "CodeAttack: Revealing Safety Generalization Challenges of Large Language Models via Code Completion"
 source: "https://aclanthology.org/2024.findings-acl.679/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'code-llm-generation-and-evaluation']
 tags: ['safety-generalization', 'code-completion', 'jailbreak-attack']
 venue: "ACL 2024"

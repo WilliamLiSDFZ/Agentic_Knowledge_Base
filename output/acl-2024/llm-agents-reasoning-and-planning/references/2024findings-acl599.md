@@ -1,6 +1,7 @@
 ---
 title: "PARADISE: Evaluating Implicit Planning Skills of Language Models with Procedural Warnings and Tips Dataset"
 source: "https://aclanthology.org/2024.findings-acl.599/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'llm-assisted-structured-procedure-analysis']
 tags: ['implicit-planning', 'procedural-knowledge', 'language-model-evaluation']
 venue: "ACL 2024"

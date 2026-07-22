@@ -1,6 +1,7 @@
 ---
 title: "DenseFusion-1M: Merging Vision Experts for Comprehensive Multimodal Perception"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/20ffc2b42c7de4a1960cfdadf305bbe2-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/20ffc2b42c7de4a1960cfdadf305bbe2-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['multimodal-LLM', 'vision-experts', 'image-text-data', 'visual-perception']
 venue: "NeurIPS 2024"

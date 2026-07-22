@@ -1,6 +1,7 @@
 ---
 title: "SpeechGuard: Exploring the Adversarial Robustness of Multi-modal Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.596/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'multimodal-language-vision-learning-systems']
 tags: ['adversarial-robustness', 'speech-language-models', 'multimodal-safety']
 venue: "ACL 2024"

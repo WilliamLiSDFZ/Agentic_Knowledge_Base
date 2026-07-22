@@ -1,6 +1,7 @@
 ---
 title: "Benchmark Data Repositories for Better Benchmarking"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/9d41fddf3169f4df3025fc60bfac94fa-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/9d41fddf3169f4df3025fc60bfac94fa-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'machine-learning-theory-and-evaluation-methods']
 tags: ['benchmark-datasets', 'data-repositories', 'evaluation-practices']
 venue: "NeurIPS 2024"

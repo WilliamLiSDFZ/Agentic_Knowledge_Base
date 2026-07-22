@@ -2,13 +2,13 @@
 name: urdu-deepfake-audio-detection-dataset
 description: >-
   **Skill Description:**
-This skill covers the construction and benchmarking of datasets specifically designed for detecting AI-generated (deepfake) speech in the Urdu language, addressing the underrepresentation of low-resource languages in audio forensics. It involves evaluating detection models and methods—such as acoustic feature analysis and classification algorithms—against synthetically generated Urdu audio to
+This skill covers the construction and evaluation of specialized datasets for detecting AI-generated (deepfake) audio in the Urdu language, addressing the gap in non-English deepfake detection resources. It involves methods for dataset collection, synthesis of fake audio samples, and benchmarking detection models for spoken Urdu content in forensic and media integrity applications.
 ---
 
 # Urdu Deepfake Audio Detection Dataset
 
 **Skill Description:**
-This skill covers the construction and benchmarking of datasets specifically designed for detecting AI-generated (deepfake) speech in the Urdu language, addressing the underrepresentation of low-resource languages in audio forensics. It involves evaluating detection models and methods—such as acoustic feature analysis and classification algorithms—against synthetically generated Urdu audio to
+This skill covers the construction and evaluation of specialized datasets for detecting AI-generated (deepfake) audio in the Urdu language, addressing the gap in non-English deepfake detection resources. It involves methods for dataset collection, synthesis of fake audio samples, and benchmarking detection models for spoken Urdu content in forensic and media integrity applications.
 
 ## Entry Index
 

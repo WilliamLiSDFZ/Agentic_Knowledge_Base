@@ -1,6 +1,7 @@
 ---
 title: "Chaos with Keywords: Exposing Large Language Models Sycophancy to Misleading Keywords and Evaluating Defense Strategies"
 source: "https://aclanthology.org/2024.findings-acl.755/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'llm-training-alignment-and-evaluation']
 tags: ['sycophancy', 'llm-robustness', 'misleading-keywords']
 venue: "ACL 2024"

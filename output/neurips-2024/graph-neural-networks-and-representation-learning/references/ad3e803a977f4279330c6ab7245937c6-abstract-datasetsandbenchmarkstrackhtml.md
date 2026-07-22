@@ -1,6 +1,7 @@
 ---
 title: "ProG: A Graph Prompt Learning Benchmark"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ad3e803a977f4279330c6ab7245937c6-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ad3e803a977f4279330c6ab7245937c6-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['graph-neural-networks-and-representation-learning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['graph-prompts', 'benchmark', 'few-shot-learning']
 venue: "NeurIPS 2024"

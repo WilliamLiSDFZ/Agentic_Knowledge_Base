@@ -1,6 +1,7 @@
 ---
 title: "CPsyCoun: A Report-based Multi-turn Dialogue Reconstruction and Evaluation Framework for Chinese Psychological Counseling"
 source: "https://aclanthology.org/2024.findings-acl.830/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems', 'llms-for-biomedical-and-clinical-nlp']
 tags: ['psychological-counseling', 'chinese-nlp', 'multi-turn-dialogue']
 venue: "ACL 2024"

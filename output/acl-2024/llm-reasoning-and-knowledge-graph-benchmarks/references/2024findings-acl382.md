@@ -1,6 +1,7 @@
 ---
 title: "TRAM: Benchmarking Temporal Reasoning for Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.382/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['temporal-reasoning', 'benchmark', 'llm-evaluation']
 venue: "ACL 2024"

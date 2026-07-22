@@ -1,6 +1,7 @@
 ---
 title: "CTC-based Non-autoregressive Textless Speech-to-Speech Translation"
 source: "https://aclanthology.org/2024.findings-acl.543/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems', 'continuous-discrete-representation-tradeoffs']
 tags: ['speech-to-speech-translation', 'non-autoregressive', 'CTC', 'textless', 'decoding-speed']
 venue: "ACL 2024"

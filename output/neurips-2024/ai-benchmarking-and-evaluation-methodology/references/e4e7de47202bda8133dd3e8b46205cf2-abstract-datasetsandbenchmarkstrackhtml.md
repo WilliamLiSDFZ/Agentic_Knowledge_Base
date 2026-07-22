@@ -1,6 +1,7 @@
 ---
 title: "GeoPlant: Spatial Plant Species Prediction Dataset"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/e4e7de47202bda8133dd3e8b46205cf2-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/e4e7de47202bda8133dd3e8b46205cf2-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'graph-neural-networks-and-representation-learning']
 tags: ['species-distribution-models', 'spatial-prediction', 'biodiversity-monitoring']
 venue: "NeurIPS 2024"

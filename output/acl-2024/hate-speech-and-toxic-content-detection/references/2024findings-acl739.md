@@ -1,6 +1,7 @@
 ---
 title: "CIF-Bench: A Chinese Instruction-Following Benchmark for Evaluating the Generalizability of Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.739/"
+pdf_url: ""
 categories: ['hate-speech-and-toxic-content-detection', 'language-technology-cultural-linguistic-diversity']
 tags: ['Chinese-NLP', 'instruction-following', 'benchmark']
 venue: "ACL 2024"

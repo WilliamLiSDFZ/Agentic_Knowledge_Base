@@ -1,6 +1,7 @@
 ---
 title: "Mercury: A Code Efficiency Benchmark for Code Large Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1df1df43b58845650b8dada00fca9772-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1df1df43b58845650b8dada00fca9772-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-training-and-optimization-techniques']
 tags: ['code-efficiency', 'benchmark', 'code-llm', 'computational-efficiency', 'evaluation']
 venue: "NeurIPS 2024"

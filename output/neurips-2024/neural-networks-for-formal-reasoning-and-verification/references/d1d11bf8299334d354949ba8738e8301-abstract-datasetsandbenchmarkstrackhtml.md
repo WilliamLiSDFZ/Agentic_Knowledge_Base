@@ -1,6 +1,7 @@
 ---
 title: "A Neuro-Symbolic Benchmark Suite for Concept Quality and Reasoning Shortcuts"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d1d11bf8299334d354949ba8738e8301-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d1d11bf8299334d354949ba8738e8301-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'neural-networks-for-formal-reasoning-and-verification']
 tags: ['neuro-symbolic', 'benchmark', 'reasoning-shortcuts', 'concept-quality', 'learning-and-reasoning']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "SSDM: Scalable Speech Dysfluency Modeling"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/b8adf038ba1da7a58afa2f88f0f0fb8e-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/b8adf038ba1da7a58afa2f88f0f0fb8e-Paper-Conference.pdf"
 categories: ['audio-visual-speech-processing-and-benchmarks', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['speech-dysfluency', 'spoken-language', 'scalable-modeling']
 venue: "NeurIPS 2024"

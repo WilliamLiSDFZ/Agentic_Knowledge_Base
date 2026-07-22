@@ -1,6 +1,7 @@
 ---
 title: "UDA: A Benchmark Suite for Retrieval Augmented Generation in Real-World Document Analysis"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/7c06759d1a8567f087b02e8589454917-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/7c06759d1a8567f087b02e8589454917-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['rag-evaluation-and-diagnosis-framework', 'scientific-document-retrieval-and-citation']
 tags: ['retrieval-augmented-generation', 'document-analysis', 'benchmark']
 venue: "NeurIPS 2024"

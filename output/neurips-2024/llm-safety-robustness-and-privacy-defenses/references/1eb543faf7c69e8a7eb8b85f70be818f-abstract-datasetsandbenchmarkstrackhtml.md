@@ -1,6 +1,7 @@
 ---
 title: "SafeSora: Towards Safety Alignment of Text2Video Generation via a Human Preference Dataset"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1eb543faf7c69e8a7eb8b85f70be818f-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1eb543faf7c69e8a7eb8b85f70be818f-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-safety-robustness-and-privacy-defenses', 'visual-language-multimodal-generation-reasoning']
 tags: ['text-to-video', 'safety-alignment', 'human-preference-dataset']
 venue: "NeurIPS 2024"

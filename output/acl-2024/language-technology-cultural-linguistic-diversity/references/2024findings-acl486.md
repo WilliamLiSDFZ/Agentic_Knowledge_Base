@@ -1,6 +1,7 @@
 ---
 title: "Linear Cross-Lingual Mapping of Sentence Embeddings"
 source: "https://aclanthology.org/2024.findings-acl.486/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces', 'language-technology-cultural-linguistic-diversity']
 tags: ['cross-lingual-embeddings', 'sentence-representations', 'linear-mapping']
 venue: "ACL 2024"

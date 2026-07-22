@@ -1,6 +1,7 @@
 ---
 title: "Investigating the Impact of Model Instability on Explanations and Uncertainty"
 source: "https://aclanthology.org/2024.findings-acl.705/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'nlp-benchmark-design-and-interpretability']
 tags: ['explainability', 'model-instability', 'uncertainty', 'perturbation', 'xai']
 venue: "ACL 2024"

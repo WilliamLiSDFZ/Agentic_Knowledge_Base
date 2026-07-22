@@ -1,6 +1,7 @@
 ---
 title: "Context-Aware Tracking and Dynamic Introduction for Incomplete Utterance Rewriting in Extended Multi-Turn Dialogues"
 source: "https://aclanthology.org/2024.findings-acl.127/"
+pdf_url: ""
 categories: ['coreference-resolution-and-dialogue-understanding', 'nlp-for-asian-languages']
 tags: ['utterance-rewriting', 'dialogue', 'coreference']
 venue: "ACL 2024"

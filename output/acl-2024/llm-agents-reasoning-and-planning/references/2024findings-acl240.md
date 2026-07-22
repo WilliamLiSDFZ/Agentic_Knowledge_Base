@@ -1,6 +1,7 @@
 ---
 title: "Autonomous Workflow for Multimodal Fine-Grained Training Assistants Towards Mixed Reality"
 source: "https://aclanthology.org/2024.findings-acl.240/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llm-agents-reasoning-and-planning']
 tags: ['multimodal-agents', 'mixed-reality', 'training-assistance']
 venue: "ACL 2024"

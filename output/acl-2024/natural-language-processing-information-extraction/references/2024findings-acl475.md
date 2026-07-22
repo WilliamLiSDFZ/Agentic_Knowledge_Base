@@ -1,6 +1,7 @@
 ---
 title: "Efficient k-Nearest-Neighbor Machine Translation with Dynamic Retrieval"
 source: "https://aclanthology.org/2024.findings-acl.475/"
+pdf_url: ""
 categories: ['collaborative-llm-deployment-and-inference-optimization', 'natural-language-processing-information-extraction']
 tags: ['kNN-machine-translation', 'dynamic-retrieval', 'domain-adaptation']
 venue: "ACL 2024"

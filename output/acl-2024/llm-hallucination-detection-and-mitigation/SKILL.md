@@ -1,12 +1,12 @@
 ---
 name: llm-hallucination-detection-and-mitigation
 description: >-
-  This skill covers methods for detecting, measuring, and mitigating hallucinations and factual errors in LLMs and multimodal models, including token-level uncertainty quantification, reference-free detection, selective prediction, and knowledge conflict resolution. It also addresses knowledge editing (lifelong and in-context), retrieval-augmented generation with long-tail knowledge, cross-lingual
+  This skill covers methods for detecting, measuring, and mitigating hallucinations and factual errors in LLMs and multimodal models, including token-level uncertainty quantification, reference-free detection, selective prediction, and knowledge conflict resolution. It addresses tasks such as grounded text generation with attribution, knowledge editing (including cross-lingual transfer and lifelong editing), retrieval-
 ---
 
 # Llm Hallucination Detection And Mitigation
 
-This skill covers methods for detecting, measuring, and mitigating hallucinations and factual errors in LLMs and multimodal models, including token-level uncertainty quantification, reference-free detection, selective prediction, and knowledge conflict resolution. It also addresses knowledge editing (lifelong and in-context), retrieval-augmented generation with long-tail knowledge, cross-lingual
+This skill covers methods for detecting, measuring, and mitigating hallucinations and factual errors in LLMs and multimodal models, including token-level uncertainty quantification, reference-free detection, selective prediction, and knowledge conflict resolution. It addresses tasks such as grounded text generation with attribution, knowledge editing (including cross-lingual transfer and lifelong editing), retrieval-
 
 ## Entry Index
 

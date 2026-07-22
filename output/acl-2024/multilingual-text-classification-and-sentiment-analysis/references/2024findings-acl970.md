@@ -1,6 +1,7 @@
 ---
 title: "RESEMO: A Benchmark Chinese Dataset for Studying Responsive Emotion from Social Media Content"
 source: "https://aclanthology.org/2024.findings-acl.970/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems', 'multilingual-text-classification-and-sentiment-analysis']
 tags: ['responsive-emotion', 'social-media', 'Chinese-dataset']
 venue: "ACL 2024"

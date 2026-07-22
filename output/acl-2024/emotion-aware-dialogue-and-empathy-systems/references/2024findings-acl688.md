@@ -1,6 +1,7 @@
 ---
 title: "Dynamic Stochastic Decoding Strategy for Open-Domain Dialogue Generation"
 source: "https://aclanthology.org/2024.findings-acl.688/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems', 'continuous-discrete-representation-tradeoffs']
 tags: ['dialogue-generation', 'stochastic-decoding', 'open-domain']
 venue: "ACL 2024"

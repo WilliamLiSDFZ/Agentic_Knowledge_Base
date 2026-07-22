@@ -1,6 +1,7 @@
 ---
 title: "BiVLC: Extending Vision-Language Compositionality Evaluation with Text-to-Image Retrieval"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/b8b93c48f5bfa385d071342089d70422-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/b8b93c48f5bfa385d071342089d70422-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['vision-language-compositionality', 'bidirectional-retrieval', 'benchmark']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "MAN TruckScenes: A multimodal dataset for autonomous trucking in diverse conditions"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/71ac06f0f8450e7d49063c7bfb3257c2-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/71ac06f0f8450e7d49063c7bfb3257c2-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['autonomous-driving-and-trajectory-prediction', 'radar-based-scene-understanding-deep-learning']
 tags: ['autonomous-trucking', 'multimodal-dataset', 'lidar-radar-camera']
 venue: "NeurIPS 2024"

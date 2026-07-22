@@ -1,6 +1,7 @@
 ---
 title: "The Impact of Demonstrations on Multilingual In-Context Learning: A Multidimensional Analysis"
 source: "https://aclanthology.org/2024.findings-acl.438/"
+pdf_url: ""
 categories: ['multilingual-text-classification-and-sentiment-analysis', 'language-technology-cultural-linguistic-diversity']
 tags: ['in-context-learning', 'multilingual', 'demonstrations']
 venue: "ACL 2024"

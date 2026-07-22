@@ -1,6 +1,7 @@
 ---
 title: "Retrospective for the Dynamic Sensorium Competition for predicting large-scale mouse primary visual cortex activity from videos"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d758d7c0a88d741c8ca4637579c9df87-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d758d7c0a88d741c8ca4637579c9df87-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['visual-cortex', 'neural-predictivity', 'competition-benchmark']
 venue: "NeurIPS 2024"

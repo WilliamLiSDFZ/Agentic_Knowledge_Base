@@ -1,6 +1,7 @@
 ---
 title: "In-Context Symmetries: Self-Supervised Learning through Contextual World Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/bcad07d4bfab51243efaa08b8ed475b3-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/bcad07d4bfab51243efaa08b8ed475b3-Paper-Conference.pdf"
 categories: ['deep-learning-optimization-and-generalization-theory', 'disentangled-representation-learning-cognitive-diagnosis']
 tags: ['self-supervised-learning', 'contextual-world-models', 'equivariance']
 venue: "NeurIPS 2024"

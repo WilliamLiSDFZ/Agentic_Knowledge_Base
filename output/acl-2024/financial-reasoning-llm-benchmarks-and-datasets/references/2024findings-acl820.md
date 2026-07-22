@@ -1,6 +1,7 @@
 ---
 title: "Argument-Based Sentiment Analysis on Forward-Looking Statements"
 source: "https://aclanthology.org/2024.findings-acl.820/"
+pdf_url: ""
 categories: ['financial-reasoning-llm-benchmarks-and-datasets']
 tags: ['argument-mining', 'sentiment-analysis', 'forward-looking-statements']
 venue: "ACL 2024"

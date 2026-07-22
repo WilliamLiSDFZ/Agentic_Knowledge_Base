@@ -1,6 +1,7 @@
 ---
 title: "Penetrative AI: Making LLMs Comprehend the Physical World"
 source: "https://aclanthology.org/2024.findings-acl.437/"
+pdf_url: ""
 categories: ['llm-physical-world-understanding-cognition', 'language-models-physical-grounding-limitations']
 tags: ['physical-world-understanding', 'LLMs', 'commonsense', 'IoT', 'grounding']
 venue: "ACL 2024"

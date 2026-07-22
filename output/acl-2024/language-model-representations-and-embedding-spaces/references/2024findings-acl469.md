@@ -1,6 +1,7 @@
 ---
 title: "Language models emulate certain cognitive profiles: An investigation of how predictability measures interact with individual differences"
 source: "https://aclanthology.org/2024.findings-acl.469/"
+pdf_url: ""
 categories: ['language-model-human-cognitive-linguistic-alignment', 'language-model-representations-and-embedding-spaces']
 tags: ['surprisal', 'reading-times', 'individual-differences']
 venue: "ACL 2024"

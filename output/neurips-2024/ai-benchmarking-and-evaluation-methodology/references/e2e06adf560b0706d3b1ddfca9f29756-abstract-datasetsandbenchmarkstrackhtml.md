@@ -1,6 +1,7 @@
 ---
 title: "A StrongREJECT for Empty Jailbreaks"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/e2e06adf560b0706d3b1ddfca9f29756-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/e2e06adf560b0706d3b1ddfca9f29756-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-safety-robustness-and-privacy-defenses', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['jailbreak-evaluation', 'LLM-safety', 'benchmark-methodology']
 venue: "NeurIPS 2024"

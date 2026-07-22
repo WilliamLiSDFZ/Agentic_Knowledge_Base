@@ -1,6 +1,7 @@
 ---
 title: "MmCows: A Multimodal Dataset for Dairy Cattle Monitoring"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/6d8f3f71b22f9d2e9320d7bdb73acea7-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/6d8f3f71b22f9d2e9320d7bdb73acea7-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['wearable-biosignal-gesture-activity-benchmarks']
 tags: ['multimodal-dataset', 'livestock-monitoring', 'precision-agriculture', 'sensor-fusion']
 venue: "NeurIPS 2024"

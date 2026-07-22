@@ -1,6 +1,7 @@
 ---
 title: "The Well: a Large-Scale Collection of Diverse Physics Simulations for Machine Learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/4f9a5acd91ac76569f2fe291b1f4772b-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/4f9a5acd91ac76569f2fe291b1f4772b-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['physics-informed-neural-operators-and-simulations', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['physics-simulations', 'surrogate-models', 'benchmark-dataset', 'neural-operators', 'diverse-physics']
 venue: "NeurIPS 2024"

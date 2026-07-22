@@ -1,12 +1,12 @@
 ---
 name: fairness-aware-machine-learning-methods
 description: >-
-  This skill covers algorithmic fairness methods and bias mitigation across machine learning tasks, including classification, clustering, graph neural networks, vision-language models, and online decision-making systems. It addresses techniques such as optimal transport, coreset construction, debiasing, post-processing frameworks, and prompt learning, with applications spanning hiring, social influence, image generation, and AI-assisted decision making
+  This skill covers algorithmic fairness methods and bias mitigation across diverse ML tasks and domains, including graph neural networks, vision-language models, clustering, online selection/matching problems, and generative AI (text-to-image). It addresses techniques such as optimal transport, coreset construction, post-processing frameworks, debiasing, and prompt learning, with applications spanning hiring systems, social
 ---
 
 # Fairness Aware Machine Learning Methods
 
-This skill covers algorithmic fairness methods and bias mitigation across machine learning tasks, including classification, clustering, graph neural networks, vision-language models, and online decision-making systems. It addresses techniques such as optimal transport, coreset construction, debiasing, post-processing frameworks, and prompt learning, with applications spanning hiring, social influence, image generation, and AI-assisted decision making
+This skill covers algorithmic fairness methods and bias mitigation across diverse ML tasks and domains, including graph neural networks, vision-language models, clustering, online selection/matching problems, and generative AI (text-to-image). It addresses techniques such as optimal transport, coreset construction, post-processing frameworks, debiasing, and prompt learning, with applications spanning hiring systems, social
 
 ## Entry Index
 

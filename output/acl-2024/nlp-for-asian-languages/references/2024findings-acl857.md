@@ -1,6 +1,7 @@
 ---
 title: "Part-of-speech Tagging for Extremely Low-resource Indian Languages"
 source: "https://aclanthology.org/2024.findings-acl.857/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'nlp-for-asian-languages']
 tags: ['pos-tagging', 'low-resource', 'indian-languages']
 venue: "ACL 2024"

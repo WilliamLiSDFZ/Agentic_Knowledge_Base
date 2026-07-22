@@ -1,6 +1,7 @@
 ---
 title: "A Two-Agent Game for Zero-shot Relation Triplet Extraction"
 source: "https://aclanthology.org/2024.findings-acl.446/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'code-llm-generation-and-evaluation']
 tags: ['zero-shot', 'relation-extraction', 'two-agent-game']
 venue: "ACL 2024"

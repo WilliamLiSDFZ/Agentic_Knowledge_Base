@@ -1,6 +1,7 @@
 ---
 title: "LLMs Beyond English: Scaling the Multilingual Capability of LLMs with Cross-Lingual Feedback"
 source: "https://aclanthology.org/2024.findings-acl.488/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'llm-training-alignment-and-evaluation']
 tags: ['multilingual-LLM', 'cross-lingual-feedback', 'low-resource', 'instruction-tuning', 'scaling']
 venue: "ACL 2024"

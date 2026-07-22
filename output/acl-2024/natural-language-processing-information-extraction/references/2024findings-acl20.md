@@ -1,6 +1,7 @@
 ---
 title: "ImplicitAVE: An Open-Source Dataset and Multimodal LLMs Benchmark for Implicit Attribute Value Extraction"
 source: "https://aclanthology.org/2024.findings-acl.20/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'natural-language-processing-information-extraction']
 tags: ['attribute-value-extraction', 'multimodal', 'implicit-attributes', 'e-commerce', 'benchmark']
 venue: "ACL 2024"

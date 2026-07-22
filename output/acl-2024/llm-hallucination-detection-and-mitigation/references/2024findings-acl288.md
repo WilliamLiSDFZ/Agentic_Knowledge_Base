@@ -1,6 +1,7 @@
 ---
 title: "Unraveling and Mitigating Retriever Inconsistencies in Retrieval-Augmented Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.288/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'llm-agents-reasoning-and-planning']
 tags: ['retrieval-augmented-generation', 'RAG', 'retriever-inconsistency', 'LLM', 'factuality']
 venue: "ACL 2024"

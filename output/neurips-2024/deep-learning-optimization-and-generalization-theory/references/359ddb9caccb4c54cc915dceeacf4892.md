@@ -1,6 +1,7 @@
 ---
 title: "Implicit Regularization Paths of Weighted Neural Representations"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/359ddb9caccb4c54cc915dceeacf4892-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/359ddb9caccb4c54cc915dceeacf4892-Paper-Conference.pdf"
 categories: ['deep-learning-optimization-and-generalization-theory', 'statistical-learning-theory-and-matrix-methods']
 tags: ['implicit-regularization', 'weighted-representations', 'pretrained-features']
 venue: "NeurIPS 2024"

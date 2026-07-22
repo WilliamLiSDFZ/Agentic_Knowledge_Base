@@ -1,6 +1,7 @@
 ---
 title: "Semantics or spelling? Probing contextual word embeddings with orthographic noise"
 source: "https://aclanthology.org/2024.findings-acl.266/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces']
 tags: ['contextual-embeddings', 'orthographic-noise', 'probing', 'semantics']
 venue: "ACL 2024"

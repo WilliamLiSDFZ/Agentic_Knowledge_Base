@@ -1,6 +1,7 @@
 ---
 title: "FEDMEKI: A Benchmark for Scaling Medical Foundation Models via Federated Knowledge Injection"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/0235cbb8cd6425d0b55daefce388fc0b-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/0235cbb8cd6425d0b55daefce388fc0b-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['privacy-preserving-federated-distributed-learning', 'llm-benchmarks-for-clinical-healthcare']
 tags: ['federated-learning', 'medical-foundation-models', 'knowledge-injection']
 venue: "NeurIPS 2024"

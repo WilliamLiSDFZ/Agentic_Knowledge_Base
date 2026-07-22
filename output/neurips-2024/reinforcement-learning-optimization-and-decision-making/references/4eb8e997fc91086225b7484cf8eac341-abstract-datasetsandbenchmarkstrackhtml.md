@@ -1,6 +1,7 @@
 ---
 title: "Constrained Human-AI Cooperation: An Inclusive Embodied Social Intelligence Challenge"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/4eb8e997fc91086225b7484cf8eac341-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/4eb8e997fc91086225b7484cf8eac341-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'llm-agent-communication-and-cooperation']
 tags: ['embodied-agents', 'human-ai-cooperation', 'social-intelligence']
 venue: "NeurIPS 2024"

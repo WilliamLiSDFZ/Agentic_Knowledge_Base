@@ -1,6 +1,7 @@
 ---
 title: "Making Harmful Behaviors Unlearnable for Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.611/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'llm-training-alignment-and-evaluation']
 tags: ['llm-safety', 'fine-tuning', 'unlearnable-examples', 'harmful-behavior', 'adversarial']
 venue: "ACL 2024"

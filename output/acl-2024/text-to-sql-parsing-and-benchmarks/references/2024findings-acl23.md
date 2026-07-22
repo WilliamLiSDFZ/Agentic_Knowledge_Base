@@ -1,6 +1,7 @@
 ---
 title: "Tables as Texts or Images: Evaluating the Table Reasoning Ability of LLMs and MLLMs"
 source: "https://aclanthology.org/2024.findings-acl.23/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'text-to-sql-parsing-and-benchmarks']
 tags: ['table-reasoning', 'llm-evaluation', 'multimodal', 'prompting', 'tabular-data']
 venue: "ACL 2024"

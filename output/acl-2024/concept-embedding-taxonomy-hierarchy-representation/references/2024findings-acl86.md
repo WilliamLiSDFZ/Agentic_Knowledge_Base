@@ -1,6 +1,7 @@
 ---
 title: "Modelling Commonsense Commonalities with Multi-Facet Concept Embeddings"
 source: "https://aclanthology.org/2024.findings-acl.86/"
+pdf_url: ""
 categories: ['concept-embedding-taxonomy-hierarchy-representation']
 tags: ['concept-embeddings', 'commonsense-knowledge', 'multi-facet-representation']
 venue: "ACL 2024"

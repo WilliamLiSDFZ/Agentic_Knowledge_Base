@@ -1,6 +1,7 @@
 ---
 title: "FedLLM-Bench: Realistic Benchmarks for Federated Learning of Large Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/c8cdab0e890c59255c27977072fdb0f0-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/c8cdab0e890c59255c27977072fdb0f0-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['privacy-preserving-federated-distributed-learning', 'llm-training-and-optimization-techniques']
 tags: ['federated-learning', 'large-language-models', 'benchmarking', 'privacy', 'fine-tuning']
 venue: "NeurIPS 2024"

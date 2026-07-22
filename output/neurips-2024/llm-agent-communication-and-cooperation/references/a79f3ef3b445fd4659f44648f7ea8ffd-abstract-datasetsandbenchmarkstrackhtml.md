@@ -1,6 +1,7 @@
 ---
 title: "On the Effects of Data Scale on UI Control Agents"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a79f3ef3b445fd4659f44648f7ea8ffd-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a79f3ef3b445fd4659f44648f7ea8ffd-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-agent-communication-and-cooperation', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['UI-control-agents', 'LLM-fine-tuning', 'data-scaling']
 venue: "NeurIPS 2024"

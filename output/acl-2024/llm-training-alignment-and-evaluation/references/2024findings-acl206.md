@@ -1,6 +1,7 @@
 ---
 title: "Rethinking Negative Instances for Generative Named Entity Recognition"
 source: "https://aclanthology.org/2024.findings-acl.206/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'llm-training-alignment-and-evaluation']
 tags: ['named-entity-recognition', 'instruction-tuning', 'negative-instances']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "DEBATE: Devil’s Advocate-Based Assessment and Text Evaluation"
 source: "https://aclanthology.org/2024.findings-acl.112/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'web-data-quality-and-llm-evaluation']
 tags: ['nlg-evaluation', 'llm-evaluator', 'devil-advocate']
 venue: "ACL 2024"

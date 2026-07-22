@@ -1,6 +1,7 @@
 ---
 title: "Recovering document annotations for sentence-level bitext"
 source: "https://aclanthology.org/2024.findings-acl.589/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'natural-language-processing-information-extraction']
 tags: ['machine-translation', 'document-level', 'bitext-annotation']
 venue: "ACL 2024"

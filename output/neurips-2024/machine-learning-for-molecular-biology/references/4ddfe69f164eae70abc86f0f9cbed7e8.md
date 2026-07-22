@@ -1,6 +1,7 @@
 ---
 title: "Aligning Target-Aware Molecule Diffusion Models with Exact Energy Optimization"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/4ddfe69f164eae70abc86f0f9cbed7e8-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/4ddfe69f164eae70abc86f0f9cbed7e8-Paper-Conference.pdf"
 categories: ['machine-learning-for-molecular-biology', 'diffusion-based-generative-modeling-and-inference']
 tags: ['structure-based-drug-design', 'diffusion-models', 'energy-optimization']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Deductive Closure Training of Language Models for Coherence, Accuracy, and Updatability"
 source: "https://aclanthology.org/2024.findings-acl.584/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'llm-hallucination-detection-and-mitigation']
 tags: ['deductive-closure', 'belief-coherence', 'knowledge-updating']
 venue: "ACL 2024"

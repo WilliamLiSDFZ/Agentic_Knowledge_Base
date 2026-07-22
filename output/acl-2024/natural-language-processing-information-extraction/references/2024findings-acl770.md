@@ -1,6 +1,7 @@
 ---
 title: "KIWI: A Dataset of Knowledge-Intensive Writing Instructions for Answering Research Questions"
 source: "https://aclanthology.org/2024.findings-acl.770/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'natural-language-processing-information-extraction']
 tags: ['knowledge-intensive', 'writing-instructions', 'long-form-answers', 'research-questions', 'instruction-following']
 venue: "ACL 2024"

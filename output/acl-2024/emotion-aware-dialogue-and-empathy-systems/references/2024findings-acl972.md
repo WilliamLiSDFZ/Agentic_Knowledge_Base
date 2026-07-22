@@ -1,6 +1,7 @@
 ---
 title: "KEEP CHATTING! An Attractive Dataset for Continuous Conversation Agents"
 source: "https://aclanthology.org/2024.findings-acl.972/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems', 'social-ai-temporal-dynamics-evaluation']
 tags: ['conversational-agents', 'engagement', 'dataset']
 venue: "ACL 2024"

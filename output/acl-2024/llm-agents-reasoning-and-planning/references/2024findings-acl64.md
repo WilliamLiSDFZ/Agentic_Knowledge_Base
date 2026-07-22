@@ -1,6 +1,7 @@
 ---
 title: "PCA-Bench: Evaluating Multimodal Large Language Models in Perception-Cognition-Action Chain"
 source: "https://aclanthology.org/2024.findings-acl.64/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llm-agents-reasoning-and-planning']
 tags: ['multimodal-benchmark', 'perception-cognition-action', 'decision-making']
 venue: "ACL 2024"

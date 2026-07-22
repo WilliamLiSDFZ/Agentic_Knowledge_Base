@@ -1,6 +1,7 @@
 ---
 title: "Teaching Language Models to Self-Improve by Learning from Language Feedback"
 source: "https://aclanthology.org/2024.findings-acl.364/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'text-simplification-evaluation-and-methods']
 tags: ['alignment', 'language-feedback', 'self-improvement']
 venue: "ACL 2024"

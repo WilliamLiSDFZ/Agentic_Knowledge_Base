@@ -1,6 +1,7 @@
 ---
 title: "Tuning Large Multimodal Models for Videos using Reinforcement Learning from AI Feedback"
 source: "https://aclanthology.org/2024.acl-long.52/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['video-understanding', 'reinforcement-learning', 'multimodal-fine-tuning']
 venue: "ACL 2024"

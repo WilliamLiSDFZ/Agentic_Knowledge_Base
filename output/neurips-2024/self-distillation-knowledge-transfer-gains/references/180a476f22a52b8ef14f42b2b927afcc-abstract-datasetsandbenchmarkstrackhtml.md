@@ -1,6 +1,7 @@
 ---
 title: "$\texttt{Model-GLUE}$: Democratized LLM Scaling for A Large Model Zoo in the Wild"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/180a476f22a52b8ef14f42b2b927afcc-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/180a476f22a52b8ef14f42b2b927afcc-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-training-and-optimization-techniques', 'self-distillation-knowledge-transfer-gains']
 tags: ['llm-scaling', 'model-merging', 'model-zoo']
 venue: "NeurIPS 2024"

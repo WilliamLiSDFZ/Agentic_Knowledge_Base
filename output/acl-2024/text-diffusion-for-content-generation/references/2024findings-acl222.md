@@ -1,6 +1,7 @@
 ---
 title: "Pinpointing Diffusion Grid Noise to Enhance Aspect Sentiment Quad Prediction"
 source: "https://aclanthology.org/2024.findings-acl.222/"
+pdf_url: ""
 categories: ['multilingual-text-classification-and-sentiment-analysis', 'text-diffusion-for-content-generation']
 tags: ['aspect-sentiment', 'quad-prediction', 'diffusion']
 venue: "ACL 2024"

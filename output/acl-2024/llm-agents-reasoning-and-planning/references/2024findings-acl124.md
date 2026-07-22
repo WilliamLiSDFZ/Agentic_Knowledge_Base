@@ -1,6 +1,7 @@
 ---
 title: "INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair"
 source: "https://aclanthology.org/2024.findings-acl.124/"
+pdf_url: ""
 categories: ['code-llm-generation-and-evaluation', 'llm-agents-reasoning-and-planning']
 tags: ['code-repair', 'LLM-prompting', 'interactive-chain-of-thought', 'debugging']
 venue: "ACL 2024"

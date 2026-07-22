@@ -1,6 +1,7 @@
 ---
 title: "An Effective Pronunciation Assessment Approach Leveraging Hierarchical Transformers and Pre-training Strategies"
 source: "https://aclanthology.org/2024.acl-long.95/"
+pdf_url: ""
 categories: ['online-discourse-mental-health-language-analysis']
 tags: ['pronunciation-assessment', 'hierarchical-transformers', 'pre-training']
 venue: "ACL 2024"

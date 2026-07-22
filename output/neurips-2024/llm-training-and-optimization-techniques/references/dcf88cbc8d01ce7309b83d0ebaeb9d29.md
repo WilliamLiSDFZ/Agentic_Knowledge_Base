@@ -1,6 +1,7 @@
 ---
 title: "AutoTimes: Autoregressive Time Series Forecasters via Large Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/dcf88cbc8d01ce7309b83d0ebaeb9d29-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/dcf88cbc8d01ce7309b83d0ebaeb9d29-Paper-Conference.pdf"
 categories: ['time-series-forecasting-and-analysis', 'llm-training-and-optimization-techniques']
 tags: ['time-series-forecasting', 'large-language-models', 'autoregressive-pretraining']
 venue: "NeurIPS 2024"

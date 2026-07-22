@@ -1,12 +1,12 @@
 ---
 name: social-ai-temporal-dynamics-evaluation
 description: >-
-  This research area covers the **evaluation and development of LLMs and conversational agents** across social, temporal, and multi-agent dimensions, using purpose-built benchmarks and datasets. Methods include role-playing assessments (personality fidelity, character hallucination, sociality), long-term memory evaluation, co-temporal and temporal validity reasoning tasks, neologism robustness
+  This research area covers the evaluation and development of LLMs and conversational agents across **temporal reasoning, social intelligence, and dynamic interaction** tasks. Methods include benchmark construction (testing neologism handling, character consistency across time points, long-term memory, co-temporal reasoning), role-playing agent evaluation via psychological frameworks and personality fidelity metrics, multi-agent simulation for social/diplomatic
 ---
 
 # Social Ai Temporal Dynamics Evaluation
 
-This research area covers the **evaluation and development of LLMs and conversational agents** across social, temporal, and multi-agent dimensions, using purpose-built benchmarks and datasets. Methods include role-playing assessments (personality fidelity, character hallucination, sociality), long-term memory evaluation, co-temporal and temporal validity reasoning tasks, neologism robustness
+This research area covers the evaluation and development of LLMs and conversational agents across **temporal reasoning, social intelligence, and dynamic interaction** tasks. Methods include benchmark construction (testing neologism handling, character consistency across time points, long-term memory, co-temporal reasoning), role-playing agent evaluation via psychological frameworks and personality fidelity metrics, multi-agent simulation for social/diplomatic
 
 ## Entry Index
 

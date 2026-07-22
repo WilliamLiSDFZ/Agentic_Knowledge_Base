@@ -1,6 +1,7 @@
 ---
 title: "InterpBench: Semi-Synthetic Transformers for Evaluating Mechanistic Interpretability Techniques"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a8f7d43ae092d9a5295775eb17f3f4f7-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a8f7d43ae092d9a5295775eb17f3f4f7-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'neural-networks-for-formal-reasoning-and-verification']
 tags: ['mechanistic-interpretability', 'circuit-discovery', 'semi-synthetic-transformers', 'evaluation', 'benchmarking']
 venue: "NeurIPS 2024"

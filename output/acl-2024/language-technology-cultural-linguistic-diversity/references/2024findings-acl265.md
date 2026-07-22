@@ -1,6 +1,7 @@
 ---
 title: "Evaluating the Elementary Multilingual Capabilities of Large Language Models with MultiQ"
 source: "https://aclanthology.org/2024.findings-acl.265/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'llm-training-alignment-and-evaluation']
 tags: ['multilingual-llm', 'evaluation', 'low-resource-languages']
 venue: "ACL 2024"

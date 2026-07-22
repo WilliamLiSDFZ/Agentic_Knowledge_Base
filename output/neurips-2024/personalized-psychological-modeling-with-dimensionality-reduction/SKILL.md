@@ -1,12 +1,12 @@
 ---
 name: personalized-psychological-modeling-with-dimensionality-reduction
 description: >-
-  This skill covers personalized psychological and behavioral modeling by learning individual-level latent representations of personality, preferences, and decision-making, using methods such as autoencoders, Gaussian processes, and attention-based regression applied to tasks like psychological assessment, hierarchical data visualization, preferential choice prediction, and individualized outcome estimation.
+  This skill covers methods for modeling individual-level psychological and behavioral variation using dimensionality reduction techniques—including autoencoders, Gaussian processes, and attention-based regression—to capture latent structures in hierarchical, personality, and preference data. Applications span psychological assessment, decision-making modeling, and personalized prediction tasks where standard group-level approaches fail to represent idiographic (person-
 ---
 
 # Personalized Psychological Modeling With Dimensionality Reduction
 
-This skill covers personalized psychological and behavioral modeling by learning individual-level latent representations of personality, preferences, and decision-making, using methods such as autoencoders, Gaussian processes, and attention-based regression applied to tasks like psychological assessment, hierarchical data visualization, preferential choice prediction, and individualized outcome estimation.
+This skill covers methods for modeling individual-level psychological and behavioral variation using dimensionality reduction techniques—including autoencoders, Gaussian processes, and attention-based regression—to capture latent structures in hierarchical, personality, and preference data. Applications span psychological assessment, decision-making modeling, and personalized prediction tasks where standard group-level approaches fail to represent idiographic (person-
 
 ## Entry Index
 

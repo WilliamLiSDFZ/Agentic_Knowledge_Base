@@ -1,6 +1,7 @@
 ---
 title: "RulE: Knowledge Graph Reasoning with Rule Embedding"
 source: "https://aclanthology.org/2024.findings-acl.256/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'concept-embedding-taxonomy-hierarchy-representation']
 tags: ['knowledge-graph', 'rule-embedding', 'logical-reasoning']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Enhancing Robustness in Deep Reinforcement Learning: A Lyapunov Exponent Approach"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/9c4bbdad95f6ffed1a15c06b491e0a3e-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/9c4bbdad95f6ffed1a15c06b491e0a3e-Paper-Conference.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'deep-learning-optimization-and-generalization-theory']
 tags: ['deep-reinforcement-learning', 'robustness', 'Lyapunov-exponents', 'adversarial-perturbations', 'chaos-theory']
 venue: "NeurIPS 2024"

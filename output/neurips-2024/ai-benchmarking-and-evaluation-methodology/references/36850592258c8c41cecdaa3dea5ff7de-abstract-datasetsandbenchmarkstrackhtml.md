@@ -1,6 +1,7 @@
 ---
 title: "SciCode: A Research Coding Benchmark Curated by Scientists"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/36850592258c8c41cecdaa3dea5ff7de-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/36850592258c8c41cecdaa3dea5ff7de-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'neural-networks-for-formal-reasoning-and-verification']
 tags: ['scientific-coding-benchmark', 'language-models', 'code-generation', 'research-problems', 'evaluation']
 venue: "NeurIPS 2024"

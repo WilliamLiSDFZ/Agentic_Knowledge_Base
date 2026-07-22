@@ -1,6 +1,7 @@
 ---
 title: "ROSE Doesn’t Do That: Boosting the Safety of Instruction-Tuned Large Language Models with Reverse Prompt Contrastive Decoding"
 source: "https://aclanthology.org/2024.findings-acl.814/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'llm-training-alignment-and-evaluation']
 tags: ['LLM-safety', 'instruction-tuning', 'contrastive-decoding', 'reverse-prompt', 'alignment']
 venue: "ACL 2024"

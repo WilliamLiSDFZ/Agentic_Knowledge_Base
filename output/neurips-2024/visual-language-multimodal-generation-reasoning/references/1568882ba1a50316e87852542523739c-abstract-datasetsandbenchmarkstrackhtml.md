@@ -1,6 +1,7 @@
 ---
 title: "CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1568882ba1a50316e87852542523739c-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1568882ba1a50316e87852542523739c-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'visual-language-multimodal-generation-reasoning']
 tags: ['visual-question-answering', 'multilingual', 'cultural-diversity']
 venue: "NeurIPS 2024"

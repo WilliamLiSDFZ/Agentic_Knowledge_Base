@@ -1,6 +1,7 @@
 ---
 title: "Evidence Retrieval is almost All You Need for Fact Verification"
 source: "https://aclanthology.org/2024.findings-acl.551/"
+pdf_url: ""
 categories: ['computational-misinformation-narrative-framing-detection', 'natural-language-processing-information-extraction']
 tags: ['fact-verification', 'evidence-retrieval', 'claim-verification']
 venue: "ACL 2024"

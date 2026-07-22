@@ -1,6 +1,7 @@
 ---
 title: "Leveraging Entity Information for Cross-Modality Correlation Learning: The Entity-Guided Multimodal Summarization"
 source: "https://aclanthology.org/2024.findings-acl.587/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems']
 tags: ['multimodal-summarization', 'entity-guided', 'cross-modality', 'image-text']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Stronger, Lighter, Better: Towards Life-Long Attribute Value Extraction for E-Commerce Products"
 source: "https://aclanthology.org/2024.findings-acl.510/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'continual-learning-for-nlp-tasks']
 tags: ['attribute-value-extraction', 'e-commerce', 'continual-learning']
 venue: "ACL 2024"

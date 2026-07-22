@@ -1,6 +1,7 @@
 ---
 title: "CHIME: LLM-Assisted Hierarchical Organization of Scientific Studies for Literature Review Support"
 source: "https://aclanthology.org/2024.findings-acl.8/"
+pdf_url: ""
 categories: ['hierarchical-text-classification-methods']
 tags: ['literature-review', 'hierarchical-organization', 'scientific-studies']
 venue: "ACL 2024"

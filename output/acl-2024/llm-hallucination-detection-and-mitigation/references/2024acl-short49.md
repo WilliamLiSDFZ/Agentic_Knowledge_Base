@@ -1,6 +1,7 @@
 ---
 title: "The Probabilities Also Matter: A More Faithful Metric for Faithfulness of Free-Text Explanations in Large Language Models"
 source: "https://aclanthology.org/2024.acl-short.49/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'llm-training-alignment-and-evaluation']
 tags: ['faithfulness', 'free-text-explanations', 'probability-based-metrics']
 venue: "ACL 2024"

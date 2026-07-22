@@ -1,6 +1,7 @@
 ---
 title: "Large Language Model Unlearning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/be52acf6bccf4a8c0a90fe2f5cfcead3-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/be52acf6bccf4a8c0a90fe2f5cfcead3-Paper-Conference.pdf"
 categories: ['llm-safety-robustness-and-privacy-defenses', 'llm-training-and-optimization-techniques']
 tags: ['machine-unlearning', 'llm-alignment', 'harmful-content-removal']
 venue: "NeurIPS 2024"

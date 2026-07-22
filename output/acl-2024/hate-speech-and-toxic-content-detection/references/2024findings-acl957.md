@@ -1,6 +1,7 @@
 ---
 title: "Label-aware Hard Negative Sampling Strategies with Momentum Contrastive Learning for Implicit Hate Speech Detection"
 source: "https://aclanthology.org/2024.findings-acl.957/"
+pdf_url: ""
 categories: ['hate-speech-and-toxic-content-detection', 'text-clustering-with-limited-labels']
 tags: ['implicit-hate-speech', 'contrastive-learning', 'hard-negative-sampling']
 venue: "ACL 2024"

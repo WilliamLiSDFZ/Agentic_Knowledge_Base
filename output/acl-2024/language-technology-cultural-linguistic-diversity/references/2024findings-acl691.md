@@ -1,6 +1,7 @@
 ---
 title: "Addressing Entity Translation Problem via Translation Difficulty and Context Diversity"
 source: "https://aclanthology.org/2024.findings-acl.691/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'language-technology-cultural-linguistic-diversity']
 tags: ['named-entity-translation', 'NMT', 'context-diversity']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Dual Prompt Tuning based Contrastive Learning for Hierarchical Text Classification"
 source: "https://aclanthology.org/2024.findings-acl.723/"
+pdf_url: ""
 categories: ['hierarchical-text-classification-methods', 'text-clustering-with-limited-labels']
 tags: ['hierarchical-text-classification', 'prompt-tuning', 'contrastive-learning', 'label-hierarchy', 'peer-labels']
 venue: "ACL 2024"

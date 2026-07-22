@@ -1,6 +1,7 @@
 ---
 title: "What Does Parameter-free Probing Really Uncover?"
 source: "https://aclanthology.org/2024.acl-short.31/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces', 'unsupervised-and-structured-syntactic-parsing-methods']
 tags: ['probing', 'parameter-free', 'syntactic-representations']
 venue: "ACL 2024"

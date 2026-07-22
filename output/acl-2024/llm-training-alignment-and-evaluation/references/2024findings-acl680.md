@@ -1,6 +1,7 @@
 ---
 title: "Mitigating Reversal Curse in Large Language Models via Semantic-aware Permutation Training"
 source: "https://aclanthology.org/2024.findings-acl.680/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'causal-reasoning-and-explanation-in-nlp']
 tags: ['reversal-curse', 'causal-llm', 'permutation-training']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "LINGOLY: A Benchmark of Olympiad-Level Linguistic Reasoning Puzzles in Low Resource and Extinct Languages"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/2e43584b7d7b32fb6b2aa83b32dbbb20-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/2e43584b7d7b32fb6b2aa83b32dbbb20-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-training-and-optimization-techniques']
 tags: ['benchmark', 'linguistic-reasoning', 'low-resource-languages', 'olympiad-puzzles', 'LLM-evaluation']
 venue: "NeurIPS 2024"

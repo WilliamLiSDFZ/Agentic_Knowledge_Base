@@ -1,6 +1,7 @@
 ---
 title: "EHRNoteQA: An LLM Benchmark for Real-World Clinical Practice Using Discharge Summaries"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/e15c4afff22f12c4986c1fcb4e941e03-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/e15c4afff22f12c4986c1fcb4e941e03-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-benchmarks-for-clinical-healthcare', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['ehr', 'discharge-summaries', 'llm-benchmark', 'clinical-qa', 'healthcare']
 venue: "NeurIPS 2024"

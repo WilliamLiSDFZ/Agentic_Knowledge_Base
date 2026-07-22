@@ -1,6 +1,7 @@
 ---
 title: "Bridging Model-Based Optimization and Generative Modeling via Conservative Fine-Tuning of Diffusion Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/e68274fc4f158dbcbd4dddc672f7ee9c-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/e68274fc4f158dbcbd4dddc672f7ee9c-Paper-Conference.pdf"
 categories: ['diffusion-based-generative-modeling-and-inference', 'machine-learning-for-molecular-biology']
 tags: ['diffusion-models', 'model-based-optimization', 'conservative-fine-tuning', 'sequence-design']
 venue: "NeurIPS 2024"

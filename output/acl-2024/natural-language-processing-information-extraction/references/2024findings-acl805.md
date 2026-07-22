@@ -1,6 +1,7 @@
 ---
 title: "GRADUAL: Granularity-aware Dual Prototype Learning for Better Few-Shot Relation Extraction"
 source: "https://aclanthology.org/2024.findings-acl.805/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction']
 tags: ['few-shot-learning', 'relation-extraction', 'prototype-learning']
 venue: "ACL 2024"

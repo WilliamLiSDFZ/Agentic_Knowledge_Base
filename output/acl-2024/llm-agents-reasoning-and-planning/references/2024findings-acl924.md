@@ -1,6 +1,7 @@
 ---
 title: "Small Language Models Need Strong Verifiers to Self-Correct Reasoning"
 source: "https://aclanthology.org/2024.findings-acl.924/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning']
 tags: ['self-correction', 'small-language-models', 'reasoning']
 venue: "ACL 2024"

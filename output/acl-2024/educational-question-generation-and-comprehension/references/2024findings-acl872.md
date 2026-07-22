@@ -1,6 +1,7 @@
 ---
 title: "Measuring Retrieval Complexity in Question Answering Systems"
 source: "https://aclanthology.org/2024.findings-acl.872/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'educational-question-generation-and-comprehension']
 tags: ['retrieval-complexity', 'question-answering', 'retrieval-difficulty', 'evaluation-metric']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Towards Robust Temporal Reasoning of Large Language Models via a Multi-Hop QA Dataset and Pseudo-Instruction Tuning"
 source: "https://aclanthology.org/2024.findings-acl.374/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-training-alignment-and-evaluation']
 tags: ['temporal-reasoning', 'multi-hop-qa', 'knowledge-updating']
 venue: "ACL 2024"

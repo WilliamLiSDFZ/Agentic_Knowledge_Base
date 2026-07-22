@@ -1,6 +1,7 @@
 ---
 title: "Fine-tuning with HED-IT: The impact of human post-editing for dialogical language models"
 source: "https://aclanthology.org/2024.findings-acl.707/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'llm-training-alignment-and-evaluation']
 tags: ['dialogue', 'human-post-editing', 'fine-tuning']
 venue: "ACL 2024"

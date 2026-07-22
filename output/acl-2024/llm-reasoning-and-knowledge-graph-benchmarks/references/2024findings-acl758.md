@@ -1,6 +1,7 @@
 ---
 title: "Argument-Aware Approach To Event Linking"
 source: "https://aclanthology.org/2024.findings-acl.758/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['event-linking', 'knowledge-base', 'argument-aware']
 venue: "ACL 2024"

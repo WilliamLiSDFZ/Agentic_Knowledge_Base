@@ -1,12 +1,12 @@
 ---
 name: blockchain-smart-contract-analysis-techniques
 description: >-
-  This skill covers techniques for analyzing blockchain systems and smart contracts through methods including graph-based structural modeling of multi-chain datasets and hybrid LLM/rule-based static analysis for detecting security vulnerabilities. Applications focus on cross-chain data analysis and automated bug detection in smart contract code, particularly flaws with financial impact.
+  This skill covers techniques for analyzing blockchain systems and smart contracts through both structural and semantic approaches, including graph-based modeling of multi-chain transaction data and hybrid methods combining large language models with rule-based reasoning to detect security vulnerabilities and financially impactful bugs in smart contract code.
 ---
 
 # Blockchain Smart Contract Analysis Techniques
 
-This skill covers techniques for analyzing blockchain systems and smart contracts through methods including graph-based structural modeling of multi-chain datasets and hybrid LLM/rule-based static analysis for detecting security vulnerabilities. Applications focus on cross-chain data analysis and automated bug detection in smart contract code, particularly flaws with financial impact.
+This skill covers techniques for analyzing blockchain systems and smart contracts through both structural and semantic approaches, including graph-based modeling of multi-chain transaction data and hybrid methods combining large language models with rule-based reasoning to detect security vulnerabilities and financially impactful bugs in smart contract code.
 
 ## Entry Index
 

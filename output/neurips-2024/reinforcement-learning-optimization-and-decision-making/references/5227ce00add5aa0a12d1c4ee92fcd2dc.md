@@ -1,6 +1,7 @@
 ---
 title: "Text-Aware Diffusion for Policy Learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/5227ce00add5aa0a12d1c4ee92fcd2dc-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/5227ce00add5aa0a12d1c4ee92fcd2dc-Paper-Conference.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making']
 tags: ['text-conditioned-policy', 'diffusion-reward', 'reinforcement-learning']
 venue: "NeurIPS 2024"

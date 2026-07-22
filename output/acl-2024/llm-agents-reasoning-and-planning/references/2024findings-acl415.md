@@ -1,6 +1,7 @@
 ---
 title: "RetrievalQA: Assessing Adaptive Retrieval-Augmented Generation for Short-form Open-Domain Question Answering"
 source: "https://aclanthology.org/2024.findings-acl.415/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['retrieval-augmented-generation', 'adaptive-retrieval', 'open-domain-qa']
 venue: "ACL 2024"

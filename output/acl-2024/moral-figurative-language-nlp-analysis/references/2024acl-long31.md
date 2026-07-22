@@ -1,6 +1,7 @@
 ---
 title: "Pouring Your Heart Out: Investigating the Role of Figurative Language in Online Expressions of Empathy"
 source: "https://aclanthology.org/2024.acl-long.31/"
+pdf_url: ""
 categories: ['moral-figurative-language-nlp-analysis']
 tags: ['empathy-detection', 'figurative-language', 'online-communities']
 venue: "ACL 2024"

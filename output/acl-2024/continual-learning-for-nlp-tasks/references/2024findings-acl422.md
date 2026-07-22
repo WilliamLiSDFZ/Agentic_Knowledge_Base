@@ -1,6 +1,7 @@
 ---
 title: "Continual Dialogue State Tracking via Reason-of-Select Distillation"
 source: "https://aclanthology.org/2024.findings-acl.422/"
+pdf_url: ""
 categories: ['continual-learning-for-nlp-tasks']
 tags: ['dialogue-state-tracking', 'continual-learning', 'knowledge-distillation']
 venue: "ACL 2024"

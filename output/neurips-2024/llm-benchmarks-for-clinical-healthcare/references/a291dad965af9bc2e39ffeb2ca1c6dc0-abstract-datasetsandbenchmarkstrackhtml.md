@@ -1,6 +1,7 @@
 ---
 title: "EHRCon: Dataset for Checking Consistency between Unstructured Notes and Structured Tables in Electronic Health Records"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a291dad965af9bc2e39ffeb2ca1c6dc0-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a291dad965af9bc2e39ffeb2ca1c6dc0-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-benchmarks-for-clinical-healthcare']
 tags: ['electronic-health-records', 'consistency-checking', 'clinical-notes']
 venue: "NeurIPS 2024"

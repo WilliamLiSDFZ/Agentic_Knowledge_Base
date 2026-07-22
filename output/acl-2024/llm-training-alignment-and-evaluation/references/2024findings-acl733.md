@@ -1,6 +1,7 @@
 ---
 title: "Concept-aware Data Construction Improves In-context Learning of Language Models"
 source: "https://aclanthology.org/2024.findings-acl.733/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'state-memory-replay-sequence-modeling']
 tags: ['in-context-learning', 'concept-awareness', 'data-construction']
 venue: "ACL 2024"

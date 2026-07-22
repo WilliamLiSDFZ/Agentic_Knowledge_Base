@@ -1,6 +1,7 @@
 ---
 title: "Light Up the Shadows: Enhance Long-Tailed Entity Grounding with Concept-Guided Vision-Language Models"
 source: "https://aclanthology.org/2024.findings-acl.793/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'multimodal-language-vision-learning-systems']
 tags: ['multimodal-knowledge-graphs', 'long-tail-entities', 'concept-guided-VLM']
 venue: "ACL 2024"

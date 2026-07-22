@@ -1,12 +1,12 @@
 ---
 name: learnware-and-environment-design-methods
 description: >-
-  This skill covers methods for **designing learning environments, curricula, and training distributions** that improve agent or model learning, including unsupervised/adversarial environment generation (regret-based curriculum discovery, diffusion-guided environment design, procedural generation), learnware frameworks for reusing and sharing pretrained models across heterogeneous feature spaces, and domain adaptation/transfer techniques.
+  This skill covers methods for **designing training environments, curricula, and data ecosystems** that optimize agent or model learning, spanning adversarial/automatic environment generation (regret-based curriculum discovery, diffusion-guided environment design, procedural generation), learnware frameworks (sharing and reusing model-data packages across heterogeneous feature spaces and preserving developer training data), and domain
 ---
 
 # Learnware And Environment Design Methods
 
-This skill covers methods for **designing learning environments, curricula, and training distributions** that improve agent or model learning, including unsupervised/adversarial environment generation (regret-based curriculum discovery, diffusion-guided environment design, procedural generation), learnware frameworks for reusing and sharing pretrained models across heterogeneous feature spaces, and domain adaptation/transfer techniques.
+This skill covers methods for **designing training environments, curricula, and data ecosystems** that optimize agent or model learning, spanning adversarial/automatic environment generation (regret-based curriculum discovery, diffusion-guided environment design, procedural generation), learnware frameworks (sharing and reusing model-data packages across heterogeneous feature spaces and preserving developer training data), and domain
 
 ## Entry Index
 

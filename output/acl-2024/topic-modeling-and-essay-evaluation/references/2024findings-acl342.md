@@ -1,6 +1,7 @@
 ---
 title: "TOREE: Evaluating Topic Relevance of Student Essays for Chinese Primary and Middle School Education"
 source: "https://aclanthology.org/2024.findings-acl.342/"
+pdf_url: ""
 categories: ['topic-modeling-and-essay-evaluation']
 tags: ['essay-scoring', 'topic-relevance', 'chinese-education']
 venue: "ACL 2024"

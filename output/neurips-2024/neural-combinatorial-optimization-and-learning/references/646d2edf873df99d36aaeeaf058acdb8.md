@@ -1,6 +1,7 @@
 ---
 title: "Dual Lagrangian Learning for Conic Optimization"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/646d2edf873df99d36aaeeaf058acdb8-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/646d2edf873df99d36aaeeaf058acdb8-Paper-Conference.pdf"
 categories: ['neural-combinatorial-optimization-and-learning', 'optimal-transport-and-learning-theory']
 tags: ['conic-optimization', 'lagrangian-duality', 'learning-optimization-proxies']
 venue: "NeurIPS 2024"

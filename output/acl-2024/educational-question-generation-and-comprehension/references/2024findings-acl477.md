@@ -1,6 +1,7 @@
 ---
 title: "Synthesizing Conversations from Unlabeled Documents using Automatic Response Segmentation"
 source: "https://aclanthology.org/2024.findings-acl.477/"
+pdf_url: ""
 categories: ['educational-question-generation-and-comprehension', 'natural-language-processing-information-extraction']
 tags: ['conversational-qa', 'data-synthesis', 'response-segmentation', 'document-grounded']
 venue: "ACL 2024"

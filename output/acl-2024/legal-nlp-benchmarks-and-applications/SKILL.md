@@ -1,12 +1,12 @@
 ---
 name: legal-nlp-benchmarks-and-applications
 description: >-
-  This skill covers the development and evaluation of NLP systems for legal text processing, including benchmark construction, classification, retrieval, and reasoning tasks across multiple jurisdictions and languages. Methods span fine-tuned transformer models, LLMs with chain-of-thought and reinforcement learning, graph-based representations, and temporal/incremental training applied to tasks such as legal judgment prediction, contract clause
+  This skill covers the development and evaluation of NLP systems for legal text processing, including benchmark construction (classification, retrieval, judgment prediction, contract analysis) across multiple jurisdictions and languages, and the application of LLMs and fine-tuned models to tasks such as legal reasoning, argumentation, precedent citation, and statutory interpretation. Methods span temporal training strategies, graph-based claim modeling
 ---
 
 # Legal Nlp Benchmarks And Applications
 
-This skill covers the development and evaluation of NLP systems for legal text processing, including benchmark construction, classification, retrieval, and reasoning tasks across multiple jurisdictions and languages. Methods span fine-tuned transformer models, LLMs with chain-of-thought and reinforcement learning, graph-based representations, and temporal/incremental training applied to tasks such as legal judgment prediction, contract clause
+This skill covers the development and evaluation of NLP systems for legal text processing, including benchmark construction (classification, retrieval, judgment prediction, contract analysis) across multiple jurisdictions and languages, and the application of LLMs and fine-tuned models to tasks such as legal reasoning, argumentation, precedent citation, and statutory interpretation. Methods span temporal training strategies, graph-based claim modeling
 
 ## Entry Index
 

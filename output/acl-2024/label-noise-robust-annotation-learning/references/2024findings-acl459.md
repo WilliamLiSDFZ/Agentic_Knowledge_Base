@@ -1,6 +1,7 @@
 ---
 title: "CICLe: Conformal In-Context Learning for Largescale Multi-Class Food Risk Classification"
 source: "https://aclanthology.org/2024.findings-acl.459/"
+pdf_url: ""
 categories: ['nlp-text-classification-applied-tasks', 'label-noise-robust-annotation-learning']
 tags: ['food-risk-classification', 'conformal-prediction', 'in-context-learning']
 venue: "ACL 2024"

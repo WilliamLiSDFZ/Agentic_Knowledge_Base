@@ -1,6 +1,7 @@
 ---
 title: "No perspective, no perception!! Perspective-aware Healthcare Answer Summarization"
 source: "https://aclanthology.org/2024.findings-acl.942/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp', 'state-memory-replay-sequence-modeling']
 tags: ['healthcare-QA', 'perspective-aware', 'answer-summarization']
 venue: "ACL 2024"

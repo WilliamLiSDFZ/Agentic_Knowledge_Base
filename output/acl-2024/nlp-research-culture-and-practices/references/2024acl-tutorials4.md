@@ -1,6 +1,7 @@
 ---
 title: "Presentation Matters: How to Communicate Science in the NLP Venues and in the Wild"
 source: "https://aclanthology.org/2024.acl-tutorials.4/"
+pdf_url: ""
 categories: ['nlp-research-culture-and-practices']
 tags: ['research-communication', 'nlp-community', 'presentation-skills']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "LLaST: Improved End-to-end Speech Translation System Leveraged by Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.416/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems']
 tags: ['speech-translation', 'end-to-end', 'LLM-integration']
 venue: "ACL 2024"

@@ -1,12 +1,12 @@
 ---
 name: coreference-resolution-and-dialogue-understanding
 description: >-
-  This skill covers the identification and resolution of linguistic references across dialogue and documents, including coreference resolution (within and across documents), dialogue state tracking, and discourse parsing, with applications to conversational AI and narrative understanding. Methods span supervised models, LLMs with zero-shot/few-shot adaptation, low-rank fine-tuning, and data augmentation, addressing challenges such as implicit
+  This skill covers the resolution of referential ambiguity and discourse-level understanding in both text and dialogue, including coreference resolution (within and across documents), dialogue state tracking, entity linking, and relation extraction. Methods span fine-tuned neural models, LLM-based zero-shot/few-shot approaches, dual low-rank adaptation, and memory augmentation, applied to
 ---
 
 # Coreference Resolution And Dialogue Understanding
 
-This skill covers the identification and resolution of linguistic references across dialogue and documents, including coreference resolution (within and across documents), dialogue state tracking, and discourse parsing, with applications to conversational AI and narrative understanding. Methods span supervised models, LLMs with zero-shot/few-shot adaptation, low-rank fine-tuning, and data augmentation, addressing challenges such as implicit
+This skill covers the resolution of referential ambiguity and discourse-level understanding in both text and dialogue, including coreference resolution (within and across documents), dialogue state tracking, entity linking, and relation extraction. Methods span fine-tuned neural models, LLM-based zero-shot/few-shot approaches, dual low-rank adaptation, and memory augmentation, applied to
 
 ## Entry Index
 

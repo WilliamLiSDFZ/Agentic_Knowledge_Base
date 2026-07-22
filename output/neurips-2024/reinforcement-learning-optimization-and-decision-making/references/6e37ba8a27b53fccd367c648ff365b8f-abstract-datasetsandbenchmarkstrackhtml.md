@@ -1,6 +1,7 @@
 ---
 title: "ODRL: A Benchmark for Off-Dynamics Reinforcement Learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/6e37ba8a27b53fccd367c648ff365b8f-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/6e37ba8a27b53fccd367c648ff365b8f-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making']
 tags: ['off-dynamics-reinforcement-learning', 'benchmark', 'domain-transfer', 'dynamics-mismatch', 'policy-transfer']
 venue: "NeurIPS 2024"

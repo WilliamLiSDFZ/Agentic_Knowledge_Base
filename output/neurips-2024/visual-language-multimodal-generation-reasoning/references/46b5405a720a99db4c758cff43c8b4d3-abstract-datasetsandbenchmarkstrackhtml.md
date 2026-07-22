@@ -1,6 +1,7 @@
 ---
 title: "GAIA: Rethinking Action Quality Assessment for AI-Generated Videos"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/46b5405a720a99db4c758cff43c8b4d3-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/46b5405a720a99db4c758cff43c8b4d3-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'visual-language-multimodal-generation-reasoning']
 tags: ['action-quality-assessment', 'AI-generated-video', 'evaluation']
 venue: "NeurIPS 2024"

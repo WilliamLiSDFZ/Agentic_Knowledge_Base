@@ -1,12 +1,12 @@
 ---
 name: llm-agents-reasoning-and-planning
 description: >-
-  This skill covers methods for enhancing LLM reasoning, planning, and decision-making across structured tasks, including chain-of-thought prompting strategies, multi-agent debate/consensus frameworks, retrieval-augmented generation, and tool-integrated agents. Applications span web navigation, code generation, temporal knowledge graph forecasting, dialogue state tracking, and open-domain QA, with additional
+  This skill covers methods for enhancing LLM reasoning, planning, and decision-making across structured tasks, including chain-of-thought optimization, multi-agent deliberation frameworks, retrieval-augmented generation, and tool-integrated agent systems. Applications span web navigation, code generation, temporal knowledge graph forecasting, dialogue state tracking, and open-domain QA, with additional focus on
 ---
 
 # Llm Agents Reasoning And Planning
 
-This skill covers methods for enhancing LLM reasoning, planning, and decision-making across structured tasks, including chain-of-thought prompting strategies, multi-agent debate/consensus frameworks, retrieval-augmented generation, and tool-integrated agents. Applications span web navigation, code generation, temporal knowledge graph forecasting, dialogue state tracking, and open-domain QA, with additional
+This skill covers methods for enhancing LLM reasoning, planning, and decision-making across structured tasks, including chain-of-thought optimization, multi-agent deliberation frameworks, retrieval-augmented generation, and tool-integrated agent systems. Applications span web navigation, code generation, temporal knowledge graph forecasting, dialogue state tracking, and open-domain QA, with additional focus on
 
 ## Entry Index
 

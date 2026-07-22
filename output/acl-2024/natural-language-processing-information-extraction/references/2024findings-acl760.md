@@ -1,6 +1,7 @@
 ---
 title: "TextEE: Benchmark, Reevaluation, Reflections, and Future Challenges in Event Extraction"
 source: "https://aclanthology.org/2024.findings-acl.760/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'nlp-benchmark-design-and-interpretability']
 tags: ['event-extraction', 'benchmark', 'reevaluation', 'information-extraction', 'evaluation-methodology']
 venue: "ACL 2024"

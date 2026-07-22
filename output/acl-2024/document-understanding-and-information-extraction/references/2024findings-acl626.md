@@ -1,6 +1,7 @@
 ---
 title: "PPTSER: A Plug-and-Play Tag-guided Method for Few-shot Semantic Entity Recognition on Visually-rich Documents"
 source: "https://aclanthology.org/2024.findings-acl.626/"
+pdf_url: ""
 categories: ['document-understanding-and-information-extraction', 'multimodal-language-vision-learning-systems']
 tags: ['few-shot-learning', 'semantic-entity-recognition', 'visually-rich-documents']
 venue: "ACL 2024"

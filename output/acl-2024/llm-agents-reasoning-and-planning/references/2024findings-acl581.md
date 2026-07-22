@@ -1,6 +1,7 @@
 ---
 title: "FastGAS: Fast Graph-based Annotation Selection for In-Context Learning"
 source: "https://aclanthology.org/2024.findings-acl.581/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning']
 tags: ['in-context-learning', 'graph-based-annotation', 'example-selection']
 venue: "ACL 2024"

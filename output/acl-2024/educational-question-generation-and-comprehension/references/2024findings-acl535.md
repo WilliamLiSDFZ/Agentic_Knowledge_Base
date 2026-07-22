@@ -1,6 +1,7 @@
 ---
 title: "Towards Better Question Generation in QA-based Event Extraction"
 source: "https://aclanthology.org/2024.findings-acl.535/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'educational-question-generation-and-comprehension']
 tags: ['event-extraction', 'question-generation', 'qa-based-methods']
 venue: "ACL 2024"

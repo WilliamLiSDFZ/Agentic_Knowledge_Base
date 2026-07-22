@@ -1,6 +1,7 @@
 ---
 title: "Knowledge Fusion By Evolving Weights of Language Models"
 source: "https://aclanthology.org/2024.findings-acl.698/"
+pdf_url: ""
 categories: ['collaborative-llm-deployment-and-inference-optimization']
 tags: ['model-merging', 'knowledge-fusion', 'weight-evolution']
 venue: "ACL 2024"

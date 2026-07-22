@@ -1,6 +1,7 @@
 ---
 title: "Resonance RoPE: Improving Context Length Generalization of Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.32/"
+pdf_url: ""
 categories: ['transformer-architecture-analysis-and-design']
 tags: ['rotary-position-embedding', 'context-length-generalization', 'train-short-test-long']
 venue: "ACL 2024"

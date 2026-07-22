@@ -1,6 +1,7 @@
 ---
 title: "Advancing Post-OCR Correction: A Comparative Study of Synthetic Data"
 source: "https://aclanthology.org/2024.findings-acl.361/"
+pdf_url: ""
 categories: ['ocr-and-ancient-script-nlp', 'llm-training-alignment-and-evaluation']
 tags: ['post-ocr-correction', 'synthetic-data', 'data-augmentation']
 venue: "ACL 2024"

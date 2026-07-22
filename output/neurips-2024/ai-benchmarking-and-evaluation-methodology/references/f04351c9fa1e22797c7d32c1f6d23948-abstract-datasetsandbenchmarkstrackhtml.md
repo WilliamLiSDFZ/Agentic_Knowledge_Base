@@ -1,6 +1,7 @@
 ---
 title: "Benchmarking Counterfactual Image Generation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/f04351c9fa1e22797c7d32c1f6d23948-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/f04351c9fa1e22797c7d32c1f6d23948-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['counterfactual-image-generation', 'causal-image-editing', 'benchmark']
 venue: "NeurIPS 2024"

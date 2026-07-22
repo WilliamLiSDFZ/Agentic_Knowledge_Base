@@ -1,6 +1,7 @@
 ---
 title: "AS-ES Learning: Towards efficient CoT learning in small models"
 source: "https://aclanthology.org/2024.findings-acl.635/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning']
 tags: ['chain-of-thought', 'knowledge-distillation', 'small-models']
 venue: "ACL 2024"

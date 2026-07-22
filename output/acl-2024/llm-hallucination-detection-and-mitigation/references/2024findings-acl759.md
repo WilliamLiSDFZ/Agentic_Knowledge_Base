@@ -1,6 +1,7 @@
 ---
 title: "CaLM: Contrasting Large and Small Language Models to Verify Grounded Generation"
 source: "https://aclanthology.org/2024.findings-acl.759/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'llm-training-alignment-and-evaluation']
 tags: ['grounded-generation', 'contrastive-verification', 'hallucination-mitigation']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Stabilizing Zero-Shot Prediction: A Novel Antidote to Forgetting in Continual Vision-Language Tasks"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/e7feb9dbd9a94b6c552fc403fcebf2ef-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/e7feb9dbd9a94b6c552fc403fcebf2ef-Paper-Conference.pdf"
 categories: ['visual-language-multimodal-generation-reasoning']
 tags: ['continual-learning', 'vision-language-models', 'catastrophic-forgetting']
 venue: "NeurIPS 2024"

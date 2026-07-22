@@ -1,6 +1,7 @@
 ---
 title: "VidProM: A Million-scale Real Prompt-Gallery Dataset for Text-to-Video Diffusion Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/78b3e7836e3b7dea79d809b0c99cb097-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/78b3e7836e3b7dea79d809b0c99cb097-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['diffusion-based-generative-modeling-and-inference', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['text-to-video', 'diffusion-models', 'prompt-dataset']
 venue: "NeurIPS 2024"

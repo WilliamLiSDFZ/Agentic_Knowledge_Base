@@ -1,6 +1,7 @@
 ---
 title: "Dimension-free Private Mean Estimation for Anisotropic Distributions"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/da8b52ece0bbae748f8d9c16d2328bfa-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/da8b52ece0bbae748f8d9c16d2328bfa-Paper-Conference.pdf"
 categories: ['privacy-preserving-federated-distributed-learning', 'statistical-computational-tradeoffs-high-dimensional-learning']
 tags: ['differential-privacy', 'mean-estimation', 'high-dimensional']
 venue: "NeurIPS 2024"

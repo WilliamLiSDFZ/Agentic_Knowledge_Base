@@ -1,6 +1,7 @@
 ---
 title: "Tailoring with Targeted Precision: Edit-Based Agents for Open-Domain Procedure Customization"
 source: "https://aclanthology.org/2024.findings-acl.921/"
+pdf_url: ""
 categories: ['llm-assisted-structured-procedure-analysis', 'llm-agents-reasoning-and-planning']
 tags: ['procedure-customization', 'edit-agents', 'how-to']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "MLLMGuard: A Multi-dimensional Safety Evaluation Suite for Multimodal Large Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/0d9dcd4ebef57f1839d871fe7d891e91-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/0d9dcd4ebef57f1839d871fe7d891e91-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-safety-robustness-and-privacy-defenses', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['multimodal-llm-safety', 'evaluation-suite', 'red-teaming', 'safety-benchmark', 'malicious-instructions']
 venue: "NeurIPS 2024"

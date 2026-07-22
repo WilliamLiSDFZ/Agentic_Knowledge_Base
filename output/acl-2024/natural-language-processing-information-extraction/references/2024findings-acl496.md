@@ -1,6 +1,7 @@
 ---
 title: "BenchIE^FL: A Manually Re-Annotated Fact-Based Open Information Extraction Benchmark"
 source: "https://aclanthology.org/2024.findings-acl.496/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction']
 tags: ['open-information-extraction', 'benchmark', 're-annotation']
 venue: "ACL 2024"

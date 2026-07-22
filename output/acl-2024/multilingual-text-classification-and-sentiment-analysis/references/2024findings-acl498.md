@@ -1,6 +1,7 @@
 ---
 title: "Question Translation Training for Better Multilingual Reasoning"
 source: "https://aclanthology.org/2024.findings-acl.498/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'multilingual-text-classification-and-sentiment-analysis']
 tags: ['multilingual-reasoning', 'question-translation', 'instruction-tuning']
 venue: "ACL 2024"

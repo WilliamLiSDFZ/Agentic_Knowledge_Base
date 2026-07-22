@@ -1,6 +1,7 @@
 ---
 title: "HARMONIC: Harnessing LLMs for Tabular Data Synthesis and Privacy Protection"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/b5aebe9a48398525a9da27a1df827d60-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/b5aebe9a48398525a9da27a1df827d60-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-safety-robustness-and-privacy-defenses', 'privacy-preserving-federated-distributed-learning']
 tags: ['LLM', 'tabular-data-synthesis', 'privacy-protection']
 venue: "NeurIPS 2024"

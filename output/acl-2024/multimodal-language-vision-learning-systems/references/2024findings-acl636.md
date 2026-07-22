@@ -1,6 +1,7 @@
 ---
 title: "II-MMR: Identifying and Improving Multi-modal Multi-hop Reasoning in Visual Question Answering"
 source: "https://aclanthology.org/2024.findings-acl.636/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems']
 tags: ['visual-question-answering', 'multi-hop-reasoning', 'multimodal', 'benchmark']
 venue: "ACL 2024"

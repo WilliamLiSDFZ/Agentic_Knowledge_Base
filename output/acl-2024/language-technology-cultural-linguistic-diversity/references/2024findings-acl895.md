@@ -1,6 +1,7 @@
 ---
 title: "Enhancing Sentence Simplification in Portuguese: Leveraging Paraphrases, Context, and Linguistic Features"
 source: "https://aclanthology.org/2024.findings-acl.895/"
+pdf_url: ""
 categories: ['text-simplification-evaluation-and-methods', 'language-technology-cultural-linguistic-diversity']
 tags: ['text-simplification', 'portuguese', 'paraphrase']
 venue: "ACL 2024"

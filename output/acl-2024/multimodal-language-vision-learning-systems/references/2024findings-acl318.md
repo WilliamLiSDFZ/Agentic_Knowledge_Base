@@ -1,6 +1,7 @@
 ---
 title: "ReactXT: Understanding Molecular “Reaction-ship” via Reaction-Contextualized Molecule-Text Pretraining"
 source: "https://aclanthology.org/2024.findings-acl.318/"
+pdf_url: ""
 categories: ['materials-science-information-extraction', 'multimodal-language-vision-learning-systems']
 tags: ['molecule-text-modeling', 'reaction-contextualized', 'pretraining', 'materials-science', 'multimodal']
 venue: "ACL 2024"

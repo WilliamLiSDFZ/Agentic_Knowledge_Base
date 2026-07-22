@@ -1,6 +1,7 @@
 ---
 title: "ABEX: Data Augmentation for Low-Resource NLU via Expanding Abstract Descriptions"
 source: "https://aclanthology.org/2024.acl-long.43/"
+pdf_url: ""
 categories: ['nlp-text-classification-applied-tasks', 'llm-training-alignment-and-evaluation']
 tags: ['data-augmentation', 'low-resource', 'NLU', 'abstract-expand', 'text-generation']
 venue: "ACL 2024"

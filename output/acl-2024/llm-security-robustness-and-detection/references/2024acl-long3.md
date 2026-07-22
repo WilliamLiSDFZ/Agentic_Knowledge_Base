@@ -1,6 +1,7 @@
 ---
 title: "MAGE: Machine-generated Text Detection in the Wild"
 source: "https://aclanthology.org/2024.acl-long.3/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'llm-training-alignment-and-evaluation']
 tags: ['machine-generated-text-detection', 'deepfake-text', 'in-the-wild']
 venue: "ACL 2024"

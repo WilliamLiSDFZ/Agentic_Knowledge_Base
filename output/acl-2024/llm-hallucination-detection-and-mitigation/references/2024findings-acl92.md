@@ -1,6 +1,7 @@
 ---
 title: "DAFNet: Dynamic Auxiliary Fusion for Sequential Model Editing in Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.92/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'multimodal-language-vision-learning-systems']
 tags: ['model-editing', 'hallucination', 'sequential-updates']
 venue: "ACL 2024"

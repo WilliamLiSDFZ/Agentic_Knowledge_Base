@@ -1,6 +1,7 @@
 ---
 title: "Efficient Continual Pre-training for Building Domain Specific Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.606/"
+pdf_url: ""
 categories: ['continual-learning-for-nlp-tasks', 'llm-training-alignment-and-evaluation']
 tags: ['continual-pretraining', 'domain-specific-llm', 'efficient-training']
 venue: "ACL 2024"

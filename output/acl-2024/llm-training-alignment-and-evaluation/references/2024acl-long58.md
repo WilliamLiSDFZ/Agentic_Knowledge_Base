@@ -1,6 +1,7 @@
 ---
 title: "Self-Distillation Bridges Distribution Gap in Language Model Fine-Tuning"
 source: "https://aclanthology.org/2024.acl-long.58/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'continual-learning-for-nlp-tasks']
 tags: ['fine-tuning', 'self-distillation', 'distribution-gap']
 venue: "ACL 2024"

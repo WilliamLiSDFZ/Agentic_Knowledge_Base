@@ -1,12 +1,12 @@
 ---
 name: llm-safety-robustness-and-privacy-defenses
 description: >-
-  This skill covers defense mechanisms and robustness techniques for LLMs and vision models, including adversarial training, certified robustness via randomized smoothing, backdoor detection/mitigation, watermarking, differential privacy-preserving fine-tuning, and factuality improvement through decoding strategies. Methods span conformal prediction guarantees, neuron-level interventions, reward
+  This skill covers defensive techniques and robustness evaluation for deep learning systems and LLMs, including adversarial training, certified robustness (random smoothing, conformal prediction), backdoor detection/mitigation, watermarking, differential privacy-preserving fine-tuning, and jailbreak prevention. Methods span model-level interventions (neuron reweighting, safety
 ---
 
 # Llm Safety Robustness And Privacy Defenses
 
-This skill covers defense mechanisms and robustness techniques for LLMs and vision models, including adversarial training, certified robustness via randomized smoothing, backdoor detection/mitigation, watermarking, differential privacy-preserving fine-tuning, and factuality improvement through decoding strategies. Methods span conformal prediction guarantees, neuron-level interventions, reward
+This skill covers defensive techniques and robustness evaluation for deep learning systems and LLMs, including adversarial training, certified robustness (random smoothing, conformal prediction), backdoor detection/mitigation, watermarking, differential privacy-preserving fine-tuning, and jailbreak prevention. Methods span model-level interventions (neuron reweighting, safety
 
 ## Entry Index
 

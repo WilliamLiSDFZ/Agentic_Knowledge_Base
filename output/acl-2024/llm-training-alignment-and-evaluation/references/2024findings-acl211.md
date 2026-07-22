@@ -1,6 +1,7 @@
 ---
 title: "Lost in the Source Language: How Large Language Models Evaluate the Quality of Machine Translation"
 source: "https://aclanthology.org/2024.findings-acl.211/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'multilingual-text-classification-and-sentiment-analysis']
 tags: ['machine-translation-evaluation', 'llm-evaluation', 'source-reference-bias']
 venue: "ACL 2024"

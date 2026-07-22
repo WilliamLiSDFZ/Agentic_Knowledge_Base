@@ -1,6 +1,7 @@
 ---
 title: "Targeted Sequential Indirect Experiment Design"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/dcc337bb2a4d25afefd9ab800721debb-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/dcc337bb2a4d25afefd9ab800721debb-Paper-Conference.pdf"
 categories: ['causal-discovery-and-inference-methods', 'llm-benchmarks-for-clinical-healthcare']
 tags: ['experiment-design', 'causal-queries', 'indirect-interventions']
 venue: "NeurIPS 2024"

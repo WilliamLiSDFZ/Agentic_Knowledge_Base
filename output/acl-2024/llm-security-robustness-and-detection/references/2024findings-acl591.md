@@ -1,6 +1,7 @@
 ---
 title: "Boosting LLM Agents with Recursive Contemplation for Effective Deception Handling"
 source: "https://aclanthology.org/2024.findings-acl.591/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'llm-security-robustness-and-detection']
 tags: ['LLM-agents', 'deception-handling', 'recursive-contemplation', 'adversarial-content', 'reasoning']
 venue: "ACL 2024"

@@ -1,12 +1,12 @@
 ---
 name: online-discourse-mental-health-language-analysis
 description: >-
-  **Online discourse and mental health language analysis** involves applying NLP methods—including domain-adaptive pre-training, fine-tuned transformers, and LLMs—to detect, classify, and interpret psychologically relevant language patterns in social media and conversational text, such as cognitive distortions, mental manipulation, mood changes, substance use narratives, and self-disclosure risks, with
+  **Online discourse mental health language analysis** involves applying NLP methods—including domain-adaptive pre-training (e.g., MentalBERT), fine-tuned transformers, and LLMs—to detect, classify, and reconstruct mental health-relevant linguistic phenomena such as cognitive distortions, emotional shifts, manipulation tactics, and substance use narratives in social media
 ---
 
 # Online Discourse Mental Health Language Analysis
 
-**Online discourse and mental health language analysis** involves applying NLP methods—including domain-adaptive pre-training, fine-tuned transformers, and LLMs—to detect, classify, and interpret psychologically relevant language patterns in social media and conversational text, such as cognitive distortions, mental manipulation, mood changes, substance use narratives, and self-disclosure risks, with
+**Online discourse mental health language analysis** involves applying NLP methods—including domain-adaptive pre-training (e.g., MentalBERT), fine-tuned transformers, and LLMs—to detect, classify, and reconstruct mental health-relevant linguistic phenomena such as cognitive distortions, emotional shifts, manipulation tactics, and substance use narratives in social media
 
 ## Entry Index
 

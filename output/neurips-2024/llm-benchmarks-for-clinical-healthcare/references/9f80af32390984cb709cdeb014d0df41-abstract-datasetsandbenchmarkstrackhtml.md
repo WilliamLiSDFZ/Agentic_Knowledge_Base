@@ -1,6 +1,7 @@
 ---
 title: "MedJourney: Benchmark and Evaluation of Large Language Models over Patient Clinical Journey"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/9f80af32390984cb709cdeb014d0df41-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/9f80af32390984cb709cdeb014d0df41-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-benchmarks-for-clinical-healthcare']
 tags: ['clinical-journey', 'llm-evaluation', 'medical-benchmarking']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Robust Sleep Staging over Incomplete Multimodal Physiological Signals via Contrastive Imagination"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/cb0f9020c00fc52a9f6c9dbfacc6ac58-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/cb0f9020c00fc52a9f6c9dbfacc6ac58-Paper-Conference.pdf"
 categories: ['wearable-biosignal-gesture-activity-benchmarks', 'missing-data-imputation-methods-and-applications']
 tags: ['sleep-staging', 'multimodal-physiological-signals', 'missing-modality']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "AlignRE: An Encoding and Semantic Alignment Approach for Zero-Shot Relation Extraction"
 source: "https://aclanthology.org/2024.findings-acl.174/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'language-model-representations-and-embedding-spaces']
 tags: ['zero-shot', 'relation-extraction', 'semantic-alignment']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Superposed Decoding: Multiple Generations from a Single Autoregressive Inference Pass"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d74f9efa1d8ca30b31d65cef8de7c2bf-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d74f9efa1d8ca30b31d65cef8de7c2bf-Paper-Conference.pdf"
 categories: ['llm-training-and-optimization-techniques']
 tags: ['autoregressive-decoding', 'multiple-drafts', 'inference-efficiency']
 venue: "NeurIPS 2024"

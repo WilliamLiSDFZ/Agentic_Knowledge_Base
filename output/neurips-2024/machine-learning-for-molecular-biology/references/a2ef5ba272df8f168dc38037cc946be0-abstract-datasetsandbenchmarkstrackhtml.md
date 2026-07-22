@@ -1,6 +1,7 @@
 ---
 title: "CryoBench: Diverse and challenging datasets for the heterogeneity problem in cryo-EM"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a2ef5ba272df8f168dc38037cc946be0-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a2ef5ba272df8f168dc38037cc946be0-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['machine-learning-for-molecular-biology']
 tags: ['cryo-em', 'heterogeneous-reconstruction', 'benchmark']
 venue: "NeurIPS 2024"

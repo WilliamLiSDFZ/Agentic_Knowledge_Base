@@ -1,6 +1,7 @@
 ---
 title: "3-in-1: 2D Rotary Adaptation for Efficient Finetuning, Efficient Batching and Composability"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/3dbcadb7beedc2afe32bb23f75dd30ec-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/3dbcadb7beedc2afe32bb23f75dd30ec-Paper-Conference.pdf"
 categories: ['llm-training-and-optimization-techniques', 'self-distillation-knowledge-transfer-gains']
 tags: ['parameter-efficient-finetuning', 'rotary-adaptation', 'lora']
 venue: "NeurIPS 2024"

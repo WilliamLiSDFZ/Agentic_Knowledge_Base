@@ -1,6 +1,7 @@
 ---
 title: "Predicting Narratives of Climate Obstruction in Social Media Advertising"
 source: "https://aclanthology.org/2024.findings-acl.330/"
+pdf_url: ""
 categories: ['computational-misinformation-narrative-framing-detection']
 tags: ['climate-narratives', 'social-media', 'misinformation-detection']
 venue: "ACL 2024"

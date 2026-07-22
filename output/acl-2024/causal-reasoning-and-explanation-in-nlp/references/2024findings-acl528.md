@@ -1,6 +1,7 @@
 ---
 title: "MEEL: Multi-Modal Event Evolution Learning"
 source: "https://aclanthology.org/2024.findings-acl.528/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'causal-reasoning-and-explanation-in-nlp']
 tags: ['multimodal', 'event-reasoning', 'event-evolution', 'vision-language', 'knowledge']
 venue: "ACL 2024"

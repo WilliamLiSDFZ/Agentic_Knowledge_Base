@@ -1,6 +1,7 @@
 ---
 title: "Bilingual Rhetorical Structure Parsing with Large Parallel Annotations"
 source: "https://aclanthology.org/2024.findings-acl.577/"
+pdf_url: ""
 categories: ['unsupervised-and-structured-syntactic-parsing-methods', 'language-technology-cultural-linguistic-diversity']
 tags: ['discourse-parsing', 'rhetorical-structure-theory', 'cross-lingual']
 venue: "ACL 2024"

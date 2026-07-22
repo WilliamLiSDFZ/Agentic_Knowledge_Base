@@ -1,6 +1,7 @@
 ---
 title: "Off to new Shores: A Dataset & Benchmark for (near-)coastal Flood Inundation Forecasting"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d029726ea3e0b6050d0ec666099964cd-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d029726ea3e0b6050d0ec666099964cd-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['time-series-forecasting-and-analysis', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['flood-forecasting', 'coastal-inundation', 'benchmark-dataset', 'weather-prediction', 'spaceborne-mapping']
 venue: "NeurIPS 2024"

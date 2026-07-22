@@ -1,6 +1,7 @@
 ---
 title: "Enhancing vision-language models for medical imaging: bridging the 3D gap with innovative slice selection"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/b53513b83232116ae25f57a174a7c993-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/b53513b83232116ae25f57a174a7c993-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'llm-benchmarks-for-clinical-healthcare']
 tags: ['vision-language-models', 'medical-imaging', '3D-slice-selection']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Vulnerabilities of Large Language Models to Adversarial Attacks"
 source: "https://aclanthology.org/2024.acl-tutorials.5/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'llm-training-alignment-and-evaluation']
 tags: ['adversarial-attacks', 'LLM-vulnerabilities', 'robustness']
 venue: "ACL 2024"

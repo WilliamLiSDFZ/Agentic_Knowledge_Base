@@ -1,6 +1,7 @@
 ---
 title: "SCALE: Synergized Collaboration of Asymmetric Language Translation Engines"
 source: "https://aclanthology.org/2024.findings-acl.941/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'nlp-for-asian-languages']
 tags: ['machine-translation', 'collaborative-framework', 'in-context-learning']
 venue: "ACL 2024"

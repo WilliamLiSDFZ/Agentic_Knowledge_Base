@@ -1,6 +1,7 @@
 ---
 title: "Tree-Planted Transformers: Unidirectional Transformer Language Models with Implicit Syntactic Supervision"
 source: "https://aclanthology.org/2024.findings-acl.303/"
+pdf_url: ""
 categories: ['unsupervised-and-structured-syntactic-parsing-methods', 'transformer-architecture-analysis-and-design']
 tags: ['syntactic-language-models', 'transformers', 'tree-planting']
 venue: "ACL 2024"

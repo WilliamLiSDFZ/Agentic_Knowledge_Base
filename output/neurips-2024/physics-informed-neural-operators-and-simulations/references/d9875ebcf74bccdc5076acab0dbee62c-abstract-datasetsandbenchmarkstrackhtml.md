@@ -1,6 +1,7 @@
 ---
 title: "APEBench: A Benchmark for Autoregressive Neural Emulators of PDEs"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d9875ebcf74bccdc5076acab0dbee62c-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d9875ebcf74bccdc5076acab0dbee62c-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['physics-informed-neural-operators-and-simulations', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['pde-emulation', 'autoregressive-models', 'jax-benchmark']
 venue: "NeurIPS 2024"

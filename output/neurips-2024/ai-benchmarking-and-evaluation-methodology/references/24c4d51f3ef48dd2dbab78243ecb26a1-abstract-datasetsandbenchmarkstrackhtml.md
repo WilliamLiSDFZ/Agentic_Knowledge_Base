@@ -1,6 +1,7 @@
 ---
 title: "A benchmark for prediction of transcriptomic responses to chemical perturbations across cell types"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/24c4d51f3ef48dd2dbab78243ecb26a1-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/24c4d51f3ef48dd2dbab78243ecb26a1-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['machine-learning-for-molecular-biology', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['single-cell-transcriptomics', 'drug-perturbation', 'chemical-perturbations', 'cell-types', 'benchmark']
 venue: "NeurIPS 2024"

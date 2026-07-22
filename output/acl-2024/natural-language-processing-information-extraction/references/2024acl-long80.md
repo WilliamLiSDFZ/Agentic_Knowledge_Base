@@ -1,6 +1,7 @@
 ---
 title: "Transitive Consistency Constrained Learning for Entity-to-Entity Stance Detection"
 source: "https://aclanthology.org/2024.acl-long.80/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'causal-reasoning-and-explanation-in-nlp']
 tags: ['stance-detection', 'entity-to-entity', 'transitive-consistency', 'sentiment-analysis', 'graph']
 venue: "ACL 2024"

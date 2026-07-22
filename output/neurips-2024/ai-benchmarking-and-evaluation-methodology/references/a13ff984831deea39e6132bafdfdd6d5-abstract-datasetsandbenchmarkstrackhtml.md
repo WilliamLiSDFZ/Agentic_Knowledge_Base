@@ -1,6 +1,7 @@
 ---
 title: "Hidden in Plain Sight: Evaluating Abstract Shape Recognition in Vision-Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a13ff984831deea39e6132bafdfdd6d5-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a13ff984831deea39e6132bafdfdd6d5-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['shape-recognition', 'vision-language-models', 'abstract-shapes', 'evaluation']
 venue: "NeurIPS 2024"

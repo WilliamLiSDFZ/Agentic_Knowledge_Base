@@ -1,6 +1,7 @@
 ---
 title: "Neural network learns low-dimensional polynomials with SGD near the information-theoretic limit"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/6bd5fca2074dcd9ede9de50f71f7ec28-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/6bd5fca2074dcd9ede9de50f71f7ec28-Paper-Conference.pdf"
 categories: ['deep-learning-optimization-and-generalization-theory', 'statistical-computational-tradeoffs-high-dimensional-learning']
 tags: ['SGD', 'single-index-model', 'information-theoretic-limits']
 venue: "NeurIPS 2024"

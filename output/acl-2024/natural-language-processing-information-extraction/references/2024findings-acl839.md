@@ -1,6 +1,7 @@
 ---
 title: "ReLiK: Retrieve and LinK, Fast and Accurate Entity Linking and Relation Extraction on an Academic Budget"
 source: "https://aclanthology.org/2024.findings-acl.839/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['entity-linking', 'relation-extraction', 'retriever-reader']
 venue: "ACL 2024"

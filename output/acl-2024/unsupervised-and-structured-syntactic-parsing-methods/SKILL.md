@@ -1,12 +1,12 @@
 ---
 name: unsupervised-and-structured-syntactic-parsing-methods
 description: >-
-  This research area covers unsupervised and structured approaches to syntactic parsing, including grammar induction, dependency parsing, and constituency parsing, applied across diverse languages and modalities (text, speech, morphologically rich languages). Methods span neural grammar induction with structural inductive biases, transformer architectures with implicit or explicit syntactic supervision, ensemble tree-averaging, and grammar-based semantic representation
+  This research area covers unsupervised and structured approaches to syntactic parsing, including grammar induction, dependency parsing, and constituency parsing, with methods ranging from neural grammar induction models and transformer architectures with implicit/explicit syntactic supervision to ensemble tree-averaging and seq2seq models with structural inductive biases. Applications span multilingual and morphologically rich languages, speech-to-parse
 ---
 
 # Unsupervised And Structured Syntactic Parsing Methods
 
-This research area covers unsupervised and structured approaches to syntactic parsing, including grammar induction, dependency parsing, and constituency parsing, applied across diverse languages and modalities (text, speech, morphologically rich languages). Methods span neural grammar induction with structural inductive biases, transformer architectures with implicit or explicit syntactic supervision, ensemble tree-averaging, and grammar-based semantic representation
+This research area covers unsupervised and structured approaches to syntactic parsing, including grammar induction, dependency parsing, and constituency parsing, with methods ranging from neural grammar induction models and transformer architectures with implicit/explicit syntactic supervision to ensemble tree-averaging and seq2seq models with structural inductive biases. Applications span multilingual and morphologically rich languages, speech-to-parse
 
 ## Entry Index
 

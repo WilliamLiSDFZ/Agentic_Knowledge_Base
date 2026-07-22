@@ -1,6 +1,7 @@
 ---
 title: "Proving Olympiad Algebraic Inequalities without Human Demonstrations"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/96f8c5e879c339dae55e6c2188b02a33-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/96f8c5e879c339dae55e6c2188b02a33-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['neural-networks-for-formal-reasoning-and-verification', 'llm-training-and-optimization-techniques']
 tags: ['olympiad-inequalities', 'automated-theorem-proving', 'algebraic-reasoning', 'formal-verification', 'mathematical-AI']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks"
 source: "https://aclanthology.org/2024.acl-long.50/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llm-agents-reasoning-and-planning']
 tags: ['multimodal-agents', 'web-navigation', 'visual-reasoning']
 venue: "ACL 2024"

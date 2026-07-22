@@ -1,6 +1,7 @@
 ---
 title: "Extending Context Window of Large Language Models via Semantic Compression"
 source: "https://aclanthology.org/2024.findings-acl.306/"
+pdf_url: ""
 categories: ['transformer-architecture-analysis-and-design']
 tags: ['context-window-extension', 'semantic-compression', 'long-text', 'transformer']
 venue: "ACL 2024"

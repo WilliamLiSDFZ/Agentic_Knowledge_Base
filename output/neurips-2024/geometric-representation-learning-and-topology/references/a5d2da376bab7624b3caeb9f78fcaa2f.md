@@ -1,6 +1,7 @@
 ---
 title: "Learning Structured Representations with Hyperbolic Embeddings"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a5d2da376bab7624b3caeb9f78fcaa2f-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a5d2da376bab7624b3caeb9f78fcaa2f-Paper-Conference.pdf"
 categories: ['graph-neural-networks-and-representation-learning', 'geometric-representation-learning-and-topology']
 tags: ['hyperbolic-embeddings', 'hierarchical-representation', 'label-structure']
 venue: "NeurIPS 2024"

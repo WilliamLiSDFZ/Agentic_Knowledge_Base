@@ -1,6 +1,7 @@
 ---
 title: "WildPPG: A Real-World PPG Dataset of Long Continuous Recordings"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/0433292a3eb101df8f4d72a63f5410d4-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/0433292a3eb101df8f4d72a63f5410d4-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['wearable-biosignal-gesture-activity-benchmarks', 'time-series-forecasting-and-analysis']
 tags: ['photoplethysmography', 'wearable-sensing', 'heart-rate-dataset']
 venue: "NeurIPS 2024"

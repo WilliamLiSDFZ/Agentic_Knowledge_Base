@@ -1,6 +1,7 @@
 ---
 title: "Speculative Decoding via Early-exiting for Faster LLM Inference with Thompson Sampling Control Mechanism"
 source: "https://aclanthology.org/2024.findings-acl.179/"
+pdf_url: ""
 categories: ['collaborative-llm-deployment-and-inference-optimization']
 tags: ['speculative-decoding', 'early-exiting', 'Thompson-sampling']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Publicly Shareable Clinical Large Language Model Built on Synthetic Clinical Notes"
 source: "https://aclanthology.org/2024.findings-acl.305/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp', 'privacy-risks-in-language-model-embeddings']
 tags: ['clinical-LLM', 'synthetic-clinical-notes', 'privacy']
 venue: "ACL 2024"

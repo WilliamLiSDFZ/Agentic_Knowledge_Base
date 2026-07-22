@@ -1,6 +1,7 @@
 ---
 title: "OOP: Object-Oriented Programming Evaluation Benchmark for Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.808/"
+pdf_url: ""
 categories: ['code-llm-generation-and-evaluation', 'llm-training-alignment-and-evaluation']
 tags: ['code-generation', 'object-oriented-programming', 'benchmark']
 venue: "ACL 2024"

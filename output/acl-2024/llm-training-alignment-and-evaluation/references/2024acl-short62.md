@@ -1,6 +1,7 @@
 ---
 title: "Aligning Large Language Models via Fine-grained Supervision"
 source: "https://aclanthology.org/2024.acl-short.62/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['alignment', 'fine-grained-supervision', 'RLHF']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Magnet: We Never Know How Text-to-Image Diffusion Models Work, Until We Learn How Vision-Language Models Function"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/688ffe062732aabd87dfe57bcb0bf3ae-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/688ffe062732aabd87dfe57bcb0bf3ae-Paper-Conference.pdf"
 categories: ['diffusion-based-generative-modeling-and-inference', 'visual-language-multimodal-generation-reasoning']
 tags: ['text-to-image', 'diffusion-models', 'vision-language-models', 'attribute-binding', 'stable-diffusion']
 venue: "NeurIPS 2024"

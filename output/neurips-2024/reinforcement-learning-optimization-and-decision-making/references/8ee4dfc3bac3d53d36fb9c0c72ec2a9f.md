@@ -1,6 +1,7 @@
 ---
 title: "An Accelerated Algorithm for Stochastic Bilevel Optimization under Unbounded Smoothness"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/8ee4dfc3bac3d53d36fb9c0c72ec2a9f-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/8ee4dfc3bac3d53d36fb9c0c72ec2a9f-Paper-Conference.pdf"
 categories: ['stochastic-optimization-convergence-and-variance-reduction', 'reinforcement-learning-optimization-and-decision-making']
 tags: ['bilevel-optimization', 'unbounded-smoothness', 'stochastic-optimization']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Streaming Detection of Queried Event Start"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/b689b90ddf2b47d3103decabe6d47446-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/b689b90ddf2b47d3103decabe6d47446-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['autonomous-driving-and-trajectory-prediction', 'visual-language-multimodal-generation-reasoning']
 tags: ['streaming-detection', 'event-start', 'multimodal-video', 'autonomous-systems', 'real-time']
 venue: "NeurIPS 2024"

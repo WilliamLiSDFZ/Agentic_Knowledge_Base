@@ -1,6 +1,7 @@
 ---
 title: "Annotating FrameNet via Structure-Conditioned Language Generation"
 source: "https://aclanthology.org/2024.acl-short.63/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction']
 tags: ['framenet', 'structure-conditioned-generation', 'linguistic-annotation']
 venue: "ACL 2024"

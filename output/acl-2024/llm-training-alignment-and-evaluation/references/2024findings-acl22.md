@@ -1,6 +1,7 @@
 ---
 title: "ASPIRE: Language-Guided Data Augmentation for Improving Robustness Against Spurious Correlations"
 source: "https://aclanthology.org/2024.findings-acl.22/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llm-training-alignment-and-evaluation']
 tags: ['data-augmentation', 'spurious-correlations', 'robustness', 'image-classification', 'language-guided']
 venue: "ACL 2024"

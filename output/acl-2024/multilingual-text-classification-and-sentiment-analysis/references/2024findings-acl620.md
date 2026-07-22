@@ -1,6 +1,7 @@
 ---
 title: "Improving Multilingual Neural Machine Translation by Utilizing Semantic and Linguistic Features"
 source: "https://aclanthology.org/2024.findings-acl.620/"
+pdf_url: ""
 categories: ['multilingual-text-classification-and-sentiment-analysis']
 tags: ['multilingual-NMT', 'semantic-features', 'zero-shot-translation']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "KoCommonGEN v2: A Benchmark for Navigating Korean Commonsense Reasoning Challenges in Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.141/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'bias-and-fairness-in-llms']
 tags: ['Korean-commonsense', 'LLM-benchmark', 'commonsense-reasoning']
 venue: "ACL 2024"

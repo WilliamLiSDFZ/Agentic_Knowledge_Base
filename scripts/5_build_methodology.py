@@ -37,8 +37,8 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 # ----------------------------------------------------------------- Stage 1: plugin A
 
-def _iter_paper_tasks(venue, year, categories):
-    """Yield (category, ref_file, out_file, source_url) for papers still needing extraction."""
+def _iter_paper_tasks(venue, year, categories, abstract_fallback=False):
+    """Yield (category, ref, out_file, source_url, resolved_pdf) for papers to extract."""
     out_root = REPO_ROOT / "output" / f"{venue}-{year}"
     for cat in categories:
         ref_dir = out_root / cat / "references"
@@ -51,42 +51,48 @@ def _iter_paper_tasks(venue, year, categories):
             if out_file.exists():
                 continue  # resume
             content = ref.read_text(encoding="utf-8", errors="replace")
-            m = re.search(r'source:\s*"([^"]+)"', content)
-            if not m or "aclanthology.org" not in m.group(1):
-                continue  # ACL-only (unchanged)
-            yield cat, ref, out_file, m.group(1)
+            source_url = pa._read_frontmatter_field(content, "source")
+            resolved = pa.resolve_pdf_url(source_url, pa._read_frontmatter_field(content, "pdf_url"))
+            if not resolved and not abstract_fallback:
+                continue  # no PDF and no fallback -> nothing to extract
+            yield cat, ref, out_file, source_url, resolved
 
 
-def _do_paper(task, tmp_dir):
-    cat, ref, out_file, source_url = task
-    pdf_path = tmp_dir / (ref.stem + ".pdf")
-    if not pa.download_pdf(pa.get_pdf_url(source_url), pdf_path):
-        return ("fail", cat, ref.name, "download")
+def _do_paper(task, tmp_dir, abstract_fallback=False):
+    cat, ref, out_file, source_url, resolved_pdf = task
+    content = ref.read_text(encoding="utf-8", errors="replace")
+    text = None
+    if resolved_pdf:
+        pdf_path = tmp_dir / (ref.stem + ".pdf")
+        try:
+            if pa.download_pdf(resolved_pdf, pdf_path):
+                text = pa.extract_text(pdf_path)
+        finally:
+            pdf_path.unlink(missing_ok=True)            # don't accumulate GBs of PDFs
+    if not text and abstract_fallback:
+        text = pa.extract_abstract(content)
+    if not text:
+        return ("skip", cat, ref.name, "no-pdf")
     try:
-        text = pa.extract_text(pdf_path)
         techniques = pa.extract_methodology(text)   # retries internally
     except Exception as e:
         return ("fail", cat, ref.name, f"llm:{type(e).__name__}")
-    finally:
-        pdf_path.unlink(missing_ok=True)            # don't accumulate GBs of PDFs
-    content = ref.read_text(encoding="utf-8", errors="replace")
-    tm = re.search(r'title:\s*"([^"]+)"', content)
-    title = tm.group(1) if tm else ref.stem
+    title = pa._read_frontmatter_field(content, "title") or ref.stem
     out_file.write_text(pa.render_methodology(title, source_url, techniques), encoding="utf-8")
     return ("done", cat, ref.name, len(techniques))
 
 
-def stage_a(venue, year, categories, workers):
-    tasks = list(_iter_paper_tasks(venue, year, categories))
+def stage_a(venue, year, categories, workers, abstract_fallback=False):
+    tasks = list(_iter_paper_tasks(venue, year, categories, abstract_fallback))
     if not tasks:
-        print("[stage A] nothing to do (all extracted, or non-ACL)")
+        print("[stage A] nothing to do (all extracted, or no resolvable PDFs)")
         return
     tmp_dir = REPO_ROOT / "cache" / "plugin_a_pdfs"
     tmp_dir.mkdir(parents=True, exist_ok=True)
     print(f"[stage A] {len(tasks)} papers to extract, {workers} workers", flush=True)
-    done = fail = 0
+    done = skip = fail = 0
     with ThreadPoolExecutor(max_workers=workers) as ex:
-        futs = {ex.submit(_do_paper, t, tmp_dir): t for t in tasks}
+        futs = {ex.submit(_do_paper, t, tmp_dir, abstract_fallback): t for t in tasks}
         for f in tqdm(as_completed(futs), total=len(futs), desc="Stage A (papers)"):
             try:
                 status, cat, name, info = f.result()
@@ -96,10 +102,12 @@ def stage_a(venue, year, categories, workers):
                 continue
             if status == "done":
                 done += 1
+            elif status == "skip":
+                skip += 1
             else:
                 fail += 1
                 print(f"  FAIL [{cat}] {name}: {info}")
-    print(f"[stage A] done={done} fail={fail}", flush=True)
+    print(f"[stage A] done={done} skip={skip} fail={fail}", flush=True)
 
 
 # ---------------------------------------------------------------- Stage 2: plugin A2
@@ -163,6 +171,8 @@ def main():
     ap.add_argument("--skip-a", action="store_true", help="skip Stage A (per-paper extraction)")
     ap.add_argument("--skip-a2", action="store_true", help="skip Stage A2 (cross-paper synthesis)")
     ap.add_argument("--build-index", action="store_true", help="build the retrieval index at the end")
+    ap.add_argument("--allow-abstract-fallback", action="store_true",
+                    help="when a paper has no downloadable PDF, extract from its abstract (lower quality)")
     args = ap.parse_args()
 
     out_root = REPO_ROOT / "output" / f"{args.venue}-{args.year}"
@@ -176,7 +186,7 @@ def main():
     print(f"Venue {args.venue}-{args.year}: {len(categories)} categories", flush=True)
 
     if not args.skip_a:
-        stage_a(args.venue, args.year, categories, args.paper_workers)
+        stage_a(args.venue, args.year, categories, args.paper_workers, args.allow_abstract_fallback)
     if not args.skip_a2:
         stage_a2(args.venue, args.year, categories, args.category_workers)
         commit_paperinsight()

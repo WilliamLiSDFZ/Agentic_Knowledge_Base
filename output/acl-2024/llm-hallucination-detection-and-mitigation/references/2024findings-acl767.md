@@ -1,6 +1,7 @@
 ---
 title: "Selective “Selective Prediction”: Reducing Unnecessary Abstention in Vision-Language Reasoning"
 source: "https://aclanthology.org/2024.findings-acl.767/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llm-hallucination-detection-and-mitigation']
 tags: ['selective-prediction', 'vision-language-models', 'abstention']
 venue: "ACL 2024"

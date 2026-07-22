@@ -1,12 +1,12 @@
 ---
 name: concept-embedding-taxonomy-hierarchy-representation
 description: >-
-  This skill covers methods for learning and structuring concept representations within taxonomic and hierarchical frameworks, including box embeddings, fuzzy sets, and distributional semantics for tasks like hypernymy detection, taxonomy expansion/completion, and entity alignment. Applications span commonsense reasoning (via LLM distillation and conceptualization), knowledge graph completion, multimodal entity linking, and
+  This skill covers methods for learning and structuring concept representations within taxonomic and hierarchical frameworks, including box embeddings, fuzzy sets, and distributional semantics for tasks like taxonomy expansion/completion, hypernymy detection, and concept abstraction. Applications span commonsense reasoning, knowledge graph completion, entity alignment, and multimodal entity linking, often leveraging LLMs for dist
 ---
 
 # Concept Embedding Taxonomy Hierarchy Representation
 
-This skill covers methods for learning and structuring concept representations within taxonomic and hierarchical frameworks, including box embeddings, fuzzy sets, and distributional semantics for tasks like hypernymy detection, taxonomy expansion/completion, and entity alignment. Applications span commonsense reasoning (via LLM distillation and conceptualization), knowledge graph completion, multimodal entity linking, and
+This skill covers methods for learning and structuring concept representations within taxonomic and hierarchical frameworks, including box embeddings, fuzzy sets, and distributional semantics for tasks like taxonomy expansion/completion, hypernymy detection, and concept abstraction. Applications span commonsense reasoning, knowledge graph completion, entity alignment, and multimodal entity linking, often leveraging LLMs for dist
 
 ## Entry Index
 

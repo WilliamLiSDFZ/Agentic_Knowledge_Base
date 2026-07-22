@@ -1,6 +1,7 @@
 ---
 title: "STaRK: Benchmarking LLM Retrieval on Textual and Relational Knowledge Bases"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/e607b1419e9ae7cd5cb5b5bb60c2ad5c-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/e607b1419e9ae7cd5cb5b5bb60c2ad5c-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'rag-evaluation-and-diagnosis-framework']
 tags: ['LLM-retrieval', 'knowledge-bases', 'semi-structured-data']
 venue: "NeurIPS 2024"

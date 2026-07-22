@@ -1,6 +1,7 @@
 ---
 title: "Graph Chain-of-Thought: Augmenting Large Language Models by Reasoning on Graphs"
 source: "https://aclanthology.org/2024.findings-acl.11/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-agents-reasoning-and-planning']
 tags: ['knowledge-graph', 'chain-of-thought', 'LLM-augmentation', 'graph-reasoning']
 venue: "ACL 2024"

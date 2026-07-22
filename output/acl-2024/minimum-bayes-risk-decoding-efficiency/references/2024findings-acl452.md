@@ -1,6 +1,7 @@
 ---
 title: "What Have We Achieved on Non-autoregressive Translation?"
 source: "https://aclanthology.org/2024.findings-acl.452/"
+pdf_url: ""
 categories: ['minimum-bayes-risk-decoding-efficiency', 'llm-training-alignment-and-evaluation']
 tags: ['non-autoregressive-translation', 'evaluation', 'human-judgment']
 venue: "ACL 2024"

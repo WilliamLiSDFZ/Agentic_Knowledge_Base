@@ -1,6 +1,7 @@
 ---
 title: "Unexpected Phenomenon: LLMs’ Spurious Associations in Information Extraction"
 source: "https://aclanthology.org/2024.findings-acl.545/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'llm-hallucination-detection-and-mitigation']
 tags: ['information-extraction', 'spurious-correlations', 'relation-extraction']
 venue: "ACL 2024"

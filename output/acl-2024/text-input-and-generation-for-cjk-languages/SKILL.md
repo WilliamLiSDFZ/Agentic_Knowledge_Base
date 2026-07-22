@@ -1,12 +1,12 @@
 ---
 name: text-input-and-generation-for-cjk-languages
 description: >-
-  This skill covers input methods, spelling correction, and text generation specifically for CJK (Chinese, Japanese, Korean) languages, addressing challenges such as pinyin-to-character conversion with one-to-many mappings, Chinese spelling error detection/correction (including faked and misspelled characters), and neural Japanese IME decoding. It also encompasses character-level text generation applications including
+  This skill covers input methods, spelling/error correction, and text generation specifically for CJK (Chinese, Japanese, Korean) languages, addressing challenges such as Pinyin-to-character mapping, Chinese spelling checking, and Japanese IME decoding. It encompasses methods including diffusion models for text-to-image synthesis in Chinese, token-free and character-level language models for classical
 ---
 
 # Text Input And Generation For Cjk Languages
 
-This skill covers input methods, spelling correction, and text generation specifically for CJK (Chinese, Japanese, Korean) languages, addressing challenges such as pinyin-to-character conversion with one-to-many mappings, Chinese spelling error detection/correction (including faked and misspelled characters), and neural Japanese IME decoding. It also encompasses character-level text generation applications including
+This skill covers input methods, spelling/error correction, and text generation specifically for CJK (Chinese, Japanese, Korean) languages, addressing challenges such as Pinyin-to-character mapping, Chinese spelling checking, and Japanese IME decoding. It encompasses methods including diffusion models for text-to-image synthesis in Chinese, token-free and character-level language models for classical
 
 ## Entry Index
 

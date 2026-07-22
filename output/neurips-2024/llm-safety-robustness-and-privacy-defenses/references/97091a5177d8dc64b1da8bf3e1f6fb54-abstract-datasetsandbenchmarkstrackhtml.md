@@ -1,6 +1,7 @@
 ---
 title: "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/97091a5177d8dc64b1da8bf3e1f6fb54-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-safety-robustness-and-privacy-defenses', 'llm-agent-communication-and-cooperation']
 tags: ['prompt-injection', 'LLM-agents', 'adversarial-robustness', 'tool-use', 'benchmark']
 venue: "NeurIPS 2024"

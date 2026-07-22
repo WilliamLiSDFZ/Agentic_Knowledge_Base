@@ -1,6 +1,7 @@
 ---
 title: "Efficiently Exploring Large Language Models for Document-Level Machine Translation with In-context Learning"
 source: "https://aclanthology.org/2024.findings-acl.646/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'language-technology-cultural-linguistic-diversity']
 tags: ['document-level-translation', 'in-context-learning', 'llm-efficiency']
 venue: "ACL 2024"

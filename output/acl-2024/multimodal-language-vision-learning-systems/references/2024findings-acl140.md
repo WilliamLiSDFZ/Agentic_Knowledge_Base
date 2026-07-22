@@ -1,6 +1,7 @@
 ---
 title: "SoMeLVLM: A Large Vision Language Model for Social Media Processing"
 source: "https://aclanthology.org/2024.findings-acl.140/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'social-ai-temporal-dynamics-evaluation']
 tags: ['social-media', 'vision-language-model', 'multimodal']
 venue: "ACL 2024"

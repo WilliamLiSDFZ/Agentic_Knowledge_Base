@@ -1,6 +1,7 @@
 ---
 title: "Are Decoder-Only Language Models Better than Encoder-Only Language Models in Understanding Word Meaning?"
 source: "https://aclanthology.org/2024.findings-acl.967/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces', 'language-model-human-cognitive-linguistic-alignment']
 tags: ['encoder-decoder', 'word-meaning', 'language-models']
 venue: "ACL 2024"

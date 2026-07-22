@@ -1,6 +1,7 @@
 ---
 title: "Probing the Multi-turn Planning Capabilities of LLMs via 20 Question Games"
 source: "https://aclanthology.org/2024.acl-long.82/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'llm-training-alignment-and-evaluation']
 tags: ['multi-turn-planning', 'question-asking', 'clarification']
 venue: "ACL 2024"

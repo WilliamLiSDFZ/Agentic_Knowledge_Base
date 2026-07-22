@@ -1,6 +1,7 @@
 ---
 title: "RAM-EHR: Retrieval Augmentation Meets Clinical Predictions on Electronic Health Records"
 source: "https://aclanthology.org/2024.acl-short.68/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp']
 tags: ['retrieval-augmentation', 'electronic-health-records', 'clinical-prediction']
 venue: "ACL 2024"

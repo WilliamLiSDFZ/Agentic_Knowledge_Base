@@ -1,6 +1,7 @@
 ---
 title: "Benchmarking and Improving Long-Text Translation with Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.428/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'speech-and-language-multimodal-generation-systems']
 tags: ['machine-translation', 'long-text', 'LLM-benchmark']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "BadActs: A Universal Backdoor Defense in the Activation Space"
 source: "https://aclanthology.org/2024.findings-acl.317/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'transformer-architecture-analysis-and-design']
 tags: ['backdoor-defense', 'activation-space', 'neural-network-security']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Mitigating Hallucinations in Large Vision-Language Models (LVLMs) via Language-Contrastive Decoding (LCD)"
 source: "https://aclanthology.org/2024.findings-acl.359/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'llm-hallucination-detection-and-mitigation']
 tags: ['vision-language-models', 'hallucination', 'contrastive-decoding', 'object-hallucination', 'LVLM']
 venue: "ACL 2024"

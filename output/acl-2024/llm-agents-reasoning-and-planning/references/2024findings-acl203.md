@@ -1,6 +1,7 @@
 ---
 title: "DARA: Decomposition-Alignment-Reasoning Autonomous Language Agent for Question Answering over Knowledge Graphs"
 source: "https://aclanthology.org/2024.findings-acl.203/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-agents-reasoning-and-planning']
 tags: ['knowledge-graph-qa', 'decomposition-alignment', 'language-agents']
 venue: "ACL 2024"

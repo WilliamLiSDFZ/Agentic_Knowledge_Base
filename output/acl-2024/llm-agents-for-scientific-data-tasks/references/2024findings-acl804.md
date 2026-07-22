@@ -1,6 +1,7 @@
 ---
 title: "Large Language Models for Automated Open-domain Scientific Hypotheses Discovery"
 source: "https://aclanthology.org/2024.findings-acl.804/"
+pdf_url: ""
 categories: ['llm-agents-for-scientific-data-tasks', 'causal-reasoning-and-explanation-in-nlp']
 tags: ['hypothesis-discovery', 'scientific-reasoning', 'LLMs']
 venue: "ACL 2024"

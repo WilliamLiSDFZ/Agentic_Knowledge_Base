@@ -1,6 +1,7 @@
 ---
 title: "Can Large Multimodal Models Uncover Deep Semantics Behind Images?"
 source: "https://aclanthology.org/2024.findings-acl.113/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'nlp-benchmark-design-and-interpretability']
 tags: ['multimodal-semantics', 'deep-image-understanding', 'social-media']
 venue: "ACL 2024"

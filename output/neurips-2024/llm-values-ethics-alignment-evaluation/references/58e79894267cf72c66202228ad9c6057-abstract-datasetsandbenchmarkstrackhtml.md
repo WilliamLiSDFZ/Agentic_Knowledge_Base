@@ -1,6 +1,7 @@
 ---
 title: "The Art of Saying No: Contextual Noncompliance in Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/58e79894267cf72c66202228ad9c6057-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/58e79894267cf72c66202228ad9c6057-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-values-ethics-alignment-evaluation', 'llm-safety-robustness-and-privacy-defenses']
 tags: ['llm-noncompliance', 'contextual-refusal', 'safety-taxonomy']
 venue: "NeurIPS 2024"

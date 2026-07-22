@@ -1,6 +1,7 @@
 ---
 title: "Enhancing Robustness of Last Layer Two-Stage Fair Model Corrections"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/fba9133d7fa896ab9414ddd1a6b1ecbf-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/fba9133d7fa896ab9414ddd1a6b1ecbf-Paper-Conference.pdf"
 categories: ['fairness-aware-machine-learning-methods', 'machine-learning-theory-and-evaluation-methods']
 tags: ['last-layer-retraining', 'subgroup-fairness', 'robustness']
 venue: "NeurIPS 2024"

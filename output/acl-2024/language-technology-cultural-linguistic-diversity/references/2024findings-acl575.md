@@ -1,6 +1,7 @@
 ---
 title: "Pushing the Limits of Low-Resource NER Using LLM Artificial Data Generation"
 source: "https://aclanthology.org/2024.findings-acl.575/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'language-technology-cultural-linguistic-diversity']
 tags: ['named-entity-recognition', 'low-resource', 'data-augmentation']
 venue: "ACL 2024"

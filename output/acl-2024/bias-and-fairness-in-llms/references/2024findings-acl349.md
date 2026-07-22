@@ -1,6 +1,7 @@
 ---
 title: "All Languages Matter: On the Multilingual Safety of LLMs"
 source: "https://aclanthology.org/2024.findings-acl.349/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'bias-and-fairness-in-llms']
 tags: ['multilingual-safety', 'LLM-benchmark', 'harmful-content']
 venue: "ACL 2024"

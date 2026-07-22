@@ -1,6 +1,7 @@
 ---
 title: "Image2Struct: Benchmarking Structure Extraction for Vision-Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d0718553fd6b227a353c6432cf893285-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d0718553fd6b227a353c6432cf893285-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['vision-language-models', 'structure-extraction', 'benchmark', 'image-to-structure', 'evaluation']
 venue: "NeurIPS 2024"

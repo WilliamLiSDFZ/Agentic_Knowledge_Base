@@ -1,6 +1,7 @@
 ---
 title: "Disentangling Dialect from Social Bias via Multitask Learning to Improve Fairness"
 source: "https://aclanthology.org/2024.findings-acl.553/"
+pdf_url: ""
 categories: ['bias-and-fairness-in-llms', 'language-technology-cultural-linguistic-diversity']
 tags: ['dialect-fairness', 'multitask-learning', 'social-bias']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "LLMs as Bridges: Reformulating Grounded Multimodal Named Entity Recognition"
 source: "https://aclanthology.org/2024.findings-acl.76/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'natural-language-processing-information-extraction']
 tags: ['multimodal-ner', 'grounded-entity-recognition', 'social-media']
 venue: "ACL 2024"

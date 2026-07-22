@@ -1,6 +1,7 @@
 ---
 title: "Non-compositional Expression Generation and its Continual Learning"
 source: "https://aclanthology.org/2024.findings-acl.166/"
+pdf_url: ""
 categories: ['continual-learning-for-nlp-tasks', 'moral-figurative-language-nlp-analysis']
 tags: ['non-compositional-expressions', 'idioms', 'continual-learning']
 venue: "ACL 2024"

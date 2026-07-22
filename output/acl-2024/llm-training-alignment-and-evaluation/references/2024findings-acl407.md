@@ -1,6 +1,7 @@
 ---
 title: "ConceptMath: A Bilingual Concept-wise Benchmark for Measuring Mathematical Reasoning of Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.407/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-training-alignment-and-evaluation']
 tags: ['mathematical-reasoning', 'bilingual-benchmark', 'concept-wise-evaluation']
 venue: "ACL 2024"

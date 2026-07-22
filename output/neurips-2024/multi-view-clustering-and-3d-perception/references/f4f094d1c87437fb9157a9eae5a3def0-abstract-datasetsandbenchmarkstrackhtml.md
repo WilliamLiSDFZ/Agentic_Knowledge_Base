@@ -1,6 +1,7 @@
 ---
 title: "3DCoMPaT200: Language Grounded Large-Scale 3D Vision Dataset for Compositional Recognition"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/f4f094d1c87437fb9157a9eae5a3def0-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/f4f094d1c87437fb9157a9eae5a3def0-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['multi-view-clustering-and-3d-perception']
 tags: ['3D-vision', 'compositional-recognition', 'part-level-understanding']
 venue: "NeurIPS 2024"

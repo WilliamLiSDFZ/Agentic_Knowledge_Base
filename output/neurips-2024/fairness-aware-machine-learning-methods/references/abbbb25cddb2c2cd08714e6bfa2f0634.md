@@ -1,6 +1,7 @@
 ---
 title: "Improving Subgroup Robustness via Data Selection"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/abbbb25cddb2c2cd08714e6bfa2f0634-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/abbbb25cddb2c2cd08714e6bfa2f0634-Paper-Conference.pdf"
 categories: ['fairness-aware-machine-learning-methods', 'machine-learning-theory-and-evaluation-methods']
 tags: ['subgroup-robustness', 'data-selection', 'dataset-balancing']
 venue: "NeurIPS 2024"

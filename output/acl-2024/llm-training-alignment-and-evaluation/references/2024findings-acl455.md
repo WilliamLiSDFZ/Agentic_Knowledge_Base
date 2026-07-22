@@ -1,6 +1,7 @@
 ---
 title: "DistillMIKE: Editing Distillation of Massive In-Context Knowledge Editing in Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.455/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'llm-hallucination-detection-and-mitigation']
 tags: ['knowledge-editing', 'in-context-learning', 'distillation']
 venue: "ACL 2024"

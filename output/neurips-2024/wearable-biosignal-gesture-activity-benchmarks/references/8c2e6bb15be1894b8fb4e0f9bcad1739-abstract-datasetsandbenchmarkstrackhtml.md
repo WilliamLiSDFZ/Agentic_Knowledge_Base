@@ -1,6 +1,7 @@
 ---
 title: "Few-shot Algorithms for Consistent Neural Decoding (FALCON) Benchmark"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/8c2e6bb15be1894b8fb4e0f9bcad1739-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/8c2e6bb15be1894b8fb4e0f9bcad1739-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['wearable-biosignal-gesture-activity-benchmarks', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['brain-computer-interface', 'neural-decoding', 'few-shot']
 venue: "NeurIPS 2024"

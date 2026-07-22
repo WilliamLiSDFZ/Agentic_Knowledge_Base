@@ -1,6 +1,7 @@
 ---
 title: "A Comprehensive Study of Jailbreak Attack versus Defense for Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.443/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'llm-hallucination-detection-and-mitigation']
 tags: ['jailbreak', 'safety', 'adversarial-attacks']
 venue: "ACL 2024"

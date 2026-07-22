@@ -1,6 +1,7 @@
 ---
 title: "EyeGraph: Modularity-aware Spatio Temporal Graph Clustering for Continuous Event-based Eye Tracking"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d9d40ea135f064d9e49e0579e59ad773-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d9d40ea135f064d9e49e0579e59ad773-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['wearable-biosignal-gesture-activity-benchmarks', 'graph-neural-networks-and-representation-learning']
 tags: ['event-camera', 'eye-tracking', 'spatiotemporal-graph-clustering']
 venue: "NeurIPS 2024"

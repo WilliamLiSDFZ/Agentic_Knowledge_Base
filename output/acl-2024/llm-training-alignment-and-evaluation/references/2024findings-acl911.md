@@ -1,6 +1,7 @@
 ---
 title: "SLIDE: A Framework Integrating Small and Large Language Models for Open-Domain Dialogues Evaluation"
 source: "https://aclanthology.org/2024.findings-acl.911/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'emotion-aware-dialogue-and-empathy-systems']
 tags: ['dialogue-evaluation', 'open-domain', 'LLM-judge']
 venue: "ACL 2024"

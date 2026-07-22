@@ -1,6 +1,7 @@
 ---
 title: "BABILong: Testing the Limits of LLMs with Long Context Reasoning-in-a-Haystack"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/c0d62e70dbc659cc9bd44cbcf1cb652f-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/c0d62e70dbc659cc9bd44cbcf1cb652f-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-training-and-optimization-techniques']
 tags: ['long-context', 'llm-benchmark', 'reasoning-in-a-haystack']
 venue: "NeurIPS 2024"

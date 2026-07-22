@@ -1,6 +1,7 @@
 ---
 title: "Do Large Language Models Discriminate in Hiring Decisions on the Basis of Race, Ethnicity, and Gender?"
 source: "https://aclanthology.org/2024.acl-short.37/"
+pdf_url: ""
 categories: ['bias-and-fairness-in-llms', 'social-ai-temporal-dynamics-evaluation']
 tags: ['hiring-bias', 'LLM-fairness', 'race', 'gender', 'name-discrimination']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "In-Trajectory Inverse Reinforcement Learning: Learn Incrementally Before an Ongoing Trajectory Terminates"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d4b6ccf3acd6ccbc1093e093df345ba2-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d4b6ccf3acd6ccbc1093e093df345ba2-Paper-Conference.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'stochastic-sequential-learning-temporal-dynamics']
 tags: ['inverse-reinforcement-learning', 'incremental-learning', 'online-trajectory', 'reward-learning']
 venue: "NeurIPS 2024"

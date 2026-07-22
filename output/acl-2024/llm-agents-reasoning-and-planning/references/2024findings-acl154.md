@@ -1,6 +1,7 @@
 ---
 title: "Knowledge Crosswords: Geometric Knowledge Reasoning with Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.154/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-agents-reasoning-and-planning']
 tags: ['knowledge-reasoning', 'geometric-constraints', 'factual-inference']
 venue: "ACL 2024"

@@ -1,12 +1,12 @@
 ---
 name: nuclear-fusion-diamond-polishing-data
 description: >-
-  **Nuclear fusion diamond polishing** covers the processing and surface finishing of diamond components used in nuclear fusion systems (such as gyrotron windows or plasma-facing optics), specifically focusing on polishing methods, surface quality metrics, and material removal data to achieve the precise surface roughness and optical clarity required for high-power microwave transmission or plasma-facing applications.
+  This skill covers the preparation and curation of datasets related to the mechanical polishing of diamond components used in nuclear fusion applications, likely capturing surface finish metrics, polishing parameters (e.g., abrasive type, pressure, speed), and quality outcomes. It supports the development of process optimization models for achieving precise surface tolerances on diamond parts critical to fusion reactor systems such as gyrotron windows
 ---
 
 # Nuclear Fusion Diamond Polishing Data
 
-**Nuclear fusion diamond polishing** covers the processing and surface finishing of diamond components used in nuclear fusion systems (such as gyrotron windows or plasma-facing optics), specifically focusing on polishing methods, surface quality metrics, and material removal data to achieve the precise surface roughness and optical clarity required for high-power microwave transmission or plasma-facing applications.
+This skill covers the preparation and curation of datasets related to the mechanical polishing of diamond components used in nuclear fusion applications, likely capturing surface finish metrics, polishing parameters (e.g., abrasive type, pressure, speed), and quality outcomes. It supports the development of process optimization models for achieving precise surface tolerances on diamond parts critical to fusion reactor systems such as gyrotron windows
 
 ## Entry Index
 

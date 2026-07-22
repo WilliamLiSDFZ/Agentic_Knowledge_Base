@@ -1,6 +1,7 @@
 ---
 title: "WindsorML: High-Fidelity Computational Fluid Dynamics Dataset For Automotive Aerodynamics"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/42a59a5f35b1b3c3fd648397c88a7164-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/42a59a5f35b1b3c3fd648397c88a7164-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['physics-informed-neural-operators-and-simulations']
 tags: ['CFD', 'automotive-aerodynamics', 'ML-dataset']
 venue: "NeurIPS 2024"

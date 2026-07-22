@@ -1,6 +1,7 @@
 ---
 title: "Reformulating Domain Adaptation of Large Language Models as Adapt-Retrieve-Revise: A Case Study on Chinese Legal Domain"
 source: "https://aclanthology.org/2024.findings-acl.299/"
+pdf_url: ""
 categories: ['legal-nlp-benchmarks-and-applications']
 tags: ['domain-adaptation', 'retrieval-augmented-generation', 'Chinese-legal-NLP']
 venue: "ACL 2024"

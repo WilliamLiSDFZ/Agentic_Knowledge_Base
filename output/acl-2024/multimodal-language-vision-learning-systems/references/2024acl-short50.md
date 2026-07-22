@@ -1,6 +1,7 @@
 ---
 title: "Naming, Describing, and Quantifying Visual Objects in Humans and LLMs"
 source: "https://aclanthology.org/2024.acl-short.50/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'language-model-human-cognitive-linguistic-alignment']
 tags: ['vision-language-models', 'object-naming', 'pragmatic-description']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Self-Consistent Reasoning-based Aspect-Sentiment Quad Prediction with Extract-Then-Assign Strategy"
 source: "https://aclanthology.org/2024.findings-acl.435/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'causal-reasoning-and-explanation-in-nlp']
 tags: ['aspect-sentiment', 'quad-prediction', 'self-consistent-reasoning']
 venue: "ACL 2024"

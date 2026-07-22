@@ -1,6 +1,7 @@
 ---
 title: "Revisiting Few-Shot Object Detection with Vision-Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/22b2067b8f680812624032025864c5a1-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/22b2067b8f680812624032025864c5a1-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning']
 tags: ['few-shot-object-detection', 'vision-language-models', 'open-world', 'zero-shot', 'foundational-models']
 venue: "NeurIPS 2024"

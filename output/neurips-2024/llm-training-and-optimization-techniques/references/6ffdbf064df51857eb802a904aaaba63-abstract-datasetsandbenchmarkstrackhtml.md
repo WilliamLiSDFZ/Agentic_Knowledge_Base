@@ -1,6 +1,7 @@
 ---
 title: "HW-GPT-Bench: Hardware-Aware Architecture Benchmark for Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/6ffdbf064df51857eb802a904aaaba63-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/6ffdbf064df51857eb802a904aaaba63-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-training-and-optimization-techniques']
 tags: ['hardware-aware-nas', 'language-model-benchmarking', 'latency-energy-tradeoffs']
 venue: "NeurIPS 2024"

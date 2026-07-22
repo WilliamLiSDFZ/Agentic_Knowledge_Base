@@ -1,6 +1,7 @@
 ---
 title: "The Power of Summary-Source Alignments"
 source: "https://aclanthology.org/2024.findings-acl.389/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'document-understanding-and-information-extraction']
 tags: ['multi-document-summarization', 'summary-source-alignment', 'text-generation']
 venue: "ACL 2024"

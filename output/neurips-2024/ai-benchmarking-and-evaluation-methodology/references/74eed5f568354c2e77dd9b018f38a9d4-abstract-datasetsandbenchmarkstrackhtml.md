@@ -1,6 +1,7 @@
 ---
 title: "T2VSafetyBench: Evaluating the Safety of Text-to-Video Generative Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/74eed5f568354c2e77dd9b018f38a9d4-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/74eed5f568354c2e77dd9b018f38a9d4-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['text-to-video', 'safety-evaluation', 'benchmark']
 venue: "NeurIPS 2024"

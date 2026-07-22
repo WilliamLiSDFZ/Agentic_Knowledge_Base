@@ -1,6 +1,7 @@
 ---
 title: "Personalized Instance-based Navigation Toward User-Specific Objects in Realistic Environments"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1522f1d7ee96fafd08244f0def8a1c05-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1522f1d7ee96fafd08244f0def8a1c05-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'visual-language-multimodal-generation-reasoning']
 tags: ['visual-navigation', 'personalized-navigation', 'instance-based-goals']
 venue: "NeurIPS 2024"

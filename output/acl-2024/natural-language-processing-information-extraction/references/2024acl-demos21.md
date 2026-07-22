@@ -1,6 +1,7 @@
 ---
 title: "LinkTransformer: A Unified Package for Record Linkage with Transformer Language Models"
 source: "https://aclanthology.org/2024.acl-demos.21/"
+pdf_url: ""
 categories: ['string-to-string-alignment-algorithms-library\n\nwait,-let-me-reconsider-for-conciseness-(3-7-words):\n\n`string-similarity-and-alignment-algorithms', 'natural-language-processing-information-extraction']
 tags: ['record-linkage', 'transformer', 'string-matching']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Scribbles for All: Benchmarking Scribble Supervised Segmentation Across Datasets"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/51cd2b3608d7ae17a9fadcc6e1f68629-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/51cd2b3608d7ae17a9fadcc6e1f68629-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['scribble-supervision', 'semantic-segmentation', 'weak-supervision-benchmark']
 venue: "NeurIPS 2024"

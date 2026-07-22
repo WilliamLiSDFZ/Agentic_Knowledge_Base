@@ -1,6 +1,7 @@
 ---
 title: "Biomedical Visual Instruction Tuning with Clinician Preference Alignment"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/aec33ab89b5986605cd7c331396e7e5c-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/aec33ab89b5986605cd7c331396e7e5c-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-benchmarks-for-clinical-healthcare', 'visual-language-multimodal-generation-reasoning']
 tags: ['biomedical-vision-language', 'instruction-tuning', 'clinician-preference']
 venue: "NeurIPS 2024"

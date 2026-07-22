@@ -1,6 +1,7 @@
 ---
 title: "Language Model Priors and Data Augmentation Strategies for Low-resource Machine Translation: A Case Study Using Finnish to Northern Sámi"
 source: "https://aclanthology.org/2024.findings-acl.768/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'nlp-for-asian-languages']
 tags: ['low-resource-MT', 'data-augmentation', 'backtranslation', 'Sámi']
 venue: "ACL 2024"

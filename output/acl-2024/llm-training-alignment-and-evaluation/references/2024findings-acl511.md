@@ -1,6 +1,7 @@
 ---
 title: "Exploring Domain Robust Lightweight Reward Models based on Router Mechanism"
 source: "https://aclanthology.org/2024.findings-acl.511/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'continual-learning-for-nlp-tasks']
 tags: ['reward-models', 'RLHF', 'router-mechanism', 'domain-robustness', 'lightweight']
 venue: "ACL 2024"

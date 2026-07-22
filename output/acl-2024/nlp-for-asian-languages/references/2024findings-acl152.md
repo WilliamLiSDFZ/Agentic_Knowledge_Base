@@ -1,6 +1,7 @@
 ---
 title: "Dictionary-Aided Translation for Handling Multi-Word Expressions in Low-Resource Languages"
 source: "https://aclanthology.org/2024.findings-acl.152/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'nlp-for-asian-languages']
 tags: ['multi-word-expressions', 'low-resource', 'machine-translation', 'lexical-semantics', 'NLP']
 venue: "ACL 2024"

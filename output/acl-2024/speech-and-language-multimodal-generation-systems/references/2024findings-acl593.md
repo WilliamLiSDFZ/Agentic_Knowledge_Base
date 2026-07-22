@@ -1,6 +1,7 @@
 ---
 title: "TransFace: Unit-Based Audio-Visual Speech Synthesizer for Talking Head Translation"
 source: "https://aclanthology.org/2024.findings-acl.593/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems']
 tags: ['talking-head-translation', 'discrete-units', 'audio-visual-speech']
 venue: "ACL 2024"

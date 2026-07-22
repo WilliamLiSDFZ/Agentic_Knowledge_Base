@@ -1,6 +1,7 @@
 ---
 title: "CSCD-NS: a Chinese Spelling Check Dataset for Native Speakers"
 source: "https://aclanthology.org/2024.acl-long.10/"
+pdf_url: ""
 categories: ['text-input-and-generation-for-cjk-languages']
 tags: ['chinese-spelling-check', 'native-speakers', 'dataset']
 venue: "ACL 2024"

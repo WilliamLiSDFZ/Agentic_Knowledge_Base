@@ -1,6 +1,7 @@
 ---
 title: "OAM-TCD: A globally diverse dataset of high-resolution tree cover maps"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/58efdd77196fa8159062afa0408245da-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/58efdd77196fa8159062afa0408245da-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'machine-learning-theory-and-evaluation-methods']
 tags: ['tree-cover-mapping', 'high-resolution-segmentation', 'remote-sensing']
 venue: "NeurIPS 2024"

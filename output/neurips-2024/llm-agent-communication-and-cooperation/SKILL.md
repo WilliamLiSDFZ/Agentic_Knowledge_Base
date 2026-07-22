@@ -1,12 +1,12 @@
 ---
 name: llm-agent-communication-and-cooperation
 description: >-
-  This skill covers the design and coordination of LLM-based multi-agent systems for complex task solving, including methods such as multi-agent collaboration, reinforcement learning (AGILE, cooperative MARL), graph-based planning, and structured reasoning cycles (decompose-analyze-rethink) applied to tasks like mobile device operation, object navigation, knowledge graph reasoning, and public
+  This skill covers multi-agent LLM systems that collaborate, communicate, and coordinate to solve complex tasks, including mobile device operation, public health resource allocation, 3D navigation, and knowledge graph reasoning. Methods span multi-agent reinforcement learning (cooperative MARL, restless multi-armed bandits), structured reasoning cycles (decompose-analyze-rethink), graph-based
 ---
 
 # Llm Agent Communication And Cooperation
 
-This skill covers the design and coordination of LLM-based multi-agent systems for complex task solving, including methods such as multi-agent collaboration, reinforcement learning (AGILE, cooperative MARL), graph-based planning, and structured reasoning cycles (decompose-analyze-rethink) applied to tasks like mobile device operation, object navigation, knowledge graph reasoning, and public
+This skill covers multi-agent LLM systems that collaborate, communicate, and coordinate to solve complex tasks, including mobile device operation, public health resource allocation, 3D navigation, and knowledge graph reasoning. Methods span multi-agent reinforcement learning (cooperative MARL, restless multi-armed bandits), structured reasoning cycles (decompose-analyze-rethink), graph-based
 
 ## Entry Index
 

@@ -1,6 +1,7 @@
 ---
 title: "Simpson’s Paradox and the Accuracy-Fluency Tradeoff in Translation"
 source: "https://aclanthology.org/2024.acl-short.9/"
+pdf_url: ""
 categories: ['minimum-bayes-risk-decoding-efficiency', 'text-simplification-evaluation-and-methods']
 tags: ['translation-quality', 'accuracy-fluency-tradeoff', "Simpson's-paradox"]
 venue: "ACL 2024"

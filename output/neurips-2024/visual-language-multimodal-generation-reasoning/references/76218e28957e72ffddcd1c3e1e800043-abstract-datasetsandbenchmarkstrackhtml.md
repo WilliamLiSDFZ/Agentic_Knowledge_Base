@@ -1,6 +1,7 @@
 ---
 title: "Map It Anywhere: Empowering BEV Map Prediction using Large-scale Public Datasets"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/76218e28957e72ffddcd1c3e1e800043-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/76218e28957e72ffddcd1c3e1e800043-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['autonomous-driving-and-trajectory-prediction', 'visual-language-multimodal-generation-reasoning']
 tags: ['BEV-map-prediction', 'autonomous-navigation', 'large-scale-datasets']
 venue: "NeurIPS 2024"

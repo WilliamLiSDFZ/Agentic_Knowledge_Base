@@ -1,12 +1,12 @@
 ---
 name: job-title-representation-learning
 description: >-
-  This skill covers learning dense vector representations of job titles by aggregating semantic information from associated job descriptions using network-based architectures, enabling downstream tasks such as job title normalization, similarity matching, and taxonomy alignment where surface-form title variations must be mapped to canonical occupational concepts.
+  This skill covers learning dense vector representations of job titles by aggregating semantically rich signals from job descriptions using network-based architectures, where job descriptions serve as auxiliary supervision to resolve ambiguity and inconsistency in free-text job title nomenclature. The representations are applied to downstream HR tasks such as job matching, career path prediction, and talent search.
 ---
 
 # Job Title Representation Learning
 
-This skill covers learning dense vector representations of job titles by aggregating semantic information from associated job descriptions using network-based architectures, enabling downstream tasks such as job title normalization, similarity matching, and taxonomy alignment where surface-form title variations must be mapped to canonical occupational concepts.
+This skill covers learning dense vector representations of job titles by aggregating semantically rich signals from job descriptions using network-based architectures, where job descriptions serve as auxiliary supervision to resolve ambiguity and inconsistency in free-text job title nomenclature. The representations are applied to downstream HR tasks such as job matching, career path prediction, and talent search.
 
 ## Entry Index
 

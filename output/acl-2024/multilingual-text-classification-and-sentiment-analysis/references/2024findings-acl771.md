@@ -1,6 +1,7 @@
 ---
 title: "XL-HeadTags: Leveraging Multimodal Retrieval Augmentation for the Multilingual Generation of News Headlines and Tags"
 source: "https://aclanthology.org/2024.findings-acl.771/"
+pdf_url: ""
 categories: ['multilingual-text-classification-and-sentiment-analysis']
 tags: ['headline-generation', 'tag-generation', 'multilingual-retrieval-augmentation']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Do Pre-Trained Language Models Detect and Understand Semantic Underspecification? Ask the DUST!"
 source: "https://aclanthology.org/2024.findings-acl.572/"
+pdf_url: ""
 categories: ['language-model-human-cognitive-linguistic-alignment', 'language-model-representations-and-embedding-spaces']
 tags: ['semantic-underspecification', 'language-understanding', 'probing']
 venue: "ACL 2024"

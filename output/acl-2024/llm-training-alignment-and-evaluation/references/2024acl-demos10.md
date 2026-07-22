@@ -1,6 +1,7 @@
 ---
 title: "EasyInstruct: An Easy-to-use Instruction Processing Framework for Large Language Models"
 source: "https://aclanthology.org/2024.acl-demos.10/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['instruction-tuning', 'data-processing', 'framework']
 venue: "ACL 2024"

@@ -1,12 +1,12 @@
 ---
 name: llm-based-computational-humor-generation
 description: >-
-  This skill covers the use of large language models to generate and evaluate computational humor, particularly puns and jokes, through techniques such as multi-stage curriculum learning, knowledge distillation, and dataset construction (including leveraging LLMs to generate unfunny contrastive examples). Applications include training humor-specialized LLMs, distilling humor capabilities into smaller models, and designing creative text elements
+  This skill covers the use of LLMs to generate, evaluate, and refine computational humor — particularly puns and wordplay — through techniques such as multi-stage curriculum learning, knowledge distillation, and feedback-driven training pipelines. It also addresses dataset construction for humor (including generating "unfunny" contrast examples) and stylistic text generation tasks like neologism and creative
 ---
 
 # Llm Based Computational Humor Generation
 
-This skill covers the use of large language models to generate and evaluate computational humor, particularly puns and jokes, through techniques such as multi-stage curriculum learning, knowledge distillation, and dataset construction (including leveraging LLMs to generate unfunny contrastive examples). Applications include training humor-specialized LLMs, distilling humor capabilities into smaller models, and designing creative text elements
+This skill covers the use of LLMs to generate, evaluate, and refine computational humor — particularly puns and wordplay — through techniques such as multi-stage curriculum learning, knowledge distillation, and feedback-driven training pipelines. It also addresses dataset construction for humor (including generating "unfunny" contrast examples) and stylistic text generation tasks like neologism and creative
 
 ## Entry Index
 

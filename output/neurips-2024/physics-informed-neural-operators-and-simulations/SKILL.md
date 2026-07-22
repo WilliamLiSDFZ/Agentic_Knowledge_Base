@@ -1,12 +1,12 @@
 ---
 name: physics-informed-neural-operators-and-simulations
 description: >-
-  Physics-informed neural operators and simulations covers the development and analysis of machine learning methods—including neural operators (e.g., Fourier Neural Operators), PINNs, and generative/diffusion models—for solving and controlling systems governed by PDEs and physical laws. Applications span fluid dynamics (CFD), dynamical system modeling, fire forecasting, medical digital twins,
+  Physics-informed neural operators and simulations covers the design and analysis of neural network architectures—including Fourier Neural Operators, PINNs, and diffusion-based models—for learning solution operators of PDEs and dynamical systems, with applications spanning CFD, fire forecasting, medical digital twins, and physical sound synthesis. Key methods include physics-informed regularization, operator
 ---
 
 # Physics Informed Neural Operators And Simulations
 
-Physics-informed neural operators and simulations covers the development and analysis of machine learning methods—including neural operators (e.g., Fourier Neural Operators), PINNs, and generative/diffusion models—for solving and controlling systems governed by PDEs and physical laws. Applications span fluid dynamics (CFD), dynamical system modeling, fire forecasting, medical digital twins,
+Physics-informed neural operators and simulations covers the design and analysis of neural network architectures—including Fourier Neural Operators, PINNs, and diffusion-based models—for learning solution operators of PDEs and dynamical systems, with applications spanning CFD, fire forecasting, medical digital twins, and physical sound synthesis. Key methods include physics-informed regularization, operator
 
 ## Entry Index
 

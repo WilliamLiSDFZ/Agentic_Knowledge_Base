@@ -1,6 +1,7 @@
 ---
 title: "RDRec: Rationale Distillation for LLM-based Recommendation"
 source: "https://aclanthology.org/2024.acl-short.6/"
+pdf_url: ""
 categories: ['llm-based-ranking-and-recommendation', 'llm-training-alignment-and-evaluation']
 tags: ['recommendation', 'rationale-distillation', 'llm']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Semantic Skill Grounding for Embodied Instruction-Following in Cross-Domain Environments"
 source: "https://aclanthology.org/2024.findings-acl.200/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'multimodal-language-vision-learning-systems']
 tags: ['embodied-instruction-following', 'skill-grounding', 'cross-domain']
 venue: "ACL 2024"

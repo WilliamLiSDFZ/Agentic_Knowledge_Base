@@ -1,6 +1,7 @@
 ---
 title: "Enhancing Large Language Models in Coding Through Multi-Perspective Self-Consistency"
 source: "https://aclanthology.org/2024.acl-long.78/"
+pdf_url: ""
 categories: ['code-llm-generation-and-evaluation', 'llm-agents-reasoning-and-planning']
 tags: ['code-generation', 'self-consistency', 'multi-perspective-voting']
 venue: "ACL 2024"

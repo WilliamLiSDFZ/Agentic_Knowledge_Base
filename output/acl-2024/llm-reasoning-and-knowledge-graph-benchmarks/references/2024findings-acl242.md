@@ -1,6 +1,7 @@
 ---
 title: "A Mechanistic Analysis of a Transformer Trained on a Symbolic Multi-Step Reasoning Task"
 source: "https://aclanthology.org/2024.findings-acl.242/"
+pdf_url: ""
 categories: ['transformer-architecture-analysis-and-design', 'llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['transformer-interpretability', 'mechanistic-analysis', 'symbolic-reasoning']
 venue: "ACL 2024"

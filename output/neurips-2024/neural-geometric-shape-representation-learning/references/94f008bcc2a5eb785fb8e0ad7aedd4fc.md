@@ -1,6 +1,7 @@
 ---
 title: "Higher-Order Causal Message Passing for Experimentation with Complex Interference"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/94f008bcc2a5eb785fb8e0ad7aedd4fc-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/94f008bcc2a5eb785fb8e0ad7aedd4fc-Paper-Conference.pdf"
 categories: ['causal-discovery-and-inference-methods', 'neural-geometric-shape-representation-learning']
 tags: ['causal-inference', 'interference', 'higher-order-message-passing']
 venue: "NeurIPS 2024"

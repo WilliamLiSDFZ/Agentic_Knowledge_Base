@@ -1,6 +1,7 @@
 ---
 title: "RefuteBench: Evaluating Refuting Instruction-Following for Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.818/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'nlp-benchmark-design-and-interpretability']
 tags: ['instruction-following', 'refutation', 'llm-evaluation']
 venue: "ACL 2024"

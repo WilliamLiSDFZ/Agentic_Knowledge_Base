@@ -1,6 +1,7 @@
 ---
 title: "The Multimodal Universe: Enabling Large-Scale Machine Learning with 100 TB of Astronomical Scientific Data"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/6a57493d35fefea59d06396c7cb69228-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/6a57493d35fefea59d06396c7cb69228-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['astronomical-data', 'multimodal-dataset', 'large-scale-benchmark']
 venue: "NeurIPS 2024"

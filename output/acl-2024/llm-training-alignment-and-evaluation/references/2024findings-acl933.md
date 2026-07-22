@@ -1,6 +1,7 @@
 ---
 title: "RA-LoRA: Rank-Adaptive Parameter-Efficient Fine-Tuning for Accurate 2-bit Quantized Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.933/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'collaborative-llm-deployment-and-inference-optimization']
 tags: ['quantization', 'lora', 'rank-adaptive']
 venue: "ACL 2024"

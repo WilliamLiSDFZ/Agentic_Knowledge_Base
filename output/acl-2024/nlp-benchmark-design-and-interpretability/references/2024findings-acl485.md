@@ -1,6 +1,7 @@
 ---
 title: "Challenging Large Language Models with New Tasks: A Study on their Adaptability and Robustness"
 source: "https://aclanthology.org/2024.findings-acl.485/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'nlp-benchmark-design-and-interpretability']
 tags: ['llm-evaluation', 'robustness', 'adaptability', 'benchmark', 'test-contamination']
 venue: "ACL 2024"

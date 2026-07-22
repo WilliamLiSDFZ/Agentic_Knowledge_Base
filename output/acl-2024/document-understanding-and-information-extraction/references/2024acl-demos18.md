@@ -1,6 +1,7 @@
 ---
 title: "DrugWatch: A Comprehensive Multi-Source Data Visualisation Platform for Drug Safety Information"
 source: "https://aclanthology.org/2024.acl-demos.18/"
+pdf_url: ""
 categories: ['llms-for-biomedical-and-clinical-nlp', 'document-understanding-and-information-extraction']
 tags: ['drug-safety', 'data-visualization', 'pharmacovigilance']
 venue: "ACL 2024"

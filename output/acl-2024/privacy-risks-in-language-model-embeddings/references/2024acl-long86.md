@@ -1,6 +1,7 @@
 ---
 title: "Probing Language Models for Pre-training Data Detection"
 source: "https://aclanthology.org/2024.acl-long.86/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'privacy-risks-in-language-model-embeddings']
 tags: ['data-contamination', 'membership-inference', 'pretraining-detection']
 venue: "ACL 2024"

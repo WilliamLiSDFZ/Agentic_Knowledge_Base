@@ -1,6 +1,7 @@
 ---
 title: "Evaluating Large Language Model Biases in Persona-Steered Generation"
 source: "https://aclanthology.org/2024.findings-acl.586/"
+pdf_url: ""
 categories: ['bias-and-fairness-in-llms']
 tags: ['persona-steered-generation', 'opinion-bias', 'multidimensional-demographics']
 venue: "ACL 2024"

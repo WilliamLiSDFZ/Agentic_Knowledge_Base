@@ -1,6 +1,7 @@
 ---
 title: "Variationist: Exploring Multifaceted Variation and Bias in Written Language Data"
 source: "https://aclanthology.org/2024.acl-demos.33/"
+pdf_url: ""
 categories: ['bias-and-fairness-in-llms', 'nlp-research-culture-and-practices']
 tags: ['linguistic-variation', 'bias-detection', 'corpus-analysis', 'NLP-tools', 'data-exploration']
 venue: "ACL 2024"

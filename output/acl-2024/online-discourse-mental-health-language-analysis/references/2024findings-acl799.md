@@ -1,6 +1,7 @@
 ---
 title: "InstructEval: Instruction-Tuned Text Evaluator from Human Preference"
 source: "https://aclanthology.org/2024.findings-acl.799/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'online-discourse-mental-health-language-analysis']
 tags: ['text-evaluation', 'instruction-tuning', 'human-preference']
 venue: "ACL 2024"

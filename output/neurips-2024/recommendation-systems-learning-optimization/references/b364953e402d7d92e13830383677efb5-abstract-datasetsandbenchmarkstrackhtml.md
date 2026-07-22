@@ -1,6 +1,7 @@
 ---
 title: "CURE4Rec: A Benchmark for Recommendation Unlearning with Deeper Influence"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/b364953e402d7d92e13830383677efb5-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/b364953e402d7d92e13830383677efb5-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['recommendation-systems-learning-optimization', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['machine-unlearning', 'recommendation-systems', 'privacy', 'right-to-be-forgotten']
 venue: "NeurIPS 2024"

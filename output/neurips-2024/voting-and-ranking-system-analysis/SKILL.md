@@ -1,12 +1,12 @@
 ---
 name: voting-and-ranking-system-analysis
 description: >-
-  This skill covers the design, analysis, and optimization of voting, ranking, and preference aggregation systems, including social choice mechanisms (multi-winner selection, cake cutting, truthful auctions), rating/ranking algorithms (Elo systems via Markov chains, stochastic dominance-based benchmarking), and methods for eliciting and learning from comparison/preference data (du
+  This skill covers the design, analysis, and optimization of preference aggregation and ranking mechanisms, including voting rules (single-peaked, multi-winner), rating systems (Elo, stochastic dominance-based benchmarking), and elicitation methods (dueling bandits, comparison data incentives). It addresses both theoretical properties (truthfulness, convergence via Markov chains
 ---
 
 # Voting And Ranking System Analysis
 
-This skill covers the design, analysis, and optimization of voting, ranking, and preference aggregation systems, including social choice mechanisms (multi-winner selection, cake cutting, truthful auctions), rating/ranking algorithms (Elo systems via Markov chains, stochastic dominance-based benchmarking), and methods for eliciting and learning from comparison/preference data (du
+This skill covers the design, analysis, and optimization of preference aggregation and ranking mechanisms, including voting rules (single-peaked, multi-winner), rating systems (Elo, stochastic dominance-based benchmarking), and elicitation methods (dueling bandits, comparison data incentives). It addresses both theoretical properties (truthfulness, convergence via Markov chains
 
 ## Entry Index
 

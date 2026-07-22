@@ -1,6 +1,7 @@
 ---
 title: "CHARP: Conversation History AwaReness Probing for Knowledge-grounded Dialogue Systems"
 source: "https://aclanthology.org/2024.findings-acl.90/"
+pdf_url: ""
 categories: ['coreference-resolution-and-dialogue-understanding', 'llm-hallucination-detection-and-mitigation']
 tags: ['dialogue', 'knowledge-grounded', 'annotation-artifacts', 'faithfulness', 'conversation-history']
 venue: "ACL 2024"

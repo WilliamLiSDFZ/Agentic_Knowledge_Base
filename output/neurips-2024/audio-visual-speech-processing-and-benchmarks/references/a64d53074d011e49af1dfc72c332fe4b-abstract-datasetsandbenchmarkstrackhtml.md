@@ -1,6 +1,7 @@
 ---
 title: "emg2qwerty: A Large Dataset with Baselines for Touch Typing using Surface Electromyography"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a64d53074d011e49af1dfc72c332fe4b-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a64d53074d011e49af1dfc72c332fe4b-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['wearable-biosignal-gesture-activity-benchmarks', 'audio-visual-speech-processing-and-benchmarks']
 tags: ['surface-EMG', 'touch-typing', 'wearable-sensors']
 venue: "NeurIPS 2024"

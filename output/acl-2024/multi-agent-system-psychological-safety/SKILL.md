@@ -1,12 +1,12 @@
 ---
 name: multi-agent-system-psychological-safety
 description: >-
-  This skill covers the design and evaluation of safety mechanisms in LLM-based multi-agent systems through a psychological lens, including methods for inducing, defending against, and benchmarking psychologically-motivated attacks (e.g., dark personality traits, social influence) on agent behavior. It also examines how social psychology principles (e.g., conformity, collaboration norms) shape
+  This skill covers the design and evaluation of safety frameworks for LLM-based multi-agent systems, focusing on how agents' psychological states (e.g., "dark" personality traits) can be exploited to induce harmful behavior, and how social psychology principles (e.g., conformity, collaboration dynamics) influence agent decision-making and risk propagation across agent networks. Methods include
 ---
 
 # Multi Agent System Psychological Safety
 
-This skill covers the design and evaluation of safety mechanisms in LLM-based multi-agent systems through a psychological lens, including methods for inducing, defending against, and benchmarking psychologically-motivated attacks (e.g., dark personality traits, social influence) on agent behavior. It also examines how social psychology principles (e.g., conformity, collaboration norms) shape
+This skill covers the design and evaluation of safety frameworks for LLM-based multi-agent systems, focusing on how agents' psychological states (e.g., "dark" personality traits) can be exploited to induce harmful behavior, and how social psychology principles (e.g., conformity, collaboration dynamics) influence agent decision-making and risk propagation across agent networks. Methods include
 
 ## Entry Index
 

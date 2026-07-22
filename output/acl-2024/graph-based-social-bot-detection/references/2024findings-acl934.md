@@ -1,6 +1,7 @@
 ---
 title: "The PGNSC Benchmark: How Do We Predict Where Information Spreads?"
 source: "https://aclanthology.org/2024.findings-acl.934/"
+pdf_url: ""
 categories: ['graph-based-social-bot-detection', 'computational-misinformation-narrative-framing-detection']
 tags: ['information-spread', 'social-networks', 'news-dissemination']
 venue: "ACL 2024"

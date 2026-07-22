@@ -1,6 +1,7 @@
 ---
 title: "CleanDiffuser: An Easy-to-use Modularized Library for Diffusion Models in Decision Making"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/9e08a1db869a9646418e3371b24c6ae6-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/9e08a1db869a9646418e3371b24c6ae6-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['diffusion-based-generative-modeling-and-inference', 'reinforcement-learning-optimization-and-decision-making']
 tags: ['diffusion-models', 'decision-making', 'modular-library']
 venue: "NeurIPS 2024"

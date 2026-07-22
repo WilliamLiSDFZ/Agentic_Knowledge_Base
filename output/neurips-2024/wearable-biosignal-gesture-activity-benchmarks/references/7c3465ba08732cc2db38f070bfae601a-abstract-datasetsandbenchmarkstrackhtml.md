@@ -1,6 +1,7 @@
 ---
 title: "Muscles in Time: Learning to Understand Human Motion In-Depth by Simulating Muscle Activations"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/7c3465ba08732cc2db38f070bfae601a-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/7c3465ba08732cc2db38f070bfae601a-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['physics-informed-neural-operators-and-simulations', 'wearable-biosignal-gesture-activity-benchmarks']
 tags: ['muscle-activation', 'human-motion', 'physics-simulation']
 venue: "NeurIPS 2024"

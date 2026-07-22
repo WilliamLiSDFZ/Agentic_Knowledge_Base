@@ -1,6 +1,7 @@
 ---
 title: "Designing Informative Metrics for Few-Shot Example Selection"
 source: "https://aclanthology.org/2024.findings-acl.602/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'educational-question-generation-and-comprehension']
 tags: ['few-shot-learning', 'prompt-selection', 'example-selection', 'sequence-tagging', 'complexity']
 venue: "ACL 2024"

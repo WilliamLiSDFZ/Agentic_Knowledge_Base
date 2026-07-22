@@ -1,6 +1,7 @@
 ---
 title: "Non-parametric classification via expand-and-sparsify representation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/349956dee974cfdcbbb2d06afad5dd4a-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/349956dee974cfdcbbb2d06afad5dd4a-Paper-Conference.pdf"
 categories: ['linear-vector-symbolic-architecture-methods', 'statistical-learning-theory-and-matrix-methods']
 tags: ['expand-and-sparsify', 'non-parametric-classification', 'sparse-representation', 'random-projection', 'high-dimensional']
 venue: "NeurIPS 2024"

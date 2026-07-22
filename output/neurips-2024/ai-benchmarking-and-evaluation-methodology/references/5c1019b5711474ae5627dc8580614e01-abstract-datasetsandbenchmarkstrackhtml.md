@@ -1,6 +1,7 @@
 ---
 title: "WenMind: A Comprehensive Benchmark for Evaluating Large Language Models in Chinese Classical Literature and Language Arts"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/5c1019b5711474ae5627dc8580614e01-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/5c1019b5711474ae5627dc8580614e01-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-values-ethics-alignment-evaluation']
 tags: ['LLM-benchmark', 'Chinese-classical-literature', 'language-arts-evaluation']
 venue: "NeurIPS 2024"

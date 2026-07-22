@@ -1,6 +1,7 @@
 ---
 title: "Growing Trees on Sounds: Assessing Strategies for End-to-End Dependency Parsing of Speech"
 source: "https://aclanthology.org/2024.acl-short.22/"
+pdf_url: ""
 categories: ['unsupervised-and-structured-syntactic-parsing-methods', 'speech-and-language-multimodal-generation-systems']
 tags: ['dependency-parsing', 'speech-parsing', 'end-to-end']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "ChatKBQA: A Generate-then-Retrieve Framework for Knowledge Base Question Answering with Fine-tuned Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.122/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'text-to-sql-parsing-and-benchmarks']
 tags: ['KBQA', 'knowledge-base', 'semantic-parsing', 'generate-then-retrieve', 'fine-tuned-LLMs']
 venue: "ACL 2024"

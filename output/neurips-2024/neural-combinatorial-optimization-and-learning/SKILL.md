@@ -1,12 +1,12 @@
 ---
 name: neural-combinatorial-optimization-and-learning
 description: >-
-  This skill covers the design and application of neural network-based methods to solve combinatorial optimization problems (e.g., subset selection, integer linear programming, top-k selection, graph partitioning) and classical algorithmic tasks, using techniques such as divide-and-conquer frameworks, reinforcement learning, GNNs, symmetry exploitation, and differentiable algorithms. It also
+  This skill covers the use of machine learning methods—including graph neural networks, reinforcement learning, and differentiable algorithms—to solve or accelerate combinatorial optimization problems such as integer linear programming, branch-and-bound, top-k selection, and graph partitioning. It emphasizes techniques for improving scalability, generalization, and consistency across problem instances, including divide-and-
 ---
 
 # Neural Combinatorial Optimization And Learning
 
-This skill covers the design and application of neural network-based methods to solve combinatorial optimization problems (e.g., subset selection, integer linear programming, top-k selection, graph partitioning) and classical algorithmic tasks, using techniques such as divide-and-conquer frameworks, reinforcement learning, GNNs, symmetry exploitation, and differentiable algorithms. It also
+This skill covers the use of machine learning methods—including graph neural networks, reinforcement learning, and differentiable algorithms—to solve or accelerate combinatorial optimization problems such as integer linear programming, branch-and-bound, top-k selection, and graph partitioning. It emphasizes techniques for improving scalability, generalization, and consistency across problem instances, including divide-and-
 
 ## Entry Index
 

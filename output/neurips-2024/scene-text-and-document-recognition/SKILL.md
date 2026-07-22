@@ -1,12 +1,12 @@
 ---
 name: scene-text-and-document-recognition
 description: >-
-  This skill covers the detection, recognition, generation, and editing of text in natural scene images and document images, spanning OCR systems, handwritten/cursive script recognition, video text spotting, and multilingual/ideographic font generation. Methods include diffusion models for text editing/generation, semi-supervised learning, hierarchical visual feature aggregation for document understanding, and temporal matching for video
+  This skill covers the detection, recognition, generation, and editing of text in natural scene images and documents, spanning OCR systems, handwritten/cursive manuscript recognition, video text spotting with temporal matching, and font generation. Methods include diffusion-based generative models for text image synthesis and editing, semi-supervised training strategies, hierarchical visual feature aggregation for document understanding, and multi
 ---
 
 # Scene Text And Document Recognition
 
-This skill covers the detection, recognition, generation, and editing of text in natural scene images and document images, spanning OCR systems, handwritten/cursive script recognition, video text spotting, and multilingual/ideographic font generation. Methods include diffusion models for text editing/generation, semi-supervised learning, hierarchical visual feature aggregation for document understanding, and temporal matching for video
+This skill covers the detection, recognition, generation, and editing of text in natural scene images and documents, spanning OCR systems, handwritten/cursive manuscript recognition, video text spotting with temporal matching, and font generation. Methods include diffusion-based generative models for text image synthesis and editing, semi-supervised training strategies, hierarchical visual feature aggregation for document understanding, and multi
 
 ## Entry Index
 

@@ -1,6 +1,7 @@
 ---
 title: "Newton Informed Neural Operator for Solving Nonlinear Partial Differential Equations"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/dae8afc6b990aa0b3b5efaa096fbd7fa-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/dae8afc6b990aa0b3b5efaa096fbd7fa-Paper-Conference.pdf"
 categories: ['physics-informed-neural-operators-and-simulations', 'neural-networks-for-formal-reasoning-and-verification']
 tags: ['neural-operators', 'nonlinear-pdes', 'newton-method']
 venue: "NeurIPS 2024"

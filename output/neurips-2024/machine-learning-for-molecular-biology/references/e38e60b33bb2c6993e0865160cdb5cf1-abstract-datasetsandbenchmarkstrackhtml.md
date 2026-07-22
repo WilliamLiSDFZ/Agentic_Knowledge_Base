@@ -1,6 +1,7 @@
 ---
 title: "Unraveling Molecular Structure: A Multimodal Spectroscopic Dataset for Chemistry"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/e38e60b33bb2c6993e0865160cdb5cf1-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/e38e60b33bb2c6993e0865160cdb5cf1-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['machine-learning-for-molecular-biology', 'visual-language-multimodal-generation-reasoning']
 tags: ['spectroscopic-dataset', 'molecular-structure', 'multimodal-chemistry']
 venue: "NeurIPS 2024"

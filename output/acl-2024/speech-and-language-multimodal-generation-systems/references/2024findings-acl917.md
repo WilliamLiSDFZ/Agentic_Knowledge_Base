@@ -1,6 +1,7 @@
 ---
 title: "Textless Acoustic Model with Self-Supervised Distillation for Noise-Robust Expressive Speech-to-Speech Translation"
 source: "https://aclanthology.org/2024.findings-acl.917/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems']
 tags: ['speech-to-speech-translation', 'self-supervised-distillation', 'noise-robustness']
 venue: "ACL 2024"

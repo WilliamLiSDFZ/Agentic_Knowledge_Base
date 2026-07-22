@@ -1,12 +1,12 @@
 ---
 name: multi-view-clustering-and-3d-perception
 description: >-
-  This skill covers **3D scene understanding and multi-view representation learning**, spanning tasks including 3D object detection (monocular and collaborative), point cloud segmentation/registration, novel view synthesis (Gaussian splatting, diffusion priors), visual place recognition, and referring segmentation. Methods include masked autoencoders, contrastive learning, graph structure learning, federated
+  This skill covers **3D scene understanding and multi-view representation learning**, spanning tasks including 3D object detection (monocular, LiDAR-free, collaborative), point cloud segmentation/registration, 3D reconstruction (Gaussian splatting, extrusion cylinders), and visual place recognition. Methods include masked autoencoders, contrastive learning, pseudo
 ---
 
 # Multi View Clustering And 3D Perception
 
-This skill covers **3D scene understanding and multi-view representation learning**, spanning tasks including 3D object detection (monocular and collaborative), point cloud segmentation/registration, novel view synthesis (Gaussian splatting, diffusion priors), visual place recognition, and referring segmentation. Methods include masked autoencoders, contrastive learning, graph structure learning, federated
+This skill covers **3D scene understanding and multi-view representation learning**, spanning tasks including 3D object detection (monocular, LiDAR-free, collaborative), point cloud segmentation/registration, 3D reconstruction (Gaussian splatting, extrusion cylinders), and visual place recognition. Methods include masked autoencoders, contrastive learning, pseudo
 
 ## Entry Index
 

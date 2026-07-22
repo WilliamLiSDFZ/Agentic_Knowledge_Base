@@ -1,6 +1,7 @@
 ---
 title: "EHR-SeqSQL : A Sequential Text-to-SQL Dataset For Interactively Exploring Electronic Health Records"
 source: "https://aclanthology.org/2024.findings-acl.971/"
+pdf_url: ""
 categories: ['text-to-sql-parsing-and-benchmarks', 'llms-for-biomedical-and-clinical-nlp']
 tags: ['text-to-sql', 'electronic-health-records', 'sequential-parsing']
 venue: "ACL 2024"

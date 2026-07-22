@@ -1,6 +1,7 @@
 ---
 title: "Semi-Random Matrix Completion via Flow-Based Adaptive Reweighting"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/ea57fac4f3bdfbe98591f6f3acd3aae6-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/ea57fac4f3bdfbe98591f6f3acd3aae6-Paper-Conference.pdf"
 categories: ['statistical-learning-theory-and-matrix-methods', 'statistical-computational-tradeoffs-high-dimensional-learning']
 tags: ['matrix-completion', 'semi-random-model', 'flow-based-reweighting']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "BEnQA: A Question Answering Benchmark for Bengali and English"
 source: "https://aclanthology.org/2024.findings-acl.68/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'educational-question-generation-and-comprehension']
 tags: ['Bengali', 'question-answering', 'benchmark']
 venue: "ACL 2024"

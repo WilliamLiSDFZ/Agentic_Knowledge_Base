@@ -1,6 +1,7 @@
 ---
 title: "Normal-GS: 3D Gaussian Splatting with Normal-Involved Rendering"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/8bd4f1dbc7a70c6b80ce81b8b4fdc0b2-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/8bd4f1dbc7a70c6b80ce81b8b4fdc0b2-Paper-Conference.pdf"
 categories: ['neural-geometric-shape-representation-learning', 'visual-language-multimodal-generation-reasoning']
 tags: ['3d-gaussian-splatting', 'normal-estimation', 'rendering']
 venue: "NeurIPS 2024"

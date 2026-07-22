@@ -1,6 +1,7 @@
 ---
 title: "ViHateT5: Enhancing Hate Speech Detection in Vietnamese With a Unified Text-to-Text Transformer Model"
 source: "https://aclanthology.org/2024.findings-acl.355/"
+pdf_url: ""
 categories: ['hate-speech-and-toxic-content-detection', 'nlp-for-asian-languages']
 tags: ['hate-speech-detection', 'vietnamese-nlp', 'text-to-text-transformer']
 venue: "ACL 2024"

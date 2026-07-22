@@ -1,6 +1,7 @@
 ---
 title: "Terra: A Multimodal Spatio-Temporal Dataset Spanning the Earth"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/7a6a7fbd1ee0c9684b3f919f79d129ef-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/7a6a7fbd1ee0c9684b3f919f79d129ef-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['time-series-forecasting-and-analysis', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['spatio-temporal', 'meteorological', 'multimodal', 'dataset', 'Earth-observation']
 venue: "NeurIPS 2024"

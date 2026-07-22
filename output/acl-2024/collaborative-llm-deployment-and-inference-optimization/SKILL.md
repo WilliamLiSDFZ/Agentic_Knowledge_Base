@@ -1,12 +1,12 @@
 ---
 name: collaborative-llm-deployment-and-inference-optimization
 description: >-
-  This skill covers techniques for compressing, optimizing, and collaboratively deploying large language models (LLMs) to improve efficiency and capability, including quantization (post-training and fine-tuning-aware), structured pruning, LoRA-based parameter-efficient methods, Mixture-of-Experts architectures, and prompt/context compression. It also addresses multi-
+  This skill covers techniques for optimizing LLM deployment efficiency and enabling collaborative inference across model scales, including quantization (post-training and QAT with methods like LoRA-based rank adaptation), structured pruning, mixture-of-experts architectures, prompt/context compression, and knowledge distillation/fusion. It also addresses multi-model collaboration strategies where large and small L
 ---
 
 # Collaborative Llm Deployment And Inference Optimization
 
-This skill covers techniques for compressing, optimizing, and collaboratively deploying large language models (LLMs) to improve efficiency and capability, including quantization (post-training and fine-tuning-aware), structured pruning, LoRA-based parameter-efficient methods, Mixture-of-Experts architectures, and prompt/context compression. It also addresses multi-
+This skill covers techniques for optimizing LLM deployment efficiency and enabling collaborative inference across model scales, including quantization (post-training and QAT with methods like LoRA-based rank adaptation), structured pruning, mixture-of-experts architectures, prompt/context compression, and knowledge distillation/fusion. It also addresses multi-model collaboration strategies where large and small L
 
 ## Entry Index
 

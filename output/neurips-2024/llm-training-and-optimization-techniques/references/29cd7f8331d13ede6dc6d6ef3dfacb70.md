@@ -1,6 +1,7 @@
 ---
 title: "DeepStack: Deeply Stacking Visual Tokens is Surprisingly Simple and Effective for LMMs"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/29cd7f8331d13ede6dc6d6ef3dfacb70-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/29cd7f8331d13ede6dc6d6ef3dfacb70-Paper-Conference.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'llm-training-and-optimization-techniques']
 tags: ['visual-token-compression', 'large-multimodal-models', 'deep-stacking']
 venue: "NeurIPS 2024"

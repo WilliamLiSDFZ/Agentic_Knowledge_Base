@@ -1,6 +1,7 @@
 ---
 title: "Multiple Physics Pretraining for Spatiotemporal Surrogate Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/d7cb9db5ade2db7814fbd01ee59f4c7b-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/d7cb9db5ade2db7814fbd01ee59f4c7b-Paper-Conference.pdf"
 categories: ['physics-informed-neural-operators-and-simulations', 'llm-training-and-optimization-techniques']
 tags: ['physics-pretraining', 'spatiotemporal-surrogate', 'transformer-autoregressive']
 venue: "NeurIPS 2024"

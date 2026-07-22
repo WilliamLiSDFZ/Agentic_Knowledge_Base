@@ -1,6 +1,7 @@
 ---
 title: "Adaptive Variance Reduction for Stochastic Optimization under Weaker Assumptions"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/272efd3a6091ceefcbc79f1f3a6fdba4-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/272efd3a6091ceefcbc79f1f3a6fdba4-Paper-Conference.pdf"
 categories: ['stochastic-optimization-convergence-and-variance-reduction', 'deep-learning-optimization-and-generalization-theory']
 tags: ['variance-reduction', 'adaptive-optimization', 'STORM']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "RClicks: Realistic Click Simulation for Benchmarking Interactive Segmentation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/e6b5bcc872666d37c469e5c5ba723669-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/e6b5bcc872666d37c469e5c5ba723669-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'visual-language-multimodal-generation-reasoning']
 tags: ['interactive-segmentation', 'click-simulation', 'benchmarking', 'SAM']
 venue: "NeurIPS 2024"

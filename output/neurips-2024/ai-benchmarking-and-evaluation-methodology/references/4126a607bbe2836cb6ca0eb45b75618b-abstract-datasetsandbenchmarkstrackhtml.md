@@ -1,6 +1,7 @@
 ---
 title: "StackEval: Benchmarking LLMs in Coding Assistance"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/4126a607bbe2836cb6ca0eb45b75618b-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/4126a607bbe2836cb6ca0eb45b75618b-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-training-and-optimization-techniques']
 tags: ['llm-benchmarking', 'coding-assistance', 'software-engineering']
 venue: "NeurIPS 2024"

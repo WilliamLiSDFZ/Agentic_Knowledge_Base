@@ -1,6 +1,7 @@
 ---
 title: "STREAM: Simplified Topic Retrieval, Exploration, and Analysis Module"
 source: "https://aclanthology.org/2024.acl-short.41/"
+pdf_url: ""
 categories: ['topic-modeling-and-essay-evaluation']
 tags: ['topic-modeling', 'usability', 'software-module']
 venue: "ACL 2024"

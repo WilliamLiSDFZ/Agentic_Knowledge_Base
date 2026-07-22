@@ -1,6 +1,7 @@
 ---
 title: "XMC-Agent : Dynamic Navigation over Scalable Hierarchical Index for Incremental Extreme Multi-label Classification"
 source: "https://aclanthology.org/2024.findings-acl.336/"
+pdf_url: ""
 categories: ['hierarchical-text-classification-methods', 'continual-learning-for-nlp-tasks']
 tags: ['extreme-multi-label-classification', 'hierarchical-index', 'llm-agent']
 venue: "ACL 2024"

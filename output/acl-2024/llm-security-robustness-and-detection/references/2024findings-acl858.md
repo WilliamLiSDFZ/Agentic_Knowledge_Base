@@ -1,6 +1,7 @@
 ---
 title: "FOCUS: Forging Originality through Contrastive Use in Self-Plagiarism for Language Models"
 source: "https://aclanthology.org/2024.findings-acl.858/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'text-diffusion-for-content-generation']
 tags: ['self-plagiarism', 'contrastive-learning', 'verbatim-copying']
 venue: "ACL 2024"

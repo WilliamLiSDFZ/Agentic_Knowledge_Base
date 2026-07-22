@@ -1,6 +1,7 @@
 ---
 title: "DevBench: A multimodal developmental benchmark for language learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/8d987b2981388c99c7eab6095d1d29fd-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/8d987b2981388c99c7eab6095d1d29fd-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'visual-language-multimodal-generation-reasoning']
 tags: ['developmental-benchmark', 'vision-language-models', 'child-language-learning']
 venue: "NeurIPS 2024"

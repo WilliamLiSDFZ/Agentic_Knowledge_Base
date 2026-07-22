@@ -1,6 +1,7 @@
 ---
 title: "Base of RoPE Bounds Context Length"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/9f12dd32d552f3ad9eaa0e9dfec291be-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/9f12dd32d552f3ad9eaa0e9dfec291be-Paper-Conference.pdf"
 categories: ['llm-training-and-optimization-techniques', 'deep-learning-optimization-and-generalization-theory']
 tags: ['RoPE', 'context-length', 'position-embedding']
 venue: "NeurIPS 2024"

@@ -1,12 +1,12 @@
 ---
 name: transformer-based-learning-for-spatial-tasks
 description: >-
-  This skill covers the application of transformer architectures to spatially and temporally structured data, including time series forecasting (with exogenous variables, periodicity, and timestamp fusion), 3D scene understanding (voxel-based semantic completion, radar detection, depth completion), graph-structured and dynamic network modeling (Supra-Laplacian encoding, graph smoothness priors
+  This skill covers the application of transformer architectures to spatially and temporally structured data, including time series forecasting (with exogenous variables, periodic decomposition, and timestamp fusion), 3D scene understanding (semantic scene completion, radar-based detection, depth completion, mesh movement), and spatial signal processing (PDEs via neural fields, graph-based dynamic networks, voxel representations
 ---
 
 # Transformer Based Learning For Spatial Tasks
 
-This skill covers the application of transformer architectures to spatially and temporally structured data, including time series forecasting (with exogenous variables, periodicity, and timestamp fusion), 3D scene understanding (voxel-based semantic completion, radar detection, depth completion), graph-structured and dynamic network modeling (Supra-Laplacian encoding, graph smoothness priors
+This skill covers the application of transformer architectures to spatially and temporally structured data, including time series forecasting (with exogenous variables, periodic decomposition, and timestamp fusion), 3D scene understanding (semantic scene completion, radar-based detection, depth completion, mesh movement), and spatial signal processing (PDEs via neural fields, graph-based dynamic networks, voxel representations
 
 ## Entry Index
 

@@ -1,6 +1,7 @@
 ---
 title: "SportsMetrics: Blending Text and Numerical Data to Understand Information Fusion in LLMs"
 source: "https://aclanthology.org/2024.acl-long.17/"
+pdf_url: ""
 categories: ['financial-reasoning-llm-benchmarks-and-datasets', 'llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['text-numerical-fusion', 'sports', 'llm-reasoning']
 venue: "ACL 2024"

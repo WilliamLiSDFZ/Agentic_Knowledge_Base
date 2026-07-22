@@ -1,6 +1,7 @@
 ---
 title: "PowerGraph: A power grid benchmark dataset for graph neural networks"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/c7caf017cbbca1f4b368ffdc7bb8f319-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/c7caf017cbbca1f4b368ffdc7bb8f319-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['graph-neural-networks-and-representation-learning']
 tags: ['power-grid', 'graph-neural-networks', 'benchmark', 'energy-systems']
 venue: "NeurIPS 2024"

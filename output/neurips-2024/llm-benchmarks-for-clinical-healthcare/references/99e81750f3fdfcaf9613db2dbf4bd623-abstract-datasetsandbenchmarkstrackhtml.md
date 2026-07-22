@@ -1,6 +1,7 @@
 ---
 title: "MedCalc-Bench: Evaluating Large Language Models for Medical Calculations"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/99e81750f3fdfcaf9613db2dbf4bd623-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/99e81750f3fdfcaf9613db2dbf4bd623-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-benchmarks-for-clinical-healthcare']
 tags: ['llm-evaluation', 'medical-calculations', 'clinical-benchmarks']
 venue: "NeurIPS 2024"

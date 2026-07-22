@@ -1,6 +1,7 @@
 ---
 title: "DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models"
 source: "https://aclanthology.org/2024.acl-long.70/"
+pdf_url: ""
 categories: ['collaborative-llm-deployment-and-inference-optimization', 'transformer-architecture-analysis-and-design']
 tags: ['mixture-of-experts', 'expert-specialization', 'model-scaling']
 venue: "ACL 2024"

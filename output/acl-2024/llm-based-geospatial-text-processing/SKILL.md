@@ -1,12 +1,12 @@
 ---
 name: llm-based-geospatial-text-processing
 description: >-
-  This skill covers the application of LLMs to geospatial text processing tasks including address standardization (via tool-augmented agents), toponym recognition and disambiguation (geoparsing) in historical documents, and generating natural language spatial descriptions for novel environments. Methods span retrieval-augmented and tool-integrated LLM pipelines, named entity recognition, and geocoding applied to
+  This skill covers the application of large language models to geospatial text processing tasks including address standardization (via tool-augmented LLM agents), geoparsing (identifying and resolving location mentions in historical texts to geographic coordinates), and generating natural language descriptions of novel geographic environments. Methods span prompt engineering, retrieval-augmented generation, and LLM-tool integration
 ---
 
 # Llm Based Geospatial Text Processing
 
-This skill covers the application of LLMs to geospatial text processing tasks including address standardization (via tool-augmented agents), toponym recognition and disambiguation (geoparsing) in historical documents, and generating natural language spatial descriptions for novel environments. Methods span retrieval-augmented and tool-integrated LLM pipelines, named entity recognition, and geocoding applied to
+This skill covers the application of large language models to geospatial text processing tasks including address standardization (via tool-augmented LLM agents), geoparsing (identifying and resolving location mentions in historical texts to geographic coordinates), and generating natural language descriptions of novel geographic environments. Methods span prompt engineering, retrieval-augmented generation, and LLM-tool integration
 
 ## Entry Index
 

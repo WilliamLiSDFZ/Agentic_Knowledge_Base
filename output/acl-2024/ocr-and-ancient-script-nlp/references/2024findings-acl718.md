@@ -1,6 +1,7 @@
 ---
 title: "Ancient Chinese Glyph Identification Powered by Radical Semantics"
 source: "https://aclanthology.org/2024.findings-acl.718/"
+pdf_url: ""
 categories: ['ocr-and-ancient-script-nlp', 'nlp-for-asian-languages']
 tags: ['ancient-chinese', 'glyph-identification', 'radical-semantics']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "A + B: A General Generator-Reader Framework for Optimizing LLMs to Unleash Synergy Potential"
 source: "https://aclanthology.org/2024.findings-acl.219/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'llm-agents-reasoning-and-planning']
 tags: ['retrieval-augmented-generation', 'generate-then-read', 'knowledge-grounding']
 venue: "ACL 2024"

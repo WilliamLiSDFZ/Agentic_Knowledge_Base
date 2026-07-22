@@ -1,12 +1,12 @@
 ---
 name: financial-reasoning-llm-benchmarks-and-datasets
 description: >-
-  This skill covers the design and evaluation of benchmarks and datasets for assessing LLMs on financially-grounded reasoning tasks, including quantitative/mathematical reasoning over financial documents, sentiment analysis, question answering, and factor extraction for stock prediction. Methods span multimodal LLMs, neural-symbolic agents, reinforcement learning with natural language actions, and instruction tuning, evaluated across tasks
+  This skill covers the design and evaluation of LLMs on financial reasoning tasks, including quantitative problem-solving, mathematical reasoning over financial documents, sentiment analysis, stock movement prediction, and factor extraction, using benchmarks (BizBench, DocMath-Eval, FinanceMATH), QA datasets, and prompting/symbolic methods. Applications span earnings analysis, investment
 ---
 
 # Financial Reasoning Llm Benchmarks And Datasets
 
-This skill covers the design and evaluation of benchmarks and datasets for assessing LLMs on financially-grounded reasoning tasks, including quantitative/mathematical reasoning over financial documents, sentiment analysis, question answering, and factor extraction for stock prediction. Methods span multimodal LLMs, neural-symbolic agents, reinforcement learning with natural language actions, and instruction tuning, evaluated across tasks
+This skill covers the design and evaluation of LLMs on financial reasoning tasks, including quantitative problem-solving, mathematical reasoning over financial documents, sentiment analysis, stock movement prediction, and factor extraction, using benchmarks (BizBench, DocMath-Eval, FinanceMATH), QA datasets, and prompting/symbolic methods. Applications span earnings analysis, investment
 
 ## Entry Index
 

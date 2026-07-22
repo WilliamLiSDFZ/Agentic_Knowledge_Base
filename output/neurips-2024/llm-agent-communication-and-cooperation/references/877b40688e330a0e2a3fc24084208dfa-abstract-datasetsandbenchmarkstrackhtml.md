@@ -1,6 +1,7 @@
 ---
 title: "AgentBoard: An Analytical Evaluation Board of Multi-turn LLM Agents"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/877b40688e330a0e2a3fc24084208dfa-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/877b40688e330a0e2a3fc24084208dfa-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'llm-agent-communication-and-cooperation']
 tags: ['LLM-agent-evaluation', 'multi-turn-interaction', 'analytical-benchmarking']
 venue: "NeurIPS 2024"

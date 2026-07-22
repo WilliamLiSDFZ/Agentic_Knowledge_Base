@@ -1,6 +1,7 @@
 ---
 title: "Visual In-Context Learning for Large Vision-Language Models"
 source: "https://aclanthology.org/2024.findings-acl.940/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'language-model-representations-and-embedding-spaces']
 tags: ['in-context-learning', 'vision-language-models', 'multimodal']
 venue: "ACL 2024"

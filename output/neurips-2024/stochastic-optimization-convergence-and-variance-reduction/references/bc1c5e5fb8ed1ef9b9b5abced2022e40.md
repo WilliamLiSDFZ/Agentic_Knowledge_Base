@@ -1,6 +1,7 @@
 ---
 title: "A Framework for Bilevel Optimization on Riemannian Manifolds"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/bc1c5e5fb8ed1ef9b9b5abced2022e40-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/bc1c5e5fb8ed1ef9b9b5abced2022e40-Paper-Conference.pdf"
 categories: ['stochastic-optimization-convergence-and-variance-reduction']
 tags: ['bilevel-optimization', 'riemannian-manifolds', 'hypergradient']
 venue: "NeurIPS 2024"

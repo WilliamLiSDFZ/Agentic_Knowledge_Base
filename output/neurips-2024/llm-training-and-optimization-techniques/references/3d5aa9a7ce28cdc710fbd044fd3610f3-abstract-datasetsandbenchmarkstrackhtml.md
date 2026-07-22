@@ -1,6 +1,7 @@
 ---
 title: "OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/3d5aa9a7ce28cdc710fbd044fd3610f3-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/3d5aa9a7ce28cdc710fbd044fd3610f3-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-training-and-optimization-techniques']
 tags: ['math-instruction-tuning', 'synthetic-dataset', 'llm-training']
 venue: "NeurIPS 2024"

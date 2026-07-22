@@ -1,6 +1,7 @@
 ---
 title: "HumanVid: Demystifying Training Data for Camera-controllable Human Image Animation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/23f3a0f82d79d985b6076bc84d14f66b-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/23f3a0f82d79d985b6076bc84d14f66b-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['generative-models-for-visual-style-and-appearance', 'visual-language-multimodal-generation-reasoning']
 tags: ['human-animation', 'training-data', 'camera-control']
 venue: "NeurIPS 2024"

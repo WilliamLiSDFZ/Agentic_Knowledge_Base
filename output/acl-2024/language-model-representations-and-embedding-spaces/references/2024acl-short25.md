@@ -1,6 +1,7 @@
 ---
 title: "Learnable Privacy Neurons Localization in Language Models"
 source: "https://aclanthology.org/2024.acl-short.25/"
+pdf_url: ""
 categories: ['privacy-risks-in-language-model-embeddings', 'language-model-representations-and-embedding-spaces']
 tags: ['privacy', 'PII', 'neuron-localization', 'language-models', 'memorization']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "FanOutQA: A Multi-Hop, Multi-Document Question Answering Benchmark for Large Language Models"
 source: "https://aclanthology.org/2024.acl-short.2/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-training-alignment-and-evaluation']
 tags: ['multi-hop-qa', 'benchmark', 'fan-out-questions']
 venue: "ACL 2024"

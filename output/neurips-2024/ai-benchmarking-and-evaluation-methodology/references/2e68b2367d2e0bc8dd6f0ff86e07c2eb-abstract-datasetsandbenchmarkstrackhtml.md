@@ -1,6 +1,7 @@
 ---
 title: "ReactZyme: A Benchmark for Enzyme-Reaction Prediction"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/2e68b2367d2e0bc8dd6f0ff86e07c2eb-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/2e68b2367d2e0bc8dd6f0ff86e07c2eb-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['machine-learning-for-molecular-biology', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['enzyme-function-prediction', 'reaction-prediction', 'benchmark', 'bioinformatics', 'molecular-biology']
 venue: "NeurIPS 2024"

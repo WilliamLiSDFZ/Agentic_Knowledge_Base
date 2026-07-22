@@ -1,6 +1,7 @@
 ---
 title: "EAGLE: Efficient Adaptive Geometry-based Learning in Cross-view Understanding"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/f84ceafb242f0de36f8c49452fbae6de-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/f84ceafb242f0de36f8c49452fbae6de-Paper-Conference.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'transformer-based-learning-for-spatial-tasks']
 tags: ['unsupervised-domain-adaptation', 'semantic-segmentation', 'open-vocabulary', 'vision-language', 'cross-view']
 venue: "NeurIPS 2024"

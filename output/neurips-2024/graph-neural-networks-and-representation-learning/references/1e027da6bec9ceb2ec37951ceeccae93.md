@@ -1,6 +1,7 @@
 ---
 title: "Loki: Low-rank Keys for Efficient Sparse Attention"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1e027da6bec9ceb2ec37951ceeccae93-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1e027da6bec9ceb2ec37951ceeccae93-Paper-Conference.pdf"
 categories: ['llm-training-and-optimization-techniques', 'graph-neural-networks-and-representation-learning']
 tags: ['sparse-attention', 'low-rank', 'kv-cache', 'llm-inference', 'efficiency']
 venue: "NeurIPS 2024"

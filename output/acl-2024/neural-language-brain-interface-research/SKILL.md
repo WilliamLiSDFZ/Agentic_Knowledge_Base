@@ -1,12 +1,12 @@
 ---
 name: neural-language-brain-interface-research
 description: >-
-  This skill covers the bidirectional mapping between neural signals (EEG, fMRI) and language representations, using computational linguistics and large language models (LLMs) to both encode brain responses to linguistic stimuli and decode neural activity back into text. Methods include probing LLMs for brain-relevant features (auditory, semantic, syntactic), contrastive/masked auto
+  This skill covers the bidirectional mapping between neural signals (fMRI, EEG) and language model representations, examining how computational linguistics methods — including LLMs, contrastive learning, and probing classifiers — can both decode brain activity into text and encode linguistic stimuli (speech, semantics, syntactic composition) into predicted neural responses. Applications include EEG-
 ---
 
 # Neural Language Brain Interface Research
 
-This skill covers the bidirectional mapping between neural signals (EEG, fMRI) and language representations, using computational linguistics and large language models (LLMs) to both encode brain responses to linguistic stimuli and decode neural activity back into text. Methods include probing LLMs for brain-relevant features (auditory, semantic, syntactic), contrastive/masked auto
+This skill covers the bidirectional mapping between neural signals (fMRI, EEG) and language model representations, examining how computational linguistics methods — including LLMs, contrastive learning, and probing classifiers — can both decode brain activity into text and encode linguistic stimuli (speech, semantics, syntactic composition) into predicted neural responses. Applications include EEG-
 
 ## Entry Index
 

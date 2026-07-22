@@ -1,6 +1,7 @@
 ---
 title: "The Language Barrier: Dissecting Safety Challenges of LLMs in Multilingual Contexts"
 source: "https://aclanthology.org/2024.findings-acl.156/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'bias-and-fairness-in-llms']
 tags: ['multilingual-safety', 'llm-alignment', 'jailbreak']
 venue: "ACL 2024"

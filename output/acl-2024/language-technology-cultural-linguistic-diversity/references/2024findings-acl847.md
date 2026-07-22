@@ -1,6 +1,7 @@
 ---
 title: "Pushing the Limits of Zero-shot End-to-End Speech Translation"
 source: "https://aclanthology.org/2024.findings-acl.847/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems', 'language-technology-cultural-linguistic-diversity']
 tags: ['speech-translation', 'zero-shot', 'modality-gap']
 venue: "ACL 2024"

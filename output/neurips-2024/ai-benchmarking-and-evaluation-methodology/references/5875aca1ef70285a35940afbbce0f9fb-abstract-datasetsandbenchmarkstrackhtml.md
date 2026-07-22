@@ -1,6 +1,7 @@
 ---
 title: "RoleAgent: Building, Interacting, and Benchmarking High-quality Role-Playing Agents from Scripts"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/5875aca1ef70285a35940afbbce0f9fb-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/5875aca1ef70285a35940afbbce0f9fb-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-agent-communication-and-cooperation', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['role-playing-agents', 'llm-simulation', 'benchmarking']
 venue: "NeurIPS 2024"

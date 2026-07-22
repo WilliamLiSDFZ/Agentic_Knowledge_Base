@@ -1,6 +1,7 @@
 ---
 title: "Adaptive $Q$-Aid for Conditional Supervised Learning in Offline Reinforcement Learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/9e72fc628edeb29f7aa64ac81b7ec6ce-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/9e72fc628edeb29f7aa64ac81b7ec6ce-Paper-Conference.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'stochastic-sequential-learning-temporal-dynamics']
 tags: ['offline-reinforcement-learning', 'Q-learning', 'conditional-supervised-learning']
 venue: "NeurIPS 2024"

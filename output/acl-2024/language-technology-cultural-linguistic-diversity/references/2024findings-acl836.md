@@ -1,6 +1,7 @@
 ---
 title: "Mitigating Data Scarcity in Semantic Parsing across Languages with the Multilingual Semantic Layer and its Dataset"
 source: "https://aclanthology.org/2024.findings-acl.836/"
+pdf_url: ""
 categories: ['text-to-sql-parsing-and-benchmarks', 'language-technology-cultural-linguistic-diversity']
 tags: ['semantic-parsing', 'multilingual', 'low-resource']
 venue: "ACL 2024"

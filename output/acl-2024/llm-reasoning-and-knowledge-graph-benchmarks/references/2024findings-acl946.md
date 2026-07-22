@@ -1,6 +1,7 @@
 ---
 title: "Improving Multi-hop Logical Reasoning in Knowledge Graphs with Context-Aware Query Representation Learning"
 source: "https://aclanthology.org/2024.findings-acl.946/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['knowledge-graph', 'multi-hop-reasoning', 'query-representation']
 venue: "ACL 2024"

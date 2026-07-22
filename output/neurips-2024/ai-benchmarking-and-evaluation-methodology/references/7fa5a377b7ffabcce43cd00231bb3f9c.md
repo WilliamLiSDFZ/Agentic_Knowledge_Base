@@ -1,6 +1,7 @@
 ---
 title: "On the Worst Prompt Performance of Large Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/7fa5a377b7ffabcce43cd00231bb3f9c-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/7fa5a377b7ffabcce43cd00231bb3f9c-Paper-Conference.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['prompt-sensitivity', 'worst-case-performance', 'llm-reliability']
 venue: "NeurIPS 2024"

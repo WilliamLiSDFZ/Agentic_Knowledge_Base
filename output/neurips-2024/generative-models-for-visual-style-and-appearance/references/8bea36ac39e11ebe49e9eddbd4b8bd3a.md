@@ -1,6 +1,7 @@
 ---
 title: "GuardT2I: Defending Text-to-Image Models from Adversarial Prompts"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/8bea36ac39e11ebe49e9eddbd4b8bd3a-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/8bea36ac39e11ebe49e9eddbd4b8bd3a-Paper-Conference.pdf"
 categories: ['llm-safety-robustness-and-privacy-defenses', 'generative-models-for-visual-style-and-appearance']
 tags: ['adversarial-prompts', 'text-to-image', 'safety']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Decomposition for Enhancing Attention: Improving LLM-based Text-to-SQL through Workflow Paradigm"
 source: "https://aclanthology.org/2024.findings-acl.641/"
+pdf_url: ""
 categories: ['text-to-sql-parsing-and-benchmarks', 'llm-agents-reasoning-and-planning']
 tags: ['text-to-SQL', 'LLM', 'in-context-learning', 'workflow', 'attention-decomposition']
 venue: "ACL 2024"

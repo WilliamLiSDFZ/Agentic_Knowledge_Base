@@ -1,6 +1,7 @@
 ---
 title: "Rethinking the Evaluation of Out-of-Distribution Detection: A Sorites Paradox"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/a37bcf136d2e51eac4f74b33ee21c277-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/a37bcf136d2e51eac4f74b33ee21c277-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'machine-learning-theory-and-evaluation-methods']
 tags: ['out-of-distribution-detection', 'benchmark-evaluation', 'semantic-ambiguity']
 venue: "NeurIPS 2024"

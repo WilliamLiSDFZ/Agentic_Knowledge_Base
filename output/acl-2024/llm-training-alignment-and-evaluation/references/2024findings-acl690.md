@@ -1,6 +1,7 @@
 ---
 title: "Poor-Supervised Evaluation for SuperLLM via Mutual Consistency"
 source: "https://aclanthology.org/2024.findings-acl.690/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'nlp-benchmark-design-and-interpretability']
 tags: ['evaluation', 'mutual-consistency', 'super-LLM']
 venue: "ACL 2024"

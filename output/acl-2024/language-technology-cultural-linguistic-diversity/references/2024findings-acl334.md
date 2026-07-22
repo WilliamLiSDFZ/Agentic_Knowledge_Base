@@ -1,6 +1,7 @@
 ---
 title: "ArabicMMLU: Assessing Massive Multitask Language Understanding in Arabic"
 source: "https://aclanthology.org/2024.findings-acl.334/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'language-technology-cultural-linguistic-diversity']
 tags: ['arabic-nlp', 'multilingual-evaluation', 'multitask-benchmark']
 venue: "ACL 2024"

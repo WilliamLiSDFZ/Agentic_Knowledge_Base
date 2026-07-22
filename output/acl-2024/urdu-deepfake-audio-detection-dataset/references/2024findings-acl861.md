@@ -1,6 +1,7 @@
 ---
 title: "Deepfake Defense: Constructing and Evaluating a Specialized Urdu Deepfake Audio Dataset"
 source: "https://aclanthology.org/2024.findings-acl.861/"
+pdf_url: ""
 categories: ['urdu-deepfake-audio-detection-dataset']
 tags: ['deepfake-audio', 'urdu', 'speaker-verification']
 venue: "ACL 2024"

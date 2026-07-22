@@ -1,6 +1,7 @@
 ---
 title: "On the Effect of (Near) Duplicate Subwords in Language Modelling"
 source: "https://aclanthology.org/2024.findings-acl.571/"
+pdf_url: ""
 categories: ['transformer-architecture-analysis-and-design']
 tags: ['tokenization', 'subword-duplication', 'language-modeling-efficiency']
 venue: "ACL 2024"

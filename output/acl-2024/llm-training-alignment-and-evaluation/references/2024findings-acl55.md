@@ -1,6 +1,7 @@
 ---
 title: "Exploring Mathematical Extrapolation of Large Language Models with Synthetic Data"
 source: "https://aclanthology.org/2024.findings-acl.55/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'llm-training-alignment-and-evaluation']
 tags: ['mathematical-reasoning', 'synthetic-data', 'extrapolation']
 venue: "ACL 2024"

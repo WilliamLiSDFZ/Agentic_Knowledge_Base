@@ -1,6 +1,7 @@
 ---
 title: "Do Counterfactually Fair Image Classifiers Satisfy Group Fairness? -- A Theoretical and Empirical Study"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/65b4660c1fee9842472e1557b582c940-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/65b4660c1fee9842472e1557b582c940-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['fairness-aware-machine-learning-methods', 'causal-discovery-and-inference-methods']
 tags: ['counterfactual-fairness', 'group-fairness', 'image-classification']
 venue: "NeurIPS 2024"

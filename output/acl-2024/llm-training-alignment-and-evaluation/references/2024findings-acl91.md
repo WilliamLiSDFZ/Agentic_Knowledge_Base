@@ -1,6 +1,7 @@
 ---
 title: "CriticBench: Benchmarking LLMs for Critique-Correct Reasoning"
 source: "https://aclanthology.org/2024.findings-acl.91/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['LLM-evaluation', 'critique-correction', 'reasoning-benchmark']
 venue: "ACL 2024"

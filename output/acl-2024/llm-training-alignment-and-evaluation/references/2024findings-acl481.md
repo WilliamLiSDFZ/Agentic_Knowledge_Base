@@ -1,6 +1,7 @@
 ---
 title: "Deterministic Reversible Data Augmentation for Neural Machine Translation"
 source: "https://aclanthology.org/2024.findings-acl.481/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'llm-training-alignment-and-evaluation']
 tags: ['data-augmentation', 'neural-machine-translation', 'semantic-consistency', 'reversible-operations']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "CogMG: Collaborative Augmentation Between Large Language Model and Knowledge Graph"
 source: "https://aclanthology.org/2024.acl-demos.35/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-hallucination-detection-and-mitigation']
 tags: ['knowledge-graph', 'hallucination-reduction', 'collaborative-augmentation']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "ANALOGYKB: Unlocking Analogical Reasoning of Language Models with A Million-scale Knowledge Base"
 source: "https://aclanthology.org/2024.acl-long.68/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'language-model-human-cognitive-linguistic-alignment']
 tags: ['analogical-reasoning', 'knowledge-base', 'language-models', 'benchmark']
 venue: "ACL 2024"

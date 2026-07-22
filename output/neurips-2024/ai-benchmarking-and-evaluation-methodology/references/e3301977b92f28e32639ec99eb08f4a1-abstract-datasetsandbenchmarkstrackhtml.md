@@ -1,6 +1,7 @@
 ---
 title: "IMPACT: A Large-scale Integrated Multimodal Patent Analysis and Creation Dataset for Design Patents"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/e3301977b92f28e32639ec99eb08f4a1-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/e3301977b92f28e32639ec99eb08f4a1-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['multimodal-dataset', 'design-patents', 'figure-captioning']
 venue: "NeurIPS 2024"

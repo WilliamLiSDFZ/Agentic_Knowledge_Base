@@ -1,6 +1,7 @@
 ---
 title: "Video-Language Understanding: A Survey from Model Architecture, Model Training, and Data Perspectives"
 source: "https://aclanthology.org/2024.findings-acl.217/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'speech-and-language-multimodal-generation-systems']
 tags: ['video-language-understanding', 'survey', 'multimodal-learning']
 venue: "ACL 2024"

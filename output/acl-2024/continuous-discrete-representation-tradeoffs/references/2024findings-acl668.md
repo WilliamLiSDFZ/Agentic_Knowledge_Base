@@ -1,6 +1,7 @@
 ---
 title: "Space Decomposition for Sentence Embedding"
 source: "https://aclanthology.org/2024.findings-acl.668/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces', 'continuous-discrete-representation-tradeoffs']
 tags: ['sentence-embedding', 'space-decomposition', 'semantic-similarity']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Description Boosting for Zero-Shot Entity and Relation Classification"
 source: "https://aclanthology.org/2024.findings-acl.562/"
+pdf_url: ""
 categories: ['natural-language-processing-information-extraction', 'concept-embedding-taxonomy-hierarchy-representation']
 tags: ['zero-shot-classification', 'entity-relation', 'description-boosting']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Fast Rates in Stochastic Online Convex Optimization by Exploiting the Curvature of Feasible Sets"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/b84cbefc3bebbb88811e2ead03c9ef0c-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/b84cbefc3bebbb88811e2ead03c9ef0c-Paper-Conference.pdf"
 categories: ['online-learning-augmented-algorithms-and-optimization', 'deep-learning-optimization-and-generalization-theory']
 tags: ['online-convex-optimization', 'fast-rates', 'feasible-set-curvature']
 venue: "NeurIPS 2024"

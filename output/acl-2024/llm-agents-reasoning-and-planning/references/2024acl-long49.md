@@ -1,6 +1,7 @@
 ---
 title: "Tree-of-Counterfactual Prompting for Zero-Shot Stance Detection"
 source: "https://aclanthology.org/2024.acl-long.49/"
+pdf_url: ""
 categories: ['causal-reasoning-and-explanation-in-nlp', 'llm-agents-reasoning-and-planning']
 tags: ['stance-detection', 'counterfactual-prompting', 'zero-shot']
 venue: "ACL 2024"

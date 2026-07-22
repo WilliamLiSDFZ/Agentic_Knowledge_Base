@@ -1,6 +1,7 @@
 ---
 title: "HOTVCOM: Generating Buzzworthy Comments for Videos"
 source: "https://aclanthology.org/2024.findings-acl.130/"
+pdf_url: ""
 categories: ['speech-and-language-multimodal-generation-systems', 'multimodal-language-vision-learning-systems']
 tags: ['comment-generation', 'video', 'social-media', 'multimodal', 'buzzworthy']
 venue: "ACL 2024"

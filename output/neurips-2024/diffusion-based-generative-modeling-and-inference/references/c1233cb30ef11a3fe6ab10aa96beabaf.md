@@ -1,6 +1,7 @@
 ---
 title: "Robustly overfitting latents for flexible neural image compression"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/c1233cb30ef11a3fe6ab10aa96beabaf-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/c1233cb30ef11a3fe6ab10aa96beabaf-Paper-Conference.pdf"
 categories: ['learned-compression-entropy-coding-methods', 'diffusion-based-generative-modeling-and-inference']
 tags: ['neural-image-compression', 'variational-autoencoder', 'latent-overfitting', 'entropy-coding', 'learned-compression']
 venue: "NeurIPS 2024"

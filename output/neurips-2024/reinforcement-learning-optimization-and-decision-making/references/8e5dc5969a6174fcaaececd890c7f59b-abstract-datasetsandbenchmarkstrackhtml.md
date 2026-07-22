@@ -1,6 +1,7 @@
 ---
 title: "Point Cloud Matters: Rethinking the Impact of Different Observation Spaces on Robot Learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/8e5dc5969a6174fcaaececd890c7f59b-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/8e5dc5969a6174fcaaececd890c7f59b-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'neural-geometric-shape-representation-learning']
 tags: ['point-clouds', 'robot-learning', 'observation-spaces']
 venue: "NeurIPS 2024"

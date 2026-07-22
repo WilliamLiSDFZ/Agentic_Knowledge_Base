@@ -1,12 +1,12 @@
 ---
 name: data-governance-and-algorithmic-power
 description: >-
-  This skill covers the governance, curation practices, and power dynamics surrounding datasets and algorithmic systems, including auditing dataset documentation and consent practices in ML benchmarks, measuring the real-world performative effects of search algorithms on user behavior and information landscapes, and analyzing the erosion of consensual data commons through web scraping and AI training pipelines.
+  This skill covers the governance, curation, and power dynamics of datasets and algorithmic systems, including auditing dataset development practices (documentation, consent, licensing), measuring the performative influence of search algorithms on the phenomena they index, and analyzing the legal and ethical erosion of data commons used for AI training.
 ---
 
 # Data Governance And Algorithmic Power
 
-This skill covers the governance, curation practices, and power dynamics surrounding datasets and algorithmic systems, including auditing dataset documentation and consent practices in ML benchmarks, measuring the real-world performative effects of search algorithms on user behavior and information landscapes, and analyzing the erosion of consensual data commons through web scraping and AI training pipelines.
+This skill covers the governance, curation, and power dynamics of datasets and algorithmic systems, including auditing dataset development practices (documentation, consent, licensing), measuring the performative influence of search algorithms on the phenomena they index, and analyzing the legal and ethical erosion of data commons used for AI training.
 
 ## Entry Index
 

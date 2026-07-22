@@ -1,12 +1,12 @@
 ---
 name: toxicity-detection-and-classification-datasets
 description: >-
-  This skill covers the construction, curation, and utilization of datasets for detecting and classifying toxic, harmful, or emotionally charged content across modalities (text, images, memes, video), along with associated classification methods such as soft-label integration, multimodal vision-language models, and cross-modal transfer (e.g., textual training for visual tasks). Applications include
+  This skill covers the construction, curation, and utilization of datasets for detecting and classifying toxic, harmful, or emotionally charged content across modalities including text, images, and memes, with applications spanning hate speech, visual harmfulness, and out-of-distribution detection. Methods include soft-label annotation for handling label ambiguity, cross-modal transfer (e.g.,
 ---
 
 # Toxicity Detection And Classification Datasets
 
-This skill covers the construction, curation, and utilization of datasets for detecting and classifying toxic, harmful, or emotionally charged content across modalities (text, images, memes, video), along with associated classification methods such as soft-label integration, multimodal vision-language models, and cross-modal transfer (e.g., textual training for visual tasks). Applications include
+This skill covers the construction, curation, and utilization of datasets for detecting and classifying toxic, harmful, or emotionally charged content across modalities including text, images, and memes, with applications spanning hate speech, visual harmfulness, and out-of-distribution detection. Methods include soft-label annotation for handling label ambiguity, cross-modal transfer (e.g.,
 
 ## Entry Index
 

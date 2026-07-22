@@ -1,6 +1,7 @@
 ---
 title: "Integrating Multi-scale Contextualized Information for Byte-based Neural Machine Translation"
 source: "https://aclanthology.org/2024.findings-acl.583/"
+pdf_url: ""
 categories: ['language-technology-cultural-linguistic-diversity', 'nlp-for-asian-languages']
 tags: ['byte-based-nmt', 'neural-machine-translation', 'multilingual', 'tokenization', 'multi-scale']
 venue: "ACL 2024"

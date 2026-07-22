@@ -1,12 +1,12 @@
 ---
 name: recommendation-systems-learning-optimization
 description: >-
-  This skill covers optimization and learning algorithms for recommendation systems, including bandit methods (contextual, PageRank-based), sequential recommendation models (diffusion-based, LLM-enhanced), and collaborative filtering improvements via graph message passing. It addresses specific challenges such as long-tail item handling, out-of-vocabulary items, multi-interest user representation (Gaussian processes, clustering),
+  This skill covers optimization and learning methods for recommendation systems, including bandit algorithms (contextual multinomial logit, PageRank bandits), sequential recommendation with diffusion models and LLM-based enhancement, collaborative filtering via graph message passing, and multi-interest user representation (Gaussian processes, clustering). It also addresses fairness constraints in multi-sided systems, long-tail handling,
 ---
 
 # Recommendation Systems Learning Optimization
 
-This skill covers optimization and learning algorithms for recommendation systems, including bandit methods (contextual, PageRank-based), sequential recommendation models (diffusion-based, LLM-enhanced), and collaborative filtering improvements via graph message passing. It addresses specific challenges such as long-tail item handling, out-of-vocabulary items, multi-interest user representation (Gaussian processes, clustering),
+This skill covers optimization and learning methods for recommendation systems, including bandit algorithms (contextual multinomial logit, PageRank bandits), sequential recommendation with diffusion models and LLM-based enhancement, collaborative filtering via graph message passing, and multi-interest user representation (Gaussian processes, clustering). It also addresses fairness constraints in multi-sided systems, long-tail handling,
 
 ## Entry Index
 

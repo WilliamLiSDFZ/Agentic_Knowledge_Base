@@ -1,6 +1,7 @@
 ---
 title: "RealMAN: A Real-Recorded and Annotated Microphone Array Dataset for Dynamic Speech Enhancement and Localization"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/bf8f6f5b017dc60d0c4e28a7a9a4ee7b-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/bf8f6f5b017dc60d0c4e28a7a9a4ee7b-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['audio-visual-speech-processing-and-benchmarks', 'wearable-biosignal-gesture-activity-benchmarks']
 tags: ['microphone-array', 'speech-enhancement', 'source-localization']
 venue: "NeurIPS 2024"

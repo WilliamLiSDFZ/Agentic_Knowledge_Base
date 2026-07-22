@@ -1,6 +1,7 @@
 ---
 title: "Flexible Weight Tuning and Weight Fusion Strategies for Continual Named Entity Recognition"
 source: "https://aclanthology.org/2024.findings-acl.79/"
+pdf_url: ""
 categories: ['continual-learning-for-nlp-tasks', 'natural-language-processing-information-extraction']
 tags: ['continual-learning', 'named-entity-recognition', 'catastrophic-forgetting', 'weight-fusion', 'knowledge-distillation']
 venue: "ACL 2024"

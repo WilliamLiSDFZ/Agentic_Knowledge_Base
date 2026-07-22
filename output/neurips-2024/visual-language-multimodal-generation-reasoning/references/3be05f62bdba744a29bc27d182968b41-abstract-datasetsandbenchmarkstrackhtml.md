@@ -1,6 +1,7 @@
 ---
 title: "Stylebreeder: Exploring and Democratizing Artistic Styles through Text-to-Image Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/3be05f62bdba744a29bc27d182968b41-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/3be05f62bdba744a29bc27d182968b41-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['generative-models-for-visual-style-and-appearance', 'visual-language-multimodal-generation-reasoning']
 tags: ['text-to-image', 'artistic-style', 'style-exploration']
 venue: "NeurIPS 2024"

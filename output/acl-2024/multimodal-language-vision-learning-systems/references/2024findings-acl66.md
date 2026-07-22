@@ -1,6 +1,7 @@
 ---
 title: "CoLLaVO: Crayon Large Language and Vision mOdel"
 source: "https://aclanthology.org/2024.findings-acl.66/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems', 'language-models-physical-grounding-limitations']
 tags: ['vision-language-model', 'object-understanding', 'instruction-tuning', 'multimodal', 'image-comprehension']
 venue: "ACL 2024"

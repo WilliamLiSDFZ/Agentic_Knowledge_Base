@@ -1,6 +1,7 @@
 ---
 title: "ADAM: Dense Retrieval Distillation with Adaptive Dark Examples"
 source: "https://aclanthology.org/2024.findings-acl.692/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces', 'llm-based-ranking-and-recommendation']
 tags: ['dense-retrieval', 'knowledge-distillation', 'hard-negatives']
 venue: "ACL 2024"

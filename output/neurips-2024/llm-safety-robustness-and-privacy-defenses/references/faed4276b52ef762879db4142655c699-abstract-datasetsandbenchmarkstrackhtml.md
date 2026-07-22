@@ -1,6 +1,7 @@
 ---
 title: "Evaluating Copyright Takedown Methods for Language Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/faed4276b52ef762879db4142655c699-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/faed4276b52ef762879db4142655c699-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['llm-safety-robustness-and-privacy-defenses']
 tags: ['copyright', 'machine-unlearning', 'language-models', 'memorization']
 venue: "NeurIPS 2024"

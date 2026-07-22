@@ -1,6 +1,7 @@
 ---
 title: "Do LVLMs Understand Charts? Analyzing and Correcting Factual Errors in Chart Captioning"
 source: "https://aclanthology.org/2024.findings-acl.41/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation']
 tags: ['chart-captioning', 'vision-language-models', 'factual-error-correction']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "On the Hallucination in Simultaneous Machine Translation"
 source: "https://aclanthology.org/2024.acl-short.66/"
+pdf_url: ""
 categories: ['llm-hallucination-detection-and-mitigation', 'speech-and-language-multimodal-generation-systems']
 tags: ['simultaneous-machine-translation', 'hallucination', 'analysis']
 venue: "ACL 2024"

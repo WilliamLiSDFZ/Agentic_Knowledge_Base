@@ -1,6 +1,7 @@
 ---
 title: "SemRel2024: A Collection of Semantic Textual Relatedness Datasets for 13 Languages"
 source: "https://aclanthology.org/2024.findings-acl.147/"
+pdf_url: ""
 categories: ['multilingual-text-classification-and-sentiment-analysis']
 tags: ['semantic-relatedness', 'multilingual-datasets', 'textual-similarity']
 venue: "ACL 2024"

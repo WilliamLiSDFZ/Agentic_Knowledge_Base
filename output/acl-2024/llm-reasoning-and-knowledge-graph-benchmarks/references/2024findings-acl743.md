@@ -1,6 +1,7 @@
 ---
 title: "Propagation and Pitfalls: Reasoning-based Assessment of Knowledge Editing through Counterfactual Tasks"
 source: "https://aclanthology.org/2024.findings-acl.743/"
+pdf_url: ""
 categories: ['llm-reasoning-and-knowledge-graph-benchmarks']
 tags: ['knowledge-editing', 'counterfactual-reasoning', 'knowledge-propagation']
 venue: "ACL 2024"

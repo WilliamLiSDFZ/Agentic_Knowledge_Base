@@ -1,6 +1,7 @@
 ---
 title: "MovieSum: An Abstractive Summarization Dataset for Movie Screenplays"
 source: "https://aclanthology.org/2024.findings-acl.239/"
+pdf_url: ""
 categories: ['state-memory-replay-sequence-modeling', 'document-understanding-and-information-extraction']
 tags: ['screenplay-summarization', 'long-document', 'abstractive-summarization', 'movies']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "A Tale of Two Revisions: Summarizing Changes Across Document Versions"
 source: "https://aclanthology.org/2024.findings-acl.190/"
+pdf_url: ""
 categories: ['document-understanding-and-information-extraction', 'natural-language-processing-information-extraction']
 tags: ['document-revision', 'change-summarization', 'collaborative-writing']
 venue: "ACL 2024"

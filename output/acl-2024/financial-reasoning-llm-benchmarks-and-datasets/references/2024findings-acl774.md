@@ -1,6 +1,7 @@
 ---
 title: "FinTral: A Family of GPT-4 Level Multimodal Financial Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.774/"
+pdf_url: ""
 categories: ['financial-reasoning-llm-benchmarks-and-datasets', 'multimodal-language-vision-learning-systems']
 tags: ['financial-llm', 'multimodal', 'domain-specific-pretraining']
 venue: "ACL 2024"

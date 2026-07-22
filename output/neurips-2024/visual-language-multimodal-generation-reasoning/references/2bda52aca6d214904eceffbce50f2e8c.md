@@ -1,6 +1,7 @@
 ---
 title: "CLIP in Mirror: Disentangling text from visual images through reflection"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/2bda52aca6d214904eceffbce50f2e8c-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/2bda52aca6d214904eceffbce50f2e8c-Paper-Conference.pdf"
 categories: ['visual-language-multimodal-generation-reasoning']
 tags: ['clip', 'text-visual-disentanglement', 'zero-shot']
 venue: "NeurIPS 2024"

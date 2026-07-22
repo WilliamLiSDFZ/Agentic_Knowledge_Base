@@ -1,6 +1,7 @@
 ---
 title: "Abstract Reward Processes: Leveraging State Abstraction for Consistent Off-Policy Evaluation"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/1e6dcc16ffa7ced2228d1f2fdc8b5adf-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/1e6dcc16ffa7ced2228d1f2fdc8b5adf-Paper-Conference.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'machine-learning-theory-and-evaluation-methods']
 tags: ['off-policy-evaluation', 'state-abstraction', 'markov-decision-processes']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/9ee3a664ccfeabc0da16ac6f1f1cfe59-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/9ee3a664ccfeabc0da16ac6f1f1cfe59-Paper-Conference.pdf"
 categories: ['visual-language-multimodal-generation-reasoning', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['multimodal-LLM', 'vision-centric', 'visual-representation']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "AFBench: A Large-scale Benchmark for Airfoil Design"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/96bc329285d3f028dc5972d7146c7e2f-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/96bc329285d3f028dc5972d7146c7e2f-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'neural-geometric-shape-representation-learning']
 tags: ['airfoil-design', 'inverse-design', 'generative-models', 'benchmark', 'mechanical-design']
 venue: "NeurIPS 2024"

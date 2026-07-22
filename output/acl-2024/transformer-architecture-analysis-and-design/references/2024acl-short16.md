@@ -1,6 +1,7 @@
 ---
 title: "AFLoRA: Adaptive Freezing of Low Rank Adaptation in Parameter Efficient Fine-Tuning of Large Models"
 source: "https://aclanthology.org/2024.acl-short.16/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'transformer-architecture-analysis-and-design']
 tags: ['parameter-efficient-fine-tuning', 'LoRA', 'adaptive-freezing', 'low-rank-adaptation', 'LLM']
 venue: "ACL 2024"

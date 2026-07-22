@@ -1,6 +1,7 @@
 ---
 title: "Evaluating Mathematical Reasoning of Large Language Models: A Focus on Error Identification and Correction"
 source: "https://aclanthology.org/2024.findings-acl.673/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation', 'financial-reasoning-llm-benchmarks-and-datasets']
 tags: ['mathematical-reasoning', 'error-identification', 'llm-evaluation']
 venue: "ACL 2024"

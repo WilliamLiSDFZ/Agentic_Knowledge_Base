@@ -1,6 +1,7 @@
 ---
 title: "LJPCheck: Functional Tests for Legal Judgment Prediction"
 source: "https://aclanthology.org/2024.findings-acl.350/"
+pdf_url: ""
 categories: ['legal-nlp-benchmarks-and-applications', 'nlp-benchmark-design-and-interpretability']
 tags: ['legal-judgment-prediction', 'functional-testing', 'behavioral-evaluation']
 venue: "ACL 2024"

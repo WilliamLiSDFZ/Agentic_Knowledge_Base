@@ -1,6 +1,7 @@
 ---
 title: "CounterCurate: Enhancing Physical and Semantic Visio-Linguistic Compositional Reasoning via Counterfactual Examples"
 source: "https://aclanthology.org/2024.findings-acl.915/"
+pdf_url: ""
 categories: ['multimodal-language-vision-learning-systems']
 tags: ['counterfactual-reasoning', 'visio-linguistic-compositionality', 'multimodal-models']
 venue: "ACL 2024"

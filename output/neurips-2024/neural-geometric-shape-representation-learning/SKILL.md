@@ -1,12 +1,12 @@
 ---
 name: neural-geometric-shape-representation-learning
 description: >-
-  This skill covers neural and geometric methods for representing, reconstructing, and generating 3D shapes and scenes, spanning implicit fields (NeRF, SDF), explicit representations (3D Gaussian Splatting, point clouds), and parametric/procedural formats (CAD, B-Rep, articulated graphs). Applications include inverse rendering with material/illumination decomposition,
+  Neural-geometric shape representation learning encompasses methods for encoding, reconstructing, and generating 3D geometry using neural representations including NeRFs, Gaussian splatting, implicit surfaces (SDFs), and explicit meshes/point clouds, applied to tasks such as novel view synthesis, inverse rendering (material/illumination decomposition), avatar creation, CAD generation, and aerodynamic simulation
 ---
 
 # Neural Geometric Shape Representation Learning
 
-This skill covers neural and geometric methods for representing, reconstructing, and generating 3D shapes and scenes, spanning implicit fields (NeRF, SDF), explicit representations (3D Gaussian Splatting, point clouds), and parametric/procedural formats (CAD, B-Rep, articulated graphs). Applications include inverse rendering with material/illumination decomposition,
+Neural-geometric shape representation learning encompasses methods for encoding, reconstructing, and generating 3D geometry using neural representations including NeRFs, Gaussian splatting, implicit surfaces (SDFs), and explicit meshes/point clouds, applied to tasks such as novel view synthesis, inverse rendering (material/illumination decomposition), avatar creation, CAD generation, and aerodynamic simulation
 
 ## Entry Index
 

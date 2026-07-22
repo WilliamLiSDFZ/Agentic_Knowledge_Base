@@ -1,6 +1,7 @@
 ---
 title: "Easy2Hard-Bench: Standardized Difficulty Labels for Profiling LLM Performance and Generalization"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/4e6f22305275966513990f53cec908e0-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/4e6f22305275966513990f53cec908e0-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['difficulty-labels', 'llm-benchmarking', 'generalization-evaluation']
 venue: "NeurIPS 2024"

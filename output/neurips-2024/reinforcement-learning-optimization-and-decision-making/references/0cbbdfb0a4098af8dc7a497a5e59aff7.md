@@ -1,6 +1,7 @@
 ---
 title: "On the Role of Information Structure in Reinforcement Learning for Partially-Observable Sequential Teams and Games"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/0cbbdfb0a4098af8dc7a497a5e59aff7-Abstract-Conference.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/0cbbdfb0a4098af8dc7a497a5e59aff7-Paper-Conference.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making']
 tags: ['information-structure', 'partial-observability', 'sequential-games', 'reinforcement-learning', 'multi-agent']
 venue: "NeurIPS 2024"

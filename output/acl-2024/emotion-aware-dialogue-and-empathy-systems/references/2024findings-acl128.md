@@ -1,6 +1,7 @@
 ---
 title: "EmotionQueen: A Benchmark for Evaluating Empathy of Large Language Models"
 source: "https://aclanthology.org/2024.findings-acl.128/"
+pdf_url: ""
 categories: ['emotion-aware-dialogue-and-empathy-systems']
 tags: ['empathy-benchmark', 'emotional-intelligence', 'LLM-evaluation']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "You Only Look at Screens: Multimodal Chain-of-Action Agents"
 source: "https://aclanthology.org/2024.findings-acl.186/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning']
 tags: ['GUI-agent', 'multimodal', 'chain-of-action']
 venue: "ACL 2024"

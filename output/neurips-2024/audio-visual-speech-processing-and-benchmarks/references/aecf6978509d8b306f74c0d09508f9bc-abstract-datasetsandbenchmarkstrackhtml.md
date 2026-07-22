@@ -1,6 +1,7 @@
 ---
 title: "LucidAction: A Hierarchical and Multi-model Dataset for Comprehensive Action Quality Assessment"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/aecf6978509d8b306f74c0d09508f9bc-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/aecf6978509d8b306f74c0d09508f9bc-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'audio-visual-speech-processing-and-benchmarks']
 tags: ['action-quality-assessment', 'multimodal-dataset', 'hierarchical-annotation']
 venue: "NeurIPS 2024"

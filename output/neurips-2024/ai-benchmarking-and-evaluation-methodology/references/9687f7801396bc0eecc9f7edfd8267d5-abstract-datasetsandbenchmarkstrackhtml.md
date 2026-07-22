@@ -1,6 +1,7 @@
 ---
 title: "Benchmarking Estimators for Natural Experiments: A Novel Dataset and a Doubly Robust Algorithm"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/9687f7801396bc0eecc9f7edfd8267d5-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/9687f7801396bc0eecc9f7edfd8267d5-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['causal-discovery-and-inference-methods', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['natural-experiments', 'causal-inference', 'doubly-robust', 'treatment-effect', 'benchmark-dataset']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "MinPrompt: Graph-based Minimal Prompt Data Augmentation for Few-shot Question Answering"
 source: "https://aclanthology.org/2024.acl-long.16/"
+pdf_url: ""
 categories: ['educational-question-generation-and-comprehension', 'llm-agents-reasoning-and-planning']
 tags: ['few-shot-QA', 'graph-based-augmentation', 'prompt-data-augmentation']
 venue: "ACL 2024"

@@ -1,6 +1,7 @@
 ---
 title: "RecGPT: Generative Pre-training for Text-based Recommendation"
 source: "https://aclanthology.org/2024.acl-short.29/"
+pdf_url: ""
 categories: ['llm-based-ranking-and-recommendation', 'llm-training-alignment-and-evaluation']
 tags: ['recommendation-systems', 'generative-pretraining', 'text-based-recommendation']
 venue: "ACL 2024"

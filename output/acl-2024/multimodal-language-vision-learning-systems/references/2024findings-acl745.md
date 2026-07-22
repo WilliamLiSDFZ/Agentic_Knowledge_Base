@@ -1,6 +1,7 @@
 ---
 title: "CorNav: Autonomous Agent with Self-Corrected Planning for Zero-Shot Vision-and-Language Navigation"
 source: "https://aclanthology.org/2024.findings-acl.745/"
+pdf_url: ""
 categories: ['llm-agents-reasoning-and-planning', 'multimodal-language-vision-learning-systems']
 tags: ['vision-language-navigation', 'autonomous-agent', 'self-correction']
 venue: "ACL 2024"

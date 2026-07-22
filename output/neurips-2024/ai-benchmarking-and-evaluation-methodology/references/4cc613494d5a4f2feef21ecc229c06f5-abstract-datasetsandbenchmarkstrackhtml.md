@@ -1,6 +1,7 @@
 ---
 title: "Evaluating Multiview Object Consistency in Humans and Image Models"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/4cc613494d5a4f2feef21ecc229c06f5-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/4cc613494d5a4f2feef21ecc229c06f5-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology']
 tags: ['multiview-consistency', '3d-shape-inference', 'human-model-alignment']
 venue: "NeurIPS 2024"

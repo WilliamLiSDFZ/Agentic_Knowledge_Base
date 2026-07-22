@@ -1,6 +1,7 @@
 ---
 title: "LinguaLinked: Distributed Large Language Model Inference on Mobile Devices"
 source: "https://aclanthology.org/2024.acl-demos.16/"
+pdf_url: ""
 categories: ['collaborative-llm-deployment-and-inference-optimization']
 tags: ['distributed-inference', 'mobile-devices', 'LLM-deployment', 'decentralized']
 venue: "ACL 2024"

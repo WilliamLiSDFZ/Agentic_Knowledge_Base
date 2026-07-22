@@ -1,6 +1,7 @@
 ---
 title: "Decomposing Co-occurrence Matrices into Interpretable Components as Formal Concepts"
 source: "https://aclanthology.org/2024.findings-acl.278/"
+pdf_url: ""
 categories: ['language-model-representations-and-embedding-spaces', 'concept-embedding-taxonomy-hierarchy-representation']
 tags: ['co-occurrence', 'formal-concept-analysis', 'interpretability']
 venue: "ACL 2024"

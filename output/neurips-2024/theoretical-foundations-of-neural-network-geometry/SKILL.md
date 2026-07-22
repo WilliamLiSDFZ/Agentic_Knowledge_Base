@@ -1,12 +1,12 @@
 ---
 name: theoretical-foundations-of-neural-network-geometry
 description: >-
-  **Theoretical foundations of neural network geometry** examines the mathematical properties governing how neural networks represent, learn, and compute, using tools from tropical geometry, mean-field theory, Fourier analysis, kernel methods, and random features. It addresses questions of expressivity (approximation capacity, separation results), trainability (initialization effects, learning dynamics, stability), and architectural mechanisms (attention masks,
+  **Theoretical analysis of neural network geometry, expressivity, and learning dynamics** using tools from tropical geometry, mean-field theory, Fourier analysis, kernel methods, and dynamical systems. Covers formal characterization of what architectural components (attention masks, LayerNorm, initialization schemes, parameter symmetries) control representational capacity and training behavior across MLPs, Transformers,
 ---
 
 # Theoretical Foundations Of Neural Network Geometry
 
-**Theoretical foundations of neural network geometry** examines the mathematical properties governing how neural networks represent, learn, and compute, using tools from tropical geometry, mean-field theory, Fourier analysis, kernel methods, and random features. It addresses questions of expressivity (approximation capacity, separation results), trainability (initialization effects, learning dynamics, stability), and architectural mechanisms (attention masks,
+**Theoretical analysis of neural network geometry, expressivity, and learning dynamics** using tools from tropical geometry, mean-field theory, Fourier analysis, kernel methods, and dynamical systems. Covers formal characterization of what architectural components (attention masks, LayerNorm, initialization schemes, parameter symmetries) control representational capacity and training behavior across MLPs, Transformers,
 
 ## Entry Index
 

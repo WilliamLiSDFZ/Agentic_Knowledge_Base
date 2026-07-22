@@ -1,12 +1,12 @@
 ---
 name: llms-for-biomedical-and-clinical-nlp
 description: >-
-  This skill covers the application of large language models (LLMs) and multimodal models to biomedical and clinical NLP tasks, including medical question answering, clinical report summarization, image-report generation, and drug safety information extraction. Methods span RAG pipelines, knowledge graph alignment, multi-agent reasoning, preference learning from process feedback, and fine-grained evaluation frameworks
+  This skill covers the application of large language models (LLMs) and multimodal models to biomedical and clinical NLP tasks, including medical question answering, clinical report summarization, image-report generation, and drug safety monitoring. Key methods include retrieval-augmented generation (RAG), knowledge graph alignment, preference learning from process feedback, multi-agent reasoning, and fine
 ---
 
 # Llms For Biomedical And Clinical Nlp
 
-This skill covers the application of large language models (LLMs) and multimodal models to biomedical and clinical NLP tasks, including medical question answering, clinical report summarization, image-report generation, and drug safety information extraction. Methods span RAG pipelines, knowledge graph alignment, multi-agent reasoning, preference learning from process feedback, and fine-grained evaluation frameworks
+This skill covers the application of large language models (LLMs) and multimodal models to biomedical and clinical NLP tasks, including medical question answering, clinical report summarization, image-report generation, and drug safety monitoring. Key methods include retrieval-augmented generation (RAG), knowledge graph alignment, preference learning from process feedback, multi-agent reasoning, and fine
 
 ## Entry Index
 

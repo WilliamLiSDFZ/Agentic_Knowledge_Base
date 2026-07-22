@@ -1,6 +1,7 @@
 ---
 title: "Fooling the Textual Fooler via Randomizing Latent Representations"
 source: "https://aclanthology.org/2024.findings-acl.856/"
+pdf_url: ""
 categories: ['llm-security-robustness-and-detection', 'language-model-representations-and-embedding-spaces']
 tags: ['adversarial-robustness', 'textual-attacks', 'latent-randomization']
 venue: "ACL 2024"

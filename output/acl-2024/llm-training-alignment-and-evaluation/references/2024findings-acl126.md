@@ -1,6 +1,7 @@
 ---
 title: "From Model-centered to Human-Centered: Revision Distance as a Metric for Text Evaluation in LLMs-based Applications"
 source: "https://aclanthology.org/2024.findings-acl.126/"
+pdf_url: ""
 categories: ['llm-training-alignment-and-evaluation']
 tags: ['text-evaluation', 'human-centered', 'revision-distance']
 venue: "ACL 2024"

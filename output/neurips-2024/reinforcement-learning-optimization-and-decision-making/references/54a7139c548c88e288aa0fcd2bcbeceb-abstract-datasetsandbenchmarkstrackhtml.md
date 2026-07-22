@@ -1,6 +1,7 @@
 ---
 title: "ZSC-Eval: An Evaluation Toolkit and Benchmark for Multi-agent Zero-shot Coordination"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/54a7139c548c88e288aa0fcd2bcbeceb-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/54a7139c548c88e288aa0fcd2bcbeceb-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['reinforcement-learning-optimization-and-decision-making', 'ai-benchmarking-and-evaluation-methodology']
 tags: ['zero-shot-coordination', 'multi-agent', 'cooperative-ai', 'benchmark']
 venue: "NeurIPS 2024"

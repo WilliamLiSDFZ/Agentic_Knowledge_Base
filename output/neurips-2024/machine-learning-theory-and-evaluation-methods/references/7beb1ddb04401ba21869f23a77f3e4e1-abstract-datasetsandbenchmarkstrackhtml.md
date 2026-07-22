@@ -1,6 +1,7 @@
 ---
 title: "Navigating the Maze of Explainable AI: A Systematic Approach to Evaluating Methods and Metrics"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/7beb1ddb04401ba21869f23a77f3e4e1-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/7beb1ddb04401ba21869f23a77f3e4e1-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['ai-benchmarking-and-evaluation-methodology', 'machine-learning-theory-and-evaluation-methods']
 tags: ['explainability', 'evaluation-metrics', 'systematic-review']
 venue: "NeurIPS 2024"

@@ -1,6 +1,7 @@
 ---
 title: "$\texttt{pfl-research}$: simulation framework for accelerating research in Private Federated Learning"
 source: "https://papers.nips.cc/paper_files/paper/2024/hash/4c8c6de56ecdd05e61abcd9e057c6142-Abstract-Datasets_and_Benchmarks_Track.html"
+pdf_url: "https://papers.nips.cc/paper_files/paper/2024/file/4c8c6de56ecdd05e61abcd9e057c6142-Paper-Datasets_and_Benchmarks_Track.pdf"
 categories: ['privacy-preserving-federated-distributed-learning']
 tags: ['federated-learning', 'simulation-framework', 'privacy']
 venue: "NeurIPS 2024"
