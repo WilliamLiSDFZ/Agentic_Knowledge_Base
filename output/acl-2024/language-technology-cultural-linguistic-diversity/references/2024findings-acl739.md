@@ -1,0 +1,18 @@
+---
+title: "CIF-Bench: A Chinese Instruction-Following Benchmark for Evaluating the Generalizability of Large Language Models"
+source: "https://aclanthology.org/2024.findings-acl.739/"
+categories: ['hate-speech-and-toxic-content-detection', 'language-technology-cultural-linguistic-diversity']
+tags: ['Chinese-NLP', 'instruction-following', 'benchmark']
+venue: "ACL 2024"
+tldr: "Introduces CIF-Bench, a Chinese instruction-following benchmark to evaluate LLM generalizability across diverse NLP tasks in a low-resource language setting."
+---
+
+# CIF-Bench: A Chinese Instruction-Following Benchmark for Evaluating the Generalizability of Large Language Models
+
+**Source**: [https://aclanthology.org/2024.findings-acl.739/](https://aclanthology.org/2024.findings-acl.739/)
+
+**TLDR**: Introduces CIF-Bench, a Chinese instruction-following benchmark to evaluate LLM generalizability across diverse NLP tasks in a low-resource language setting.
+
+## Abstract
+
+AbstractThe advancement of large language models (LLMs) has enhanced the ability to generalize across a wide range of unseen natural language processing (NLP) tasks through instruction-following.Yet, their effectiveness often diminishes in low-resource languages like Chinese, exacerbated by biased evaluations from data leakage, casting doubt on their true generalizability to new linguistic territories. In response, we introduce the Chinese Instruction-Following Benchmark (**CIF-Bench**), designed to evaluate the zero-shot generalizability of LLMs to the Chinese language. CIF-Bench comprises 150 tasks and 15,000 input-output pairs, developed by native speakers to test complex reasoning and Chinese cultural nuances across 20 categories. To mitigate data contamination, we release only half of the dataset publicly, with the remainder kept private, and introduce diversified instructions to minimize score variance, totaling 45,000 data instances.Our evaluation of 28 selected LLMs reveals a noticeable performance gap, with the best model scoring only 52.9%, highlighting the limitations of LLMs in less familiar language and task contexts.This work not only uncovers the current limitations of LLMs in handling Chinese language tasks but also sets a new standard for future LLM generalizability research, pushing towards the development of more adaptable, culturally informed, and linguistically diverse models.

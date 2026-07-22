@@ -1,0 +1,18 @@
+---
+title: "Here’s a Free Lunch: Sanitizing Backdoored Models with Model Merge"
+source: "https://aclanthology.org/2024.findings-acl.894/"
+categories: ['llm-security-robustness-and-detection']
+tags: ['backdoor-attacks', 'model-merging', 'security']
+venue: "ACL 2024"
+tldr: "This paper shows that merging backdoored language models with clean models can effectively sanitize hidden malicious behaviors at low cost."
+---
+
+# Here’s a Free Lunch: Sanitizing Backdoored Models with Model Merge
+
+**Source**: [https://aclanthology.org/2024.findings-acl.894/](https://aclanthology.org/2024.findings-acl.894/)
+
+**TLDR**: This paper shows that merging backdoored language models with clean models can effectively sanitize hidden malicious behaviors at low cost.
+
+## Abstract
+
+AbstractThe democratization of pre-trained language models through open-source initiatives has rapidly advanced innovation and expanded access to cutting-edge technologies. However, this openness also brings significant security risks, including backdoor attacks, where hidden malicious behaviors are triggered by specific inputs, compromising natural language processing (NLP) system integrity and reliability. This paper suggests that merging a backdoored model with other homogeneous models can significantly remediate backdoor vulnerabilities even if such models are not entirely secure. In our experiments, we verify our hypothesis on various models (BERT-Base, RoBERTa-Large, Llama2-7B, and Mistral-7B) and datasets (SST-2, OLID, AG News, and QNLI). Compared to multiple advanced defensive approaches, our method offers an effective and efficient inference-stage defense against backdoor attacks on classification and instruction-tuned tasks without additional resources or specific knowledge. Our approach consistently outperforms recent advanced baselines, leading to an average of about 75% reduction in the attack success rate. Since model merging has been an established approach for improving model performance, the extra advantage it provides regarding defense can be seen as a cost-free bonus.

@@ -1,0 +1,18 @@
+---
+title: "MedREQAL: Examining Medical Knowledge Recall of Large Language Models via Question Answering"
+source: "https://aclanthology.org/2024.findings-acl.860/"
+categories: ['llms-for-biomedical-and-clinical-nlp']
+tags: ['medical-question-answering', 'llm-evaluation', 'knowledge-recall']
+venue: "ACL 2024"
+tldr: "Evaluates LLMs' medical knowledge recall capabilities through a structured question-answering benchmark called MedREQAL."
+---
+
+# MedREQAL: Examining Medical Knowledge Recall of Large Language Models via Question Answering
+
+**Source**: [https://aclanthology.org/2024.findings-acl.860/](https://aclanthology.org/2024.findings-acl.860/)
+
+**TLDR**: Evaluates LLMs' medical knowledge recall capabilities through a structured question-answering benchmark called MedREQAL.
+
+## Abstract
+
+AbstractIn recent years, Large Language Models (LLMs) have demonstrated an impressive ability to encode knowledge during pre-training on large text corpora. They can leverage this knowledge for downstream tasks like question answering (QA), even in complex areas involving health topics. Considering their high potential for facilitating clinical work in the future, understanding the quality of encoded medical knowledge and its recall in LLMs is an important step forward. In this study, we examine the capability of LLMs to exhibit medical knowledge recall by constructing a novel dataset derived from systematic reviews – studies synthesizing evidence-based answers for specific medical questions. Through experiments on the new MedREQAL dataset, comprising question-answer pairs extracted from rigorous systematic reviews, we assess six LLMs, such as GPT and Mixtral, analyzing their classification and generation performance. Our experimental insights into LLM performance on the novel biomedical QA dataset reveal the still challenging nature of this task.

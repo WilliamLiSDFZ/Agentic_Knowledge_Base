@@ -1,0 +1,18 @@
+---
+title: "Do Large Language Models Discriminate in Hiring Decisions on the Basis of Race, Ethnicity, and Gender?"
+source: "https://aclanthology.org/2024.acl-short.37/"
+categories: ['bias-and-fairness-in-llms', 'social-ai-temporal-dynamics-evaluation']
+tags: ['hiring-bias', 'LLM-fairness', 'race', 'gender', 'name-discrimination']
+venue: "ACL 2024"
+tldr: "Investigates whether LLMs exhibit race- and gender-based name discrimination in simulated hiring decision prompts."
+---
+
+# Do Large Language Models Discriminate in Hiring Decisions on the Basis of Race, Ethnicity, and Gender?
+
+**Source**: [https://aclanthology.org/2024.acl-short.37/](https://aclanthology.org/2024.acl-short.37/)
+
+**TLDR**: Investigates whether LLMs exhibit race- and gender-based name discrimination in simulated hiring decision prompts.
+
+## Abstract
+
+AbstractWe examine whether large language models (LLMs) exhibit race- and gender-based name discrimination in hiring decisions, similar to classic findings in the social sciences (Bertrand and Mullainathan, 2004). We design a series of templatic prompts to LLMs to write an email to a named job applicant informing them of a hiring decision. By manipulating the applicant’s first name, we measure the effect of perceived race, ethnicity, and gender on the probability that the LLM generates an acceptance or rejection email. We find that the hiring decisions of LLMs in many settings are more likely to favor White applicants over Hispanic applicants. In aggregate, the groups with the highest and lowest acceptance rates respectively are masculine White names and masculine Hispanic names. However, the comparative acceptance rates by group vary under different templatic settings, suggesting that LLMs’ race- and gender-sensitivity may be idiosyncratic and prompt-sensitive.

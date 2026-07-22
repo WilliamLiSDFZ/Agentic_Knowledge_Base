@@ -6,6 +6,14 @@ Tune: N_CLUSTERS (bigger = finer granularity)
 """
 import json
 import os
+import time
+
+# Fail fast instead of hanging forever when HuggingFace is unreachable/blocked, and
+# surface download progress. MUST be set BEFORE importing sentence_transformers.
+os.environ.setdefault("HF_HUB_ETAG_TIMEOUT", "10")      # metadata/HEAD request timeout (s)
+os.environ.setdefault("HF_HUB_DOWNLOAD_TIMEOUT", "30")  # per-download request timeout (s)
+os.environ.setdefault("HF_HUB_VERBOSITY", "info")
+
 import numpy as np
 from sklearn.cluster import AgglomerativeClustering
 from sentence_transformers import SentenceTransformer
@@ -19,15 +27,25 @@ N_CLUSTERS = 80  # <-- adjust for granularity
 
 
 def embed_abstracts(papers):
+    endpoint = os.environ.get("HF_ENDPOINT", "https://huggingface.co (default)")
+    print(f"[step2] loading model 'all-MiniLM-L6-v2' from {endpoint} "
+          f"(first run downloads ~80MB) ...", flush=True)
+    t0 = time.time()
     model = SentenceTransformer("all-MiniLM-L6-v2")
+    print(f"[step2] model ready in {time.time() - t0:.1f}s; embedding {len(papers)} papers ...", flush=True)
     texts = [f"{p['title']}. {p['abstract']}" for p in papers]
+    t1 = time.time()
     embeddings = model.encode(texts, show_progress_bar=True, batch_size=64)
+    print(f"[step2] embedded {len(texts)} papers in {time.time() - t1:.1f}s", flush=True)
     return embeddings
 
 
 def cluster(embeddings):
+    print(f"[step2] clustering {len(embeddings)} papers into {N_CLUSTERS} topics ...", flush=True)
+    t0 = time.time()
     clustering = AgglomerativeClustering(n_clusters=N_CLUSTERS, metric="cosine", linkage="average")
     labels = clustering.fit_predict(embeddings)
+    print(f"[step2] clustered in {time.time() - t0:.1f}s; naming clusters via LLM ...", flush=True)
     return labels
 
 
@@ -59,6 +77,7 @@ def main():
         papers = json.load(f)
 
     print(f"Loaded {len(papers)} papers")
+    print(f"[step2] HF_ENDPOINT={os.environ.get('HF_ENDPOINT', '(unset — using huggingface.co)')}", flush=True)
     embeddings = embed_abstracts(papers)
     labels = cluster(embeddings)
 

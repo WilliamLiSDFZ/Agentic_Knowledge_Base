@@ -1,0 +1,18 @@
+---
+title: "Wav2SQL: Direct Generalizable Speech-To-SQL Parsing"
+source: "https://aclanthology.org/2024.findings-acl.251/"
+categories: ['text-to-sql-parsing-and-benchmarks', 'nlp-for-asian-languages']
+tags: ['speech-to-sql', 'multi-accent', 'gradient-reversal']
+venue: "ACL 2024"
+tldr: "Introduces a multi-accent dataset and speech-programming approach with gradient reversal classifiers for robust speech-to-SQL parsing."
+---
+
+# Wav2SQL: Direct Generalizable Speech-To-SQL Parsing
+
+**Source**: [https://aclanthology.org/2024.findings-acl.251/](https://aclanthology.org/2024.findings-acl.251/)
+
+**TLDR**: Introduces a multi-accent dataset and speech-programming approach with gradient reversal classifiers for robust speech-to-SQL parsing.
+
+## Abstract
+
+AbstractWe release a multi-accent dataset and propose speech-programming and gradient reversal classifier to improve the generalization.Abstract: Speech-to-SQL (S2SQL) aims to convert spoken questions into SQL queries given relational databases, which has been traditionally implemented in a cascaded manner while facing the following challenges: 1) model training is faced with the major issue of data scarcity, where limited parallel data is available; and 2) the systems should be robust enough to handle diverse out-of-domain speech samples that differ from the source data. In this work, we propose the direct generalizable speech-to-SQL parsing model Wav2SQL which avoids error compounding across cascaded systems. Specifically, 1) to accelerate speech-driven SQL parsing research in the community, we release a large-scale and multi-accent dataset MASpider; 2) leveraging the recent progress in the large-scale pre-training, we show that it alleviates the data scarcity issue and allow for direct speech-to-SQL parsing; and 3) we include the speech re-programming and gradient reversal classifier techniques to reduce acoustic variance and learned style-agnostic representation, improving generalization to unseen out-of-domain custom data. Experimental results demonstrate that Wav2SQL avoids error compounding and achieves state-of-the-art results by up to 4.7% accuracy improvement over the baseline.

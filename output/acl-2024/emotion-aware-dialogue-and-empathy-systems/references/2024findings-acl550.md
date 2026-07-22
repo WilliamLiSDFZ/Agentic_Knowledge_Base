@@ -1,0 +1,18 @@
+---
+title: "PEK: A Parameter-Efficient Framework for Knowledge-Grounded Dialogue Generation"
+source: "https://aclanthology.org/2024.findings-acl.550/"
+categories: ['emotion-aware-dialogue-and-empathy-systems', 'coreference-resolution-and-dialogue-understanding']
+tags: ['parameter-efficient', 'knowledge-grounded-dialogue', 'PEFT']
+venue: "ACL 2024"
+tldr: "Proposes a parameter-efficient framework for knowledge-grounded dialogue generation reducing VRAM consumption via PEFT methods."
+---
+
+# PEK: A Parameter-Efficient Framework for Knowledge-Grounded Dialogue Generation
+
+**Source**: [https://aclanthology.org/2024.findings-acl.550/](https://aclanthology.org/2024.findings-acl.550/)
+
+**TLDR**: Proposes a parameter-efficient framework for knowledge-grounded dialogue generation reducing VRAM consumption via PEFT methods.
+
+## Abstract
+
+AbstractPre-trained language models (PLMs) have shown great dialogue generation capability in different scenarios. However, the huge VRAM consumption when fine-tuning them is one of their drawbacks. PEFT approaches can significantly reduce the number of trainable parameters, which enables us to fine-tune larger dialogue generation models. However, the reduction in parameter quantity can diminish a PLM’s expressive capacity and affect the PLM’s learning from certain specific examples like knowledge-related conversations. Previous works have demonstrated that injecting external knowledge into dialogue generation models can improve the model’s performance in knowledge-related conversations. Nonetheless, these methods are designed for the scenario where most parameters of the entire framework are trainable. In this paper, we propose PEK, a parameter-efficient framework for knowledge-enhanced dialogue generation. It enables PLMs to leverage external knowledge documents and knowledge graphs to enhance its generation capabilities with an acceptable number of trainable parameters. Evaluation results on the Wizard of Wikipedia and CMU_DoG datasets show that our approach outperforms baseline methods on multiple evaluation metrics, which validates the effectiveness of our approach.

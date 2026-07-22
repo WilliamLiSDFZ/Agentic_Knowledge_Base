@@ -1,0 +1,18 @@
+---
+title: "How Proficient Are Large Language Models in Formal Languages? An In-Depth Insight for Knowledge Base Question Answering"
+source: "https://aclanthology.org/2024.findings-acl.45/"
+categories: ['llm-reasoning-and-knowledge-graph-benchmarks']
+tags: ['knowledge-base-qa', 'formal-language', 'semantic-parsing']
+venue: "ACL 2024"
+tldr: "This paper benchmarks LLM proficiency in formal languages for knowledge base question answering via semantic parsing approaches."
+---
+
+# How Proficient Are Large Language Models in Formal Languages? An In-Depth Insight for Knowledge Base Question Answering
+
+**Source**: [https://aclanthology.org/2024.findings-acl.45/](https://aclanthology.org/2024.findings-acl.45/)
+
+**TLDR**: This paper benchmarks LLM proficiency in formal languages for knowledge base question answering via semantic parsing approaches.
+
+## Abstract
+
+AbstractKnowledge Base Question Answering (KBQA) aims to answer natural language questions based on facts in knowledge bases. A typical approach to KBQA is semantic parsing, which translates a question into an executable logical form in a formal language. Recent works leverage the capabilities of large language models (LLMs) for logical form generation to improve performance. However, although it is validated that LLMs are capable of solving some KBQA problems, there has been little discussion on the differences in LLMs’ proficiency in formal languages used in semantic parsing. In this work, we propose to evaluate the understanding and generation ability of LLMs to deal with differently structured logical forms by examining the inter-conversion of natural and formal language through in-context learning of LLMs. Extensive experiments with models of different sizes show that state-of-the-art LLMs can understand formal languages as well as humans, but generating correct logical forms given a few examples remains a challenge. Most importantly, our results also indicate that LLMs exhibit considerable sensitivity. In general, the formal language with a lower formalization level, i.e., the more similar it is to natural language, is more friendly to LLMs. Code and data can be found at https://github.com/Matthewlliu/structure_probe.

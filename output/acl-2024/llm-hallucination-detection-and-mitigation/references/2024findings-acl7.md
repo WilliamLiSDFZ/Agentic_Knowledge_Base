@@ -1,0 +1,18 @@
+---
+title: "The Counterfeit Conundrum: Can Code Language Models Grasp the Nuances of Their Incorrect Generations?"
+source: "https://aclanthology.org/2024.findings-acl.7/"
+categories: ['code-llm-generation-and-evaluation', 'llm-hallucination-detection-and-mitigation']
+tags: ['code-generation', 'error-understanding', 'counterfeit-programs']
+venue: "ACL 2024"
+tldr: "This paper investigates whether code language models can recognize and understand the subtle incorrectness in their own generated programs that pass weak correctness checks."
+---
+
+# The Counterfeit Conundrum: Can Code Language Models Grasp the Nuances of Their Incorrect Generations?
+
+**Source**: [https://aclanthology.org/2024.findings-acl.7/](https://aclanthology.org/2024.findings-acl.7/)
+
+**TLDR**: This paper investigates whether code language models can recognize and understand the subtle incorrectness in their own generated programs that pass weak correctness checks.
+
+## Abstract
+
+AbstractWhile language models are increasingly more proficient at code generation, they still frequently generate incorrect programs. Many of these programs are obviously wrong, but others are more subtle and pass weaker correctness checks such as being able to compile. In this work, we focus on these counterfeit samples: programs sampled from a language model that 1) have a high enough log-probability to be generated at a moderate temperature and 2) pass weak correctness checks. Overall, we discover that most models have a very shallow understanding of counterfeits through three clear failure modes. First, models mistakenly classify them as correct. Second, models are worse at reasoning about the execution behaviour of counterfeits and often predict their execution results as if they were correct. Third, when asking models to fix counterfeits, the likelihood of a model successfully repairing a counterfeit is often even lower than that of sampling a correct program from scratch. Counterfeits also have very unexpected properties: first, counterfeit programs for problems that are easier for a model to solve are not necessarily easier to detect and only slightly easier to execute and repair. Second, counterfeits from a given model are just as confusing to the model itself as they are to other models. Finally, both strong and weak models are able to generate counterfeit samples that equally challenge all models. In light of our findings, we recommend that care and caution be taken when relying on models to understand their own samples, especially when no external feedback is incorporated.

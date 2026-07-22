@@ -29,10 +29,14 @@ def get_pdf_url(source_url: str) -> str:
     return source_url.rstrip("/") + ".pdf"
 
 
-def download_pdf(url: str, dest: Path, retries: int = 3) -> bool:
+def download_pdf(url: str, dest: Path, retries: int = 3, timeout: int = 30) -> bool:
+    # urlopen with an explicit timeout + UA — urlretrieve has no timeout and hangs
+    # forever on a flaky/blocked connection.
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     for i in range(retries):
         try:
-            urllib.request.urlretrieve(url, dest)
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                dest.write_bytes(r.read())
             return True
         except Exception as e:
             if i < retries - 1:
@@ -61,15 +65,23 @@ def render_methodology(title: str, source: str, techniques: list) -> str:
     return "\n".join(lines)
 
 
-def extract_methodology(text: str) -> list:
-    resp = client.chat.completions.create(
-        model=MODEL,
-        messages=[{"role": "user", "content": PROMPT.format(text=text)}],
-        temperature=0,
-    )
-    raw = resp.choices[0].message.content
-    raw = re.sub(r"^```json\s*|```$", "", raw.strip(), flags=re.MULTILINE)
-    return json.loads(raw).get("techniques", [])
+def extract_methodology(text: str, retries: int = 3) -> list:
+    last = None
+    for i in range(retries):
+        try:
+            resp = client.chat.completions.create(
+                model=MODEL,
+                messages=[{"role": "user", "content": PROMPT.format(text=text)}],
+                temperature=0,
+            )
+            raw = resp.choices[0].message.content
+            raw = re.sub(r"^```json\s*|```$", "", raw.strip(), flags=re.MULTILINE)
+            return json.loads(raw).get("techniques", [])
+        except Exception as e:   # API error OR malformed JSON — retry with backoff
+            last = e
+            if i < retries - 1:
+                time.sleep(2 ** i + 1)
+    raise last
 
 
 def process_category(category_dir: Path, output_dir: Path):

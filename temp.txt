@@ -1,0 +1,6 @@
+Hi professor,
+
+I'm currently working on the external knowledge base of Mlevolve. My plan for the next step is to improve how it retrieves external knowledge base. It currently picks up to 5 topic categories by name. It can miss some knowledge that has been classified in other categories and may introduce irrelevant information.
+I'm trying to replace it with semantic search. At the cold start phase, it will embed the task description and use hybrid retrieval combined with score-thresholding to retrieve the most relevant techniques. I'm also testing how it performs without embeddings as a baseline.
+
+Hi professor, can you please add me in to the Nautilus namespace if you have time?

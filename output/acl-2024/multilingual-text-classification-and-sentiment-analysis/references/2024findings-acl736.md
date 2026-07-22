@@ -1,0 +1,18 @@
+---
+title: "Multi-modal Stance Detection: New Datasets and Model"
+source: "https://aclanthology.org/2024.findings-acl.736/"
+categories: ['multimodal-language-vision-learning-systems', 'multilingual-text-classification-and-sentiment-analysis']
+tags: ['stance-detection', 'multimodal', 'social-media', 'tweets', 'opinion-mining']
+venue: "ACL 2024"
+tldr: "Introduces new multi-modal stance detection datasets and a model combining text and image signals from social media tweets."
+---
+
+# Multi-modal Stance Detection: New Datasets and Model
+
+**Source**: [https://aclanthology.org/2024.findings-acl.736/](https://aclanthology.org/2024.findings-acl.736/)
+
+**TLDR**: Introduces new multi-modal stance detection datasets and a model combining text and image signals from social media tweets.
+
+## Abstract
+
+AbstractStance detection is a challenging task that aims to identify public opinion from social media platforms with respect to specific targets. Previous work on stance detection largely focused on pure texts. In this paper, we study multi-modal stance detection for tweets consisting of texts and images, which are prevalent in today’s fast-growing social media platforms where people often post multi-modal messages. To this end, we create five new multi-modal stance detection datasets of different domains based on Twitter, in which each example consists of a text and an image. In addition, we propose a simple yet effective Targeted Multi-modal Prompt Tuning framework (TMPT), where target information is leveraged to learn multi-modal stance features from textual and visual modalities. Experimental results on our five benchmark datasets show that the proposed TMPT achieves state-of-the-art performance in multi-modal stance detection.

@@ -1,0 +1,18 @@
+---
+title: "Tailoring with Targeted Precision: Edit-Based Agents for Open-Domain Procedure Customization"
+source: "https://aclanthology.org/2024.findings-acl.921/"
+categories: ['llm-assisted-structured-procedure-analysis', 'llm-agents-reasoning-and-planning']
+tags: ['procedure-customization', 'edit-agents', 'how-to']
+venue: "ACL 2024"
+tldr: "Edit-based LLM agents are proposed to customize how-to procedures to meet specific user constraints and needs."
+---
+
+# Tailoring with Targeted Precision: Edit-Based Agents for Open-Domain Procedure Customization
+
+**Source**: [https://aclanthology.org/2024.findings-acl.921/](https://aclanthology.org/2024.findings-acl.921/)
+
+**TLDR**: Edit-based LLM agents are proposed to customize how-to procedures to meet specific user constraints and needs.
+
+## Abstract
+
+AbstractHow-to procedures, such as how to plant a garden, are now used by millions of users, but sometimes need customizing to meet a user’s specific needs, e.g., planting a garden without pesticides. Our goal is to measure and improve an LLM’s ability to perform such customization. Our approach is to test several simple multi-LLM-agent architectures for customization, as well as an end-to-end LLM, using a new evaluation set, called CustomPlans, of over 200 WikiHow procedures each with a customization need. We find that a simple architecture with two LLM agents used sequentially performs best, one that edits a generic how-to procedure and one that verifies its executability, significantly outperforming (10.5% absolute) an end-to-end prompted LLM. This suggests that LLMs can be configured reasonably effectively for procedure customization. This also suggests that multi-agent editing architectures may be worth exploring further for other customization applications (e.g. coding, creative writing) in the future.

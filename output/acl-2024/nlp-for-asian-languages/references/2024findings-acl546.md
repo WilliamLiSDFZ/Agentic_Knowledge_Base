@@ -1,0 +1,18 @@
+---
+title: "AutoCAP: Towards Automatic Cross-lingual Alignment Planning for Zero-shot Chain-of-Thought"
+source: "https://aclanthology.org/2024.findings-acl.546/"
+categories: ['nlp-for-asian-languages', 'llm-agents-reasoning-and-planning']
+tags: ['cross-lingual', 'chain-of-thought', 'alignment-planning']
+venue: "ACL 2024"
+tldr: "AutoCAP automatically plans cross-lingual alignment for zero-shot chain-of-thought reasoning by integrating multilingual reasoning knowledge."
+---
+
+# AutoCAP: Towards Automatic Cross-lingual Alignment Planning for Zero-shot Chain-of-Thought
+
+**Source**: [https://aclanthology.org/2024.findings-acl.546/](https://aclanthology.org/2024.findings-acl.546/)
+
+**TLDR**: AutoCAP automatically plans cross-lingual alignment for zero-shot chain-of-thought reasoning by integrating multilingual reasoning knowledge.
+
+## Abstract
+
+AbstractCross-lingual chain-of-thought can effectively complete reasoning tasks across languages, which gains increasing attention.Recently, dominant approaches in the literature improve cross-lingual alignment capabilities by integrating reasoning knowledge from different languages. Despite achieving excellent performance, current methods still have two main challenges: (1) Manual language specification: They still highly rely on manually selecting the languages to integrate, severely affecting their generalizability; (2) Static weight allocation: Current methods simply integrate all languages equally. In fact, different language reasoning paths should have different weights to achieve better complementation and integration. Motivated by this, we introduce an Automatic Cross-lingual Alignment Planning (AutoCAP) for zero-shot chain-of-thought to address the above challenges. The core of AutoCAP consists of two components: (1) Automatic Language Selection Prompting to guide LLMs to select appropriate languages and (2) Automatic Weight Allocation Prompting to automatically allocate alignment weight scores to each reasoning path. Extensive experiments on several benchmarks reveal that AutoCAP achieves state-of-the-art performance, surpassing previous methods that required manual effort.

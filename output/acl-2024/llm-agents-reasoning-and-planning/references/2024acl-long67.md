@@ -1,0 +1,18 @@
+---
+title: "BeamAggR: Beam Aggregation Reasoning over Multi-source Knowledge for Multi-hop Question Answering"
+source: "https://aclanthology.org/2024.acl-long.67/"
+categories: ['llm-agents-reasoning-and-planning']
+tags: ['multi-hop-QA', 'retrieval-augmented', 'beam-aggregation']
+venue: "ACL 2024"
+tldr: "Proposes BeamAggR, a beam aggregation reasoning framework over multi-source knowledge for multi-hop question answering."
+---
+
+# BeamAggR: Beam Aggregation Reasoning over Multi-source Knowledge for Multi-hop Question Answering
+
+**Source**: [https://aclanthology.org/2024.acl-long.67/](https://aclanthology.org/2024.acl-long.67/)
+
+**TLDR**: Proposes BeamAggR, a beam aggregation reasoning framework over multi-source knowledge for multi-hop question answering.
+
+## Abstract
+
+AbstractLarge language models (LLMs) have demonstrated strong reasoning capabilities.Nevertheless, they still suffer from factual errors when tackling knowledge-intensive tasks.Retrieval-augmented reasoning represents a promising approach.However, significant challenges still persist, including inaccurate and insufficient retrieval for complex questions, as well as difficulty in integrating multi-source knowledge.To address this, we propose Beam Aggregation Reasoning (BeamAggR), a reasoning framework for knowledge-intensive multi-hop QA.BeamAggR explores and prioritizes promising answers at each hop of question.Concretely, we parse the complex questions into trees, which include atom and composite questions, followed by bottom-up reasoning.For atomic questions, the LLM conducts reasoning on multi-source knowledge to get answer candidates.For composite questions, the LLM combines beam candidates, explores multiple reasoning paths through probabilistic aggregation, and prioritizes the most promising trajectory.Extensive experiments on four open-domain multi-hop reasoning datasets show that our method significantly outperforms SOTA methods by 8.5%.Furthermore, our analysis reveals that BeamAggR elicits better knowledge collaboration and answer aggregation.

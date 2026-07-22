@@ -1,0 +1,18 @@
+---
+title: "Dynamic Stochastic Decoding Strategy for Open-Domain Dialogue Generation"
+source: "https://aclanthology.org/2024.findings-acl.688/"
+categories: ['emotion-aware-dialogue-and-empathy-systems', 'continuous-discrete-representation-tradeoffs']
+tags: ['dialogue-generation', 'stochastic-decoding', 'open-domain']
+venue: "ACL 2024"
+tldr: "Proposes a dynamic stochastic decoding strategy that adapts sampling behavior for different open-domain dialogue scenarios."
+---
+
+# Dynamic Stochastic Decoding Strategy for Open-Domain Dialogue Generation
+
+**Source**: [https://aclanthology.org/2024.findings-acl.688/](https://aclanthology.org/2024.findings-acl.688/)
+
+**TLDR**: Proposes a dynamic stochastic decoding strategy that adapts sampling behavior for different open-domain dialogue scenarios.
+
+## Abstract
+
+AbstractStochastic sampling strategies such as top-k and top-p have been widely used in dialogue generation task. However, as an open-domain chatting system, there will be two different conversation scenarios, i.e. chit-chat and knowledge-based question answering. In the former situation, responses diversity is essential due to the one-to-many nature in dialogue. The latter, on the other hand, requires less randomness given that stochastic decoding strategy entails the risk of generating incorrect information. As a result, an adaptive and flexible decoding strategy is needed to cope with these two scenarios simultaneously. To this end, we propose the dynamic decoding strategy (DDS), which can adjust the decoding space w.r.t. different contexts. In DDS, both sequence-level and token-level adaptive search can be achieved to adjust the decoding process in a unified framework. Besides, our adaptive algorithm can not only be used during model inference, but it can also be applied during the model training stage to further enhance the performance. Comprehensive experiments indicate that the proposed decoding strategy can consistently improve the performance of pre-trained dialogue models when coupled with four well-used stochastic decoding algorithms.

@@ -1,0 +1,18 @@
+---
+title: "Knowledgeable Preference Alignment for LLMs in Domain-specific Question Answering"
+source: "https://aclanthology.org/2024.findings-acl.52/"
+categories: ['llm-training-alignment-and-evaluation', 'nlp-for-asian-languages']
+tags: ['preference-alignment', 'domain-specific-QA', 'LLM', 'knowledge-grounding', 'fine-tuning']
+venue: "ACL 2024"
+tldr: "Proposes knowledgeable preference alignment to improve LLM responses in domain-specific question answering scenarios."
+---
+
+# Knowledgeable Preference Alignment for LLMs in Domain-specific Question Answering
+
+**Source**: [https://aclanthology.org/2024.findings-acl.52/](https://aclanthology.org/2024.findings-acl.52/)
+
+**TLDR**: Proposes knowledgeable preference alignment to improve LLM responses in domain-specific question answering scenarios.
+
+## Abstract
+
+AbstractDeploying large language models (LLMs) to real scenarios for domain-specific question answering (QA) is a key thrust for LLM applications, which poses numerous challenges, especially in ensuring that responses are both accommodating to user requirements and appropriately leveraging domain-specific knowledge bases. They are the two major difficulties for LLM application as vanilla fine-tuning falls short of addressing. Combining these requirements, we conceive of them as the requirement for the model’s preference to be harmoniously aligned with humans’. Thus, we introduce Knowledgeable Preference AlignmenT (KnowPAT), which constructs two kinds of preference sets to tackle the two issues. Besides, we design a new alignment objective to align the LLM preference with different human preferences uniformly, aiming to optimize LLM performance in real-world, domain-specific QA settings. Adequate experiments and comprehensive comparisons with 15 baseline methods illustrate that our KnowPAT is a superior pipeline for real-scenario domain-specific QA with LLMs.

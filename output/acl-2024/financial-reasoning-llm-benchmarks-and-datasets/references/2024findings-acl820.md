@@ -1,0 +1,18 @@
+---
+title: "Argument-Based Sentiment Analysis on Forward-Looking Statements"
+source: "https://aclanthology.org/2024.findings-acl.820/"
+categories: ['financial-reasoning-llm-benchmarks-and-datasets']
+tags: ['argument-mining', 'sentiment-analysis', 'forward-looking-statements']
+venue: "ACL 2024"
+tldr: "Combines argument mining with sentiment analysis to better capture nuanced sentiment in equity research forward-looking statements."
+---
+
+# Argument-Based Sentiment Analysis on Forward-Looking Statements
+
+**Source**: [https://aclanthology.org/2024.findings-acl.820/](https://aclanthology.org/2024.findings-acl.820/)
+
+**TLDR**: Combines argument mining with sentiment analysis to better capture nuanced sentiment in equity research forward-looking statements.
+
+## Abstract
+
+AbstractThis paper introduces a novel approach to analyzing the forward-looking statements in equity research reports by integrating argument mining with sentiment analysis. Recognizing the limitations of traditional models in capturing the nuances of future-oriented analysis, we propose a refined categorization of argument units into claims, premises, and scenarios, coupled with a unique sentiment analysis framework. Furthermore, we incorporate a temporal dimension to categorize the anticipated impact duration of market events. To facilitate this study, we present the Equity Argument Mining and Sentiment Analysis (Equity-AMSA) dataset. Our research investigates the extent to which detailed domain-specific annotations can be provided, the necessity of fine-grained human annotations in the era of large language models, and whether our proposed framework can improve performance in downstream tasks over traditional methods. Experimental results reveal the significance of manual annotations, especially for scenario identification and sentiment analysis. The study concludes that our annotation scheme and dataset contribute to a deeper understanding of forward-looking statements in equity research reports.

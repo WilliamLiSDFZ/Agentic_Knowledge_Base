@@ -1,0 +1,18 @@
+---
+title: "Do Androids Know They’re Only Dreaming of Electric Sheep?"
+source: "https://aclanthology.org/2024.findings-acl.260/"
+categories: ['llm-hallucination-detection-and-mitigation']
+tags: ['hallucination-detection', 'probing-classifiers', 'grounded-generation']
+venue: "ACL 2024"
+tldr: "Probes trained on transformer internal representations predict hallucination behavior in grounded generation tasks."
+---
+
+# Do Androids Know They’re Only Dreaming of Electric Sheep?
+
+**Source**: [https://aclanthology.org/2024.findings-acl.260/](https://aclanthology.org/2024.findings-acl.260/)
+
+**TLDR**: Probes trained on transformer internal representations predict hallucination behavior in grounded generation tasks.
+
+## Abstract
+
+AbstractWe design probes trained on the internal representations of a transformer language model to predict its hallucinatory behavior on three grounded generation tasks. To train the probes, we annotate for span-level hallucination on both sampled (organic) and manually edited (synthetic) reference outputs. Our probes are narrowly trained and we find that they are sensitive to their training domain: they generalize poorly from one task to another or from synthetic to organic hallucinations. However, on in-domain data, they can reliably detect hallucinations at many transformer layers, achieving 95% of their peak performance as early as layer 4. Here, probing proves accurate for evaluating hallucination, outperforming several contemporary baselines and even surpassing an expert human annotator in response-level detection F1. Similarly, on span-level labeling, probes are on par or better than the expert annotator on two out of three generation tasks. Overall, we find that probing is a feasible and efficient alternative to language model hallucination evaluation when model states are available.

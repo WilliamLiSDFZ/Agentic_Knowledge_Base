@@ -1,0 +1,18 @@
+---
+title: "PrivLM-Bench: A Multi-level Privacy Evaluation Benchmark for Language Models"
+source: "https://aclanthology.org/2024.acl-long.4/"
+categories: ['privacy-risks-in-language-model-embeddings', 'llm-training-alignment-and-evaluation']
+tags: ['privacy', 'language-model', 'benchmark', 'membership-inference', 'evaluation']
+venue: "ACL 2024"
+tldr: "PrivLM-Bench is a multi-level benchmark for systematically evaluating privacy risks in language models across diverse scenarios."
+---
+
+# PrivLM-Bench: A Multi-level Privacy Evaluation Benchmark for Language Models
+
+**Source**: [https://aclanthology.org/2024.acl-long.4/](https://aclanthology.org/2024.acl-long.4/)
+
+**TLDR**: PrivLM-Bench is a multi-level benchmark for systematically evaluating privacy risks in language models across diverse scenarios.
+
+## Abstract
+
+AbstractThe rapid development of language models (LMs) brings unprecedented accessibility and usage for both models and users. On the one hand, powerful LMs achieve state-of-the-art performance over numerous downstream NLP tasks. On the other hand, more and more attention is paid to unrestricted model accesses that may bring malicious privacy risks of data leakage. To address these issues, many recent works propose privacy-preserving language models (PPLMs) with differential privacy (DP). Unfortunately, different DP implementations make it challenging for a fair comparison among existing PPLMs. In this paper, we present PrivLM-Bench, a multi-perspective privacy evaluation benchmark to empirically and intuitively quantify the privacy leakage of LMs. Instead of only reporting DP parameters, PrivLM-Bench sheds light on the neglected inference data privacy during actual usage. PrivLM-Bench first clearly defines multi-faceted privacy objectives. Then, PrivLM-Bench constructs a unified pipeline to perform private fine-tuning. Lastly, PrivLM-Bench performs existing privacy attacks on LMs with pre-defined privacy objectives as the empirical evaluation results. The empirical attack results are used to fairly and intuitively evaluate the privacy leakage of various PPLMs. We conduct extensive experiments on three datasets of GLUE for mainstream LMs.

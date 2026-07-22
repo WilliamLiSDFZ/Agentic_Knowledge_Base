@@ -1,0 +1,18 @@
+---
+title: "On the Robustness of Document-Level Relation Extraction Models to Entity Name Variations"
+source: "https://aclanthology.org/2024.findings-acl.969/"
+categories: ['natural-language-processing-information-extraction', 'nlp-benchmark-design-and-interpretability']
+tags: ['relation-extraction', 'document-level', 'entity-name-variation', 'robustness', 'NLP']
+venue: "ACL 2024"
+tldr: "Reveals that document-level relation extraction models are brittle to entity name variations and investigates robustness improvements."
+---
+
+# On the Robustness of Document-Level Relation Extraction Models to Entity Name Variations
+
+**Source**: [https://aclanthology.org/2024.findings-acl.969/](https://aclanthology.org/2024.findings-acl.969/)
+
+**TLDR**: Reveals that document-level relation extraction models are brittle to entity name variations and investigates robustness improvements.
+
+## Abstract
+
+AbstractDriven by the demand for cross-sentence and large-scale relation extraction, document-level relation extraction (DocRE) has attracted increasing research interest. Despite the continuous improvement in performance, we find that existing DocRE models which initially perform well may make more mistakes when merely changing the entity names in the document, hindering the generalization to novel entity names. To this end, we systematically investigate the robustness of DocRE models to entity name variations in this work. We first propose a principled pipeline to generate entity-renamed documents by replacing the original entity names with names from Wikidata. By applying the pipeline to DocRED and Re-DocRED datasets, we construct two novel benchmarks named Env-DocRED and Env-Re-DocRED for robustness evaluation. Experimental results show that both three representative DocRE models and two in-context learned large language models consistently lack sufficient robustness to entity name variations, particularly on cross-sentence relation instances and documents with more entities. Finally, we propose an entity variation robust training method which not only improves the robustness of DocRE models but also enhances their understanding and reasoning capabilities. We further verify that the basic idea of this method can be effectively transferred to in-context learning for DocRE as well.

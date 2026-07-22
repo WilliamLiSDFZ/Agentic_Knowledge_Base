@@ -1,0 +1,18 @@
+---
+title: "Generalized Category Discovery with Large Language Models in the Loop"
+source: "https://aclanthology.org/2024.findings-acl.512/"
+categories: ['text-clustering-with-limited-labels', 'llm-training-alignment-and-evaluation']
+tags: ['generalized-category-discovery', 'novel-categories', 'LLM-in-the-loop']
+venue: "ACL 2024"
+tldr: "An approach leveraging LLMs to improve generalized category discovery for both known and novel unlabeled categories."
+---
+
+# Generalized Category Discovery with Large Language Models in the Loop
+
+**Source**: [https://aclanthology.org/2024.findings-acl.512/](https://aclanthology.org/2024.findings-acl.512/)
+
+**TLDR**: An approach leveraging LLMs to improve generalized category discovery for both known and novel unlabeled categories.
+
+## Abstract
+
+AbstractGeneralized Category Discovery (GCD) is a crucial task that aims to recognize both known and novel categories from a set of unlabeled data by utilizing a few labeled data with only known categories. Due to the lack of supervision and category information, current methods usually perform poorly on novel categories and struggle to reveal semantic meanings of the discovered clusters, which limits their applications in the real world. To mitigate the above issues, we propose Loop, an end-to-end active-learning framework that introduces Large Language Models (LLMs) into the training loop, which can boost model performance and generate category names without relying on any human efforts. Specifically, we first propose Local Inconsistent Sampling (LIS) to select samples that have a higher probability of falling to wrong clusters, based on neighborhood prediction consistency and entropy of cluster assignment probabilities. Then we propose a Scalable Query strategy to allow LLMs to choose true neighbors of the selected samples from multiple candidate samples. Based on the feedback from LLMs, we perform Refined Neighborhood Contrastive Learning (RNCL) to pull samples and their neighbors closer to learn clustering-friendly representations. Finally, we select representative samples from clusters corresponding to novel categories to allow LLMs to generate category names for them. Extensive experiments on three benchmark datasets show that Loop outperforms SOTA models by a large margin and generates accurate category names for the discovered clusters. Code and data are available at https://github.com/Lackel/LOOP.

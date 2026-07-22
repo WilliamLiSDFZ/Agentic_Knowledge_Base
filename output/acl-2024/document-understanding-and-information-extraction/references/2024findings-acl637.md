@@ -1,0 +1,18 @@
+---
+title: "TAME-RD: Text Assisted Replication of Image Multi-Adjustments for Reverse Designing"
+source: "https://aclanthology.org/2024.findings-acl.637/"
+categories: ['multimodal-language-vision-learning-systems', 'document-understanding-and-information-extraction']
+tags: ['image-editing', 'reverse-design', 'text-assisted', 'multimodal', 'edit-replication']
+venue: "ACL 2024"
+tldr: "TAME-RD extracts and replicates image edit operations from natural language instructions to enable automated reverse design of image adjustments."
+---
+
+# TAME-RD: Text Assisted Replication of Image Multi-Adjustments for Reverse Designing
+
+**Source**: [https://aclanthology.org/2024.findings-acl.637/](https://aclanthology.org/2024.findings-acl.637/)
+
+**TLDR**: TAME-RD extracts and replicates image edit operations from natural language instructions to enable automated reverse design of image adjustments.
+
+## Abstract
+
+AbstractGiven a source and its edited version performed based on human instructions in natural language, how do we extract the underlying edit operations, to automatically replicate similar edits on other images? This is the problem of reverse designing, and we present TAME-RD, a model to solve this problem. TAME-RD automatically learns from the complex interplay of image editing operations and the natural language instructions to learn fully specified edit operations. It predicts both the underlying image edit operations as discrete categories and their corresponding parameter values in the continuous space.We accomplish this by mapping together the contextual information from the natural language text and the structural differences between the corresponding source and edited images using the concept of pre-post effect. We demonstrate the efficiency of our network through quantitative evaluations on multiple datasets. We observe improvements of 6-10% on various accuracy metrics and 1.01X-4X on the RMSE score and the concordance correlation coefficient for the corresponding parameter values on the benchmark GIER dataset. We also introduce I-MAD, a new two-part dataset: I-MAD-Dense, a collection of approximately 100K source and edited images, together with automatically generated text instructions and annotated edit operations, and I-MAD-Pro, consisting of about 1.6K source and edited images, together with text instructions and annotated edit operations provided by professional editors. On our dataset, we observe absolute improvements of 1-10% on the accuracy metrics and 1.14X–5X on the RMSE score.

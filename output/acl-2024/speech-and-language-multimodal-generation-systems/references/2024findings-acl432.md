@@ -1,0 +1,18 @@
+---
+title: "MS2SL: Multimodal Spoken Data-Driven Continuous Sign Language Production"
+source: "https://aclanthology.org/2024.findings-acl.432/"
+categories: ['speech-and-language-multimodal-generation-systems', 'multimodal-language-vision-learning-systems']
+tags: ['sign-language', 'multimodal', 'speech-to-sign', 'continuous-production', 'unified-framework']
+venue: "ACL 2024"
+tldr: "Proposes a unified multimodal framework for generating continuous sign language sequences from text or speech input."
+---
+
+# MS2SL: Multimodal Spoken Data-Driven Continuous Sign Language Production
+
+**Source**: [https://aclanthology.org/2024.findings-acl.432/](https://aclanthology.org/2024.findings-acl.432/)
+
+**TLDR**: Proposes a unified multimodal framework for generating continuous sign language sequences from text or speech input.
+
+## Abstract
+
+AbstractSign language understanding has made significant strides; however, there is still no viable solution for generating sign sequences directlyfrom entire spoken content, e.g., text or speech. In this paper, we propose a unified framework for continuous sign language production, easing communication between sign and non-sign language users. In particular, a sequence diffusion model, utilizing embeddings extracted from text or speech, is crafted to generate sign predictions step by step. Moreover, by creating a joint embedding space for text, audio, and sign, we bind these modalities and leverage the semantic consistency among them to provide informative feedback for the model training. This embedding-consistency learning strategy minimizes the reliance on sign triplets and ensures continuous model refinement, evenwith a missing audio modality. Experiments on How2Sign and PHOENIX14T datasets demonstrate that our model achieves competitive performance in sign language production.

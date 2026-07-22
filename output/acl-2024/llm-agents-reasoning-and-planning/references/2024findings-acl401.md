@@ -1,0 +1,18 @@
+---
+title: "Two-stage Generative Question Answering on Temporal Knowledge Graph Using Large Language Models"
+source: "https://aclanthology.org/2024.findings-acl.401/"
+categories: ['llm-reasoning-and-knowledge-graph-benchmarks', 'llm-agents-reasoning-and-planning']
+tags: ['temporal-knowledge-graph', 'question-answering', 'two-stage-generation']
+venue: "ACL 2024"
+tldr: "A two-stage generative approach using LLMs for question answering over temporal knowledge graphs."
+---
+
+# Two-stage Generative Question Answering on Temporal Knowledge Graph Using Large Language Models
+
+**Source**: [https://aclanthology.org/2024.findings-acl.401/](https://aclanthology.org/2024.findings-acl.401/)
+
+**TLDR**: A two-stage generative approach using LLMs for question answering over temporal knowledge graphs.
+
+## Abstract
+
+AbstractTemporal knowledge graph question answering (TKGQA) poses a significant challenge task, due to the temporal constraints hidden in questions and the answers sought from dynamic structured knowledge. Although large language models (LLMs) have made considerable progress in their reasoning ability over structured data, their application to the TKGQA task is a relatively unexplored area. This paper first proposes a novel generative temporal knowledge graph question answering framework, GenTKGQA, which guides LLMs to answer temporal questions through two phases: Subgraph Retrieval and Answer Generation. First, we exploit LLM’s intrinsic knowledge to mine temporal constraints and structural links in the questions without extra training, thus narrowing down the subgraph search space in both temporal and structural dimensions. Next, we design virtual knowledge indicators to fuse the graph neural network signals of the subgraph and the text representations of the LLM in a non-shallow way, which helps the open-source LLM deeply understand the temporal order and structural dependencies among the retrieved facts through instruction tuning. Experimental results on two widely used datasets demonstrate the superiority of our model.

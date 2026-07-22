@@ -162,8 +162,14 @@ TOOL_FNS = {
 }
 
 
-def run_agent(category_dir: Path, output_path: Path, venue: str, year: int, category: str):
+def run_agent(category_dir: Path, output_path: Path, venue: str, year: int, category: str,
+              allow_git: bool = True):
     insight_repo = output_path.parent.parent  # methodology_kb/paperinsight/
+
+    # When run concurrently, per-category git commits race on the same repo. The caller
+    # passes allow_git=False (git_commit tool withheld) and commits once at the end.
+    tools = TOOLS if allow_git else [t for t in TOOLS if t["function"]["name"] != "git_commit"]
+    commit_instr = "git commit" if allow_git else "do NOT run git — the caller handles committing"
 
     user_msg = f"""Synthesize methodology insights for:
 - Category directory: {category_dir}
@@ -172,7 +178,7 @@ def run_agent(category_dir: Path, output_path: Path, venue: str, year: int, cate
 - Venue: {venue}, Year: {year}, Category: {category}
 - Git repo for committing: {insight_repo}
 
-Complete the full task: list files, read all, synthesize, write index file + one references/{{slug}}.md per insight, git commit."""
+Complete the full task: list files, read all, synthesize, write index file + one references/{{slug}}.md per insight, {commit_instr}."""
 
     messages = [{"role": "user", "content": user_msg}]
 
@@ -182,7 +188,7 @@ Complete the full task: list files, read all, synthesize, write index file + one
         resp = client.chat.completions.create(
             model=MODEL,
             messages=[{"role": "system", "content": SYSTEM}] + messages,
-            tools=TOOLS,
+            tools=tools,
             tool_choice="auto",
             temperature=0,
         )

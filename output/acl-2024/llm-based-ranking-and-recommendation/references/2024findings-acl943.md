@@ -1,0 +1,18 @@
+---
+title: "Retrieval-Augmented Retrieval: Large Language Models are Strong Zero-Shot Retriever"
+source: "https://aclanthology.org/2024.findings-acl.943/"
+categories: ['llm-based-ranking-and-recommendation']
+tags: ['retrieval-augmented', 'zero-shot-retrieval', 'LLM']
+venue: "ACL 2024"
+tldr: "Proposes LameR, a retrieval-augmented retrieval method using only an LLM for large-scale zero-shot retrieval."
+---
+
+# Retrieval-Augmented Retrieval: Large Language Models are Strong Zero-Shot Retriever
+
+**Source**: [https://aclanthology.org/2024.findings-acl.943/](https://aclanthology.org/2024.findings-acl.943/)
+
+**TLDR**: Proposes LameR, a retrieval-augmented retrieval method using only an LLM for large-scale zero-shot retrieval.
+
+## Abstract
+
+AbstractWe propose a simple method that applies a large language model (LLM) to large-scale retrieval in zero-shot scenarios. Our method, the Large language model as Retriever (LameR), is built upon no other neural models but an LLM in a retrieval-augmented retrieval fashion, while breaking brute-force combinations of retrievers with LLMs and lifting the performance of zero-shot retrieval to be very competitive on benchmark datasets. Essentially, we propose to augment a query with its potential answers by prompting LLMs with a composition of the query and the query’s in-domain candidates. The candidates, regardless of correct or wrong, are obtained by a vanilla retrieval procedure on the target collection. As a part of the prompts, they are likely to help LLM generate more precise answers by pattern imitation or candidate summarization. Even if all the candidates are wrong, the prompts at least make LLM aware of in-collection patterns and genres. Moreover, due to the low performance of a self-supervised retriever, the LLM-based query augmentation becomes less effective as the retriever bottlenecks the whole pipeline. Therefore, we propose to leverage a non-parametric lexicon-based method (e.g., BM25) as the retrieval module to capture query-document overlap in a literal fashion. As such, LameR makes the retrieval procedure transparent to the LLM, thus circumventing the bottleneck.

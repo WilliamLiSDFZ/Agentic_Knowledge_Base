@@ -1,0 +1,18 @@
+---
+title: "When to Trust LLMs: Aligning Confidence with Response Quality"
+source: "https://aclanthology.org/2024.findings-acl.357/"
+categories: ['llm-hallucination-detection-and-mitigation', 'llm-training-alignment-and-evaluation']
+tags: ['confidence-calibration', 'LLM-trustworthiness', 'response-quality']
+venue: "ACL 2024"
+tldr: "A method for aligning LLM confidence scores with response quality to improve trustworthiness in safety-critical applications."
+---
+
+# When to Trust LLMs: Aligning Confidence with Response Quality
+
+**Source**: [https://aclanthology.org/2024.findings-acl.357/](https://aclanthology.org/2024.findings-acl.357/)
+
+**TLDR**: A method for aligning LLM confidence scores with response quality to improve trustworthiness in safety-critical applications.
+
+## Abstract
+
+AbstractDespite the success of large language models (LLMs) in natural language generation, much evidence shows that LLMs may produce incorrect or nonsensical text. This limitation highlights the importance of discerning when to trust LLMs, especially in safety-critical domains. Existing methods often express reliability by confidence level, however, their effectiveness is limited by the lack of objective guidance. To address this, we propose CONfidence-Quality-ORDer-preserving alignment approach (CONQORD), which leverages reinforcement learning guided by a tailored dual-component reward function. This function integrates quality reward and order-preserving alignment reward functions. Specifically, the order-preserving reward incentivizes the model to verbalize greater confidence for responses of higher quality to align the order of confidence and quality. Experiments demonstrate that CONQORD significantly improves the alignment performance between confidence and response accuracy, without causing over-cautious. Furthermore, the aligned confidence provided by CONQORD informs when to trust LLMs, and acts as a determinant for initiating the retrieval process of external knowledge. Aligning confidence with response quality ensures more transparent and reliable responses, providing better trustworthiness.

@@ -1,0 +1,18 @@
+---
+title: "Language-Informed Beam Search Decoding for Multilingual Machine Translation"
+source: "https://aclanthology.org/2024.findings-acl.932/"
+categories: ['minimum-bayes-risk-decoding-efficiency', 'multilingual-text-classification-and-sentiment-analysis']
+tags: ['beam-search', 'multilingual-translation', 'off-target']
+venue: "ACL 2024"
+tldr: "Language-informed beam search decoding reduces off-target translations in multilingual neural machine translation models."
+---
+
+# Language-Informed Beam Search Decoding for Multilingual Machine Translation
+
+**Source**: [https://aclanthology.org/2024.findings-acl.932/](https://aclanthology.org/2024.findings-acl.932/)
+
+**TLDR**: Language-informed beam search decoding reduces off-target translations in multilingual neural machine translation models.
+
+## Abstract
+
+AbstractBeam search decoding is the de-facto method for decoding auto-regressive Neural Machine Translation (NMT) models, including multilingual NMT where the target language is specified as an input. However, decoding multilingual NMT models commonly produces off-target translations – yielding translation outputs not in the intended language.In this paper, we first conduct an error analysis of off-target translations for a strong multilingual NMT model and identify how these decodings are produced during beam search. We then propose Language-informed Beam Search (LiBS), a general decoding algorithm incorporating an off-the-shelf Language Identification (LiD) model into beam search decoding to reduce off-target translations. LiBS is an inference-time procedure that is NMT-model agnostic and does not require any additional parallel data. Results show that our proposed LiBS algorithm on average improves +1.1 BLEU and +0.9 BLEU on WMT and OPUS datasets, and reduces off-target rates from 22.9% to 7.7% and 65.8% to 25.3% respectively.

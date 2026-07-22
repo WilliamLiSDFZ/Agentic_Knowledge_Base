@@ -1,0 +1,18 @@
+---
+title: "Decoding the Narratives: Analyzing Personal Drug Experiences Shared on Reddit"
+source: "https://aclanthology.org/2024.findings-acl.367/"
+categories: ['online-discourse-mental-health-language-analysis', 'natural-language-processing-information-extraction']
+tags: ['drug-use-narratives', 'Reddit', 'NLP-analysis']
+venue: "ACL 2024"
+tldr: "Analyzes personal drug experience narratives on Reddit to extract insights into substance use patterns, harm reduction, and addiction recovery discourse."
+---
+
+# Decoding the Narratives: Analyzing Personal Drug Experiences Shared on Reddit
+
+**Source**: [https://aclanthology.org/2024.findings-acl.367/](https://aclanthology.org/2024.findings-acl.367/)
+
+**TLDR**: Analyzes personal drug experience narratives on Reddit to extract insights into substance use patterns, harm reduction, and addiction recovery discourse.
+
+## Abstract
+
+AbstractOnline communities such as drug-related subreddits serve as safe spaces for people who use drugs (PWUD), fostering discussions on substance use experiences, harm reduction, and addiction recovery. Users’ shared narratives on these forums provide insights into the likelihood of developing a substance use disorder (SUD) and recovery potential. Our study aims to develop a multi-level, multi-label classification model to analyze online user-generated texts about substance use experiences. For this purpose, we first introduce a novel taxonomy to assess the nature of posts, including their intended connections (Inquisition or Disclosure), subjects (e.g., Recovery, Dependency), and specific objectives (e.g., Relapse, Quality, Safety). Using various multi-label classification algorithms on a set of annotated data, we show that GPT-4, when prompted with instructions, definitions, and examples, outperformed all other models. We apply this model to label an additional 1,000 posts and analyze the categories of linguistic expression used within posts in each class. Our analysis shows that topics such as Safety, Combination of Substances, and Mental Health see more disclosure, while discussions about physiological Effects focus on harm reduction. Our work enriches the understanding of PWUD’s experiences and informs the broader knowledge base on SUD and drug use.

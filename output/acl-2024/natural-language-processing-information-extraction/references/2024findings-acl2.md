@@ -1,0 +1,18 @@
+---
+title: "Match More, Extract Better! Hybrid Matching Model for Open Domain Web Keyphrase Extraction"
+source: "https://aclanthology.org/2024.findings-acl.2/"
+categories: ['natural-language-processing-information-extraction', 'document-understanding-and-information-extraction']
+tags: ['keyphrase-extraction', 'hybrid-matching', 'web-documents']
+venue: "ACL 2024"
+tldr: "Proposes a hybrid matching model combining multiple signals to improve salient keyphrase extraction from noisy open-domain web documents."
+---
+
+# Match More, Extract Better! Hybrid Matching Model for Open Domain Web Keyphrase Extraction
+
+**Source**: [https://aclanthology.org/2024.findings-acl.2/](https://aclanthology.org/2024.findings-acl.2/)
+
+**TLDR**: Proposes a hybrid matching model combining multiple signals to improve salient keyphrase extraction from noisy open-domain web documents.
+
+## Abstract
+
+AbstractKeyphrase extraction aims to automatically extract salient phrases representing the critical information in the source document. Identifying salient phrases is challenging because there is a lot of noisy information in the document, leading to wrong extraction. To address this issue, in this paper, we propose a hybrid matching model for keyphrase extraction, which combines representation-focused and interaction-based matching modules into a unified framework for improving the performance of the keyphrase extraction task. Specifically, HybridMatch comprises (1) a PLM-based Siamese encoder component that represents both candidate phrases and documents, (2) an interaction-focused matching (IM) component that estimates word matches between candidate phrases and the corresponding document at the word level, and (3) a representation-focused matching (RM) component captures context-aware semantic relatedness of each candidate keyphrase at the phrase level. Extensive experimental results on the OpenKP dataset demonstrate that the performance of the proposed model HybridMatch outperforms the recent state-of-the-art keyphrase extraction baselines. Furthermore, we discuss the performance of large language models in keyphrase extraction based on recent studies and our experiments.

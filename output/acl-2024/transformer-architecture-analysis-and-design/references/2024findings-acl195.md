@@ -1,0 +1,18 @@
+---
+title: "PyramidInfer: Pyramid KV Cache Compression for High-throughput LLM Inference"
+source: "https://aclanthology.org/2024.findings-acl.195/"
+categories: ['collaborative-llm-deployment-and-inference-optimization', 'transformer-architecture-analysis-and-design']
+tags: ['kv-cache', 'inference-efficiency', 'memory-compression']
+venue: "ACL 2024"
+tldr: "PyramidInfer compresses KV caches using a pyramid structure to improve LLM inference throughput while reducing GPU memory usage."
+---
+
+# PyramidInfer: Pyramid KV Cache Compression for High-throughput LLM Inference
+
+**Source**: [https://aclanthology.org/2024.findings-acl.195/](https://aclanthology.org/2024.findings-acl.195/)
+
+**TLDR**: PyramidInfer compresses KV caches using a pyramid structure to improve LLM inference throughput while reducing GPU memory usage.
+
+## Abstract
+
+AbstractLarge Language Models (LLMs) have shown remarkable comprehension abilities but face challenges in GPU memory usage during inference, hindering their scalability for real-time applications like chatbots. To accelerate inference, we store computed keys and values (KV cache) in the GPU memory. Existing methods study the KV cache compression to reduce memory by pruning the pre-computed KV cache. However, they neglect the inter-layer dependency between layers and huge memory consumption in pre-computation. To explore these deficiencies, we find that the number of crucial keys and values that influence future generations decreases layer by layer and we can extract them by the consistency in attention weights. Based on the findings, we propose PyramidInfer, a method that compresses the KV cache by layer-wise retaining crucial context. PyramidInfer saves significant memory by computing fewer keys and values without sacrificing performance. Experimental results show PyramidInfer improves 2.2x throughput compared to Accelerate with over 54% GPU memory reduction in KV cache.

@@ -1,0 +1,18 @@
+---
+title: "Leveraging Entity Information for Cross-Modality Correlation Learning: The Entity-Guided Multimodal Summarization"
+source: "https://aclanthology.org/2024.findings-acl.587/"
+categories: ['multimodal-language-vision-learning-systems']
+tags: ['multimodal-summarization', 'entity-guided', 'cross-modality', 'image-text']
+venue: "ACL 2024"
+tldr: "Introduces an entity-guided approach to improve cross-modality correlation learning for multimodal summarization with multimodal output."
+---
+
+# Leveraging Entity Information for Cross-Modality Correlation Learning: The Entity-Guided Multimodal Summarization
+
+**Source**: [https://aclanthology.org/2024.findings-acl.587/](https://aclanthology.org/2024.findings-acl.587/)
+
+**TLDR**: Introduces an entity-guided approach to improve cross-modality correlation learning for multimodal summarization with multimodal output.
+
+## Abstract
+
+AbstractThe rapid increase in multimedia data has spurred advancements in Multimodal Summarization with Multimodal Output (MSMO), which aims to produce a multimodal summary that integrates both text and relevant images. The inherent heterogeneity of content within multimodal inputs and outputs presents a significant challenge to the execution of MSMO. Traditional approaches typically adopt a holistic perspective on coarse image-text data or individual visual objects, overlooking the essential connections between objects and the entities they represent. To integrate the fine-grained entity knowledge, we propose an Entity-Guided Multimodal Summarization model (EGMS). Our model, building on BART, utilizes dual multimodal encoders with shared weights to process text-image and entity-image information concurrently. A gating mechanism then combines visual data for enhanced textual summary generation, while image selection is refined through knowledge distillation from a pre-trained vision-language model. Extensive experiments on public MSMO dataset validate the superiority of the EGMS method, which also prove the necessity to incorporate entity information into MSMO problem.

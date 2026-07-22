@@ -1,0 +1,18 @@
+---
+title: "RefuteBench: Evaluating Refuting Instruction-Following for Large Language Models"
+source: "https://aclanthology.org/2024.findings-acl.818/"
+categories: ['llm-training-alignment-and-evaluation', 'nlp-benchmark-design-and-interpretability']
+tags: ['instruction-following', 'refutation', 'llm-evaluation']
+venue: "ACL 2024"
+tldr: "RefuteBench evaluates whether LLMs can appropriately update their responses when users provide contradicting feedback."
+---
+
+# RefuteBench: Evaluating Refuting Instruction-Following for Large Language Models
+
+**Source**: [https://aclanthology.org/2024.findings-acl.818/](https://aclanthology.org/2024.findings-acl.818/)
+
+**TLDR**: RefuteBench evaluates whether LLMs can appropriately update their responses when users provide contradicting feedback.
+
+## Abstract
+
+AbstractThe application scope of large language models (LLMs) is increasingly expanding. In practical use, users might provide feedback based on the model’s output, hoping for a responsive model that can complete responses according to their feedback. Whether the model can appropriately respond to users’ refuting feedback and consistently follow through with execution has not been thoroughly analyzed. In light of this, this paper proposes a comprehensive benchmark, RefuteBench, covering tasks such as question answering, machine translation, and email writing. The evaluation aims to assess whether models can positively accept feedback in form of refuting instructions and whether they can consistently adhere to user demands throughout the conversation. We conduct evaluations on numerous LLMs and find that LLMs are stubborn, i.e. exhibit inclination to their internal knowledge, often failing to comply with user feedback. Additionally, as the length of the conversation increases, models gradually forget the user’s stated feedback and roll back to their own responses. We further propose a recall-and-repeat prompts as a simple and effective way to enhance the model’s responsiveness to feedback.

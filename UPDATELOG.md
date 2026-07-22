@@ -6,6 +6,44 @@ affected files.
 
 ---
 
+## 2026-07-17 — Merged, concurrent methodology builder (plugin A + A2)
+
+Adds one orchestrator that runs the whole plugin A → A2 pipeline for a venue with
+two-stage concurrency, replacing the serial `build_methodology_all.sh`.
+
+### Added
+
+- **`scripts/build_methodology.py`** — merged, concurrent builder.
+  - **Stage 1 (plugin A):** per-paper extraction for every paper across all categories,
+    parallel over papers (`--paper-workers`, default 8).
+  - **Stage 2 (plugin A2):** cross-paper synthesis per category, parallel over categories
+    (`--category-workers`, default 3); per-agent git is withheld and a **single** commit is
+    made at the end (avoids concurrent-commit corruption of the paperinsight repo).
+  - Resumable: Stage 1 skips papers with an existing `*_methodology.md`; Stage 2 skips
+    categories with an existing `insight.md`. Per-task failures are isolated, not fatal.
+  - `--categories all|slug,slug`, `--skip-a`, `--skip-a2`, `--build-index`.
+  - Reuses the plugin functions (no logic rewrite); output paths unchanged.
+
+### Changed
+
+- **`scripts/plugin_a_methodology.py`**
+  - `download_pdf` now uses `urlopen` with a **30s timeout + User-Agent** (urlretrieve had
+    no timeout and hung forever on a flaky/blocked connection).
+  - `extract_methodology` now **retries with backoff** (API errors and malformed JSON).
+- **`scripts/plugin_a2_insighter.py`**
+  - `run_agent(..., allow_git=False)` withholds the `git_commit` tool so it is safe to run
+    concurrently; the caller commits once at the end.
+
+### Notes
+
+- Still aclanthology-only (bug #5 intentionally not touched) — use `acl` / `naacl`.
+- Verified with stubbed deps (no network): ACL-only + resume filtering for both stages,
+  and the `git_commit` tool is withheld under `allow_git=False`. All 3 files `py_compile`.
+
+Usage: `python scripts/build_methodology.py --venue naacl --year 2024 --build-index`
+
+---
+
 ## 2026-07-17 — Semantic retrieval index builder (design Phase 1)
 
 Implements the build side of `docs/semantic_retrieval_design.md`: a portable index that lets

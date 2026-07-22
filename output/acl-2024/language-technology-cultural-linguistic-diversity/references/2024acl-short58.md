@@ -1,0 +1,18 @@
+---
+title: "How Good is Zero-Shot MT Evaluation for Low Resource Indian Languages?"
+source: "https://aclanthology.org/2024.acl-short.58/"
+categories: ['language-technology-cultural-linguistic-diversity', 'llm-training-alignment-and-evaluation']
+tags: ['machine-translation-evaluation', 'low-resource', 'Indian-languages', 'zero-shot', 'evaluation-metrics']
+venue: "ACL 2024"
+tldr: "Evaluates zero-shot MT evaluation methods on low-resource Indian languages, analyzing their effectiveness and limitations."
+---
+
+# How Good is Zero-Shot MT Evaluation for Low Resource Indian Languages?
+
+**Source**: [https://aclanthology.org/2024.acl-short.58/](https://aclanthology.org/2024.acl-short.58/)
+
+**TLDR**: Evaluates zero-shot MT evaluation methods on low-resource Indian languages, analyzing their effectiveness and limitations.
+
+## Abstract
+
+AbstractWhile machine translation evaluation has been studied primarily for high-resource languages, there has been a recent interest in evaluation for low-resource languages due to the increasing availability of data and models. In this paper, we focus on a zero-shot evaluation setting focusing on low-resource Indian languages, namely Assamese, Kannada, Maithili, and Punjabi. We collect sufficient Multi-Dimensional Quality Metrics (MQM) and Direct Assessment (DA) annotations to create test sets and meta-evaluate a plethora of automatic evaluation metrics. We observe that even for learned metrics, which are known to exhibit zero-shot performance, the Kendall Tau and Pearson correlations with human annotations are only as high as 0.32 and 0.45. Synthetic data approaches show mixed results and overall do not help close the gap by much for these languages. This indicates that there is still a long way to go for low-resource evaluation.

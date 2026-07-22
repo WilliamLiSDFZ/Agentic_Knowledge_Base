@@ -1,0 +1,18 @@
+---
+title: "The Revolution of Multimodal Large Language Models: A Survey"
+source: "https://aclanthology.org/2024.findings-acl.807/"
+categories: ['multimodal-language-vision-learning-systems', 'llm-training-alignment-and-evaluation']
+tags: ['multimodal-llm', 'survey', 'vision-language']
+venue: "ACL 2024"
+tldr: "Comprehensive survey of multimodal large language models connecting text and visual modalities for generative intelligence."
+---
+
+# The Revolution of Multimodal Large Language Models: A Survey
+
+**Source**: [https://aclanthology.org/2024.findings-acl.807/](https://aclanthology.org/2024.findings-acl.807/)
+
+**TLDR**: Comprehensive survey of multimodal large language models connecting text and visual modalities for generative intelligence.
+
+## Abstract
+
+AbstractConnecting text and visual modalities plays an essential role in generative intelligence. For this reason, inspired by the success of large language models, significant research efforts are being devoted to the development of Multimodal Large Language Models (MLLMs). These models can seamlessly integrate visual and textual modalities, while providing a dialogue-based interface and instruction-following capabilities. In this paper, we provide a comprehensive review of recent visual-based MLLMs, analyzing their architectural choices, multimodal alignment strategies, and training techniques. We also conduct a detailed analysis of these models across a wide range of tasks, including visual grounding, image generation and editing, visual understanding, and domain-specific applications. Additionally, we compile and describe training datasets and evaluation benchmarks, conducting comparisons among existing models in terms of performance and computational requirements. Overall, this survey offers a comprehensive overview of the current state of the art, laying the groundwork for future MLLMs.

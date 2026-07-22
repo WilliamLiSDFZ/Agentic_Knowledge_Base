@@ -1,0 +1,18 @@
+---
+title: "BadActs: A Universal Backdoor Defense in the Activation Space"
+source: "https://aclanthology.org/2024.findings-acl.317/"
+categories: ['llm-security-robustness-and-detection', 'transformer-architecture-analysis-and-design']
+tags: ['backdoor-defense', 'activation-space', 'neural-network-security']
+venue: "ACL 2024"
+tldr: "BadActs is a universal backdoor defense that detects and purifies backdoor samples by analyzing activation patterns in neural networks."
+---
+
+# BadActs: A Universal Backdoor Defense in the Activation Space
+
+**Source**: [https://aclanthology.org/2024.findings-acl.317/](https://aclanthology.org/2024.findings-acl.317/)
+
+**TLDR**: BadActs is a universal backdoor defense that detects and purifies backdoor samples by analyzing activation patterns in neural networks.
+
+## Abstract
+
+AbstractBackdoor attacks pose an increasingly severe security threat to Deep Neural Networks (DNNs) during their development stage. In response, backdoor sample purification has emerged as a promising defense mechanism, aiming to eliminate backdoor triggers while preserving the integrity of the clean content in the samples. However, existing approaches have been predominantly focused on the word space, which are ineffective against feature-space triggers and significantly impair performance on clean data. To address this, we introduce a universal backdoor defense that purifies backdoor samples in the activation space by drawing abnormal activations towards optimized minimum clean activation distribution intervals. The advantages of our approach are twofold: (1) By operating in the activation space, our method captures from surface-level information like words to higher-level semantic concepts such as syntax, thus counteracting diverse triggers; (2) the fine-grained continuous nature of the activation space allows for more precise preservation of clean content while removing triggers. Furthermore, we propose a detection module based on statistical information of abnormal activations, to achieve a better trade-off between clean accuracy and defending performance. Extensive experiments on diverse datasets and against diverse attacks (including syntax and style attacks) demonstrate that our defense achieves state-of-the-art performance.

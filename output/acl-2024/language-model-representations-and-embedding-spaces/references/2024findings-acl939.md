@@ -1,0 +1,18 @@
+---
+title: "A Critical Study of What Code-LLMs (Do Not) Learn"
+source: "https://aclanthology.org/2024.findings-acl.939/"
+categories: ['code-llm-generation-and-evaluation', 'language-model-representations-and-embedding-spaces']
+tags: ['code-llm', 'syntactic-errors', 'representation-analysis']
+venue: "ACL 2024"
+tldr: "Critically analyzes limitations of code-LLMs, identifying specific deficiencies such as syntactic errors and variable misuse despite large training corpora."
+---
+
+# A Critical Study of What Code-LLMs (Do Not) Learn
+
+**Source**: [https://aclanthology.org/2024.findings-acl.939/](https://aclanthology.org/2024.findings-acl.939/)
+
+**TLDR**: Critically analyzes limitations of code-LLMs, identifying specific deficiencies such as syntactic errors and variable misuse despite large training corpora.
+
+## Abstract
+
+AbstractLarge Language Models trained on code corpora (code-LLMs) have demonstrated impressive performance in various coding assistance tasks. However, despite their increased size and training dataset, code-LLMs still have limitations such as suggesting codes with syntactic errors, variable misuse etc. Some studies argue that code-LLMs perform well on coding tasks because they use self-attention and hidden representations to encode relations among input tokens. However, previous works have not studied what code properties are not encoded by code-LLMs. In this paper, we conduct a fine-grained analysis of attention maps and hidden representations of code-LLMs. Our study indicates that code-LLMs only encode relations among specific subsets of input tokens. Specifically, by categorizing input tokens into syntactic tokens and identifiers, we found that models encode relations among syntactic tokens and among identifiers, but they fail to encode relations between syntactic tokens and identifiers. We also found that fine-tuned models encode these relations poorly compared to their pre-trained counterparts. Additionally, larger models with billions of parameters encode significantly less information about code than models with only a few hundred million parameters.
