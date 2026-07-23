@@ -313,6 +313,41 @@ embedding_device: cpu              # 或 cuda
 - 产物放 `methodology_kb/index/` 里(随 KB 一起走)还是作为独立发布物?放 KB 里最简单,也契合 mlevolve
   本就指向 `methodology_kb_path` 的方式。
 
+## 16. Lazy 模式(v1.1,已实现):摘要先行索引 + 按需深加工
+
+**动机。** 批量管线(plugin A 全量抽取 + A2 逐 category 综合)把全部抽取成本预付在前——单个
+NeurIPS 年份就要 ~70M+ input token,而一次冷启动实际只消费极少数 insight。Lazy 模式把昂贵步骤
+移到查询时,并加上封顶。
+
+**流程**(`methodology_retrieval: lazy`):
+
+1. **摘要索引**(本仓库 `scripts/6_build_abstract_index.py`):每篇论文一条记录
+   (title/tldr/abstract + `pdf_url`/`source`),本地 embedding——**零 LLM 成本**。
+   已作为 `run_all.sh` 的默认收尾步骤(重的批量 step 5 改为 `FULL_METHODOLOGY=1` 可选)。
+2. **冷启动检索**(MLEvolve `engine/coldstart/ondemand.py`):用**低相对阈值**查摘要索引
+   (`lazy_min_score` 默认 0.05;pool `lazy_pool` = 40)——重召回轻精度,因为下一步的成本
+   有封顶,精度在组装时找回。
+3. **按需抽取:** 没有缓存 `*_methodology.md` 的候选**现场**抽取(下 PDF → pymupdf →
+   每篇一次 LLM;线程池;每任务至多 `max_extractions_per_coldstart` = 20——**成本天花板旋钮**)。
+   结果写入**标准** `methodology_kb/{venue}/{category}/` 布局:缓存永久、与批量管线共享
+   (它会跳过已存在文件),之后还能离线跑 A2 综合。
+4. **组装:** 所有可用候选的 `[POSITIVE]` 段,按摘要检索分排序、按标题去重、受
+   `retr_token_budget` 约束,以与其它模式一致的 guidance 块格式注入。
+
+**成本:** 起步 ~0.3M token/任务(20 篇 × ~16k),随缓存变热趋近于零——对比批量路径的
+70M+ 预付。
+
+**取舍:** 环内没有跨论文综合和置信度校准(A2)——可定期对积累的缓存离线跑 A2 回补;
+冷启动下 PDF 需要联网(失败时优雅降级为只用缓存);`pymupdf4llm` 在 MLEvolve 是软依赖
+(缺失则跳过抽取);冷启动延迟 +3–8 分钟,受抽取封顶约束。
+
+**配置(MLEvolve):** `abstract_index_path`、`lazy_pool`、`lazy_min_score`、
+`max_extractions_per_coldstart`、`lazy_extract_workers`;lazy 模式下 `methodology_kb_path`
+指向 **methodology_kb 根目录**(抽取缓存树)。
+
+**预留(默认关):** `lazy_synthesize`——对抽出的技术做一次任务条件化的单发综合调用
+(比 A2 的 agent 循环便宜一个量级;phase 2)。
+
 ## 参考(2026 检索现状)
 
 - 2026 最佳开源 embedding 模型(BGE-M3 作生产默认;Qwen3-Embedding 居 MTEB 榜首):BentoML、KnowledgeSDK、CodeSOTA MTEB。

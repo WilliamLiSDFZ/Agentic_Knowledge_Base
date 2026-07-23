@@ -356,6 +356,48 @@ Offline harness in this repo, `scripts/eval_retrieval.py`:
   release asset? Inside the KB is simplest and matches how mlevolve already points at
   `methodology_kb_path`.
 
+## 16. Lazy mode (v1.1, implemented): abstract-first index + on-demand deep extraction
+
+**Motivation.** The batch pipeline (plugin A over every paper, then A2 per category) pays
+the full extraction cost up front — ~70M+ input tokens for one NeurIPS year — while a
+cold-start only ever consumes a handful of insights. Lazy mode moves the expensive step to
+query time and caps it.
+
+**Flow** (`methodology_retrieval: lazy`):
+
+1. **Abstract index** (`scripts/6_build_abstract_index.py`, this repo): one record per
+   paper (title/tldr/abstract + `pdf_url`/`source`), embedded locally — **zero LLM cost**.
+   Built as the default final step of `run_all.sh` (the heavy batch step 5 is now opt-in
+   via `FULL_METHODOLOGY=1`).
+2. **Cold-start retrieval** (MLEvolve `engine/coldstart/ondemand.py`): query the abstract
+   index with a **low relative threshold** (`lazy_min_score`, default 0.05; pool
+   `lazy_pool` = 40) — recall over precision, because the next step caps cost anyway.
+3. **On-demand extraction:** candidates without a cached `*_methodology.md` are extracted
+   NOW (PDF download → pymupdf → one LLM call each; thread pool; at most
+   `max_extractions_per_coldstart` = 20 per task — the **cost ceiling knob**). Results are
+   written to the **standard** `methodology_kb/{venue}/{category}/` layout, so the cache is
+   permanent, shared with the batch pipeline (which skips existing files), and can later be
+   synthesized by plugin A2 offline.
+4. **Assembly:** `[POSITIVE]` sections of all available candidates, ordered by abstract
+   retrieval score, title-deduped, under `retr_token_budget`. Injected in the same
+   guidance-block format as every other mode.
+
+**Cost:** ~0.3M tokens per task at first (20 extractions × ~16k), amortizing toward zero as
+the cache warms — vs 70M+ up front for the batch path.
+
+**Trade-offs:** no cross-paper synthesis or confidence calibration (A2) in-loop — recover
+it by periodically running A2 offline over the accumulated cache; cold-start needs network
+for PDFs (degrades gracefully to cached-only); `pymupdf4llm` is a soft dependency in
+MLEvolve (extraction is skipped if missing); cold-start latency +3–8 min, bounded by the
+extraction cap.
+
+**Config (MLEvolve):** `abstract_index_path`, `lazy_pool`, `lazy_min_score`,
+`max_extractions_per_coldstart`, `lazy_extract_workers`; in lazy mode
+`methodology_kb_path` points at the **methodology_kb root** (the extraction cache tree).
+
+**Reserved (off):** `lazy_synthesize` — a single task-conditioned synthesis call over the
+extracted techniques (cheaper than A2's agent loop; phase 2).
+
 ## References (2026 retrieval landscape)
 
 - Best open embedding models 2026 (BGE-M3 as production default; Qwen3-Embedding tops MTEB):

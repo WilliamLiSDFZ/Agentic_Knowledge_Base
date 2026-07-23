@@ -6,6 +6,52 @@ affected files.
 
 ---
 
+## 2026-07-22 — Lazy methodology mode: abstract index + on-demand extraction
+
+Replaces the pay-everything-up-front step 5 default with a lazy path: index abstracts
+cheaply (no LLM), retrieve at cold-start with a low threshold, and deep-extract only the
+retrieved papers, caching results permanently. ~70M+ up-front tokens → ~0.3M per task,
+amortizing toward zero. Design doc updated (EN + ZH, §16).
+
+### Added
+
+- **`scripts/6_build_abstract_index.py`** — abstract-level index: one record per paper
+  (title/tldr/abstract, `source`/`pdf_url`, primary category for the cache path; papers in
+  multiple categories deduped). Local embeddings only — zero LLM cost.
+- **MLEvolve `engine/coldstart/ondemand.py`** (consumer repo) — lazy cold-start path:
+  abstract retrieval (low relative threshold, recall-oriented) → split cached/missing →
+  extract at most `max_extractions_per_coldstart` (20) missing papers now (PDF + one LLM
+  call each, thread pool, atomic writes) into the **standard**
+  `methodology_kb/{venue}/{category}/` layout → inject `[POSITIVE]` sections ordered by
+  retrieval score under the token budget. `pymupdf4llm` is a soft dependency.
+- **MLEvolve config**: `methodology_retrieval: lazy` mode + `abstract_index_path`,
+  `lazy_pool` (40), `lazy_min_score` (0.05), `max_extractions_per_coldstart` (20),
+  `lazy_extract_workers` (4).
+
+### Changed
+
+- **`run_all.sh`** — the heavy batch step 5 is now **opt-in** (`FULL_METHODOLOGY=1`); the
+  default final step builds the abstract index (`SKIP_INDEX=1` to skip; non-fatal on
+  failure).
+
+### Also today (earlier)
+
+- **`scripts/fetch/icml.py`** — the `div.paper` selector broke against current
+  proceedings.mlr.press markup (fetch returned 0 papers); now collects `/{vol}/*.html`
+  paper links directly (deduped, relative/absolute handled).
+- **`scripts/2_embed_cluster.py`** — clean `SystemExit` when step 1 produced 0 papers,
+  instead of a cryptic sklearn crash.
+
+### Notes
+
+- Verified: builder parses 922 unique papers from the real naacl-2024 output (802
+  multi-category, deduped); lazy-mode PDF resolution priority, cache split, POSITIVE-only
+  score-ordered assembly, and token budget all pass logic tests; all files `py_compile`.
+- The batch path (step 5 + insight index + `vector` mode) remains fully supported — lazy
+  is an additional mode, not a replacement.
+
+---
+
 ## 2026-07-22 — Multi-venue PDF support (beyond ACL/NAACL)
 
 plugin A no longer skips every non-aclanthology paper; it resolves a downloadable PDF per
