@@ -407,6 +407,68 @@ extraction cap.
 **Reserved (off):** `lazy_synthesize` — a single task-conditioned synthesis call over the
 extracted techniques (cheaper than A2's agent loop; phase 2).
 
+## 17. Retrieval quality: anisotropy and query dilution (measured)
+
+The first real KB-on run retrieved almost entirely off-topic material for a molecular ADMET
+task — clinical-NLP papers on opioid behaviour detection, medication-change prompt tuning,
+LLM paraphrase augmentation. Probing the index (retrieval only, no LLM) isolated two
+independent causes. Both are fixed in `engine/coldstart/ondemand.py`; neither needs new
+papers or an index rebuild.
+
+### 17.1 The dense half was anisotropic
+
+Cosine similarity over the whole corpus sat in a **0.62–0.65 band regardless of topic** —
+molecular learning, African-language MT, emotion recognition and speech models all scored
+about the same. That flatness is the signature of anisotropy: ~12k ML-paper abstracts share
+a dominant common direction ("academic English describing an ML paper"), and cosine is
+dominated by that component, leaving topic as a small residual.
+
+Mean-centering the vectors (subtract the corpus mean from both index and query, renormalize)
+removes the shared direction:
+
+| ranking | on-topic in top-10 | top-10 spread |
+|---|---|---|
+| raw cosine (original) | 5/10 | 0.017 |
+| **mean-centered** | **8/10** | **0.048** |
+| TF-IDF lexical only | 10/10 | 0.037 |
+
+Implemented as `_CenteredEmbedding`, a wrapper around the embedding model, so queries the
+retriever encodes internally get the same treatment and `HybridRetriever` needs no change.
+The mean is computed from the loaded `embeddings.npy` at load time — **existing indexes stay
+valid, no rebuild required**. Toggle: `retr_center_embeddings` (default True).
+
+### 17.2 The query was the entire description
+
+The query was the whole `description.md` (~5.5k chars): submission format, file lists, field
+tables, citation. Embedding that yields a diffuse "average of everything" vector, and it
+dilutes BM25 term statistics just as badly — which is why the *hybrid* retriever failed too,
+not just the dense half.
+
+`_build_query` now keeps only the sections that describe the ML problem and drops submission
+mechanics, citation and metric formulas (knowing the metric is called "MA-RAE" does not help
+find molecular papers). Rule-based on purpose: no extra LLM call, deterministic and
+reproducible, which matters for A/B runs. Falls back to plain truncation if the headings
+don't parse. On the OpenADMET description: 5527 → 2500 chars, dropping submission examples
+and citation while keeping ADMET/SMILES/sparse-labels/masked-loss/skewed-distribution.
+The cap is deliberately generous because the most informative section (data characteristics)
+usually sits at the *end* of a description. Toggle: `retr_focus_query` (default True).
+
+The same focused query is now also used for the second-stage technique rerank (§16.4), which
+had the same dilution problem.
+
+### 17.3 Validating retrieval without a 12-hour run
+
+`scripts/probe_retrieval.py` (this repo) runs the retrieval stage alone and reports, per
+configuration, how many of the top-k are on-topic plus the score spread:
+
+```bash
+python scripts/probe_retrieval.py --task /path/to/description.md --all
+```
+
+`--all` compares the four center/focus combinations. Use it after any change to the corpus,
+the query builder or the embedding model — seconds instead of a full run. A flat spread is
+the warning sign that the scorer is not discriminating at all.
+
 ## References (2026 retrieval landscape)
 
 - Best open embedding models 2026 (BGE-M3 as production default; Qwen3-Embedding tops MTEB):

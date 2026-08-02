@@ -1,3 +1,10 @@
+# NOTE on torch: sentence-transformers pulls torch in as a dependency. If the venv was
+# created with --system-site-packages on an image that already ships torch+torchvision
+# (e.g. pytorch/pytorch:2.7.1-cuda12.6), pip installs a SECOND torch into the venv while
+# torchvision still resolves to the image's copy -> version mismatch and
+# "RuntimeError: operator torchvision::nms does not exist".
+# Fix: after installing, drop the venv's copies so the image's matched pair is used:
+#     pip uninstall -y torch torchvision torchaudio
 openreview-py
 openai
 anthropic

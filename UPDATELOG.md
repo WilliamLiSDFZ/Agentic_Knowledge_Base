@@ -27,6 +27,59 @@ affected files.
 
 ---
 
+## 2026-08-02 — Retrieval quality: fix anisotropy + query dilution
+
+The first KB-on run retrieved almost entirely off-topic papers for a molecular ADMET task
+(clinical-NLP work on opioid behaviour detection, medication-change prompt tuning, LLM
+paraphrase augmentation). Probing the index isolated two independent causes — neither of
+which is "the corpus lacks relevant papers". Design doc §17 (EN + ZH) documents both.
+
+### Diagnosis (retrieval-only probe, no LLM calls)
+
+- **Anisotropy.** Cosine similarity sat in a 0.62–0.65 band *regardless of topic* — molecular
+  learning, African-language MT and emotion recognition all scored the same. ~12k ML abstracts
+  share a dominant common direction, so cosine barely encodes topic.
+- **Query dilution.** The query was the entire `description.md` (~5.5k chars, including
+  submission format, field tables and citation), producing a diffuse vector — and degrading
+  the BM25 half too, which is why the *hybrid* retriever failed rather than just the dense one.
+
+| ranking | on-topic in top-10 | spread |
+|---|---|---|
+| raw cosine (before) | 5/10 | 0.017 |
+| mean-centered | 8/10 | 0.048 |
+| TF-IDF lexical | 10/10 | 0.037 |
+
+### Added
+
+- **`scripts/probe_retrieval.py`** — runs the retrieval stage alone and reports on-topic
+  count and score spread per configuration; `--all` compares the four center/focus
+  combinations. Validates retrieval changes in seconds instead of a 12-hour run.
+
+### Changed (MLEvolve repo)
+
+- **`_CenteredEmbedding`** wrapper mean-centers the dense vectors (index + query). The mean is
+  computed from the loaded `embeddings.npy`, so **existing indexes stay valid — no rebuild**.
+  Toggle `retr_center_embeddings` (default True).
+- **`_build_query`** keeps only the ML-problem sections, dropping submission mechanics,
+  citation and metric formulas; cap 2500 chars (generous, because the most informative
+  "data characteristics" section usually sits at the END of a description). Rule-based — no
+  extra LLM call, deterministic, reproducible for A/B runs; falls back to truncation if the
+  headings don't parse. Toggle `retr_focus_query` (default True).
+  Verified on the OpenADMET description: 5527 → 2500 chars, submission examples and citation
+  dropped, ADMET/SMILES/sparse/masked/skewed retained.
+- The same focused query now also drives the second-stage technique rerank, which had the
+  same dilution problem.
+
+### Also
+
+- ICLR 2024 added to the corpus (abstract index 10,190 → **12,450** papers).
+- `requirements.txt`: added the missing `beautifulsoup4` and `requests` (every fetcher in
+  `scripts/fetch/` imports them, so `1_fetch.py` failed on a fresh environment), plus a note
+  that on images shipping torch, the venv's own torch must be removed to avoid a
+  torch/torchvision mismatch (`operator torchvision::nms does not exist`).
+
+---
+
 ## 2026-07-22 — Lazy methodology mode: abstract index + on-demand extraction
 
 Replaces the pay-everything-up-front step 5 default with a lazy path: index abstracts
