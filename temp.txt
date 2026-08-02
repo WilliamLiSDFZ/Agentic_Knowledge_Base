@@ -1,6 +1,7 @@
-Hi professor,
+Hi Professor,
 
-I'm currently working on the external knowledge base of Mlevolve. My plan for the next step is to improve how it retrieves external knowledge base. It currently picks up to 5 topic categories by name. It can miss some knowledge that has been classified in other categories and may introduce irrelevant information.
-I'm trying to replace it with semantic search. At the cold start phase, it will embed the task description and use hybrid retrieval combined with score-thresholding to retrieve the most relevant techniques. I'm also testing how it performs without embeddings as a baseline.
+Quick update for this week. I've been running experiments on the OpenADMET ADMET prediction task as a testbed for the external knowledge base. I now have a clean 12-hour baseline run without the knowledge base (test MA-RAE 0.67), and I'm currently setting up the matched run with knowledge base retrieval enabled so the two are directly comparable.
 
-Hi professor, can you please add me in to the Nautilus namespace if you have time?
+It took me a bit longer than expected to get started — I was new to Kubernetes and Nautilus and spent some time getting the job configuration, dependencies, and cluster setup working. That's done now, so the remaining experiments should go faster.
+
+Next step is the knowledge-base-enabled run and comparing the two on final score, convergence speed, and failure rate. I'm also going to try different tasks and see its performance.

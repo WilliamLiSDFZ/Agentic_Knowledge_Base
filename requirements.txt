@@ -8,3 +8,7 @@ arxiv
 pymupdf4llm
 tqdm
 python-dotenv
+# Used by every conference fetcher in scripts/fetch/ (HTML scraping) — these were
+# missing, so `1_fetch.py` failed with ModuleNotFoundError on a fresh environment.
+beautifulsoup4
+requests

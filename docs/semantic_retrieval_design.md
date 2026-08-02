@@ -378,9 +378,18 @@ query time and caps it.
    written to the **standard** `methodology_kb/{venue}/{category}/` layout, so the cache is
    permanent, shared with the batch pipeline (which skips existing files), and can later be
    synthesized by plugin A2 offline.
-4. **Assembly:** `[POSITIVE]` sections of all available candidates, ordered by abstract
-   retrieval score, title-deduped, under `retr_token_budget`. Injected in the same
-   guidance-block format as every other mode.
+4. **Final selection — two flavours** (`lazy_technique_rerank`):
+   - **True (default): second-stage technique-level retrieval.** All extracted
+     `[POSITIVE]` sections are split into individual techniques, embedded with the SAME
+     model as the abstract index (already loaded — zero extra LLM cost), and ranked by
+     similarity to the task with a precision-oriented relative threshold
+     (`lazy_tech_min_score` = 0.3, `lazy_tech_top_n` = 12). This recovers precision at
+     the right granularity: stage 1 is recall-oriented and paper-level, so a relevant
+     paper's irrelevant techniques must be filtered here. Injected blocks carry the
+     source-paper attribution.
+   - **False: paper-level injection** — each candidate paper's `[POSITIVE]` sections
+     wholesale, ordered by the stage-1 abstract score only.
+   Both are title-deduped and bounded by `retr_token_budget`.
 
 **Cost:** ~0.3M tokens per task at first (20 extractions × ~16k), amortizing toward zero as
 the cache warms — vs 70M+ up front for the batch path.

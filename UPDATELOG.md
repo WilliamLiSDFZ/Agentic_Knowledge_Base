@@ -1,6 +1,27 @@
 # Update Log
 
 A running record of notable changes to this project. Newest entries on top.
+
+---
+
+## 2026-07-22 — Lazy mode: second-stage technique-level rerank (switchable)
+
+Lazy mode's final selection now has two flavours, chosen by `lazy_technique_rerank`
+(MLEvolve config):
+
+- **True (default):** after on-demand extraction, all `[POSITIVE]` sections are split into
+  individual techniques, embedded with the same model as the abstract index (already
+  loaded — no extra LLM cost), and ranked by similarity to the task
+  (`lazy_tech_min_score` = 0.3 relative, `lazy_tech_top_n` = 12). This filters out a
+  relevant paper's irrelevant techniques — stage 1 (abstracts) is recall-oriented and
+  paper-level; precision is recovered here at technique granularity. Injected blocks carry
+  source-paper attribution.
+- **False:** previous behaviour — inject candidate papers' `[POSITIVE]` sections wholesale,
+  ordered by the abstract-retrieval score.
+
+Changes live in MLEvolve (`engine/coldstart/ondemand.py`, config); design doc §16 (EN+ZH)
+updated. Verified by logic tests with a stubbed embedding model, including the key case: an
+off-topic technique from an on-topic paper is dropped by the rerank.
 Each entry notes the symptom (what was wrong) and the fix (what changed), with the
 affected files.
 
