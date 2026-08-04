@@ -1,0 +1,19 @@
+---
+title: "DFD: Distilling the Feature Disparity Differently for Detectors"
+source: "https://proceedings.mlr.press/v235/liu24cd.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/liu24cd/liu24cd.pdf"
+categories: ['knowledge-distillation-methods-and-applications', 'transformer-architecture-efficiency-and-scaling']
+tags: ['knowledge-distillation', 'object-detection', 'feature-disparity', 'student-teacher', 'model-compression']
+venue: "ICML 2024"
+tldr: "DFD proposes a feature disparity distillation method for object detection that differentially handles feature responses to improve student detector performance."
+---
+
+# DFD: Distilling the Feature Disparity Differently for Detectors
+
+**Source**: [https://proceedings.mlr.press/v235/liu24cd.html](https://proceedings.mlr.press/v235/liu24cd.html)
+
+**TLDR**: DFD proposes a feature disparity distillation method for object detection that differentially handles feature responses to improve student detector performance.
+
+## Abstract
+
+Knowledge distillation is a widely adopted model compression technique that has been successfully applied to object detection. In feature distillation, it is common practice for the student model to imitate the feature responses of the teacher model, with the underlying objective of improving its own abilities by reducing the disparity with the teacher. However, it is crucial to recognize that the disparities between the student and teacher are inconsistent, highlighting their varying abilities. In this paper, we explore the inconsistency in the disparity between teacher and student feature maps and analyze their impact on the efficiency of the distillation. We find that regions with varying degrees of difference should be treated separately, with different distillation constraints applied accordingly. We introduce our distillation method called Disparity Feature Distillation(DFD). The core idea behind DFD is to apply different treatments to regions with varying learning difficulties, simultaneously incorporating leniency and strictness. It enables the student to better assimilate the teacher’s knowledge. Through extensive experiments, we demonstrate the effectiveness of our proposed DFD in achieving significant improvements. For instance, when applied to detectors based on ResNet50 such as RetinaNet, FasterRCNN, and RepPoints, our method enhances their mAP from 37.4%, 38.4%, 38.6% to 41.7%, 42.4%, 42.7%, respectively. Our approach also demonstrates substantial improvements on YOLO and ViT-based models. The code is available at https://github.com/luckin99/DFD.

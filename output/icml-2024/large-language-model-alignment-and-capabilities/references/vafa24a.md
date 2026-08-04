@@ -1,0 +1,19 @@
+---
+title: "Do Large Language Models Perform the Way People Expect? Measuring the Human Generalization Function"
+source: "https://proceedings.mlr.press/v235/vafa24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/vafa24a/vafa24a.pdf"
+categories: ['large-language-model-alignment-and-capabilities', 'ai-explainability-uncertainty-human-decision-making']
+tags: ['LLM-evaluation', 'human-generalization', 'deployment-decisions']
+venue: "ICML 2024"
+tldr: "Measures how well humans predict LLM performance across tasks to understand human generalization functions for model deployment."
+---
+
+# Do Large Language Models Perform the Way People Expect? Measuring the Human Generalization Function
+
+**Source**: [https://proceedings.mlr.press/v235/vafa24a.html](https://proceedings.mlr.press/v235/vafa24a.html)
+
+**TLDR**: Measures how well humans predict LLM performance across tasks to understand human generalization functions for model deployment.
+
+## Abstract
+
+What makes large language models (LLMs) impressive is also what makes them hard to evaluate: their diversity of uses. To evaluate these models, we must understand the purposes they will be used for. We consider a setting where these deployment decisions are made by people, and in particular, people’s beliefs about where an LLM will perform well. We model such beliefs as the consequence of a human generalization function: having seen what an LLM gets right or wrong, people generalize to where else it might succeed. We collect a dataset of 19K examples of how humans make generalizations across 79 tasks from the MMLU and BIG-Bench benchmarks. We show that the human generalization function can be predicted using NLP methods: people have consistent structured ways to generalize. We then evaluate LLM alignment with the human generalization function. Our results show that – especially for cases where the cost of mistakes is high – more capable models (e.g. GPT-4) can do worse on the instances people choose to use them for, exactly because they are not aligned with the human generalization function.

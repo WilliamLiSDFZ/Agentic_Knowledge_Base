@@ -1,0 +1,19 @@
+---
+title: "Stochastic Optimization with Arbitrary Recurrent Data Sampling"
+source: "https://proceedings.mlr.press/v235/powell24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/powell24a/powell24a.pdf"
+categories: ['optimization-algorithms-convergence-theory', 'online-learning-and-sequential-decision-making']
+tags: ['stochastic-optimization', 'data-sampling', 'convergence']
+venue: "ICML 2024"
+tldr: "Proves optimal first-order convergence guarantees for stochastic optimization under arbitrary recurrent data sampling schemes."
+---
+
+# Stochastic Optimization with Arbitrary Recurrent Data Sampling
+
+**Source**: [https://proceedings.mlr.press/v235/powell24a.html](https://proceedings.mlr.press/v235/powell24a.html)
+
+**TLDR**: Proves optimal first-order convergence guarantees for stochastic optimization under arbitrary recurrent data sampling schemes.
+
+## Abstract
+
+For obtaining optimal first-order convergence guarantees for stochastic optimization, it is necessary to use a recurrent data sampling algorithm that samples every data point with sufficient frequency. Most commonly used data sampling algorithms (e.g., i.i.d., MCMC, random reshuffling) are indeed recurrent under mild assumptions. In this work, we show that for a particular class of stochastic optimization algorithms, we do not need any further property (e.g., independence, exponential mixing, and reshuffling) beyond recurrence in data sampling to guarantee optimal rate of first-order convergence. Namely, using regularized versions of Minimization by Incremental Surrogate Optimization (MISO), we show that for non-convex and possibly non-smooth objective functions with constraints, the expected optimality gap converges at an optimal rate $O(n^{-1/2})$ under general recurrent sampling schemes. Furthermore, the implied constant depends explicitly on the ’speed of recurrence’, measured by the expected amount of time to visit a data point, either averaged (’target time’) or supremized (’hitting time’) over the starting locations. We discuss applications of our general framework to decentralized optimization and distributed non-negative matrix factorization.

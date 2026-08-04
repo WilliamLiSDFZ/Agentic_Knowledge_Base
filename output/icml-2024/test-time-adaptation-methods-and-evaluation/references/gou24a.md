@@ -1,0 +1,19 @@
+---
+title: "Test-Time Degradation Adaptation for Open-Set Image Restoration"
+source: "https://proceedings.mlr.press/v235/gou24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/gou24a/gou24a.pdf"
+categories: ['test-time-adaptation-methods-and-evaluation', 'anomaly-and-out-of-distribution-detection']
+tags: ['test-time-adaptation', 'image-restoration', 'open-set-degradation']
+venue: "ICML 2024"
+tldr: "This work proposes a test-time degradation adaptation framework for open-set image restoration handling unknown degradation types unseen during pretraining."
+---
+
+# Test-Time Degradation Adaptation for Open-Set Image Restoration
+
+**Source**: [https://proceedings.mlr.press/v235/gou24a.html](https://proceedings.mlr.press/v235/gou24a.html)
+
+**TLDR**: This work proposes a test-time degradation adaptation framework for open-set image restoration handling unknown degradation types unseen during pretraining.
+
+## Abstract
+
+In contrast to close-set scenarios that restore images from a predefined set of degradations, open-set image restoration aims to handle the unknown degradations that were unforeseen during the pretraining phase, which is less-touched as far as we know. This work study this challenging problem and reveal its essence as unidentified distribution shifts between the test and training data. Recently, test-time adaptation has emerged as a fundamental method to address this inherent disparities. Inspired by it, we propose a test-time degradation adaptation framework for open-set image restoration, which consists of three components, i.e., i) a pre-trained and degradation-agnostic diffusion model for generating clean images, ii) a test-time degradation adapter adapts the unknown degradations based on the input image during the testing phase, and iii) the adapter-guided image restoration guides the model through the adapter to produce the corresponding clean image. Through experiments on multiple degradations, we show that our method achieves comparable even better performance than those task-specific methods. The code is available at https://github.com/XLearning-SCU/2024-ICML-TAO.

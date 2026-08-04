@@ -1,0 +1,19 @@
+---
+title: "Generalizing Orthogonalization for Models with Non-Linearities"
+source: "https://proceedings.mlr.press/v235/rugamer24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/rugamer24a/rugamer24a.pdf"
+categories: ['learning-with-imperfect-data-and-bias', 'fairness-aware-algorithmic-decision-making']
+tags: ['orthogonalization', 'bias-mitigation', 'neural-networks', 'fairness', 'spurious-correlations']
+venue: "ICML 2024"
+tldr: "Orthogonalization is generalized to nonlinear models like neural networks to remove spurious correlations and mitigate algorithmic biases."
+---
+
+# Generalizing Orthogonalization for Models with Non-Linearities
+
+**Source**: [https://proceedings.mlr.press/v235/rugamer24a.html](https://proceedings.mlr.press/v235/rugamer24a.html)
+
+**TLDR**: Orthogonalization is generalized to nonlinear models like neural networks to remove spurious correlations and mitigate algorithmic biases.
+
+## Abstract
+
+The complexity of black-box algorithms can lead to various challenges, including the introduction of biases. These biases present immediate risks in the algorithms’ application. It was, for instance, shown that neural networks can deduce racial information solely from a patient’s X-ray scan, a task beyond the capability of medical experts. If this fact is not known to the medical expert, automatic decision-making based on this algorithm could lead to prescribing a treatment (purely) based on racial information. While current methodologies allow for the "orthogonalization" or "normalization" of neural networks with respect to such information, existing approaches are grounded in linear models. Our paper advances the discourse by introducing corrections for non-linearities such as ReLU activations. Our approach also encompasses scalar and tensor-valued predictions, facilitating its integration into neural network architectures. Through extensive experiments, we validate our method’s effectiveness in safeguarding sensitive data in generalized linear models, normalizing convolutional neural networks for metadata, and rectifying pre-existing embeddings for undesired attributes.

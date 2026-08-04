@@ -1,0 +1,19 @@
+---
+title: "Chain of Code: Reasoning with a Language Model-Augmented Code Emulator"
+source: "https://proceedings.mlr.press/v235/li24ar.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/li24ar/li24ar.pdf"
+categories: ['large-language-model-alignment-and-capabilities', 'neural-symbolic-combinatorial-optimization-learning']
+tags: ['chain-of-thought', 'code-emulation', 'reasoning', 'language-models', 'program-synthesis']
+venue: "ICML 2024"
+tldr: "Chain of Code augments LM reasoning by combining code writing with a language model-based code emulator for complex tasks."
+---
+
+# Chain of Code: Reasoning with a Language Model-Augmented Code Emulator
+
+**Source**: [https://proceedings.mlr.press/v235/li24ar.html](https://proceedings.mlr.press/v235/li24ar.html)
+
+**TLDR**: Chain of Code augments LM reasoning by combining code writing with a language model-based code emulator for complex tasks.
+
+## Abstract
+
+Code provides a general syntactic structure to build complex programs and perform precise computations when paired with a code interpreter – we hypothesize that language models (LMs) can leverage code-writing to improve Chain of Thought reasoning not only for logic and arithmetic tasks, but also for semantic ones (and in particular, those that are a mix of both). For example, consider prompting an LM to write code that counts the number of times it detects sarcasm in an essay: the LM may struggle to write an implementation for "detect_sarcasm(string)" that can be executed by the interpreter (handling the edge cases would be insurmountable). However, LMs may still produce a valid solution if they not only write code, but also selectively "emulate" the interpreter by generating the expected output of "detect_sarcasm(string)". In this work, we propose Chain of Code (CoC), a simple yet surprisingly effective extension that improves LM code-driven reasoning. The key idea is to encourage LMs to format semantic sub-tasks in a program as flexible pseudocode that the interpreter can explicitly catch undefined behaviors and hand off to simulate with an LM (as an "LMulator"). Experiments demonstrate that Chain of Code outperforms Chain of Thought and other baselines across a variety of benchmarks; on BIG-Bench Hard, Chain of Code achieves 84%, a gain of 12% over Chain of Thought. In a nutshell, CoC broadens the scope of reasoning questions that LMs can answer by "thinking in code".

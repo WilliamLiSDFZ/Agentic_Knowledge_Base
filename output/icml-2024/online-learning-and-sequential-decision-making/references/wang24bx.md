@@ -1,0 +1,19 @@
+---
+title: "Probabilistic Subgoal Representations for Hierarchical Reinforcement Learning"
+source: "https://proceedings.mlr.press/v235/wang24bx.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/wang24bx/wang24bx.pdf"
+categories: ['generative-models-and-variational-inference', 'online-learning-and-sequential-decision-making']
+tags: ['hierarchical-reinforcement-learning', 'subgoal-representation', 'probabilistic-models', 'goal-conditioned-rl']
+venue: "ICML 2024"
+tldr: "Proposes probabilistic subgoal representations for hierarchical RL that abstract state space into latent subgoal spaces to enable diverse low-level behaviors."
+---
+
+# Probabilistic Subgoal Representations for Hierarchical Reinforcement Learning
+
+**Source**: [https://proceedings.mlr.press/v235/wang24bx.html](https://proceedings.mlr.press/v235/wang24bx.html)
+
+**TLDR**: Proposes probabilistic subgoal representations for hierarchical RL that abstract state space into latent subgoal spaces to enable diverse low-level behaviors.
+
+## Abstract
+
+In goal-conditioned hierarchical reinforcement learning (HRL), a high-level policy specifies a subgoal for the low-level policy to reach. Effective HRL hinges on a suitable subgoal representation function, abstracting state space into latent subgoal space and inducing varied low-level behaviors. Existing methods adopt a subgoal representation that provides a deterministic mapping from state space to latent subgoal space. Instead, this paper utilizes Gaussian Processes (GPs) for the first probabilistic subgoal representation. Our method employs a GP prior on the latent subgoal space to learn a posterior distribution over the subgoal representation functions while exploiting the long-range correlation in the state space through learnable kernels. This enables an adaptive memory that integrates long-range subgoal information from prior planning steps allowing to cope with stochastic uncertainties. Furthermore, we propose a novel learning objective to facilitate the simultaneous learning of probabilistic subgoal representations and policies within a unified framework. In experiments, our approach outperforms state-of-the-art baselines in standard benchmarks but also in environments with stochastic elements and under diverse reward conditions. Additionally, our model shows promising capabilities in transferring low-level policies across different tasks.

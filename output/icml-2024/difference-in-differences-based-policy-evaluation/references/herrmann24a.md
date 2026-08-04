@@ -1,0 +1,19 @@
+---
+title: "Learning Useful Representations of Recurrent Neural Network Weight Matrices"
+source: "https://proceedings.mlr.press/v235/herrmann24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/herrmann24a/herrmann24a.pdf"
+categories: ['neural-network-learning-dynamics-theory', 'difference-in-differences-based-policy-evaluation']
+tags: ['RNN-weights', 'representation-learning', 'mechanistic-analysis']
+venue: "ICML 2024"
+tldr: "Proposes methods for learning useful representations of RNN weight matrices to facilitate analysis and downstream tasks."
+---
+
+# Learning Useful Representations of Recurrent Neural Network Weight Matrices
+
+**Source**: [https://proceedings.mlr.press/v235/herrmann24a.html](https://proceedings.mlr.press/v235/herrmann24a.html)
+
+**TLDR**: Proposes methods for learning useful representations of RNN weight matrices to facilitate analysis and downstream tasks.
+
+## Abstract
+
+Recurrent Neural Networks (RNNs) are general-purpose parallel-sequential computers. The program of an RNN is its weight matrix. How to learn useful representations of RNN weights that facilitate RNN analysis as well as downstream tasks? While the mechanistic approach directly looks at some RNN’s weights to predict its behavior, the functionalist approach analyzes its overall functionality–specifically, its input-output mapping. We consider several mechanistic approaches for RNN weights and adapt the permutation equivariant Deep Weight Space layer for RNNs. Our two novel functionalist approaches extract information from RNN weights by ’interrogating’ the RNN through probing inputs. We develop a theoretical framework that demonstrates conditions under which the functionalist approach can generate rich representations that help determine RNN behavior. We create and release the first two ’model zoo’ datasets for RNN weight representation learning. One consists of generative models of a class of formal languages, and the other one of classifiers of sequentially processed MNIST digits. With the help of an emulation-based self-supervised learning technique we compare and evaluate the different RNN weight encoding techniques on multiple downstream applications. On the most challenging one, namely predicting which exact task the RNN was trained on, functionalist approaches show clear superiority.

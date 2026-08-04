@@ -1,0 +1,19 @@
+---
+title: "Improving Diffusion Models for Inverse Problems Using Optimal Posterior Covariance"
+source: "https://proceedings.mlr.press/v235/peng24h.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/peng24h/peng24h.pdf"
+categories: ['generative-models-and-variational-inference', 'bayesian-filtering-and-dynamical-systems-learning']
+tags: ['diffusion-models', 'inverse-problems', 'posterior-covariance', 'Gaussian-approximation', 'zero-shot']
+venue: "ICML 2024"
+tldr: "Reveals that existing diffusion-based inverse problem solvers use isotropic covariance approximations and proposes optimal posterior covariance for improved performance."
+---
+
+# Improving Diffusion Models for Inverse Problems Using Optimal Posterior Covariance
+
+**Source**: [https://proceedings.mlr.press/v235/peng24h.html](https://proceedings.mlr.press/v235/peng24h.html)
+
+**TLDR**: Reveals that existing diffusion-based inverse problem solvers use isotropic covariance approximations and proposes optimal posterior covariance for improved performance.
+
+## Abstract
+
+Recent diffusion models provide a promising zero-shot solution to noisy linear inverse problems without retraining for specific inverse problems. In this paper, we reveal that recent methods can be uniformly interpreted as employing a Gaussian approximation with hand-crafted isotropic covariance for the intractable denoising posterior to approximate the conditional posterior mean. Inspired by this finding, we propose to improve recent methods by using more principled covariance determined by maximum likelihood estimation. To achieve posterior covariance optimization without retraining, we provide general plug-and-play solutions based on two approaches specifically designed for leveraging pre-trained models with and without reverse covariance. We further propose a scalable method for learning posterior covariance prediction based on representation with orthonormal basis. Experimental results demonstrate that the proposed methods significantly enhance reconstruction performance without requiring hyperparameter tuning.

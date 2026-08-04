@@ -1,0 +1,19 @@
+---
+title: "On the Last-Iterate Convergence of Shuffling Gradient Methods"
+source: "https://proceedings.mlr.press/v235/liu24cg.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/liu24cg/liu24cg.pdf"
+categories: ['optimization-algorithms-convergence-theory', 'online-learning-and-sequential-decision-making']
+tags: ['shuffling-gradient', 'last-iterate-convergence', 'random-reshuffle', 'stochastic-optimization', 'convergence-theory']
+venue: "ICML 2024"
+tldr: "This paper establishes last-iterate convergence guarantees for shuffling gradient methods including Random Reshuffle, Shuffle Once, and Incremental Gradient."
+---
+
+# On the Last-Iterate Convergence of Shuffling Gradient Methods
+
+**Source**: [https://proceedings.mlr.press/v235/liu24cg.html](https://proceedings.mlr.press/v235/liu24cg.html)
+
+**TLDR**: This paper establishes last-iterate convergence guarantees for shuffling gradient methods including Random Reshuffle, Shuffle Once, and Incremental Gradient.
+
+## Abstract
+
+Shuffling gradient methods are widely used in modern machine learning tasks and include three popular implementations: Random Reshuffle (RR), Shuffle Once (SO), and Incremental Gradient (IG). Compared to the empirical success, the theoretical guarantee of shuffling gradient methods was not well-understood for a long time. Until recently, the convergence rates had just been established for the average iterate for convex functions and the last iterate for strongly convex problems (using squared distance as the metric). However, when using the function value gap as the convergence criterion, existing theories cannot interpret the good performance of the last iterate in different settings (e.g., constrained optimization). To bridge this gap between practice and theory, we prove the first last-iterate convergence rates for shuffling gradient methods with respect to the objective value even without strong convexity. Our new results either (nearly) match the existing last-iterate lower bounds or are as fast as the previous best upper bounds for the average iterate.

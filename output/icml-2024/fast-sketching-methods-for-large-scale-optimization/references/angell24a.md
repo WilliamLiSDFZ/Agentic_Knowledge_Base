@@ -1,0 +1,19 @@
+---
+title: "Fast, Scalable, Warm-Start Semidefinite Programming with Spectral Bundling and Sketching"
+source: "https://proceedings.mlr.press/v235/angell24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/angell24a/angell24a.pdf"
+categories: ['fast-sketching-methods-for-large-scale-optimization', 'matrix-geometry-optimization-for-spectral-learning']
+tags: ['semidefinite-programming', 'matrix-sketching', 'spectral-bundling', 'warm-start', 'scalable-optimization']
+venue: "ICML 2024"
+tldr: "Presents a fast warm-start SDP solver combining spectral bundling and sketching for large-scale problems with fewer iterations."
+---
+
+# Fast, Scalable, Warm-Start Semidefinite Programming with Spectral Bundling and Sketching
+
+**Source**: [https://proceedings.mlr.press/v235/angell24a.html](https://proceedings.mlr.press/v235/angell24a.html)
+
+**TLDR**: Presents a fast warm-start SDP solver combining spectral bundling and sketching for large-scale problems with fewer iterations.
+
+## Abstract
+
+While semidefinite programming (SDP) has traditionally been limited to moderate-sized problems, recent algorithms augmented with matrix sketching techniques have enabled solving larger SDPs. However, these methods achieve scalability at the cost of an increase in the number of necessary iterations, resulting in slower convergence as the problem size grows. Furthermore, they require iteration-dependent parameter schedules that prohibit effective utilization of warm-start initializations important in practical applications with incrementally-arriving data or mixed-integer programming. We present Unified Spectral Bundling with Sketching (USBS), a provably correct, fast and scalable algorithm for solving massive SDPs that can leverage a warm-start initialization to further accelerate convergence. Our proposed algorithm is a spectral bundle method for solving general SDPs containing both equality and inequality constraints. Moveover, when augmented with an optional matrix sketching technique, our algorithm achieves the dramatically improved scalability of previous work while sustaining convergence speed. We empirically demonstrate the effectiveness of our method across multiple applications, with and without warm-starting. For example, USBS provides a 500x speed-up over the state-of-the-art scalable SDP solver on an instance with over 2 billion decision variables. We make our implementation in pure JAX publicly available.

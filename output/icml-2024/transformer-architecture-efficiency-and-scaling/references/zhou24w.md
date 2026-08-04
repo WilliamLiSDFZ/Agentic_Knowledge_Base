@@ -1,0 +1,19 @@
+---
+title: "Exploring Training on Heterogeneous Data with Mixture of Low-rank Adapters"
+source: "https://proceedings.mlr.press/v235/zhou24w.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/zhou24w/zhou24w.pdf"
+categories: ['transformer-architecture-efficiency-and-scaling', 'learning-with-imperfect-data-and-bias']
+tags: ['mixture-of-low-rank-adapters', 'heterogeneous-data', 'multi-task-learning']
+venue: "ICML 2024"
+tldr: "Explores using mixture of low-rank adapters to mitigate training conflicts when learning from heterogeneous multi-domain data in a unified model."
+---
+
+# Exploring Training on Heterogeneous Data with Mixture of Low-rank Adapters
+
+**Source**: [https://proceedings.mlr.press/v235/zhou24w.html](https://proceedings.mlr.press/v235/zhou24w.html)
+
+**TLDR**: Explores using mixture of low-rank adapters to mitigate training conflicts when learning from heterogeneous multi-domain data in a unified model.
+
+## Abstract
+
+Training a unified model to take multiple targets into account is a trend towards artificial general intelligence. However, how to efficiently mitigate the training conflicts among heterogeneous data collected from different domains or tasks remains under-explored. In this study, we explore to leverage Mixture of Low-rank Adapters (MoLA) to mitigate conflicts in heterogeneous data training, which requires to jointly train the multiple low-rank adapters and their shared backbone. Specifically, we introduce two variants of MoLA, namely, MoLA-Grad and MoLA-Router, to respectively handle the target-aware and target-agnostic scenarios during inference. The former uses task identifiers to assign personalized low-rank adapters to each task, disentangling task-specific knowledge towards their adapters, thereby mitigating heterogeneity conflicts. The latter uses a novel Task-wise Decorrelation (TwD) loss to intervene the router to learn oriented weight combinations of adapters to homogeneous tasks, achieving similar effects. We conduct comprehensive experiments to verify the superiority of MoLA over previous state-of-the-art methods and present in-depth analysis on its working mechanism. Source code is available at: https://github.com/MediaBrain-SJTU/MoLA

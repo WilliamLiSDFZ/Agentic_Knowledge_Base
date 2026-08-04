@@ -1,0 +1,19 @@
+---
+title: "RIME: Robust Preference-based Reinforcement Learning with Noisy Preferences"
+source: "https://proceedings.mlr.press/v235/cheng24k.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/cheng24k/cheng24k.pdf"
+categories: ['online-learning-and-sequential-decision-making', 'learning-with-imperfect-data-and-bias']
+tags: ['preference-based-RL', 'noisy-preferences', 'robust-reward-learning']
+venue: "ICML 2024"
+tldr: "RIME improves robustness of preference-based reinforcement learning by handling noisy human preference feedback."
+---
+
+# RIME: Robust Preference-based Reinforcement Learning with Noisy Preferences
+
+**Source**: [https://proceedings.mlr.press/v235/cheng24k.html](https://proceedings.mlr.press/v235/cheng24k.html)
+
+**TLDR**: RIME improves robustness of preference-based reinforcement learning by handling noisy human preference feedback.
+
+## Abstract
+
+Preference-based Reinforcement Learning (PbRL) circumvents the need for reward engineering by harnessing human preferences as the reward signal. However, current PbRL methods excessively depend on high-quality feedback from domain experts, which results in a lack of robustness. In this paper, we present RIME, a robust PbRL algorithm for effective reward learning from noisy preferences. Our method utilizes a sample selection-based discriminator to dynamically filter out noise and ensure robust training. To counteract the cumulative error stemming from incorrect selection, we suggest a warm start for the reward model, which additionally bridges the performance gap during the transition from pre-training to online training in PbRL. Our experiments on robotic manipulation and locomotion tasks demonstrate that RIME significantly enhances the robustness of the state-of-the-art PbRL method. Code is available at https://github.com/CJReinforce/RIME_ICML2024.

@@ -1,0 +1,19 @@
+---
+title: "Prompt-based Visual Alignment for Zero-shot Policy Transfer"
+source: "https://proceedings.mlr.press/v235/gao24r.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/gao24r/gao24r.pdf"
+categories: ['test-time-adaptation-methods-and-evaluation', 'continual-learning-memory-plasticity']
+tags: ['reinforcement-learning', 'zero-shot-transfer', 'visual-alignment', 'prompt-based']
+venue: "ICML 2024"
+tldr: "A prompt-based visual alignment method enforces semantic constraints in RL feature extractors to improve zero-shot policy transfer across visual domains."
+---
+
+# Prompt-based Visual Alignment for Zero-shot Policy Transfer
+
+**Source**: [https://proceedings.mlr.press/v235/gao24r.html](https://proceedings.mlr.press/v235/gao24r.html)
+
+**TLDR**: A prompt-based visual alignment method enforces semantic constraints in RL feature extractors to improve zero-shot policy transfer across visual domains.
+
+## Abstract
+
+Overfitting in RL has become one of the main obstacles to applications in reinforcement learning(RL). Existing methods do not provide explicit semantic constrain for the feature extractor, hindering the agent from learning a unified cross-domain representation and resulting in performance degradation on unseen domains. Besides, abundant data from multiple domains are needed. To address these issues, in this work, we propose prompt-based visual alignment (PVA), a robust framework to mitigate the detrimental domain bias in the image for zero-shot policy transfer. Inspired that Visual-Language Model (VLM) can serve as a bridge to connect both text space and image space, we leverage the semantic information contained in a text sequence as an explicit constraint to train a visual aligner. Thus, the visual aligner can map images from multiple domains to a unified domain and achieve good generalization performance. To better depict semantic information, prompt tuning is applied to learn a sequence of learnable tokens. With explicit constraints of semantic information, PVA can learn unified cross-domain representation under limited access to cross-domain data and achieves great zero-shot generalization ability in unseen domains. We verify PVA on a vision-based autonomous driving task with CARLA simulator. Experiments show that the agent generalizes well on unseen domains under limited access to multi-domain data.

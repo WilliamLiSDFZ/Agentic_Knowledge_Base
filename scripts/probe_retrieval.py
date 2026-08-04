@@ -24,31 +24,58 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-# Keep in sync with MLEvolve engine/coldstart/ondemand.py::_QUERY_DROP_HEADINGS
-DROP_HEADINGS = (
-    "submission file", "file descriptions", "citation", "prizes", "timeline",
-    "getting started", "required submission format", "task and metric alignment",
-    "evaluation",
-)
 QUERY_MAX_CHARS = 2500
 DEFAULT_KEYWORDS = "molecul,smiles,admet,drug,chem,compound,protein,ligand,qsar,graph neural"
 
+# Mirrors MLEvolve engine/coldstart/ondemand.py::_DISTILL_PROMPT
+DISTILL_PROMPT = """Below is a machine-learning competition description. Write a single
+compact paragraph (50-80 words) that will be used as a SEARCH QUERY to find relevant
+research papers.
 
-def focus_query(task_desc: str) -> str:
-    kept, skipping = [], False
-    for line in task_desc.splitlines():
-        s = line.strip()
-        if s.startswith("#"):
-            heading = s.lstrip("#").strip().lower()
-            skipping = any(h in heading for h in DROP_HEADINGS)
-            if not skipping:
-                kept.append(s.lstrip("#").strip())
-            continue
-        if skipping or s.startswith(("```", "|", "---", "===")) or not s:
-            continue
-        kept.append(s)
-    q = " ".join(kept).strip()
-    return (q if len(q) >= 100 else task_desc.strip())[:QUERY_MAX_CHARS]
+Describe only the machine-learning problem:
+- input data type and scale
+- task type (e.g. multi-class classification, multi-task regression)
+- evaluation metric
+- modelling techniques and data characteristics likely to matter
+
+Exclude everything else: prizes, timelines, eligibility, submission file formats, file
+lists, citations, and narrative/flavour text. Write plain prose, no headings or bullets.
+
+Competition description:
+{desc}
+
+Search query:"""
+
+
+def distil_query(task_desc: str, cache_dir: Path) -> str:
+    """One LLM call, cached on disk by description hash (same contract as MLEvolve)."""
+    import hashlib
+    key = hashlib.sha1(task_desc.encode("utf-8")).hexdigest()[:16]
+    cache_file = cache_dir / f"{key}.txt"
+    if cache_file.exists():
+        cached = cache_file.read_text(encoding="utf-8").strip()
+        if cached:
+            return cached
+
+    import os
+    from openai import OpenAI
+    model = os.environ.get("LLM_MODEL", "gpt-5.6-terra")
+    client = OpenAI(api_key=os.environ.get("LLM_API_KEY"),
+                    base_url=os.environ.get("LLM_BASE_URL") or None)
+    params = {"model": model,
+              "messages": [{"role": "user",
+                            "content": DISTILL_PROMPT.format(desc=task_desc[:12000])}]}
+    # GPT-5 / o-series reject max_tokens and sampling params.
+    if any(model.lower().split("/")[-1].startswith(p) for p in ("gpt-5", "o1", "o3", "o4")):
+        params["max_completion_tokens"] = 300
+    else:
+        params["max_tokens"] = 300
+        params["temperature"] = 0
+    q = (client.chat.completions.create(**params).choices[0].message.content or "").strip()
+
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    cache_file.write_text(q, encoding="utf-8")
+    return q
 
 
 def main():
@@ -59,8 +86,11 @@ def main():
     ap.add_argument("--index", default=str(REPO_ROOT / "output" / "abstract_index"))
     ap.add_argument("--topk", type=int, default=10)
     ap.add_argument("--center", action="store_true", help="mean-center the dense vectors")
-    ap.add_argument("--focus", action="store_true", help="use the focused query")
-    ap.add_argument("--all", action="store_true", help="compare all 4 center/focus combinations")
+    ap.add_argument("--query-mode", choices=("llm", "raw"), default="raw",
+                    help="llm = distil the description first (cached); raw = use it as-is")
+    ap.add_argument("--cache-dir", default=str(REPO_ROOT / "output" / "query_cache"))
+    ap.add_argument("--all", action="store_true",
+                    help="compare center on/off x query-mode raw/llm")
     ap.add_argument("--keywords", default=DEFAULT_KEYWORDS,
                     help="comma-separated substrings counted as on-topic (title match)")
     args = ap.parse_args()
@@ -78,8 +108,13 @@ def main():
     kws = [k.strip().lower() for k in args.keywords.split(",") if k.strip()]
     model = SentenceTransformer(manifest["embedding_model"])
 
-    def run(center: bool, focus: bool):
-        q = focus_query(task) if focus else task.strip()
+    def get_query(mode: str) -> str:
+        if mode == "llm" and not args.raw:
+            return distil_query(task, Path(args.cache_dir))
+        return task.strip()[:QUERY_MAX_CHARS]
+
+    def run(center: bool, mode: str):
+        q = get_query(mode)
         qv = np.asarray(model.encode([q], normalize_embeddings=True), dtype="float32")[0]
         V = V0
         if center:
@@ -91,27 +126,29 @@ def main():
         s = V @ qv
         top = np.argsort(-s)[:args.topk]
         hits = sum(1 for i in top if any(k in records[i]["title"].lower() for k in kws))
-        label = f"center={'on ' if center else 'off'} focus={'on ' if focus else 'off'}"
-        print(f"\n=== {label} | query {len(q)} chars | "
+        print(f"\n=== center={'on ' if center else 'off'} query={mode:<3} | {len(q)} chars | "
               f"on-topic {hits}/{args.topk} | spread {s[top[0]] - s[top[-1]]:.3f} ===")
+        if mode == "llm" and not args.raw:
+            print(f"    query: {q[:200]}")
         for i in top:
             mark = "*" if any(k in records[i]["title"].lower() for k in kws) else " "
             print(f" {mark} {s[i]:.3f} [{records[i]['venue']}] {records[i]['title'][:72]}")
         return hits
 
     if args.all:
+        modes = ("raw",) if args.raw else ("raw", "llm")
         results = {}
         for center in (False, True):
-            for focus in (False, True):
-                results[(center, focus)] = run(center, focus)
+            for mode in modes:
+                results[(center, mode)] = run(center, mode)
         print("\n" + "=" * 60)
         print(f"on-topic out of {args.topk}   (* = title matches a keyword)")
-        for (c, f), h in results.items():
-            print(f"  center={'on ' if c else 'off'} focus={'on ' if f else 'off'} -> {h}")
+        for (c, m), h in results.items():
+            print(f"  center={'on ' if c else 'off'} query={m:<3} -> {h}")
         best = max(results, key=results.get)
-        print(f"\nbest: center={'on' if best[0] else 'off'}, focus={'on' if best[1] else 'off'}")
+        print(f"\nbest: center={'on' if best[0] else 'off'}, query={best[1]}")
     else:
-        run(args.center, args.focus)
+        run(args.center, args.query_mode)
 
 
 if __name__ == "__main__":

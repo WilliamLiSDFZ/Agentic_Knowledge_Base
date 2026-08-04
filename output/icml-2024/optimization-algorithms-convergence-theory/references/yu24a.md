@@ -1,0 +1,19 @@
+---
+title: "Efficient Algorithms for Empirical Group Distributionally Robust Optimization and Beyond"
+source: "https://proceedings.mlr.press/v235/yu24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/yu24a/yu24a.pdf"
+categories: ['optimization-algorithms-convergence-theory']
+tags: ['distributionally-robust-optimization', 'minimax', 'finite-sum', 'efficient-algorithms']
+venue: "ICML 2024"
+tldr: "Efficient algorithms are developed for empirical group distributionally robust optimization formulated as a two-level minimax problem."
+---
+
+# Efficient Algorithms for Empirical Group Distributionally Robust Optimization and Beyond
+
+**Source**: [https://proceedings.mlr.press/v235/yu24a.html](https://proceedings.mlr.press/v235/yu24a.html)
+
+**TLDR**: Efficient algorithms are developed for empirical group distributionally robust optimization formulated as a two-level minimax problem.
+
+## Abstract
+
+In this paper, we investigate the empirical counterpart of Group Distributionally Robust Optimization (GDRO), which aims to minimize the maximal empirical risk across $m$ distinct groups. We formulate empirical GDRO as a two-level finite-sum convex-concave minimax optimization problem and develop an algorithm called ALEG to benefit from its special structure. ALEG is a double-looped stochastic primal-dual algorithm that incorporates variance reduction techniques into a modified mirror prox routine. To exploit the two-level finite-sum structure, we propose a simple group sampling strategy to construct the stochastic gradient with a smaller Lipschitz constant and then perform variance reduction for all groups. Theoretical analysis shows that ALEG achieves $\varepsilon$-accuracy within a computation complexity of $\mathcal{O}\left(\frac{m\sqrt{\bar{n}\ln{m}}}{\varepsilon}\right)$, where $\bar n$ is the average number of samples among $m$ groups. Notably, our approach outperforms the state-of-the-art method by a factor of $\sqrt{m}$. Based on ALEG, we further develop a two-stage optimization algorithm called ALEM to deal with the empirical Minimax Excess Risk Optimization (MERO) problem. The computation complexity of ALEM nearly matches that of ALEG, surpassing the rates of existing methods.

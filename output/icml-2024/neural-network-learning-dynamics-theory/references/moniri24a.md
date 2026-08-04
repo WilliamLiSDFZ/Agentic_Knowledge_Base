@@ -1,0 +1,19 @@
+---
+title: "A Theory of Non-Linear Feature Learning with One Gradient Step in Two-Layer Neural Networks"
+source: "https://proceedings.mlr.press/v235/moniri24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/moniri24a/moniri24a.pdf"
+categories: ['neural-network-learning-dynamics-theory', 'optimization-algorithms-convergence-theory']
+tags: ['feature-learning', 'two-layer-networks', 'gradient-descent', 'non-linear-neurons']
+venue: "ICML 2024"
+tldr: "A theoretical analysis showing that a single gradient step on the first layer of a two-layer neural network provably enables non-linear feature learning under certain conditions."
+---
+
+# A Theory of Non-Linear Feature Learning with One Gradient Step in Two-Layer Neural Networks
+
+**Source**: [https://proceedings.mlr.press/v235/moniri24a.html](https://proceedings.mlr.press/v235/moniri24a.html)
+
+**TLDR**: A theoretical analysis showing that a single gradient step on the first layer of a two-layer neural network provably enables non-linear feature learning under certain conditions.
+
+## Abstract
+
+Feature learning is thought to be one of the fundamental reasons for the success of deep neural networks. It is rigorously known that in two-layer fully-connected neural networks under certain conditions, one step of gradient descent on the first layer can lead to feature learning; characterized by the appearance of a separated rank-one component—spike—in the spectrum of the feature matrix. However, with a constant gradient descent step size, this spike only carries information from the linear component of the target function and therefore learning non-linear components is impossible. We show that with a learning rate that grows with the sample size, such training in fact introduces multiple rank-one components, each corresponding to a specific polynomial feature. We further prove that the limiting large-dimensional and large sample training and test errors of the updated neural networks are fully characterized by these spikes. By precisely analyzing the improvement in the training and test errors, we demonstrate that these non-linear features can enhance learning.

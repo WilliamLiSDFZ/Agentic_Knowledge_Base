@@ -1,0 +1,19 @@
+---
+title: "OptiMUS: Scalable Optimization Modeling with (MI)LP Solvers and Large Language Models"
+source: "https://proceedings.mlr.press/v235/ahmaditeshnizi24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/ahmaditeshnizi24a/ahmaditeshnizi24a.pdf"
+categories: ['llm-driven-automated-system-optimization']
+tags: ['optimization-modeling', 'large-language-models', 'MILP', 'automated-formulation']
+venue: "ICML 2024"
+tldr: "OptiMUS uses LLMs to automatically formulate and solve mixed-integer linear programming problems at scale."
+---
+
+# OptiMUS: Scalable Optimization Modeling with (MI)LP Solvers and Large Language Models
+
+**Source**: [https://proceedings.mlr.press/v235/ahmaditeshnizi24a.html](https://proceedings.mlr.press/v235/ahmaditeshnizi24a.html)
+
+**TLDR**: OptiMUS uses LLMs to automatically formulate and solve mixed-integer linear programming problems at scale.
+
+## Abstract
+
+Optimization problems are pervasive in sectors from manufacturing and distribution to healthcare. However, most such problems are still solved heuristically by hand rather than optimally by state-of-the-art solvers because the expertise required to formulate and solve these problems limits the widespread adoption of optimization tools and techniques. This paper introduces OptiMUS, a Large Language Model (LLM)-based agent designed to formulate and solve (mixed integer) linear programming problems from their natural language descriptions. OptiMUS can develop mathematical models, write and debug solver code, evaluate the generated solutions, and improve its model and code based on these evaluations. OptiMUS utilizes a modular structure to process problems, allowing it to handle problems with long descriptions and complex data without long prompts. Experiments demonstrate that OptiMUS outperforms existing state-of-the-art methods on easy datasets by more than $20$% and on hard datasets (including a new dataset, NLP4LP, released with this paper that features long and complex problems) by more than $30$%. The implementation and the datasets are available at https://github.com/teshnizi/OptiMUS.

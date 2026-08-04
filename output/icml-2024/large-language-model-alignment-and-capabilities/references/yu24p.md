@@ -1,0 +1,19 @@
+---
+title: "Language Models are Super Mario: Absorbing Abilities from Homologous Models as a Free Lunch"
+source: "https://proceedings.mlr.press/v235/yu24p.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/yu24p/yu24p.pdf"
+categories: ['large-language-model-alignment-and-capabilities', 'knowledge-distillation-methods-and-applications']
+tags: ['model-merging', 'delta-parameters', 'language-model-capabilities']
+venue: "ICML 2024"
+tldr: "DARE sparsifies delta parameters of fine-tuned LMs enabling capability absorption from homologous models without retraining."
+---
+
+# Language Models are Super Mario: Absorbing Abilities from Homologous Models as a Free Lunch
+
+**Source**: [https://proceedings.mlr.press/v235/yu24p.html](https://proceedings.mlr.press/v235/yu24p.html)
+
+**TLDR**: DARE sparsifies delta parameters of fine-tuned LMs enabling capability absorption from homologous models without retraining.
+
+## Abstract
+
+In this paper, we unveil that Language Models (LMs) can acquire new capabilities by assimilating parameters from homologous models without retraining or GPUs. We first introduce DARE to set most delta parameters (i.e., the disparity between fine-tuned and pre-trained parameters) to zeros without affecting the abilities of Supervised Fine-Tuning (SFT) LMs, which randomly Drops delta parameters with a ratio $p$ And REscales the remaining ones by $1 / (1 - p)$ to approximate the original embeddings. Then, we use DARE as a versatile plug-in to sparsify delta parameters of multiple SFT homologous models for mitigating parameter interference and merge them into a single model by parameter fusing. We experiment with encoder- and decoder-based LMs, showing that: (1) SFT delta parameter value ranges are typically small (within 0.002) with extreme redundancy, and DARE can effortlessly eliminate 90% or even 99% of them; (2) DARE can merge multiple task-specific LMs into one LM with diverse capabilities. Notably, this phenomenon is more pronounced in large-scale LMs, where the merged LM reveals the potential to surpass the performance of any source LM, providing a new discovery. We also utilize DARE to create a merged LM that ranks first among models with 7 billion parameters on the Open LLM Leaderboard.

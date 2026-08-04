@@ -1,0 +1,19 @@
+---
+title: "EvIL: Evolution Strategies for Generalisable Imitation Learning"
+source: "https://proceedings.mlr.press/v235/sapora24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/sapora24a/sapora24a.pdf"
+categories: ['simulation-scaling-limits-for-robot-manipulation', 'information-retrieval-and-recommendation-systems']
+tags: ['imitation-learning', 'generalization', 'evolution-strategies', 'reward-learning', 'sim-to-real']
+venue: "ICML 2024"
+tldr: "Evolution strategies are used to learn generalizable reward functions for imitation learning that transfer across environment variations."
+---
+
+# EvIL: Evolution Strategies for Generalisable Imitation Learning
+
+**Source**: [https://proceedings.mlr.press/v235/sapora24a.html](https://proceedings.mlr.press/v235/sapora24a.html)
+
+**TLDR**: Evolution strategies are used to learn generalizable reward functions for imitation learning that transfer across environment variations.
+
+## Abstract
+
+Often times in imitation learning (IL), the environment we collect expert demonstrations in and the environment we want to deploy our learned policy in aren’t exactly the same (e.g. demonstrations collected in simulation but deployment in the real world). Compared to policy-centric approaches to IL like behavioural cloning, reward-centric approaches like inverse reinforcement learning (IRL) often better replicate expert behaviour in new environments. This transfer is usually performed by optimising the recovered reward under the dynamics of the target environment. However, (a) we find that modern deep IL algorithms frequently recover rewards which induce policies far weaker than the expert, even in the same environment the demonstrations were collected in. Furthermore, (b) these rewards are often quite poorly shaped, necessitating extensive environment interaction to optimise effectively. We provide simple and scalable fixes to both of these concerns. For (a), we find that reward model ensembles combined with a slightly different training objective significantly improves re-training and transfer performance. For (b), we propose a novel evolution-strategies based method (EvIL) to optimise for a reward-shaping term that speeds up re-training in the target environment, closing a gap left open by the classical theory of IRL. On a suite of continuous control tasks, we are able to re-train policies in target (and source) environments more interaction-efficiently than prior work.

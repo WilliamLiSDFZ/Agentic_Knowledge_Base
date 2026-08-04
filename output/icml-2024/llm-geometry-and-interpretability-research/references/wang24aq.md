@@ -1,0 +1,19 @@
+---
+title: "Helpful or Harmful Data? Fine-tuning-free Shapley Attribution for Explaining Language Model Predictions"
+source: "https://proceedings.mlr.press/v235/wang24aq.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/wang24aq/wang24aq.pdf"
+categories: ['ai-explainability-uncertainty-human-decision-making', 'llm-geometry-and-interpretability-research']
+tags: ['instance-attribution', 'Shapley-values', 'fine-tuning', 'language-model-explanation']
+venue: "ICML 2024"
+tldr: "A fine-tuning-free Shapley attribution method is introduced to explain language model predictions by attributing them to training instances."
+---
+
+# Helpful or Harmful Data? Fine-tuning-free Shapley Attribution for Explaining Language Model Predictions
+
+**Source**: [https://proceedings.mlr.press/v235/wang24aq.html](https://proceedings.mlr.press/v235/wang24aq.html)
+
+**TLDR**: A fine-tuning-free Shapley attribution method is introduced to explain language model predictions by attributing them to training instances.
+
+## Abstract
+
+The increasing complexity of foundational models underscores the necessity for explainability, particularly for fine-tuning, the most widely used training method for adapting models to downstream tasks. Instance attribution, one type of explanation, attributes the model prediction to each training example by an instance score. However, the robustness of instance scores, specifically towards dataset resampling, has been overlooked. To bridge this gap, we propose a notion of robustness on the sign of the instance score. We theoretically and empirically demonstrate that the popular leave-one-out-based methods lack robustness, while the Shapley value behaves significantly better, but at a higher computational cost. Accordingly, we introduce an efficient fine-tuning-free approximation of the Shapley value (FreeShap) for instance attribution based on the neural tangent kernel. We empirically demonstrate that FreeShap outperforms other methods for instance attribution and other data-centric applications such as data removal, data selection, and wrong label detection, and further generalize our scale to large language models (LLMs). Our code is available at https://github.com/JTWang2000/FreeShap.

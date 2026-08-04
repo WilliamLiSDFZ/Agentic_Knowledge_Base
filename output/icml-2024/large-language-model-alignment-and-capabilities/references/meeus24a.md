@@ -1,0 +1,19 @@
+---
+title: "Copyright Traps for Large Language Models"
+source: "https://proceedings.mlr.press/v235/meeus24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/meeus24a/meeus24a.pdf"
+categories: ['large-language-model-alignment-and-capabilities']
+tags: ['copyright', 'membership-inference', 'LLM-training-data']
+venue: "ICML 2024"
+tldr: "Proposes copyright traps—planted content—to enable detection of whether copyrighted documents were used in LLM training."
+---
+
+# Copyright Traps for Large Language Models
+
+**Source**: [https://proceedings.mlr.press/v235/meeus24a.html](https://proceedings.mlr.press/v235/meeus24a.html)
+
+**TLDR**: Proposes copyright traps—planted content—to enable detection of whether copyrighted documents were used in LLM training.
+
+## Abstract
+
+Questions of fair use of copyright-protected content to train Large Language Models (LLMs) are being actively debated. Document-level inference has been proposed as a new task: inferring from black-box access to the trained model whether a piece of content has been seen during training. SOTA methods however rely on naturally occurring memorization of (part of) the content. While very effective against models that memorize significantly, we hypothesize - and later confirm - that they will not work against models that do not naturally memorize, e.g. medium-size 1B models. We here propose to use copyright traps, the inclusion of fictitious entries in original content, to detect the use of copyrighted materials in LLMs with a focus on models where memorization does not naturally occur. We carefully design a randomized controlled experimental setup, inserting traps into original content (books) and train a 1.3B LLM from scratch. We first validate that the use of content in our target model would be undetectable using existing methods. We then show, contrary to intuition, that even medium-length trap sentences repeated a significant number of times (100) are not detectable using existing methods. However, we show that longer sequences repeated a large number of times can be reliably detected (AUC=0.75) and used as copyright traps. Beyond copyright applications, our findings contribute to the study of LLM memorization: the randomized controlled setup enables us to draw causal relationships between memorization and certain sequence properties such as repetition in model training data and perplexity.

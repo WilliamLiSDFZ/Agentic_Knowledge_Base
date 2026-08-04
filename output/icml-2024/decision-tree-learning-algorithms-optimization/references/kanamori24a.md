@@ -1,0 +1,19 @@
+---
+title: "Learning Decision Trees and Forests with Algorithmic Recourse"
+source: "https://proceedings.mlr.press/v235/kanamori24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/kanamori24a/kanamori24a.pdf"
+categories: ['decision-tree-learning-algorithms-optimization', 'fairness-aware-algorithmic-decision-making']
+tags: ['decision-trees', 'algorithmic-recourse', 'fairness', 'tree-ensembles']
+venue: "ICML 2024"
+tldr: "Proposes a new algorithm for learning tree-based models that jointly ensures the existence of algorithmic recourse actions."
+---
+
+# Learning Decision Trees and Forests with Algorithmic Recourse
+
+**Source**: [https://proceedings.mlr.press/v235/kanamori24a.html](https://proceedings.mlr.press/v235/kanamori24a.html)
+
+**TLDR**: Proposes a new algorithm for learning tree-based models that jointly ensures the existence of algorithmic recourse actions.
+
+## Abstract
+
+This paper proposes a new algorithm for learning accurate tree-based models while ensuring the existence of recourse actions. Algorithmic Recourse (AR) aims to provide a recourse action for altering the undesired prediction result given by a model. Typical AR methods provide a reasonable action by solving an optimization task of minimizing the required effort among executable actions. In practice, however, such actions do not always exist for models optimized only for predictive performance. To alleviate this issue, we formulate the task of learning an accurate classification tree under the constraint of ensuring the existence of reasonable actions for as many instances as possible. Then, we propose an efficient top-down greedy algorithm by leveraging the adversarial training techniques. We also show that our proposed algorithm can be applied to the random forest, which is known as a popular framework for learning tree ensembles. Experimental results demonstrated that our method successfully provided reasonable actions to more instances than the baselines without significantly degrading accuracy and computational efficiency.

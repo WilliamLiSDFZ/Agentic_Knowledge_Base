@@ -1,0 +1,19 @@
+---
+title: "Beyond Individual Input for Deep Anomaly Detection on Tabular Data"
+source: "https://proceedings.mlr.press/v235/thimonier24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/thimonier24a/thimonier24a.pdf"
+categories: ['anomaly-and-out-of-distribution-detection', 'learning-with-imperfect-data-and-bias']
+tags: ['anomaly-detection', 'tabular-data', 'non-parametric-transformers']
+venue: "ICML 2024"
+tldr: "A deep anomaly detection method for tabular data using Non-Parametric Transformers captures both feature-feature and sample-sample dependencies beyond individual inputs."
+---
+
+# Beyond Individual Input for Deep Anomaly Detection on Tabular Data
+
+**Source**: [https://proceedings.mlr.press/v235/thimonier24a.html](https://proceedings.mlr.press/v235/thimonier24a.html)
+
+**TLDR**: A deep anomaly detection method for tabular data using Non-Parametric Transformers captures both feature-feature and sample-sample dependencies beyond individual inputs.
+
+## Abstract
+
+Anomaly detection is vital in many domains, such as finance, healthcare, and cybersecurity. In this paper, we propose a novel deep anomaly detection method for tabular data that leverages Non-Parametric Transformers (NPTs), a model initially proposed for supervised tasks, to capture both feature-feature and sample-sample dependencies. In a reconstruction-based framework, we train an NPT to reconstruct masked features of normal samples. In a non-parametric fashion, we leverage the whole training set during inference and use the model’s ability to reconstruct the masked features to generate an anomaly score. To the best of our knowledge, this is the first work to successfully combine feature-feature and sample-sample dependencies for anomaly detection on tabular datasets. Through extensive experiments on 31 benchmark tabular datasets, we demonstrate that our method achieves state-of-the-art performance, outperforming existing methods by 2.4% and 1.2% in terms of F1-score and AUROC, respectively. Our ablation study further proves that modeling both types of dependencies is crucial for anomaly detection on tabular data.

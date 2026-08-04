@@ -1,0 +1,19 @@
+---
+title: "Improving Prototypical Visual Explanations with Reward Reweighing, Reselection, and Retraining"
+source: "https://proceedings.mlr.press/v235/li24ba.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/li24ba/li24ba.pdf"
+categories: ['ai-explainability-uncertainty-human-decision-making', 'data-selection-and-active-learning-methods']
+tags: ['prototypical-networks', 'interpretability', 'visual-explanations']
+venue: "ICML 2024"
+tldr: "Improves prototypical part networks for interpretable image classification via reward reweighing, reselection, and retraining of prototypical explanations."
+---
+
+# Improving Prototypical Visual Explanations with Reward Reweighing, Reselection, and Retraining
+
+**Source**: [https://proceedings.mlr.press/v235/li24ba.html](https://proceedings.mlr.press/v235/li24ba.html)
+
+**TLDR**: Improves prototypical part networks for interpretable image classification via reward reweighing, reselection, and retraining of prototypical explanations.
+
+## Abstract
+
+In recent years, work has gone into developing deep interpretable methods for image classification that clearly attributes a model’s output to specific features of the data. One such of these methods is the Prototypical Part Network (ProtoPNet), which attempts to classify images based on meaningful parts of the input. While this architecture is able to produce visually interpretable classifications, it often learns to classify based on parts of the image that are not semantically meaningful. To address this problem, we propose the Reward Reweighing, Reselecting, and Retraining (R3) post-processing framework, which performs three additional corrective updates to a pretrained ProtoPNet in an offline and efficient manner. The first two steps involve learning a reward model based on collected human feedback and then aligning the prototypes with human preferences. The final step is retraining, which realigns the base features and the classifier layer of the original model with the updated prototypes. We find that our R3 framework consistently improves both the interpretability and the predictive accuracy of ProtoPNet and its variants.

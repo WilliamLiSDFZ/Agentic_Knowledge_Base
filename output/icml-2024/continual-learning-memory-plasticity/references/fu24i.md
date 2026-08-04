@@ -1,0 +1,19 @@
+---
+title: "Towards Theoretical Understandings of Self-Consuming Generative Models"
+source: "https://proceedings.mlr.press/v235/fu24i.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/fu24i/fu24i.pdf"
+categories: ['generative-models-and-variational-inference', 'continual-learning-memory-plasticity']
+tags: ['self-consuming-loops', 'generative-models', 'synthetic-data']
+venue: "ICML 2024"
+tldr: "A theoretical framework is developed to analyze how iterative training on mixtures of real and synthetic data affects generative model quality."
+---
+
+# Towards Theoretical Understandings of Self-Consuming Generative Models
+
+**Source**: [https://proceedings.mlr.press/v235/fu24i.html](https://proceedings.mlr.press/v235/fu24i.html)
+
+**TLDR**: A theoretical framework is developed to analyze how iterative training on mixtures of real and synthetic data affects generative model quality.
+
+## Abstract
+
+This paper tackles the emerging challenge of training generative models within a self-consuming loop, wherein successive generations of models are recursively trained on mixtures of real and synthetic data from previous generations. We construct a theoretical framework to rigorously evaluate how this training procedure impacts the data distributions learned by future models, including parametric and non-parametric models. Specifically, we derive bounds on the total variation (TV) distance between the synthetic data distributions produced by future models and the original real data distribution under various mixed training scenarios for diffusion models with a one-hidden-layer neural network score function. Our analysis demonstrates that this distance can be effectively controlled under the condition that mixed training dataset sizes or proportions of real data are large enough. Interestingly, we further unveil a phase transition induced by expanding synthetic data amounts, proving theoretically that while the TV distance exhibits an initial ascent, it declines beyond a threshold point. Finally, we present results for kernel density estimation, delivering nuanced insights such as the impact of mixed data training on error propagation.

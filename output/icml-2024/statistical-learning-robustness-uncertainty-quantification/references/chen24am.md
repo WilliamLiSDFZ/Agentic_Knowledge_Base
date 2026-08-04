@@ -1,0 +1,19 @@
+---
+title: "Self-Attention through Kernel-Eigen Pair Sparse Variational Gaussian Processes"
+source: "https://proceedings.mlr.press/v235/chen24am.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/chen24am/chen24am.pdf"
+categories: ['statistical-learning-robustness-uncertainty-quantification', 'transformer-architecture-efficiency-and-scaling']
+tags: ['Gaussian-processes', 'variational-inference', 'transformers', 'uncertainty-calibration']
+venue: "ICML 2024"
+tldr: "Introduces a sparse variational Gaussian process framework using kernel-eigen pairs to provide calibrated uncertainty estimation for self-attention."
+---
+
+# Self-Attention through Kernel-Eigen Pair Sparse Variational Gaussian Processes
+
+**Source**: [https://proceedings.mlr.press/v235/chen24am.html](https://proceedings.mlr.press/v235/chen24am.html)
+
+**TLDR**: Introduces a sparse variational Gaussian process framework using kernel-eigen pairs to provide calibrated uncertainty estimation for self-attention.
+
+## Abstract
+
+While the great capability of Transformers significantly boosts prediction accuracy, it could also yield overconfident predictions and require calibrated uncertainty estimation, which can be commonly tackled by Gaussian processes (GPs). Existing works apply GPs with symmetric kernels under variational inference to the attention kernel; however, omitting the fact that attention kernels are in essence asymmetric. Moreover, the complexity of deriving the GP posteriors remains high for large-scale data. In this work, we propose Kernel-Eigen Pair Sparse Variational Gaussian Processes (KEP-SVGP) for building uncertainty-aware self-attention where the asymmetry of attention kernels is tackled by Kernel SVD (KSVD) and a reduced complexity is acquired. Through KEP-SVGP, i) the SVGP pair induced by the two sets of singular vectors from KSVD w.r.t. the attention kernel fully characterizes the asymmetry; ii) using only a small set of adjoint eigenfunctions from KSVD, the derivation of SVGP posteriors can be based on the inversion of a diagonal matrix containing singular values, contributing to a reduction in time complexity; iii) an evidence lower bound is derived so that variational parameters and network weights can be optimized with it. Experiments verify our excellent performances and efficiency on in-distribution, distribution-shift and out-of-distribution benchmarks.

@@ -1,0 +1,19 @@
+---
+title: "A Statistical Theory of Regularization-Based Continual Learning"
+source: "https://proceedings.mlr.press/v235/zhao24n.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/zhao24n/zhao24n.pdf"
+categories: ['continual-learning-memory-plasticity']
+tags: ['continual-learning', 'regularization', 'linear-regression', 'statistical-theory']
+venue: "ICML 2024"
+tldr: "This paper presents a statistical analysis of regularization-based continual learning on sequential linear regression tasks, deriving convergence rates and comparing different regularization strategies."
+---
+
+# A Statistical Theory of Regularization-Based Continual Learning
+
+**Source**: [https://proceedings.mlr.press/v235/zhao24n.html](https://proceedings.mlr.press/v235/zhao24n.html)
+
+**TLDR**: This paper presents a statistical analysis of regularization-based continual learning on sequential linear regression tasks, deriving convergence rates and comparing different regularization strategies.
+
+## Abstract
+
+We provide a statistical analysis of regularization-based continual learning on a sequence of linear regression tasks, with emphasis on how different regularization terms affect the model performance. We first derive the convergence rate for the oracle estimator obtained as if all data were available simultaneously. Next, we consider a family of generalized $\ell_2$-regularization algorithms indexed by matrix-valued hyperparameters, which includes the minimum norm estimator and continual ridge regression as special cases. As more tasks are introduced, we derive an iterative update formula for the estimation error of generalized $\ell_2$-regularized estimators, from which we determine the hyperparameters resulting in the optimal algorithm. Interestingly, the choice of hyperparameters can effectively balance the trade-off between forward and backward knowledge transfer and adjust for data heterogeneity. Moreover, the estimation error of the optimal algorithm is derived explicitly, which is of the same order as that of the oracle estimator. In contrast, our lower bounds for the minimum norm estimator and continual ridge regression show their suboptimality. A byproduct of our theoretical analysis is the equivalence between early stopping and generalized $\ell_2$-regularization in continual learning, which may be of independent interest. Finally, we conduct experiments to complement our theory.

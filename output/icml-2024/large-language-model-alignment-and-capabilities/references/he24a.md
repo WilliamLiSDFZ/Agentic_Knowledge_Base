@@ -1,0 +1,19 @@
+---
+title: "From Words to Actions: Unveiling the Theoretical Underpinnings of LLM-Driven Autonomous Systems"
+source: "https://proceedings.mlr.press/v235/he24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/he24a/he24a.pdf"
+categories: ['large-language-model-alignment-and-capabilities', 'multi-agent-mdp-structure-and-dependencies']
+tags: ['llm-agents', 'hierarchical-rl', 'theoretical-foundations']
+venue: "ICML 2024"
+tldr: "A hierarchical RL framework is used to theoretically explain why LLM-driven autonomous agents can effectively solve decision-making problems in the physical world."
+---
+
+# From Words to Actions: Unveiling the Theoretical Underpinnings of LLM-Driven Autonomous Systems
+
+**Source**: [https://proceedings.mlr.press/v235/he24a.html](https://proceedings.mlr.press/v235/he24a.html)
+
+**TLDR**: A hierarchical RL framework is used to theoretically explain why LLM-driven autonomous agents can effectively solve decision-making problems in the physical world.
+
+## Abstract
+
+In this work, from a theoretical lens, we aim to understand why large language model (LLM) empowered agents are able to solve decision-making problems in the physical world. To this end, consider a hierarchical reinforcement learning (RL) model where the LLM Planner and the Actor perform high-level task planning and low-level execution, respectively. Under this model, the LLM Planner navigates a partially observable Markov decision process (POMDP) by iteratively generating language-based subgoals via prompting. Under proper assumptions on the pretraining data, we prove that the pretrained LLM Planner effectively performs Bayesian aggregated imitation learning (BAIL) through in-context learning. Additionally, we highlight the necessity for exploration beyond the subgoals derived from BAIL by proving that naively executing the subgoals returned by LLM leads to a linear regret. As a remedy, we introduce an $\epsilon$-greedy exploration strategy to BAIL, which is proven to incur sublinear regret when the pretraining error is small. Finally, we extend our theoretical framework to include scenarios where the LLM Planner serves as a world model for inferring the transition model of the environment and to multi-agent settings, enabling coordination among multiple Actors.

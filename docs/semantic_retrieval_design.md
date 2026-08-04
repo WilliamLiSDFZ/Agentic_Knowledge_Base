@@ -439,6 +439,10 @@ valid, no rebuild required**. Toggle: `retr_center_embeddings` (default True).
 
 ### 17.2 The query was the entire description
 
+> **Update (2026-08-04): the rule-based fix described below was replaced.** It was tuned on
+> a single description and did not generalise — see §17.4. Centering (§17.1) survived
+> validation on a second task and remains the default.
+
 The query was the whole `description.md` (~5.5k chars): submission format, file lists, field
 tables, citation. Embedding that yields a diffuse "average of everything" vector, and it
 dilutes BM25 term statistics just as badly — which is why the *hybrid* retriever failed too,
@@ -468,6 +472,61 @@ python scripts/probe_retrieval.py --task /path/to/description.md --all
 `--all` compares the four center/focus combinations. Use it after any change to the corpus,
 the query builder or the embedding model — seconds instead of a full run. A flat spread is
 the warning sign that the scorer is not discriminating at all.
+
+## 18. The query is the whole ballgame (and rules don't generalise)
+
+Testing the §17 fixes on a second task — `spooky-author-identification`, chosen because the
+corpus is deep in NLP — produced the opposite result and forced a rethink.
+
+### 18.1 What broke
+
+| ranking on spooky | on-topic top-10 | spread |
+|---|---|---|
+| raw description, no centering | 4/10 | 0.018 |
+| raw description + centering | 2/10 | 0.062 |
+| **rule-extracted query** (§17.2) | **0/10** | 0.013 |
+| **hand-written 379-char task summary + centering** | **9/10** | **0.183** |
+
+The heading rules were tuned on the OpenADMET description, where the signal lived in a
+trailing "data characteristics" section and `Evaluation` was verbose formula plumbing. A
+classic Kaggle description inverts that: `spooky`'s ML content ("multi-class, log loss")
+lives *in* `Evaluation`, which the rules discarded, leaving prize rules and horror-story
+flavour text. Result: 0/10, worse than no processing at all.
+
+Two conclusions:
+
+- **Centering generalises.** Second task, same direction: 8/10 → 9/10 and spread 0.061 →
+  0.183 with a good query. Where it appeared to hurt (4/10 → 2/10 on the raw description),
+  the query itself was noise — centering amplifies whatever signal is present, including
+  none.
+- **Query construction dominates everything else.** Same corpus, same model, same settings:
+  2/10 with the description, 9/10 with a short task statement. Corpus size and embedding
+  choice were never the bottleneck here.
+
+### 18.2 The fix: distil the query with one cached LLM call
+
+`_build_query` now asks the LLM to compress the description into a 50–80 word statement of
+the ML problem — input type and scale, task type, metric, likely-relevant techniques —
+explicitly excluding prizes, timelines, submission formats and flavour text. In other words,
+it reproduces what the hand-written query did, automatically.
+
+Determinism, which was the original argument *against* an LLM here, is handled by caching:
+the result is written to `<abstract_index_path>/../query_cache/<sha1-of-description>.txt`,
+so a task is distilled once and every later run — including both arms of an A/B — reads the
+identical query. Cost is one call per task, then zero.
+
+Fallbacks, in order: cache hit → LLM call → raw description truncated to 2500 chars (the
+8/10 tier). The rule-based path is **removed**, not demoted: it scored 0/10 and had no
+regime where it was the best option. Outputs under 40 characters are treated as failures
+and are not cached.
+
+Config: `retr_query_mode: llm | raw` (default `llm`), `retr_query_cache_dir`.
+
+### 18.3 Process note
+
+Both of these fixes were tuned on n=1 and one of them was wrong. `scripts/probe_retrieval.py`
+exists precisely to catch that cheaply — always probe a *second, structurally different*
+task before trusting a retrieval change, and before spending a 12-hour run on it.
 
 ## References (2026 retrieval landscape)
 

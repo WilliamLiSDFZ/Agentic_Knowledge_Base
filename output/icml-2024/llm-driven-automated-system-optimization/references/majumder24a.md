@@ -1,0 +1,19 @@
+---
+title: "Position: Data-driven Discovery with Large Generative Models"
+source: "https://proceedings.mlr.press/v235/majumder24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/majumder24a/majumder24a.pdf"
+categories: ['position-papers-on-ml-research-directions', 'llm-driven-automated-system-optimization']
+tags: ['large-generative-models', 'scientific-discovery', 'data-driven']
+venue: "ICML 2024"
+tldr: "A position paper advocating for using large generative models to build automated end-to-end data-driven scientific discovery systems."
+---
+
+# Position: Data-driven Discovery with Large Generative Models
+
+**Source**: [https://proceedings.mlr.press/v235/majumder24a.html](https://proceedings.mlr.press/v235/majumder24a.html)
+
+**TLDR**: A position paper advocating for using large generative models to build automated end-to-end data-driven scientific discovery systems.
+
+## Abstract
+
+With the accumulation of data at an unprecedented rate, its potential to fuel scientific discovery is growing exponentially. This position paper urges the Machine Learning (ML) community to exploit the capabilities of large generative models (LGMs) to develop automated systems for end-to-end data-driven discovery—a paradigm encompassing the search and verification of hypotheses purely from a set of provided datasets, without the need for additional data collection or physical experiments. We first outline several desiderata for an ideal data-driven discovery system. Then, through DataVoyager, a proof-of-concept utilizing GPT-4, we demonstrate how LGMs fulfill several of these desiderata—a feat previously unattainable—while also highlighting important limitations in the current system that open up opportunities for novel ML research. We contend that achieving accurate, reliable, and robust end-to-end discovery systems solely through the current capabilities of LGMs is challenging. We instead advocate for fail-proof tool integration, along with active user moderation through feedback mechanisms, to foster data-driven scientific discoveries with efficiency and reproducibility.

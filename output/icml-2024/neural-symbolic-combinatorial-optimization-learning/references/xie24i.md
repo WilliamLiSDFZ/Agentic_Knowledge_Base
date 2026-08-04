@@ -1,0 +1,19 @@
+---
+title: "Counterfactual Reasoning for Multi-Label Image Classification via Patching-Based Training"
+source: "https://proceedings.mlr.press/v235/xie24i.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/xie24i/xie24i.pdf"
+categories: ['learning-with-imperfect-data-and-bias', 'neural-symbolic-combinatorial-optimization-learning']
+tags: ['multi-label-classification', 'counterfactual-reasoning', 'label-correlation']
+venue: "ICML 2024"
+tldr: "Uses counterfactual reasoning with patch-based training to reduce label co-occurrence overfitting in multi-label image classification."
+---
+
+# Counterfactual Reasoning for Multi-Label Image Classification via Patching-Based Training
+
+**Source**: [https://proceedings.mlr.press/v235/xie24i.html](https://proceedings.mlr.press/v235/xie24i.html)
+
+**TLDR**: Uses counterfactual reasoning with patch-based training to reduce label co-occurrence overfitting in multi-label image classification.
+
+## Abstract
+
+The key to multi-label image classification (MLC) is to improve model performance by leveraging label correlations. Unfortunately, it has been shown that overemphasizing co-occurrence relationships can cause the overfitting issue of the model, ultimately leading to performance degradation. In this paper, we provide a causal inference framework to show that the correlative features caused by the target object and its co-occurring objects can be regarded as a mediator, which has both positive and negative impacts on model predictions. On the positive side, the mediator enhances the recognition performance of the model by capturing co-occurrence relationships; on the negative side, it has the harmful causal effect that causes the model to make an incorrect prediction for the target object, even when only co-occurring objects are present in an image. To address this problem, we propose a counterfactual reasoning method to measure the total direct effect, achieved by enhancing the direct effect caused only by the target object. Due to the unknown location of the target object, we propose patching-based training and inference to accomplish this goal, which divides an image into multiple patches and identifies the pivot patch that contains the target object. Experimental results on multiple benchmark datasets with diverse configurations validate that the proposed method can achieve state-of-the-art performance.

@@ -1,0 +1,19 @@
+---
+title: "Nonparametric Teaching of Implicit Neural Representations"
+source: "https://proceedings.mlr.press/v235/zhang24ap.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/zhang24ap/zhang24ap.pdf"
+categories: ['combinatorial-problems-in-machine-teaching', 'neural-network-learning-dynamics-theory']
+tags: ['implicit-neural-representations', 'nonparametric-teaching', 'MLP']
+venue: "ICML 2024"
+tldr: "Applies nonparametric teaching theory to efficiently select training examples for learning implicit neural representations with MLPs."
+---
+
+# Nonparametric Teaching of Implicit Neural Representations
+
+**Source**: [https://proceedings.mlr.press/v235/zhang24ap.html](https://proceedings.mlr.press/v235/zhang24ap.html)
+
+**TLDR**: Applies nonparametric teaching theory to efficiently select training examples for learning implicit neural representations with MLPs.
+
+## Abstract
+
+We investigate the learning of implicit neural representation (INR) using an overparameterized multilayer perceptron (MLP) via a novel nonparametric teaching perspective. The latter offers an efficient example selection framework for teaching nonparametrically defined (viz. non-closed-form) target functions, such as image functions defined by 2D grids of pixels. To address the costly training of INRs, we propose a paradigm called Implicit Neural Teaching (INT) that treats INR learning as a nonparametric teaching problem, where the given signal being fitted serves as the target function. The teacher then selects signal fragments for iterative training of the MLP to achieve fast convergence. By establishing a connection between MLP evolution through parameter-based gradient descent and that of function evolution through functional gradient descent in nonparametric teaching, we show for the first time that teaching an overparameterized MLP is consistent with teaching a nonparametric learner. This new discovery readily permits a convenient drop-in of nonparametric teaching algorithms to broadly enhance INR training efficiency, demonstrating 30%+ training time savings across various input modalities.

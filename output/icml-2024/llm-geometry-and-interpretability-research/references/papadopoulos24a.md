@@ -1,0 +1,19 @@
+---
+title: "Arrows of Time for Large Language Models"
+source: "https://proceedings.mlr.press/v235/papadopoulos24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/papadopoulos24a/papadopoulos24a.pdf"
+categories: ['llm-geometry-and-interpretability-research', 'large-language-model-alignment-and-capabilities']
+tags: ['arrow-of-time', 'autoregressive-LLM', 'language-modeling', 'time-directionality']
+venue: "ICML 2024"
+tldr: "Empirically demonstrates a time asymmetry in autoregressive LLMs, showing they learn natural language better in the forward temporal direction than the reverse."
+---
+
+# Arrows of Time for Large Language Models
+
+**Source**: [https://proceedings.mlr.press/v235/papadopoulos24a.html](https://proceedings.mlr.press/v235/papadopoulos24a.html)
+
+**TLDR**: Empirically demonstrates a time asymmetry in autoregressive LLMs, showing they learn natural language better in the forward temporal direction than the reverse.
+
+## Abstract
+
+We study the probabilistic modeling performed by Autoregressive Large Language Models (LLMs) through the angle of time directionality, addressing a question first raised in (Shannon, 1951). For large enough models, we empirically find a time asymmetry in their ability to learn natural language: a difference in the average log-perplexity when trying to predict the next token versus when trying to predict the previous one. This difference is at the same time subtle and very consistent across various modalities (language, model size, training time, ...). Theoretically, this is surprising: from an information-theoretic point of view, there should be no such difference. We provide a theoretical framework to explain how such an asymmetry can appear from sparsity and computational complexity considerations, and outline a number of perspectives opened by our results.

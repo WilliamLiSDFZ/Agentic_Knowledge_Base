@@ -1,0 +1,19 @@
+---
+title: "Eureka-Moments in Transformers: Multi-Step Tasks Reveal Softmax Induced Optimization Problems"
+source: "https://proceedings.mlr.press/v235/hoffmann24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/hoffmann24a/hoffmann24a.pdf"
+categories: ['transformer-architecture-efficiency-and-scaling', 'neural-network-learning-dynamics-theory']
+tags: ['transformers', 'softmax', 'optimization', 'multi-step-tasks', 'training-dynamics']
+venue: "ICML 2024"
+tldr: "Reveals that softmax-induced optimization problems cause transformers to exhibit sudden "eureka" learning jumps on multi-step tasks."
+---
+
+# Eureka-Moments in Transformers: Multi-Step Tasks Reveal Softmax Induced Optimization Problems
+
+**Source**: [https://proceedings.mlr.press/v235/hoffmann24a.html](https://proceedings.mlr.press/v235/hoffmann24a.html)
+
+**TLDR**: Reveals that softmax-induced optimization problems cause transformers to exhibit sudden "eureka" learning jumps on multi-step tasks.
+
+## Abstract
+
+In this work, we study rapid improvements of the training loss in transformers when being confronted with multi-step decision tasks. We found that transformers struggle to learn the intermediate task and both training and validation loss saturate for hundreds of epochs. When transformers finally learn the intermediate task, they do this rapidly and unexpectedly. We call these abrupt improvements Eureka-moments, since the transformer appears to suddenly learn a previously incomprehensible concept. We designed synthetic tasks to study the problem in detail, but the leaps in performance can be observed also for language modeling and in-context learning (ICL). We suspect that these abrupt transitions are caused by the multi-step nature of these tasks. Indeed, we find connections and show that ways to improve on the synthetic multi-step tasks can be used to improve the training of language modeling and ICL. Using the synthetic data we trace the problem back to the Softmax function in the self-attention block of transformers and show ways to alleviate the problem. These fixes reduce the required number of training steps, lead to higher likelihood to learn the intermediate task, to higher final accuracy and training becomes more robust to hyper-parameters.

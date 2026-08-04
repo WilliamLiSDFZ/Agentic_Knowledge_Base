@@ -1,0 +1,19 @@
+---
+title: "Critical feature learning in deep neural networks"
+source: "https://proceedings.mlr.press/v235/fischer24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/fischer24a/fischer24a.pdf"
+categories: ['neural-network-learning-dynamics-theory', 'statistical-learning-robustness-uncertainty-quantification']
+tags: ['feature-learning', 'neural-tangent-kernel', 'finite-width-effects']
+venue: "ICML 2024"
+tldr: "A systematic theory of network kernels is developed to capture finite-width feature learning effects in deep neural networks."
+---
+
+# Critical feature learning in deep neural networks
+
+**Source**: [https://proceedings.mlr.press/v235/fischer24a.html](https://proceedings.mlr.press/v235/fischer24a.html)
+
+**TLDR**: A systematic theory of network kernels is developed to capture finite-width feature learning effects in deep neural networks.
+
+## Abstract
+
+A key property of neural networks driving their success is their ability to learn features from data. Understanding feature learning from a theoretical viewpoint is an emerging field with many open questions. In this work we capture finite-width effects with a systematic theory of network kernels in deep non-linear neural networks. We show that the Bayesian prior of the network can be written in closed form as a superposition of Gaussian processes, whose kernels are distributed with a variance that depends inversely on the network width $N$. A large deviation approach, which is exact in the proportional limit for the number of data points $P=\alpha N\to\infty$, yields a pair of forward-backward equations for the maximum a posteriori kernels in all layers at once. We study their solutions perturbatively, to demonstrate how the backward propagation across layers aligns kernels with the target. An alternative field-theoretic formulation shows that kernel adaptation of the Bayesian posterior at finite-width results from fluctuations in the prior: larger fluctuations correspond to a more flexible network prior and thus enable stronger adaptation to data. We thus find a bridge between the classical edge-of-chaos NNGP theory and feature learning, exposing an intricate interplay between criticality, response functions, and feature scale.

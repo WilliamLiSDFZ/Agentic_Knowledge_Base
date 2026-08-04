@@ -1,0 +1,19 @@
+---
+title: "Transitional Uncertainty with Layered Intermediate Predictions"
+source: "https://proceedings.mlr.press/v235/benkert24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/benkert24a/benkert24a.pdf"
+categories: ['uncertainty-calibration-and-distribution-shift-adaptation', 'statistical-learning-robustness-uncertainty-quantification']
+tags: ['uncertainty-estimation', 'single-pass', 'feature-engineering', 'calibration', 'neural-networks']
+venue: "ICML 2024"
+tldr: "Proposes layered intermediate predictions for improved single-pass uncertainty estimation by preserving feature-space distances."
+---
+
+# Transitional Uncertainty with Layered Intermediate Predictions
+
+**Source**: [https://proceedings.mlr.press/v235/benkert24a.html](https://proceedings.mlr.press/v235/benkert24a.html)
+
+**TLDR**: Proposes layered intermediate predictions for improved single-pass uncertainty estimation by preserving feature-space distances.
+
+## Abstract
+
+In this paper, we discuss feature engineering for single-pass uncertainty estimation. For accurate uncertainty estimates, neural networks must extract differences in the feature space that quantify uncertainty. This could be achieved by current single-pass approaches that maintain feature distances between data points as they traverse the network. While initial results are promising, maintaining feature distances within the network representations frequently inhibits information compression and opposes the learning objective. We study this effect theoretically and empirically to arrive at a simple conclusion: preserving feature distances in the output is beneficial when the preserved features contribute to learning the label distribution and act in opposition otherwise. We then propose Transitional Uncertainty with Layered Intermediate Predictions (TULIP) as a simple approach to address the shortcomings of current single-pass estimators. Specifically, we implement feature preservation by extracting features from intermediate representations before information is collapsed by subsequent layers. We refer to the underlying preservation mechanism as transitional feature preservation. We show that TULIP matches or outperforms current single-pass methods on standard benchmarks and in practical settings where these methods are less reliable (imbalances, complex architectures, medical modalities).

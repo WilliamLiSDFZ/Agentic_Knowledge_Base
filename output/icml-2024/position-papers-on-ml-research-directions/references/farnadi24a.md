@@ -1,0 +1,19 @@
+---
+title: "Position: Cracking the Code of Cascading Disparity Towards Marginalized Communities"
+source: "https://proceedings.mlr.press/v235/farnadi24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/farnadi24a/farnadi24a.pdf"
+categories: ['position-papers-on-ml-research-directions']
+tags: ['foundation-models', 'marginalized-communities', 'fairness-disparities']
+venue: "ICML 2024"
+tldr: "Position paper arguing that foundation models risk amplifying cascading disparities for marginalized communities across multiple dimensions."
+---
+
+# Position: Cracking the Code of Cascading Disparity Towards Marginalized Communities
+
+**Source**: [https://proceedings.mlr.press/v235/farnadi24a.html](https://proceedings.mlr.press/v235/farnadi24a.html)
+
+**TLDR**: Position paper arguing that foundation models risk amplifying cascading disparities for marginalized communities across multiple dimensions.
+
+## Abstract
+
+The rise of foundation models holds immense promise for advancing AI, but this progress may amplify existing risks and inequalities, leaving marginalized communities behind. In this position paper, we discuss that disparities towards marginalized communities – performance, representation, privacy, robustness, interpretability and safety – are not isolated concerns but rather interconnected elements of a cascading disparity phenomenon. We contrast foundation models with traditional models and highlight the potential for exacerbated disparity against marginalized communities. Moreover, we emphasize the unique threat of cascading impacts in foundation models, where interconnected disparities can trigger long-lasting negative consequences, specifically to the people on the margin. We define marginalized communities within the machine learning context and explore the multifaceted nature of disparities. We analyze the sources of these disparities, tracing them from data creation, training and deployment procedures to highlight the complex technical and socio-technical landscape. To mitigate the pressing crisis, we conclude with a set of calls to action to mitigate disparity at its source.

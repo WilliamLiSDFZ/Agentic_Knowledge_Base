@@ -1,0 +1,19 @@
+---
+title: "On the Weight Dynamics of Deep Normalized Networks"
+source: "https://proceedings.mlr.press/v235/ali-mehmeti-gopel24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/ali-mehmeti-gopel24a/ali-mehmeti-gopel24a.pdf"
+categories: ['neural-network-learning-dynamics-theory', 'optimization-algorithms-convergence-theory']
+tags: ['weight-dynamics', 'deep-networks', 'effective-learning-rates']
+venue: "ICML 2024"
+tldr: "This paper formalizes how disparities in effective learning rates across layers evolve in deep normalized networks, affecting trainability."
+---
+
+# On the Weight Dynamics of Deep Normalized Networks
+
+**Source**: [https://proceedings.mlr.press/v235/ali-mehmeti-gopel24a.html](https://proceedings.mlr.press/v235/ali-mehmeti-gopel24a.html)
+
+**TLDR**: This paper formalizes how disparities in effective learning rates across layers evolve in deep normalized networks, affecting trainability.
+
+## Abstract
+
+Recent studies have shown that high disparities in effective learning rates (ELRs) across layers in deep neural networks can negatively affect trainability. We formalize how these disparities evolve over time by modeling weight dynamics (evolution of expected gradient and weight norms) of networks with normalization layers, predicting the evolution of layer-wise ELR ratios. We prove that when training with any constant learning rate, ELR ratios converge to 1, despite initial gradient explosion. We identify a "critical learning rate" beyond which ELR disparities widen, which only depends on current ELRs. To validate our findings, we devise a hyper-parameter-free warm-up method that successfully minimizes ELR spread quickly in theory and practice. Our experiments link ELR spread with trainability, a relationship that is most evident in very deep networks with significant gradient magnitude excursions.

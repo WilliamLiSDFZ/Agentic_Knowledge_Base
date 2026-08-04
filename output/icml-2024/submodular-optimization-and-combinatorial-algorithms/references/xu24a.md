@@ -1,0 +1,19 @@
+---
+title: "Parameter-Dependent Competitive Analysis for Online Capacitated Coverage Maximization through Boostings and Attenuations"
+source: "https://proceedings.mlr.press/v235/xu24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/xu24a/xu24a.pdf"
+categories: ['submodular-optimization-and-combinatorial-algorithms']
+tags: ['online-coverage-maximization', 'competitive-analysis', 'submodular']
+venue: "ICML 2024"
+tldr: "A parameter-dependent competitive analysis framework is developed for online capacitated coverage maximization using boosting and attenuation techniques."
+---
+
+# Parameter-Dependent Competitive Analysis for Online Capacitated Coverage Maximization through Boostings and Attenuations
+
+**Source**: [https://proceedings.mlr.press/v235/xu24a.html](https://proceedings.mlr.press/v235/xu24a.html)
+
+**TLDR**: A parameter-dependent competitive analysis framework is developed for online capacitated coverage maximization using boosting and attenuation techniques.
+
+## Abstract
+
+In this paper, we consider a model called Online Capacitated Coverage Maximization, characterized by two features: (1) the dynamic arrival of online agents following a known identical and independent distribution, and (2) each offline agent is associated with a specific coverage valuation over the groundset of online agents. Additionally, both offline and online agents are assigned integer capacities, reflecting finite budgets and operational constraints. We introduce and analyze two matching policies. The first, a non-adaptive policy, utilizes offline statistics derived from solving a benchmark linear program. The second is an enhanced version equipped with real-time boostings and attenuations. We conduct a comprehensive competitive analysis and characterize the competitive ratio for both policies as functions of two crucial parameters: a lower bound on the matching capacity among offline agents and an upper bound on the number of online agents covering any specific feature for offline agents.

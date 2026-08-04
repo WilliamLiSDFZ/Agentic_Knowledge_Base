@@ -1,0 +1,19 @@
+---
+title: "Neural Tangent Kernels for Axis-Aligned Tree Ensembles"
+source: "https://proceedings.mlr.press/v235/kanoh24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/kanoh24a/kanoh24a.pdf"
+categories: ['decision-tree-learning-algorithms-optimization', 'neural-network-learning-dynamics-theory']
+tags: ['neural-tangent-kernel', 'decision-trees', 'axis-aligned', 'ensemble-learning']
+venue: "ICML 2024"
+tldr: "Analyzes the learning dynamics of axis-aligned tree ensembles through the neural tangent kernel framework to understand their inductive bias."
+---
+
+# Neural Tangent Kernels for Axis-Aligned Tree Ensembles
+
+**Source**: [https://proceedings.mlr.press/v235/kanoh24a.html](https://proceedings.mlr.press/v235/kanoh24a.html)
+
+**TLDR**: Analyzes the learning dynamics of axis-aligned tree ensembles through the neural tangent kernel framework to understand their inductive bias.
+
+## Abstract
+
+While axis-aligned rules are known to induce an important inductive bias in machine learning models such as typical hard decision tree ensembles, theoretical understanding of the learning behavior is largely unrevealed due to the discrete nature of rules. To address this issue, we impose the axis-aligned constraint on soft trees, which relax the splitting process of decision trees and are trained using a gradient method, and present their Neural Tangent Kernel (NTK), which enables us to analytically describe the training behavior. We study two cases: imposing the axis-aligned constraint throughout the entire training process, and only at the initial state. Moreover, we extend the NTK framework to handle various tree architectures simultaneously, and prove that any axis-aligned non-oblivious tree ensemble can be transformed into axis-aligned oblivious tree ensembles with the same NTK. One can search for suitable tree architecture via Multiple Kernel Learning (MKL), and our numerical experiments show a variety of suitable features depending on the type of constraints. Our NTK analysis highlights both the theoretical and practical impacts of the axis-aligned constraint in tree ensemble learning.

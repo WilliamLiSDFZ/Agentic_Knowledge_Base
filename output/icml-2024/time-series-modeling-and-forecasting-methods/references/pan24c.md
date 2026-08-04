@@ -1,0 +1,19 @@
+---
+title: "$S^2$IP-LLM: Semantic Space Informed Prompt Learning with LLM for Time Series Forecasting"
+source: "https://proceedings.mlr.press/v235/pan24c.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/pan24c/pan24c.pdf"
+categories: ['time-series-modeling-and-forecasting-methods']
+tags: ['time-series-forecasting', 'LLM', 'prompt-learning', 'semantic-space']
+venue: "ICML 2024"
+tldr: "Leverages LLM semantic space via informed prompt learning to improve time series forecasting performance."
+---
+
+# $S^2$IP-LLM: Semantic Space Informed Prompt Learning with LLM for Time Series Forecasting
+
+**Source**: [https://proceedings.mlr.press/v235/pan24c.html](https://proceedings.mlr.press/v235/pan24c.html)
+
+**TLDR**: Leverages LLM semantic space via informed prompt learning to improve time series forecasting performance.
+
+## Abstract
+
+Recently, there has been a growing interest in leveraging pre-trained large language models (LLMs) for various time series applications. However, the semantic space of LLMs, established through the pre-training, is still underexplored and may help yield more distinctive and informative representations to facilitate time series forecasting. To this end, we propose Semantic Space Informed Prompt learning with LLM ($S^2$IP-LLM) to align the pre-trained semantic space with time series embedding space and perform time series forecasting based on learned prompts from the joint space. We first design a tokenization module tailored for cross-modality alignment, which explicitly concatenates patches of decomposed time series components to create embeddings that effectively encode the temporal dynamics. Next, we leverage the pre-trained word token embeddings to derive semantic anchors and align selected anchors with time series embeddings by maximizing the cosine similarity in the joint space. This way, $S^2$IP-LLM can retrieve relevant semantic anchors as prompts to provide strong indicators (context) for time series that exhibit different temporal dynamics. With thorough empirical studies on multiple benchmark datasets, we demonstrate that the proposed $S^2$IP-LLM can achieve superior forecasting performance over state-of-the-art baselines. Furthermore, our ablation studies and visualizations verify the necessity of prompt learning informed by semantic space.

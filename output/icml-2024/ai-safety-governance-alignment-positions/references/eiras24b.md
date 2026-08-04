@@ -1,0 +1,19 @@
+---
+title: "Position: Near to Mid-term Risks and Opportunities of Open-Source Generative AI"
+source: "https://proceedings.mlr.press/v235/eiras24b.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/eiras24b/eiras24b.pdf"
+categories: ['ai-safety-governance-alignment-positions', 'position-papers-on-ml-research-directions']
+tags: ['open-source-ai', 'generative-ai', 'risk-assessment', 'regulation', 'governance']
+venue: "ICML 2024"
+tldr: "Position paper analyzing near- to mid-term risks and opportunities of open-source generative AI and implications for regulatory policy."
+---
+
+# Position: Near to Mid-term Risks and Opportunities of Open-Source Generative AI
+
+**Source**: [https://proceedings.mlr.press/v235/eiras24b.html](https://proceedings.mlr.press/v235/eiras24b.html)
+
+**TLDR**: Position paper analyzing near- to mid-term risks and opportunities of open-source generative AI and implications for regulatory policy.
+
+## Abstract
+
+In the next few years, applications of Generative AI are expected to revolutionize a number of different areas, ranging from science & medicine to education. The potential for these seismic changes has triggered a lively debate about potential risks and resulted in calls for tighter regulation, in particular from some of the major tech companies who are leading in AI development. While regulation is important, it is key that it does not put at risk the budding field of open-source Generative AI. We argue for the responsible open sourcing of generative AI models in the near and medium term. To set the stage, we first introduce an AI openness taxonomy system and apply it to 40 current large language models. We then outline differential benefits and risks of open versus closed source AI and present potential risk mitigation, ranging from best practices to calls for technical and scientific contributions. We hope that this report will add a much needed missing voice to the current public discourse on near to mid-term AI safety and other societal impact.

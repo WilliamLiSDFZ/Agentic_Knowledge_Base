@@ -1,0 +1,19 @@
+---
+title: "Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models"
+source: "https://proceedings.mlr.press/v235/zhou24r.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/zhou24r/zhou24r.pdf"
+categories: ['large-language-model-alignment-and-capabilities', 'online-learning-and-sequential-decision-making']
+tags: ['language-agents', 'tree-search', 'reasoning-and-planning']
+venue: "ICML 2024"
+tldr: "Introduces LATS, a framework unifying reasoning, acting, and planning in language models via Monte Carlo tree search for improved autonomous decision-making."
+---
+
+# Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models
+
+**Source**: [https://proceedings.mlr.press/v235/zhou24r.html](https://proceedings.mlr.press/v235/zhou24r.html)
+
+**TLDR**: Introduces LATS, a framework unifying reasoning, acting, and planning in language models via Monte Carlo tree search for improved autonomous decision-making.
+
+## Abstract
+
+While language models (LMs) have shown potential across a range of decision-making tasks, their reliance on simple acting processes limits their broad deployment as autonomous agents. In this paper, we introduce Language Agent Tree Search (LATS) – the first general framework that synergizes the capabilities of LMs in reasoning, acting, and planning. By leveraging the in-context learning ability of LMs, we integrate Monte Carlo Tree Search into LATS to enable LMs as agents, along with LM-powered value functions and self-reflections for proficient exploration and enhanced decision-making. A key feature of our approach is the incorporation of an environment for external feedback, which offers a more deliberate and adaptive problem-solving mechanism that surpasses the constraints of existing techniques. Our experimental evaluation across diverse domains, including programming, interactive question-answering (QA), web navigation, and math, validates the effectiveness and generality of LATS in decision-making while maintaining competitive or improved reasoning performance. Notably, LATS achieves state-of-the-art pass@1 accuracy (92.7%) for programming on HumanEval with GPT-4 and demonstrates gradient-free performance (average score of 75.9) comparable to gradient-based fine-tuning for web navigation on WebShop with GPT-3.5. Code can be found at https://github.com/lapisrocks/LanguageAgentTreeSearch

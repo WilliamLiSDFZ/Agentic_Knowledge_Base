@@ -1,0 +1,19 @@
+---
+title: "Fair Classification with Partial Feedback: An Exploration-Based Data Collection Approach"
+source: "https://proceedings.mlr.press/v235/keswani24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/keswani24a/keswani24a.pdf"
+categories: ['fairness-aware-algorithmic-decision-making', 'data-selection-and-active-learning-methods']
+tags: ['fair-classification', 'partial-feedback', 'exploration-based-data-collection']
+venue: "ICML 2024"
+tldr: "Proposes an exploration-based data collection approach for fair classification when true outcomes are only observed for positively classified samples."
+---
+
+# Fair Classification with Partial Feedback: An Exploration-Based Data Collection Approach
+
+**Source**: [https://proceedings.mlr.press/v235/keswani24a.html](https://proceedings.mlr.press/v235/keswani24a.html)
+
+**TLDR**: Proposes an exploration-based data collection approach for fair classification when true outcomes are only observed for positively classified samples.
+
+## Abstract
+
+In many predictive contexts (e.g., credit lending), true outcomes are only observed for samples that were positively classified in the past. These past observations, in turn, form training datasets for classifiers that make future predictions. However, such training datasets lack information about the outcomes of samples that were (incorrectly) negatively classified in the past and can lead to erroneous classifiers. We present an approach that trains a classifier using available data and comes with a family of exploration strategies to collect outcome data about subpopulations that otherwise would have been ignored. For any exploration strategy, the approach comes with guarantees that (1) all sub-populations are explored, (2) the fraction of false positives is bounded, and (3) the trained classifier converges to a "desired" classifier. The right exploration strategy is context-dependent; it can be chosen to improve learning guarantees and encode context-specific group fairness properties. Evaluation on real-world datasets shows that this approach consistently boosts the quality of collected outcome data and improves the fraction of true positives for all groups, with only a small reduction in predictive utility.

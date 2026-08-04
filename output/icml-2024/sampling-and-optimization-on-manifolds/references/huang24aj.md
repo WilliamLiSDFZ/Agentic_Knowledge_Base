@@ -1,0 +1,19 @@
+---
+title: "Faster Sampling via Stochastic Gradient Proximal Sampler"
+source: "https://proceedings.mlr.press/v235/huang24aj.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/huang24aj/huang24aj.pdf"
+categories: ['sampling-and-optimization-on-manifolds', 'optimization-algorithms-convergence-theory']
+tags: ['langevin-dynamics', 'stochastic-gradient', 'proximal-sampler', 'sampling', 'convergence']
+venue: "ICML 2024"
+tldr: "Integrates stochastic gradients into the proximal sampler framework to achieve faster convergence for large-scale sampling problems."
+---
+
+# Faster Sampling via Stochastic Gradient Proximal Sampler
+
+**Source**: [https://proceedings.mlr.press/v235/huang24aj.html](https://proceedings.mlr.press/v235/huang24aj.html)
+
+**TLDR**: Integrates stochastic gradients into the proximal sampler framework to achieve faster convergence for large-scale sampling problems.
+
+## Abstract
+
+Stochastic gradients have been widely integrated into Langevin-based methods to improve their scalability and efficiency in solving large-scale sampling problems. However, the proximal sampler, which exhibits much faster convergence than Langevin-based algorithms in the deterministic setting (Lee et al., 2021), has yet to be explored in its stochastic variants. In this paper, we study the Stochastic Proximal Samplers (SPS) for sampling from non-log-concave distributions. We first establish a general framework for implementing stochastic proximal samplers and establish the convergence theory accordingly. We show that the convergence to the target distribution can be guaranteed as long as the second moment of the algorithm trajectory is bounded and restricted Gaussian oracles can be well approximated. We then provide two implementable variants based on Stochastic gradient Langevin dynamics (SGLD) and Metropolis-adjusted Langevin algorithm (MALA), giving rise to SPS-SGLD and SPS-MALA. We further show that SPS-SGLD and SPS-MALA can achieve $\epsilon$-sampling error in total variation (TV) distance within $\tilde{\mathcal{O}}(d\epsilon^{-2})$ and $\tilde{\mathcal{O}}(d^{1/2}\epsilon^{-2})$ gradient complexities, which outperform the best-known result by at least an $\tilde{\mathcal{O}}(d^{1/3})$ factor. This enhancement in performance is corroborated by our empirical studies on synthetic data with various dimensions, demonstrating the efficiency of our proposed algorithm.

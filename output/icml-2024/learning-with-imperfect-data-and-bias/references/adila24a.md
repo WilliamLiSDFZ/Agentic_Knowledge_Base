@@ -1,0 +1,19 @@
+---
+title: "Discovering Bias in Latent Space: An Unsupervised Debiasing Approach"
+source: "https://proceedings.mlr.press/v235/adila24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/adila24a/adila24a.pdf"
+categories: ['learning-with-imperfect-data-and-bias']
+tags: ['debiasing', 'latent-space', 'question-answering', 'unsupervised', 'prompt-sensitivity']
+venue: "ICML 2024"
+tldr: "Proposes an unsupervised debiasing approach that identifies and mitigates bias in the latent space of foundation models for QA."
+---
+
+# Discovering Bias in Latent Space: An Unsupervised Debiasing Approach
+
+**Source**: [https://proceedings.mlr.press/v235/adila24a.html](https://proceedings.mlr.press/v235/adila24a.html)
+
+**TLDR**: Proposes an unsupervised debiasing approach that identifies and mitigates bias in the latent space of foundation models for QA.
+
+## Abstract
+
+The question-answering (QA) capabilities of foundation models are highly sensitive to prompt variations, rendering their performance susceptible to superficial, non-meaning-altering changes. This vulnerability often stems from the model’s preference or bias towards specific input characteristics, such as option position or superficial image features in multi-modal settings. We propose to rectify this bias directly in the model’s internal representation. Our approach, SteerFair, finds the bias direction in the model’s representation space and steers activation values away from it during inference. Specifically, we exploit the observation that bias often adheres to simple association rules, such as the spurious association between the first option and correctness likelihood. Next, we construct demonstrations of these rules from unlabeled samples and use them to identify the bias directions. We empirically show that SteerFair significantly reduces instruction-tuned model performance variance across prompt modifications on three benchmark tasks. Remarkably, our approach surpasses a supervised baseline with 100 labels by an average of 10.86% accuracy points and 12.95 score points and matches the performance with 500 labels.

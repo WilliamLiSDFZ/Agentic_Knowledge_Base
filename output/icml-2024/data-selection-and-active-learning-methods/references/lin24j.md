@@ -1,0 +1,19 @@
+---
+title: "Selecting Large Language Model to Fine-tune via Rectified Scaling Law"
+source: "https://proceedings.mlr.press/v235/lin24j.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/lin24j/lin24j.pdf"
+categories: ['large-language-model-alignment-and-capabilities', 'data-selection-and-active-learning-methods']
+tags: ['LLM-selection', 'scaling-law', 'fine-tuning']
+venue: "ICML 2024"
+tldr: "A rectified scaling law approach for selecting the most appropriate pre-trained LLM to fine-tune under resource constraints."
+---
+
+# Selecting Large Language Model to Fine-tune via Rectified Scaling Law
+
+**Source**: [https://proceedings.mlr.press/v235/lin24j.html](https://proceedings.mlr.press/v235/lin24j.html)
+
+**TLDR**: A rectified scaling law approach for selecting the most appropriate pre-trained LLM to fine-tune under resource constraints.
+
+## Abstract
+
+The ever-growing ecosystem of LLMs has posed a challenge in selecting the most appropriate pre-trained model to fine-tune amidst a sea of options. Given constrained resources, fine-tuning all models and making selections afterward is unrealistic. In this work, we formulate this resource-constrained selection task into predicting fine-tuning performance and illustrate its natural connection with Scaling Law. Unlike pre-training, we find that the fine-tuning scaling curve includes not just the well-known "power phase" but also the previously unobserved "pre-power phase". We also explain why existing Scaling Law fails to capture this phase transition phenomenon both theoretically and empirically. To address this, we introduce the concept of "pre-learned data size" into our Rectified Scaling Law, which overcomes theoretical limitations and fits experimental results much better. By leveraging our law, we propose a novel LLM selection algorithm that selects the near-optimal model with hundreds of times less resource consumption, while other methods may provide negatively correlated selection. The project page is available at rectified-scaling-law.github.io.

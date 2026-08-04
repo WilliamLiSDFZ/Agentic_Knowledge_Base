@@ -1,0 +1,19 @@
+---
+title: "Supervised Matrix Factorization: Local Landscape Analysis and Applications"
+source: "https://proceedings.mlr.press/v235/lee24p.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/lee24p/lee24p.pdf"
+categories: ['matrix-geometry-optimization-for-spectral-learning', 'optimization-algorithms-convergence-theory']
+tags: ['supervised-matrix-factorization', 'non-convex-optimization', 'local-landscape', 'convergence']
+venue: "ICML 2024"
+tldr: "Analyzes the local landscape of supervised matrix factorization and provides convergence guarantees for its non-convex optimization."
+---
+
+# Supervised Matrix Factorization: Local Landscape Analysis and Applications
+
+**Source**: [https://proceedings.mlr.press/v235/lee24p.html](https://proceedings.mlr.press/v235/lee24p.html)
+
+**TLDR**: Analyzes the local landscape of supervised matrix factorization and provides convergence guarantees for its non-convex optimization.
+
+## Abstract
+
+Supervised matrix factorization (SMF) is a classical machine learning method that seeks low-dimensional feature extraction and classification tasks at the same time. Training an SMF model involves solving a non-convex and factor-wise constrained optimization problem with at least three blocks of parameters. Due to the high non-convexity and constraints, theoretical understanding of the optimization landscape of SMF has been limited. In this paper, we provide an extensive local landscape analysis for SMF and derive several theoretical and practical applications. Analyzing diagonal blocks of the Hessian naturally leads to a block coordinate descent (BCD) algorithm with adaptive step sizes. We provide global convergence and iteration complexity guarantees for this algorithm. Full Hessian analysis gives minimum $L_{2}$-regularization to guarantee local strong convexity and robustness of parameters. We establish a local estimation guarantee under a statistical SMF model. We also propose a novel GPU-friendly neural implementation of the BCD algorithm and validate our theoretical findings through numerical experiments. Our work contributes to a deeper understanding of SMF optimization, offering insights into the optimization landscape and providing practical solutions to enhance its performance.

@@ -1,0 +1,19 @@
+---
+title: "Towards Interpretable Deep Local Learning with Successive Gradient Reconciliation"
+source: "https://proceedings.mlr.press/v235/yang24m.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/yang24m/yang24m.pdf"
+categories: ['neural-network-learning-dynamics-theory', 'continual-learning-memory-plasticity']
+tags: ['local-learning', 'backpropagation-free', 'gradient-reconciliation']
+venue: "ICML 2024"
+tldr: "A novel local learning approach that reconciles successive gradients across gradient-isolated modules to improve interpretable deep learning without global backpropagation."
+---
+
+# Towards Interpretable Deep Local Learning with Successive Gradient Reconciliation
+
+**Source**: [https://proceedings.mlr.press/v235/yang24m.html](https://proceedings.mlr.press/v235/yang24m.html)
+
+**TLDR**: A novel local learning approach that reconciles successive gradients across gradient-isolated modules to improve interpretable deep learning without global backpropagation.
+
+## Abstract
+
+Relieving the reliance of neural network training on a global back-propagation (BP) has emerged as a notable research topic due to the biological implausibility and huge memory consumption caused by BP. Among the existing solutions, local learning optimizes gradient-isolated modules of a neural network with local errors and has been proved to be effective even on large-scale datasets. However, the reconciliation among local errors has never been investigated. In this paper, we first theoretically study non-greedy layer-wise training and show that the convergence cannot be assured when the local gradient in a module w.r.t. its input is not reconciled with the local gradient in the previous module w.r.t. its output. Inspired by the theoretical result, we further propose a local training strategy that successively regularizes the gradient reconciliation between neighboring modules without breaking gradient isolation or introducing any learnable parameters. Our method can be integrated into both local-BP and BP-free settings. In experiments, we achieve significant performance improvements compared to previous methods. Particularly, our method for CNN and Transformer architectures on ImageNet is able to attain a competitive performance with global BP, saving more than 40% memory consumption.

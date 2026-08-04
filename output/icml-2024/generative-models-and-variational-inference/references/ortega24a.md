@@ -1,0 +1,19 @@
+---
+title: "Variational Linearized Laplace Approximation for Bayesian Deep Learning"
+source: "https://proceedings.mlr.press/v235/ortega24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/ortega24a/ortega24a.pdf"
+categories: ['generative-models-and-variational-inference']
+tags: ['Laplace-approximation', 'Bayesian-deep-learning', 'uncertainty-estimation', 'variational-inference']
+venue: "ICML 2024"
+tldr: "Proposes a variational linearized Laplace approximation to reduce computational cost of uncertainty estimation in deep networks."
+---
+
+# Variational Linearized Laplace Approximation for Bayesian Deep Learning
+
+**Source**: [https://proceedings.mlr.press/v235/ortega24a.html](https://proceedings.mlr.press/v235/ortega24a.html)
+
+**TLDR**: Proposes a variational linearized Laplace approximation to reduce computational cost of uncertainty estimation in deep networks.
+
+## Abstract
+
+The Linearized Laplace Approximation (LLA) has been recently used to perform uncertainty estimation on the predictions of pre-trained deep neural networks (DNNs). However, its widespread application is hindered by significant computational costs, particularly in scenarios with a large number of training points or DNN parameters. Consequently, additional approximations of LLA, such as Kronecker-factored or diagonal approximate GGN matrices, are utilized, potentially compromising the model’s performance. To address these challenges, we propose a new method for approximating LLA using a variational sparse Gaussian Process (GP). Our method is based on the dual RKHS formulation of GPs and retains as the predictive mean the output of the original DNN. Furthermore, it allows for efficient stochastic optimization, which results in sub-linear training time in the size of the training dataset. Specifically, its training cost is independent of the number of training points. We compare our proposed method against accelerated LLA (ELLA), which relies on the Nyström approximation, as well as other LLA variants employing the sample-then-optimize principle. Experimental results, both on regression and classification datasets, show that our method outperforms these already existing efficient variants of LLA, both in terms of the quality of the predictive distribution and in terms of total computational time.

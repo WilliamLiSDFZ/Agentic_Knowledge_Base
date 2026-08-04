@@ -1,0 +1,19 @@
+---
+title: "Turnstile $\ell_p$ leverage score sampling with applications"
+source: "https://proceedings.mlr.press/v235/munteanu24b.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/munteanu24b/munteanu24b.pdf"
+categories: ['sampling-compression-and-dimensionality-reduction', 'fast-sketching-methods-for-large-scale-optimization']
+tags: ['leverage-score-sampling', 'turnstile-streams', 'lp-sampling', 'matrix-approximation']
+venue: "ICML 2024"
+tldr: "A novel algorithm for ℓp leverage score row sampling is developed in the turnstile data stream model with applications to large-scale matrix problems."
+---
+
+# Turnstile $\ell_p$ leverage score sampling with applications
+
+**Source**: [https://proceedings.mlr.press/v235/munteanu24b.html](https://proceedings.mlr.press/v235/munteanu24b.html)
+
+**TLDR**: A novel algorithm for ℓp leverage score row sampling is developed in the turnstile data stream model with applications to large-scale matrix problems.
+
+## Abstract
+
+The turnstile data stream model offers the most flexible framework where data can be manipulated dynamically, i.e., rows, columns, and even single entries of an input matrix can be added, deleted, or updated multiple times in a data stream. We develop a novel algorithm for sampling rows $a_i$ of a matrix $A\in\mathbb{R}^{n\times d}$, proportional to their $\ell_p$ norm, when $A$ is presented in a turnstile data stream. Our algorithm not only returns the set of sampled row indexes, it also returns slightly perturbed rows $\tilde{a}_i \approx a_i$, and approximates their sampling probabilities up to $\varepsilon$ relative error. When combined with preconditioning techniques, our algorithm extends to $\ell_p$ leverage score sampling over turnstile data streams. With these properties in place, it allows us to simulate subsampling constructions of coresets for important regression problems to operate over turnstile data streams with very little overhead compared to their respective off-line subsampling algorithms. For logistic regression, our framework yields the first algorithm that achieves a $(1+\varepsilon)$ approximation and works in a turnstile data stream using polynomial sketch/subsample size, improving over $O(1)$ approximations, or $\exp(1/\varepsilon)$ sketch size of previous work. We compare experimentally to plain oblivious sketching and plain leverage score sampling algorithms for $\ell_p$ and logistic regression.

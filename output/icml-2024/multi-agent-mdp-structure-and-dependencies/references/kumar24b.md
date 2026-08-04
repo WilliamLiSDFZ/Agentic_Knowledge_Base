@@ -1,0 +1,19 @@
+---
+title: "Efficient Value Iteration for s-rectangular Robust Markov Decision Processes"
+source: "https://proceedings.mlr.press/v235/kumar24b.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/kumar24b/kumar24b.pdf"
+categories: ['multi-agent-mdp-structure-and-dependencies', 'optimization-algorithms-convergence-theory']
+tags: ['robust-MDPs', 's-rectangular', 'value-iteration', 'uncertainty-sets']
+venue: "ICML 2024"
+tldr: "An efficient value iteration algorithm for s-rectangular robust Markov decision processes that handles correlated action uncertainties within states."
+---
+
+# Efficient Value Iteration for s-rectangular Robust Markov Decision Processes
+
+**Source**: [https://proceedings.mlr.press/v235/kumar24b.html](https://proceedings.mlr.press/v235/kumar24b.html)
+
+**TLDR**: An efficient value iteration algorithm for s-rectangular robust Markov decision processes that handles correlated action uncertainties within states.
+
+## Abstract
+
+We focus on s-rectangular robust Markov decision processes (MDPs), which capture interconnected uncertainties across different actions within each state. This framework is more general compared to sa-rectangular robust MDPs, where uncertainties in each action are independent. However, the introduced interdependence significantly amplifies the complexity of the problem. Existing methods either have slow performance guarantees or are inapplicable to even moderately large state spaces. In this work, we derive optimal robust Bellman operators in explicit forms. This leads to robust value iteration methods with significantly faster time complexities than existing approaches, which can be used in large state spaces. Further, our findings reveal that the optimal policies demonstrate a novel threshold behavior, selectively favoring a limited set of actions based on their respective advantage functions. Additionally, our study uncovers a noteworthy connection between the robustness of a policy and the variance in its value function, highlighting that policies with lower variance exhibit greater resilience.

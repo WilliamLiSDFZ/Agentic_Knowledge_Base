@@ -1,0 +1,19 @@
+---
+title: "Demystifying SGD with Doubly Stochastic Gradients"
+source: "https://proceedings.mlr.press/v235/kim24r.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/kim24r/kim24r.pdf"
+categories: ['optimization-algorithms-convergence-theory', 'neural-network-learning-dynamics-theory']
+tags: ['SGD', 'doubly-stochastic-gradients', 'convergence-theory']
+venue: "ICML 2024"
+tldr: "Provides theoretical analysis of SGD with doubly stochastic gradients for finite-sum infinite-data optimization objectives."
+---
+
+# Demystifying SGD with Doubly Stochastic Gradients
+
+**Source**: [https://proceedings.mlr.press/v235/kim24r.html](https://proceedings.mlr.press/v235/kim24r.html)
+
+**TLDR**: Provides theoretical analysis of SGD with doubly stochastic gradients for finite-sum infinite-data optimization objectives.
+
+## Abstract
+
+Optimization objectives in the form of a sum of intractable expectations are rising in importance (e.g.,, diffusion models, variational autoencoders, and many more), a setting also known as "finite sum with infinite data." For these problems, a popular strategy is to employ SGD with doubly stochastic gradients (doubly SGD): the expectations are estimated using the gradient estimator of each component, while the sum is estimated by subsampling over these estimators. Despite its popularity, little is known about the convergence properties of doubly SGD, except under strong assumptions such as bounded variance. In this work, we establish the convergence of doubly SGD with independent minibatching and random reshuffling under general conditions, which encompasses dependent component gradient estimators. In particular, for dependent estimators, our analysis allows fined-grained analysis of the effect correlations. As a result, under a per-iteration computational budget of $b \times m$, where $b$ is the minibatch size and $m$ is the number of Monte Carlo samples, our analysis suggests where one should invest most of the budget in general. Furthermore, we prove that random reshuffling (RR) improves the complexity dependence on the subsampling noise.

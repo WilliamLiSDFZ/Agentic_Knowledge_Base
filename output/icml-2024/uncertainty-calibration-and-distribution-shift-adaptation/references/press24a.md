@@ -1,0 +1,19 @@
+---
+title: "The Entropy Enigma: Success and Failure of Entropy Minimization"
+source: "https://proceedings.mlr.press/v235/press24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/press24a/press24a.pdf"
+categories: ['test-time-adaptation-methods-and-evaluation', 'uncertainty-calibration-and-distribution-shift-adaptation']
+tags: ['entropy-minimization', 'test-time-adaptation', 'distribution-shift']
+venue: "ICML 2024"
+tldr: "Analyzes the conditions under which entropy minimization succeeds or fails for test-time adaptation of classifiers."
+---
+
+# The Entropy Enigma: Success and Failure of Entropy Minimization
+
+**Source**: [https://proceedings.mlr.press/v235/press24a.html](https://proceedings.mlr.press/v235/press24a.html)
+
+**TLDR**: Analyzes the conditions under which entropy minimization succeeds or fails for test-time adaptation of classifiers.
+
+## Abstract
+
+Entropy minimization (EM) is frequently used to increase the accuracy of classification models when they’re faced with new data at test time. EM is a self-supervised learning method that optimizes classifiers to assign even higher probabilities to their top predicted classes. In this paper, we analyze why EM works when adapting a model for a few steps and why it eventually fails after adapting for many steps. We show that, at first, EM causes the model to embed test images close to training images, thereby increasing model accuracy. After many steps of optimization, EM makes the model embed test images far away from the embeddings of training images, which results in a degradation of accuracy. Building upon our insights, we present a method for solving a practical problem: estimating a model’s accuracy on a given arbitrary dataset without having access to its labels. Our method estimates accuracy by looking at how the embeddings of input images change as the model is optimized to minimize entropy. Experiments on 23 challenging datasets show that our method sets the SoTA with a mean absolute error of 5.75%, an improvement of 29.62% over the previous SoTA on this task. Our code is available at: https://github.com/oripress/EntropyEnigma

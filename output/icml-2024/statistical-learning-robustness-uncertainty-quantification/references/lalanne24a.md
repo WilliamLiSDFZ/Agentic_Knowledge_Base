@@ -1,0 +1,19 @@
+---
+title: "Privately Learning Smooth Distributions on the Hypercube by Projections"
+source: "https://proceedings.mlr.press/v235/lalanne24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/lalanne24a/lalanne24a.pdf"
+categories: ['privacy-preserving-federated-and-distributed-learning', 'statistical-learning-robustness-uncertainty-quantification']
+tags: ['differential-privacy', 'density-estimation', 'sobolev-smooth', 'hypercube']
+venue: "ICML 2024"
+tldr: "Private estimation of Sobolev-smooth probability densities over the hypercube using projection-based mechanisms with statistical guarantees."
+---
+
+# Privately Learning Smooth Distributions on the Hypercube by Projections
+
+**Source**: [https://proceedings.mlr.press/v235/lalanne24a.html](https://proceedings.mlr.press/v235/lalanne24a.html)
+
+**TLDR**: Private estimation of Sobolev-smooth probability densities over the hypercube using projection-based mechanisms with statistical guarantees.
+
+## Abstract
+
+Fueled by the ever-increasing need for statistics that guarantee the privacy of their training sets, this article studies the centrally-private estimation of Sobolev-smooth densities of probability over the hypercube in dimension d. The contributions of this article are two-fold : Firstly, it generalizes the one-dimensional results of (Lalanne et al., 2023) to non-integer levels of smoothness and to a high-dimensional setting, which is important for two reasons : it is more suited for modern learning tasks, and it allows understanding the relations between privacy, dimensionality and smoothness, which is a central question with differential privacy. Secondly, this article presents a private strategy of estimation that is data-driven (usually referred to as adaptive in Statistics) in order to privately choose an estimator that achieves a good bias-variance trade-off among a finite family of private projection estimators without prior knowledge of the ground-truth smoothness β. This is achieved by adapting the Lepskii method for private selection, by adding a new penalization term that makes the estimation privacy-aware.

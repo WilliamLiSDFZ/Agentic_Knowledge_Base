@@ -1,0 +1,19 @@
+---
+title: "SaVeR: Optimal Data Collection Strategy for Safe Policy Evaluation in Tabular MDP"
+source: "https://proceedings.mlr.press/v235/mukherjee24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/mukherjee24a/mukherjee24a.pdf"
+categories: ['online-learning-and-sequential-decision-making', 'multi-agent-mdp-structure-and-dependencies']
+tags: ['safe-policy-evaluation', 'data-collection', 'tabular-MDP', 'risk-constrained']
+venue: "ICML 2024"
+tldr: "Optimal data collection strategies for safe policy evaluation in tabular MDPs are derived, balancing accuracy and safety constraints during data gathering."
+---
+
+# SaVeR: Optimal Data Collection Strategy for Safe Policy Evaluation in Tabular MDP
+
+**Source**: [https://proceedings.mlr.press/v235/mukherjee24a.html](https://proceedings.mlr.press/v235/mukherjee24a.html)
+
+**TLDR**: Optimal data collection strategies for safe policy evaluation in tabular MDPs are derived, balancing accuracy and safety constraints during data gathering.
+
+## Abstract
+
+In this paper, we study safe data collection for the purpose of policy evaluation in tabular Markov decision processes (MDPs). In policy evaluation, we are given a target policy and asked to estimate the expected cumulative reward it will obtain. Policy evaluation requires data and we are interested in the question of what behavior policy should collect the data for the most accurate evaluation of the target policy. While prior work has considered behavior policy selection, in this paper, we additionally consider a safety constraint on the behavior policy. Namely, we assume there exists a known default policy that incurs a particular expected cost when run and we enforce that the cumulative cost of all behavior policies ran is better than a constant factor of the cost that would be incurred had we always run the default policy. We first show that there exists a class of intractable MDPs where no safe oracle algorithm with knowledge about problem parameters can efficiently collect data and satisfy the safety constraints. We then define the tractability condition for an MDP such that a safe oracle algorithm can efficiently collect data and using that we prove the first lower bound for this setting. We then introduce an algorithm SaVeR for this problem that approximates the safe oracle algorithm and bound the finite-sample mean squared error of the algorithm while ensuring it satisfies the safety constraint. Finally, we show in simulations that SaVeR produces low MSE policy evaluation while satisfying the safety constraint.

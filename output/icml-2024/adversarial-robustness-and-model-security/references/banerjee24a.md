@@ -1,0 +1,19 @@
+---
+title: "Relational DNN Verification With Cross Executional Bound Refinement"
+source: "https://proceedings.mlr.press/v235/banerjee24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/banerjee24a/banerjee24a.pdf"
+categories: ['adversarial-robustness-and-model-security', 'statistical-testing-for-neural-network-reliability']
+tags: ['relational-verification', 'neural-network-robustness', 'universal-adversarial-perturbations']
+venue: "ICML 2024"
+tldr: "A cross-execution bound refinement method is proposed for precise verification of relational properties in deep neural networks."
+---
+
+# Relational DNN Verification With Cross Executional Bound Refinement
+
+**Source**: [https://proceedings.mlr.press/v235/banerjee24a.html](https://proceedings.mlr.press/v235/banerjee24a.html)
+
+**TLDR**: A cross-execution bound refinement method is proposed for precise verification of relational properties in deep neural networks.
+
+## Abstract
+
+We focus on verifying relational properties defined over deep neural networks (DNNs) such as robustness against universal adversarial perturbations (UAP), certified worst-case hamming distance for binary string classifications, etc. Precise verification of these properties requires reasoning about multiple executions of the same DNN. However, most of the existing works in DNN verification only handle properties defined over single executions and as a result, are imprecise for relational properties. Though few recent works for relational DNN verification, capture linear dependencies between the inputs of multiple executions, they do not leverage dependencies between the outputs of hidden layers producing imprecise results. We develop a scalable relational verifier RACoon that utilizes cross-execution dependencies at all layers of the DNN gaining substantial precision over SOTA baselines on a wide range of datasets, networks, and relational properties.

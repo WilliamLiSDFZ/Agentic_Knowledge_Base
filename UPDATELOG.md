@@ -27,6 +27,62 @@ affected files.
 
 ---
 
+## 2026-08-04 — Query distillation replaces the rule-based extractor (it did not generalise)
+
+Validating the 2026-08-02 fixes on a second task (`spooky-author-identification`, chosen
+because the corpus is deep in NLP) showed one of them was wrong. Design doc §18 (EN + ZH).
+
+### What the probe showed on spooky
+
+| ranking | on-topic top-10 | spread |
+|---|---|---|
+| raw description | 4/10 | 0.018 |
+| raw description + centering | 2/10 | 0.062 |
+| **rule-extracted query** | **0/10** | 0.013 |
+| **hand-written 379-char task summary + centering** | **9/10** | **0.183** |
+
+The heading rules were tuned on the OpenADMET description, where the signal sat in a trailing
+"data characteristics" section and `Evaluation` was formula plumbing. A classic Kaggle
+description inverts this: spooky's ML content ("multi-class, log loss") sits *in* `Evaluation`,
+which the rules discarded — leaving prize rules and horror-story flavour text. Worse than no
+processing at all.
+
+Conversely, **centering generalised**: 8/10 → 9/10 and spread 0.061 → 0.183 on this task too.
+Where it looked harmful (4/10 → 2/10) the query itself was noise; centering amplifies whatever
+signal exists, including none. It stays on by default.
+
+### Changed (MLEvolve repo)
+
+- **`_build_query` now distils the description with one LLM call** into a 50–80 word statement
+  of the ML problem (input/scale, task type, metric, likely techniques), explicitly excluding
+  prizes, timelines, submission formats and flavour text — automating what the hand-written
+  query did.
+- **Cached** to `<abstract_index_path>/../query_cache/<sha1>.txt`, so a task is distilled once
+  and every later run — *including both arms of an A/B* — reuses the identical query. This
+  answers the original objection to using an LLM here (non-reproducibility); cost is one call
+  per task, then zero.
+- Fallback order: cache hit → LLM → raw description truncated to 2500 chars (the 8/10 tier).
+  The rule-based path is **removed**, not demoted: 0/10, with no regime where it won.
+  Outputs under 40 chars count as failures and are not cached.
+- Config: `retr_focus_query` (bool) → `retr_query_mode: llm | raw` (default `llm`), plus
+  `retr_query_cache_dir`.
+
+### Changed (this repo)
+
+- **`scripts/probe_retrieval.py`**: `--query-mode llm|raw` and `--cache-dir`; `--all` now
+  compares centering × query-mode. Mirrors the MLEvolve distillation prompt and cache contract.
+
+### Notes
+
+- Verified with a stubbed LLM: distil-once-then-cache, cache survives an LLM outage (so A/B
+  runs stay reproducible), fallback to raw text on failure, too-short outputs rejected without
+  polluting the cache, `raw` mode makes no call, and different descriptions get separate keys.
+- Process lesson worth keeping: both fixes were tuned on n=1 and one was wrong. Probe a
+  **second, structurally different** task before trusting any retrieval change — seconds of
+  probing versus a 12-hour run.
+
+---
+
 ## 2026-08-02 — Retrieval quality: fix anisotropy + query dilution
 
 The first KB-on run retrieved almost entirely off-topic papers for a molecular ADMET task

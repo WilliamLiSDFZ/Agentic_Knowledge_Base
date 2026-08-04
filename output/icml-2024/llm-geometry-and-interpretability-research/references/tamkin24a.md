@@ -1,0 +1,19 @@
+---
+title: "Codebook Features: Sparse and Discrete Interpretability for Neural Networks"
+source: "https://proceedings.mlr.press/v235/tamkin24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/tamkin24a/tamkin24a.pdf"
+categories: ['llm-geometry-and-interpretability-research']
+tags: ['interpretability', 'codebook', 'sparse-representations']
+venue: "ICML 2024"
+tldr: "Codebook Features quantize neural network hidden states into sparse, discrete representations to improve interpretability of neural networks."
+---
+
+# Codebook Features: Sparse and Discrete Interpretability for Neural Networks
+
+**Source**: [https://proceedings.mlr.press/v235/tamkin24a.html](https://proceedings.mlr.press/v235/tamkin24a.html)
+
+**TLDR**: Codebook Features quantize neural network hidden states into sparse, discrete representations to improve interpretability of neural networks.
+
+## Abstract
+
+Understanding neural networks is challenging in part because of the dense, continuous nature of their hidden states. We explore whether we can train neural networks to have hidden states that are sparse, discrete, and more interpretable by quantizing their continuous features into what we call codebook features. Codebook features are produced by finetuning neural networks with vector quantization bottlenecks at each layer, producing a network whose hidden features are the sum of a small number of discrete vector codes chosen from a larger codebook. Surprisingly, we find that neural networks can operate under this extreme bottleneck with only modest degradation in performance. In addition, we can control a model’s behavior by finding codes that activate on a desired behavior, then activating those same codes during generation. We first validate codebook features on a finite state machine dataset with far more hidden states than neurons. In this setting, our approach overcomes the superposition problem by assigning states to distinct codes, and we find that we can make the neural network behave as if it is in a different state by activating the code for that state. We then train Transformer language models with up to 410M parameters on two natural language datasets. We identify codes in these models representing diverse, disentangled concepts (ranging from negative emotions to months of the year) and find that we can guide the model to generate different topics and pronoun genders by activating these codes during inference. Overall, codebook features appear to be a promising unit of analysis and control for neural networks and interpretability. Our codebase and models are open-sourced at this URL.

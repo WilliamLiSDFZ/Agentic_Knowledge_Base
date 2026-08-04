@@ -1,0 +1,19 @@
+---
+title: "An Embodied Generalist Agent in 3D World"
+source: "https://proceedings.mlr.press/v235/huang24ae.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/huang24ae/huang24ae.pdf"
+categories: ['3d-vision-and-scene-understanding', 'simulation-scaling-limits-for-robot-manipulation']
+tags: ['embodied-agent', '3d-world', 'large-language-models', 'robotics', 'generalist']
+venue: "ICML 2024"
+tldr: "Presents an embodied generalist agent leveraging LLMs for general-purpose task solving in 3D environments."
+---
+
+# An Embodied Generalist Agent in 3D World
+
+**Source**: [https://proceedings.mlr.press/v235/huang24ae.html](https://proceedings.mlr.press/v235/huang24ae.html)
+
+**TLDR**: Presents an embodied generalist agent leveraging LLMs for general-purpose task solving in 3D environments.
+
+## Abstract
+
+Leveraging massive knowledge from large language models (LLMs), recent machine learning models show notable successes in general-purpose task solving in diverse domains such as computer vision and robotics. However, several significant challenges remain: (i) most of these models rely on 2D images yet exhibit a limited capacity for 3D input; (ii) these models rarely explore the tasks inherently defined in 3D world, e.g., 3D grounding, embodied reasoning and acting. We argue these limitations significantly hinder current models from performing real-world tasks and approaching general intelligence. To this end, we introduce LEO, an embodied multi-modal generalist agent that excels in perceiving, grounding, reasoning, planning, and acting in the 3D world. LEO is trained with a unified task interface, model architecture, and objective in two stages: (i) 3D vision-language (VL) alignment and (ii) 3D vision-language-action (VLA) instruction tuning. We collect large-scale datasets comprising diverse object-level and scene-level tasks, which require considerable understanding of and interaction with the 3D world. Moreover, we meticulously design an LLM-assisted pipeline to produce high-quality 3D VL data. Through extensive experiments, we demonstrate LEO’s remarkable proficiency across a wide spectrum of tasks, including 3D captioning, question answering, embodied reasoning, navigation and manipulation. Our ablative studies and scaling analyses further provide valuable insights for developing future embodied generalist agents. Code and data are available on project page.

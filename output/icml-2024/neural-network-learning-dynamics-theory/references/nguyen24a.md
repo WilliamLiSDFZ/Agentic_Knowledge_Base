@@ -1,0 +1,19 @@
+---
+title: "Is Temperature Sample Efficient for Softmax Gaussian Mixture of Experts?"
+source: "https://proceedings.mlr.press/v235/nguyen24a.html"
+pdf_url: "https://raw.githubusercontent.com/mlresearch/v235/main/assets/nguyen24a/nguyen24a.pdf"
+categories: ['neural-network-learning-dynamics-theory']
+tags: ['mixture-of-experts', 'temperature-scaling', 'sample-efficiency']
+venue: "ICML 2024"
+tldr: "The sample efficiency of temperature-based dense-to-sparse gating in softmax Gaussian mixture of experts is theoretically characterized."
+---
+
+# Is Temperature Sample Efficient for Softmax Gaussian Mixture of Experts?
+
+**Source**: [https://proceedings.mlr.press/v235/nguyen24a.html](https://proceedings.mlr.press/v235/nguyen24a.html)
+
+**TLDR**: The sample efficiency of temperature-based dense-to-sparse gating in softmax Gaussian mixture of experts is theoretically characterized.
+
+## Abstract
+
+Dense-to-sparse gating mixture of experts (MoE) has recently become an effective alternative to a well-known sparse MoE. Rather than fixing the number of activated experts as in the latter model, which could limit the investigation of potential experts, the former model utilizes the temperature to control the softmax weight distribution and the sparsity of the MoE during training in order to stabilize the expert specialization. Nevertheless, while there are previous attempts to theoretically comprehend the sparse MoE, a comprehensive analysis of the dense-to-sparse gating MoE has remained elusive. Therefore, we aim to explore the impacts of the dense-to-sparse gate on the maximum likelihood estimation under the Gaussian MoE in this paper. We demonstrate that due to interactions between the temperature and other model parameters via some partial differential equations, the convergence rates of parameter estimations are slower than any polynomial rates, and could be as slow as $\mathcal{O}(1/\log(n))$, where $n$ denotes the sample size. To address this issue, we propose using a novel activation dense-to-sparse gate, which routes the output of a linear layer to an activation function before delivering them to the softmax function. By imposing linearly independence conditions on the activation function and its derivatives, we show that the parameter estimation rates are significantly improved to polynomial rates. Finally, we conduct a simulation study to empirically validate our theoretical results.
