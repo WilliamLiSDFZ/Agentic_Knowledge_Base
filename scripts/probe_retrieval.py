@@ -57,16 +57,16 @@ def distil_query(task_desc: str, cache_dir: Path) -> str:
         if cached:
             return cached
 
-    import os
-    from openai import OpenAI
-    model = os.environ.get("LLM_MODEL", "gpt-5.6-terra")
-    client = OpenAI(api_key=os.environ.get("LLM_API_KEY"),
-                    base_url=os.environ.get("LLM_BASE_URL") or None)
-    params = {"model": model,
+    # Reuse the repo's central LLM client (scripts/llm.py), which loads .env — same
+    # configuration every other script here uses, so no separate credential setup.
+    from llm import client, MODEL
+
+    params = {"model": MODEL,
               "messages": [{"role": "user",
                             "content": DISTILL_PROMPT.format(desc=task_desc[:12000])}]}
-    # GPT-5 / o-series reject max_tokens and sampling params.
-    if any(model.lower().split("/")[-1].startswith(p) for p in ("gpt-5", "o1", "o3", "o4")):
+    # OpenAI reasoning models (GPT-5, o-series) reject max_tokens and sampling params.
+    base = MODEL.lower().split("/")[-1]
+    if any(base.startswith(p) for p in ("gpt-5", "o1", "o3", "o4")):
         params["max_completion_tokens"] = 300
     else:
         params["max_tokens"] = 300
