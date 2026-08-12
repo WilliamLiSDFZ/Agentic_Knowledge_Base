@@ -1,7 +1,37 @@
-Hi Professor,
+Hi Peijia,
+I'm still working on the MLEvolve knowledgebase and I would like to share some update. I also have some question on what should I do next.
 
-Quick update for this week. I've been running experiments on the OpenADMET ADMET prediction task as a testbed for the external knowledge base. I now have a clean 12-hour baseline run without the knowledge base (test MA-RAE 0.67), and I'm currently setting up the matched run with knowledge base retrieval enabled so the two are directly comparable.
+All of this builds on Haoming's original pipeline. What I mainly worked on is the retrieval side, and testing whether the KB helps.
 
-It took me a bit longer than expected to get started — I was new to Kubernetes and Nautilus and spent some time getting the job configuration, dependencies, and cluster setup working. That's done now, so the remaining experiments should go faster.
+What I did:
+    1. Fixed bugs in the KB pipeline.
 
-Next step is the knowledge-base-enabled run and comparing the two on final score, convergence speed, and failure rate. I'm also going to try different tasks and see its performance.
+    2. Found two problems in retrieval:
+
+        (a) We were searching with the whole competition description. That text is mostly rules, and prizes, so the search query was very vague.
+        (b) All the paper vectors pointed in almost the same direction, because every paper in the corpus is an ML paper.
+
+    I fixed the first by implement an agent to rewrite the description into a short task summary. I fixed the second by subtracting the average vector. Together these took the number of on-topic papers in the top 10 from 3 to 9.
+
+    3. Made retrieval cheaper. Before, we had to read every paper PDF up front. Now we search the abstracts first and only read the full PDFs of the papers we actually retrieved, at most 20 per task.
+
+    4. Ran A/B tests on OpenADMET, spooky-author-identification, and jigsaw toxic comments task.
+But my experiment shows MLEvolve with paper KB performs worse in both OpenADMET and spooky-author-identification task. For jigsaw toxic comments task, I run 3 random seeds but only two of them where slightly better with KB, but the third is worse.
+So it seems like knowledge base does not help, and sometimes hurts.
+
+One possible problem is that the KB only reach the drafting step, but I'm still not sure if introducing KB in improvement step would help.
+
+I've also read a paper about AutoMind. There KB is very similar to our and they reported some positive result. Their solution has two main differences:
+    1. Their knowledge base is mostly Kaggle solutions, not paper. We only use paper insight, and seems like only a few of them actually helps.
+    2. They insert papers in drafting stage and Kaggle tricks in improvement stage. We only inject paper in drafting stage.
+
+Some things I do that they did not:
+    1. We pull out individual techniques from each paper and label whether positive or negative (already done by Haoming before I take over), and our retrieval works at the technique level instead of the paper level.
+    2. They add tag to each paper and task then use that for retrieval, but we use direct embedding + remove average vector + task summary for retrieval.
+
+I have three idea now and I'm not sure where to start.
+    1. Turn on the improvement-step injection and re-run the test. The code is done but I haven't tested it yet.
+    2. Add Kaggle solution write-ups to the KB, similar to AutoMind.
+    3. Reproduce AutoMind's whole KB design on MLEvolve (their corpus, their label-based retrieval, papers→draft and tricks→improve).
+
+Do you have any suggestion on what should I do next?

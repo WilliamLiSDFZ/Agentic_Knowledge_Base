@@ -4,6 +4,174 @@ A running record of notable changes to this project. Newest entries on top.
 
 ---
 
+## 2026-08-08 — Widen where the KB reaches the prompt, and fix a mislabelling bug
+
+Changes live in the MLEvolve repo but are recorded here with the rest of the KB work.
+**`coldstart.inject_into_improve` defaults to `False`, so run behaviour is unchanged** —
+this lands as an ablation switch, not a new default.
+
+### Motivation: two findings from reading the injection path
+
+1. **The KB reached only `draft_agent`.** `run.py` calls `build_guidance_description` once
+   and stores the result in `cfg.coldstart.description`, which only `draft_agent` (and
+   `stepwise_coder`) read. With `initial_drafts = 3` out of 14–19 nodes per 12 h run, the
+   KB's causal footprint was under 20% of the search, all of it at the very start.
+2. **`improve_agent` already contained a dangling reference.** Its plateau branch says
+   *"You can refer to the expert technique suggestions above, which are distilled from the
+   kaggle award-winning solutions"* — but nothing ever injected technique suggestions into
+   that prompt. Wiring the KB in also repairs this.
+
+### Mislabelling bug: techniques were presented as pretrained-model recommendations
+
+`build_guidance_description` **appended** the retrieved techniques to the pretrained-model
+guidance and returned one string. `draft_agent` renders that string inside:
+
+```
+**Pretrained Model Strategy**:
+  • **Option A [RECOMMENDED]**: {coldstart_description}
+    → SOTA models with proven performance...
+  **CRITICAL: ... you MUST copy the Code template EXACTLY as provided ...**
+```
+
+So paper-derived prose techniques were labelled as recommended pretrained models and fell
+under a "copy the Code template exactly" instruction that does not apply to them. This was
+true for every KB run to date (OpenADMET, spooky, jigsaw), and is a plausible contributor to
+the negative results on the first two.
+
+Fix: `build_guidance_description` now returns the model guidance only and writes the
+techniques to `cfg.coldstart.methodology_text`; each is rendered under its own heading.
+
+### Changes
+
+- `engine/coldstart/knowledge.py` — split the two kinds of guidance; new
+  `trim_methodology_text(text, token_budget)` which cuts on the `\n\n---\n\n` technique
+  separator so a budget never truncates a technique mid-sentence; new
+  `TECHNIQUE_SEPARATOR` constant shared with the builders.
+- `config/config.yaml`, `config/__init__.py` — `coldstart.methodology_text` (runtime),
+  `coldstart.inject_into_improve` (default `False`), `coldstart.improve_token_budget`
+  (default 2000, vs 6000 at draft: the improve prompt is already very long and this text
+  repeats at every improve node, where over-long context degrades adherence to the strict
+  CHANGES/WHY/HOW output format).
+- `engine/agent_search.py` — expose `self.methodology_text`.
+- `agents/draft_agent.py` — techniques get their own "Techniques from recent literature"
+  section, framed as hypotheses to evaluate rather than a recipe.
+- `agents/improve_agent.py` — new `_inject_methodology()`, added **before** the strategy
+  blocks so the plateau branch's "suggestions above" is accurate. Instructs the model to
+  adopt at most one technique per step (keeping improvements atomic and attributable) and to
+  skip anything already tried in Memory.
+- `utils/verify_kb_injection.py` — new, no GPU/API.
+
+### Why the injection is written into `prompt["Instructions"]`
+
+`agent.use_diff_mode` defaults to `True`, so improve runs through `_diff_improve` →
+`planner_with_memory.generate_initial_plan`, which does `prompt_base.copy()` and renders
+`["Instructions"]`. Injecting into the final prompt string instead would have missed the path
+actually taken. The verifier asserts both paths see it.
+
+### Verification
+
+`python utils/verify_kb_injection.py` — all pass: boundary-respecting truncation; baseline
+arm (empty `methodology_kb_path`) unaffected; techniques land on the config rather than the
+return value; own heading rather than inside the pretrained block; switch off → nothing
+injected; switch on → present in both generation paths within budget.
+
+### Effect on the experiment record
+
+The baseline arm never had methodology text at all, so **existing baseline runs stay valid
+controls**. The KB arm's draft prompt does change, so jigsaw repeats 1–3 become the "old
+injection scheme" and the KB arm needs re-running. Planned decomposition, one variable per
+step: **A** baseline · **B** KB with the relabelled draft only · **C** B plus improve-stage
+injection.
+
+## 2026-08-05 — First real KB-on test scores, and the infrastructure bugs that hid them
+
+All changes in this entry live in the MLEvolve repo, but they gate every KB experiment, so
+they are recorded here.
+
+### Result: spooky-author-identification, KB arm
+
+First run where retrieval demonstrably fired (`[Lazy] distilled query (cached)`,
+40 candidates → 20 extracted). Official mle-bench test scores, multi-class log loss
+(lower is better):
+
+| submission | local CV | test |
+|---|---|---|
+| top1 ensemble | 0.31385 | 0.30270 |
+| top2 | — | 0.30156 |
+| top3 | — | 0.29532 |
+| top4 | — | 0.28988 |
+| top6 | — | 0.28829 |
+
+Two findings independent of whether the KB helps:
+
+- **Local validation tracked the test set here** (0.31385 vs 0.30270, test slightly better).
+  On OpenADMET the same pipeline reported 0.19 locally against 0.74 on the real test set.
+  So "local metrics are untrustworthy" was task-specific, not systemic — spooky is a sound
+  testbed and its local metric can be used for model selection.
+- **Fusion helps monotonically**, 0.3027 → 0.2883 (4.8% relative), even though members 3–6
+  had *worse* local metrics (0.339, 0.345). Classic diversity gain. `ensemble_sizes` stops
+  at 6; larger ensembles are untested and may still be improving.
+
+No conclusion about the KB yet — the control arm was OOM-killed before finishing.
+
+### Bug: control arm OOMKilled at 8h37m (exit 137)
+
+16Gi was not enough, for a reason that is easy to miss: the `dshm` volume is an `emptyDir`
+with `medium: Memory`, i.e. a tmpfs whose pages are **charged to the container's own memory
+cgroup**. Its `sizeLimit: 8Gi` therefore let `/dev/shm` claim half the budget, leaving ~8Gi
+for the three parallel training subprocesses (`agent.search.parallel_search_num: 3`).
+
+Fix (`k8s/job-spooky-{baseline,kb}.yaml`): memory 16Gi → 32Gi, dshm 8Gi → 2Gi.
+Job specs are immutable, so this requires `kubectl delete job` before re-applying.
+
+### Bug: `mlebench grade-sample` unusable — LFS pointer files
+
+`pip install git+https://github.com/openai/mle-bench.git` without git-lfs present fetches
+LFS **pointer stubs** instead of the real files, so every bundled `leaderboard.csv` is a
+~130-byte text file whose sole "column" is `version https://git-lfs.github.com/spec/v1`.
+`grade_csv` computes the score fine and then dies in `rank_score`:
+
+    AssertionError: Leaderboard must have a `score` column.
+
+Two consequences, both previously misdiagnosed: no official scores, and the grading server
+never started (`format_server.py` imports `mlebench.grade` at module scope).
+
+- Repair: install `git-lfs`, `git lfs pull` a real clone, `pip install -e .`.
+- Workaround added regardless — **`MLEvolve/utils/grade_local.py`**: grades submissions
+  offline against the private answers, treats the leaderboard as optional (auto-detecting a
+  renamed score column when possible), accepts directories, and supports `--cutoff-hours`
+  so two runs with unequal wall-clock budgets can be compared at a matched budget.
+
+### Bug: grading-server health check depended on curl
+
+`run_single_task.sh` probed `/health` with `curl ... >/dev/null 2>&1`. The slim pytorch
+runtime image has no curl, and the redirect swallowed "command not found", so the check
+always timed out. Replaced with a Python socket probe (python is guaranteed present).
+Independent of the LFS bug above — both had to be fixed.
+
+### New: jigsaw-toxic-comment-classification-challenge A/B
+
+`k8s/job-jigsaw-{baseline,kb}.yaml`. Chosen because it is the **best corpus match to date**:
+~390 papers across four directly on-topic categories
+(`acl-2024/hate-speech-and-toxic-content-detection` 30,
+`neurips-2024/toxicity-detection-and-classification-datasets` 7,
+`naacl-2024/llm-alignment-safety-detoxification` 66,
+`aaai-2024/llm-safety-adversarial-robustness` 287), versus 3 of 423 categories relevant to
+OpenADMET. That makes it the cleanest test of the coverage hypothesis: if the KB still fails
+to help when the corpus does cover the task, the problem is the injection mechanism or the
+paper-vs-competition genre gap, not coverage.
+
+Task-specific risks recorded in the manifests:
+
+- **Metric direction is inverted** vs spooky — mean column-wise ROC AUC, higher is better.
+  `result_parse_agent` decides direction once at startup via an LLM call; getting it wrong
+  wastes the full 12 h. Must be verified in the logs within the first 30 minutes.
+- **8× the data** (159,571 vs 19,579 rows) → far fewer search steps in the same budget.
+- **Multi-label, rows do not sum to 1.** Verified safe: `submission_fusion_utils.py`
+  `_detect_format` decides row normalization from the data (only when |row_sum − 1| < 0.05),
+  so it will not misapply the sum-to-1 step it correctly used for spooky.
+- Resources raised to 48Gi / 8 CPU for both arms, ports 5011/5012 to avoid the spooky jobs.
+
 ## 2026-07-22 — Lazy mode: second-stage technique-level rerank (switchable)
 
 Lazy mode's final selection now has two flavours, chosen by `lazy_technique_rerank`
