@@ -112,6 +112,33 @@ The positive/negative/neutral labelling is the load-bearing design choice: only 
 sections are ever injected, so the extractor doubles as a filter on the paper's own
 self-reported ablations.
 
+Measured over the 223 papers extracted so far (3,066 techniques, 13.7 per paper):
+
+| label | count | share |
+|---|---:|---:|
+| POSITIVE | 2,214 | 72.2% |
+| NEGATIVE | 530 | 17.3% |
+| NEUTRAL | 322 | 10.5% |
+
+Two things follow. First, 27.8% of the extraction output is never read by anything — it is
+generated, stored, and unused. Second, and more importantly, **`[NEGATIVE]` does not mean
+"this technique is bad"**. Inspecting the extracted entries shows the label collapses three
+distinct situations:
+
+1. a component the authors tried and found unhelpful — genuinely useful negative knowledge;
+2. a **baseline or competitor method that lost** on that paper's dataset (e.g. Reflexion
+   prompting labelled NEGATIVE because the paper's own method beat it) — misleading;
+3. an ablation dimension where the main method merely failed to win.
+
+Case (2) makes injecting `[NEGATIVE]` sections as "what not to do" actively hazardous: the
+agent would learn that perfectly good methods are bad because they lost one comparison. The
+extraction prompt would need to separate "the authors tried it and it hurt" from "it was the
+control group" before this material is usable.
+
+The 72.2% POSITIVE share is itself a bias signal: papers are written to argue for their own
+contribution, so POSITIVE tracks *what the paper proposes*, not *what has been independently
+validated*.
+
 ### 1.7 Cross-paper synthesis — `scripts/plugin_a2_insighter.py`
 
 An LLM **tool-use agent** (tools: `list_files`, `read_file`, `write_file`, `git_commit`;
@@ -181,6 +208,17 @@ begins, and stores the result in `cfg.coldstart.description`.
 representation of ~50 papers, and the selection is capped at 5 regardless of the task. The
 `vector` and `lazy` modes were built to replace it.
 
+**Which layer each mode consumes matters and is easy to miss.** `llm` and `vector` read the
+cross-paper insights of §1.7 (`paperinsight/*/insight.md`); `static` and `lazy` read the
+per-paper technique files of §1.6 (`*_methodology.md`). Since every experiment in §6 ran in
+`lazy` mode, **the cross-paper synthesis layer has never been part of any experiment**. That
+was a cost decision rather than a design one — `vector` needs plugin A plus A2 to have been
+run over the relevant categories in advance, and the corpus currently holds 223
+`*_methodology.md` files against only 2 `insight.md` files, so insight coverage would have
+been near zero for these tasks. The consequence is that "insight-level versus
+technique-level retrieval" is an untested comparison, and one AutoMind cannot make either,
+since it retrieves at paper granularity.
+
 ### 2.2 Lazy mode, step by step
 
 This is what the reported experiments run.
@@ -234,15 +272,55 @@ attribution, under the header *"Methodology Insights from Literature"*.
 
 ### 2.3 Injection point
 
-The assembled text is appended to the cold-start guidance and reaches the model in exactly
-one place: `draft_agent`, presented as **"Option A [RECOMMENDED]"** among the draft
-strategies (`stepwise_coder` sees the same field). It does **not** reach `improve_agent`,
-`debug_agent`, `evolution_agent`, `fusion_agent` or `aggregation_agent`.
+`run.py` calls the builder once and stores the result on the config. The techniques then
+reach `draft_agent` under their own heading, *"Techniques from recent literature"*, framed as
+hypotheses to evaluate rather than a recipe. With `coldstart.inject_into_improve` (default
+**off**) they additionally reach `improve_agent`, trimmed to
+`coldstart.improve_token_budget` = 2000 tokens and added ahead of the strategy blocks so the
+plateau branch's existing line *"refer to the expert technique suggestions above"* — a
+dangling reference until now — resolves. They never reach `debug_agent`,
+`evolution_agent`, `fusion_agent` or `aggregation_agent`.
 
-Consequence for interpretation: the knowledge base can only influence the *initial* solutions.
-Everything after that is ordinary search. With `initial_drafts = 3` out of 14–19 total nodes
-on a 12-hour run, the KB's causal footprint is narrow, and any measured effect propagates
-through which branches the search starts from rather than through per-step guidance.
+Consequence for interpretation: with injection at draft only, the knowledge base can
+influence the *initial* solutions and nothing else. With `initial_drafts = 3` out of 14–19
+nodes on a 12-hour run, the KB's causal footprint is under 20% of the search, all of it at
+the start, and any measured effect propagates through which branches the search begins from
+rather than through per-step guidance.
+
+#### A defect that invalidates the wiring used in every experiment below
+
+Until 2026-08-08 the retrieved techniques were **string-concatenated** onto the
+pretrained-model guidance and returned as one value, which `draft_agent` interpolated into
+the middle of this block:
+
+```
+• **Option A [RECOMMENDED]**: {coldstart_description}
+  → SOTA models with proven performance. Use for end-to-end fine-tuning OR as frozen …
+  …
+**CRITICAL: When using any recommended pretrained model (Option A), you MUST copy the Code
+template EXACTLY as provided …**
+```
+
+Four consequences, all present in every run reported in §6:
+
+1. The techniques landed *between* "Option A:" and the line describing them as "SOTA models
+   with proven performance", so prose technique descriptions were labelled as recommended
+   pretrained models.
+2. The "copy the Code template EXACTLY" instruction covered them, although a technique
+   description contains no code template — an unfollowable instruction.
+3. A `---` rule and a `##` heading were injected mid-bullet-list, so `Option B` and
+   `Option C` became subordinate to that heading.
+4. **The `"None model"` sentinel was defeated.** `draft_agent` gates the whole block on
+   `coldstart_description != "None model"`, the value `_build_guidance_text` returns when the
+   competition has no pretrained-model entry. Appending technique text broke that equality,
+   so the block fired — **in the KB arm only**, since the control's technique text is empty.
+   The two arms therefore differed by an entire extra section of pretrained-model
+   instructions, not only by the knowledge. This is a confound, not just untidy prompting,
+   and it applies to text tasks in particular, which is what spooky and jigsaw are.
+
+The fix keeps the two apart: `build_guidance_description` returns model guidance only and
+writes the techniques to `cfg.coldstart.methodology_text`. `utils/verify_kb_injection.py`
+asserts all of the above, including that the sentinel is restored.
 
 ---
 
@@ -278,7 +356,9 @@ is warm, which is what makes repeated A/B runs affordable.
 | `lazy_technique_rerank` | `True` | retrieval stage 2 |
 | `lazy_tech_min_score` | 0.3 (relative) | retrieval stage 2 |
 | `lazy_tech_top_n` | 12 | retrieval stage 2 |
-| `retr_token_budget` | 6000 tokens | assembly |
+| `retr_token_budget` | 6000 tokens | assembly (draft) |
+| `coldstart.inject_into_improve` | `False` | injection surface |
+| `coldstart.improve_token_budget` | 2000 tokens | assembly (improve) |
 
 ---
 
@@ -300,41 +380,92 @@ retrieval stage alone in seconds and reports on-topic hits in the top 10 plus th
 *spread* (`score(top1) − score(topK)`); a flat spread means the scorer is not discriminating.
 The pre-registered bar is ≥ 8/10 on-topic with `center=on, query=llm`.
 
+*"On-topic" is a smoke test, not an IR metric.* It counts top-10 papers whose **title**
+contains any of a comma-separated keyword list supplied by hand per task. It therefore misses
+relevant papers whose titles avoid the keywords, cannot see whether a paper is *useful* as
+opposed to merely on-topic, and the keywords are chosen after seeing the task rather than
+pre-registered. It is adequate for catching a query that returns unrelated ML papers, which is
+what it exists for; it is not evidence of retrieval quality in a publishable sense.
+
 **Selection rule.** The fusion step emits ensembles of size 1, 2, 3, 4 and 6. The comparison
 is made at **matched K** across both arms, with the full table reported — not each arm's own
 best, which would be test-set selection.
 
+**Statistical power.** The paired difference between arms has, on jigsaw, sd ≈ 0.006 AUC
+across repeats. At 80% power and α = 0.05 that requires roughly 12 paired runs to detect an
+effect of 0.005, 31 for 0.003 and 70 for 0.002 — 288, 744 and 1,680 GPU-hours respectively at
+12 h per run. Effects below ~0.005 per task are therefore not affordable to measure under the
+current protocol. AutoMind sidesteps this by aggregating a win-rate over 15 tasks × 3 runs
+rather than reporting per-task raw metrics.
+
 ## 6. Results to date
 
-Single run per arm. Metric direction differs per competition.
+**All runs below used the defective injection wiring described in §2.3** and should be
+re-measured. Metric direction differs per competition.
 
-| competition | metric | baseline | KB | KB effect |
-|---|---|---|---|---|
-| OpenADMET ExpansionRx | lower better | 0.678 | 0.741 / 0.726 | worse |
-| spooky-author-identification | log loss, lower better | **0.2366** (silver) | 0.2883 (bronze) | worse at every K |
-| jigsaw-toxic-comment | mean col-wise ROC AUC, higher better | 0.97997 (below median) | **0.98503** (above median) | better; error to ceiling −25% |
+| competition | metric | n per arm | baseline | KB | KB effect |
+|---|---|---|---|---|---|
+| OpenADMET ExpansionRx | lower better | 1 | 0.678 | 0.741 / 0.726 | worse |
+| spooky-author-identification | log loss, lower better | 1 | **0.2366** (silver) | 0.2883 (bronze) | worse at every K |
+| jigsaw-toxic-comment | mean col-wise ROC AUC, higher better | 3 | — | — | **no difference** |
 
-The one variable that tracks the sign of the effect is corpus coverage. A keyword audit of
-the 423 categories found that topics covering competition craft — gradient boosting, feature
-engineering, cross-validation strategy, ensembling, hyperparameter search, class imbalance,
-missing data — total **49 papers, 0.2%** of ~23k, against 21% theory/optimisation and 19% LLM
-research. OpenADMET had 3 of 423 relevant categories; jigsaw has four directly on-topic
-categories totalling ~390 papers and cleared the retrieval gate at 9/10.
+jigsaw, paired difference (KB − baseline) at each ensemble size:
+
+| seed | K=1 | K=2 | K=3 | K=4 | K=6 | mean |
+|---:|---:|---:|---:|---:|---:|---:|
+| 42 | +0.00506 | +0.00482 | +0.00421 | +0.00197 | — | +0.00401 |
+| 43 | +0.00021 | +0.00035 | +0.00039 | +0.00025 | −0.00002 | +0.00024 |
+| 44 | −0.00679 | −0.00708 | −0.00833 | −0.00788 | −0.00910 | −0.00784 |
+
+Mean of the three repeat-level means −0.00120, sd 0.00605, t(2) = −0.342, 95% CI
+[−0.0162, +0.0138]. The single best score in the whole series is a **baseline** gold medal
+(seed 44, K=3, 0.98748).
+
+Two observations about the structure of that variance. Within a repeat the sign is almost
+perfectly consistent across K (4/4, 4/5, 0/5), so **a run is good or bad as a whole** — the
+K values are not independent samples, and the earlier K=1-only comparison was already
+representative. Across repeats, each arm swings ~0.007, about 14× the mean treatment effect.
+
+An earlier version of this document reported jigsaw as a positive result. That was based on
+the first repeat alone and did not survive replication.
+
+Corpus coverage was the variable that appeared to track the sign of the effect, and no longer
+does cleanly. A keyword audit of the 423 categories found that topics covering competition
+craft — gradient boosting, feature engineering, cross-validation strategy, ensembling,
+hyperparameter search, class imbalance, missing data — total **49 papers, 0.2%** of ~23k,
+against 21% theory/optimisation and 19% LLM research. OpenADMET had 3 of 423 relevant
+categories; jigsaw has four directly on-topic categories totalling ~390 papers and cleared the
+retrieval gate at 9/10 — and still showed no benefit. Coverage may be necessary; it is
+evidently not sufficient.
 
 ## 7. Known limitations
 
-1. **n = 1 per arm.** MLE-bench recommends ≥ 3 seeds. All three results are single runs.
-2. **Local validation is unreliable and inconsistently so.** On spooky it correctly ranked the
-   arms; on jigsaw it ranked them backwards; on OpenADMET it was off by ~4×. Model selection
-   inside the agent depends on it.
-3. **Narrow injection point.** The KB reaches only `draft_agent`, so it cannot help during
-   improvement, debugging or fusion — the large majority of search steps.
-4. **Papers only.** No Kaggle solution writeups, notebooks or discussion posts. This is the
+1. **Every result above measures a defective wiring.** The §2.3 mislabelling bug — including
+   the `"None model"` sentinel confound, which made the two arms differ by more than the
+   knowledge — was present throughout. Re-runs on the fixed path are pending.
+2. **n = 1 per arm on two of three tasks**, 3 on jigsaw. MLE-bench recommends ≥ 3, and the
+   power analysis in §5 shows even 3 is far short of what this variance requires.
+3. **Local validation is unreliable and inconsistently so.** On spooky it correctly ranked the
+   arms; on jigsaw it ranked them backwards in one repeat and correctly in another; on
+   OpenADMET it was off by ~4×. Model selection inside the agent depends on it.
+4. **Narrow injection point.** Until 2026-08-08 the KB reached only `draft_agent`, so it could
+   not help during improvement, debugging or fusion — the large majority of search steps. The
+   improve-stage option now exists but is untested.
+5. **Papers only.** No Kaggle solution writeups, notebooks or discussion posts. This is the
    clearest structural difference from AutoMind (see `related_work.md`), whose knowledge base
    is majority Kaggle solutions and which reports a positive ablation.
-5. **`experience_kb` is unused.** Built, versioned, and never placed in an experimental arm,
-   despite being the only component whose genre matches the task.
-6. **Coverage is uneven and undocumented per venue.** The corpus has grown across sessions
-   (2024 and 2025 venues, ICLR added) without a re-audit of composition.
-7. **Extraction is PDF-dependent.** Papers whose PDF URL cannot be resolved are silently
-   skipped, which biases the extractable subset toward ACL Anthology and OpenReview.
+6. **No contamination guard.** AutoMind filters out knowledge belonging to the target
+   competition; we do not. Less acute for papers than for solution posts, but spooky (2017)
+   and jigsaw (2018) are old enough to sit in the backbone's pretraining data, and we run no
+   post-cutoff task as a control.
+7. **The cross-paper insight layer has never been exercised** (§2.1). Two `insight.md` files
+   exist against 223 per-paper extractions.
+8. **27.8% of extraction output is dead data** (§1.6), and the `[NEGATIVE]` label conflates
+   "the authors tried it and it hurt" with "it was the losing control group".
+9. **`experience_kb` is unused.** Built, versioned, and never placed in an experimental arm.
+   (Outside the current scope of this work.)
+10. **Coverage is uneven and undocumented per venue.** The corpus has grown across sessions
+    (2024 and 2025 venues, ICLR added) without a re-audit of composition — the 0.2% figure in
+    §6 predates the most recent additions.
+11. **Extraction is PDF-dependent.** Papers whose PDF URL cannot be resolved are silently
+    skipped, which biases the extractable subset toward ACL Anthology and OpenReview.

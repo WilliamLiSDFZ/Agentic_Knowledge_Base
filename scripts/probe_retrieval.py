@@ -108,6 +108,20 @@ def main():
     kws = [k.strip().lower() for k in args.keywords.split(",") if k.strip()]
     model = SentenceTransformer(manifest["embedding_model"])
 
+    # A keyword that matches nothing anywhere in the corpus is a spec error in the keyword
+    # list, not a finding about retrieval — and it silently deflates every on-topic count.
+    # This cost a false gate failure once: `llm-eval`, `human-feedback` and `alignment` were
+    # written as hyphenated compounds that never occur verbatim in a title, so three genuinely
+    # relevant papers were scored as misses. Report dead keywords up front, before any number
+    # that depends on them.
+    all_titles = " ".join(r["title"].lower() for r in records)
+    dead = [k for k in kws if k not in all_titles]
+    if dead:
+        print(f"\nWARNING: {len(dead)} of {len(kws)} keywords match NO title in the corpus:")
+        for k in dead:
+            print(f"    {k!r}  <- compound or misspelled? on-topic counts are deflated by this")
+        print("  Fix the keyword list before reading the counts below.")
+
     def get_query(mode: str) -> str:
         if mode == "llm" and not args.raw:
             return distil_query(task, Path(args.cache_dir))
@@ -126,14 +140,15 @@ def main():
         s = V @ qv
         top = np.argsort(-s)[:args.topk]
         hits = sum(1 for i in top if any(k in records[i]["title"].lower() for k in kws))
+        spread = float(s[top[0]] - s[top[-1]])
         print(f"\n=== center={'on ' if center else 'off'} query={mode:<3} | {len(q)} chars | "
-              f"on-topic {hits}/{args.topk} | spread {s[top[0]] - s[top[-1]]:.3f} ===")
+              f"on-topic {hits}/{args.topk} | spread {spread:.3f} ===")
         if mode == "llm" and not args.raw:
             print(f"    query: {q[:200]}")
         for i in top:
             mark = "*" if any(k in records[i]["title"].lower() for k in kws) else " "
             print(f" {mark} {s[i]:.3f} [{records[i]['venue']}] {records[i]['title'][:72]}")
-        return hits
+        return hits, spread
 
     if args.all:
         modes = ("raw",) if args.raw else ("raw", "llm")
@@ -142,11 +157,21 @@ def main():
             for mode in modes:
                 results[(center, mode)] = run(center, mode)
         print("\n" + "=" * 60)
-        print(f"on-topic out of {args.topk}   (* = title matches a keyword)")
-        for (c, m), h in results.items():
-            print(f"  center={'on ' if c else 'off'} query={m:<3} -> {h}")
-        best = max(results, key=results.get)
-        print(f"\nbest: center={'on' if best[0] else 'off'}, query={best[1]}")
+        print(f"{'configuration':<26}{'on-topic':>10}{'spread':>9}")
+        for (c, m), (h, sp) in results.items():
+            print(f"  center={'on ' if c else 'off'} query={m:<3}{'':<8}{h:>4}/{args.topk}{sp:>9.3f}")
+
+        # Rank by hits, then by spread. The hit count saturates on well-covered tasks — on
+        # essay-scoring all four configurations scored 10/10 — at which point it cannot
+        # discriminate at all and picking "the first best" is arbitrary. Spread
+        # (score[top1] - score[topK]) measures whether the scorer separates anything; a flat
+        # spread means it does not, however many keywords happen to match.
+        best = max(results, key=lambda k: (results[k][0], results[k][1]))
+        h, sp = results[best]
+        print(f"\nbest: center={'on' if best[0] else 'off'}, query={best[1]}"
+              f"   ({h}/{args.topk} on-topic, spread {sp:.3f})")
+        if len({v[0] for v in results.values()}) == 1:
+            print("  (all configurations tied on hit count — decided on spread)")
     else:
         run(args.center, args.query_mode)
 
