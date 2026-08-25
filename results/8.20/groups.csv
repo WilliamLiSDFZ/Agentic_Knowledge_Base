@@ -1,0 +1,20 @@
+group,task,draw,started,wiring,seeds,arms,borrowed,usable,reasons
+essay/draw1,essay,1,2026-08-14 22:30:34,fixed,42,ABC,,True,
+essay/draw2,essay,2,2026-08-17 19:31:19,fixed,43,ABC,,True,
+essay/draw3,essay,3,2026-08-18 20:39:23,fixed,44,ABC,,True,
+jigsaw/draw1,jigsaw,1,2026-08-07 05:41:11,legacy,42,AB,,False,arm_B=superseded(legacy_injection_wiring)
+jigsaw/draw2,jigsaw,2,2026-08-08 00:38:20,legacy,43,AB,,False,arm_B=superseded(legacy_injection_wiring)
+jigsaw/draw3,jigsaw,3,2026-08-09 22:44:37,legacy,44,AB,,False,arm_B=superseded(legacy_injection_wiring)
+jigsaw/draw4,jigsaw,4,2026-08-12 22:30:18,fixed,42,ABC,A,True,
+jigsaw/draw5,jigsaw,5,2026-08-13 21:58:54,fixed,43,ABC,A,True,
+jigsaw/draw6,jigsaw,6,2026-08-14 20:12:38,fixed,44,ABC,A,True,
+lmsys/draw1,lmsys,1,2026-08-16 04:34:35,fixed,42,AB,,True,
+lmsys/draw2,lmsys,2,2026-08-17 02:21:01,fixed,42,ABC,,True,
+lmsys/draw3,lmsys,3,2026-08-17 23:13:16,fixed,43,AB,,True,
+lmsys/draw4,lmsys,4,2026-08-18 23:19:27,fixed,43,ABC,,True,
+openadmet/draw1,openadmet,1,2026-07-27 03:51:10,legacy,42,A,,False,only_1_arm
+openadmet/draw2,openadmet,2,2026-07-29 09:51:32,legacy,42,AB,A,False,arm_B=superseded(legacy_injection_wiring)
+openadmet/draw3,openadmet,3,2026-08-01 04:55:29,legacy,42,B,,False,only_1_arm;arm_B=superseded(legacy_injection_wiring)
+openadmet/draw4,openadmet,4,2026-08-02 21:03:48,legacy,42,B,,False,only_1_arm;arm_B=superseded(legacy_injection_wiring)
+spooky/draw1,spooky,1,2026-08-04 06:23:05,legacy,42,AB,A,False,arm_B=superseded(legacy_injection_wiring)
+spooky/draw2,spooky,2,2026-08-04 18:14:06,legacy,42,A,,False,only_1_arm

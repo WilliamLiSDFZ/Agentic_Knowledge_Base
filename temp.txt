@@ -1,6 +1,0 @@
-Hi professor,
-In this week, I have finished experiment on paper knowledge base with three task, OpenADMET, spooky-author identification, and jigsaw toxic comments. The result is negative — the KB does not improve MLEvolve on these three tasks. For jigsaw I ran 3 different seeds but the average is slightly negative.
-While looking for the reason I found a bug in how the KB text was inserted into the prompt, so these results will need to be re-run.
-Another thing I found is the current KB only injected into draft stage but not improvement stage.
-I've also read a paper about a agent with similar knowledge base called AutoMind. They report the KB helps. The main difference is that they add Kaggle solutions into KB and inject that into improvement stage.
-I've discussed my finding with Peijia and my next step is to re-run the A/B test with the prompt bug fixed and the improvement-step injection on.

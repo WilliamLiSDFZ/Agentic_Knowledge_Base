@@ -1,0 +1,344 @@
+=== 20260808_003820_jigsaw-base-s43   arm=A  ok
+    16 nodes, 9 valid, 9 nodes (56%) use a transformer
+       10/16  SparseResidualMultiLabelClassifier     ##########
+       10/16  TfidfVectorizer                        ##########
+        4/16  answerdotai/ModernBERT-large           ####
+        3/16  microsoft/deberta-v3-base              ###
+        3/16  TransformerMultiLabelClassifier        ###
+        2/16  WindowedDebertaToxicityClassifier      ##
+        2/16  microsoft/deberta-v3-large             ##
+    BEST node (metric 0.99180): answerdotai/ModernBERT-large
+      [  0] BUG       -    answerdotai/ModernBERT-large
+      [  1] BUG       -    answerdotai/ModernBERT-large
+      [  2] OK    0.98348  SparseResidualMultiLabelClassifier, TfidfVectorizer
+      [  3] OK    0.98366  SparseResidualMultiLabelClassifier, TfidfVectorizer
+      [  4] OK    0.98339  SparseResidualMultiLabelClassifier, TfidfVectorizer
+      [  5] OK    0.98480  SparseResidualMultiLabelClassifier, TfidfVectorizer
+      [  6] OK    0.97853  SparseResidualMultiLabelClassifier, TfidfVectorizer
+      [  7] OK    0.97642  SparseResidualMultiLabelClassifier, TfidfVectorizer
+      [  8] BUG       -    SparseResidualMultiLabelClassifier, TfidfVectorizer, TransformerMultiLabelClassifier, microsoft/deberta-v3-base
+      [  9] BUG       -    SparseResidualMultiLabelClassifier, TfidfVectorizer, TransformerMultiLabelClassifier, microsoft/deberta-v3-base
+      [ 10] BUG       -    WindowedDebertaToxicityClassifier, microsoft/deberta-v3-large
+      [ 11] OK    0.99180  answerdotai/ModernBERT-large
+      [ 12] OK    0.84223  WindowedDebertaToxicityClassifier, microsoft/deberta-v3-large
+      [ 13] BUG       -    SparseResidualMultiLabelClassifier, TfidfVectorizer, TransformerMultiLabelClassifier, microsoft/deberta-v3-base
+      [ 14] BUG       -    answerdotai/ModernBERT-large
+      [ 15] OK    0.98751  SparseResidualMultiLabelClassifier, TfidfVectorizer
+
+=== 20260813_215854_jigsaw-kbimp-s43   arm=C  ok
+    24 nodes, 13 valid, 8 nodes (33%) use a transformer
+       17/24  TfidfVectorizer                        #################
+        8/24  SGDClassifier                          ########
+        6/24  NBSVM                                  ######
+        5/24  LightGBM                               #####
+        5/24  LGBMClassifier                         #####
+        4/24  answerdotai/ModernBERT-large           ####
+        2/24  microsoft/deberta-v3-large             ##
+        2/24  microsoft/deberta-v3-base              ##
+    BEST node (metric 0.98666): TfidfVectorizer
+      [  0] BUG       -    microsoft/deberta-v3-large
+      [  1] BUG       -    TfidfVectorizer, answerdotai/ModernBERT-large
+      [  2] OK    0.93828  SGDClassifier, TfidfVectorizer
+      [  3] OK    0.98621  NBSVM, TfidfVectorizer
+      [  4] OK    0.96081  SGDClassifier, TfidfVectorizer
+      [  5] OK    0.96146  SGDClassifier, TfidfVectorizer
+      [  6] OK    0.98634  NBSVM, TfidfVectorizer
+      [  7] BUG       -    LGBMClassifier, LightGBM, SGDClassifier, TfidfVectorizer
+      [  8] OK    0.97067  LGBMClassifier, LightGBM, SGDClassifier, TfidfVectorizer
+      [  9] BUG       -    NBSVM, TfidfVectorizer
+      [ 10] OK    0.97818  LGBMClassifier, LightGBM, SGDClassifier, TfidfVectorizer
+      [ 11] BUG       -    LGBMClassifier, LightGBM, SGDClassifier, TfidfVectorizer
+      [ 12] OK    0.98634  NBSVM, TfidfVectorizer
+      [ 13] BUG       -    LGBMClassifier, LightGBM, SGDClassifier, TfidfVectorizer
+      [ 14] BUG       -    -
+      [ 15] OK    0.95864  -
+      [ 16] OK    0.98634  NBSVM, TfidfVectorizer
+      [ 17] BUG       -    NBSVM, TfidfVectorizer
+      [ 18] BUG       -    answerdotai/ModernBERT-large
+      [ 19] BUG       -    answerdotai/ModernBERT-large
+      [ 20] OK    0.98638  TfidfVectorizer
+      [ 21] BUG       -    microsoft/deberta-v3-large
+      [ 22] OK    0.95421  answerdotai/ModernBERT-large
+      [ 23] OK    0.98666  TfidfVectorizer
+
+=== 20260813_215855_jigsaw-kbfix-s43   arm=B  ok
+    22 nodes, 7 valid, 10 nodes (45%) use a transformer
+       16/22  TfidfVectorizer                        ################
+       11/22  FactorizedSparseToxicityClassifier     ###########
+        6/22  answerdotai/ModernBERT-large           ######
+        2/22  microsoft/deberta-v3-large             ##
+        1/22  answerdotai/ModernBERT-base            #
+        1/22  microsoft/deberta-v3-base              #
+        1/22  ContextualToxicityClassifier           #
+    BEST node (metric 0.98449): FactorizedSparseToxicityClassifier, TfidfVectorizer
+      [  0] OK    0.97954  FactorizedSparseToxicityClassifier, TfidfVectorizer
+      [  1] BUG       -    TfidfVectorizer, answerdotai/ModernBERT-large
+      [  2] BUG       -    TfidfVectorizer, answerdotai/ModernBERT-large
+      [  3] OK    0.97954  FactorizedSparseToxicityClassifier, TfidfVectorizer
+      [  4] BUG       -    TfidfVectorizer, answerdotai/ModernBERT-large
+      [  5] BUG       -    TfidfVectorizer, answerdotai/ModernBERT-large
+      [  6] OK    0.97964  FactorizedSparseToxicityClassifier, TfidfVectorizer
+      [  7] BUG       -    answerdotai/ModernBERT-large
+      [  8] BUG       -    answerdotai/ModernBERT-large
+      [  9] BUG       -    microsoft/deberta-v3-large
+      [ 10] BUG       -    microsoft/deberta-v3-large
+      [ 11] BUG       -    FactorizedSparseToxicityClassifier, TfidfVectorizer
+      [ 12] BUG       -    answerdotai/ModernBERT-base
+      [ 13] OK    0.97979  FactorizedSparseToxicityClassifier, TfidfVectorizer
+      [ 14] BUG       -    FactorizedSparseToxicityClassifier, TfidfVectorizer
+      [ 15] BUG       -    FactorizedSparseToxicityClassifier, TfidfVectorizer
+      [ 16] BUG       -    FactorizedSparseToxicityClassifier, TfidfVectorizer
+      [ 17] BUG       -    FactorizedSparseToxicityClassifier, TfidfVectorizer
+      [ 18] OK    0.98449  FactorizedSparseToxicityClassifier, TfidfVectorizer
+      [ 19] BUG       -    ContextualToxicityClassifier, TfidfVectorizer, microsoft/deberta-v3-base
+      [ 20] OK    0.98301  -
+      [ 21] OK    0.98449  FactorizedSparseToxicityClassifier, TfidfVectorizer
+
+=== 20260817_193119_essay-base-s43   arm=A  ok
+    22 nodes, 6 valid, 15 nodes (68%) use a transformer
+       17/22  TfidfVectorizer                        #################
+        5/22  answerdotai/ModernBERT-large           #####
+        4/22  microsoft/deberta-v3-large             ####
+        4/22  microsoft/deberta-v3-small             ####
+        2/22  microsoft/deberta-v3-base              ##
+        1/22  answerdotai/ModernBERT-base            #
+        1/22  ExtraTreesClassifier                   #
+    BEST node (metric 0.82052): microsoft/deberta-v3-large
+      [  0] BUG       -    microsoft/deberta-v3-large
+      [  1] BUG       -    TfidfVectorizer
+      [  2] BUG       -    TfidfVectorizer, answerdotai/ModernBERT-large
+      [  3] BUG       -    microsoft/deberta-v3-large
+      [  4] BUG       -    TfidfVectorizer, answerdotai/ModernBERT-large
+      [  5] OK    0.76124  TfidfVectorizer
+      [  6] BUG       -    TfidfVectorizer, answerdotai/ModernBERT-large
+      [  7] BUG       -    TfidfVectorizer
+      [  8] BUG       -    TfidfVectorizer
+      [  9] OK    0.78347  TfidfVectorizer
+      [ 10] OK    0.77643  TfidfVectorizer
+      [ 11] OK    0.78285  TfidfVectorizer
+      [ 12] BUG       -    TfidfVectorizer, microsoft/deberta-v3-base
+      [ 13] BUG       -    TfidfVectorizer, microsoft/deberta-v3-base
+      [ 14] BUG       -    answerdotai/ModernBERT-large
+      [ 15] OK    0.82052  microsoft/deberta-v3-large
+      [ 16] BUG       -    TfidfVectorizer, answerdotai/ModernBERT-base, answerdotai/ModernBERT-large
+      [ 17] BUG       -    TfidfVectorizer, microsoft/deberta-v3-small
+      [ 18] BUG       -    microsoft/deberta-v3-large
+      [ 19] OK    0.78285  TfidfVectorizer, microsoft/deberta-v3-small
+      [ 20] BUG       -    TfidfVectorizer, microsoft/deberta-v3-small
+      [ 21] BUG       -    ExtraTreesClassifier, TfidfVectorizer, microsoft/deberta-v3-small
+
+=== 20260817_193958_essay-kb-s43   arm=B  ok
+    13 nodes, 7 valid, 12 nodes (92%) use a transformer
+        6/13  TfidfVectorizer                        ######
+        5/13  answerdotai/ModernBERT-large           #####
+        4/13  microsoft/deberta-v3-small             ####
+        3/13  Ridge                                  ###
+        2/13  HashingVectorizer                      ##
+        2/13  microsoft/deberta-v3-large             ##
+        1/13  microsoft/deberta-v3-base              #
+    BEST node (metric 0.83087): Ridge, TfidfVectorizer, answerdotai/ModernBERT-large
+      [  0] BUG       -    HashingVectorizer, microsoft/deberta-v3-large
+      [  1] BUG       -    TfidfVectorizer, answerdotai/ModernBERT-large
+      [  2] OK    0.79849  TfidfVectorizer
+      [  3] BUG       -    microsoft/deberta-v3-base
+      [  4] BUG       -    microsoft/deberta-v3-small
+      [  5] OK    0.81459  microsoft/deberta-v3-small
+      [  6] OK    0.83060  TfidfVectorizer, answerdotai/ModernBERT-large
+      [  7] OK    0.81074  microsoft/deberta-v3-small
+      [  8] OK    0.78219  HashingVectorizer, microsoft/deberta-v3-large
+      [  9] OK    0.80487  microsoft/deberta-v3-small
+      [ 10] OK    0.83087  Ridge, TfidfVectorizer, answerdotai/ModernBERT-large
+      [ 11] BUG       -    Ridge, TfidfVectorizer, answerdotai/ModernBERT-large
+      [ 12] BUG       -    Ridge, TfidfVectorizer, answerdotai/ModernBERT-large
+
+=== 20260817_193958_essay-kbimp-s43   arm=C  ok
+    19 nodes, 11 valid, 17 nodes (89%) use a transformer
+       18/19  TfidfVectorizer                        ##################
+       10/19  TransformerEncoder                     ##########
+        7/19  answerdotai/ModernBERT-large           #######
+        7/19  microsoft/mdeberta-v3-base             #######
+        3/19  microsoft/deberta-v3-large             ###
+        2/19  SGDClassifier                          ##
+    BEST node (metric 0.82683): TfidfVectorizer, answerdotai/ModernBERT-large
+      [  0] BUG       -    TfidfVectorizer, answerdotai/ModernBERT-large
+      [  1] BUG       -    TfidfVectorizer, TransformerEncoder, microsoft/deberta-v3-large
+      [  2] OK    0.80563  TfidfVectorizer
+      [  3] BUG       -    TfidfVectorizer, answerdotai/ModernBERT-large
+      [  4] OK    0.80681  TfidfVectorizer
+      [  5] BUG       -    TfidfVectorizer, microsoft/mdeberta-v3-base
+      [  6] OK    0.80767  TfidfVectorizer, microsoft/mdeberta-v3-base
+      [  7] OK    0.80767  TfidfVectorizer, TransformerEncoder, microsoft/mdeberta-v3-base
+      [  8] OK    0.80767  TfidfVectorizer, TransformerEncoder, microsoft/mdeberta-v3-base
+      [  9] OK    0.81005  TfidfVectorizer, TransformerEncoder, microsoft/mdeberta-v3-base
+      [ 10] OK    0.82683  TfidfVectorizer, answerdotai/ModernBERT-large
+      [ 11] OK    0.81005  TfidfVectorizer, TransformerEncoder, microsoft/mdeberta-v3-base
+      [ 12] BUG       -    TfidfVectorizer, TransformerEncoder, microsoft/mdeberta-v3-base
+      [ 13] BUG       -    TfidfVectorizer, TransformerEncoder, answerdotai/ModernBERT-large
+      [ 14] OK    0.69839  SGDClassifier, TfidfVectorizer, TransformerEncoder, answerdotai/ModernBERT-large
+      [ 15] OK    0.70054  SGDClassifier, TfidfVectorizer, TransformerEncoder, answerdotai/ModernBERT-large
+      [ 16] BUG       -    microsoft/deberta-v3-large
+      [ 17] BUG       -    TfidfVectorizer, TransformerEncoder, microsoft/deberta-v3-large
+      [ 18] OK    0.82683  TfidfVectorizer, answerdotai/ModernBERT-large
+
+=== 20260817_231316_lmsys-base-s43   arm=A  ok
+    22 nodes, 4 valid, 22 nodes (100%) use a transformer
+       10/22  answerdotai/ModernBERT-large           ##########
+        8/22  SymmetricPreferenceRanker              ########
+        7/22  microsoft/deberta-v3-base              #######
+        5/22  microsoft/deberta-v3-large             #####
+    BEST node (metric 1.05507): SymmetricPreferenceRanker, microsoft/deberta-v3-base
+      [  0] BUG       -    answerdotai/ModernBERT-large
+      [  1] BUG       -    answerdotai/ModernBERT-large
+      [  2] BUG       -    answerdotai/ModernBERT-large
+      [  3] BUG       -    answerdotai/ModernBERT-large
+      [  4] BUG       -    answerdotai/ModernBERT-large
+      [  5] BUG       -    answerdotai/ModernBERT-large
+      [  6] BUG       -    answerdotai/ModernBERT-large
+      [  7] BUG       -    answerdotai/ModernBERT-large
+      [  8] BUG       -    microsoft/deberta-v3-large
+      [  9] BUG       -    microsoft/deberta-v3-large
+      [ 10] BUG       -    microsoft/deberta-v3-large
+      [ 11] BUG       -    microsoft/deberta-v3-large
+      [ 12] BUG       -    SymmetricPreferenceRanker, microsoft/deberta-v3-large
+      [ 13] BUG       -    SymmetricPreferenceRanker, microsoft/deberta-v3-base
+      [ 14] BUG       -    SymmetricPreferenceRanker, microsoft/deberta-v3-base
+      [ 15] OK    1.07328  SymmetricPreferenceRanker, microsoft/deberta-v3-base
+      [ 16] BUG       -    SymmetricPreferenceRanker, microsoft/deberta-v3-base
+      [ 17] BUG       -    answerdotai/ModernBERT-large
+      [ 18] BUG       -    answerdotai/ModernBERT-large
+      [ 19] OK    1.08578  SymmetricPreferenceRanker, microsoft/deberta-v3-base
+      [ 20] OK    1.09071  SymmetricPreferenceRanker, microsoft/deberta-v3-base
+      [ 21] OK    1.05507  SymmetricPreferenceRanker, microsoft/deberta-v3-base
+
+=== 20260817_231430_lmsys-kb-s43   arm=B  ok
+    26 nodes, 6 valid, 19 nodes (73%) use a transformer
+       10/26  answerdotai/ModernBERT-large           ##########
+        7/26  microsoft/deberta-v3-base              #######
+        5/26  SGDClassifier                          #####
+        5/26  TfidfVectorizer                        #####
+        5/26  microsoft/deberta-v3-large             #####
+        3/26  HashingVectorizer                      ###
+        2/26  prajjwal1/bert-tiny                    ##
+        2/26  prajjwal1/bert-mini                    ##
+    BEST node (metric 1.05787): SGDClassifier, TfidfVectorizer
+      [  0] BUG       -    answerdotai/ModernBERT-large
+      [  1] BUG       -    answerdotai/ModernBERT-large
+      [  2] BUG       -    -
+      [  3] BUG       -    answerdotai/ModernBERT-large
+      [  4] BUG       -    answerdotai/ModernBERT-large
+      [  5] BUG       -    answerdotai/ModernBERT-large
+      [  6] BUG       -    HashingVectorizer
+      [  7] BUG       -    HashingVectorizer
+      [  8] BUG       -    HashingVectorizer
+      [  9] BUG       -    answerdotai/ModernBERT-large
+      [ 10] BUG       -    answerdotai/ModernBERT-large
+      [ 11] BUG       -    answerdotai/ModernBERT-large
+      [ 12] BUG       -    answerdotai/ModernBERT-large
+      [ 13] OK    1.05787  SGDClassifier, TfidfVectorizer
+      [ 14] BUG       -    microsoft/deberta-v3-large
+      [ 15] BUG       -    microsoft/deberta-v3-large
+      [ 16] OK    1.38160  SGDClassifier, TfidfVectorizer
+      [ 17] BUG       -    microsoft/deberta-v3-base, microsoft/deberta-v3-large
+      [ 18] OK    1.08441  microsoft/deberta-v3-base, microsoft/deberta-v3-large, prajjwal1/bert-tiny
+      [ 19] OK    1.06861  microsoft/deberta-v3-base
+      [ 20] OK    1.08423  microsoft/deberta-v3-base, microsoft/deberta-v3-large, prajjwal1/bert-tiny
+      [ 21] BUG       -    answerdotai/ModernBERT-large
+      [ 22] BUG       -    microsoft/deberta-v3-base
+      [ 23] OK    1.06211  SGDClassifier, TfidfVectorizer
+      [ 24] BUG       -    SGDClassifier, TfidfVectorizer, microsoft/deberta-v3-base, microsoft/deberta-v3-small
+      [ 25] BUG       -    SGDClassifier, TfidfVectorizer, microsoft/deberta-v3-base, microsoft/deberta-v3-small
+
+=== 20260818_231927_lmsys-kb-s43   arm=B  ok
+    27 nodes, 6 valid, 21 nodes (78%) use a transformer
+       11/27  answerdotai/ModernBERT-large           ###########
+        7/27  microsoft/deberta-v3-base              #######
+        4/27  PairwisePreferenceCrossEncoder         ####
+        2/27  TfidfVectorizer                        ##
+        2/27  prajjwal1/bert-tiny                    ##
+        1/27  microsoft/deberta-v3-small             #
+    BEST node (metric 1.03607): prajjwal1/bert-tiny
+      [  0] BUG       -    -
+      [  1] BUG       -    -
+      [  2] BUG       -    answerdotai/ModernBERT-large
+      [  3] BUG       -    -
+      [  4] BUG       -    -
+      [  5] BUG       -    answerdotai/ModernBERT-large
+      [  6] BUG       -    answerdotai/ModernBERT-large
+      [  7] BUG       -    answerdotai/ModernBERT-large
+      [  8] OK    1.03719  TfidfVectorizer
+      [  9] BUG       -    microsoft/deberta-v3-base
+      [ 10] BUG       -    PairwisePreferenceCrossEncoder, answerdotai/ModernBERT-large
+      [ 11] BUG       -    PairwisePreferenceCrossEncoder, answerdotai/ModernBERT-large
+      [ 12] OK    1.06522  TfidfVectorizer
+      [ 13] BUG       -    PairwisePreferenceCrossEncoder, answerdotai/ModernBERT-large
+      [ 14] BUG       -    microsoft/deberta-v3-base
+      [ 15] BUG       -    PairwisePreferenceCrossEncoder, answerdotai/ModernBERT-large
+      [ 16] BUG       -    microsoft/deberta-v3-base
+      [ 17] BUG       -    answerdotai/ModernBERT-large
+      [ 18] BUG       -    answerdotai/ModernBERT-large
+      [ 19] BUG       -    answerdotai/ModernBERT-large
+      [ 20] OK    1.03607  prajjwal1/bert-tiny
+      [ 21] OK    1.07968  microsoft/deberta-v3-base
+      [ 22] BUG       -    microsoft/deberta-v3-base
+      [ 23] BUG       -    microsoft/deberta-v3-base
+      [ 24] BUG       -    microsoft/deberta-v3-base
+      [ 25] OK    1.07902  microsoft/deberta-v3-small
+      [ 26] OK    1.04292  prajjwal1/bert-tiny
+
+=== 20260818_232939_lmsys-base-s43   arm=A  ok
+    17 nodes, 3 valid, 13 nodes (76%) use a transformer
+        8/17  microsoft/deberta-v3-small             ########
+        3/17  answerdotai/ModernBERT-large           ###
+        2/17  microsoft/deberta-v3-large             ##
+        1/17  microsoft/deberta-v3-base              #
+    BEST node (metric 1.03700): (no model identified)
+      [  0] BUG       -    -
+      [  1] BUG       -    -
+      [  2] BUG       -    microsoft/deberta-v3-large
+      [  3] BUG       -    -
+      [  4] BUG       -    answerdotai/ModernBERT-large
+      [  5] BUG       -    answerdotai/ModernBERT-large
+      [  6] OK    1.03700  -
+      [  7] BUG       -    microsoft/deberta-v3-small
+      [  8] BUG       -    microsoft/deberta-v3-small
+      [  9] OK    1.08598  microsoft/deberta-v3-small
+      [ 10] BUG       -    microsoft/deberta-v3-large
+      [ 11] BUG       -    answerdotai/ModernBERT-large
+      [ 12] OK    1.03854  microsoft/deberta-v3-small
+      [ 13] BUG       -    microsoft/deberta-v3-base, microsoft/deberta-v3-small
+      [ 14] BUG       -    microsoft/deberta-v3-small
+      [ 15] BUG       -    microsoft/deberta-v3-small
+      [ 16] BUG       -    microsoft/deberta-v3-small
+
+=== 20260818_233128_lmsys-kbimp-s43   arm=C  ok
+    21 nodes, 4 valid, 15 nodes (71%) use a transformer
+        7/21  answerdotai/ModernBERT-large           #######
+        4/21  TransformerCrossEncoder                ####
+        3/21  TfidfVectorizer                        ###
+        3/21  microsoft/deberta-v3-base              ###
+        3/21  microsoft/deberta-v3-small             ###
+        2/21  answerdotai/ModernBERT-base            ##
+        1/21  prajjwal1/bert-tiny                    #
+        1/21  microsoft/MiniLM-L6-H384-uncased       #
+    BEST node (metric 1.01449): TfidfVectorizer
+      [  0] BUG       -    answerdotai/ModernBERT-large
+      [  1] BUG       -    answerdotai/ModernBERT-large
+      [  2] BUG       -    answerdotai/ModernBERT-large
+      [  3] BUG       -    answerdotai/ModernBERT-large
+      [  4] BUG       -    answerdotai/ModernBERT-base
+      [  5] BUG       -    -
+      [  6] BUG       -    -
+      [  7] BUG       -    -
+      [  8] BUG       -    TfidfVectorizer
+      [  9] OK    1.01538  TfidfVectorizer
+      [ 10] BUG       -    answerdotai/ModernBERT-large
+      [ 11] OK    1.01449  TfidfVectorizer
+      [ 12] BUG       -    TransformerCrossEncoder, microsoft/deberta-v3-base
+      [ 13] BUG       -    TransformerCrossEncoder, microsoft/deberta-v3-small
+      [ 14] BUG       -    answerdotai/ModernBERT-large
+      [ 15] OK    1.08517  TransformerCrossEncoder, prajjwal1/bert-tiny
+      [ 16] OK    1.02351  answerdotai/ModernBERT-base
+      [ 17] BUG       -    answerdotai/ModernBERT-large
+      [ 18] BUG       -    microsoft/deberta-v3-base, microsoft/deberta-v3-small
+      [ 19] BUG       -    microsoft/MiniLM-L6-H384-uncased
+      [ 20] BUG       -    TransformerCrossEncoder, microsoft/deberta-v3-base, microsoft/deberta-v3-small

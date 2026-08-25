@@ -1,0 +1,32 @@
+# Problems that leave NO trace inside the run directory, so analyze_runs.py cannot detect them.
+#
+# Format:  <run directory name>: <reason>
+#   plain reason         -> hard exclusion, run is marked invalid
+#   reason starting
+#   with "flag:"         -> run is KEPT and usable; the caveat is recorded in the `flags`
+#                           column of run_inventory.csv and carried onto the figures
+#
+# Keep this file append-only and dated. If a run is here, the reason must be something a reader
+# could not have found by inspecting logs/ or workspace/ — otherwise write a rule instead.
+
+# 2026-08-14 essay seed 42, arms B and C.
+# The cache-warm phase of prepare-task.sh ran with max_extractions_per_coldstart=20 while
+# lazy_pool=40, so the paper cache was only half populated when the arms launched. Both KB arms
+# then performed on-demand extraction concurrently against the same cache directory, and
+# ondemand.py writes to a deterministic tmp path (out_file.with_suffix(".md.tmp")). The two arms
+# may therefore have been injected with different technique sets, and neither set is recoverable
+# from the run directory. Arm A is unaffected (no retrieval).
+#
+# 2026-08-19: CONFIRMED, no longer inferred. utils/dump_injected.py replayed retrieval for every
+# run and compared sha1[:8] against the digest each run logged at the time. Every KB run matched
+# except this pair's arm C: logged 68195a10 / 8134 chars, while its arm B logged c97d8fdd / 8072
+# chars — the same digest every later essay run has. So the two arms of this draw provably
+# received different technique sets, and arm C's set no longer exists anywhere. B-vs-C here is
+# not interpretable; the exact size of the difference is 62 characters of technique text.
+#
+# 2026-08-18: downgraded from exclusion to flag by decision. Read the resulting numbers with
+# this in mind — B-vs-C is the contrast the race actually threatens, since it is the difference
+# between the two KB arms' technique sets that may be corrupted. A-vs-B and A-vs-C are less
+# affected: arm A never retrieves, so whatever B held, it held more than A did.
+20260814_223034_essay-kbimp: "flag: cache-warm race between concurrent KB arms"
+20260814_223832_essay-kb: "flag: cache-warm race between concurrent KB arms"

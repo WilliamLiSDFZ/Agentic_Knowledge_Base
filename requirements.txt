@@ -19,3 +19,6 @@ python-dotenv
 # missing, so `1_fetch.py` failed with ModuleNotFoundError on a fresh environment.
 beautifulsoup4
 requests
+
+# analysis / figures (scripts/analyze_runs.py --charts)
+matplotlib
