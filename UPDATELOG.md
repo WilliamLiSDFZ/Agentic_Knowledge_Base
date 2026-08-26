@@ -4,6 +4,119 @@ A running record of notable changes to this project. Newest entries on top.
 
 ---
 
+## 2026-08-25 — A draw is a time cluster AND a seed, not just a time cluster
+
+`_cluster_draws` grouped runs of a task purely by launch time (`draw_gap_hours = 2.0`). essay
+seeds 45 and 46 were launched **31 minutes apart**, so all six runs collapsed into one "draw".
+The per-arm dedup then kept the latest run of each arm and discarded three:
+
+| arm | kept | discarded |
+|---|---|---|
+| A | `essay-base-s45` 02:30:46 (11/37) | `essay-base-s46` 02:17:26 (3/11) |
+| B | `essay-kb-s46` 02:29:34 (4/12) | `essay-kb-s45` 01:59:47 (13/45) |
+| C | `essay-kbimp-s46` 02:30:26 (4/17) | `essay-kbimp-s45` 02:27:19 (5/25) |
+
+Half the newest data was thrown away, and the half that survived was **wrong**: the resulting draw
+paired arm A from seed 45 against arms B and C from seed 46 — a "paired" comparison spanning two
+different experiments. Arm B differs enormously between them (13/45 vs 4/12), so this was not a
+small distortion.
+
+Fixed: cluster by time, then split each cluster by seed. Neither key works alone —
+
+- **seed alone** fails because `agent.seed` does not reproduce a run, so two batches a week apart
+  at seed 43 are two independent draws (this is why the original rule ignored seed);
+- **time alone** fails in the other direction, as above.
+
+Two runs of the same arm surviving in one draw after both splits really is a relaunch, and the
+later one still wins. essay now correctly shows 5 draws (seeds 42–46), each with A, B and C.
+
+### What this changed in the results
+
+The essay C−A valid-fraction result — the one contrast in the project whose interval had excluded
+zero — **does not survive**, exactly as `job-essay-abc-s46.yaml` warned it might:
+
+| | n=3 (as reported earlier) | n=5 (corrected) |
+|---|---|---|
+| essay C−A valid fraction | **+0.265 [+0.135, +0.394]** | +0.132 [−0.100, +0.364], signs `+++--` |
+
+What stands in its place is narrower and needs its own caveat:
+
+    essay B-A valid COUNT   n=5  +2.800  [+0.109, +5.491]  +++++   CI excludes zero
+    essay B-A valid FRAC    n=5  +0.137  [-0.094, +0.367]  ++--+   contains zero
+
+The KB arm produces about three more valid solutions per run, positive in 5 of 5 draws — but not
+at a higher *rate*, because it also runs more nodes (120 vs 103 across the five draws). "More
+valid solutions" and "code more likely to run" are different claims and only the first is
+supported. Separating them needs an analysis change (normalise by compute), not more runs.
+
+---
+
+## 2026-08-25 — Record the KB's composition at the start of every run
+
+New `MLEvolve/engine/coldstart/kb_snapshot.py`, called from `build_guidance_description`, writes
+`<run>/logs/kb_snapshot.json`: which venues and years were in the abstract index and how many
+papers each contributed, how many papers had extracted methodology per venue, the index
+manifest's identity (embedding model, dim, count), and a `digest` over all of it.
+
+### The gap it closes
+
+`injected_knowledge.md` records what a run *received*. Nothing recorded what it *could have*
+received. Two runs can be handed byte-identical techniques while the corpus underneath differs,
+and that is unnoticeable from the run directory.
+
+Worse, it is unrecoverable after the fact. Checking the repo:
+
+| artifact | versioned? |
+|---|---|
+| `output/` (paper corpus) | yes — 23,589 files in git |
+| `methodology_kb/` | yes — 243 files in git |
+| **`output/abstract_index/`** | **no — zero files tracked** |
+
+The one artifact retrieval actually queries is the one with no history. And `methodology_kb`
+*grows during normal operation*, because lazy mode caches on-demand extractions back into it, so
+even the tracked part does not reflect what any past run saw on the cluster — only one commit
+touched `output/` or `methodology_kb/` in the whole 2026-08-01…08-26 experiment window, while the
+PVC copy changed continuously. Cold start is the only point where this is both cheap and certain.
+
+Retroactive reconstruction was considered and rejected: the index has no history, and the existing
+per-run injection digest is stronger evidence for the question it can answer (it already proved
+essay's injected text was byte-identical from 08-14 to 08-25, and caught the one case where it
+was not).
+
+### Two semantics that would otherwise be misread, so they are stated in the file itself
+
+- **The snapshot is the state BEFORE the run's own extractions.** Lazy mode writes into
+  `methodology_kb` as it goes, so the end-of-run directory will not match. That is intended — it
+  describes the pool the run started from — but the file embeds a `note` saying so, because
+  anyone diffing the two will otherwise conclude the snapshot is broken.
+- **Arms of one draw can legitimately differ.** `methodology_kb` is shared mutable state, so an
+  arm launched later sees what earlier arms just cached. Comparing digests across arms is a real
+  check, not a formality: that is exactly what invalidated the essay seed-42 draw.
+
+### Design details
+
+- `digest` covers corpus composition and index identity only, deliberately **excluding**
+  `captured_at`, so two runs over an unchanged corpus produce the same digest. Verified: repeated
+  snapshots match, and adding one extracted paper changes it.
+- Called **outside** the `if methodology_text` branch. A run that retrieved nothing is exactly the
+  case where knowing which venues were in the pool matters most.
+- Arm A writes **no file** (no KB paths configured), so absence unambiguously means "no knowledge
+  base". A *failed* snapshot writes a file containing `"error"` instead, so the two cannot be
+  confused.
+- `methodology_kb/paperinsight/` is excluded from venue counting — it is cross-paper synthesis,
+  not a venue.
+- Never raises. Verified against five cases: normal arm, arm A, repeat-same-corpus, corpus-grew,
+  and missing index directory (writes a partial rather than crashing).
+
+Added to `fetch-run.sh`'s download list. `utils/verify_kb_injection.py` still passes.
+
+**Incidental finding this immediately surfaced:** only **5** venues are actually built
+(aaai / acl / icml / naacl / neurips, all 2024; 23,166 papers). The README claimed 8 supported
+conferences — cvpr, iccv and iclr have never been built. That is the kind of drift this record
+exists to catch.
+
+---
+
 ## 2026-08-23 — Process figures: what the search did, not what it scored
 
 `<task>_process.png`, one panel per metric, paired differences per contrast:
