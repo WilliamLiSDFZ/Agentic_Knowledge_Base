@@ -43,6 +43,7 @@ import json
 import os
 import re
 import sys
+import time
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -99,6 +100,10 @@ Return ONLY a JSON array, one object per technique, in the same order, no other 
 # ══════════════════════════════════════════════════════════════════════════════════════
 
 
+JUDGE_ATTEMPTS = 3
+JUDGE_BACKOFF = (2, 8, 20)      # seconds before retry 2, 3 — most blips self-heal in the first
+
+
 @dataclass
 class NodeResult:
     run: str
@@ -109,10 +114,29 @@ class NodeResult:
     metric: float | None
     is_buggy: bool
     verdicts: dict = field(default_factory=dict)   # technique name -> verdict
+    error: str = ""
+    """Non-empty when judging this node failed after every retry.
+
+    An errored node must never be counted as 'not adopted'. The first version of this script
+    caught judge exceptions and recorded "none" for every technique, which means a flaky network
+    would have manufactured exactly the finding we are looking for — low adoption. Errors are
+    kept as errors, excluded from the statistics, and reported separately."""
 
     @property
     def adopted(self) -> bool:
         return any(v in ("full", "proxy") for v in self.verdicts.values())
+
+    def to_json(self) -> dict:
+        return {"run": self.run, "task": self.task, "arm": self.arm, "node": self.node,
+                "stage": self.stage, "metric": self.metric, "is_buggy": self.is_buggy,
+                "verdicts": self.verdicts, "error": self.error}
+
+    @staticmethod
+    def from_json(d: dict) -> "NodeResult":
+        return NodeResult(run=d["run"], task=d["task"], arm=d["arm"], node=int(d["node"]),
+                          stage=d.get("stage", ""), metric=d.get("metric"),
+                          is_buggy=bool(d.get("is_buggy")), verdicts=d.get("verdicts", {}),
+                          error=d.get("error", ""))
 
 
 def split_techniques(text: str) -> dict[str, str]:
@@ -149,7 +173,21 @@ def judge_node(client, model: str, techs: dict[str, str], code: str) -> dict[str
         params["max_tokens"] = budget
         params["temperature"] = 0
 
-    raw = (client.chat.completions.create(**params).choices[0].message.content or "").strip()
+    # Retry transient failures before giving up. A raised exception here becomes a recorded
+    # `error` on the node, never a set of "none" verdicts.
+    last = None
+    for attempt in range(JUDGE_ATTEMPTS):
+        try:
+            raw = (client.chat.completions.create(**params)
+                   .choices[0].message.content or "").strip()
+            break
+        except Exception as e:                       # noqa: BLE001 - any transport failure
+            last = e
+            if attempt < JUDGE_ATTEMPTS - 1:
+                time.sleep(JUDGE_BACKOFF[attempt])
+    else:
+        raise RuntimeError(f"{type(last).__name__}: {last}")
+
     out = {n: "none" for n in names}
     m = re.search(r"\[.*\]", raw, re.S)
     if not m:
@@ -173,6 +211,9 @@ def main() -> int:
     ap.add_argument("--out", default=None, help="output dir (default: alongside the inventory)")
     ap.add_argument("--only-usable", action="store_true", default=True,
                     help="restrict to runs analyze_runs.py rated ok (default)")
+    ap.add_argument("--restart", action="store_true",
+                    help="ignore any existing adoption.jsonl checkpoint and judge everything "
+                         "again (default: resume, skipping nodes already judged)")
     ap.add_argument("--dry-run", action="store_true",
                     help="report coverage and how many judge calls would be made, then stop")
     args = ap.parse_args()
@@ -238,34 +279,78 @@ def main() -> int:
     model = os.environ.get("ADOPTION_JUDGE_MODEL", MODEL)
     print(f"judging with {model}\n")
 
+    # Checkpoint every judged node immediately. A 536-call pass costs real money and real time;
+    # losing it to a dropped connection at call 400 is avoidable with one append per node.
+    ckpt = out / "adoption.jsonl"
     results: list[NodeResult] = []
-    done = 0
-    for name, row, techs, nodes in plan:
-        for i, n in enumerate(nodes):
-            m = n.get("metric") or {}
-            nr = NodeResult(run=name, task=row["task"], arm=row["arm"], node=i,
-                            stage=n.get("stage", ""),
-                            metric=m.get("value") if isinstance(m, dict) else None,
-                            is_buggy=bool(n.get("is_buggy")))
-            try:
-                nr.verdicts = judge_node(client, model, techs, n["code"])
-            except Exception as e:
-                nr.verdicts = {t: "none" for t in techs}
-                print(f"  judge error on {name} node {i}: {type(e).__name__}: {e}")
-            done += 1
-            if done % 20 == 0:
-                print(f"  {done}/{total}")
-            results.append(nr)
+    if ckpt.exists() and not args.restart:
+        with ckpt.open(encoding="utf-8") as fh:
+            for line in fh:
+                line = line.strip()
+                if line:
+                    try:
+                        results.append(NodeResult.from_json(json.loads(line)))
+                    except (json.JSONDecodeError, KeyError):
+                        pass          # a half-written final line from a hard kill; drop it
+        # Errored nodes are NOT treated as done — retry them on resume.
+        done_keys = {(r.run, r.node) for r in results if not r.error}
+        results = [r for r in results if not r.error]
+        print(f"resuming: {len(done_keys)} node(s) already judged in {ckpt.name}")
+    else:
+        done_keys = set()
+        if ckpt.exists():
+            ckpt.unlink()
+
+    todo = sum(1 for _, _, _, nodes in plan for i in range(len(nodes)) if True) - len(done_keys)
+    print(f"{todo} node(s) to judge\n")
+
+    done, errors = 0, 0
+    with ckpt.open("a", encoding="utf-8") as fh:
+        for name, row, techs, nodes in plan:
+            for i, n in enumerate(nodes):
+                if (name, i) in done_keys:
+                    continue
+                m = n.get("metric") or {}
+                nr = NodeResult(run=name, task=row["task"], arm=row["arm"], node=i,
+                                stage=n.get("stage", ""),
+                                metric=m.get("value") if isinstance(m, dict) else None,
+                                is_buggy=bool(n.get("is_buggy")))
+                try:
+                    nr.verdicts = judge_node(client, model, techs, n["code"])
+                except Exception as e:
+                    nr.error = f"{type(e).__name__}: {e}"
+                    nr.verdicts = {}
+                    errors += 1
+                    print(f"  JUDGE FAILED {name} node {i}: {nr.error}")
+                fh.write(json.dumps(nr.to_json()) + "\n")
+                fh.flush()
+                done += 1
+                if done % 20 == 0:
+                    print(f"  {done}/{todo}" + (f"  ({errors} failed)" if errors else ""))
+                results.append(nr)
+
+    if errors:
+        print(f"\n{errors} node(s) could not be judged after {JUDGE_ATTEMPTS} attempts. They are "
+              f"recorded with an `error` and EXCLUDED from the statistics below — they are not "
+              f"evidence of non-adoption. Re-run to retry just those.")
+    results = [r for r in results if not r.error] or results
 
     # -- write + report ------------------------------------------------------------------
     detail = out / "adoption.csv"
     with detail.open("w", newline="") as fh:
         w = csv.writer(fh)
         w.writerow(["run", "task", "arm", "node", "stage", "metric", "is_buggy",
-                    "technique", "verdict"])
+                    "technique", "verdict", "judge_error"])
         for r in results:
+            if r.error:
+                # One row so the failure is visible in the CSV too, rather than the node simply
+                # being absent — an absent node looks identical to a node with no adoption.
+                w.writerow([r.run, r.task, r.arm, r.node, r.stage, r.metric, r.is_buggy,
+                            "", "", r.error])
+                continue
             for t, v in r.verdicts.items():
-                w.writerow([r.run, r.task, r.arm, r.node, r.stage, r.metric, r.is_buggy, t, v])
+                w.writerow([r.run, r.task, r.arm, r.node, r.stage, r.metric, r.is_buggy,
+                            t, v, ""])
 
     print(f"\n{'run':<40}{'arm':>4}{'nodes':>7}{'adopted':>9}{'full':>6}{'proxy':>7}")
     print("-" * 76)
