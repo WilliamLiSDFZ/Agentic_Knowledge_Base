@@ -4,6 +4,84 @@ A running record of notable changes to this project. Newest entries on top.
 
 ---
 
+## 2026-08-26 — Agent filters papers before extraction; truncation relaxed
+
+Implements Parts A-C of `docs/agent_filter_design.md`, from Peijia's review. Part D (moving to a
+larger task) is deliberately separate — doing both at once produces a number attributable to
+neither.
+
+### Why an LLM and not a better embedding
+
+Second-stage filtering was embedding similarity over techniques (`_rerank_techniques`). That
+cannot express the failure it needed to catch. jigsaw was handed `Fine-tuned CLIP multimodal
+encoder`, `Image captions for targeted-harmful memes`, `Multimodal image-text modeling` for a
+**text-only** competition, and adopted 3 of 89 nodes. Those methods are genuinely *near* text
+toxicity classification in embedding space — that is a correct embedding, not a broken one.
+Cosine similarity has no way to represent "this method requires a modality the dataset does not
+contain". A reader does.
+
+Every extracted technique has carried a `**Condition**` field stating its preconditions since the
+pipeline was written, and nothing has ever read it. This finally makes something read the
+equivalent information.
+
+### What changed
+
+`_agent_filter_papers` runs **before** extraction, on title + abstract, classifying each candidate
+`keep` / `irrelevant` / `infeasible`. Placing it before extraction is what makes it cheaper than
+the stage it replaces: the old path paid up to 20 full-PDF extraction calls and then discarded
+most of the resulting techniques; this pays one small call per batch of 10 abstracts and drops
+papers before any PDF is fetched.
+
+`_describe_data` supplies an `AVAILABLE DATA` block — a listing of `data_dir` file names and
+extensions. This did not exist before and is what makes `infeasible` decidable at all: without
+knowing jigsaw is text-only, the model cannot rule out a CLIP method.
+
+When the filter runs, **every surviving paper's techniques are injected whole** — no second
+filter, per the review. `_rerank_techniques` and the old paper-level path remain reachable with
+`agent_paper_filter: False`, because every result to date was produced with them and re-running
+them is what makes this change measurable rather than merely different.
+
+### Truncation
+
+Three caps were doing the truncating. Measured over the 223 extracted papers: **9.9 `[POSITIVE]`
+techniques per paper, 611 chars each**, so 15 papers is ~149 techniques ~91k chars ~23k tokens.
+
+| parameter | was | now |
+|---|---:|---:|
+| `retr_token_budget` | 6000 (24k chars) | 25000 (~100k chars) |
+| `improve_token_budget` | **2000 (8k chars)** | 12000 (~48k chars) |
+| `lazy_tech_top_n` | 12 | 0 (unlimited) |
+
+`improve_token_budget` was by far the tightest and is repeated at every improve node.
+
+### Guards, and why each exists
+
+| guard | reason |
+|---|---|
+| `filter_min_keep: 5` floor | an empty injection turns the KB arm into an expensive baseline, which reads as a null result rather than a broken filter |
+| `filter_max_keep: 15` ceiling | prompt size must not depend on how strict the agent happened to be |
+| every batch failed -> return candidates **unfiltered** | degrade to the previous behaviour, not to "top 15 by score", which is a third behaviour nobody chose |
+| partial batch failure -> that batch passes through | one blip must not silently drop 10 papers |
+| `logs/paper_filter.md` | records every decision and its reason. Without it "the filter dropped the wrong papers" is unfalsifiable — this project has twice been misled by diagnostics that recorded nothing |
+
+Verified offline against seven cases: normal filtering, agent keeps nothing (floor fires), agent
+keeps everything (ceiling fires), total LLM failure (passes 40 through unchanged), partial failure
+(15 kept, failed batch preserved), unparseable reply, and the log file's contents. The old path is
+unchanged with the switch off; `verify_kb_injection.py` still passes all 33 checks.
+
+### What to look at first, and it is not the score
+
+jigsaw adoption is 3% today. If the filter works it should rise substantially, and that is visible
+at **n=1 draw with no statistics**. Score would need 8+ draws. Run jigsaw A/B/C, then
+`measure_adoption.py`, and compare `logs/paper_filter.md` against the multimodal papers listed
+above — they must be marked `infeasible`.
+
+The untested assumption is volume: injecting ~150 techniques instead of 12 may not help, and the
+alternative reading of the adoption data is that the agent adopts 1-2 techniques regardless of how
+many it is offered. Keeping the old path runnable is what lets that be answered.
+
+---
+
 ## 2026-08-25 — A draw is a time cluster AND a seed, not just a time cluster
 
 `_cluster_draws` grouped runs of a task purely by launch time (`draw_gap_hours = 2.0`). essay
