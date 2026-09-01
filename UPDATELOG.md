@@ -4,6 +4,73 @@ A running record of notable changes to this project. Newest entries on top.
 
 ---
 
+## 2026-08-31 — Two ways a draw could stop being a paired comparison
+
+Both found while trying to launch tf2qa. Neither changes what the KB contains; both change
+whether a comparison means anything. Symptom first, in each case, because that is what a future
+reader will be holding.
+
+### 1. The agent paper filter was sampling, so arms could get different papers
+
+**Symptom.** `k8s/prepare-task.sh tensorflow2-question-answering` ran WARM to convergence
+(368 cached papers, injected 46807 chars, digest `e783bc5a`) and then VERIFY refused to launch:
+`candidates 40: 15 cached, 25 missing`, injected 36494 chars, digest `a575fe7e`. Same task, same
+KB, two different digests minutes apart.
+
+**Cause.** `_agent_filter_papers` (Part A of `docs/agent_filter_design.md`, landed 2026-08-26)
+is an LLM call, and `llm/openai.py::_chat` passes `temperature=0` only when
+`supports_sampling_params(model)` is true. Every reasoning model we run on — `gpt-5*`,
+`o1/o3/o4`, `claude-opus-4-7/8`, `fable` — is in `_NO_SAMPLING_PARAMS_PREFIXES`, so the filter
+gets no temperature and samples. The embedding reranker it replaced was deterministic. Arms B
+and C of one draw would each run their own filter and could keep a different 15 papers — the
+same race `_distill_query`'s cache was built to prevent (`semantic_retrieval_design.md` §18),
+reintroduced by a change that looked like a pure improvement. The `15` in the log was not a
+coincidence: it is exactly `filter_max_keep`.
+
+**Fix.** `filter_cache/` on disk next to `query_cache/`, keyed on (distilled query, sorted
+candidate ids, model, floor/ceiling/batch size). Warmed by `prepare-task.sh`, read by every arm.
+Two guards that matter: the all-batches-failed path does **not** write the cache (one bad
+network minute would otherwise freeze "keep everything" into every later arm), and the cached
+survivor list is rebuilt by consuming a multiset of ids rather than testing set membership, since
+the abstract index does not guarantee unique ids.
+
+Be clear about what this buys: the decision is now **consistent across arms**, not
+**reproducible**. A fresh `filter_cache/` gives a different survivor set, so the cache directory
+is part of an experiment's identity, like the KB snapshot. A cold cache still lets two
+simultaneously-launched arms diverge, so `prepare-task.sh` now hard-fails when the filter has no
+cached decision instead of warning.
+
+**Also fixed:** VERIFY was checking all 40 stage-1 candidates for extractions, but the filter
+drops ~25 of them before anything is downloaded, so those can never be raced on and `missing`
+could never reach zero. It now replays the filter first. The gate was blocking for the right
+reason and reporting the wrong one.
+
+**Test.** `MLEvolve/utils/verify_filter_cache.py`, offline, ~1s. The LLM stub returns a *random*
+verdict on purpose and check 1 is a negative control that must show two arms diverging without
+the cache — a deterministic stub would pass even if the cache did nothing.
+
+### 2. `activeDeadlineSeconds` counts Pending time
+
+`activeDeadlineSeconds` is measured from `job.status.startTime`, which the Job controller sets
+when it accepts the Job, **not** when a pod is scheduled. At the old 46800 (13 h) the slack over
+the 12 h agent budget was exactly one hour, so a pod that queued longer got `DeadlineExceeded`
+mid-run.
+
+The experiment consequence is the reason this is here rather than in an ops note: A/B/C arms are
+applied together but schedule at different times, so a queue-delayed arm gets a *smaller*
+effective compute budget than its pair — an uncontrolled difference inside a paired design.
+`analyze_runs.py` catches the killed run as `terminated_early -> invalid` (no ensembles, but
+`top_solutions` present), so it discards the draw rather than biasing it silently; still, tasks
+that queue for hours (tf2qa) would bleed draws for a reason unrelated to the KB.
+
+Raised to 86400 (24 h) across all 67 experiment Jobs. The 12 h budget was never enforced by this
+deadline anyway — `timeout --kill-after` inside `run_single_task.sh` is what enforces it, and it
+always fires; `activeDeadlineSeconds` only backstops what runs outside that timeout (entrypoint
+setup, and the unbounded `submission_fusion_utils.py` afterwards). Rationale recorded in
+`MLEvolve/k8s/README.md` so it does not get "optimised" back down.
+
+---
+
 ## 2026-08-26 — Agent filters papers before extraction; truncation relaxed
 
 Implements Parts A-C of `docs/agent_filter_design.md`, from Peijia's review. Part D (moving to a

@@ -154,6 +154,46 @@ filter_max_keep: 15             # ceiling, enforced after the agent, by stage-1 
 | agent keeps everything → no filtering, prompt explodes | cap at `filter_max_keep` by stage-1 score |
 | API failure | fall back to the current behaviour (no filter), log it — never fail the run |
 | unparseable JSON | same as API failure |
+| **filter samples → arms of one draw keep different papers** | **disk cache in `filter_cache/`, keyed on (query, candidate ids, model, floor/ceiling/batch); warmed by `prepare-task.sh`** |
+
+#### The failure mode this design originally missed
+
+The last row was added on 2026-08-31, after the tf2qa `prepare-task.sh` gate refused to launch.
+It is worth stating plainly because the design above walked straight past it: **the reranker
+this part replaces was deterministic, and this filter is not.** `llm/openai.py::_chat` passes
+`temperature=0` only when `supports_sampling_params(model)` is true, and every reasoning model
+this project runs on — `gpt-5*`, `o1/o3/o4`, `claude-opus-4-7/8`, `fable` — is in
+`_NO_SAMPLING_PARAMS_PREFIXES`. So the filter call samples, every time.
+
+Consequence: arms B and C of one draw each run their own filter and can keep different paper
+sets. That is not a small quality difference; it means the two arms received different
+treatments, and the paired comparison that the whole analysis rests on is void. It is the same
+race the query cache was built to prevent (`semantic_retrieval_design.md` §18), reintroduced by
+a component that looked like a pure improvement.
+
+The fix is the fix that already existed for `_distill_query`: cache the decision on disk so
+every arm reads one verdict. Two things to be honest about —
+
+- the cache makes the decision **consistent**, not **reproducible**: a fresh `filter_cache/`
+  yields a different survivor set, so the cache directory is now part of an experiment's
+  identity in the same way the KB snapshot is;
+- a cold cache does not help. Two arms launched together with no cached decision both call the
+  LLM and can still diverge. Warming beforehand is what makes a draw safe, which is why
+  `prepare-task.sh` now **hard-fails** when the filter has no cached decision rather than
+  merely warning.
+
+Two smaller corrections landed with it. The failure path must not be cached — a single bad
+network minute would otherwise freeze "keep everything" into every later arm. And
+`prepare-task.sh`'s VERIFY phase was computing `missing` over all 40 stage-1 candidates, which
+can never reach zero once the filter drops ~25 of them; it now replays the filter first, so
+`missing` means "papers a real run would actually try to extract". That mis-scoped check is
+what produced the confusing `candidates 40: 15 cached, 25 missing` — where `15` was not a
+coincidence but exactly `filter_max_keep`.
+
+Regression test: `MLEvolve/utils/verify_filter_cache.py` (offline, ~1s). Its stub returns a
+*random* verdict deliberately; check 1 is a negative control that must show two arms diverging
+without the cache, because a test with a deterministic stub would pass even if the cache did
+nothing.
 
 Every decision — kept, dropped, and why — must be written to `logs/paper_filter.md` next to
 `injected_knowledge.md`. Without it, "the agent filtered badly" is unfalsifiable, and this project
