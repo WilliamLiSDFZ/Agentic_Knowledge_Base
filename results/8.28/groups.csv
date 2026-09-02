@@ -15,7 +15,8 @@ lmsys/draw1,lmsys,1,2026-08-16 04:34:35,fixed,42,AB,,True,
 lmsys/draw2,lmsys,2,2026-08-17 02:21:01,fixed,42,ABC,,True,
 lmsys/draw3,lmsys,3,2026-08-17 23:13:16,fixed,43,AB,,True,
 lmsys/draw4,lmsys,4,2026-08-18 23:19:27,fixed,43,ABC,,True,
-lmsys/draw5,lmsys,5,2026-08-23 08:55:36,fixed,"42,44",AC,A,True,
+lmsys/draw5,lmsys,5,2026-08-23 08:55:36,fixed,44,AC,A,True,
+lmsys/draw6,lmsys,6,2026-08-28 07:05:07,fixed,44,AB,,True,
 openadmet/draw1,openadmet,1,2026-07-27 03:51:10,legacy,42,A,,False,only_1_arm
 openadmet/draw2,openadmet,2,2026-07-29 09:51:32,legacy,42,AB,A,False,arm_B=superseded(legacy_injection_wiring)
 openadmet/draw3,openadmet,3,2026-08-01 04:55:29,legacy,42,B,,False,only_1_arm;arm_B=superseded(legacy_injection_wiring)

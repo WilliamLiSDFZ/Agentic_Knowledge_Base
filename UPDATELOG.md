@@ -4,6 +4,264 @@ A running record of notable changes to this project. Newest entries on top.
 
 ---
 
+## 2026-08-31 — Two ways a draw could stop being a paired comparison
+
+Both found while trying to launch tf2qa. Neither changes what the KB contains; both change
+whether a comparison means anything. Symptom first, in each case, because that is what a future
+reader will be holding.
+
+### 1. The agent paper filter was sampling, so arms could get different papers
+
+**Symptom.** `k8s/prepare-task.sh tensorflow2-question-answering` ran WARM to convergence
+(368 cached papers, injected 46807 chars, digest `e783bc5a`) and then VERIFY refused to launch:
+`candidates 40: 15 cached, 25 missing`, injected 36494 chars, digest `a575fe7e`. Same task, same
+KB, two different digests minutes apart.
+
+**Cause.** `_agent_filter_papers` (Part A of `docs/agent_filter_design.md`, landed 2026-08-26)
+is an LLM call, and `llm/openai.py::_chat` passes `temperature=0` only when
+`supports_sampling_params(model)` is true. Every reasoning model we run on — `gpt-5*`,
+`o1/o3/o4`, `claude-opus-4-7/8`, `fable` — is in `_NO_SAMPLING_PARAMS_PREFIXES`, so the filter
+gets no temperature and samples. The embedding reranker it replaced was deterministic. Arms B
+and C of one draw would each run their own filter and could keep a different 15 papers — the
+same race `_distill_query`'s cache was built to prevent (`semantic_retrieval_design.md` §18),
+reintroduced by a change that looked like a pure improvement. The `15` in the log was not a
+coincidence: it is exactly `filter_max_keep`.
+
+**Fix.** `filter_cache/` on disk next to `query_cache/`, keyed on (distilled query, sorted
+candidate ids, model, floor/ceiling/batch size). Warmed by `prepare-task.sh`, read by every arm.
+Two guards that matter: the all-batches-failed path does **not** write the cache (one bad
+network minute would otherwise freeze "keep everything" into every later arm), and the cached
+survivor list is rebuilt by consuming a multiset of ids rather than testing set membership, since
+the abstract index does not guarantee unique ids.
+
+Be clear about what this buys: the decision is now **consistent across arms**, not
+**reproducible**. A fresh `filter_cache/` gives a different survivor set, so the cache directory
+is part of an experiment's identity, like the KB snapshot. A cold cache still lets two
+simultaneously-launched arms diverge, so `prepare-task.sh` now hard-fails when the filter has no
+cached decision instead of warning.
+
+**Also fixed:** VERIFY was checking all 40 stage-1 candidates for extractions, but the filter
+drops ~25 of them before anything is downloaded, so those can never be raced on and `missing`
+could never reach zero. It now replays the filter first. The gate was blocking for the right
+reason and reporting the wrong one.
+
+**Test.** `MLEvolve/utils/verify_filter_cache.py`, offline, ~1s. The LLM stub returns a *random*
+verdict on purpose and check 1 is a negative control that must show two arms diverging without
+the cache — a deterministic stub would pass even if the cache did nothing.
+
+### 2. `activeDeadlineSeconds` counts Pending time
+
+`activeDeadlineSeconds` is measured from `job.status.startTime`, which the Job controller sets
+when it accepts the Job, **not** when a pod is scheduled. At the old 46800 (13 h) the slack over
+the 12 h agent budget was exactly one hour, so a pod that queued longer got `DeadlineExceeded`
+mid-run.
+
+The experiment consequence is the reason this is here rather than in an ops note: A/B/C arms are
+applied together but schedule at different times, so a queue-delayed arm gets a *smaller*
+effective compute budget than its pair — an uncontrolled difference inside a paired design.
+`analyze_runs.py` catches the killed run as `terminated_early -> invalid` (no ensembles, but
+`top_solutions` present), so it discards the draw rather than biasing it silently; still, tasks
+that queue for hours (tf2qa) would bleed draws for a reason unrelated to the KB.
+
+Raised to 86400 (24 h) across all 67 experiment Jobs. The 12 h budget was never enforced by this
+deadline anyway — `timeout --kill-after` inside `run_single_task.sh` is what enforces it, and it
+always fires; `activeDeadlineSeconds` only backstops what runs outside that timeout (entrypoint
+setup, and the unbounded `submission_fusion_utils.py` afterwards). Rationale recorded in
+`MLEvolve/k8s/README.md` so it does not get "optimised" back down.
+
+---
+
+## 2026-08-26 — Agent filters papers before extraction; truncation relaxed
+
+Implements Parts A-C of `docs/agent_filter_design.md`, from Peijia's review. Part D (moving to a
+larger task) is deliberately separate — doing both at once produces a number attributable to
+neither.
+
+### Why an LLM and not a better embedding
+
+Second-stage filtering was embedding similarity over techniques (`_rerank_techniques`). That
+cannot express the failure it needed to catch. jigsaw was handed `Fine-tuned CLIP multimodal
+encoder`, `Image captions for targeted-harmful memes`, `Multimodal image-text modeling` for a
+**text-only** competition, and adopted 3 of 89 nodes. Those methods are genuinely *near* text
+toxicity classification in embedding space — that is a correct embedding, not a broken one.
+Cosine similarity has no way to represent "this method requires a modality the dataset does not
+contain". A reader does.
+
+Every extracted technique has carried a `**Condition**` field stating its preconditions since the
+pipeline was written, and nothing has ever read it. This finally makes something read the
+equivalent information.
+
+### What changed
+
+`_agent_filter_papers` runs **before** extraction, on title + abstract, classifying each candidate
+`keep` / `irrelevant` / `infeasible`. Placing it before extraction is what makes it cheaper than
+the stage it replaces: the old path paid up to 20 full-PDF extraction calls and then discarded
+most of the resulting techniques; this pays one small call per batch of 10 abstracts and drops
+papers before any PDF is fetched.
+
+`_describe_data` supplies an `AVAILABLE DATA` block — a listing of `data_dir` file names and
+extensions. This did not exist before and is what makes `infeasible` decidable at all: without
+knowing jigsaw is text-only, the model cannot rule out a CLIP method.
+
+When the filter runs, **every surviving paper's techniques are injected whole** — no second
+filter, per the review. `_rerank_techniques` and the old paper-level path remain reachable with
+`agent_paper_filter: False`, because every result to date was produced with them and re-running
+them is what makes this change measurable rather than merely different.
+
+### Truncation
+
+Three caps were doing the truncating. Measured over the 223 extracted papers: **9.9 `[POSITIVE]`
+techniques per paper, 611 chars each**, so 15 papers is ~149 techniques ~91k chars ~23k tokens.
+
+| parameter | was | now |
+|---|---:|---:|
+| `retr_token_budget` | 6000 (24k chars) | 25000 (~100k chars) |
+| `improve_token_budget` | **2000 (8k chars)** | 12000 (~48k chars) |
+| `lazy_tech_top_n` | 12 | 0 (unlimited) |
+
+`improve_token_budget` was by far the tightest and is repeated at every improve node.
+
+### Guards, and why each exists
+
+| guard | reason |
+|---|---|
+| `filter_min_keep: 5` floor | an empty injection turns the KB arm into an expensive baseline, which reads as a null result rather than a broken filter |
+| `filter_max_keep: 15` ceiling | prompt size must not depend on how strict the agent happened to be |
+| every batch failed -> return candidates **unfiltered** | degrade to the previous behaviour, not to "top 15 by score", which is a third behaviour nobody chose |
+| partial batch failure -> that batch passes through | one blip must not silently drop 10 papers |
+| `logs/paper_filter.md` | records every decision and its reason. Without it "the filter dropped the wrong papers" is unfalsifiable — this project has twice been misled by diagnostics that recorded nothing |
+
+Verified offline against seven cases: normal filtering, agent keeps nothing (floor fires), agent
+keeps everything (ceiling fires), total LLM failure (passes 40 through unchanged), partial failure
+(15 kept, failed batch preserved), unparseable reply, and the log file's contents. The old path is
+unchanged with the switch off; `verify_kb_injection.py` still passes all 33 checks.
+
+### What to look at first, and it is not the score
+
+jigsaw adoption is 3% today. If the filter works it should rise substantially, and that is visible
+at **n=1 draw with no statistics**. Score would need 8+ draws. Run jigsaw A/B/C, then
+`measure_adoption.py`, and compare `logs/paper_filter.md` against the multimodal papers listed
+above — they must be marked `infeasible`.
+
+The untested assumption is volume: injecting ~150 techniques instead of 12 may not help, and the
+alternative reading of the adoption data is that the agent adopts 1-2 techniques regardless of how
+many it is offered. Keeping the old path runnable is what lets that be answered.
+
+---
+
+## 2026-08-25 — A draw is a time cluster AND a seed, not just a time cluster
+
+`_cluster_draws` grouped runs of a task purely by launch time (`draw_gap_hours = 2.0`). essay
+seeds 45 and 46 were launched **31 minutes apart**, so all six runs collapsed into one "draw".
+The per-arm dedup then kept the latest run of each arm and discarded three:
+
+| arm | kept | discarded |
+|---|---|---|
+| A | `essay-base-s45` 02:30:46 (11/37) | `essay-base-s46` 02:17:26 (3/11) |
+| B | `essay-kb-s46` 02:29:34 (4/12) | `essay-kb-s45` 01:59:47 (13/45) |
+| C | `essay-kbimp-s46` 02:30:26 (4/17) | `essay-kbimp-s45` 02:27:19 (5/25) |
+
+Half the newest data was thrown away, and the half that survived was **wrong**: the resulting draw
+paired arm A from seed 45 against arms B and C from seed 46 — a "paired" comparison spanning two
+different experiments. Arm B differs enormously between them (13/45 vs 4/12), so this was not a
+small distortion.
+
+Fixed: cluster by time, then split each cluster by seed. Neither key works alone —
+
+- **seed alone** fails because `agent.seed` does not reproduce a run, so two batches a week apart
+  at seed 43 are two independent draws (this is why the original rule ignored seed);
+- **time alone** fails in the other direction, as above.
+
+Two runs of the same arm surviving in one draw after both splits really is a relaunch, and the
+later one still wins. essay now correctly shows 5 draws (seeds 42–46), each with A, B and C.
+
+### What this changed in the results
+
+The essay C−A valid-fraction result — the one contrast in the project whose interval had excluded
+zero — **does not survive**, exactly as `job-essay-abc-s46.yaml` warned it might:
+
+| | n=3 (as reported earlier) | n=5 (corrected) |
+|---|---|---|
+| essay C−A valid fraction | **+0.265 [+0.135, +0.394]** | +0.132 [−0.100, +0.364], signs `+++--` |
+
+What stands in its place is narrower and needs its own caveat:
+
+    essay B-A valid COUNT   n=5  +2.800  [+0.109, +5.491]  +++++   CI excludes zero
+    essay B-A valid FRAC    n=5  +0.137  [-0.094, +0.367]  ++--+   contains zero
+
+The KB arm produces about three more valid solutions per run, positive in 5 of 5 draws — but not
+at a higher *rate*, because it also runs more nodes (120 vs 103 across the five draws). "More
+valid solutions" and "code more likely to run" are different claims and only the first is
+supported. Separating them needs an analysis change (normalise by compute), not more runs.
+
+---
+
+## 2026-08-25 — Record the KB's composition at the start of every run
+
+New `MLEvolve/engine/coldstart/kb_snapshot.py`, called from `build_guidance_description`, writes
+`<run>/logs/kb_snapshot.json`: which venues and years were in the abstract index and how many
+papers each contributed, how many papers had extracted methodology per venue, the index
+manifest's identity (embedding model, dim, count), and a `digest` over all of it.
+
+### The gap it closes
+
+`injected_knowledge.md` records what a run *received*. Nothing recorded what it *could have*
+received. Two runs can be handed byte-identical techniques while the corpus underneath differs,
+and that is unnoticeable from the run directory.
+
+Worse, it is unrecoverable after the fact. Checking the repo:
+
+| artifact | versioned? |
+|---|---|
+| `output/` (paper corpus) | yes — 23,589 files in git |
+| `methodology_kb/` | yes — 243 files in git |
+| **`output/abstract_index/`** | **no — zero files tracked** |
+
+The one artifact retrieval actually queries is the one with no history. And `methodology_kb`
+*grows during normal operation*, because lazy mode caches on-demand extractions back into it, so
+even the tracked part does not reflect what any past run saw on the cluster — only one commit
+touched `output/` or `methodology_kb/` in the whole 2026-08-01…08-26 experiment window, while the
+PVC copy changed continuously. Cold start is the only point where this is both cheap and certain.
+
+Retroactive reconstruction was considered and rejected: the index has no history, and the existing
+per-run injection digest is stronger evidence for the question it can answer (it already proved
+essay's injected text was byte-identical from 08-14 to 08-25, and caught the one case where it
+was not).
+
+### Two semantics that would otherwise be misread, so they are stated in the file itself
+
+- **The snapshot is the state BEFORE the run's own extractions.** Lazy mode writes into
+  `methodology_kb` as it goes, so the end-of-run directory will not match. That is intended — it
+  describes the pool the run started from — but the file embeds a `note` saying so, because
+  anyone diffing the two will otherwise conclude the snapshot is broken.
+- **Arms of one draw can legitimately differ.** `methodology_kb` is shared mutable state, so an
+  arm launched later sees what earlier arms just cached. Comparing digests across arms is a real
+  check, not a formality: that is exactly what invalidated the essay seed-42 draw.
+
+### Design details
+
+- `digest` covers corpus composition and index identity only, deliberately **excluding**
+  `captured_at`, so two runs over an unchanged corpus produce the same digest. Verified: repeated
+  snapshots match, and adding one extracted paper changes it.
+- Called **outside** the `if methodology_text` branch. A run that retrieved nothing is exactly the
+  case where knowing which venues were in the pool matters most.
+- Arm A writes **no file** (no KB paths configured), so absence unambiguously means "no knowledge
+  base". A *failed* snapshot writes a file containing `"error"` instead, so the two cannot be
+  confused.
+- `methodology_kb/paperinsight/` is excluded from venue counting — it is cross-paper synthesis,
+  not a venue.
+- Never raises. Verified against five cases: normal arm, arm A, repeat-same-corpus, corpus-grew,
+  and missing index directory (writes a partial rather than crashing).
+
+Added to `fetch-run.sh`'s download list. `utils/verify_kb_injection.py` still passes.
+
+**Incidental finding this immediately surfaced:** only **5** venues are actually built
+(aaai / acl / icml / naacl / neurips, all 2024; 23,166 papers). The README claimed 8 supported
+conferences — cvpr, iccv and iclr have never been built. That is the kind of drift this record
+exists to catch.
+
+---
+
 ## 2026-08-23 — Process figures: what the search did, not what it scored
 
 `<task>_process.png`, one panel per metric, paired differences per contrast:

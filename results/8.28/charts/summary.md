@@ -32,14 +32,14 @@ Scores are graded against mle-bench private answers (`MLEvolve/utils/grade_all.p
 
 ## lmsys
 
-5 usable draw(s), compared at K=1. 4 run(s) excluded.
+6 usable draw(s), compared at K=1. 5 run(s) excluded.
 
 | contrast | n | mean | 95% CI | signs | verdict |
 |---|---:|---:|---|---|---|
-| B-A | 4 | -0.00940 | [-0.05408, +0.03528] | --++ | **CI contains zero — no detectable effect** |
-| C-A | 3 | +0.00462 | [-0.04318, +0.05243] | -+- | **CI contains zero — no detectable effect** (unpaired) |
+| B-A | 5 | -0.00954 | [-0.03973, +0.02065] | --++- | **CI contains zero — no detectable effect** |
+| C-A | 3 | +0.00113 | [-0.05370, +0.05595] | -+- | **CI contains zero — no detectable effect** (unpaired) |
 | C-B | 2 | +0.00308 | [-0.13725, +0.14342] | -+ | **CI contains zero — no detectable effect** |
 
-- `B-A`: to detect 0.005 at ~80% power needs **252 draws** (6057 GPU-hours at 12 h/run, 2 arms).
-- `C-A`: to detect 0.005 at ~80% power needs **118 draws** (2843 GPU-hours at 12 h/run, 2 arms).
+- `B-A`: to detect 0.005 at ~80% power needs **189 draws** (4543 GPU-hours at 12 h/run, 2 arms).
+- `C-A`: to detect 0.005 at ~80% power needs **156 draws** (3740 GPU-hours at 12 h/run, 2 arms).
 - `C-B`: to detect 0.005 at ~80% power needs **78 draws** (1874 GPU-hours at 12 h/run, 2 arms).  *(from n=2 — sd has 1 df, treat as a rough order of magnitude only)*

@@ -527,22 +527,52 @@ class Group:
 
 
 def _cluster_draws(runs: list[Run]) -> list[Group]:
-    """Split one task's runs into launch batches by start time. See Thresholds.draw_gap_hours."""
+    """Split one task's runs into draws: a launch-time cluster AND a single seed.
+
+    Time alone is not sufficient and seed alone is not sufficient; both together are.
+
+    * Seed alone fails because `agent.seed` does not reproduce a run (see draw_gap_hours), so two
+      batches launched a week apart at seed 43 are two independent draws.
+    * Time alone fails the other way, and it did: essay seeds 45 and 46 were launched 31 minutes
+      apart, so a 2-hour window merged all six runs into one "draw". The per-arm dedup then kept
+      the latest run of each arm, silently discarding three runs AND producing a draw whose arm A
+      came from seed 45 while arms B and C came from seed 46 — a paired comparison across two
+      different experiments. Half the newest data was lost and the surviving half was wrong.
+
+    So: cluster by time, then split each cluster by seed. Two runs of the same arm surviving in
+    one draw after that really is a relaunch, and the later one wins.
+    """
     dated = sorted((r for r in runs if r.started), key=lambda r: r.started)
-    groups: list[Group] = []
+
+    # 1. time clusters
+    clusters: list[list[Run]] = []
     prev: datetime | None = None
     for r in dated:
         t = datetime.strptime(r.started, "%Y-%m-%d %H:%M:%S")
         if prev is None or (t - prev).total_seconds() / 3600 > THRESHOLDS.draw_gap_hours:
-            groups.append(Group(task=r.task, draw=len(groups) + 1,
-                                started=r.started, wiring=r.wiring))
-        g = groups[-1]
-        # Two runs of the same arm inside one batch means a relaunch; keep the later.
-        prev_run = g.arms.get(r.arm)
-        if prev_run is None or r.name > prev_run.name:
-            g.arms[r.arm] = r
+            clusters.append([])
+        clusters[-1].append(r)
         prev = t
+
+    # 2. split each cluster by seed, preserving launch order
+    groups: list[Group] = []
+    for cluster in clusters:
+        by_seed: dict[Any, list[Run]] = {}
+        for r in cluster:
+            by_seed.setdefault(r.seed, []).append(r)
+        for _, rs in sorted(by_seed.items(), key=lambda kv: rs_start(kv[1])):
+            g = Group(task=rs[0].task, draw=len(groups) + 1,
+                      started=min(r.started for r in rs), wiring=rs[0].wiring)
+            for r in rs:
+                prev_run = g.arms.get(r.arm)
+                if prev_run is None or r.name > prev_run.name:
+                    g.arms[r.arm] = r
+            groups.append(g)
     return groups
+
+
+def rs_start(rs: list[Run]) -> str:
+    return min(r.started for r in rs)
 
 
 def build_groups(runs: list[Run]) -> list[Group]:
