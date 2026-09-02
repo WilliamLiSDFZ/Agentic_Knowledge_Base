@@ -19,24 +19,21 @@ $PYTHON scripts/3_classify.py --venue $VENUE --year $YEAR
 echo "=== Step 4: Generate skills ==="
 $PYTHON scripts/4_generate_skills.py --venue $VENUE --year $YEAR
 
-# Step 5 (heavy: per-paper PDF+LLM, per-category synthesis agent) is now OPT-IN — the
-# default is the lazy path: build a cheap abstract index; MLEvolve extracts on demand.
-# Run the full batch methodology with:  FULL_METHODOLOGY=1 bash run_all.sh ...
+# Step 5 (heavy: per-paper PDF+LLM, per-category synthesis agent) is OPT-IN. It builds the
+# methodology_kb product; MLEvolve no longer consumes it at run time.
+# Run it with:  FULL_METHODOLOGY=1 bash run_all.sh ...
 if [ -n "${FULL_METHODOLOGY:-}" ]; then
-    echo "=== Step 5: Full batch methodology (plugin A + A2) + insight index ==="
+    echo "=== Step 5: Full batch methodology (plugin A + A2) ==="
     $PYTHON scripts/5_build_methodology.py --venue $VENUE --year $YEAR \
         --paper-workers "${PAPER_WORKERS:-8}" \
-        --category-workers "${CATEGORY_WORKERS:-3}" \
-        --build-index
+        --category-workers "${CATEGORY_WORKERS:-3}"
 fi
 
-# Step 6: abstract index (no LLM calls; needs sentence-transformers + HF model — set
-# HF_ENDPOINT if huggingface.co is blocked). Skip with SKIP_INDEX=1. Non-fatal on failure.
+# Step 6: the paper corpus MLEvolve's analogy agent searches with BM25 (title+tldr+abstract;
+# zero LLM calls, zero GPU, seconds). Skip with SKIP_INDEX=1.
 if [ -z "${SKIP_INDEX:-}" ]; then
-    echo "=== Step 6: Build abstract retrieval index (cheap, no LLM) ==="
-    if ! $PYTHON scripts/6_build_abstract_index.py --venues all; then
-        echo "WARN: abstract index build failed (missing sentence-transformers or HF unreachable?) — continuing"
-    fi
+    echo "=== Step 6: Build paper corpus (cheap, no LLM) ==="
+    $PYTHON scripts/6_build_paper_corpus.py --venues all
 fi
 
-echo "=== Done: output/${VENUE}-${YEAR}/ (+ abstract_index; methodology_kb fills lazily or via FULL_METHODOLOGY=1) ==="
+echo "=== Done: output/${VENUE}-${YEAR}/ (+ output/paper_corpus; methodology_kb via FULL_METHODOLOGY=1) ==="

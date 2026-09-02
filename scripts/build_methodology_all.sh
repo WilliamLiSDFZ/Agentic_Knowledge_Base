@@ -37,6 +37,4 @@ for dir in "$OUT_DIR"/*/; do
     fi
 done
 
-echo "===== building retrieval index over methodology_kb/paperinsight ====="
-"$PY" scripts/build_retrieval_index.py --kb methodology_kb/paperinsight
 echo "Done ($n categories)."

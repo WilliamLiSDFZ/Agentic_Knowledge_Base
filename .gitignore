@@ -35,3 +35,6 @@ AGENTS.md
 
 temp.txt
 *.tgz
+# Built by scripts/6_build_paper_corpus.py in seconds from output/; 40-120 MB and its identity
+# (records_sha1 in manifest.json) is recorded in every run's kb_snapshot.json, so not versioned.
+output/paper_corpus/

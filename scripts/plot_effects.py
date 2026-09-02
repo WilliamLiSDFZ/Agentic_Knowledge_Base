@@ -36,9 +36,13 @@ _T95 = {1: 12.706, 2: 4.303, 3: 3.182, 4: 2.776, 5: 2.571, 6: 2.447, 7: 2.365, 8
         9: 2.262, 10: 2.228, 11: 2.201, 12: 2.179, 13: 2.160, 14: 2.145, 15: 2.131,
         16: 2.120, 17: 2.110, 18: 2.101, 19: 2.093, 20: 2.086, 25: 2.060, 30: 2.042}
 
-ARM_LABEL = {"A": "A  baseline", "B": "B  KB @ draft", "C": "C  KB @ draft+improve"}
-ARM_COLOR = {"A": "#555555", "B": "#1f77b4", "C": "#d62728"}
-CONTRASTS = [("B", "A"), ("C", "A"), ("C", "B")]
+ARMS = ("A", "B", "C", "D")
+ARM_LABEL = {"A": "A  baseline", "B": "B  KB @ draft", "C": "C  KB @ draft+improve",
+             "D": "D  analogy @ improve"}
+ARM_COLOR = {"A": "#555555", "B": "#1f77b4", "C": "#d62728", "D": "#2ca02c"}
+# B/C are the retired cold-start retrieval arms (historical runs); D is the improve-stage
+# analogy agent. D is only ever launched against A, so it gets no B/C contrasts.
+CONTRASTS = [("B", "A"), ("C", "A"), ("C", "B"), ("D", "A")]
 
 
 def _t95(df: int) -> float:
@@ -91,7 +95,7 @@ def _footer(fig, task: str, n_excluded: int, extra: str = "") -> None:
 def plot_paired(task: str, draws: list[dict], k: int, lower_better: bool,
                 out: Path, n_excluded: int, legacy: bool = False) -> Path | None:
     """One line per draw across arms. Crossing lines = the effect changes sign between draws."""
-    arms = [a for a in ("A", "B", "C") if any(a in d["scores"] for d in draws)]
+    arms = [a for a in ARMS if any(a in d["scores"] for d in draws)]
     if len(arms) < 2 or not draws:
         return None
 
@@ -266,13 +270,13 @@ def plot_process(task: str, draws: list[dict], out: Path, n_excluded: int) -> tu
 def plot_vs_k(task: str, draws: list[dict], lower_better: bool,
               out: Path, n_excluded: int) -> Path | None:
     """Score against ensemble size. Flat lines mean fusion is doing nothing on this task."""
-    usable = [d for d in draws if any(d["by_k"].get(a) for a in ("A", "B", "C"))]
+    usable = [d for d in draws if any(d["by_k"].get(a) for a in ARMS)]
     if not usable:
         return None
     fig, axes = plt.subplots(1, len(usable), figsize=(3.5 * len(usable) + 0.6, 3.4),
                              sharey=True, squeeze=False)
     for ax, d in zip(axes[0], usable):
-        for arm in ("A", "B", "C"):
+        for arm in ARMS:
             series = d["by_k"].get(arm)
             if not series:
                 continue

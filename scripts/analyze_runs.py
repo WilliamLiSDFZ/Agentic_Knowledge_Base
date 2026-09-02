@@ -173,7 +173,7 @@ TASKS: dict[str, dict[str, Any]] = {
 
 # Some early runs encoded the arm in exp_id itself ("openadmet-kb"), which would otherwise split
 # one competition into two incomparable tasks. The arm is recovered from the config regardless.
-EXP_ID_ARM_SUFFIXES = ("-kbimp", "-kbfix", "-kb", "-base")
+EXP_ID_ARM_SUFFIXES = ("-kbimp", "-kbfix", "-kb", "-ana", "-base")
 
 
 # -- log patterns ----------------------------------------------------------------------
@@ -359,14 +359,22 @@ def parse_config(run: Run, cfg_path: Path) -> None:
     run.model = str(_dig(cfg, "agent", "code", "model") or "")
 
     cs = cfg.get("coldstart") or {}
+    # Arms B/C are the retired cold-start retrieval (read from historical runs only); D is the
+    # improve-stage analogy agent (`analogy.enabled`, 2026-09). A run cannot be both: the D
+    # code has no methodology_kb_path key at all, so a config carrying one is an old run.
     kb_on = bool(cfg.get("methodology_kb_path")) and run.retrieval == "lazy"
-    run.arm = "A" if not kb_on else ("C" if bool(cs.get("inject_into_improve")) else "B")
+    analogy_on = bool((cfg.get("analogy") or {}).get("enabled"))
+    if analogy_on:
+        run.arm = "D"
+        run.retrieval = "analogy"
+    else:
+        run.arm = "A" if not kb_on else ("C" if bool(cs.get("inject_into_improve")) else "B")
 
     # `coldstart.methodology_text` was introduced by the 2026-08-08 fix that stopped retrieved
     # techniques being concatenated onto the pretrained-model guidance (which also defeated the
     # "None model" sentinel, so the arms differed by a whole extra prompt section). Its presence
     # is a structural marker of the code version — more reliable than comparing dates.
-    run.wiring = "fixed" if "methodology_text" in cs else "legacy"
+    run.wiring = "fixed" if ("methodology_text" in cs or analogy_on or "analogy" in cfg) else "legacy"
 
 
 def parse_journal(run: Run, jr: Path) -> None:
@@ -595,7 +603,7 @@ def build_groups(runs: list[Run]) -> list[Group]:
             # same number twice as if it were two independent observations, shrinking the
             # variance estimate and inventing significance.
             pool = [g.arms["A"] for g in tg if "A" in g.arms and g.arms["A"].verdict == "ok"]
-            needy = [g for g in tg if "A" not in g.arms and ({"B", "C"} & set(g.arms))]
+            needy = [g for g in tg if "A" not in g.arms and ({"B", "C", "D"} & set(g.arms))]
 
             # Prefer the donor whose seed matches, purely to preserve the original pairing
             # intent; seed carries no statistical meaning here (see draw_gap_hours). Anything

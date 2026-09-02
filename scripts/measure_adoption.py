@@ -30,10 +30,15 @@ This script measures how often that happens and what it is worth.
     python scripts/measure_adoption.py --runs ~/nautilus/results \\
         --inventory results/8.19/run_inventory.csv --out results/8.19
 
-Needs `logs/injected_knowledge.md` in each run (written by MLEvolve's knowledge.py as of
+Needs `logs/injected_knowledge.md` in each B/C run (written by MLEvolve's knowledge.py as of
 2026-08-19). Older runs predate it; they are reported as unmeasurable rather than skipped
 silently, because a run missing from an adoption table looks identical to a run with zero
 adoption.
+
+Arm D (the improve-stage analogy agent, 2026-09) is different: nothing is injected run-wide.
+Each improve node carries its OWN suggestions in journal.json (`analogy_report`, rendered as
+one `### ` block per mechanism), so for D the techniques are read per node and only nodes
+that received a report are judged — a draft or debug node in a D run had nothing to adopt.
 """
 from __future__ import annotations
 
@@ -226,11 +231,14 @@ def main() -> int:
     # -- gather what is measurable ------------------------------------------------------
     measurable, missing = [], []
     for name, row in sorted(inv.items()):
-        if row["arm"] not in ("B", "C"):
+        if row["arm"] not in ("B", "C", "D"):
             continue                      # arm A receives no knowledge; nothing to adopt
         if args.only_usable and row["verdict"] != "ok":
             continue
-        kfile = root / name / "logs" / "injected_knowledge.md"
+        if row["arm"] == "D":
+            kfile = root / name / "logs" / "journal.json"       # per-node reports live here
+        else:
+            kfile = root / name / "logs" / "injected_knowledge.md"
         (measurable if kfile.exists() else missing).append((name, row, kfile))
 
     print(f"KB-arm runs rated usable : {len(measurable) + len(missing)}")
@@ -248,9 +256,11 @@ def main() -> int:
         return 1
 
     # -- count the work ------------------------------------------------------------------
+    # Each plan entry is (run name, inventory row, items) with items = [(node index, node,
+    # techniques to judge it against)]. B/C: one technique set for every node of the run.
+    # D: each improve node's own analogy_report; nodes without one are not judged.
     plan = []
     for name, row, kfile in measurable:
-        techs = split_techniques(kfile.read_text(errors="replace"))
         jr = root / name / "logs" / "journal.json"
         nodes = []
         if jr.exists():
@@ -261,10 +271,19 @@ def main() -> int:
                 pass
         if MAX_NODES_PER_RUN:
             nodes = nodes[:MAX_NODES_PER_RUN]
-        plan.append((name, row, techs, nodes))
-        print(f"  {name:<40} {len(techs):>3} techniques x {len(nodes):>3} nodes "
-              f"= {len(nodes):>4} judge calls")
-    total = sum(len(n) for _, _, _, n in plan)
+        if row["arm"] == "D":
+            items = [(i, n, split_techniques(n.get("analogy_report") or "")) for i, n in enumerate(nodes)]
+            items = [(i, n, t) for i, n, t in items if t]
+            n_tech = sum(len(t) for _, _, t in items)
+            print(f"  {name:<40} {n_tech:>3} mechanisms over {len(items):>3} improve nodes "
+                  f"(of {len(nodes)}) = {len(items):>4} judge calls")
+        else:
+            techs = split_techniques(kfile.read_text(errors="replace"))
+            items = [(i, n, techs) for i, n in enumerate(nodes)]
+            print(f"  {name:<40} {len(techs):>3} techniques x {len(nodes):>3} nodes "
+                  f"= {len(nodes):>4} judge calls")
+        plan.append((name, row, items))
+    total = sum(len(items) for _, _, items in plan)
     print(f"\ntotal judge calls: {total}  (one per node; all techniques judged together)")
     if args.dry_run:
         return 0
@@ -301,13 +320,13 @@ def main() -> int:
         if ckpt.exists():
             ckpt.unlink()
 
-    todo = sum(1 for _, _, _, nodes in plan for i in range(len(nodes)) if True) - len(done_keys)
+    todo = sum(len(items) for _, _, items in plan) - len(done_keys)
     print(f"{todo} node(s) to judge\n")
 
     done, errors = 0, 0
     with ckpt.open("a", encoding="utf-8") as fh:
-        for name, row, techs, nodes in plan:
-            for i, n in enumerate(nodes):
+        for name, row, items in plan:
+            for i, n, techs in items:
                 if (name, i) in done_keys:
                     continue
                 m = n.get("metric") or {}
@@ -354,7 +373,7 @@ def main() -> int:
 
     print(f"\n{'run':<40}{'arm':>4}{'nodes':>7}{'adopted':>9}{'full':>6}{'proxy':>7}")
     print("-" * 76)
-    for name, row, _, _ in plan:
+    for name, row, _ in plan:
         rs = [r for r in results if r.run == name]
         if not rs:
             continue

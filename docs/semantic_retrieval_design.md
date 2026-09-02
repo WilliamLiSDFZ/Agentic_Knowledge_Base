@@ -1,3 +1,5 @@
+> **Superseded (2026-09-02).** The cold-start task-semantic retrieval this document designs (abstract index, mean-centred bge-m3, distilled query, on-demand extraction) was removed from both repos; see `analogy_bm25_agent_design.md`. Kept as the record of the design and its post-mortems (§17–18) that produced every arm-B/C result in `results/`.
+
 # Design: Technique-level semantic retrieval for methodology cold-start
 
 **Status:** proposal · **Scope:** replaces the "LLM picks ≤5 categories by name" step in

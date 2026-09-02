@@ -4,6 +4,74 @@ A running record of notable changes to this project. Newest entries on top.
 
 ---
 
+## 2026-09-02 — Retrieval moves to the improve stage and becomes an analogy agent (arm D)
+
+Implements `docs/analogy_bm25_agent_design.md` (from Peijia's 8/31–9/1 direction, the
+structural-analogy memo and arXiv 2605.11258). Old retrieval **deleted**, not switched off — the
+change is on a branch, and `git log` keeps the code that produced every B/C result.
+
+### What changed, in one paragraph
+
+Retrieval used to happen once, at cold start, with the competition description as the query;
+arm C then re-injected that same static block at every improve node (same digest, 9 times, in
+`essay-kbimp-s47`). Now nothing is retrieved at draft time. At every improve node an agent in
+MLEvolve (`engine/analogy/`) reads the node's own search state — plan, code summary, execution
+summary, metric, output tail, sibling attempts, branch trajectory — diagnoses ≤3 bottlenecks of
+the *current methodology*, rewrites each as 3–6-term queries in the vocabulary other subfields
+use for the same relational structure, searches this repo's paper corpus with BM25, reads
+abstracts, and submits ≤3 mechanisms mapped back as concrete interventions. **The LLM does the
+analogy; BM25 does the lookup.** The corpus is `output/paper_corpus/records.jsonl` — title, tldr
+and abstract, no preprocessing, no embeddings (`scripts/6_build_paper_corpus.py`, seconds).
+
+### Why the probe number matters
+
+`scripts/probe_analogy.py` runs the memo's ten Kaggle cases as two query styles. On the local
+12.8k corpus, short mechanism-term queries hit the expected mechanism family far more often than
+the memo's structural sentences (7/10 vs 3/10 on a strict manual read; 9/10 vs 7/10 by keyword).
+That gap is why the agent prompt insists on short queries in *other* subfields' words and on
+re-wording rather than adding words. The persistent miss is test-time augmentation (Jigsaw):
+abstracts rarely name it, so the agent must reach it via "consistency regularization".
+
+### Hard rules in the code
+
+| rule | why |
+|---|---|
+| a mechanism may cite only paper ids returned by `search_papers` in that episode; others are dropped at validation | no hallucinated citations — the report is only ever as real as the corpus |
+| every failure path returns an empty report; `_inject_analogy` imports inside its try | this project's rule that a diagnostic must not be able to end a 12 h run |
+| report ≤ `analogy.report_char_budget` (8k chars), whole mechanisms only | the improve prompt is already long; the old C arm injected 48k |
+| `SearchNode.analogy_report` is a declared dataclass field | so `journal.json` carries what each node saw — `measure_adoption.py` reads it per node |
+
+### What no longer exists, and what that does to the experiments
+
+The paired-arm machinery built around *identical knowledge across arms* — `query_cache/`,
+`filter_cache/`, `prepare-task.sh`'s PROBE/WARM/VERIFY phases, `verify_filter_cache.py`,
+`dump_injected.py`, the "same digest in B and C" check — has no counterpart. The agent's input is
+the run's own trajectory, different in every run by construction, so there is nothing to share
+and nothing to race on. The comparison is A vs D, paired by draw as before.
+
+Removed: MLEvolve `engine/coldstart/methodology_agent.py`, `ondemand.py`, the methodology branch
+of `knowledge.py`, draft-time injection, `coldstart.inject_into_improve`, 23 top-level retrieval
+keys, `utils/verify_kb_injection.py`, `verify_filter_cache.py`, `dump_injected.py`; this repo's
+`6_build_abstract_index.py`, `build_retrieval_index.py`, `probe_retrieval.py` and the
+`--build-index` step. Added: MLEvolve `engine/analogy/{corpus,agent}.py`,
+`utils/verify_analogy_injection.py` (offline, ~2 s), `utils/replay_analogy.py` (re-run the agent
+on a node of an existing run), `k8s/job-essay-ad-s49.yaml`; this repo's
+`6_build_paper_corpus.py`, `probe_analogy.py`; `analyze_runs.py` derives arm D from
+`analogy.enabled` and strips `-ana`; `plot_effects.py` has a D–A contrast.
+
+### What to look at first — adoption and family hit, not score
+
+Same argument as 2026-08-26: at n=1 draw the score says nothing, but `logs/analogy/index.jsonl`
+says whether reports were produced, `logs/analogy/<parent>_<n>.md` says whether the diagnosed
+bottleneck is the one the execution summary shows and whether the queries left the competition's
+own vocabulary, and `measure_adoption.py` says whether the improve node implemented what it was
+handed. Known limitation to keep in mind when reading traces: on gpt-5.6 through
+`/v1/chat/completions`, function tools require `reasoning_effort=none`, so the agent's diagnosis
+is written as visible text rather than reasoned privately (same constraint as every other
+tool call in MLEvolve).
+
+---
+
 ## 2026-08-31 — Two ways a draw could stop being a paired comparison
 
 Both found while trying to launch tf2qa. Neither changes what the KB contains; both change

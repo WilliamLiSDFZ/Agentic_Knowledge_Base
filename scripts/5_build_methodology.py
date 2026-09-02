@@ -7,7 +7,6 @@ Runs a whole venue/year in two concurrent stages, reusing the existing plugin fu
   Stage 2 (plugin A2): cross-paper insight.md synthesis per category, parallel over
                        categories (--category-workers). Per-agent git is disabled;
                        one git commit is made at the end (avoids concurrent-commit races).
-  Then optionally the retrieval index (--build-index).
 
 Resumable: Stage 1 skips papers whose *_methodology.md exists; Stage 2 skips categories
 whose insight.md exists. Safe to re-run after a crash / flaky network.
@@ -15,13 +14,12 @@ whose insight.md exists. Safe to re-run after a crash / flaky network.
 Usage:
     python scripts/5_build_methodology.py --venue naacl --year 2024
     python scripts/5_build_methodology.py --venue naacl --year 2024 \
-        --paper-workers 8 --category-workers 3 --build-index
+        --paper-workers 8 --category-workers 3
 
 Note: plugin A currently only handles aclanthology.org PDFs, so use acl / naacl.
 """
 import argparse
 import re
-import subprocess
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -170,7 +168,6 @@ def main():
     ap.add_argument("--category-workers", type=int, default=3, help="Stage A2 concurrency (per-category)")
     ap.add_argument("--skip-a", action="store_true", help="skip Stage A (per-paper extraction)")
     ap.add_argument("--skip-a2", action="store_true", help="skip Stage A2 (cross-paper synthesis)")
-    ap.add_argument("--build-index", action="store_true", help="build the retrieval index at the end")
     ap.add_argument("--allow-abstract-fallback", action="store_true",
                     help="when a paper has no downloadable PDF, extract from its abstract (lower quality)")
     args = ap.parse_args()
@@ -190,11 +187,6 @@ def main():
     if not args.skip_a2:
         stage_a2(args.venue, args.year, categories, args.category_workers)
         commit_paperinsight()
-
-    if args.build_index:
-        print("[index] building retrieval index over methodology_kb/paperinsight", flush=True)
-        subprocess.run([sys.executable, str(REPO_ROOT / "scripts" / "build_retrieval_index.py"),
-                        "--kb", "methodology_kb/paperinsight"], check=False)
 
     print("All done.")
 

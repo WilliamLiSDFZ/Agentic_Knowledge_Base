@@ -1,3 +1,5 @@
+> **Superseded (2026-09-02).** The agent paper filter (Parts A–C) was removed together with the cold-start retrieval it filtered; see `analogy_bm25_agent_design.md`. Kept because Part D (task choice) and the adoption argument in §1 still apply.
+
 # Design: agent-based paper filtering, and the task change
 
 Status: **Parts A, B and C implemented 2026-08-26.** Part D (task change) not started.
