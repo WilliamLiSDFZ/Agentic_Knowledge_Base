@@ -22,3 +22,8 @@ requests
 
 # analysis / figures (scripts/analyze_runs.py --charts)
 matplotlib
+
+# scripts/probe_analogy.py imports MLEvolve's engine/analogy/corpus.py (BM25 + Porter
+# stemming); without these it fails on rank_bm25 and silently degrades without nltk.
+rank-bm25
+nltk
