@@ -4,6 +4,21 @@ A running record of notable changes to this project. Newest entries on top.
 
 ---
 
+## 2026-09-06 — plot_analogy.py: figures for arm D only
+
+**Symptom.** `plot_effects.py` answers "did D beat A" and at n<=3 draws its interval always
+contains zero; the questions that decide the next change to the analogy agent (did it fire, is
+the retrieval cross-domain, does following a suggestion hurt) had no figure, only
+`inspect_analogy.py`'s text dump for one run.
+
+**Change.** `scripts/plot_analogy.py` reads `run_inventory.csv` and re-runs
+`analyze_runs.build_groups` on it, so it pairs D with A exactly as the main analysis does
+(borrowed baselines are hollow and excluded from the mean). Per task it writes
+`<task>_analogy_{funnel,transfer,retrieval,cost,score}.png` under `charts/analogy/` and one
+`analogy_summary.csv` row per D run. Adoption uses `measure_adoption.py`'s `adoption.csv` when
+present, else the word-overlap proxy, and the transfer figure says which. Venues are folded into
+five families (NLP/ML/Vision/AI/Other); competition vocabulary per task is `DOMAIN_WORDS`.
+
 ## 2026-09-02 — Retrieval moves to the improve stage and becomes an analogy agent (arm D)
 
 Implements `docs/analogy_bm25_agent_design.md` (from Peijia's 8/31–9/1 direction, the
