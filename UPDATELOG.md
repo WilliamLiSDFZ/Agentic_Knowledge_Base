@@ -4,6 +4,24 @@ A running record of notable changes to this project. Newest entries on top.
 
 ---
 
+## 2026-09-06 — arm E: the analogy agent on the task, injected into the first draft
+
+**Symptom.** On jubias and tf2qa the D arm's agent almost never ran: 12 h produced 7–12 nodes,
+nearly all buggy, so there was no improve node to hook (funnel figures in results/9.5). The place
+knowledge could matter most — the first design — got none.
+
+**Change.** MLEvolve: `analogy.draft` (config + dataclass) makes `draft_agent` call
+`engine.analogy.agent.retrieve_for_draft` once per run, for the first draft only; same corpus,
+tools, validation and budget as D, `mode="draft"` swaps the prompt (structural properties of the
+TASK — metric/label/evaluation relations — instead of a node's bottleneck; interventions are
+design commitments for a simple first solution) and the report wording. `analogy.improve=False`
+turns the improve-stage injection off so E is a single-factor comparison against A. Trace:
+`logs/analogy/draft_001.md`; the draft node carries `analogy_report`. KB repo: arm E/F derivation
+(`-anad` suffix), E/F in plot_effects, `measure_adoption` judges any node with a report,
+`plot_analogy` adds `<task>_analogy_branches.png` and per-arm score figures, `inspect_analogy`
+lists the injected draft. Jobs: `job-jigsaw-unintended-ae-s{48,49,50}.yaml`, `job-essay-ae-s50.yaml`.
+Design and implementation record: `docs/analogy_draft_injection_design.md`.
+
 ## 2026-09-06 — plot_analogy.py: figures for arm D only
 
 **Symptom.** `plot_effects.py` answers "did D beat A" and at n<=3 draws its interval always

@@ -39,6 +39,8 @@ Arm D (the improve-stage analogy agent, 2026-09) is different: nothing is inject
 Each improve node carries its OWN suggestions in journal.json (`analogy_report`, rendered as
 one `### ` block per mechanism), so for D the techniques are read per node and only nodes
 that received a report are judged — a draft or debug node in a D run had nothing to adopt.
+Arm E (2026-09-06) injects one report into the FIRST draft only, so exactly that draft node is
+judged; arm F is both. The rule is the same in all three: judge a node against what it saw.
 """
 from __future__ import annotations
 
@@ -231,11 +233,11 @@ def main() -> int:
     # -- gather what is measurable ------------------------------------------------------
     measurable, missing = [], []
     for name, row in sorted(inv.items()):
-        if row["arm"] not in ("B", "C", "D"):
+        if row["arm"] not in ("B", "C", "D", "E", "F"):
             continue                      # arm A receives no knowledge; nothing to adopt
         if args.only_usable and row["verdict"] != "ok":
             continue
-        if row["arm"] == "D":
+        if row["arm"] in ("D", "E", "F"):
             kfile = root / name / "logs" / "journal.json"       # per-node reports live here
         else:
             kfile = root / name / "logs" / "injected_knowledge.md"
@@ -271,11 +273,13 @@ def main() -> int:
                 pass
         if MAX_NODES_PER_RUN:
             nodes = nodes[:MAX_NODES_PER_RUN]
-        if row["arm"] == "D":
+        if row["arm"] in ("D", "E", "F"):
+            # D: each improve node's own report; E: the first draft's report; F: both. Whatever
+            # stage a node is, it is judged only against the report it actually received.
             items = [(i, n, split_techniques(n.get("analogy_report") or "")) for i, n in enumerate(nodes)]
             items = [(i, n, t) for i, n, t in items if t]
             n_tech = sum(len(t) for _, _, t in items)
-            print(f"  {name:<40} {n_tech:>3} mechanisms over {len(items):>3} improve nodes "
+            print(f"  {name:<40} {n_tech:>3} mechanisms over {len(items):>3} node(s) with a report "
                   f"(of {len(nodes)}) = {len(items):>4} judge calls")
         else:
             techs = split_techniques(kfile.read_text(errors="replace"))

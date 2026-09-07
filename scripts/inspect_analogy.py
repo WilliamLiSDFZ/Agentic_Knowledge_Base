@@ -88,7 +88,8 @@ def main() -> int:
             break
     sign = -1.0 if maximize is False else 1.0
 
-    improve = [n for n in nodes if n.get("stage") == "improve"]
+    # D: improve nodes; E: the first draft carries the report (arm E, 2026-09-06); F: both.
+    improve = [n for n in nodes if n.get("stage") == "improve" or (n.get("stage") == "draft" and n.get("analogy_report"))]
     with_report = [n for n in improve if n.get("analogy_report")]
     if args.show is not None:
         for n in with_report:
@@ -100,13 +101,13 @@ def main() -> int:
 
     print(f"run: {run.name}")
     stages = collections.Counter(n.get("stage") for n in nodes if n.get("stage") != "root")
-    print(f"nodes: {dict(stages)}; improve nodes with a report: {len(with_report)}/{len(improve)}"
+    print(f"nodes: {dict(stages)}; nodes with a report (improve, or the injected first draft): {len(with_report)}/{len(improve)}"
           + (f"; agent invocations in index.jsonl: {len(index)}" if index else
              "; (no logs/analogy/index.jsonl — queries/turns unavailable; re-fetch with the updated fetch-run.sh)"))
 
     # ------------------------------------------------------------ per node
-    print(f"\n{'step':>4} {'parent':>7} {'child':>7} {'delta':>8}  {'bug':<3} {'#m':>2}  mentioned  mechanisms")
-    print("-" * 110)
+    print(f"\n{'step':>4} {'stage':<7} {'parent':>7} {'child':>7} {'delta':>8}  {'bug':<3} {'#m':>2}  mentioned  mechanisms")
+    print("-" * 118)
     cites, venues, titles, families = collections.Counter(), collections.Counter(), collections.Counter(), collections.Counter()
     deltas_adopted, deltas_not, buggy_adopted, buggy_not = [], [], 0, 0
     for n in improve:
@@ -132,7 +133,7 @@ def main() -> int:
                 (deltas_not.append(delta) if delta is not None else None)
                 buggy_not += bool(n.get("is_buggy"))
         fmt = lambda v: f"{v:.4f}" if isinstance(v, (int, float)) else "   -  "
-        print(f"{n.get('step', '?'):>4} {fmt(pm):>7} {fmt(cm):>7} {('%+.4f' % delta) if delta is not None else '    -   ':>8}  "
+        print(f"{n.get('step', '?'):>4} {str(n.get('stage'))[:7]:<7} {fmt(pm):>7} {fmt(cm):>7} {('%+.4f' % delta) if delta is not None else '    -   ':>8}  "
               f"{'Y' if n.get('is_buggy') else '-':<3} {len(mech):>2}  {len(mentioned):>3}/{len(mech):<3}    "
               + ("; ".join(t[:48] for t in mech) if mech else "(no report)"))
 

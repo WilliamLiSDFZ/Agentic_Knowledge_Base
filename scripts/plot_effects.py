@@ -36,13 +36,13 @@ _T95 = {1: 12.706, 2: 4.303, 3: 3.182, 4: 2.776, 5: 2.571, 6: 2.447, 7: 2.365, 8
         9: 2.262, 10: 2.228, 11: 2.201, 12: 2.179, 13: 2.160, 14: 2.145, 15: 2.131,
         16: 2.120, 17: 2.110, 18: 2.101, 19: 2.093, 20: 2.086, 25: 2.060, 30: 2.042}
 
-ARMS = ("A", "B", "C", "D")
+ARMS = ("A", "B", "C", "D", "E", "F")
 ARM_LABEL = {"A": "A  baseline", "B": "B  KB @ draft", "C": "C  KB @ draft+improve",
-             "D": "D  analogy @ improve"}
-ARM_COLOR = {"A": "#555555", "B": "#1f77b4", "C": "#d62728", "D": "#2ca02c"}
-# B/C are the retired cold-start retrieval arms (historical runs); D is the improve-stage
-# analogy agent. D is only ever launched against A, so it gets no B/C contrasts.
-CONTRASTS = [("B", "A"), ("C", "A"), ("C", "B"), ("D", "A")]
+             "D": "D  analogy @ improve", "E": "E  analogy @ first draft", "F": "F  analogy @ draft+improve"}
+ARM_COLOR = {"A": "#555555", "B": "#1f77b4", "C": "#d62728", "D": "#2ca02c", "E": "#9467bd", "F": "#8c564b"}
+# B/C are the retired cold-start retrieval arms (historical runs); D/E/F are the analogy agent
+# at improve / first draft / both. Each is only ever launched against A, so no cross contrasts.
+CONTRASTS = [("B", "A"), ("C", "A"), ("C", "B"), ("D", "A"), ("E", "A"), ("F", "A")]
 
 
 def _t95(df: int) -> float:

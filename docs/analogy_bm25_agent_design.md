@@ -444,6 +444,7 @@ score 要 8+ draws。
 
 1. **触发范围**：每个 improve 节点都跑（我的建议，footprint 最大、最好测），还是只在 plateau（`success_patience>=2 or total_patience>=5`）时跑以省成本？
 2. **draft 阶段**：我按"完全不注入"理解（备忘录 §1：任务开始时没有具体结构问题）。是否同意 draft 只保留 pretrained-model guidance？
+   → 2026-09-06 修订：jubias / tf2qa 上 D 臂的 agent 几乎没有机会开火（12 h 内没有跑通的父节点），改为在首个 draft 前对 **task 的结构** 跑一次同一个 agent（arm E），见 `analogy_draft_injection_design.md`。
 3. **v1 只读 abstract**，不下载 PDF。可以吗？`read_paper` 放 v1.1。
 4. **删除范围**：§5 的清单是"两个 repo 都删干净"，包括 KB 侧的 `build_retrieval_index.py`、`probe_retrieval.py` 和 MLEvolve 的三个 `verify_*/dump_*` 工具、`prepare-task.sh` 的两个阶段。是否照单全删，还是只删 MLEvolve 侧、KB 侧脚本先留？
 5. **模型槽位**：agent 用 `agent.code`（gpt-5.6-terra）。同意吗？

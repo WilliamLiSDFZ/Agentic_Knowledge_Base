@@ -1,9 +1,10 @@
-"""Figures for the improve-stage analogy agent (arm D) — and only for it.
+"""Figures for the analogy-agent arms (D: at improve nodes, E: on the task before the first
+draft, F: both) — and only for them.
 
 analyze_runs.py / plot_effects.py compare whole runs across all arms. This script looks INSIDE the
-D runs, because the design doc (docs/analogy_bm25_agent_design.md §7) says the score is the last
-thing to look at: with n<=3 draws the D-A interval always contains zero, and the questions that
-decide the next code change are process questions the score cannot answer.
+analogy runs, because the design doc (docs/analogy_bm25_agent_design.md §7) says the score is the
+last thing to look at: with n<=3 draws the D-A interval always contains zero, and the questions
+that decide the next code change are process questions the score cannot answer.
 
     <task>_analogy_funnel.png     did the agent fire? nodes -> improve nodes -> reports ->
                                   mechanisms -> valid children, one panel per valid D run
@@ -16,7 +17,12 @@ decide the next code change are process questions the score cannot answer.
     <task>_analogy_cost.png       what did each invocation cost — turns, tokens, seconds
     <task>_analogy_score.png      D-A at matched K per draw, paired (filled) vs borrowed (hollow),
                                   mean and 95% t interval — the same rule as plot_effects.py
-    analogy_summary.csv           one row per D run with every number the figures draw
+                                  (E-A / F-A go to <task>_analogy_score_E.png etc.)
+    <task>_analogy_branches.png   arm E only: best metric of the branch grown from the injected
+                                  first draft against the run's other branches and the paired A
+                                  run's branches — a draft has no parent, so "transfer" for E is
+                                  a branch question, not a node question
+    analogy_summary.csv           one row per D/E/F run with every number the figures draw
 
 Only runs analyze_runs.py judged `ok` are drawn (invalid ones — crashed, disk-starved, killed —
 are counted in each figure's footer); the CSV lists every D run with its verdict.
@@ -154,6 +160,7 @@ class NodeRec:
     mechanisms: list[str] = field(default_factory=list)
     cites: list[str] = field(default_factory=list)
     adopted: bool | None = None # None = no report / not judged
+    branch_id: int | None = None
 
 
 @dataclass
@@ -169,7 +176,26 @@ class RunData:
 
     @property
     def reported(self) -> list[NodeRec]:
-        return [n for n in self.improve if n.mechanisms]
+        """Nodes whose prompt carried a report: improve nodes in D, the first draft in E, both in F."""
+        return [n for n in self.nodes if n.mechanisms]
+
+    @property
+    def draft_reported(self) -> list[NodeRec]:
+        return [n for n in self.nodes if n.stage == "draft" and n.mechanisms]
+
+    def branch_best(self) -> dict:
+        """branch_id -> (best valid metric, n nodes, n valid, has injected draft)."""
+        out: dict = {}
+        for n in self.nodes:
+            b = out.setdefault(n.branch_id, {"best": None, "n": 0, "valid": 0, "injected": False})
+            b["n"] += 1
+            if n.stage == "draft" and n.mechanisms:
+                b["injected"] = True
+            if not n.buggy and isinstance(n.metric, (int, float)):
+                b["valid"] += 1
+                if b["best"] is None or (n.metric > b["best"] if self.maximize is not False else n.metric < b["best"]):
+                    b["best"] = n.metric
+        return out
 
 
 def load_run(run: ar.Run, root: Path) -> RunData | None:
@@ -199,7 +225,8 @@ def load_run(run: ar.Run, root: Path) -> RunData | None:
         rep = n.get("analogy_report") or ""
         recs.append(NodeRec(idx=i, step=int(n.get("step", i)), stage=str(n.get("stage")),
                             metric=cm, parent_metric=pm, buggy=bool(n.get("is_buggy")), delta=delta,
-                            mechanisms=HEADING.findall(rep), cites=CITE.findall(rep)))
+                            mechanisms=HEADING.findall(rep), cites=CITE.findall(rep),
+                            branch_id=n.get("branch_id")))
         if rep:
             plan_words = set(re.findall(r"[a-z]{5,}", (n.get("plan") or "").lower()))
             recs[-1].adopted = any(len(title_words(t) & plan_words) >= 2 for t in recs[-1].mechanisms)
@@ -266,7 +293,7 @@ def short(name: str) -> str:
 
 
 def plot_funnel(task: str, rds: list[RunData], out: Path, excluded: int = 0) -> Path:
-    stages = ["nodes", "improve", "with report", "mechanisms", "valid child"]
+    stages = ["nodes", "improve", "with report\n(draft or improve)", "mechanisms", "valid child"]
     rows = []
     for rd in rds:
         rep = rd.reported
@@ -290,8 +317,10 @@ def plot_funnel(task: str, rds: list[RunData], out: Path, excluded: int = 0) -> 
         ax.set_xlim(0, xmax * 1.22)
         ax.set_title(short(rd.run.name), fontsize=9)
         _style(ax)
-    fig.suptitle(f"{tname(task)} · arm D: how often the analogy agent fired, and what came of it", fontsize=10)
-    _footer(fig, "'with report' = improve nodes whose parent got a report; 'valid child' = those nodes that ran without a bug; same x scale on every panel", excluded)
+    arms = "/".join(sorted({rd.run.arm for rd in rds}))
+    fig.suptitle(f"{tname(task)} · arm {arms}: how often the analogy agent fired, and what came of it", fontsize=10)
+    _footer(fig, "'with report' = nodes whose prompt carried a report (D: improve nodes; E: the first draft); "
+                 "'valid child' = those nodes that ran without a bug; same x scale on every panel", excluded)
     fig.tight_layout(rect=(0, 0.04, 1, 0.94))
     p = out / f"{task}_analogy_funnel.png"
     fig.savefig(p, dpi=150)
@@ -309,7 +338,7 @@ def plot_transfer(task: str, rds: list[RunData], controls: dict[str, RunData | N
             a_vals += [n.delta for n in ctl.improve if n.delta is not None]
             a_bug += sum(1 for n in ctl.improve if n.buggy)
     cols.append(("A control\nimprove nodes", a_vals, a_bug, C_A))
-    for flag, label, color in ((False, "D not adopted", C_NOT), (True, "D adopted", C_ADOPT)):
+    for flag, label, color in ((False, "report, not adopted", C_NOT), (True, "report, adopted", C_ADOPT)):
         vals, bug = [], 0
         for rd in rds:
             for n in rd.reported:
@@ -453,15 +482,17 @@ def plot_cost(task: str, rds: list[RunData], out: Path, excluded: int = 0) -> Pa
     return p
 
 
-def plot_score(task: str, draws: list[dict], k: int, lower_better: bool, out: Path) -> tuple[Path | None, dict]:
+def plot_score(task: str, draws: list[dict], k: int, lower_better: bool, out: Path,
+               arm: str = "D") -> tuple[Path | None, dict]:
+    C_X = ARM_COLOR.get(arm, C_D)
     vals, labels, hollow = [], [], []
     for d in draws:
-        a, b = d["scores"].get("D"), d["scores"].get("A")
+        a, b = d["scores"].get(arm), d["scores"].get("A")
         if a is None or b is None:
             continue
         vals.append((b - a) if lower_better else (a - b))
         labels.append(d["label"])
-        hollow.append("A" in d["borrowed"] or "D" in d["borrowed"])
+        hollow.append("A" in d["borrowed"] or arm in d["borrowed"])
     if not vals:
         return None, {}
     paired = [v for v, h in zip(vals, hollow) if not h]
@@ -469,23 +500,69 @@ def plot_score(task: str, draws: list[dict], k: int, lower_better: bool, out: Pa
     fig, ax = plt.subplots(figsize=(6.4, 0.45 * len(vals) + 2.0))
     y = list(range(len(vals)))[::-1]
     for yy, v, h, l in zip(y, vals, hollow, labels):
-        ax.scatter([v], [yy], s=70, facecolor="white" if h else C_D, edgecolor=C_D, linewidth=2, zorder=3)
-        ax.hlines(yy, 0, v, color=C_D, linewidth=1.2, alpha=0.6, zorder=2)
+        ax.scatter([v], [yy], s=70, facecolor="white" if h else C_X, edgecolor=C_X, linewidth=2, zorder=3)
+        ax.hlines(yy, 0, v, color=C_X, linewidth=1.2, alpha=0.6, zorder=2)
     ax.axvline(0, color=C_MUTED, linewidth=1)
     if n >= 2 and hi == hi:
-        ax.axvspan(lo, hi, color=C_D, alpha=0.10, zorder=0)
-        ax.axvline(m, color=C_D, linewidth=1.5, linestyle="--")
+        ax.axvspan(lo, hi, color=C_X, alpha=0.10, zorder=0)
+        ax.axvline(m, color=C_X, linewidth=1.5, linestyle="--")
     ax.set_yticks(y)
     ax.set_yticklabels([l + ("  (unpaired)" if h else "") for l, h in zip(labels, hollow)], fontsize=8)
-    _style(ax, xlabel=f"D − A at K={k} (sign-corrected, right = analogy better)")
-    ax.set_title(f"{tname(task)} · score effect of arm D · paired n={n}"
+    _style(ax, xlabel=f"{arm} − A at K={k} (sign-corrected, right = analogy better)")
+    ax.set_title(f"{tname(task)} · score effect of arm {arm} · paired n={n}"
                  + (f", mean {m:+.4f} [{lo:+.4f}, {hi:+.4f}]" if n >= 2 else ""), fontsize=9)
     _footer(fig, "hollow = baseline from another launch batch (excluded from the mean/CI) · CI is a 95% t interval")
     fig.tight_layout(rect=(0, 0.06, 1, 1))
-    p = out / f"{task}_analogy_score.png"
+    p = out / (f"{task}_analogy_score.png" if arm == "D" else f"{task}_analogy_score_{arm}.png")
     fig.savefig(p, dpi=150)
     plt.close(fig)
     return p, {"n_paired": n, "mean": m, "lo": lo, "hi": hi, "k": k, "values": dict(zip(labels, vals))}
+
+
+def plot_branches(task: str, rds: list[RunData], controls: dict[str, RunData | None],
+                  out: Path, excluded: int = 0) -> Path | None:
+    """Arm E: the branch grown from the injected first draft vs the run's other branches vs the
+    paired A run's branches. Raw metric on x (same task, same metric); direction in the label."""
+    rows = []   # (label, best, n, valid, kind)  kind: injected | other | control
+    for rd in rds:
+        if not rd.draft_reported:
+            continue
+        for bid, b in sorted(rd.branch_best().items(), key=lambda kv: (kv[0] is None, kv[0])):
+            rows.append((f"{short(rd.run.name)} · branch {bid}", b["best"], b["n"], b["valid"],
+                         "injected" if b["injected"] else "other"))
+        ctl = controls.get(rd.run.name)
+        if ctl:
+            for bid, b in sorted(ctl.branch_best().items(), key=lambda kv: (kv[0] is None, kv[0])):
+                rows.append((f"{short(ctl.run.name)} · branch {bid}", b["best"], b["n"], b["valid"], "control"))
+    if not rows:
+        return None
+    maximize = next((rd.maximize for rd in rds if rd.maximize is not None), None)
+    fig, ax = plt.subplots(figsize=(7.2, 0.32 * len(rows) + 2.0))
+    y = list(range(len(rows)))[::-1]
+    style = {"injected": (C_ADOPT, "injected first draft"), "other": (C_MUTED, "other branch, same run"),
+             "control": (C_A, "paired A run")}
+    seen = set()
+    for yy, (label, best, n, valid, kind) in zip(y, rows):
+        color, name = style[kind]
+        if best is not None:
+            ax.scatter([best], [yy], s=60 if kind == "injected" else 36, color=color, zorder=3,
+                       edgecolor="white", linewidth=1, label=None if kind in seen else name)
+        else:
+            ax.text(0.01, yy, "no valid node", transform=ax.get_yaxis_transform(), fontsize=7, color=color, va="center")
+            if kind not in seen:
+                ax.scatter([], [], s=36, color=color, label=name)
+        seen.add(kind)
+    ax.set_yticks(y)
+    ax.set_yticklabels([f"{l}  ({v}/{n} valid)" for l, _, n, v, _ in rows], fontsize=7)
+    ax.legend(fontsize=7, frameon=False, loc="lower center", bbox_to_anchor=(0.5, 1.0), ncol=3)
+    _style(ax, xlabel="best validation metric in the branch" + (" (higher is better)" if maximize is not False else " (lower is better)"))
+    ax.set_title(f"{tname(task)} · arm E: did the injected first draft grow a better branch?", fontsize=10, pad=24)
+    _footer(fig, "validation metrics of one task only; each branch = one draft and its descendants", excluded)
+    fig.tight_layout(rect=(0, 0.05, 1, 1))
+    p = out / f"{task}_analogy_branches.png"
+    fig.savefig(p, dpi=150)
+    plt.close(fig)
+    return p
 
 
 # ══════════════════════════════════════════════════════════════════════════════════════
@@ -508,12 +585,13 @@ def main() -> int:
     chart_dir.mkdir(parents=True, exist_ok=True)
 
     runs = load_inventory(inv)
-    d_runs = [r for r in runs if r.arm == "D"]
+    ARMS_HERE = ("D", "E", "F")
+    d_runs = [r for r in runs if r.arm in ARMS_HERE]
     if not d_runs:
-        print("no arm D runs in the inventory"); return 1
+        print("no arm D/E/F runs in the inventory"); return 1
     data: dict[str, RunData] = {}
     for r in runs:
-        if r.arm in ("A", "D"):
+        if r.arm in ("A",) + ARMS_HERE:
             rd = load_run(r, root)
             if rd:
                 data[r.name] = rd
@@ -529,9 +607,10 @@ def main() -> int:
     groups = ar.build_groups(runs)
     control: dict[str, RunData | None] = {}
     for g in groups:
-        if "D" in g.arms:
-            a = g.arms.get("A")
-            control[g.arms["D"].name] = data.get(a.name) if a and "A" not in g.borrowed else None
+        for arm in ARMS_HERE:
+            if arm in g.arms:
+                a = g.arms.get("A")
+                control[g.arms[arm].name] = data.get(a.name) if a and "A" not in g.borrowed else None
 
     scores_path = Path(args.scores) if args.scores else root / "scores.csv"
     scores, lower_map = ar.load_scores(scores_path, args.variant) if scores_path.exists() else ({}, {})
@@ -553,25 +632,27 @@ def main() -> int:
             written.append(plot_transfer(task, ok, control, judged > 0, chart_dir, excluded))
             written.append(plot_retrieval(task, ok, stats, chart_dir, excluded))
             written.append(plot_cost(task, ok, chart_dir, excluded))
+            written.append(plot_branches(task, [rd for rd in ok if rd.run.arm in ("E", "F")], control, chart_dir, excluded))
         else:
-            print(f"{task}: no valid D run ({excluded} excluded) — no figures")
+            print(f"{task}: no valid D/E/F run ({excluded} excluded) — no figures")
 
-        # score: D-A draws from the same groups
-        draws = []
-        for g in groups:
-            if g.task != task or "D" not in g.arms:
-                continue
-            by_k = {a: scores.get(r.name, {}) for a, r in g.arms.items() if a in ("A", "D") and scores.get(r.name)}
-            if len(by_k) == 2:
-                draws.append({"label": f"draw{g.draw} · seed {g.arms['D'].seed}", "by_k": by_k, "borrowed": g.borrowed})
-        score_stats = {}
-        if draws:
-            k = ar._matched_k(draws)
-            if k is not None:
-                for d in draws:
-                    d["scores"] = {a: s.get(k) for a, s in d["by_k"].items()}
-                p, score_stats = plot_score(task, draws, k, lower_map.get(task, False), chart_dir)
-                written.append(p)
+        # score: <arm>-A draws from the same groups, one figure per arm present
+        score_stats: dict[str, dict] = {}
+        for arm in ARMS_HERE:
+            draws = []
+            for g in groups:
+                if g.task != task or arm not in g.arms:
+                    continue
+                by_k = {a: scores.get(r.name, {}) for a, r in g.arms.items() if a in ("A", arm) and scores.get(r.name)}
+                if len(by_k) == 2:
+                    draws.append({"label": f"draw{g.draw} · seed {g.arms[arm].seed}", "by_k": by_k, "borrowed": g.borrowed})
+            if draws:
+                k = ar._matched_k(draws)
+                if k is not None:
+                    for d in draws:
+                        d["scores"] = {a: s.get(k) for a, s in d["by_k"].items()}
+                    p, score_stats[arm] = plot_score(task, draws, k, lower_map.get(task, False), chart_dir, arm=arm)
+                    written.append(p)
 
         for rd in rds:
             st = stats[rd.run.name]
@@ -581,10 +662,18 @@ def main() -> int:
                 xs = [x for x in xs if x is not None]
                 return round(sum(xs) / len(xs), 5) if xs else ""
             ctl = control.get(rd.run.name)
+            bb = rd.branch_best()
+            inj = [b for b in bb.values() if b["injected"]]
+            oth = [b["best"] for b in bb.values() if not b["injected"] and b["best"] is not None]
+            sv = score_stats.get(rd.run.arm, {}).get("values", {})
             summary_rows.append({
-                "run": rd.run.name, "task": task, "verdict": rd.run.verdict,
+                "run": rd.run.name, "task": task, "arm": rd.run.arm, "verdict": rd.run.verdict,
                 "control_run": ctl.run.name if ctl else "",
                 "n_nodes": len(rd.nodes), "n_improve": len(rd.improve), "n_with_report": len(rep),
+                "draft_with_report": len(rd.draft_reported),
+                "injected_branch_best": inj[0]["best"] if inj and inj[0]["best"] is not None else "",
+                "injected_branch_valid": f"{inj[0]['valid']}/{inj[0]['n']}" if inj else "",
+                "other_branches_best": (max(oth) if rd.maximize is not False else min(oth)) if oth else "",
                 "n_invocations": len(rd.invocations), "n_invocations_ok": sum(1 for i in rd.invocations if i.get("ok")),
                 "n_mechanisms": sum(len(n.mechanisms) for n in rep),
                 "n_valid_children": sum(1 for n in rep if not n.buggy),
@@ -600,8 +689,7 @@ def main() -> int:
                 "mean_turns": _mean([i.get("turns") for i in rd.invocations]),
                 "mean_in_tokens": _mean([i.get("in_tokens") for i in rd.invocations]),
                 "mean_seconds": _mean([i.get("seconds") for i in rd.invocations]),
-                "score_effect_D_minus_A": score_stats.get("values", {}).get(
-                    next((l for l in score_stats.get("values", {}) if l.endswith(f"seed {rd.run.seed}")), ""), ""),
+                "score_effect_vs_A": sv.get(next((l for l in sv if l.endswith(f"seed {rd.run.seed}")), ""), ""),
             })
 
     csv_path = out / "analogy_summary.csv"
@@ -615,10 +703,11 @@ def main() -> int:
         if p:
             print("  ", p.name)
     print(f"summary: {csv_path}")
-    print(f"\n{'run':<38}{'impr':>5}{'rep':>5}{'mech':>5}{'adopt':>6}{'valid':>6}{'d_adopt':>9}{'d_ctl':>8}")
+    print(f"\n{'run':<38}{'arm':>4}{'impr':>5}{'rep':>5}{'mech':>5}{'adopt':>6}{'valid':>6}{'d_adopt':>9}{'d_ctl':>8}{'inj_best':>10}")
     for r in summary_rows:
-        print(f"{short(r['run']):<38}{r['n_improve']:>5}{r['n_with_report']:>5}{r['n_mechanisms']:>5}"
-              f"{r['n_adopted']:>6}{r['n_valid_children']:>6}{str(r['delta_adopted_mean']):>9}{str(r['delta_control_mean']):>8}")
+        print(f"{short(r['run']):<38}{r['arm']:>4}{r['n_improve']:>5}{r['n_with_report']:>5}{r['n_mechanisms']:>5}"
+              f"{r['n_adopted']:>6}{r['n_valid_children']:>6}{str(r['delta_adopted_mean']):>9}{str(r['delta_control_mean']):>8}"
+              f"{str(r['injected_branch_best'])[:9]:>10}")
     return 0
 
 

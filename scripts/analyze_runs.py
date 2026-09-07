@@ -173,7 +173,7 @@ TASKS: dict[str, dict[str, Any]] = {
 
 # Some early runs encoded the arm in exp_id itself ("openadmet-kb"), which would otherwise split
 # one competition into two incomparable tasks. The arm is recovered from the config regardless.
-EXP_ID_ARM_SUFFIXES = ("-kbimp", "-kbfix", "-kb", "-ana", "-base")
+EXP_ID_ARM_SUFFIXES = ("-kbimp", "-kbfix", "-kb", "-anad", "-ana", "-base")
 
 
 # -- log patterns ----------------------------------------------------------------------
@@ -360,12 +360,18 @@ def parse_config(run: Run, cfg_path: Path) -> None:
 
     cs = cfg.get("coldstart") or {}
     # Arms B/C are the retired cold-start retrieval (read from historical runs only); D is the
-    # improve-stage analogy agent (`analogy.enabled`, 2026-09). A run cannot be both: the D
-    # code has no methodology_kb_path key at all, so a config carrying one is an old run.
+    # improve-stage analogy agent (`analogy.enabled`, 2026-09), E the same agent run once on the
+    # task and injected into the first draft only (`analogy.draft`, 2026-09-06, improve off), F
+    # both. `analogy.improve` did not exist before E, so a D-era config without it means "on".
+    # A run cannot be both old and new: the D code has no methodology_kb_path key at all, so a
+    # config carrying one is an old run.
     kb_on = bool(cfg.get("methodology_kb_path")) and run.retrieval == "lazy"
-    analogy_on = bool((cfg.get("analogy") or {}).get("enabled"))
+    an = cfg.get("analogy") or {}
+    analogy_on = bool(an.get("enabled"))
     if analogy_on:
-        run.arm = "D"
+        at_improve = bool(an.get("improve", True))
+        at_draft = bool(an.get("draft", False))
+        run.arm = {(True, False): "D", (False, True): "E", (True, True): "F"}.get((at_improve, at_draft), "D")
         run.retrieval = "analogy"
     else:
         run.arm = "A" if not kb_on else ("C" if bool(cs.get("inject_into_improve")) else "B")
@@ -603,7 +609,7 @@ def build_groups(runs: list[Run]) -> list[Group]:
             # same number twice as if it were two independent observations, shrinking the
             # variance estimate and inventing significance.
             pool = [g.arms["A"] for g in tg if "A" in g.arms and g.arms["A"].verdict == "ok"]
-            needy = [g for g in tg if "A" not in g.arms and ({"B", "C", "D"} & set(g.arms))]
+            needy = [g for g in tg if "A" not in g.arms and ({"B", "C", "D", "E", "F"} & set(g.arms))]
 
             # Prefer the donor whose seed matches, purely to preserve the original pairing
             # intent; seed carries no statistical meaning here (see draw_gap_hours). Anything
