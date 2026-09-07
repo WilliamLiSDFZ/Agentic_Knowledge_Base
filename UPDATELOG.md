@@ -4,6 +4,23 @@ A running record of notable changes to this project. Newest entries on top.
 
 ---
 
+## 2026-09-07 — analogy packet: warnings out of the output tail, debug placeholder labelled
+
+**Symptom.** Reading `logs/analogy/*.md` of the 2026-09-05 jubias D runs: the packet's "Tail of
+the run output" was 18 torch FutureWarnings and nothing else. The node's stdout (epoch loss,
+final score) came before the stderr, so the 1500-char tail missed every informative line and
+the agent diagnosed a node it had seen no training signal for. Second, a debug node whose diff
+response carried no plan gets `Parent error: … | Parent analysis: …` stored as its plan
+(MLEvolve `debug_agent.py`), which the packet showed as the node's design — the OOM the node
+had just fixed read as its current bottleneck.
+
+**Change (MLEvolve `engine/analogy/agent.py`).** `strip_warnings` drops warning lines and the
+indented source echo under each before the tail is taken and appends `(N warning line(s)
+omitted)`; `describe_plan` labels the placeholder as the failure the node FIXED and points to
+the code summary; trajectory lines get a `fixed:` prefix. Applies to D and F packets (E's draft
+packet has no output). `verify_analogy_injection.py` section 8 covers both. Runs before this
+date received the old packet — note it when pooling D draws across the change.
+
 ## 2026-09-06 — arm E: the analogy agent on the task, injected into the first draft
 
 **Symptom.** On jubias and tf2qa the D arm's agent almost never ran: 12 h produced 7–12 nodes,
