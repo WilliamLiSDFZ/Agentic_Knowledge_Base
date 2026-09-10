@@ -4,6 +4,140 @@ A running record of notable changes to this project. Newest entries on top.
 
 ---
 
+## 2026-09-10 — Early candidate validation and durable scoreable results (local only)
+
+Implemented the approved MLEvolve candidate runtime protocol. It adds execution and
+artifact state to existing search nodes, without introducing a validation node type.
+The feature defaults off; the first supported adapter is Jigsaw Unintended Bias.
+New A/F runs can opt into identical 90-minute draft and 120-minute other-candidate
+budgets. Both include validation and export; unset overrides retain the existing cap.
+
+Generated candidates use a shared runtime API: real-update smoke checks, periodic
+validation before epoch completion, checkpoint callbacks, early full-test export and
+cooperative budget finalization. Validation uses a fixed public-data split per seed
+and the corrected continuous-AUC metric, including every identity component. Budget
+reserves adapt to observed validation/inference cost rather than GPU type. The code
+reviewer checks protocol integration and conflicting epoch-only/output instructions
+are replaced when enabled. Online selection never uses private test scores.
+
+Immutable snapshots bind code, checkpoint, validation predictions/metric and complete
+test predictions. Publication is atomic; reloading a checkpoint must reproduce its
+validation predictions. A later timeout/error keeps prior verified submissions while
+the search node still routes to debug. Clean budget exits can enter improve. Final
+selection and recovery recompute metrics/check hashes independently of journal/LLM
+completion, use one snapshot per candidate, and charge the full candidate execution.
+Perfect scores await leakage review if that check is unavailable; detected leakage
+withdraws previously published results. Initial-draft feedback barriers and one
+candidate per visible GPU remain intact.
+
+Added a recovery CLI and connected post-run ensembling. Local CPU-dev-pod fetch now
+includes best outputs and compact runtime metadata, dereferencing output symlinks
+without downloading model checkpoints. Analysis adds separate execution/artifact
+counts and a wide `candidate_runtime.png`, including failed/unfinished runs and time
+to first full prediction export. Original experiment artifacts and plots are untouched.
+Implementation/activation/recovery details: `../MLEvolve/docs/candidate_runtime.md`.
+
+Validation: 27 candidate-runtime regressions, 14 execution-pipeline regressions,
+4 existing best-result regressions and 2 analysis-accounting regressions pass. Tests
+include real CPU training subprocesses, forced timeouts before/during/after export,
+corrupt checkpoints, failed writes, concurrent publication, recovery without a journal,
+debug routing, leakage-review failures, CLI recovery/ensembling, and archive contents.
+The new chart was visually checked with clearly synthetic data. Compile, shell syntax
+and whitespace checks pass. Actual GPU training and 90/120-minute budget calibration
+still require an isolated pilot. No cluster source, running experiment or task was
+updated/applied; changes remain local and no Git push was performed.
+
+## 2026-09-10 — Post-run audit of Jigsaw S51–S53 A/F
+
+Reviewed the user's fetched final artifacts and generated charts. Added
+`results/9.10/s51_s53_review/REPORT.md`, a reproducible `audit.py`, structured
+`audit.json` with source hashes, and a focused chart excluding borrowed baselines.
+No training, scoring or existing plotting code was changed.
+
+Only S52 and S53 have complete paired K=1 scores (F−A: −0.01766 and +0.03652).
+A-S51 has no submission; the existing n=3 summary borrows seed 42's 0.77717
+baseline from September 1, creating an unpaired +0.14490 difference. The two
+complete pairs have descriptive mean +0.00943, with opposite signs.
+
+The six journals contain 41 completed candidates: 6 valid (all debug), 18 six-hour
+timeouts, 10 OOMs, 6 checkpoint backward errors and 1 AttributeError. Four improve
+analogy calls generated children, but none has a completed result in the final
+journals. S52's sampler is present in its successful code despite the lexical
+adoption proxy reporting zero. S51/S53's directly injected branches have no valid
+completed nodes. Full-text opening succeeded in 8 of 21 attempts; the other
+attempts show 8 HTTP 403 errors and 5 timeouts. Only S52's first-draft report
+retains full-text evidence; the other two render abstract-only evidence.
+
+Validated totals, branch ancestry, configuration and scoring-version consistency;
+visually checked the focused chart. Original experiment Pods are no longer present,
+so their exact final container exit reasons could not be independently checked.
+
+## 2026-09-10 — Fetch run results through the CPU dev pod
+
+Changed `~/nautilus/fetch-run.sh` to default to
+`mlevolve-agentic-knowledge-base-dev-cpu`, matching `devpod-cpu.yaml`, and updated
+the missing-Pod startup hint to that manifest. The `POD` override, download paths,
+archive contents and grading behavior are unchanged. Shell syntax check passed.
+Only the local script was edited; no download, grading or cluster changes were run.
+
+## 2026-09-10 — Early draft execution and one candidate per visible GPU (local only)
+
+MLEvolve now generates initial drafts sequentially while submitting each reviewed draft
+immediately for raw subprocess execution. Parsing, grading, search-tree updates and global
+memory writes remain behind the initial-generation barrier, so later initial drafts still see
+prior designs with pending outcomes. Raw initial results are persisted under
+`logs/executions/<node_id>.json` and processed once through the existing deferred-node path.
+F's first-draft analogy, improve injection and full-text reading configuration are unchanged.
+
+Separated `agent.search.parallel_search_num` (still 3 search/LLM workers) from execution.
+New `exec.max_parallel_run: null` defaults to one candidate per visible CUDA GPU, independent
+of model/VRAM size; CPU-only defaults to one slot. Positive overrides can reduce GPU
+concurrency but cannot exceed the visible-device count. Each subprocess receives a single
+numeric/UUID/MIG device identifier through its own `CUDA_VISIBLE_DEVICES`; full slots queue
+callers in FIFO order. CPU affinity follows execution capacity, and per-node timeouts start
+after slot acquisition. Candidate process groups are cleaned up before slot reuse;
+SIGTERM at the existing outer deadline also stops active executions and queued work.
+The launch script preserves inherited CUDA visibility unless `MEMORY_INDEX` explicitly
+overrides it. GPU memory used by the agent's existing embedding model is unchanged.
+
+Validation: 14 CPU-only behavioral regressions pass using real subprocesses and mocked GPU
+discovery/LLM generation. Coverage includes execution during later draft generation, result
+isolation, first-draft-only analogy injection, step budgets, no duplicate execution, one/multiple
+device assignment, queueing, launch/runtime/timeout recovery, cancellation, descendant cleanup,
+and YAML/schema agreement. Python compilation, shell syntax and diff-whitespace checks pass.
+Hardware CUDA execution has not been tested as part of this change.
+
+Changes and tests are local only: no Git push/pull to the cluster, no shared cluster checkout
+or virtualenv edits, and no Job/Pod changes. Existing S51–S53 A/F experiments are untouched.
+Use a separate cluster checkout for new Jobs while those experiments are running.
+Implementation notes: `MLEvolve/docs/execution_pipeline.md`;
+regression command: `python utils/verify_execution_pipeline.py`.
+
+## 2026-09-10 — Live diagnosis of six Jigsaw S51–S53 A/F runs
+
+Pulled all six Pod logs, journals, analogy traces, active candidate code and read-only
+GPU/process snapshots into `results/9.10/live-pods-20260910_071510Z/`; findings are in
+`REPORT.md` with structured timings and errors in `summary.json`. At 00:15–00:17 PDT,
+all six Pods were running without restarts and GPUs were at 99–100%, but all 15 completed
+candidates had failed (9 CUDA OOM, 6 checkpoint-related backward errors); 18 candidate
+main processes were still running. These are interim observations, not final results.
+
+Identified 65–93 minutes before first candidate execution, including slow dependency
+checks, global-memory initialization and serial draft generation. Full-text analogy
+worked in all F runs and took 138–186 seconds per draft invocation; no improve invocation
+had occurred yet. No cluster workload or source code was changed.
+
+## 2026-09-09 — CPU-only development pod
+
+Added `~/nautilus/devpod-cpu.yaml`, based on the existing GPU `devpod.yaml`, with
+Pod name `mlevolve-agentic-knowledge-base-dev-cpu`. It keeps the same PyTorch image,
+4 CPU / 32Gi requests and limits, Git/Vim startup setup, and `yuze-li-vol` PVC mounted
+at `/workspace`. Removed GPU requests/limits and set `NVIDIA_VISIBLE_DEVICES=void`.
+Keeping the image preserves compatibility with the shared environment used by Jobs.
+
+Validated YAML and compared all retained fields with the original. Created locally;
+the original GPU manifest is unchanged and no Pod was applied.
+
 ## 2026-09-09 — Jigsaw S51–S53: A/F full-text manifests and wider analysis charts
 
 Added MLEvolve `k8s/job-jigsaw-unintended-af-s{51,52,53}.yaml`, each containing

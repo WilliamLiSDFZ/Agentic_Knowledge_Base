@@ -45,6 +45,53 @@ ARM_COLOR = {"A": "#555555", "B": "#1f77b4", "C": "#d62728", "D": "#2ca02c", "E"
 CONTRASTS = [("B", "A"), ("C", "A"), ("C", "B"), ("D", "A"), ("E", "A"), ("F", "A")]
 
 
+def plot_candidate_runtime(runs, out: Path) -> Path:
+    """Artifact outcomes include failed/unfinished runs; these are not private test scores."""
+    fig, axes = plt.subplots(1, 2, figsize=(16, max(5.5, 0.45 * len(runs) + 2.5)),
+                             gridspec_kw={"width_ratios": [1.5, 1]}, constrained_layout=False)
+    positions = list(range(len(runs)))
+    labels = [f"{r.arm or '?'} S{r.seed} · {r.name[:15]}" for r in runs]
+    left = [0] * len(runs)
+    categories = [
+        ("runtime_completed", "Completed + result", "#2a9d8f"),
+        ("runtime_budget_stops", "Budget stop + result", "#457b9d"),
+        ("runtime_failed_with_result", "Failed + saved result", "#e9a23b"),
+        ("runtime_unfinished_with_result", "Unfinished + saved result", "#9c89b8"),
+        ("runtime_without_result", "No verified result", "#cccccc"),
+    ]
+    for field, label, color in categories:
+        counts = [getattr(r, field) for r in runs]
+        axes[0].barh(positions, counts, left=left, color=color, label=label)
+        left = [a + b for a, b in zip(left, counts)]
+    axes[0].set_yticks(positions, labels)
+    axes[0].set_ylim(len(runs) - 0.5, -0.5)
+    axes[0].set_xlabel("Candidates (one count per candidate, not per checkpoint)")
+    axes[0].set_title("Execution outcome and retained results")
+    for i, run in enumerate(runs):
+        value = run.runtime_first_result_h
+        if value is None:
+            axes[1].text(0.02, i, "Unavailable", va="center", color="#777777")
+        else:
+            axes[1].barh(i, value, color=ARM_COLOR.get(run.arm, "#555555"))
+            axes[1].annotate(f"{value:.2f} h", (value, i), xytext=(5, 0),
+                             textcoords="offset points", va="center")
+    axes[1].set_yticks(positions, labels)
+    axes[1].set_ylim(len(runs) - 0.5, -0.5)
+    axes[1].set_xlim(0, max([r.runtime_first_result_h or 0 for r in runs] + [0.1]) * 1.25)
+    axes[1].set_xlabel("Hours since run.py started")
+    axes[1].set_title("First complete prediction export")
+    handles, labels = axes[0].get_legend_handles_labels()
+    fig.legend(handles, labels, loc="lower center", ncol=3, bbox_to_anchor=(0.5, 0.025))
+    fig.text(0.5, 0.015, "Includes all runtime-enabled runs. Saved results do not imply successful code execution.",
+             ha="center", fontsize=9, color="#666666")
+    fig.subplots_adjust(left=0.18, right=0.96, top=0.9, bottom=0.23, wspace=0.65)
+    out.mkdir(parents=True, exist_ok=True)
+    path = out / "candidate_runtime.png"
+    fig.savefig(path, dpi=160, bbox_inches="tight")
+    plt.close(fig)
+    return path
+
+
 def _t95(df: int) -> float:
     if df <= 0:
         return float("nan")

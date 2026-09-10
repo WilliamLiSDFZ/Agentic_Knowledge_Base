@@ -1,0 +1,646 @@
+{
+  "schema": "paper-fulltext-v1",
+  "config": {
+    "enabled": true,
+    "cache_dir": "/workspace/MLEvolve/cache/paper_fulltext",
+    "offline": false,
+    "max_papers": 3,
+    "max_read_calls": 12,
+    "read_chars": 8000,
+    "total_chars": 40000,
+    "open_timeout_seconds": 60.0,
+    "total_open_seconds": 150.0
+  },
+  "cache_dir": "/workspace/MLEvolve/cache/paper_fulltext",
+  "parser": {
+    "schema": "paper-fulltext-v1",
+    "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+    "pymupdf": "1.28.0",
+    "pymupdf4llm": "1.28.0",
+    "pymupdf_layout": "1.28.0",
+    "tabulate": "0.9.0"
+  },
+  "read_calls": 2,
+  "body_chars": 12548,
+  "open_seconds": 49.864,
+  "attempts": {
+    "neurips-2024/e574db41163e700545ff4114f96b3d7a": {
+      "status": "ok",
+      "cache_hit": false
+    },
+    "neurips-2024/dc4db2ff2c1aefce3b594f821ea82fe6": {
+      "status": "ok",
+      "cache_hit": true
+    },
+    "iclr-2025/aqj9ifxrl6": {
+      "status": "download_error",
+      "message": "HTTPError: HTTP Error 403: Forbidden"
+    }
+  },
+  "documents": {
+    "neurips-2024/e574db41163e700545ff4114f96b3d7a": {
+      "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+      "title": "AUCSeg: AUC-oriented Pixel-level Long-tail Semantic Segmentation",
+      "corpus_source": "https://papers.nips.cc/paper_files/paper/2024/hash/e574db41163e700545ff4114f96b3d7a-Abstract-Conference.html",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/e574db41163e700545ff4114f96b3d7a-Paper-Conference.pdf",
+      "pdf_sha256": "d3e3b1c2d8e7abf2000348eb306b8cfa8f4cdff61b5afe7e9c9f3cb11cc7950f",
+      "text_sha256": "1749487c25109390e7ceee5df66b91d450c507582b4a1986aae32e0dadda39fb",
+      "parser": {
+        "schema": "paper-fulltext-v1",
+        "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+        "pymupdf": "1.28.0",
+        "pymupdf4llm": "1.28.0",
+        "pymupdf_layout": "1.28.0",
+        "tabulate": "0.9.0"
+      },
+      "parsed_at": "2026-09-10T02:47:05Z",
+      "extraction_mode": "pymupdf4llm-legacy-text",
+      "page_count": 45,
+      "title_check": "token_overlap_passed",
+      "warnings": [
+        "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+      ],
+      "fetched_at": "2026-09-10T02:46:20Z"
+    },
+    "neurips-2024/dc4db2ff2c1aefce3b594f821ea82fe6": {
+      "paper_id": "neurips-2024/dc4db2ff2c1aefce3b594f821ea82fe6",
+      "title": "The Group Robustness is in the Details: Revisiting Finetuning under Spurious Correlations",
+      "corpus_source": "https://papers.nips.cc/paper_files/paper/2024/hash/dc4db2ff2c1aefce3b594f821ea82fe6-Abstract-Conference.html",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/dc4db2ff2c1aefce3b594f821ea82fe6-Paper-Conference.pdf",
+      "pdf_sha256": "f416dafcc09147c92a6ca447b0f45fb811b15da488defb85ddbab2eb43ea0ffc",
+      "text_sha256": "293220512e013c985ea3488224e94d543a70663f35b78689b5c6222d507aab9b",
+      "parser": {
+        "schema": "paper-fulltext-v1",
+        "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+        "pymupdf": "1.28.0",
+        "pymupdf4llm": "1.28.0",
+        "pymupdf_layout": "1.28.0",
+        "tabulate": "0.9.0"
+      },
+      "parsed_at": "2026-09-10T01:27:00Z",
+      "extraction_mode": "pymupdf4llm-legacy-text",
+      "page_count": 32,
+      "title_check": "token_overlap_passed",
+      "warnings": [
+        "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+      ],
+      "fetched_at": "2026-09-10T01:26:55Z"
+    }
+  },
+  "events": [
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "outline_offset": 0
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "title": "AUCSeg: AUC-oriented Pixel-level Long-tail Semantic Segmentation",
+        "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/e574db41163e700545ff4114f96b3d7a-Paper-Conference.pdf",
+        "pdf_sha256": "d3e3b1c2d8e7abf2000348eb306b8cfa8f4cdff61b5afe7e9c9f3cb11cc7950f",
+        "text_sha256": "1749487c25109390e7ceee5df66b91d450c507582b4a1986aae32e0dadda39fb",
+        "parser": {
+          "schema": "paper-fulltext-v1",
+          "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+          "pymupdf": "1.28.0",
+          "pymupdf4llm": "1.28.0",
+          "pymupdf_layout": "1.28.0",
+          "tabulate": "0.9.0"
+        },
+        "page_count": 45,
+        "warnings": [
+          "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+        ],
+        "cache_hit": false,
+        "outline": [
+          {
+            "chunk_id": "p001-c001",
+            "page": 1,
+            "section": "AUCSeg: AUC-oriented Pixel-level Long-tail** **Semantic Segmentation",
+            "chars": 74
+          },
+          {
+            "chunk_id": "p001-c002",
+            "page": 1,
+            "section": "Boyu Han** <sup>1</sup> <sup>_,_</sup> <sup>2</sup> **Qianqian Xu** <sup>1</sup> <sup>_,_</sup> <sup>3</sup> <sup>_∗_</sup> **Zhiyong Yang** <sup>2</sup> **Shil",
+            "chars": 777
+          },
+          {
+            "chunk_id": "p001-c003",
+            "page": 1,
+            "section": "Abstract",
+            "chars": 1345
+          },
+          {
+            "chunk_id": "p001-c004",
+            "page": 1,
+            "section": "1** **Introduction",
+            "chars": 1519
+          },
+          {
+            "chunk_id": "p002-c001",
+            "page": 2,
+            "section": "1** **Introduction",
+            "chars": 1930
+          },
+          {
+            "chunk_id": "p002-c002",
+            "page": 2,
+            "section": "1** **Introduction",
+            "chars": 1673
+          },
+          {
+            "chunk_id": "p002-c003",
+            "page": 2,
+            "section": "1** **Introduction",
+            "chars": 734
+          },
+          {
+            "chunk_id": "p003-c001",
+            "page": 3,
+            "section": "1** **Introduction",
+            "chars": 287
+          },
+          {
+            "chunk_id": "p003-c002",
+            "page": 3,
+            "section": "2** **Related Work",
+            "chars": 22
+          },
+          {
+            "chunk_id": "p003-c003",
+            "page": 3,
+            "section": "2.1** **Semantic Segmentation",
+            "chars": 1403
+          },
+          {
+            "chunk_id": "p003-c004",
+            "page": 3,
+            "section": "2.2** **AUC Optimization",
+            "chars": 1644
+          },
+          {
+            "chunk_id": "p003-c005",
+            "page": 3,
+            "section": "3** **Preliminaries",
+            "chars": 127
+          },
+          {
+            "chunk_id": "p003-c006",
+            "page": 3,
+            "section": "3.1** **Semantic Segmentation Training Framework",
+            "chars": 916
+          },
+          {
+            "chunk_id": "p004-c001",
+            "page": 4,
+            "section": "3.1** **Semantic Segmentation Training Framework",
+            "chars": 164
+          },
+          {
+            "chunk_id": "p004-c002",
+            "page": 4,
+            "section": "Y** ˆ",
+            "chars": 1038
+          },
+          {
+            "chunk_id": "p004-c003",
+            "page": 4,
+            "section": "Y** <sup>_ic_</sup> _u,v_ <sup>log(ˆ</sup> <sup>**Y**</sup>",
+            "chars": 698
+          },
+          {
+            "chunk_id": "p004-c004",
+            "page": 4,
+            "section": "3.2** **AUC Optimization",
+            "chars": 1917
+          },
+          {
+            "chunk_id": "p004-c005",
+            "page": 4,
+            "section": "4** **AUC-Oriented Semantic Segmentation",
+            "chars": 690
+          },
+          {
+            "chunk_id": "p005-c001",
+            "page": 5,
+            "section": "4** **AUC-Oriented Semantic Segmentation",
+            "chars": 32
+          },
+          {
+            "chunk_id": "p005-c002",
+            "page": 5,
+            "section": "4.1** **Pixel-level AUC Optimization",
+            "chars": 1939
+          },
+          {
+            "chunk_id": "p005-c003",
+            "page": 5,
+            "section": "4.1** **Pixel-level AUC Optimization",
+            "chars": 703
+          },
+          {
+            "chunk_id": "p005-c004",
+            "page": 5,
+            "section": "X** <sup>_p_</sup> _m_ <sup>_∈N_</sup> _c_",
+            "chars": 128
+          },
+          {
+            "chunk_id": "p005-c005",
+            "page": 5,
+            "section": "X** <sup>_p_</sup> _n_ <sup>_∈N_</sup> _c_ <sup>_′_</sup>",
+            "chars": 1167
+          },
+          {
+            "chunk_id": "p005-c006",
+            "page": 5,
+            "section": "4.2** **Generalization Bound",
+            "chars": 416
+          },
+          {
+            "chunk_id": "p006-c001",
+            "page": 6,
+            "section": "4.2** **Generalization Bound",
+            "chars": 627
+          },
+          {
+            "chunk_id": "p006-c002",
+            "page": 6,
+            "section": "Theorem 1** (Generalization Bound for AUCSeg) **.** _Let_ E _D_",
+            "chars": 1445
+          },
+          {
+            "chunk_id": "p006-c003",
+            "page": 6,
+            "section": "Theorem 1** (Generalization Bound for AUCSeg) **.** _Let_ E _D_",
+            "chars": 1089
+          },
+          {
+            "chunk_id": "p006-c004",
+            "page": 6,
+            "section": "Remark 1.** We achieve a bound of _O_ - _τ_ �log ( _τNk_ ) _/N_ <u>�, indicating reliable generalization with a</u>",
+            "chars": 432
+          },
+          {
+            "chunk_id": "p006-c005",
+            "page": 6,
+            "section": "Remark 1.** We achieve a bound of _O_",
+            "chars": 79
+          },
+          {
+            "chunk_id": "p006-c006",
+            "page": 6,
+            "section": "4.3** **Tail-class Memory Bank",
+            "chars": 34
+          }
+        ],
+        "next_outline_offset": 30,
+        "remaining_chars": 40000,
+        "note": "Opening a paper returns no body text. Use read_paper to obtain citable excerpts."
+      },
+      "seconds": 47.46
+    },
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/dc4db2ff2c1aefce3b594f821ea82fe6",
+        "outline_offset": 0
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/dc4db2ff2c1aefce3b594f821ea82fe6",
+        "title": "The Group Robustness is in the Details: Revisiting Finetuning under Spurious Correlations",
+        "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/dc4db2ff2c1aefce3b594f821ea82fe6-Paper-Conference.pdf",
+        "pdf_sha256": "f416dafcc09147c92a6ca447b0f45fb811b15da488defb85ddbab2eb43ea0ffc",
+        "text_sha256": "293220512e013c985ea3488224e94d543a70663f35b78689b5c6222d507aab9b",
+        "parser": {
+          "schema": "paper-fulltext-v1",
+          "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+          "pymupdf": "1.28.0",
+          "pymupdf4llm": "1.28.0",
+          "pymupdf_layout": "1.28.0",
+          "tabulate": "0.9.0"
+        },
+        "page_count": 32,
+        "warnings": [
+          "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+        ],
+        "cache_hit": true,
+        "outline": [
+          {
+            "chunk_id": "p001-c001",
+            "page": 1,
+            "section": "The Group Robustness is in the Details: Revisiting** **Finetuning under Spurious Correlations",
+            "chars": 99
+          },
+          {
+            "chunk_id": "p001-c002",
+            "page": 1,
+            "section": "Tyler LaBonte** <sup>1</sup> <sup>_∗_</sup> **John C. Hill** <sup>2</sup> **Xinchen Zhang** <sup>2</sup>",
+            "chars": 106
+          },
+          {
+            "chunk_id": "p001-c003",
+            "page": 1,
+            "section": "Vidya Muthukumar** <sup>2</sup> <sup>_,_</sup> <sup>1</sup> **Abhishek Kumar** <sup>_†_</sup>",
+            "chars": 273
+          },
+          {
+            "chunk_id": "p001-c004",
+            "page": 1,
+            "section": "Abstract",
+            "chars": 1442
+          },
+          {
+            "chunk_id": "p001-c005",
+            "page": 1,
+            "section": "1** **Introduction",
+            "chars": 1706
+          },
+          {
+            "chunk_id": "p002-c001",
+            "page": 2,
+            "section": "1** **Introduction",
+            "chars": 1975
+          },
+          {
+            "chunk_id": "p002-c002",
+            "page": 2,
+            "section": "1.1** **Related work",
+            "chars": 208
+          },
+          {
+            "chunk_id": "p002-c003",
+            "page": 2,
+            "section": "Spurious correlations.** The proclivity of ERM to rely on spurious correlations has been widely",
+            "chars": 706
+          },
+          {
+            "chunk_id": "p002-c004",
+            "page": 2,
+            "section": "Class-balancing and group robustness.** _Group-balancing_, or training with an equal number of",
+            "chars": 1259
+          },
+          {
+            "chunk_id": "p002-c005",
+            "page": 2,
+            "section": "Overparameterization and distributional robustness.** While the accepted empirical wisdom is",
+            "chars": 390
+          },
+          {
+            "chunk_id": "p003-c001",
+            "page": 3,
+            "section": "Overparameterization and distributional robustness.** While the accepted empirical wisdom is",
+            "chars": 961
+          },
+          {
+            "chunk_id": "p003-c002",
+            "page": 3,
+            "section": "2** **Preliminaries",
+            "chars": 23
+          },
+          {
+            "chunk_id": "p003-c003",
+            "page": 3,
+            "section": "Setting.** We consider classification tasks with input domain R <sup>_n_</sup> and target classes _Y_ _⊂_ N. Suppose",
+            "chars": 1785
+          },
+          {
+            "chunk_id": "p003-c004",
+            "page": 3,
+            "section": "Class-balancing.** A dataset is considered to be _class-balanced_ if it is composed of an equal number",
+            "chars": 1938
+          },
+          {
+            "chunk_id": "p003-c005",
+            "page": 3,
+            "section": "Class-balancing.** A dataset is considered to be _class-balanced_ if it is composed of an equal number",
+            "chars": 367
+          },
+          {
+            "chunk_id": "p004-c001",
+            "page": 4,
+            "section": "Datasets and models.** We study four classification datasets, two in the vision domain and two in",
+            "chars": 1728
+          },
+          {
+            "chunk_id": "p004-c002",
+            "page": 4,
+            "section": "Datasets and models.** We study four classification datasets, two in the vision domain and two in",
+            "chars": 870
+          },
+          {
+            "chunk_id": "p004-c003",
+            "page": 4,
+            "section": "3** **Nuanced effects of class-balancing on group robustness",
+            "chars": 218
+          },
+          {
+            "chunk_id": "p004-c004",
+            "page": 4,
+            "section": "3.1** **Catastrophic collapse of class-balanced upsampling and upweighting",
+            "chars": 1990
+          },
+          {
+            "chunk_id": "p005-c001",
+            "page": 5,
+            "section": "3.1** **Catastrophic collapse of class-balanced upsampling and upweighting",
+            "chars": 1598
+          },
+          {
+            "chunk_id": "p005-c002",
+            "page": 5,
+            "section": "3.1** **Catastrophic collapse of class-balanced upsampling and upweighting",
+            "chars": 1783
+          },
+          {
+            "chunk_id": "p005-c003",
+            "page": 5,
+            "section": "Contextualization with previous work.** Our observations explain the decrease in WGA of CelebA",
+            "chars": 793
+          },
+          {
+            "chunk_id": "p006-c001",
+            "page": 6,
+            "section": "Contextualization with previous work.** Our observations explain the decrease in WGA of CelebA",
+            "chars": 1489
+          },
+          {
+            "chunk_id": "p006-c002",
+            "page": 6,
+            "section": "3.2** **Mixture balancing:** **interpolating between subsetting and upsampling",
+            "chars": 1521
+          },
+          {
+            "chunk_id": "p006-c003",
+            "page": 6,
+            "section": "3.2** **Mixture balancing:** **interpolating between subsetting and upsampling",
+            "chars": 572
+          },
+          {
+            "chunk_id": "p007-c001",
+            "page": 7,
+            "section": "3.2** **Mixture balancing:** **interpolating between subsetting and upsampling",
+            "chars": 829
+          },
+          {
+            "chunk_id": "p007-c002",
+            "page": 7,
+            "section": "Note on validation.** In Figure 2, we plot the best class-imbalance ratio achieved using validation on",
+            "chars": 697
+          },
+          {
+            "chunk_id": "p007-c003",
+            "page": 7,
+            "section": "Contextualization with previous work.** Increasing exposure to majority class data without oversampling the minority class was previously explored by [26], who ",
+            "chars": 837
+          },
+          {
+            "chunk_id": "p007-c004",
+            "page": 7,
+            "section": "4** **Model scaling improves WGA of class-balanced finetuning",
+            "chars": 1327
+          },
+          {
+            "chunk_id": "p007-c005",
+            "page": 7,
+            "section": "4** **Model scaling improves WGA of class-balanced finetuning",
+            "chars": 762
+          }
+        ],
+        "next_outline_offset": 30,
+        "remaining_chars": 40000,
+        "note": "Opening a paper returns no body text. Use read_paper to obtain citable excerpts."
+      },
+      "seconds": 1.447
+    },
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "iclr-2025/aqj9ifxrl6",
+        "outline_offset": 0
+      },
+      "result": {
+        "status": "download_error",
+        "paper_id": "iclr-2025/aqj9ifxrl6",
+        "message": "HTTPError: HTTP Error 403: Forbidden",
+        "note": "No full-text evidence returned by this call; read_abstract remains available"
+      },
+      "seconds": 0.957
+    },
+    {
+      "tool": "read_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "chunk_ids": [
+          "p001-c004",
+          "p004-c004",
+          "p005-c002"
+        ]
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "pdf_sha256": "d3e3b1c2d8e7abf2000348eb306b8cfa8f4cdff61b5afe7e9c9f3cb11cc7950f",
+        "text_sha256": "1749487c25109390e7ceee5df66b91d450c507582b4a1986aae32e0dadda39fb",
+        "chunks": [
+          {
+            "chunk_id": "p001-c004",
+            "page": 1,
+            "section": "1** **Introduction",
+            "chars": 1519,
+            "text": "**1** **Introduction**\n\nSemantic segmentation aims to categorize each pixel within an image into a specific class, which\nis a fundamental task in image processing and computer vision [33, 51, 75]. Over the past decades,\nsubstantial efforts [58, 23, 43, 96] have advanced the field of semantic segmentation. The mainstream\nparadigm is to develop innovative network architectures that encode more discriminative features\nfor dense pixel-level classifications. Typical backbones include CNN-based [58, 14, 80] and newly\nemerging Transformer-based methods [108, 83, 65, 15, 32], which have achieved the state-of-the-art\n(SOTA) performance. Beyond this direction, researchers [24, 66, 48, 41] have recently realized\nthe **_Pixel-level Long-tail issue_** _in Semantic Segmentation (PLSS)_, as shown at the top of Figure 1.\nSimilar to the flaws of traditional long-tail problems, the major classes will dominate the model\nlearning process, causing the model to overlook the segmentation of minority classes in an image.\nSeveral remedies have been proposed to alleviate this [49, 61, 10, 56, 104, 92, 78]. For example,\n\n[77] introduces a category-wise variation technique inversely proportional to distribution to achieve\nbalanced segmentation; [66] introduces a sequence-based generative adversarial network for imbalanced medical image segmentation, and [41] develops a re-weighting scheme for semi-supervised\nsegmentation.\n\n_∗_ Corresponding authors.\n\n38th Conference on Neural Information Processing Systems (NeurIPS 2024)."
+          },
+          {
+            "chunk_id": "p004-c004",
+            "page": 4,
+            "section": "3.2** **AUC Optimization",
+            "chars": 1917,
+            "text": "**3.2** **AUC Optimization**\n\n_Area under the Receiver Operating Characteristic Curve (AUC)_ is a well-known ranking performance\n\nmetric for **binary classification** task, which measures the probability that a positive instance has a\nhigher score than a negative one [35]:\n\n_AUC_ ( _fθ_ ) = P - _fθ_ ( **X** <sup>+</sup> ) _> fθ_ ( **X** <sup>_−_</sup> ) _|y_ <sup>+</sup> = 1 _, y_ <sup>_−_</sup> = 0� _,_ (3)\n\nwhere ( **X** <sup>+</sup> _, y_ <sup>+</sup> ) and ( **X** <sup>_−_</sup> _, y_ <sup>_−_</sup> ) represent positive and negative samples, respectively. When _AUC_ _→_\n1, it indicates that the classifier can perfectly separate positive and negative samples.\n\nAccording to [87, 86, 88], given finite datasets, maximizing _AUC_ ( _hθ_ ) is usually realized by\nmaximizing its unbiased empirical estimation:\n\n_n_ <sup>_−_</sup>\n\n_j_ =1\n\n<u>1</u>\n_AUC_ ˆ ( _hθ_ ) = 1 _−_\n_n_ <sup>+</sup> _n_ <sup>_−_</sup>\n\n_n_ <sup>+</sup>\n\n_i_ =1\n\n_ℓ_ ( _hθ_ ( **X** <sup>+</sup> ) _−_ _hθ_ ( **X** <sup>_−_</sup> )) _,_ (4)\n\nwhere _ℓ_ is a differentiable surrogate loss [86] measuring the ranking error between two samples, _n_ <sup>+</sup>\nand _n_ <sup>_−_</sup> denote the number of positive and negative samples, respectively.\n\nMoreover, we can directly optimize the following problem for AUC maximization:\n\n_n_ <sup>_−_</sup>\n\n_j_ =1\n\n_n_ <sup>+</sup>\n\n_i_ =1\n\nmin\n\n_θ_\n\n<u>1</u>\n_n_ <sup>+</sup> _n_ <sup>_−_</sup>\n\n_ℓ_ ( _hθ_ ( **X** <sup>+</sup> ) _−_ _hθ_ ( **X** <sup>_−_</sup> )) _._ (5)\n\nNote that, AUC has achieved significant progress in long-tailed classification [100, 88, 68]. Due to\nthe limitations of space, we refer interested readers to the literature [86, 99] for more introductions to\nAUC. However, most existing studies merely focus on the **instance-level or image-level** problems.\nInspired by its distribution-insensitive property [26], this paper starts an early trial to introduce AUC\nto PLSS."
+          },
+          {
+            "chunk_id": "p005-c002",
+            "page": 5,
+            "section": "4.1** **Pixel-level AUC Optimization",
+            "chars": 1939,
+            "text": "**4.1** **Pixel-level AUC Optimization**\n\nSemantic segmentation is a multi-class classification task. Therefore, to apply AUC, we follow\na popular multi-class AUC manner, _i.e._, the One vs. One (ovo) strategy [64, 34, 86], which is\nan average of binary AUC score introduced in Section 3.2. Specifically, on top of the notation of\nSection 3.1, we further denote _D_ <sup>_p_</sup> = _{_ ( **X** <sup>_i_</sup> _u,v_ <sup>_,_</sup> <sup>**Y**</sup> <sup>_i_</sup> _u,v_ <sup>)</sup> <sup>_|i ∈_</sup> <sup>[1</sup> <sup>_, n_</sup> <sup>]</sup> <sup>_, u ∈_</sup> <sup>[0</sup> <sup>_, H −_</sup> <sup>1]</sup> <sup>_, v_</sup> <sup>_∈_</sup> <sup>[0</sup> <sup>_, W_</sup> <sup>_−_</sup> <sup>1]</sup> <sup>_}_</sup> <sup>as the</sup>\n\nset of all pixels; the _j_ -th element ( _j_ _∈_ [1 _, n ×_ ( _H −_ 1) _×_ ( _W_ _−_ 1)]) in _D_ <sup>_p_</sup> is abbreviated as ( **X** <sup>_p,_</sup> <sup>**Y**</sup> <sup>_p_</sup> <sup>)</sup>\n\n<sup>_i_</sup> _u,v_ <sup>_,_</sup> <sup>**Y**</sup> <sup>_i_</sup>\n\n<sup>_p_</sup> _j_ <sup>_,_</sup> <sup>**Y**</sup> <sup>_p_</sup> _j_\n\n_j_ <sup>)</sup>\n\nfor convenience. Given the model prediction _fθ_ = ( _fθ_ <sup>(1)</sup>\n\n_θ_ <sup>(1)</sup> _, . . ., fθ_ <sup>(</sup> <sup>_K_</sup> <sup>)</sup>\n\n_θ_ <sup>(</sup> <sup>_K_</sup> <sup>)</sup> ), _∀c ∈_ [ _K_ ], _fθ_ <sup>(</sup> <sup>_c_</sup> <sup>)</sup>\n\nfor convenience. Given the model prediction _fθ_ = ( _fθ_ _, . . ., fθ_ ), _∀c ∈_ [ _K_ ], _fθ_ _∈_ [0 _,_ 1], where\n\n_fθ_ <sup>(</sup> <sup>_c_</sup> <sup>)</sup> serves as a continuous score function supporting class _c_, _AUCseg_ <sup>_ovo_</sup> <sup>calculates</sup> <sup>the</sup> <sup>average</sup> <sup>of</sup>\n\nbinary AUC scores for every class pair:\n\n_θ_ serves as a continuous score function supporting class _c_, _AUCseg_ <sup>_ovo_</sup>\n\n<u>1</u>\n\n_AUCseg_ <sup>_ovo_</sup> <sup>=</sup>\n\n_K_ ( _K −_ 1)\n\n_K_\n\n-\n\n_c_ =1 _c_ = _c_ <sup>_′_</sup>\n\n_AUCcc′_ ( _fθ_ ) _,_ (6)"
+          }
+        ],
+        "not_returned_chunk_ids": [],
+        "remaining_chars": 34625,
+        "remaining_read_calls": 11
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "read_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/dc4db2ff2c1aefce3b594f821ea82fe6",
+        "chunk_ids": [
+          "p001-c005",
+          "p002-c004",
+          "p004-c004",
+          "p006-c002",
+          "p007-c002"
+        ]
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/dc4db2ff2c1aefce3b594f821ea82fe6",
+        "pdf_sha256": "f416dafcc09147c92a6ca447b0f45fb811b15da488defb85ddbab2eb43ea0ffc",
+        "text_sha256": "293220512e013c985ea3488224e94d543a70663f35b78689b5c6222d507aab9b",
+        "chunks": [
+          {
+            "chunk_id": "p001-c005",
+            "page": 1,
+            "section": "1** **Introduction",
+            "chars": 1706,
+            "text": "**1** **Introduction**\n\nClassification performance in machine learning is sensitive to _spurious correlations_ : patterns which\nare predictive of the target class in the training dataset but not at test time. For example, in computer\nvision tasks, neural networks are known to utilize the backgrounds of images as proxies for their\ncontent [1, 50, 68]. Beyond simple settings, spurious correlations have been identified in highconsequence applications such as criminal justice [8], medicine [70], and facial recognition [33].\nIn particular, a model’s reliance on spurious correlations disproportionately affects its accuracy on\n_minority groups_ which are under-represented in the training dataset; we therefore desire maximizing\nthe model’s _group robustness_, quantified by its minimum accuracy on any group [50].\n\nThe standard workflow in modern machine learning involves initializing from a pretrained model and\nfinetuning on the downstream dataset using empirical risk minimization (ERM) [62], which minimizes\nthe average training loss. When _group annotations_ are available in the training dataset, practitioners\nutilize a rich literature of techniques to improve worst-group accuracy (WGA) [50, 39, 26]. However,\ngroup annotations are often unknown or problematic to obtain ( _e.g._, due to financial, privacy, or\nfairness concerns). While group robustness methods have been adapted to work without group\nannotations [31, 72, 47, 29], they remain complex variants on the standard finetuning procedure.\n\n_∗_ Corresponding author. Email: `[tlabonte@gatech.edu](mailto:tlabonte@gatech.edu)` .\n\n_†_ Work done at Google DeepMind.\n\n38th Conference on Neural Information Processing Systems (NeurIPS 2024)."
+          },
+          {
+            "chunk_id": "p002-c004",
+            "page": 2,
+            "section": "Class-balancing and group robustness.** _Group-balancing_, or training with an equal number of",
+            "chars": 1259,
+            "text": "**Class-balancing and group robustness.** _Group-balancing_, or training with an equal number of\nsamples from each group, has been proposed as a simple yet effective method to improve robustness\nto spurious correlations [17, 51, 6, 55]. However, group-balancing requires group annotations, which\nare often unknown or problematic to obtain [31, 72, 47, 29]. On the other hand, _class-balancing_, or\ntraining with an equal number of samples from each class, is a well-studied method in long-tailed\nclassification [24, 15, 4]. Recent work has shown that class-balancing is a surprisingly powerful\nmethod for improving worst-group accuracy which does not require group annotations [22, 29, 7, 53].\nIn particular, [22] study the WGA dynamics of two common class-balancing methods: removing data\nfrom the larger classes (which we call _subsetting_ ) and upsampling the smaller classes (which we call\n_upsampling_ ). Our results complement those of [22] and show more nuanced effects of class-balancing\nthan previously known; we provide additional contextualization with [22] in Section 3.1. We show\nsimilar nuanced behavior of _upweighting_ smaller classes in the loss function, a popular method in the\ngroup-balancing setting [31, 47, 55] which [22] did not study."
+          },
+          {
+            "chunk_id": "p004-c004",
+            "page": 4,
+            "section": "3.1** **Catastrophic collapse of class-balanced upsampling and upweighting",
+            "chars": 1990,
+            "text": "**3.1** **Catastrophic collapse of class-balanced upsampling and upweighting**\n\nIn a recent paper, [29] observed that contrary to the central hypothesis underlying the Just Train\nTwice method [31], the worst-group accuracy of ERM decreases dramatically with training epochs\non CelebA and CivilComments; however, they provide no explanation for this phenomenon. In this\nsection, we show that this degradation of WGA is due to their choice of class-balancing method ( _i.e._,\nupsampling). Specifically, ERM finetuned with upsampling experiences a _catastrophic collapse_ in\ntest WGA over the course of training, a phenomenon that was previously only noticed in synthetic\ndatasets with a linear classifier [22]. Moreover, while [22] state that class-balanced subsetting is not\nrecommended in practice, we show that it can in fact improve WGA conditional on the lack of of a\nsmall minority group _within the majority class_ . Finally, we show that class-balanced upweighting —\na popular technique which [22] do not study — experiences a similar WGA collapse as upsampling.\n\nWe finetune a ConvNeXt-V2 Base on Waterbirds and CelebA and a BERT Base on CivilComments,\nand we compare the subsetting, upsampling, and upweighting techniques to a class-imbalanced\n\n4We note that the Waterbirds dataset is known to contain incorrect labels [56]. We report results on the\noriginal, un-corrected version as is standard in the literature.\n\n5This version of CivilComments has four groups, used in this work and by [50, 22, 23, 26, 29]. There is\nanother version where the identity categories are not collapsed into one spurious feature; that version is used\nby [31, 72, 47]. Both versions use the WILDS split [27].\n\n6To be more specific, we finetune ConvNeXt-V2 Base roughly to a training loss of 10 _−_ 4 on Waterbirds and\n10 <sup>_−_</sup> <sup>3</sup> on CelebA, and BERT Base roughly to a training loss of 10 <sup>_−_</sup> <sup>3</sup> on CivilComments and 10 <sup>_−_</sup> <sup>2</sup> on MultiNLI.\n\n4"
+          },
+          {
+            "chunk_id": "p006-c002",
+            "page": 6,
+            "section": "3.2** **Mixture balancing:** **interpolating between subsetting and upsampling",
+            "chars": 1521,
+            "text": "**3.2** **Mixture balancing:** **interpolating between subsetting and upsampling**\n\nTo mitigate the catastrophic collapse of class-balanced upsampling and upweighting, we propose a\nsimple _mixture method_ which interpolates between subsetting and upsampling. Our method increases\nexposure to majority class data without over-sampling the minority class, which can improve WGA\nand mitigate overfitting to the minority group. We first create a data subset with a specified _class-_\n_imbalance_ _ratio_ by removing data from the larger classes uniformly at random until the desired\n(smaller) ratio is achieved. Next, we perform ERM finetuning on this subset by adjusting sampling\nprobabilities so that mini-batches are balanced in expectation. Using a class-imbalance ratio of 1:1\nreduces to subsetting, and using the original class-imbalance ratio reduces to upsampling.\n\nWe finetune ConvNeXt-V2 Base on Waterbirds and CelebA and BERT Base on CivilComments,\nand we compare our class-balanced mixture method to the subsetting, upsampling, and upweighting\ntechniques. The results of our experiments are displayed in Figure 2. We plot the performance of our\nmixture method with the best class-imbalance ratio during validation; an ablation study varying the\nratio is included in Appendix B. Remarkably, mixture balancing outperforms all three class-balancing\nmethods on Waterbirds and CivilComments, and while it does not outperform subsetting on CelebA,\nit significantly alleviates the WGA collapse experienced by upsampling."
+          },
+          {
+            "chunk_id": "p007-c002",
+            "page": 7,
+            "section": "Note on validation.** In Figure 2, we plot the best class-imbalance ratio achieved using validation on",
+            "chars": 697,
+            "text": "**Note on validation.** In Figure 2, we plot the best class-imbalance ratio achieved using validation on\na group annotated held-out set. While this is a common assumption in the literature [50, 31, 23, 26],\nit is nevertheless unrealistic when the training set does not have any group annotations. Therefore,\nwe compare with both worst-class accuracy [69] and the _bias-unsupervised validation score_ of [60],\nwhich do not use any group annotations for model selection. In Table 1 we list the method which\nmaximizes each validation metric as well as its average WGA. Overall, we show both methods are\neffective for model selection, often choosing the same method or mixture ratio as WGA validation."
+          }
+        ],
+        "not_returned_chunk_ids": [],
+        "remaining_chars": 27452,
+        "remaining_read_calls": 10
+      },
+      "seconds": 0.0
+    }
+  ],
+  "abstracts_read": {
+    "neurips-2024/e574db41163e700545ff4114f96b3d7a": "The Area Under the ROC Curve (AUC) is a well-known metric for evaluating instance-level long-tail learning problems. In the past two decades, many AUC optimization methods have been proposed to improve model performance under long-tail distributions. In this paper, we explore AUC optimization methods in the context of pixel-level long-tail semantic segmentation, a much more complicated scenario. This task introduces two major challenges for AUC optimization techniques. On one hand, AUC optimization in a pixel-level task involves complex coupling across loss terms, with structured inner-image and pairwise inter-image dependencies, complicating theoretical analysis. On the other hand, we find that mini-batch estimation of AUC loss in this case requires a larger batch size, resulting in an unaffordable space complexity. To address these issues, we develop a pixel-level AUC loss function and conduct a dependency-graph-based theoretical analysis of the algorithm's generalization ability. Additionally, we design a Tail-Classes Memory Bank (T-Memory Bank) to manage the significant memory demand. Finally, comprehensive experiments across various benchmarks confirm the effectiveness of our proposed AUCSeg method. The code is available at https://github.com/boyuh/AUCSeg.",
+    "neurips-2024/dc4db2ff2c1aefce3b594f821ea82fe6": "Modern machine learning models are prone to over-reliance on spurious correlations, which can often lead to poor performance on minority groups. In this paper, we identify surprising and nuanced behavior of finetuned models on worst-group accuracy via comprehensive experiments on four well-established benchmarks across vision and language tasks. We first show that the commonly used class-balancing techniques of mini-batch upsampling and loss upweighting can induce a decrease in worst-group accuracy (WGA) with training epochs, leading to performance no better than without class-balancing. While in some scenarios, removing data to create a class-balanced subset is more effective, we show this depends on group structure and propose a mixture method which can outperform both techniques. Next, we show that scaling pretrained models is generally beneficial for worst-group accuracy, but only in conjunction with appropriate class-balancing. Finally, we identify spectral imbalance in finetuning features as a potential source of group disparities --- minority group covariance matrices incur a larger spectral norm than majority groups once conditioned on the classes. Our results show more nuanced interactions of modern finetuned models with group robustness than was previously known. Our code is available at https://github.com/tmlabonte/revisiting-finetuning.",
+    "iclr-2025/aqj9ifxrl6": "Machine learning models often have uneven performance among subpopulations\n(a.k.a., groups) in the data distributions. This poses a significant challenge for the\nmodels to generalize when the proportions of the groups shift during deployment.\nTo improve robustness to such shifts, existing approaches have developed strategies\nthat train models or perform hyperparameter tuning using the group-labeled data\nto minimize the worst-case loss over groups. However, a non-trivial amount of\nhigh-quality labels is often required to obtain noticeable improvements. Given\nthe costliness of the labels, we propose to adopt a different paradigm to enhance\ngroup label efficiency: utilizing the group-labeled data as a target set to optimize\nthe weights of other group-unlabeled data. We introduce Group-robust Sample\nReweighting (GSR), a two-stage approach that first learns the representations from\ngroup-unlabeled data, and then tinkers the model by iteratively retraining its last\nlayer on the reweighted data using influence functions. Our GSR is theoretically\nsound, practically lightweight, and effective in improving the robustness to sub-\npopulation shifts. In particular, GSR outperforms the previous state-of-the-art\napproaches that require the same amount or even more group labels. Our code is\navailable at https://github.com/qiaoruiyt/GSR.",
+    "neurips-2024/3f8c7eb848ffec848f3ed2b7ca44915d": "Maximizing the area under the receiver operating characteristic curve (AUC) is a popular approach to imbalanced binary classification problems. Existing AUC maximization methods usually assume that training and test distributions are identical. However, this assumption is often violated in practice due to {\\it a positive distribution shift}, where the negative-conditional density does not change but the positive-conditional density can vary. This shift often occurs in imbalanced classification since positive data are often more diverse and time-varying than negative data. To deal with this shift, we theoretically show that the AUC on the test distribution can be expressed by using the positive and marginal training densities and the marginal test density. Based on this result, we can maximize the AUC on the test distribution by using positive and unlabeled data in the training distribution and unlabeled data in the test distribution. The proposed method requires only positive labels in the training distribution as supervision. Moreover, the derived AUC has a simple form and thus is easy to implement. The effectiveness of the proposed method is shown with four real-world datasets.",
+    "icml-2024/han24g": "Standard empirical risk minimization (ERM) models may prioritize learning spurious correlations between spurious features and true labels, leading to poor accuracy on groups where these correlations do not hold. Mitigating this issue often requires expensive spurious attribute (group) labels or relies on trained ERM models to infer group labels when group information is unavailable. However, the significant performance gap in worst-group accuracy between using pseudo group labels and using oracle group labels inspires us to consider further improving group robustness through preciser group inference. Therefore, we propose GIC, a novel method that accurately infers group labels, resulting in improved worst-group performance. GIC trains a spurious attribute classifier based on two key properties of spurious correlations: (1) high correlation between spurious attributes and true labels, and (2) variability in this correlation between datasets with different group distributions. Empirical studies on multiple datasets demonstrate the effectiveness of GIC in inferring group labels, and combining GIC with various downstream invariant learning methods improves worst-group accuracy, showcasing its powerful flexibility. Additionally, through analyzing the misclassifications in GIC, we identify an interesting phenomenon called semantic consistency, which may contribute to better decoupling the association between spurious attributes and labels, thereby mitigating spurious correlation. The code for GIC is available at https://github.com/yujinhanml/GIC9.",
+    "aaai-2025/150b28ab6b1d5a47f8126f1073afdf668e5bb9f6": "Despite empirical risk minimization (ERM) is widely applied in the machine learning community, its performance is limited on data with spurious correlation or subpopulation that is introduced by hidden attributes. Existing literature proposed techniques to maximize group-balanced or worst-group accuracy when such correlation presents, yet, at the cost of lower average accuracy. In addition, many existing works conduct surveys on different subpopulation methods without revealing the inherent connection between these methods, which could hinder the technology advancement in this area. In this paper, we identify important sampling as a simple yet powerful tool for solving the subpopulation problem. On the theory side, we provide a new systematic formulation of the subpopulation problem, and explicitly identify the assumptions that are not clearly stated in the existing works. This helps to uncover the cause of the dropped average accuracy. We provide the first theoretical discussion on the connections of existing methods, revealing the core components that make them different. On the application side, we demonstrate a single estimator is enough to solve the subpopulation problem. In particular, we introduce the estimator in both attribute-known and -unknown scenarios in the subpopulation setup, offering flexibility in practical use cases. And empirically, we achieve state-of-the-art performance on commonly used benchmark datasets."
+  }
+}

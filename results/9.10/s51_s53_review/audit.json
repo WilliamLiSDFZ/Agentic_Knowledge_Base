@@ -1,0 +1,1455 @@
+{
+  "scores_sha256": "c99fd864c4ef34aac343834e2c0fc7ab6028a77d6c0e166ed69516f0d29f4582",
+  "runs": [
+    {
+      "run": "20260910_022351_jubias-base-s51",
+      "seed": 51,
+      "arm": "A",
+      "journal_sha256": "e5172ab3d59fd0097a3bd6679ff4f14aaa71cf87431d3e8124fe8e103ff4aba2",
+      "config": {
+        "exec": {
+          "timeout": 21600,
+          "agent_file_name": "runfile.py"
+        },
+        "parallel_search_num": 3,
+        "time_limit": 43200,
+        "cpu_number": "8",
+        "initial_drafts": 3,
+        "analogy": {
+          "enabled": false,
+          "draft": false,
+          "improve": true
+        },
+        "fulltext_enabled": false
+      },
+      "started_utc": "2026-09-10T02:23:51",
+      "first_valid_h_from_run_start": null,
+      "outcomes": {
+        "checkpoint": 2,
+        "oom": 2,
+        "timeout": 3
+      },
+      "stages": {
+        "draft": 4,
+        "debug": 3
+      },
+      "completed_nodes": 7,
+      "completed_candidate_hours": 19.573828550510935,
+      "failed_candidate_hours": 19.573828550510935,
+      "scores": [],
+      "nodes": [
+        {
+          "id": "f47afa5e6db7479094394448d138b7a4",
+          "stage": "draft",
+          "branch_id": 3,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T03:15:09",
+          "finish_time": "2026-09-10T03:24:34",
+          "exec_time": 527.9074103832245,
+          "parent_id": "98476651e52e4c2da035272c189ec742",
+          "outcome": "checkpoint",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "0590e4dc3713495faf3bd8b0e32e3d70",
+          "stage": "draft",
+          "branch_id": 2,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T03:04:40",
+          "finish_time": "2026-09-10T03:39:22",
+          "exec_time": 1424.814288854599,
+          "parent_id": "98476651e52e4c2da035272c189ec742",
+          "outcome": "checkpoint",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "fadfbcd6cb884069b1594e8ac2fe11c5",
+          "stage": "debug",
+          "branch_id": 2,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T03:39:37",
+          "finish_time": "2026-09-10T04:06:32",
+          "exec_time": 1600.291847705841,
+          "parent_id": "0590e4dc3713495faf3bd8b0e32e3d70",
+          "outcome": "oom",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "670ce0b509ed44bea969c6a337219082",
+          "stage": "draft",
+          "branch_id": 1,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T02:55:00",
+          "finish_time": "2026-09-10T09:15:30",
+          "exec_time": 21603.898956298828,
+          "parent_id": "98476651e52e4c2da035272c189ec742",
+          "outcome": "timeout",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "068150042147431aa3f08726706665db",
+          "stage": "debug",
+          "branch_id": 3,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T03:24:59",
+          "finish_time": "2026-09-10T09:25:20",
+          "exec_time": 21605.42459154129,
+          "parent_id": "f47afa5e6db7479094394448d138b7a4",
+          "outcome": "timeout",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "f7a48d60a67c49c8b6b91cac0f9cde19",
+          "stage": "debug",
+          "branch_id": 2,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T04:07:37",
+          "finish_time": "2026-09-10T10:07:55",
+          "exec_time": 21605.767510414124,
+          "parent_id": "fadfbcd6cb884069b1594e8ac2fe11c5",
+          "outcome": "timeout",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "52b4b441b61b4307afb898ff08927109",
+          "stage": "draft",
+          "branch_id": 4,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T10:18:53",
+          "finish_time": "2026-09-10T10:54:06",
+          "exec_time": 2097.6781766414642,
+          "parent_id": "98476651e52e4c2da035272c189ec742",
+          "outcome": "oom",
+          "report_titles": [],
+          "report_evidence": []
+        }
+      ],
+      "analogy_calls": []
+    },
+    {
+      "run": "20260910_022413_jubias-base-s53",
+      "seed": 53,
+      "arm": "A",
+      "journal_sha256": "ede8294c2d3bab1c1156a4bb5a647d9767f5bf14073b8db39012faf4876f28a9",
+      "config": {
+        "exec": {
+          "timeout": 21600,
+          "agent_file_name": "runfile.py"
+        },
+        "parallel_search_num": 3,
+        "time_limit": 43200,
+        "cpu_number": "8",
+        "initial_drafts": 3,
+        "analogy": {
+          "enabled": false,
+          "draft": false,
+          "improve": true
+        },
+        "fulltext_enabled": false
+      },
+      "started_utc": "2026-09-10T02:24:14",
+      "first_valid_h_from_run_start": 10.82611111111111,
+      "outcomes": {
+        "checkpoint": 1,
+        "oom": 1,
+        "timeout": 3,
+        "AttributeError": 1,
+        "valid": 1
+      },
+      "stages": {
+        "draft": 3,
+        "debug": 4
+      },
+      "completed_nodes": 7,
+      "completed_candidate_hours": 22.28924331466357,
+      "failed_candidate_hours": 19.003559156987404,
+      "scores": [
+        {
+          "run": "20260910_022413_jubias-base-s53",
+          "competition": "jigsaw-unintended-bias-in-toxicity-classification",
+          "variant": "capped",
+          "k": "1",
+          "cum_hours": "3.29",
+          "score": "0.75985",
+          "medal": "-",
+          "lower_better": "0",
+          "file": "top1ens-total_run_time3.29h.csv",
+          "note": "",
+          "metric_version": "jubias-continuous-auc-v1",
+          "grader_sha256": "000e216bc0faea8041e11a7f4dccc873e84f18c9d0a27f00bf5ebddb7b0dcd61",
+          "mlebench_version": "1.0.0",
+          "mlebench_commit": ""
+        }
+      ],
+      "nodes": [
+        {
+          "id": "6099841d55d8442b850586a387369c06",
+          "stage": "draft",
+          "branch_id": 2,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T03:02:55",
+          "finish_time": "2026-09-10T03:21:56",
+          "exec_time": 483.6482558250427,
+          "parent_id": "9b386e78e5684ffcbb980e9d07f0956c",
+          "outcome": "checkpoint",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "8aba9aafd04045d8a2daa981fee5f23a",
+          "stage": "draft",
+          "branch_id": 1,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T02:54:13",
+          "finish_time": "2026-09-10T03:53:11",
+          "exec_time": 2371.3466041088104,
+          "parent_id": "9b386e78e5684ffcbb980e9d07f0956c",
+          "outcome": "oom",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "98b302aede904490860454bf123fc520",
+          "stage": "draft",
+          "branch_id": 3,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T03:13:26",
+          "finish_time": "2026-09-10T09:14:07",
+          "exec_time": 21606.044389486313,
+          "parent_id": "9b386e78e5684ffcbb980e9d07f0956c",
+          "outcome": "timeout",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "b5a111a91ab443bf8a79e72895d4a341",
+          "stage": "debug",
+          "branch_id": 2,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T03:22:10",
+          "finish_time": "2026-09-10T09:22:33",
+          "exec_time": 21606.21106505394,
+          "parent_id": "6099841d55d8442b850586a387369c06",
+          "outcome": "timeout",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "081533b9cfd64ff08f78b157103dfe0d",
+          "stage": "debug",
+          "branch_id": 2,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T09:24:22",
+          "finish_time": "2026-09-10T09:37:00",
+          "exec_time": 738.7771556377411,
+          "parent_id": "b5a111a91ab443bf8a79e72895d4a341",
+          "outcome": "AttributeError",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "e147e143e9924e18ae326501cb721f4d",
+          "stage": "debug",
+          "branch_id": 1,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T03:54:21",
+          "finish_time": "2026-09-10T09:54:40",
+          "exec_time": 21606.7854950428,
+          "parent_id": "8aba9aafd04045d8a2daa981fee5f23a",
+          "outcome": "timeout",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "683d0c038fb7433daf368db95aac82a5",
+          "stage": "debug",
+          "branch_id": 1,
+          "metric": {
+            "value": 0.7667605122732013,
+            "maximize": true
+          },
+          "created_time": "2026-09-10T09:56:18",
+          "finish_time": "2026-09-10T13:13:48",
+          "exec_time": 11828.462967634201,
+          "parent_id": "e147e143e9924e18ae326501cb721f4d",
+          "outcome": "valid",
+          "report_titles": [],
+          "report_evidence": []
+        }
+      ],
+      "analogy_calls": []
+    },
+    {
+      "run": "20260910_022912_jubias-anaf-s53",
+      "seed": 53,
+      "arm": "F",
+      "journal_sha256": "9c2835e314c6b552a1ff787d85d49b718f77d1ee9cb477d80333f7ef201d1b03",
+      "config": {
+        "exec": {
+          "timeout": 21600,
+          "agent_file_name": "runfile.py"
+        },
+        "parallel_search_num": 3,
+        "time_limit": 43200,
+        "cpu_number": "8",
+        "initial_drafts": 3,
+        "analogy": {
+          "enabled": true,
+          "draft": true,
+          "improve": true
+        },
+        "fulltext_enabled": true
+      },
+      "started_utc": "2026-09-10T02:29:13",
+      "first_valid_h_from_run_start": 9.539444444444445,
+      "outcomes": {
+        "oom": 3,
+        "timeout": 3,
+        "valid": 1
+      },
+      "stages": {
+        "draft": 3,
+        "debug": 4
+      },
+      "completed_nodes": 7,
+      "completed_candidate_hours": 21.682885643641153,
+      "failed_candidate_hours": 19.53594739317894,
+      "scores": [
+        {
+          "run": "20260910_022912_jubias-anaf-s53",
+          "competition": "jigsaw-unintended-bias-in-toxicity-classification",
+          "variant": "capped",
+          "k": "1",
+          "cum_hours": "2.15",
+          "score": "0.79637",
+          "medal": "-",
+          "lower_better": "0",
+          "file": "top1ens-total_run_time2.15h.csv",
+          "note": "",
+          "metric_version": "jubias-continuous-auc-v1",
+          "grader_sha256": "000e216bc0faea8041e11a7f4dccc873e84f18c9d0a27f00bf5ebddb7b0dcd61",
+          "mlebench_version": "1.0.0",
+          "mlebench_commit": ""
+        }
+      ],
+      "nodes": [
+        {
+          "id": "1d2e0137209247008316040c06058248",
+          "stage": "draft",
+          "branch_id": 3,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T03:21:54",
+          "finish_time": "2026-09-10T03:49:09",
+          "exec_time": 1600.0112535953522,
+          "parent_id": "5db73dbcfe5948f59e6eb5618e1fbf51",
+          "outcome": "oom",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "3d398d3c09684090adb4e101cc4e077c",
+          "stage": "draft",
+          "branch_id": 1,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T02:56:34",
+          "finish_time": "2026-09-10T04:03:28",
+          "exec_time": 2480.2785959243774,
+          "parent_id": "5db73dbcfe5948f59e6eb5618e1fbf51",
+          "outcome": "oom",
+          "report_titles": [
+            "Mixture balancing rather than repeated minority oversampling"
+          ],
+          "report_evidence": [
+            "abstract_only"
+          ]
+        },
+        {
+          "id": "31420c457ea347c8ae9db613d7bffa16",
+          "stage": "debug",
+          "branch_id": 1,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T04:04:16",
+          "finish_time": "2026-09-10T04:28:21",
+          "exec_time": 1431.5389716625214,
+          "parent_id": "3d398d3c09684090adb4e101cc4e077c",
+          "outcome": "oom",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "a3a1bae6b466406fb356045a362db453",
+          "stage": "draft",
+          "branch_id": 2,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T03:07:44",
+          "finish_time": "2026-09-10T09:22:26",
+          "exec_time": 21605.804082632065,
+          "parent_id": "5db73dbcfe5948f59e6eb5618e1fbf51",
+          "outcome": "timeout",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "648651bcf0a74e56b849316c08228f5b",
+          "stage": "debug",
+          "branch_id": 3,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T03:49:58",
+          "finish_time": "2026-09-10T09:50:21",
+          "exec_time": 21605.955213546753,
+          "parent_id": "1d2e0137209247008316040c06058248",
+          "outcome": "timeout",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "3d7d33a2797c414eb809ae73e113a24a",
+          "stage": "debug",
+          "branch_id": 1,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T04:28:45",
+          "finish_time": "2026-09-10T10:29:03",
+          "exec_time": 21605.822498083115,
+          "parent_id": "31420c457ea347c8ae9db613d7bffa16",
+          "outcome": "timeout",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "d413a2852b444c7b9485d59fbffc5af9",
+          "stage": "debug",
+          "branch_id": 3,
+          "metric": {
+            "value": 0.8089223383863738,
+            "maximize": true
+          },
+          "created_time": "2026-09-10T09:52:24",
+          "finish_time": "2026-09-10T12:01:35",
+          "exec_time": 7728.977701663971,
+          "parent_id": "648651bcf0a74e56b849316c08228f5b",
+          "outcome": "valid",
+          "report_titles": [],
+          "report_evidence": []
+        }
+      ],
+      "analogy_calls": [
+        {
+          "parent_id": "draft",
+          "invocation": 1,
+          "trace": "draft_001.md",
+          "ok": true,
+          "reason": "",
+          "turns": 6,
+          "n_queries": 14,
+          "queries": [
+            "partial AUC optimization fairness",
+            "group conditional AUC ranking",
+            "worst group ranking loss",
+            "pairwise ranking subgroup robustness",
+            "spurious correlation group robustness",
+            "group invariant risk minimization",
+            "counterfactual invariance shortcut learning",
+            "worst group distributionally robust optimization",
+            "rare group stratified minibatch sampling",
+            "long tail group reweighting",
+            "distributionally robust minibatch optimization",
+            "AUC margin loss imbalanced classification",
+            "group DRO spurious correlations finetuning",
+            "subpopulation shift sample reweighting"
+          ],
+          "paper_ids": [
+            "neurips-2024/dc4db2ff2c1aefce3b594f821ea82fe6"
+          ],
+          "report_chars": 5582,
+          "in_tokens": 111166,
+          "out_tokens": 6725,
+          "seconds": 185.7,
+          "corpus": "5cd1d5e7afd0",
+          "fulltext_enabled": true,
+          "fulltext_trace": "draft_001.fulltext.json",
+          "fulltext_body_chars": 12548,
+          "fulltext_papers_opened": 2,
+          "fulltext_read_calls": 2,
+          "stage": "draft",
+          "branch_id": null,
+          "parent_metric": null,
+          "rendered_evidence_levels": [
+            "abstract_only"
+          ],
+          "download_attempts": {
+            "neurips-2024/e574db41163e700545ff4114f96b3d7a": "ok",
+            "neurips-2024/dc4db2ff2c1aefce3b594f821ea82fe6": "ok",
+            "iclr-2025/aqj9ifxrl6": "download_error"
+          },
+          "read_paper_ids": [
+            "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+            "neurips-2024/dc4db2ff2c1aefce3b594f821ea82fe6"
+          ],
+          "generated_child_ids": [],
+          "completed_child_ids": []
+        },
+        {
+          "parent_id": "d413a2852b444c7b9485d59fbffc5af9",
+          "invocation": 2,
+          "trace": "d413a2852b444c7b9485d59fbffc5af9_002.md",
+          "ok": true,
+          "reason": "",
+          "turns": 6,
+          "n_queries": 15,
+          "queries": [
+            "group distributionally robust optimization",
+            "worst group risk minimization",
+            "tail risk group fairness",
+            "groupwise ranking optimization",
+            "counterfactual invariance consistency regularization",
+            "contrastive invariant representation nuisance",
+            "counterfactual logit consistency",
+            "adversarial invariant representation learning",
+            "parameter efficient debiasing adapters",
+            "selective fine tuning spurious correlation",
+            "representation adaptation group robustness",
+            "low rank adaptation fairness",
+            "counterfactual fairness consistency loss",
+            "paired augmentation prediction consistency",
+            "group DRO parameter efficient tuning"
+          ],
+          "paper_ids": [
+            "acl-2025/2025acl-long469",
+            "iclr-2025/aqj9ifxrl6",
+            "icml-2024/phan24b",
+            "naacl-2024/2024findings-naacl38",
+            "neurips-2024/558da25ef295121e2d79209a95e45436"
+          ],
+          "report_chars": 5112,
+          "in_tokens": 105157,
+          "out_tokens": 4902,
+          "seconds": 182.7,
+          "corpus": "5cd1d5e7afd0",
+          "fulltext_enabled": true,
+          "fulltext_trace": "d413a2852b444c7b9485d59fbffc5af9_002.fulltext.json",
+          "fulltext_body_chars": 7892,
+          "fulltext_papers_opened": 1,
+          "fulltext_read_calls": 1,
+          "stage": "improve",
+          "branch_id": 3,
+          "parent_metric": 0.8089223383863738,
+          "rendered_evidence_levels": [
+            "abstract_only"
+          ],
+          "download_attempts": {
+            "icml-2024/phan24b": "timeout",
+            "acl-2025/2025acl-long469": "ok",
+            "iclr-2025/aqj9ifxrl6": "download_error"
+          },
+          "read_paper_ids": [
+            "acl-2025/2025acl-long469"
+          ],
+          "generated_child_ids": [
+            "78615c5930724880b565e3729b19fe9f"
+          ],
+          "completed_child_ids": []
+        }
+      ]
+    },
+    {
+      "run": "20260910_022943_jubias-anaf-s52",
+      "seed": 52,
+      "arm": "F",
+      "journal_sha256": "48a306a9765293f9bdd3bff3ece16c1ea68dd2db03654ce2f4daa7b6d36a9b00",
+      "config": {
+        "exec": {
+          "timeout": 21600,
+          "agent_file_name": "runfile.py"
+        },
+        "parallel_search_num": 3,
+        "time_limit": 43200,
+        "cpu_number": "8",
+        "initial_drafts": 3,
+        "analogy": {
+          "enabled": true,
+          "draft": true,
+          "improve": true
+        },
+        "fulltext_enabled": true
+      },
+      "started_utc": "2026-09-10T02:29:43",
+      "first_valid_h_from_run_start": 9.745555555555555,
+      "outcomes": {
+        "checkpoint": 1,
+        "oom": 1,
+        "timeout": 3,
+        "valid": 1
+      },
+      "stages": {
+        "draft": 3,
+        "debug": 3
+      },
+      "completed_nodes": 6,
+      "completed_candidate_hours": 21.063587122095957,
+      "failed_candidate_hours": 18.561978318691253,
+      "scores": [
+        {
+          "run": "20260910_022943_jubias-anaf-s52",
+          "competition": "jigsaw-unintended-bias-in-toxicity-classification",
+          "variant": "capped",
+          "k": "1",
+          "cum_hours": "2.5",
+          "score": "0.91712",
+          "medal": "-",
+          "lower_better": "0",
+          "file": "top1ens-total_run_time2.5h.csv",
+          "note": "",
+          "metric_version": "jubias-continuous-auc-v1",
+          "grader_sha256": "000e216bc0faea8041e11a7f4dccc873e84f18c9d0a27f00bf5ebddb7b0dcd61",
+          "mlebench_version": "1.0.0",
+          "mlebench_commit": ""
+        }
+      ],
+      "nodes": [
+        {
+          "id": "fedfe4845e24498596e122e4e1e35155",
+          "stage": "draft",
+          "branch_id": 2,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T03:05:10",
+          "finish_time": "2026-09-10T03:21:36",
+          "exec_time": 376.49348497390747,
+          "parent_id": "7295261ae2ab40e8b772b3507962ceb7",
+          "outcome": "checkpoint",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "c045ae50a1594d1a82aaeac316a862f5",
+          "stage": "draft",
+          "branch_id": 1,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T02:55:57",
+          "finish_time": "2026-09-10T03:42:15",
+          "exec_time": 1628.478594303131,
+          "parent_id": "7295261ae2ab40e8b772b3507962ceb7",
+          "outcome": "oom",
+          "report_titles": [
+            "Known-attribute importance weighting against a label–attribute shortcut"
+          ],
+          "report_evidence": [
+            "full_text"
+          ]
+        },
+        {
+          "id": "c84551911dc149dea5440dad19965f21",
+          "stage": "draft",
+          "branch_id": 3,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T03:14:54",
+          "finish_time": "2026-09-10T09:15:36",
+          "exec_time": 21605.994283914566,
+          "parent_id": "7295261ae2ab40e8b772b3507962ceb7",
+          "outcome": "timeout",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "7d08349335134d04abedae44dc030bbd",
+          "stage": "debug",
+          "branch_id": 2,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T03:21:45",
+          "finish_time": "2026-09-10T09:22:11",
+          "exec_time": 21606.115312099457,
+          "parent_id": "fedfe4845e24498596e122e4e1e35155",
+          "outcome": "timeout",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "7d4be756747548edb21f4f6e2f129961",
+          "stage": "debug",
+          "branch_id": 1,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T03:42:33",
+          "finish_time": "2026-09-10T09:42:53",
+          "exec_time": 21606.04027199745,
+          "parent_id": "c045ae50a1594d1a82aaeac316a862f5",
+          "outcome": "timeout",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "214ea756b0e243f694a12bbbc031e64e",
+          "stage": "debug",
+          "branch_id": 1,
+          "metric": {
+            "value": 0.9199588993558928,
+            "maximize": true
+          },
+          "created_time": "2026-09-10T09:44:03",
+          "finish_time": "2026-09-10T12:14:27",
+          "exec_time": 9005.791692256927,
+          "parent_id": "7d4be756747548edb21f4f6e2f129961",
+          "outcome": "valid",
+          "report_titles": [],
+          "report_evidence": []
+        }
+      ],
+      "analogy_calls": [
+        {
+          "parent_id": "draft",
+          "invocation": 1,
+          "trace": "draft_001.md",
+          "ok": true,
+          "reason": "",
+          "turns": 5,
+          "n_queries": 15,
+          "queries": [
+            "worst group risk optimization",
+            "group DRO classification",
+            "AUC subgroup fairness surrogate",
+            "pairwise ranking equalized odds",
+            "soft labels annotator disagreement",
+            "crowd label uncertainty learning",
+            "label distribution learning ranking",
+            "ambiguous labels confidence weighting",
+            "rare group stratified sampling",
+            "importance sampling group robustness",
+            "coreset worst group optimization",
+            "efficient group DRO minibatch",
+            "group robust AUC optimization",
+            "fairness pairwise AUC optimization",
+            "spurious correlation resampling disagreement"
+          ],
+          "paper_ids": [
+            "aaai-2025/150b28ab6b1d5a47f8126f1073afdf668e5bb9f6"
+          ],
+          "report_chars": 5551,
+          "in_tokens": 93807,
+          "out_tokens": 4340,
+          "seconds": 137.9,
+          "corpus": "5cd1d5e7afd0",
+          "fulltext_enabled": true,
+          "fulltext_trace": "draft_001.fulltext.json",
+          "fulltext_body_chars": 18370,
+          "fulltext_papers_opened": 3,
+          "fulltext_read_calls": 3,
+          "stage": "draft",
+          "branch_id": null,
+          "parent_metric": null,
+          "rendered_evidence_levels": [
+            "full_text"
+          ],
+          "download_attempts": {
+            "neurips-2024/ac4c13a5c6ec1bba68c9ce1d908321d2": "ok",
+            "neurips-2024/879c5890a9d2ecdcb590c9674cda4a59": "ok",
+            "aaai-2025/150b28ab6b1d5a47f8126f1073afdf668e5bb9f6": "ok"
+          },
+          "read_paper_ids": [
+            "neurips-2024/ac4c13a5c6ec1bba68c9ce1d908321d2",
+            "neurips-2024/879c5890a9d2ecdcb590c9674cda4a59",
+            "aaai-2025/150b28ab6b1d5a47f8126f1073afdf668e5bb9f6"
+          ],
+          "generated_child_ids": [],
+          "completed_child_ids": []
+        },
+        {
+          "parent_id": "214ea756b0e243f694a12bbbc031e64e",
+          "invocation": 2,
+          "trace": "214ea756b0e243f694a12bbbc031e64e_002.md",
+          "ok": true,
+          "reason": "",
+          "turns": 6,
+          "n_queries": 11,
+          "queries": [
+            "AUC optimization pairwise ranking",
+            "groupwise ranking fairness AUC",
+            "generalized mean worst group optimization",
+            "counterfactual invariance data augmentation",
+            "counterfactual fairness identity substitution",
+            "invariant prediction contrastive consistency",
+            "group distributionally robust optimization",
+            "worst group risk minimization",
+            "adaptive group reweighting fairness",
+            "pairwise AUC fairness optimization",
+            "counterfactual consistency regularization classifier"
+          ],
+          "paper_ids": [
+            "iclr-2024/rxvbkhyfso",
+            "iclr-2025/aqj9ifxrl6",
+            "naacl-2024/2024findings-naacl38"
+          ],
+          "report_chars": 6363,
+          "in_tokens": 88867,
+          "out_tokens": 6363,
+          "seconds": 198.7,
+          "corpus": "5cd1d5e7afd0",
+          "fulltext_enabled": true,
+          "fulltext_trace": "214ea756b0e243f694a12bbbc031e64e_002.fulltext.json",
+          "fulltext_body_chars": 0,
+          "fulltext_papers_opened": 0,
+          "fulltext_read_calls": 0,
+          "stage": "improve",
+          "branch_id": 1,
+          "parent_metric": 0.9199588993558928,
+          "rendered_evidence_levels": [
+            "abstract_only",
+            "abstract_only"
+          ],
+          "download_attempts": {
+            "iclr-2024/rxvbkhyfso": "download_error",
+            "iclr-2025/aqj9ifxrl6": "download_error",
+            "naacl-2024/2024findings-naacl38": "timeout"
+          },
+          "read_paper_ids": [],
+          "generated_child_ids": [
+            "b75be37b97f74dd8aa84544b4230a44a"
+          ],
+          "completed_child_ids": []
+        }
+      ]
+    },
+    {
+      "run": "20260910_022953_jubias-base-s52",
+      "seed": 52,
+      "arm": "A",
+      "journal_sha256": "35c28c9d509bea71997ead976d081672332859422500219ed2e4a33fb2de06b6",
+      "config": {
+        "exec": {
+          "timeout": 21600,
+          "agent_file_name": "runfile.py"
+        },
+        "parallel_search_num": 3,
+        "time_limit": 43200,
+        "cpu_number": "8",
+        "initial_drafts": 3,
+        "analogy": {
+          "enabled": false,
+          "draft": false,
+          "improve": true
+        },
+        "fulltext_enabled": false
+      },
+      "started_utc": "2026-09-10T02:29:53",
+      "first_valid_h_from_run_start": 10.231111111111112,
+      "outcomes": {
+        "checkpoint": 2,
+        "oom": 1,
+        "timeout": 3,
+        "valid": 1
+      },
+      "stages": {
+        "draft": 3,
+        "debug": 4
+      },
+      "completed_nodes": 7,
+      "completed_candidate_hours": 22.461156140963237,
+      "failed_candidate_hours": 20.00207072887156,
+      "scores": [
+        {
+          "run": "20260910_022953_jubias-base-s52",
+          "competition": "jigsaw-unintended-bias-in-toxicity-classification",
+          "variant": "capped",
+          "k": "1",
+          "cum_hours": "2.46",
+          "score": "0.93478",
+          "medal": "above-med",
+          "lower_better": "0",
+          "file": "top1ens-total_run_time2.46h.csv",
+          "note": "",
+          "metric_version": "jubias-continuous-auc-v1",
+          "grader_sha256": "000e216bc0faea8041e11a7f4dccc873e84f18c9d0a27f00bf5ebddb7b0dcd61",
+          "mlebench_version": "1.0.0",
+          "mlebench_commit": ""
+        }
+      ],
+      "nodes": [
+        {
+          "id": "49dba0c7ec1a4763a7ebd257f68dfab4",
+          "stage": "draft",
+          "branch_id": 2,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T03:18:01",
+          "finish_time": "2026-09-10T04:14:34",
+          "exec_time": 2653.6938240528107,
+          "parent_id": "880ef05c557f48769c343bc7b9abf0f8",
+          "outcome": "checkpoint",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "22fb5e2e388449ecacbbe35ea923bc38",
+          "stage": "draft",
+          "branch_id": 3,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T03:29:56",
+          "finish_time": "2026-09-10T04:19:39",
+          "exec_time": 2947.3521614074707,
+          "parent_id": "880ef05c557f48769c343bc7b9abf0f8",
+          "outcome": "checkpoint",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "ef5fe7ebc61c4ccab2324f78eb936e9e",
+          "stage": "debug",
+          "branch_id": 3,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T04:20:21",
+          "finish_time": "2026-09-10T04:47:07",
+          "exec_time": 1589.6703653335571,
+          "parent_id": "22fb5e2e388449ecacbbe35ea923bc38",
+          "outcome": "oom",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "13f8a4526f79414b83447057e24b56f3",
+          "stage": "draft",
+          "branch_id": 1,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T03:06:37",
+          "finish_time": "2026-09-10T09:30:19",
+          "exec_time": 21606.455199718475,
+          "parent_id": "880ef05c557f48769c343bc7b9abf0f8",
+          "outcome": "timeout",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "977fa3cb9dd944bb99c440b9a6f89f70",
+          "stage": "debug",
+          "branch_id": 2,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T04:14:49",
+          "finish_time": "2026-09-10T10:15:08",
+          "exec_time": 21604.243982553482,
+          "parent_id": "49dba0c7ec1a4763a7ebd257f68dfab4",
+          "outcome": "timeout",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "f5465a97998249689ef20df90ebf394d",
+          "stage": "debug",
+          "branch_id": 3,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T04:48:02",
+          "finish_time": "2026-09-10T10:48:24",
+          "exec_time": 21606.03909087181,
+          "parent_id": "ef5fe7ebc61c4ccab2324f78eb936e9e",
+          "outcome": "timeout",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "4c05b72c83b5471ea8ba3c5e2dd7923a",
+          "stage": "debug",
+          "branch_id": 2,
+          "metric": {
+            "value": 0.9333662638523779,
+            "maximize": true
+          },
+          "created_time": "2026-09-10T10:15:51",
+          "finish_time": "2026-09-10T12:43:45",
+          "exec_time": 8852.707483530045,
+          "parent_id": "977fa3cb9dd944bb99c440b9a6f89f70",
+          "outcome": "valid",
+          "report_titles": [],
+          "report_evidence": []
+        }
+      ],
+      "analogy_calls": []
+    },
+    {
+      "run": "20260910_023628_jubias-anaf-s51",
+      "seed": 51,
+      "arm": "F",
+      "journal_sha256": "d486f36ff99ec9500cd08ac4bd126511ea11bf5e8bcda2d0582641f9e2d3a160",
+      "config": {
+        "exec": {
+          "timeout": 21600,
+          "agent_file_name": "runfile.py"
+        },
+        "parallel_search_num": 3,
+        "time_limit": 43200,
+        "cpu_number": "8",
+        "initial_drafts": 3,
+        "analogy": {
+          "enabled": true,
+          "draft": true,
+          "improve": true
+        },
+        "fulltext_enabled": true
+      },
+      "started_utc": "2026-09-10T02:36:29",
+      "first_valid_h_from_run_start": 10.993611111111111,
+      "outcomes": {
+        "oom": 2,
+        "timeout": 3,
+        "valid": 2
+      },
+      "stages": {
+        "draft": 3,
+        "debug": 4
+      },
+      "completed_nodes": 7,
+      "completed_candidate_hours": 26.97403816110558,
+      "failed_candidate_hours": 19.703463638557327,
+      "scores": [
+        {
+          "run": "20260910_023628_jubias-anaf-s51",
+          "competition": "jigsaw-unintended-bias-in-toxicity-classification",
+          "variant": "capped",
+          "k": "1",
+          "cum_hours": "4.18",
+          "score": "0.92207",
+          "medal": "-",
+          "lower_better": "0",
+          "file": "top1ens-total_run_time4.18h.csv",
+          "note": "",
+          "metric_version": "jubias-continuous-auc-v1",
+          "grader_sha256": "000e216bc0faea8041e11a7f4dccc873e84f18c9d0a27f00bf5ebddb7b0dcd61",
+          "mlebench_version": "1.0.0",
+          "mlebench_commit": ""
+        },
+        {
+          "run": "20260910_023628_jubias-anaf-s51",
+          "competition": "jigsaw-unintended-bias-in-toxicity-classification",
+          "variant": "capped",
+          "k": "2",
+          "cum_hours": "7.27",
+          "score": "0.92747",
+          "medal": "-",
+          "lower_better": "0",
+          "file": "top2ens-total_run_time7.27h.csv",
+          "note": "",
+          "metric_version": "jubias-continuous-auc-v1",
+          "grader_sha256": "000e216bc0faea8041e11a7f4dccc873e84f18c9d0a27f00bf5ebddb7b0dcd61",
+          "mlebench_version": "1.0.0",
+          "mlebench_commit": ""
+        }
+      ],
+      "nodes": [
+        {
+          "id": "df55b07104ac4aa381fef455c5651f18",
+          "stage": "draft",
+          "branch_id": 3,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T03:41:04",
+          "finish_time": "2026-09-10T04:27:58",
+          "exec_time": 2780.312240123749,
+          "parent_id": "a5c3ce1436df45e6a0b629f2e0a1f561",
+          "outcome": "oom",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "e3ac38c878ff4b989200740aff57247a",
+          "stage": "draft",
+          "branch_id": 1,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T03:13:39",
+          "finish_time": "2026-09-10T04:36:51",
+          "exec_time": 3333.7865743637085,
+          "parent_id": "a5c3ce1436df45e6a0b629f2e0a1f561",
+          "outcome": "oom",
+          "report_titles": [
+            "Stratified pairwise AUC surrogate with a bounded negative memory"
+          ],
+          "report_evidence": [
+            "abstract_only"
+          ]
+        },
+        {
+          "id": "11c7f08185ff46ed815a59f22fbb3db1",
+          "stage": "draft",
+          "branch_id": 2,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T03:27:08",
+          "finish_time": "2026-09-10T09:41:35",
+          "exec_time": 21606.069294929504,
+          "parent_id": "a5c3ce1436df45e6a0b629f2e0a1f561",
+          "outcome": "timeout",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "bb86bba208314a8d947966d5fd33b043",
+          "stage": "debug",
+          "branch_id": 3,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T04:28:58",
+          "finish_time": "2026-09-10T10:29:17",
+          "exec_time": 21606.12929391861,
+          "parent_id": "df55b07104ac4aa381fef455c5651f18",
+          "outcome": "timeout",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "77ff443c80bf484fa4af16c7424949ed",
+          "stage": "debug",
+          "branch_id": 1,
+          "metric": {
+            "value": null,
+            "maximize": null
+          },
+          "created_time": "2026-09-10T04:37:56",
+          "finish_time": "2026-09-10T10:38:16",
+          "exec_time": 21606.17169547081,
+          "parent_id": "e3ac38c878ff4b989200740aff57247a",
+          "outcome": "timeout",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "5744128cb2af4306ad7f4903637396d4",
+          "stage": "debug",
+          "branch_id": 3,
+          "metric": {
+            "value": 0.9231013484257807,
+            "maximize": true
+          },
+          "created_time": "2026-09-10T10:30:06",
+          "finish_time": "2026-09-10T13:36:06",
+          "exec_time": 11135.36068892479,
+          "parent_id": "bb86bba208314a8d947966d5fd33b043",
+          "outcome": "valid",
+          "report_titles": [],
+          "report_evidence": []
+        },
+        {
+          "id": "4b092807606d4560b0fa29681a0e4d8b",
+          "stage": "debug",
+          "branch_id": 2,
+          "metric": {
+            "value": 0.924526195072742,
+            "maximize": true
+          },
+          "created_time": "2026-09-10T09:43:10",
+          "finish_time": "2026-09-10T13:54:14",
+          "exec_time": 15038.707592248917,
+          "parent_id": "11c7f08185ff46ed815a59f22fbb3db1",
+          "outcome": "valid",
+          "report_titles": [],
+          "report_evidence": []
+        }
+      ],
+      "analogy_calls": [
+        {
+          "parent_id": "draft",
+          "invocation": 1,
+          "trace": "draft_001.md",
+          "ok": true,
+          "reason": "",
+          "turns": 5,
+          "n_queries": 15,
+          "queries": [
+            "subgroup robust AUC optimization",
+            "worst group ranking loss",
+            "generalized mean group fairness",
+            "cross group pairwise ranking",
+            "privileged information fairness training",
+            "training time group labels fairness",
+            "attribute aware robust optimization",
+            "group DRO conditional risk",
+            "minority group importance sampling",
+            "adaptive sampling worst group",
+            "rare strata balanced minibatch",
+            "distributionally robust data selection",
+            "group DRO balanced sampling spurious correlation",
+            "AUC pairwise loss subgroup fairness",
+            "groupwise ranking optimization fairness"
+          ],
+          "paper_ids": [
+            "neurips-2024/dc4db2ff2c1aefce3b594f821ea82fe6",
+            "neurips-2024/e574db41163e700545ff4114f96b3d7a"
+          ],
+          "report_chars": 5294,
+          "in_tokens": 81941,
+          "out_tokens": 4346,
+          "seconds": 164.8,
+          "corpus": "5cd1d5e7afd0",
+          "fulltext_enabled": true,
+          "fulltext_trace": "draft_001.fulltext.json",
+          "fulltext_body_chars": 7065,
+          "fulltext_papers_opened": 1,
+          "fulltext_read_calls": 1,
+          "stage": "draft",
+          "branch_id": null,
+          "parent_metric": null,
+          "rendered_evidence_levels": [
+            "abstract_only"
+          ],
+          "download_attempts": {
+            "neurips-2024/dc4db2ff2c1aefce3b594f821ea82fe6": "ok",
+            "iclr-2025/aqj9ifxrl6": "download_error",
+            "neurips-2024/fba9133d7fa896ab9414ddd1a6b1ecbf": "timeout"
+          },
+          "read_paper_ids": [
+            "neurips-2024/dc4db2ff2c1aefce3b594f821ea82fe6"
+          ],
+          "generated_child_ids": [],
+          "completed_child_ids": []
+        },
+        {
+          "parent_id": "5744128cb2af4306ad7f4903637396d4",
+          "invocation": 2,
+          "trace": "5744128cb2af4306ad7f4903637396d4_002.md",
+          "ok": true,
+          "reason": "",
+          "turns": 5,
+          "n_queries": 16,
+          "queries": [
+            "AUC optimization pairwise ranking",
+            "worst group risk optimization",
+            "tail performance ranking loss",
+            "harmonic mean subgroup optimization",
+            "conditional invariance adversarial representation",
+            "counterfactual fairness representation learning",
+            "spurious correlation invariant prediction",
+            "shortcut removal adversarial debiasing",
+            "partially observed group robust learning",
+            "missing sensitive attributes fairness",
+            "latent group distributionally robust optimization",
+            "selective labels group calibration",
+            "minimax AUC group fairness",
+            "worst group AUC optimization",
+            "conditional mutual information spurious correlation",
+            "group labels spurious correlation inference"
+          ],
+          "paper_ids": [
+            "icml-2024/han24g"
+          ],
+          "report_chars": 4284,
+          "in_tokens": 81476,
+          "out_tokens": 5698,
+          "seconds": 244.7,
+          "corpus": "5cd1d5e7afd0",
+          "fulltext_enabled": true,
+          "fulltext_trace": "5744128cb2af4306ad7f4903637396d4_002.fulltext.json",
+          "fulltext_body_chars": 0,
+          "fulltext_papers_opened": 0,
+          "fulltext_read_calls": 0,
+          "stage": "improve",
+          "branch_id": 3,
+          "parent_metric": 0.9231013484257807,
+          "rendered_evidence_levels": [
+            "abstract_only"
+          ],
+          "download_attempts": {
+            "icml-2024/han24g": "timeout",
+            "iclr-2024/xnhvvtztld": "download_error",
+            "icml-2024/zhang24aw": "timeout"
+          },
+          "read_paper_ids": [],
+          "generated_child_ids": [
+            "12680229ee9e422982e90c24d501fadd"
+          ],
+          "completed_child_ids": []
+        },
+        {
+          "parent_id": "4b092807606d4560b0fa29681a0e4d8b",
+          "invocation": 3,
+          "trace": "4b092807606d4560b0fa29681a0e4d8b_003.md",
+          "ok": true,
+          "reason": "",
+          "turns": 5,
+          "n_queries": 16,
+          "queries": [
+            "worst group risk optimization",
+            "generalized mean fairness objective",
+            "AUC ranking group robustness",
+            "distributionally robust subgroup classification",
+            "conditional fairness adversarial representation",
+            "spurious correlation conditional invariance",
+            "counterfactual invariant representation learning",
+            "equalized odds adversarial learning",
+            "partial group labels robust learning",
+            "latent group distributionally robust",
+            "missing sensitive attribute fairness",
+            "group uncertainty robust optimization",
+            "group DRO pairwise ranking AUC",
+            "worst group AUC maximization",
+            "conditional adversarial debiasing label conditioned",
+            "fairness representation label conditional independence"
+          ],
+          "paper_ids": [
+            "iclr-2024/xnhvvtztld",
+            "iclr-2025/aqj9ifxrl6",
+            "icml-2024/han24g"
+          ],
+          "report_chars": 5034,
+          "in_tokens": 83349,
+          "out_tokens": 4550,
+          "seconds": 114.9,
+          "corpus": "5cd1d5e7afd0",
+          "fulltext_enabled": true,
+          "fulltext_trace": "4b092807606d4560b0fa29681a0e4d8b_003.fulltext.json",
+          "fulltext_body_chars": 7100,
+          "fulltext_papers_opened": 1,
+          "fulltext_read_calls": 1,
+          "stage": "improve",
+          "branch_id": 2,
+          "parent_metric": 0.924526195072742,
+          "rendered_evidence_levels": [
+            "abstract_only"
+          ],
+          "download_attempts": {
+            "iclr-2025/aqj9ifxrl6": "download_error",
+            "iclr-2024/xnhvvtztld": "download_error",
+            "icml-2024/han24g": "ok"
+          },
+          "read_paper_ids": [
+            "icml-2024/han24g"
+          ],
+          "generated_child_ids": [
+            "812ea678516e4df6879eb7a0e5b9b907"
+          ],
+          "completed_child_ids": []
+        }
+      ]
+    }
+  ],
+  "paired_k1": [
+    {
+      "A": null,
+      "F": 0.92207,
+      "seed": 51,
+      "F_minus_A": null
+    },
+    {
+      "A": 0.93478,
+      "F": 0.91712,
+      "seed": 52,
+      "F_minus_A": -0.01766000000000001
+    },
+    {
+      "A": 0.75985,
+      "F": 0.79637,
+      "seed": 53,
+      "F_minus_A": 0.03652
+    }
+  ],
+  "paired_only_mean": 0.009429999999999994,
+  "totals": {
+    "checkpoint": 6,
+    "oom": 10,
+    "timeout": 18,
+    "AttributeError": 1,
+    "valid": 6
+  },
+  "paper_open_attempts": {
+    "ok": 8,
+    "download_error": 8,
+    "timeout": 5
+  },
+  "analogy_seconds": 1229.4,
+  "fulltext_chars": 52975
+}

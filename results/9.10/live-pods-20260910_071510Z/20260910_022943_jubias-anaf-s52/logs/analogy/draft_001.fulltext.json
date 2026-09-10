@@ -1,0 +1,953 @@
+{
+  "schema": "paper-fulltext-v1",
+  "config": {
+    "enabled": true,
+    "cache_dir": "/workspace/MLEvolve/cache/paper_fulltext",
+    "offline": false,
+    "max_papers": 3,
+    "max_read_calls": 12,
+    "read_chars": 8000,
+    "total_chars": 40000,
+    "open_timeout_seconds": 60.0,
+    "total_open_seconds": 150.0
+  },
+  "cache_dir": "/workspace/MLEvolve/cache/paper_fulltext",
+  "parser": {
+    "schema": "paper-fulltext-v1",
+    "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+    "pymupdf": "1.28.0",
+    "pymupdf4llm": "1.28.0",
+    "pymupdf_layout": "1.28.0",
+    "tabulate": "0.9.0"
+  },
+  "read_calls": 3,
+  "body_chars": 18370,
+  "open_seconds": 48.553,
+  "attempts": {
+    "neurips-2024/ac4c13a5c6ec1bba68c9ce1d908321d2": {
+      "status": "ok",
+      "cache_hit": false
+    },
+    "neurips-2024/879c5890a9d2ecdcb590c9674cda4a59": {
+      "status": "ok",
+      "cache_hit": false
+    },
+    "aaai-2025/150b28ab6b1d5a47f8126f1073afdf668e5bb9f6": {
+      "status": "ok",
+      "cache_hit": true
+    }
+  },
+  "documents": {
+    "neurips-2024/ac4c13a5c6ec1bba68c9ce1d908321d2": {
+      "paper_id": "neurips-2024/ac4c13a5c6ec1bba68c9ce1d908321d2",
+      "title": "Soft-Label Integration for Robust Toxicity Classification",
+      "corpus_source": "https://papers.nips.cc/paper_files/paper/2024/hash/ac4c13a5c6ec1bba68c9ce1d908321d2-Abstract-Conference.html",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/ac4c13a5c6ec1bba68c9ce1d908321d2-Paper-Conference.pdf",
+      "pdf_sha256": "63c08d945089f4d1082d078bd8e53ee21751a6dc676f07f1d0744f86cdde875e",
+      "text_sha256": "3615414e88f8c4ae1f0655f39b73f0b4db20d71d225aee31cecbd466e4af1b7b",
+      "parser": {
+        "schema": "paper-fulltext-v1",
+        "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+        "pymupdf": "1.28.0",
+        "pymupdf4llm": "1.28.0",
+        "pymupdf_layout": "1.28.0",
+        "tabulate": "0.9.0"
+      },
+      "parsed_at": "2026-09-10T02:47:03Z",
+      "extraction_mode": "pymupdf4llm-legacy-text",
+      "page_count": 32,
+      "title_check": "token_overlap_passed",
+      "warnings": [
+        "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+      ],
+      "fetched_at": "2026-09-10T02:46:24Z"
+    },
+    "neurips-2024/879c5890a9d2ecdcb590c9674cda4a59": {
+      "paper_id": "neurips-2024/879c5890a9d2ecdcb590c9674cda4a59",
+      "title": "Mitigating Spurious Correlations via Disagreement Probability",
+      "corpus_source": "https://papers.nips.cc/paper_files/paper/2024/hash/879c5890a9d2ecdcb590c9674cda4a59-Abstract-Conference.html",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/879c5890a9d2ecdcb590c9674cda4a59-Paper-Conference.pdf",
+      "pdf_sha256": "2ce1edcd70539e563f3e0746b99244c5c745cecb0fae9b764eed62e19f48339c",
+      "text_sha256": "9d4b8b1f6c02d8d628634bb8738e51dad91814d2cef38509fdcd77e24aaed1ea",
+      "parser": {
+        "schema": "paper-fulltext-v1",
+        "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+        "pymupdf": "1.28.0",
+        "pymupdf4llm": "1.28.0",
+        "pymupdf_layout": "1.28.0",
+        "tabulate": "0.9.0"
+      },
+      "parsed_at": "2026-09-10T02:47:10Z",
+      "extraction_mode": "pymupdf4llm-legacy-text",
+      "page_count": 20,
+      "title_check": "token_overlap_passed",
+      "warnings": [
+        "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+      ],
+      "fetched_at": "2026-09-10T02:47:05Z"
+    },
+    "aaai-2025/150b28ab6b1d5a47f8126f1073afdf668e5bb9f6": {
+      "paper_id": "aaai-2025/150b28ab6b1d5a47f8126f1073afdf668e5bb9f6",
+      "title": "Boosting Test Performance with Importance Sampling-a Subpopulation Perspective",
+      "corpus_source": "https://www.semanticscholar.org/paper/150b28ab6b1d5a47f8126f1073afdf668e5bb9f6",
+      "source_url": "https://ojs.aaai.org/index.php/AAAI/article/download/34244/36399",
+      "pdf_sha256": "2b6e38874c4461acb34a816372a396ed97e8c948df464f8436c048e1da909806",
+      "text_sha256": "6f574518f0383c11d85acce391803c24d1a423c74b152bb374633ece7e271490",
+      "parser": {
+        "schema": "paper-fulltext-v1",
+        "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+        "pymupdf": "1.28.0",
+        "pymupdf4llm": "1.28.0",
+        "pymupdf_layout": "1.28.0",
+        "tabulate": "0.9.0"
+      },
+      "parsed_at": "2026-09-10T01:26:53Z",
+      "extraction_mode": "pymupdf4llm-legacy-text",
+      "page_count": 9,
+      "title_check": "token_overlap_passed",
+      "warnings": [
+        "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+      ],
+      "fetched_at": "2026-09-10T01:26:48Z"
+    }
+  },
+  "events": [
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/ac4c13a5c6ec1bba68c9ce1d908321d2",
+        "outline_offset": 0
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/ac4c13a5c6ec1bba68c9ce1d908321d2",
+        "title": "Soft-Label Integration for Robust Toxicity Classification",
+        "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/ac4c13a5c6ec1bba68c9ce1d908321d2-Paper-Conference.pdf",
+        "pdf_sha256": "63c08d945089f4d1082d078bd8e53ee21751a6dc676f07f1d0744f86cdde875e",
+        "text_sha256": "3615414e88f8c4ae1f0655f39b73f0b4db20d71d225aee31cecbd466e4af1b7b",
+        "parser": {
+          "schema": "paper-fulltext-v1",
+          "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+          "pymupdf": "1.28.0",
+          "pymupdf4llm": "1.28.0",
+          "pymupdf_layout": "1.28.0",
+          "tabulate": "0.9.0"
+        },
+        "page_count": 32,
+        "warnings": [
+          "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+        ],
+        "cache_hit": false,
+        "outline": [
+          {
+            "chunk_id": "p001-c001",
+            "page": 1,
+            "section": "Soft-Label Integration for Robust Toxicity** **Classification",
+            "chars": 67
+          },
+          {
+            "chunk_id": "p001-c002",
+            "page": 1,
+            "section": "Zelei Cheng",
+            "chars": 92
+          },
+          {
+            "chunk_id": "p001-c003",
+            "page": 1,
+            "section": "Jiahao Yu",
+            "chars": 88
+          },
+          {
+            "chunk_id": "p001-c004",
+            "page": 1,
+            "section": "Xin-Qiang Cai",
+            "chars": 88
+          },
+          {
+            "chunk_id": "p001-c005",
+            "page": 1,
+            "section": "Xian Wu",
+            "chars": 90
+          },
+          {
+            "chunk_id": "p001-c006",
+            "page": 1,
+            "section": "Shuo Han",
+            "chars": 90
+          },
+          {
+            "chunk_id": "p001-c007",
+            "page": 1,
+            "section": "Xinyu Xing",
+            "chars": 90
+          },
+          {
+            "chunk_id": "p001-c008",
+            "page": 1,
+            "section": "Abstract",
+            "chars": 12
+          },
+          {
+            "chunk_id": "p001-c009",
+            "page": 1,
+            "section": "Disclaimer.** **This paper contains uncensored toxic content that might be offensive.",
+            "chars": 1256
+          },
+          {
+            "chunk_id": "p001-c010",
+            "page": 1,
+            "section": "1** **Introduction",
+            "chars": 869
+          },
+          {
+            "chunk_id": "p002-c001",
+            "page": 2,
+            "section": "1** **Introduction",
+            "chars": 907
+          },
+          {
+            "chunk_id": "p002-c002",
+            "page": 2,
+            "section": "1** **Introduction",
+            "chars": 1975
+          },
+          {
+            "chunk_id": "p002-c003",
+            "page": 2,
+            "section": "1** **Introduction",
+            "chars": 696
+          },
+          {
+            "chunk_id": "p003-c001",
+            "page": 3,
+            "section": "1** **Introduction",
+            "chars": 292
+          },
+          {
+            "chunk_id": "p003-c002",
+            "page": 3,
+            "section": "2** **Related Work",
+            "chars": 22
+          },
+          {
+            "chunk_id": "p003-c003",
+            "page": 3,
+            "section": "Bi-level Optimization.** Bi-level optimization [21] has attracted significant attention due to its ability",
+            "chars": 805
+          },
+          {
+            "chunk_id": "p003-c004",
+            "page": 3,
+            "section": "Learning** **from** **Partial** **Labels.** Training a classifier from partial labels implicitly requires",
+            "chars": 1474
+          },
+          {
+            "chunk_id": "p003-c005",
+            "page": 3,
+            "section": "Learning** **from** **Partial** **Labels.** Training a classifier from partial labels implicitly requires",
+            "chars": 835
+          },
+          {
+            "chunk_id": "p003-c006",
+            "page": 3,
+            "section": "Distributionally Robust Optimization.** Distributionally robust optimization (DRO) optimizes",
+            "chars": 717
+          },
+          {
+            "chunk_id": "p003-c007",
+            "page": 3,
+            "section": "3** **Proposed Technique",
+            "chars": 28
+          },
+          {
+            "chunk_id": "p003-c008",
+            "page": 3,
+            "section": "3.1** **Problem Setup and Assumption",
+            "chars": 410
+          },
+          {
+            "chunk_id": "p004-c001",
+            "page": 4,
+            "section": "3.1** **Problem Setup and Assumption",
+            "chars": 1474
+          },
+          {
+            "chunk_id": "p004-c002",
+            "page": 4,
+            "section": "3.2** **Technical Overview",
+            "chars": 1780
+          },
+          {
+            "chunk_id": "p004-c003",
+            "page": 4,
+            "section": "3.2** **Technical Overview",
+            "chars": 1228
+          },
+          {
+            "chunk_id": "p004-c004",
+            "page": 4,
+            "section": "3.3** **Technical Details",
+            "chars": 1525
+          },
+          {
+            "chunk_id": "p005-c001",
+            "page": 5,
+            "section": "<u>Algorithm 1</u>** <u>The bi-level optimization algorithm for training the toxicity classifer.</u>",
+            "chars": 102
+          },
+          {
+            "chunk_id": "p005-c002",
+            "page": 5,
+            "section": "Input:** Training dataset _Dtr_ := _{_ ( **X** <sup>(</sup> <sup>_i_</sup> <sup>)</sup> _,_ **˜y** _i_ ) _}_ <sup>_n_</sup> _i_ <sup>_tr_</sup>",
+            "chars": 400
+          },
+          {
+            "chunk_id": "p005-c003",
+            "page": 5,
+            "section": "Input:** Training dataset _Dtr_ := _{_ ( **X** _,_ **˜y** _i_ ) _}i_ =1 <sup>_tr_</sup> <sup>, validation dataset</sup> <sup>_Dval_</sup> <sup>:=</sup> <sup>_{_",
+            "chars": 861
+          },
+          {
+            "chunk_id": "p005-c004",
+            "page": 5,
+            "section": "_θ_** <sup>_∗_</sup> ( **w** ) through one-step inner loop gradient descent. We then update **w** to make the induced **_θ_** <sup>**_′_**</sup>",
+            "chars": 377
+          },
+          {
+            "chunk_id": "p005-c005",
+            "page": 5,
+            "section": "Outer-loop optimization:** **Updating w.** Denote **w** _t_ be the soft-label weights at time step _t_ . Given",
+            "chars": 545
+          }
+        ],
+        "next_outline_offset": 30,
+        "remaining_chars": 40000,
+        "note": "Opening a paper returns no body text. Use read_paper to obtain citable excerpts."
+      },
+      "seconds": 41.316
+    },
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/879c5890a9d2ecdcb590c9674cda4a59",
+        "outline_offset": 0
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/879c5890a9d2ecdcb590c9674cda4a59",
+        "title": "Mitigating Spurious Correlations via Disagreement Probability",
+        "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/879c5890a9d2ecdcb590c9674cda4a59-Paper-Conference.pdf",
+        "pdf_sha256": "2ce1edcd70539e563f3e0746b99244c5c745cecb0fae9b764eed62e19f48339c",
+        "text_sha256": "9d4b8b1f6c02d8d628634bb8738e51dad91814d2cef38509fdcd77e24aaed1ea",
+        "parser": {
+          "schema": "paper-fulltext-v1",
+          "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+          "pymupdf": "1.28.0",
+          "pymupdf4llm": "1.28.0",
+          "pymupdf_layout": "1.28.0",
+          "tabulate": "0.9.0"
+        },
+        "page_count": 20,
+        "warnings": [
+          "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+        ],
+        "cache_hit": false,
+        "outline": [
+          {
+            "chunk_id": "p001-c001",
+            "page": 1,
+            "section": "Mitigating Spurious Correlations** **via Disagreement Probability",
+            "chars": 71
+          },
+          {
+            "chunk_id": "p001-c002",
+            "page": 1,
+            "section": "Hyeonggeun Han** <sup>1</sup> <sup>_,_</sup> <sup>2</sup> **Sehwan Kim** <sup>1</sup> **Hyungjun Joo** <sup>1</sup> <sup>_,_</sup> <sup>2</sup>",
+            "chars": 145
+          },
+          {
+            "chunk_id": "p001-c003",
+            "page": 1,
+            "section": "Sangwoo Hong** <sup>1</sup> <sup>_,_</sup> <sup>2</sup> **Jungwoo Lee** <sup>1</sup> <sup>_,_</sup> <sup>2</sup> <sup>_,_</sup> <sup>3</sup> <sup>_∗_</sup>",
+            "chars": 294
+          },
+          {
+            "chunk_id": "p001-c004",
+            "page": 1,
+            "section": "Abstract",
+            "chars": 1236
+          },
+          {
+            "chunk_id": "p001-c005",
+            "page": 1,
+            "section": "1** **Introduction",
+            "chars": 22
+          },
+          {
+            "chunk_id": "p001-c006",
+            "page": 1,
+            "section": "Class label",
+            "chars": 1624
+          },
+          {
+            "chunk_id": "p002-c001",
+            "page": 2,
+            "section": "Class label",
+            "chars": 1226
+          },
+          {
+            "chunk_id": "p002-c002",
+            "page": 2,
+            "section": "Class label",
+            "chars": 1949
+          },
+          {
+            "chunk_id": "p002-c003",
+            "page": 2,
+            "section": "Class label",
+            "chars": 634
+          },
+          {
+            "chunk_id": "p002-c004",
+            "page": 2,
+            "section": "2** **Related work",
+            "chars": 22
+          },
+          {
+            "chunk_id": "p002-c005",
+            "page": 2,
+            "section": "Debiasing** **with** **bias** **annotations.** Numerous previous works utilize bias labels for debiasing",
+            "chars": 900
+          },
+          {
+            "chunk_id": "p003-c001",
+            "page": 3,
+            "section": "Debiasing** **with** **bias** **annotations.** Numerous previous works utilize bias labels for debiasing",
+            "chars": 152
+          },
+          {
+            "chunk_id": "p003-c002",
+            "page": 3,
+            "section": "Debiasing without bias annotations.** In an effort to eliminate reliance on bias annotations, recent",
+            "chars": 1705
+          },
+          {
+            "chunk_id": "p003-c003",
+            "page": 3,
+            "section": "3** **Problem formulation",
+            "chars": 1743
+          },
+          {
+            "chunk_id": "p003-c004",
+            "page": 3,
+            "section": "3** **Problem formulation",
+            "chars": 1042
+          },
+          {
+            "chunk_id": "p004-c001",
+            "page": 4,
+            "section": "3** **Problem formulation",
+            "chars": 318
+          },
+          {
+            "chunk_id": "p004-c002",
+            "page": 4,
+            "section": "4** **DPR: Disagreement Probability based Resampling for debiasing",
+            "chars": 537
+          },
+          {
+            "chunk_id": "p004-c003",
+            "page": 4,
+            "section": "4.1** **Problem reformulation",
+            "chars": 1889
+          },
+          {
+            "chunk_id": "p004-c004",
+            "page": 4,
+            "section": "4.1** **Problem reformulation",
+            "chars": 471
+          },
+          {
+            "chunk_id": "p004-c005",
+            "page": 4,
+            "section": "4.2** **Sampling probability with group proxy",
+            "chars": 543
+          },
+          {
+            "chunk_id": "p004-c006",
+            "page": 4,
+            "section": "Group proxy.** We focus on the characteristics of the biased model for the group proxies. Following",
+            "chars": 621
+          },
+          {
+            "chunk_id": "p005-c001",
+            "page": 5,
+            "section": "<u>Algorithm 1:</u>** <u>Disagreement Probability based Resampling for debiasing (DPR)</u>",
+            "chars": 310
+          },
+          {
+            "chunk_id": "p005-c002",
+            "page": 5,
+            "section": "for** _t_ = 1 **to** _Tb_ **do",
+            "chars": 413
+          },
+          {
+            "chunk_id": "p005-c003",
+            "page": 5,
+            "section": "for** _t_ = 1 **to** _Td_ **do",
+            "chars": 811
+          },
+          {
+            "chunk_id": "p005-c004",
+            "page": 5,
+            "section": "Sampling probability.** We now discuss how to compute the sampling probability _r_ ( _x, y, b_ ). Using",
+            "chars": 1916
+          },
+          {
+            "chunk_id": "p005-c005",
+            "page": 5,
+            "section": "Sampling probability.** We now discuss how to compute the sampling probability _r_ ( _x, y, b_ ). Using",
+            "chars": 607
+          },
+          {
+            "chunk_id": "p005-c006",
+            "page": 5,
+            "section": "4.3** **Training algorithm",
+            "chars": 438
+          },
+          {
+            "chunk_id": "p006-c001",
+            "page": 6,
+            "section": "4.3** **Training algorithm",
+            "chars": 799
+          },
+          {
+            "chunk_id": "p006-c002",
+            "page": 6,
+            "section": "5** **Theoretical analysis",
+            "chars": 685
+          },
+          {
+            "chunk_id": "p006-c003",
+            "page": 6,
+            "section": "Theorem 1.** Suppose that the loss function _ℓ_ ( _fθ_ ( _x_ ) _, y_ ) is upper-bounded by a constant _C_ _>_ 0. Given",
+            "chars": 704
+          }
+        ],
+        "next_outline_offset": 30,
+        "remaining_chars": 40000,
+        "note": "Opening a paper returns no body text. Use read_paper to obtain citable excerpts."
+      },
+      "seconds": 6.433
+    },
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "aaai-2025/150b28ab6b1d5a47f8126f1073afdf668e5bb9f6",
+        "outline_offset": 0
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "aaai-2025/150b28ab6b1d5a47f8126f1073afdf668e5bb9f6",
+        "title": "Boosting Test Performance with Importance Sampling-a Subpopulation Perspective",
+        "source_url": "https://ojs.aaai.org/index.php/AAAI/article/download/34244/36399",
+        "pdf_sha256": "2b6e38874c4461acb34a816372a396ed97e8c948df464f8436c048e1da909806",
+        "text_sha256": "6f574518f0383c11d85acce391803c24d1a423c74b152bb374633ece7e271490",
+        "parser": {
+          "schema": "paper-fulltext-v1",
+          "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+          "pymupdf": "1.28.0",
+          "pymupdf4llm": "1.28.0",
+          "pymupdf_layout": "1.28.0",
+          "tabulate": "0.9.0"
+        },
+        "page_count": 9,
+        "warnings": [
+          "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+        ],
+        "cache_hit": true,
+        "outline": [
+          {
+            "chunk_id": "p001-c001",
+            "page": 1,
+            "section": "(page text; heading unavailable)",
+            "chars": 69
+          },
+          {
+            "chunk_id": "p001-c002",
+            "page": 1,
+            "section": "Boosting Test Performance with Importance Sampling–a Subpopulation Perspective",
+            "chars": 84
+          },
+          {
+            "chunk_id": "p001-c003",
+            "page": 1,
+            "section": "Hongyu Shen, Zhizhen Zhao",
+            "chars": 195
+          },
+          {
+            "chunk_id": "p001-c004",
+            "page": 1,
+            "section": "Abstract",
+            "chars": 1463
+          },
+          {
+            "chunk_id": "p001-c005",
+            "page": 1,
+            "section": "Code** - https://github.com/skyve2012/DBA",
+            "chars": 99
+          },
+          {
+            "chunk_id": "p001-c006",
+            "page": 1,
+            "section": "1** **Introduction",
+            "chars": 867
+          },
+          {
+            "chunk_id": "p001-c007",
+            "page": 1,
+            "section": "w/ Subpopulation Shift** **w/o Subpopulation Shift",
+            "chars": 1859
+          },
+          {
+            "chunk_id": "p002-c001",
+            "page": 2,
+            "section": "w/ Subpopulation Shift** **w/o Subpopulation Shift",
+            "chars": 918
+          },
+          {
+            "chunk_id": "p002-c002",
+            "page": 2,
+            "section": "2** **Related Work",
+            "chars": 195
+          },
+          {
+            "chunk_id": "p002-c003",
+            "page": 2,
+            "section": "2.1** **Importance Sampling",
+            "chars": 942
+          },
+          {
+            "chunk_id": "p002-c004",
+            "page": 2,
+            "section": "2.2** **Subpopulation Survey",
+            "chars": 974
+          },
+          {
+            "chunk_id": "p002-c005",
+            "page": 2,
+            "section": "2.3** **Subpopulation Method",
+            "chars": 1554
+          },
+          {
+            "chunk_id": "p002-c006",
+            "page": 2,
+            "section": "3** **Method",
+            "chars": 121
+          },
+          {
+            "chunk_id": "p002-c007",
+            "page": 2,
+            "section": "3.1** **Dataset Bias Analysis Framework",
+            "chars": 1507
+          },
+          {
+            "chunk_id": "p003-c001",
+            "page": 3,
+            "section": "3.1** **Dataset Bias Analysis Framework",
+            "chars": 1599
+          },
+          {
+            "chunk_id": "p003-c002",
+            "page": 3,
+            "section": "3.1** **Dataset Bias Analysis Framework",
+            "chars": 1962
+          },
+          {
+            "chunk_id": "p003-c003",
+            "page": 3,
+            "section": "3.1** **Dataset Bias Analysis Framework",
+            "chars": 795
+          },
+          {
+            "chunk_id": "p003-c004",
+            "page": 3,
+            "section": "Claim 2.** _Given Assumption 1 holds we obtain the following_",
+            "chars": 1411
+          },
+          {
+            "chunk_id": "p003-c005",
+            "page": 3,
+            "section": "Definition 1.** The subpopulation shift is defined as the distributional difference between _p_ ( _x, y|I_ tr) and _p_ ( _x, y|I_ te) that",
+            "chars": 1553
+          },
+          {
+            "chunk_id": "p003-c006",
+            "page": 3,
+            "section": "Assumption 2.** _A universal data generator given the dataset_",
+            "chars": 196
+          },
+          {
+            "chunk_id": "p003-c007",
+            "page": 3,
+            "section": "Assumption 3.** _The attribute variable s follows a uniform_",
+            "chars": 488
+          },
+          {
+            "chunk_id": "p004-c001",
+            "page": 4,
+            "section": "Assumption 3.** _The attribute variable s follows a uniform_",
+            "chars": 1307
+          },
+          {
+            "chunk_id": "p004-c002",
+            "page": 4,
+            "section": "Assumption 3.** _The attribute variable s follows a uniform_",
+            "chars": 855
+          },
+          {
+            "chunk_id": "p004-c003",
+            "page": 4,
+            "section": "Assumption 4.** _p_ ( _y|Ite_ ) = _p_ ( _y|m_ 0 _, Itr_ ) = _p_ ( _y|Itr_ ) _._",
+            "chars": 1140
+          },
+          {
+            "chunk_id": "p004-c004",
+            "page": 4,
+            "section": "Assumption 5.** _p_ ( _s|y, m_ 1 _, Itr_ ) = **1** _{y_ = _s}, where_ **1** _{y_ = _s}_ _is_",
+            "chars": 210
+          },
+          {
+            "chunk_id": "p004-c005",
+            "page": 4,
+            "section": "Theorem** **1.** _Given_ _Assumption_ _1,_ _2,_ _3,_ _4,_ _and_ _5_ _hold,_ _the_",
+            "chars": 1597
+          },
+          {
+            "chunk_id": "p004-c006",
+            "page": 4,
+            "section": "Theorem** **1.** _Given_ _Assumption_ _1,_ _2,_ _3,_ _4,_ _and_ _5_ _hold,_ _the_",
+            "chars": 673
+          },
+          {
+            "chunk_id": "p004-c007",
+            "page": 4,
+            "section": "3.2** **Dataset Bias Correction Method",
+            "chars": 602
+          },
+          {
+            "chunk_id": "p004-c008",
+            "page": 4,
+            "section": "Attribute** _s_ **is Known** When we have access to the attribute",
+            "chars": 506
+          },
+          {
+            "chunk_id": "p004-c009",
+            "page": 4,
+            "section": "Attribute** _s_ **is Unknown and** _D_ **tr** _∼D_ **va** When we do not",
+            "chars": 415
+          }
+        ],
+        "next_outline_offset": 30,
+        "remaining_chars": 40000,
+        "note": "Opening a paper returns no body text. Use read_paper to obtain citable excerpts."
+      },
+      "seconds": 0.804
+    },
+    {
+      "tool": "read_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/ac4c13a5c6ec1bba68c9ce1d908321d2",
+        "chunk_ids": [
+          "p002-c002",
+          "p004-c002",
+          "p004-c003",
+          "p004-c004",
+          "p005-c003"
+        ]
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/ac4c13a5c6ec1bba68c9ce1d908321d2",
+        "pdf_sha256": "63c08d945089f4d1082d078bd8e53ee21751a6dc676f07f1d0744f86cdde875e",
+        "text_sha256": "3615414e88f8c4ae1f0655f39b73f0b4db20d71d225aee31cecbd466e4af1b7b",
+        "chunks": [
+          {
+            "chunk_id": "p002-c002",
+            "page": 2,
+            "section": "1** **Introduction",
+            "chars": 1975,
+            "text": "Traditional toxicity classification methods [10–13], typically reliant on labels from a single annotator\nper instance, fall short of capturing the diversity of human perspectives [14]. This approach often leads\nto biases [15, 16] and poor generalizability across different contexts [17], as it fails to account for the\ncomplex realities of language use and social interactions. Thus, there is a growing need to incorporate\ncrowdsourced annotations that reflect a broader array of cultural and linguistic nuances. Additionally,\nArjovsky et al. [18] point out that the model trained by empirical risk minimization (ERM) may\nexploit the spurious correlations that are easier to fit instead of learning the causal components, which\nsuffers from distribution shifts from training to testing domains [19]. When _spurious correlations_\nare present, the performance of certain groups of examples can drop significantly. For example, the\ntoxicity classifier might learn to associate certain phrases or contexts ( _e.g.,_ “I must remind you that”\nin Figure 1) with non-toxic behavior, despite the overall response being harmful.\n\nTo overcome the above challenges, we propose a bi-level optimization framework that incorporates\ncrowdsourced annotations through soft-labeling techniques to enhance the robustness and reliability\nof toxicity classification systems. The proposed framework consists of two optimization loops: an\ninner loop that minimizes the ERM loss on training samples with learned soft labels, and an outer\nloop that assesses the model’s dependency on spurious features by evaluating the out-of-distribution\n(OOD) risk and optimizing the soft-label weights accordingly. By alternatively optimizing inner and\nouter loops, our method progressively adjusts the soft-label weights and can be proved to achieve\nconvergence theoretically, enabling the toxicity classifier to achieve satisfactory OOD performance\nthrough simple ERM training ( _i.e.,_ inner loop optimization)."
+          },
+          {
+            "chunk_id": "p004-c002",
+            "page": 4,
+            "section": "3.2** **Technical Overview",
+            "chars": 1780,
+            "text": "**3.2** **Technical Overview**\n\nRecall our goal is to train an optimal classifier\nthat does not depend on spurious correlations, a\nnaive approach might involve using existing outof-distribution (OOD) risk loss functions, such\nas distributionally robust optimization (DRO).\nHowever, a significant issue arises from the absence of ground-truth labels in the training set.\nTraining a robust model directly using DRO\non the clean validation set could result in limited available data, potentially compromising (a) Ground truth (b) Soft-label weighted\nthe overall performance. Considering these, we\npropose a bi-level formulation to address these\nchallenges. As illustrated in Figure 2, we reduce Figure 2: **An illustrative 2-class example of re-**\nthe classifier _f_ ’s dependence on spurious fea- **moving** **the** **reliance** **on** **spurious** **feature** **via**\ntures through soft re-labeling. In this example, **weighted soft labels.** Blue and yellow represent\nwe identify _x_ 1 and _x_ 2 as the core and spurious two different classes and the depth of color indifeatures, respectively, and aim to train a classi- cates the soft label.\nfier that does not rely on the spurious feature _x_ 2.\nWithout re-labeling, even if the training set had the ground truths, the classifier would still be biased\ntowards _x_ 2. However, by applying soft re-labeling, we adjust the labels for samples in the bottom-left\nand top-right areas, resulting in an optimal classifier that is oriented vertically, as shown in Figure 2.\nThis adjustment ensures that the newly trained classifier _f_ does not depend on _x_ 2. Motivated by these,\nwe formulate the task of learning soft labels to remove the spurious features as a bi-level optimization\nproblem:\n\n(a) Ground truth (b) Soft-label weighted"
+          },
+          {
+            "chunk_id": "p004-c003",
+            "page": 4,
+            "section": "3.2** **Technical Overview",
+            "chars": 1228,
+            "text": "Figure 2: **An illustrative 2-class example of re-**\n**moving** **the** **reliance** **on** **spurious** **feature** **via**\n**weighted soft labels.** Blue and yellow represent\ntwo different classes and the depth of color indicates the soft label.\n\n_R_ ( _Dv,_ **_θ_** <sup>_∗_</sup> ( **w** )) subject to **_θ_** <sup>_∗_</sup> ( **w** ) _∈_ arg min\n**w** **_θ_**\n\nminimize\n\n(1)\n**_θ_** <sup>_L_</sup> <sup>(</sup> <sup>_Dtr,_</sup> <sup>**_θ_**</sup> <sup>;</sup> <sup>**w**</sup> <sup>)</sup>\n\nwhere **w** is the soft-label weight vector which indicates the importance of each annotator. The\nouter objective function can be any OOD risk loss function ( _i.e.,_ group DRO loss). In the inner\nloop, we minimize the empirical risk minimization (ERM) loss ( _i.e.,_ cross-entropy loss) on training\nsamples with learned soft labels, resulting in a model denoted as **_θ_** <sup>_∗_</sup> ( **w** ). In the outer loop, we\nassess the model’s dependency on spurious features by evaluating the OOD risk and optimizing\nthe soft-label weights accordingly. By alternating between the inner and outer loops, the soft-label\nweights progressively adjust, enabling the achievement of satisfactory OOD performance through\nsimple ERM training."
+          },
+          {
+            "chunk_id": "p004-c004",
+            "page": 4,
+            "section": "3.3** **Technical Details",
+            "chars": 1525,
+            "text": "**3.3** **Technical Details**\n\nWe design a bi-level optimization process consisting of an inner-loop optimization and an outer-loop\noptimization to simultaneously update the learned soft-label weight **w** and model parameters **_θ_** . We\nbegin by addressing the parameterization of the soft-label weight function **w** in Eqn. (1). Although\nwe could parameterize **w** as an _m_ -dimensional vector, it does not account for the relationship between\nthe feature and label as annotated by the worker. Thus, we capture the weight of annotated labels\n**˜y** _i_ for the sample **X** <sup>(</sup> <sup>_i_</sup> <sup>)</sup> through a neural network _vθ_ : **X** <sup>(</sup> <sup>_i_</sup> <sup>)</sup> _→_ **v** <sup>(</sup> <sup>_i_</sup> <sup>)</sup> _∈_ R <sup>_m_</sup> . After obtaining the\nnormalized soft-label weights **v** <sup>(</sup> <sup>_i_</sup> <sup>)</sup> through the softmax function, the final soft-label **¯y** _i_ is determined\nby taking the weighted sum of the one-hot vectors **e** <sup>_j_</sup> _i_ <sup>in the potential label set</sup> <sup>**˜y**</sup> <sup>_i_</sup> <sup>, where the weights</sup>\n\nare explicitly provided by **v** <sup>(</sup> <sup>_i_</sup> <sup>)</sup> . With the soft-labels computed, we can now turn to the outer-level\noptimization. Motivated by [55], we initiate by pseudo-updating the parameter vector **_θ_**, thereby\nestablishing a relationship between **w** and the optimized parameters **_θ_** <sup>**_′_**</sup> . Specifically, **_θ_** <sup>**_′_**</sup> approximate\n\n4"
+          },
+          {
+            "chunk_id": "p005-c003",
+            "page": 5,
+            "section": "Input:** Training dataset _Dtr_ := _{_ ( **X** _,_ **˜y** _i_ ) _}i_ =1 <sup>_tr_</sup> <sup>, validation dataset</sup> <sup>_Dval_</sup> <sup>:=</sup> <sup>_{_",
+            "chars": 861,
+            "text": "**Input:** Training dataset _Dtr_ := _{_ ( **X** _,_ **˜y** _i_ ) _}i_ =1 <sup>_tr_</sup> <sup>, validation dataset</sup> <sup>_Dval_</sup> <sup>:=</sup> <sup>_{_</sup> <sup>(</sup> <sup>**X**</sup> <sup>_, yi_</sup> <sup>)</sup> <sup>_}_</sup> _i_ =1 <sup>_v_</sup> <sup>, max</sup>\n\nnumber of steps _T_\n**Output:** Toxicity classifier _f_ **_θ_**\n**Initialization:** Initialize the soft-label weights **w** 0 and the classifier parameter **_θ_** 0\n**for** _t_ = 1 _,_ 2 _, . . ., T_ **do**\n\nSample batch data _{_ **X** _,_ **˜y** _}_ from the training dataset _Dtr_\nSample batch data _{_ **X** _, y}_ from the validation dataset _Dval_\nPseudo update **_θ_** <sup>_′_</sup> _t_ +1 <sup>as Eqn. (2) and update the soft-label weights</sup> <sup>**w**</sup> <sup>_t_</sup> <sup>+1</sup> <sup>as Eqn. (3)</sup>\n\nUpdate **_θ_** _t_ +1 as Eqn. (4)\n**<u>end for</u>**"
+          }
+        ],
+        "not_returned_chunk_ids": [],
+        "remaining_chars": 32631,
+        "remaining_read_calls": 11
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "read_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/879c5890a9d2ecdcb590c9674cda4a59",
+        "chunk_ids": [
+          "p001-c004",
+          "p004-c003",
+          "p004-c006",
+          "p005-c004",
+          "p006-c001"
+        ]
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/879c5890a9d2ecdcb590c9674cda4a59",
+        "pdf_sha256": "2ce1edcd70539e563f3e0746b99244c5c745cecb0fae9b764eed62e19f48339c",
+        "text_sha256": "9d4b8b1f6c02d8d628634bb8738e51dad91814d2cef38509fdcd77e24aaed1ea",
+        "chunks": [
+          {
+            "chunk_id": "p001-c004",
+            "page": 1,
+            "section": "Abstract",
+            "chars": 1236,
+            "text": "**Abstract**\n\nModels trained with empirical risk minimization (ERM) are prone to be biased\ntowards spurious correlations between target labels and bias attributes, which leads\nto poor performance on data groups lacking spurious correlations. It is particularly\nchallenging to address this problem when access to bias labels is not permitted. To\nmitigate the effect of spurious correlations without bias labels, we first introduce a\nnovel training objective designed to robustly enhance model performance across\nall data samples, irrespective of the presence of spurious correlations. From this\nobjective, we then derive a debiasing method, Disagreement Probability based Resampling for debiasing (DPR), which does not require bias labels. DPR leverages\nthe disagreement between the target label and the prediction of a biased model to\nidentify bias-conflicting samples—those without spurious correlations—and upsamples them according to the disagreement probability. Empirical evaluations on\nmultiple benchmarks demonstrate that DPR achieves state-of-the-art performance\nover existing baselines that do not use bias labels. Furthermore, we provide a theoretical analysis that details how DPR reduces dependency on spurious correlations."
+          },
+          {
+            "chunk_id": "p004-c003",
+            "page": 4,
+            "section": "4.1** **Problem reformulation",
+            "chars": 1889,
+            "text": "**4.1** **Problem reformulation**\n\nTo utilize the objective in Equation (3) without bias annotations, we reformulate this objective as a\nweighted loss minimization problem. For this purpose, we introduce the following assumption:\n**Assumption** **1.** Let _ba_ _∈B_ and _bc_ _∈B_ represent the bias-aligned and bias-conflicting groups,\nrespectively. The neural network, parameterized by _θ_, satisfies that _L_ <sup>ˆ</sup> _ba_ _<_ _L_ <sup>ˆ</sup> _bc_ .\n\nIn Assumption 1, we assume that the model, parameterized by _θ_, exhibits a higher average loss on\nthe bias-conflicting group compared to the bias-aligned group in the training dataset. Under this\nassumption, the maximum average loss over groups in Equation (3) can be expressed as follows:\n\n( _x,y,b_ ) _∈D_\n\nmax\n\n_b∈B_\n\n<u>1</u>\n_L_ ˆ _b_ =\n_nbc_\n\n<u>1</u>\n=\n_nbc_\n\n( _x,y,bc_ ) _∈Gbc_\n\n_ℓ_ ( _fθ_ ( _x_ ) _, y_ ) (4)\n\n_p_ ( _b_ = _bc|x_ ) _ℓ_ ( _fθ_ ( _x_ ) _, y_ ) (5)\n\n= <sup><u>1</u></sup>\n\n_n_\n\n( _x,y,b_ ) _∈D_\n\n_<u>p</u>_ <u>(</u> _<u>b</u>_ <u>=</u> _<u>bc|x</u>_ <u>)</u>\n\n(6)\n_p_ ( _b_ = _bc_ ) <sup>_ℓ_</sup> <sup>(</sup> <sup>_fθ_</sup> <sup>(</sup> <sup>_x_</sup> <sup>)</sup> <sup>_, y_</sup> <sup>)</sup> <sup>_._</sup>\n\nWhen Assumption 1 is satisfied, Equation (4) holds. Given that all samples in _Gbc_ have _p_ ( _b_ = _bc|x_ )\nequal to 1, whereas all samples in _Gba_ have _p_ ( _b_ = _bc|x_ ) equal to 0, Equation (5) is derived from\nEquation (4). As _p_ ( _b_ = _bc_ ) is equal to <sup>_<u>n</u>_</sup> _n_ <sup>_<u>bc</u>_</sup> <sup>, Equation (6) is obtained.</sup> <sup>By denoting</sup> _n_ <sup><u>1</u></sup> <sup>_·_</sup> <sup>_<u>p</u>_</sup> _p_ <sup><u>(</u></sup> <sup>_<u>b</u>_</sup> ( _b_ <sup><u>=</u></sup> = <sup>_<u>b</u>_</sup> _b_ <sup>_<u>c</u>_</sup> _c_ <sup>_<u>|x</u>_</sup> ) <sup><u>)</u></sup> <sup>as</sup>\n\n_r_ ( _x, y, b_ ), we obtain a weighted loss minimization as follows:"
+          },
+          {
+            "chunk_id": "p004-c006",
+            "page": 4,
+            "section": "Group proxy.** We focus on the characteristics of the biased model for the group proxies. Following",
+            "chars": 621,
+            "text": "**Group proxy.** We focus on the characteristics of the biased model for the group proxies. Following\nNam et al. [34], the biased model _fϕ_ is trained using ERM with the generalized cross-entropy (GCE)\nloss [50]:\n\n_ℓ_ GCE( _fϕ_ ( _x_ ) _, y_ ) = <sup><u>1</u></sup> <sup>_<u>−</u>_</sup> <sup>_<u>pϕ</u>_</sup> <sup><u>(</u></sup> <sup>_<u>y|x</u>_</sup> <sup><u>)</u></sup> <sup>_q_</sup>\n\n_,_ (8)\n_q_\n\nwhere _pϕ_ ( _y|x_ ) represents the probability assigned to the target label _y_ by the neural network after\na softmax layer, and _q_ _∈_ (0 _,_ 1] is a hyperparameter. The GCE loss amplifies the bias of the model\n\n4"
+          },
+          {
+            "chunk_id": "p005-c004",
+            "page": 5,
+            "section": "Sampling probability.** We now discuss how to compute the sampling probability _r_ ( _x, y, b_ ). Using",
+            "chars": 1916,
+            "text": "**Sampling probability.** We now discuss how to compute the sampling probability _r_ ( _x, y, b_ ). Using\nthe group proxies mentioned above, we substitute _p_ ( _y_ = _y_ bias _|x_ ) for _p_ ( _b_ = _bc|x_ ). For a given\nexample ( _x, y_ ), the disagreement probability _p_ ( _y_ = _y_ bias _|x_ ) can be computed as follows:\n\n_p_ ( _y_ = _y_ bias _|x_ ) =\n\n_y_ bias\n\n_p_ ( _y, y_ bias _|x_ ) _−_ _p_ ( _y_ = _y_ bias _|x_ ) = 1 _−_ _p_ bias( _y|x_ ) _,_ (9)\n\nwhere _p_ bias( _y|x_ ) = <sup><u>exp(</u></sup> <sup>_<u>f</u>_</sup> _Z_ <sup>_<u>ϕ</u>_</sup> <sup><u>(</u></sup> ( <sup>_<u>x</u>_</sup> _ϕ_ <sup><u>)[</u></sup> ) <sup>_<u>y</u>_</sup> <sup><u>]</u></sup> <sup>_<u>/τ</u>_</sup> <sup><u>)</u></sup> is the probability assigned to label _y_ by the biased model, _Z_ ( _ϕ_ ) =\n\n- _y_ <sup>_′_</sup> <sup>exp(</sup> <sup>_fϕ_</sup> <sup>(</sup> <sup>_x_</sup> <sup>)[</sup> <sup>_y′_</sup> <sup>]</sup> <sup>_/τ_</sup> <sup>) is the partition function, and</sup> <sup>_τ_</sup> <sup>is a temperature hyperparameter.</sup> <sup>Note that</sup>\n\n_p_ bias( _y|x_ ) is used to approximate _p_ ( _b_ = _ba|x_ ). It is crucial for the biased model to accurately capture\nthe spurious correlation structure; hence, the probabilities of the biased model should be appropriately\ncalibrated [13, 33, 32]. We also substitute _p_ ( _y_ = _y_ bias) for _p_ ( _b_ = _bc_ ). This probability can be\nestimated using all the training data, as in prior works [29, 45]:\n\n_p_ ( _y_ = _y_ bias) _≈_ <sup><u>1</u></sup>\n\n_n_\n\n( _x,y,b_ ) _∈D_\n\n( _x,y,b_ ) _∈D_\n\n_p_ ( _y_ = _y_ bias _|x_ ) = <sup><u>1</u></sup>\n\n_n_\n\n(1 _−_ _p_ bias( _y|x_ )) _._ (10)\n\nWith Equations (9) and (10), we compute\n\n<sup><u>1</u></sup> <sup>_<u>p</u>_</sup> <sup><u>(</u></sup> <sup>_<u>y</u>_</sup> <sup><u>=</u></sup> <sup>_<u>y</u>_</sup> <sup><u>bias</u></sup> <sup>_<u>|x</u>_</sup> <sup><u>)</u></sup>\n\n_n_ <sup>_·_</sup> _p_ ( _y_ = _y_ bias)"
+          },
+          {
+            "chunk_id": "p006-c001",
+            "page": 6,
+            "section": "4.3** **Training algorithm",
+            "chars": 799,
+            "text": "Equation (7). We leverage the characteristics of the biased model for this purpose. The biased model\ntypically exhibits higher loss on bias-conflicting samples and lower loss on bias-aligned samples,\nthereby fulfilling Assumption 1. Consequently, we initialize the model _fθ_ with the biased model\n_fϕ_ and then train _fθ_ using training examples sampled with the probability ˆ _r_ ( _x, y_ ). We also employ\ndata augmentation to enhance the diversity of bias-conflicting samples. Simply oversampling these\nsamples without enhancing their diversity does not effectively mitigate bias [27]. Therefore, we\nenhance the diversity of bias-conflicting samples through data augmentation techniques such as\nrandom color jitter and random rotation. The complete training procedure is outlined in Algorithm 1."
+          }
+        ],
+        "not_returned_chunk_ids": [],
+        "remaining_chars": 26170,
+        "remaining_read_calls": 10
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "read_paper",
+      "arguments": {
+        "paper_id": "aaai-2025/150b28ab6b1d5a47f8126f1073afdf668e5bb9f6",
+        "chunk_ids": [
+          "p001-c004",
+          "p002-c005",
+          "p004-c007",
+          "p004-c008",
+          "p004-c009"
+        ]
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "aaai-2025/150b28ab6b1d5a47f8126f1073afdf668e5bb9f6",
+        "pdf_sha256": "2b6e38874c4461acb34a816372a396ed97e8c948df464f8436c048e1da909806",
+        "text_sha256": "6f574518f0383c11d85acce391803c24d1a423c74b152bb374633ece7e271490",
+        "chunks": [
+          {
+            "chunk_id": "p001-c004",
+            "page": 1,
+            "section": "Abstract",
+            "chars": 1463,
+            "text": "**Abstract**\n\nDespite empirical risk minimization (ERM) is widely applied\nin the machine learning community, its performance is limited on data with spurious correlation or subpopulation that is\nintroduced by hidden attributes. Existing literature proposed\ntechniques to maximize group-balanced or worst-group accuracy when such correlation presents, yet, at the cost of lower\naverage accuracy. In addition, many existing works conduct\nsurveys on different subpopulation methods without revealing\nthe inherent connection between these methods, which could\nhinder the technology advancement in this area. In this paper,\nwe identify important sampling as a simple yet powerful tool\nfor solving the subpopulation problem. On the theory side, we\nprovide a new systematic formulation of the subpopulation\nproblem and explicitly identify the assumptions that are not\nclearly stated in the existing works. This helps to uncover the\ncause of the dropped average accuracy. We provide the first\ntheoretical discussion on the connections of existing methods, revealing the core components that make them different.\nOn the application side, we demonstrate a single estimator is\nenough to solve the subpopulation problem. In particular, we\nintroduce the estimator in both attribute-known and -unknown\nscenarios in the subpopulation setup, offering flexibility in\npractical use cases. And empirically, we achieve state-of-theart performance on commonly used benchmark datasets."
+          },
+          {
+            "chunk_id": "p002-c005",
+            "page": 2,
+            "section": "2.3** **Subpopulation Method",
+            "chars": 1554,
+            "text": "**2.3** **Subpopulation Method**\n\nWe categorize subpopulation methods into four classes: auxiliary losses, data augmentations, modeling objectives, and\ndata sampling techniques. Auxiliary loss methods (Li et al.\n2018; Arjovsky et al. 2019; Alshammari et al. 2022) aim\nto mitigate the impact of spurious backgrounds via adversarial training, gradient regularization, or class-balanced adjustments. Data augmentation methods (Zhang et al. 2018;\nHan et al. 2022; Yao et al. 2022) use convex combinations\nof samples to reduce background effects. Data sampling\nmethods (LaBonte, Muthukumar, and Kumar 2024; Izmailov\net al. 2022) identify class-balanced subsets with independent\nspurious features for finetuning. Modeling objective methods (Sagawa et al. 2020; Wu et al. 2023; Lin et al. 2017;\nRudner et al. 2024) focus on robust feature learning, subpopulation correction, or tailored loss terms like KL divergence\nor mutual information.\n\nDBA stands out by explicitly stating data assumptions\nand connecting existing methods under a unified statistical\nframework (see Sec. 4). For instance, it highlights that augmentation methods (Zhang et al. 2018; Yao et al. 2022; Han\net al. 2022) assume conditional similarity across subpopulations. DBA also identifies a universal assumption of identical\nconditional generative models across methods, which previous works did not explicitly address. Empirically, DBA\noutperforms SOTA methods on three datasets, confirming\nits effectiveness and simplicity, and leveraging importance\nsampling for practical implementation."
+          },
+          {
+            "chunk_id": "p004-c007",
+            "page": 4,
+            "section": "3.2** **Dataset Bias Correction Method",
+            "chars": 602,
+            "text": "**3.2** **Dataset Bias Correction Method**\n\nIn this section, we provide 3 different approaches to estimate _Eq._ (5). We summarize these approaches with a general\nname: dataset bias correction method (DBCM). The 3 approaches essentially provide different ways of estimating the\nonly missing term _p_ ( _s|y, x, I_ tr) in Eq. (5). Once the term\nis estimated, we employ a universal algorithm (see Algorithm 1) to train the model with _D_ tr. To facilitate the use of\nthis approach in more real-world applications, we describe\nthe scenarios where the three following approaches can be\napplied in Appendix."
+          },
+          {
+            "chunk_id": "p004-c008",
+            "page": 4,
+            "section": "Attribute** _s_ **is Known** When we have access to the attribute",
+            "chars": 506,
+            "text": "**Attribute** _s_ **is Known** When we have access to the attribute\n_s_, we can make a direct estimation on the only unknown term\n_p_ ( _s_ = _y|y, x, I_ tr) using the data ( _x, y, s_ ) _∈D_ tr and apply Algorithm 1 therein. As _p_ ( _s_ = _y|y, x, I_ tr) increases, the weight\nfunction _g_ decreases (see Eq. (5)), because stronger spurious\ncorrelations make _p_ ( _s_ = _y|y, x, I_ tr) larger. Down-weighting\nthese samples during training helps performance by reducing\nreliance on spurious correlations."
+          },
+          {
+            "chunk_id": "p004-c009",
+            "page": 4,
+            "section": "Attribute** _s_ **is Unknown and** _D_ **tr** _∼D_ **va** When we do not",
+            "chars": 415,
+            "text": "**Attribute** _s_ **is Unknown and** _D_ **tr** _∼D_ **va** When we do not\nhave access to the attribute _s_ and _D_ tr _∼D_ va, we propose to\nuse the following term to estimate _p_ ( _s|y, x, I_ tr):\n\n_p_ ˆ( _s_ = _y|y, x, I_ tr)\n\n- _−_ 1\n_,_ (6)\n\n_∝_ exp\n\n- _<u>|</u>_ <u>log ˆ</u> _<u>p</u>_ <u>(</u> _<u>y|x, I</u>_ <u>tr)</u> _<u>−</u>_ <u>log ˆ</u> _<u>p</u>_ <u>(</u> _<u>y|x, I</u>_ <u>va)</u> _<u>|</u>_\n_τ_"
+          }
+        ],
+        "not_returned_chunk_ids": [],
+        "remaining_chars": 21630,
+        "remaining_read_calls": 9
+      },
+      "seconds": 0.0
+    }
+  ],
+  "abstracts_read": {
+    "iclr-2025/dikphooa2d": "Machine learning models are often required to perform well across several pre-defined settings, such as a set of user groups. Worst-case performance is a common metric to capture this requirement, and is the objective of group distributionally robust optimization (group DRO). Unfortunately, these methods struggle when the loss is non-convex in the parameters, or the model class is non-parametric. Here, we make a classical move to address this: we reparameterize group DRO from parameter space to function space, which results in a number of advantages. First, we show that group DRO over the space of bounded functions admits a minimax theorem. Second, for cross-entropy and mean squared error, we show that the minimax optimal mixture distribution is the solution of a simple convex optimization problem. Thus, provided one is working with a model class of universal function approximators, group DRO can be solved by a convex optimization problem followed by a classical risk minimization problem. We call our method MixMax. In our experiments, we found that MixMax matched or outperformed the standard group DRO baselines, and in particular, MixMax improved the performance of XGBoost over the only baseline, data balancing, for variations of the ACSIncome and CelebA annotations datasets.",
+    "icml-2024/yu24a": "In this paper, we investigate the empirical counterpart of Group Distributionally Robust Optimization (GDRO), which aims to minimize the maximal empirical risk across $m$ distinct groups. We formulate empirical GDRO as a two-level finite-sum convex-concave minimax optimization problem and develop an algorithm called ALEG to benefit from its special structure. ALEG is a double-looped stochastic primal-dual algorithm that incorporates variance reduction techniques into a modified mirror prox routine. To exploit the two-level finite-sum structure, we propose a simple group sampling strategy to construct the stochastic gradient with a smaller Lipschitz constant and then perform variance reduction for all groups. Theoretical analysis shows that ALEG achieves $\\varepsilon$-accuracy within a computation complexity of $\\mathcal{O}\\left(\\frac{m\\sqrt{\\bar{n}\\ln{m}}}{\\varepsilon}\\right)$, where $\\bar n$ is the average number of samples among $m$ groups. Notably, our approach outperforms the state-of-the-art method by a factor of $\\sqrt{m}$. Based on ALEG, we further develop a two-stage optimization algorithm called ALEM to deal with the empirical Minimax Excess Risk Optimization (MERO) problem. The computation complexity of ALEM nearly matches that of ALEG, surpassing the rates of existing methods.",
+    "iclr-2025/aqj9ifxrl6": "Machine learning models often have uneven performance among subpopulations\n(a.k.a., groups) in the data distributions. This poses a significant challenge for the\nmodels to generalize when the proportions of the groups shift during deployment.\nTo improve robustness to such shifts, existing approaches have developed strategies\nthat train models or perform hyperparameter tuning using the group-labeled data\nto minimize the worst-case loss over groups. However, a non-trivial amount of\nhigh-quality labels is often required to obtain noticeable improvements. Given\nthe costliness of the labels, we propose to adopt a different paradigm to enhance\ngroup label efficiency: utilizing the group-labeled data as a target set to optimize\nthe weights of other group-unlabeled data. We introduce Group-robust Sample\nReweighting (GSR), a two-stage approach that first learns the representations from\ngroup-unlabeled data, and then tinkers the model by iteratively retraining its last\nlayer on the reweighted data using influence functions. Our GSR is theoretically\nsound, practically lightweight, and effective in improving the robustness to sub-\npopulation shifts. In particular, GSR outperforms the previous state-of-the-art\napproaches that require the same amount or even more group labels. Our code is\navailable at https://github.com/qiaoruiyt/GSR.",
+    "aaai-2025/150b28ab6b1d5a47f8126f1073afdf668e5bb9f6": "Despite empirical risk minimization (ERM) is widely applied in the machine learning community, its performance is limited on data with spurious correlation or subpopulation that is introduced by hidden attributes. Existing literature proposed techniques to maximize group-balanced or worst-group accuracy when such correlation presents, yet, at the cost of lower average accuracy. In addition, many existing works conduct surveys on different subpopulation methods without revealing the inherent connection between these methods, which could hinder the technology advancement in this area. In this paper, we identify important sampling as a simple yet powerful tool for solving the subpopulation problem. On the theory side, we provide a new systematic formulation of the subpopulation problem, and explicitly identify the assumptions that are not clearly stated in the existing works. This helps to uncover the cause of the dropped average accuracy. We provide the first theoretical discussion on the connections of existing methods, revealing the core components that make them different. On the application side, we demonstrate a single estimator is enough to solve the subpopulation problem. In particular, we introduce the estimator in both attribute-known and -unknown scenarios in the subpopulation setup, offering flexibility in practical use cases. And empirically, we achieve state-of-the-art performance on commonly used benchmark datasets.",
+    "neurips-2024/ac4c13a5c6ec1bba68c9ce1d908321d2": "Toxicity classification in textual content remains a significant problem. Data with labels from a single annotator fall short of capturing the diversity of human perspectives. Therefore, there is a growing need to incorporate crowdsourced annotations for training an effective toxicity classifier. Additionally, the standard approach to training a classifier using empirical risk minimization (ERM) may fail to address the potential shifts between the training set and testing set due to exploiting spurious correlations. This work introduces a novel bi-level optimization framework that integrates crowdsourced annotations with the soft-labeling technique and optimizes the soft-label weights by Group Distributionally Robust Optimization (GroupDRO) to enhance the robustness against out-of-distribution (OOD) risk. We theoretically prove the convergence of our bi-level optimization algorithm. Experimental results demonstrate that our approach outperforms existing baseline methods in terms of both average and worst-group accuracy, confirming its effectiveness in leveraging crowdsourced annotations to achieve more effective and robust toxicity classification.",
+    "neurips-2024/879c5890a9d2ecdcb590c9674cda4a59": "Models trained with empirical risk minimization (ERM) are prone to be biased towards spurious correlations between target labels and bias attributes, which leads to poor performance on data groups lacking spurious correlations. It is particularly challenging to address this problem when access to bias labels is not permitted. To mitigate the effect of spurious correlations without bias labels, we first introduce a novel training objective designed to robustly enhance model performance across all data samples, irrespective of the presence of spurious correlations. From this objective, we then derive a debiasing method, Disagreement Probability based Resampling for debiasing (DPR), which does not require bias labels. DPR leverages the disagreement between the target label and the prediction of a biased model to identify bias-conflicting samples—those without spurious correlations—and upsamples them according to the disagreement probability. Empirical evaluations on multiple benchmarks demonstrate that DPR achieves state-of-the-art performance over existing baselines that do not use bias labels. Furthermore, we provide a theoretical analysis that details how DPR reduces dependency on spurious correlations.",
+    "naacl-2024/2024naacl-long126": "AbstractLongstanding data labeling practices in machine learning involve collecting and aggregating labels from multiple annotators. But what should we do when annotators disagree? Though annotator disagreement has long been seen as a problem to minimize, new perspectivist approaches challenge this assumption by treating disagreement as a valuable source of information. In this position paper, we examine practices and assumptions surrounding the causes of disagreement–some challenged by perspectivist approaches, and some that remain to be addressed–as well as practical and normative challenges for work operating under these assumptions. We conclude with recommendations for the data labeling pipeline and avenues for future research engaging with subjectivity and disagreement.",
+    "neurips-2025/8ae3fd80c07b1c5fdc0ce59b55396812-abstract-datasetsandbenchmarkstrackhtml": "Coreset selection methods have shown promise in reducing the training data size while maintaining model performance for data-efficient machine learning. However, many large real-world datasets suffer from unknown spurious correlations and hidden biases. Therefore, it is crucial to understand how such biases would affect downstream tasks via the selected coresets. In this work, we conduct the first comprehensive analysis of the implications of data selection on the bias levels of the selected coresets and the robustness of downstream models trained on them. We use an extensive experimental setting spanning ten different spurious correlations benchmarks, five score metrics to characterize sample importance/ difficulty, and five data selection policies across a broad range of coreset sizes to identify important patterns and derive insights. Thereby, we unravel a series of nontrivial nuances in well-known interactions between sample difficulty and bias alignment, as well as dataset bias and resultant model robustness. For example, we show that embedding-based sample characterizations run a comparatively lower risk of inadvertently exacerbating bias when used for selecting coresets compared to characterizations based on learning dynamics.  Our analysis also reveals that lower bias levels achieved by coresets of difficult samples do not reliably guarantee downstream robustness. Most importantly, we show that special considerations need to be made when the coreset size is very small, since there is a unique risk of highly prototypical coresets reaching high average performance while obscuring their low group-robustness.",
+    "icml-2025/phan24b": "Models trained on data composed of different groups or domains can suffer from severe performance degradation under distribution shifts. While recent methods have largely focused on optimizing the worst-group objective, this often comes at the expense of good performance on other groups. To address this problem, we introduce an optimization scheme to achieve good performance across groups and find a good solution for all without severely sacrificing performance on any of them. However, directly applying such optimization involves updating the parameters of the entire network, making it both computationally expensive and challenging. Thus, we introduce Controllable Prompt Tuning (CPT), which couples our approach with prompt-tuning techniques. On spurious correlation benchmarks, our procedures achieve state-of-the-art results across both transformer and non-transformer architectures, as well as unimodal and multimodal data, while requiring only $0.4%$ tunable parameters.",
+    "icml-2024/xia24b": "Coreset selection is powerful in reducing computational costs and accelerating data processing for deep learning algorithms. It strives to identify a small subset from large-scale data, so that training only on the subset practically performs on par with full data. Practitioners regularly desire to identify the smallest possible coreset in realistic scenes while maintaining comparable model performance, to minimize costs and maximize acceleration. Motivated by this desideratum, for the first time, we pose the problem of refined coreset selection, in which the minimal coreset size under model performance constraints is explored. Moreover, to address this problem, we propose an innovative method, which maintains optimization priority order over the model performance and coreset size, and efficiently optimizes them in the coreset selection procedure. Theoretically, we provide the convergence guarantee of the proposed method. Empirically, extensive experiments confirm its superiority compared with previous strategies, often yielding better model performance with smaller coreset sizes. The implementation is available at https://github.com/xiaoboxia/LBCS.",
+    "iclr-2024/rxvbkhyfso": "The rise in internet usage has led to the generation of massive amounts of data, resulting in the adoption of various supervised and semi-supervised machine learning algorithms, which can effectively utilize the colossal amount of data to train models. However, before deploying these models in the real world, these must be strictly evaluated on performance measures like worst-case recall and satisfy constraints such as fairness. We find that current state-of-the-art empirical techniques offer sub-optimal performance on these practical, non-decomposable performance objectives. On the other hand, the theoretical techniques necessitate training a new model from scratch for each performance objective. To bridge the gap, we propose SelMix, a selective mixup-based inexpensive fine-tuning technique for pre-trained models, to optimize for the desired objective. The core idea of our framework is to determine a sampling distribution to perform a mixup of features between samples from particular classes such that it optimizes the given objective.  We comprehensively evaluate our technique against the existing empirical and theoretically principled methods on standard benchmark datasets for imbalanced classification. We find that proposed SelMix fine-tuning significantly improves the performance for various practical non-decomposable objectives across benchmarks.",
+    "neurips-2024/e574db41163e700545ff4114f96b3d7a": "The Area Under the ROC Curve (AUC) is a well-known metric for evaluating instance-level long-tail learning problems. In the past two decades, many AUC optimization methods have been proposed to improve model performance under long-tail distributions. In this paper, we explore AUC optimization methods in the context of pixel-level long-tail semantic segmentation, a much more complicated scenario. This task introduces two major challenges for AUC optimization techniques. On one hand, AUC optimization in a pixel-level task involves complex coupling across loss terms, with structured inner-image and pairwise inter-image dependencies, complicating theoretical analysis. On the other hand, we find that mini-batch estimation of AUC loss in this case requires a larger batch size, resulting in an unaffordable space complexity. To address these issues, we develop a pixel-level AUC loss function and conduct a dependency-graph-based theoretical analysis of the algorithm's generalization ability. Additionally, we design a Tail-Classes Memory Bank (T-Memory Bank) to manage the significant memory demand. Finally, comprehensive experiments across various benchmarks confirm the effectiveness of our proposed AUCSeg method. The code is available at https://github.com/boyuh/AUCSeg.",
+    "aaai-2025/770f3d5748477fdb1a04856827eed0eb120449cb": "This paper considers the problem of fair probabilistic binary classification with binary protected groups. The classifier assigns scores, and a practitioner predicts labels using a certain cut-off threshold based on the desired trade-off between false positives vs. false negatives. It derives these thresholds from the ROC of the classifier. The resultant classifier may be unfair to one of the two protected groups in the dataset. It is desirable that no matter what threshold the practitioner uses, the classifier should be fair to both the protected groups; that is, the ℒₚ norm between FPRs and TPRs of both the protected groups should be at most ε. We call such fairness on ROCs of both the protected attributes εₚ-Equalized ROC. Given a classifier not satisfying ε₁-Equalized ROC, we aim to design a post-processing method to transform the given (potentially unfair) classifier's output (score) to a suitable randomized yet fair classifier. That is, the resultant classifier must satisfy ε₁-Equalized ROC. First, we introduce a threshold query model on the ROC curves for each protected group. The resulting classifier is bound to face a reduction in AUC. With the proposed query model, we provide a rigorous theoretical analysis of the minimal AUC loss to achieve ε₁-Equalized ROC. To achieve this, we design a linear time algorithm, namely FROC, to transform a given classifier's output to a probabilistic classifier that satisfies ε₁-Equalized ROC. We prove that under certain theoretical conditions, FROC achieves the theoretical optimal guarantees. We also study the performance of our FROC on multiple real-world datasets with many trained classifiers."
+  }
+}

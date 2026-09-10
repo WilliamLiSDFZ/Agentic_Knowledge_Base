@@ -1,0 +1,52 @@
+{
+  "captured_at": "2026-09-10T02:29:44",
+  "retrieval_mode": "analogy",
+  "corpus": {
+    "path": "/workspace/Agentic_Knowledge_Base/output/paper_corpus",
+    "level": "paper",
+    "count": 38273,
+    "records_sha1": "5cd1d5e7afd0",
+    "built_at": "2026-09-03T00:24:42",
+    "schema_version": 2,
+    "venues": {
+      "aaai-2024": 2813,
+      "aaai-2025": 4301,
+      "acl-2024": 1962,
+      "acl-2025": 3299,
+      "iccv-2023": 2156,
+      "iclr-2024": 2260,
+      "iclr-2025": 3703,
+      "icml-2024": 2610,
+      "icml-2025": 2609,
+      "naacl-2024": 922,
+      "naacl-2025": 1326,
+      "neurips-2024": 4493,
+      "neurips-2025": 5819
+    },
+    "venue_count": 13,
+    "record_count": 38273
+  },
+  "fulltext": {
+    "config": {
+      "enabled": true,
+      "cache_dir": "/workspace/MLEvolve/cache/paper_fulltext",
+      "offline": false,
+      "max_papers": 3,
+      "max_read_calls": 12,
+      "read_chars": 8000,
+      "total_chars": 40000,
+      "open_timeout_seconds": 60.0,
+      "total_open_seconds": 150.0
+    },
+    "parser": {
+      "schema": "paper-fulltext-v1",
+      "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+      "pymupdf": "1.28.0",
+      "pymupdf4llm": "1.28.0",
+      "pymupdf_layout": "1.28.0",
+      "tabulate": "0.9.0"
+    },
+    "document_versions": "logs/analogy/*.fulltext.json (recorded when read)"
+  },
+  "digest": "abbf7808"
+}

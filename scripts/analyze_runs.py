@@ -262,6 +262,18 @@ class Run:
     custom_arch_fraction: float = 0.0
     best_metric: Any = None
     maximize_used: Any = None
+    # Runtime artifacts are independent of completed search nodes (never add them to n_nodes).
+    runtime_protocol: str = ""
+    runtime_candidates: int = 0
+    runtime_completed: int = 0
+    runtime_budget_stops: int = 0
+    runtime_failed_with_result: int = 0
+    runtime_unfinished_with_result: int = 0
+    runtime_without_result: int = 0
+    runtime_scoreable: int = 0
+    runtime_first_result_h: Any = None
+    runtime_validation_h: float = 0.0
+    runtime_export_h: float = 0.0
     # outputs
     n_top_solutions: int = 0
     n_ensembles: int = 0
@@ -423,6 +435,36 @@ def parse_journal(run: Run, jr: Path) -> None:
     if vals:
         want_max = TASKS.get(run.exp_id, {}).get("maximize", run.maximize_used)
         run.best_metric = max(vals) if want_max else min(vals)
+
+
+def parse_candidate_results(run: Run, path: Path) -> None:
+    """Read compact CPU-recoverable metadata, including runs killed before journal writes."""
+    if not path.exists():
+        return
+    try:
+        summary = json.loads(path.read_text())
+    except (OSError, ValueError):
+        return
+    run.runtime_protocol = summary.get("contract", {}).get("metric_version", "")
+    candidates = summary.get("candidates", [])
+    run.runtime_candidates = len(candidates)
+    start = summary.get("run", {}).get("started_at")
+    first = []
+    for candidate in candidates:
+        status = candidate.get("execution", {}).get("status", "unknown")
+        scoreable = candidate.get("artifact_status") == "scoreable"
+        run.runtime_scoreable += int(scoreable)
+        run.runtime_completed += int(scoreable and status == "completed")
+        run.runtime_budget_stops += int(scoreable and status == "budget_exhausted")
+        run.runtime_failed_with_result += int(scoreable and status in {"failed", "timeout", "protocol_error"})
+        run.runtime_unfinished_with_result += int(scoreable and status in {"running", "queued", "unknown"})
+        run.runtime_without_result += int(not scoreable)
+        if scoreable and candidate.get("first_published_at") is not None:
+            first.append(candidate["first_published_at"])
+        run.runtime_validation_h += candidate.get("validation_seconds", 0) / 3600
+        run.runtime_export_h += candidate.get("export_seconds", 0) / 3600
+    if first and start is not None:
+        run.runtime_first_result_h = max(0.0, (min(first) - start) / 3600)
 
 
 def parse_outputs(run: Run, ws: Path) -> None:
@@ -717,6 +759,10 @@ def build_process_charts(groups: list[Group], runs: list[Run], out: Path) -> tup
 
     out.mkdir(parents=True, exist_ok=True)
     written, all_stats = [], []
+    runtime_runs = [r for r in runs if r.runtime_candidates]
+    if runtime_runs:
+        p = pe.plot_candidate_runtime(runtime_runs, out)
+        written.append(p.name)
     for task in sorted({g.task for g in groups}):
         draws = [{"label": f"draw{g.draw}",
                   "process": {a: _process_of(r) for a, r in g.arms.items()},
@@ -864,6 +910,7 @@ def main() -> int:
         parse_log(r, d / "logs" / "MLEvolve.log")
         parse_config(r, d / "logs" / "config.yaml")
         parse_journal(r, d / "logs" / "journal.json")
+        parse_candidate_results(r, d / "logs/candidate_results/summary.json")
         parse_outputs(r, d / "workspace")
         finalise_usable(r)                 # needs both the log and the outputs
         apply_rules(r, manual)

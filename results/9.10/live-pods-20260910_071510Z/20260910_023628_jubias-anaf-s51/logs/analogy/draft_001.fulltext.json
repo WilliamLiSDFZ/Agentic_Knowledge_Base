@@ -1,0 +1,380 @@
+{
+  "schema": "paper-fulltext-v1",
+  "config": {
+    "enabled": true,
+    "cache_dir": "/workspace/MLEvolve/cache/paper_fulltext",
+    "offline": false,
+    "max_papers": 3,
+    "max_read_calls": 12,
+    "read_chars": 8000,
+    "total_chars": 40000,
+    "open_timeout_seconds": 60.0,
+    "total_open_seconds": 150.0
+  },
+  "cache_dir": "/workspace/MLEvolve/cache/paper_fulltext",
+  "parser": {
+    "schema": "paper-fulltext-v1",
+    "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+    "pymupdf": "1.28.0",
+    "pymupdf4llm": "1.28.0",
+    "pymupdf_layout": "1.28.0",
+    "tabulate": "0.9.0"
+  },
+  "read_calls": 1,
+  "body_chars": 7065,
+  "open_seconds": 64.351,
+  "attempts": {
+    "neurips-2024/dc4db2ff2c1aefce3b594f821ea82fe6": {
+      "status": "ok",
+      "cache_hit": true
+    },
+    "iclr-2025/aqj9ifxrl6": {
+      "status": "download_error",
+      "message": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    "neurips-2024/fba9133d7fa896ab9414ddd1a6b1ecbf": {
+      "status": "timeout",
+      "message": "PDF download/parse exceeded the paper open budget"
+    }
+  },
+  "documents": {
+    "neurips-2024/dc4db2ff2c1aefce3b594f821ea82fe6": {
+      "paper_id": "neurips-2024/dc4db2ff2c1aefce3b594f821ea82fe6",
+      "title": "The Group Robustness is in the Details: Revisiting Finetuning under Spurious Correlations",
+      "corpus_source": "https://papers.nips.cc/paper_files/paper/2024/hash/dc4db2ff2c1aefce3b594f821ea82fe6-Abstract-Conference.html",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/dc4db2ff2c1aefce3b594f821ea82fe6-Paper-Conference.pdf",
+      "pdf_sha256": "f416dafcc09147c92a6ca447b0f45fb811b15da488defb85ddbab2eb43ea0ffc",
+      "text_sha256": "293220512e013c985ea3488224e94d543a70663f35b78689b5c6222d507aab9b",
+      "parser": {
+        "schema": "paper-fulltext-v1",
+        "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+        "pymupdf": "1.28.0",
+        "pymupdf4llm": "1.28.0",
+        "pymupdf_layout": "1.28.0",
+        "tabulate": "0.9.0"
+      },
+      "parsed_at": "2026-09-10T01:27:00Z",
+      "extraction_mode": "pymupdf4llm-legacy-text",
+      "page_count": 32,
+      "title_check": "token_overlap_passed",
+      "warnings": [
+        "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+      ],
+      "fetched_at": "2026-09-10T01:26:55Z"
+    }
+  },
+  "events": [
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/dc4db2ff2c1aefce3b594f821ea82fe6",
+        "outline_offset": 0
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/dc4db2ff2c1aefce3b594f821ea82fe6",
+        "title": "The Group Robustness is in the Details: Revisiting Finetuning under Spurious Correlations",
+        "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/dc4db2ff2c1aefce3b594f821ea82fe6-Paper-Conference.pdf",
+        "pdf_sha256": "f416dafcc09147c92a6ca447b0f45fb811b15da488defb85ddbab2eb43ea0ffc",
+        "text_sha256": "293220512e013c985ea3488224e94d543a70663f35b78689b5c6222d507aab9b",
+        "parser": {
+          "schema": "paper-fulltext-v1",
+          "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+          "pymupdf": "1.28.0",
+          "pymupdf4llm": "1.28.0",
+          "pymupdf_layout": "1.28.0",
+          "tabulate": "0.9.0"
+        },
+        "page_count": 32,
+        "warnings": [
+          "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+        ],
+        "cache_hit": true,
+        "outline": [
+          {
+            "chunk_id": "p001-c001",
+            "page": 1,
+            "section": "The Group Robustness is in the Details: Revisiting** **Finetuning under Spurious Correlations",
+            "chars": 99
+          },
+          {
+            "chunk_id": "p001-c002",
+            "page": 1,
+            "section": "Tyler LaBonte** <sup>1</sup> <sup>_∗_</sup> **John C. Hill** <sup>2</sup> **Xinchen Zhang** <sup>2</sup>",
+            "chars": 106
+          },
+          {
+            "chunk_id": "p001-c003",
+            "page": 1,
+            "section": "Vidya Muthukumar** <sup>2</sup> <sup>_,_</sup> <sup>1</sup> **Abhishek Kumar** <sup>_†_</sup>",
+            "chars": 273
+          },
+          {
+            "chunk_id": "p001-c004",
+            "page": 1,
+            "section": "Abstract",
+            "chars": 1442
+          },
+          {
+            "chunk_id": "p001-c005",
+            "page": 1,
+            "section": "1** **Introduction",
+            "chars": 1706
+          },
+          {
+            "chunk_id": "p002-c001",
+            "page": 2,
+            "section": "1** **Introduction",
+            "chars": 1975
+          },
+          {
+            "chunk_id": "p002-c002",
+            "page": 2,
+            "section": "1.1** **Related work",
+            "chars": 208
+          },
+          {
+            "chunk_id": "p002-c003",
+            "page": 2,
+            "section": "Spurious correlations.** The proclivity of ERM to rely on spurious correlations has been widely",
+            "chars": 706
+          },
+          {
+            "chunk_id": "p002-c004",
+            "page": 2,
+            "section": "Class-balancing and group robustness.** _Group-balancing_, or training with an equal number of",
+            "chars": 1259
+          },
+          {
+            "chunk_id": "p002-c005",
+            "page": 2,
+            "section": "Overparameterization and distributional robustness.** While the accepted empirical wisdom is",
+            "chars": 390
+          },
+          {
+            "chunk_id": "p003-c001",
+            "page": 3,
+            "section": "Overparameterization and distributional robustness.** While the accepted empirical wisdom is",
+            "chars": 961
+          },
+          {
+            "chunk_id": "p003-c002",
+            "page": 3,
+            "section": "2** **Preliminaries",
+            "chars": 23
+          },
+          {
+            "chunk_id": "p003-c003",
+            "page": 3,
+            "section": "Setting.** We consider classification tasks with input domain R <sup>_n_</sup> and target classes _Y_ _⊂_ N. Suppose",
+            "chars": 1785
+          },
+          {
+            "chunk_id": "p003-c004",
+            "page": 3,
+            "section": "Class-balancing.** A dataset is considered to be _class-balanced_ if it is composed of an equal number",
+            "chars": 1938
+          },
+          {
+            "chunk_id": "p003-c005",
+            "page": 3,
+            "section": "Class-balancing.** A dataset is considered to be _class-balanced_ if it is composed of an equal number",
+            "chars": 367
+          },
+          {
+            "chunk_id": "p004-c001",
+            "page": 4,
+            "section": "Datasets and models.** We study four classification datasets, two in the vision domain and two in",
+            "chars": 1728
+          },
+          {
+            "chunk_id": "p004-c002",
+            "page": 4,
+            "section": "Datasets and models.** We study four classification datasets, two in the vision domain and two in",
+            "chars": 870
+          },
+          {
+            "chunk_id": "p004-c003",
+            "page": 4,
+            "section": "3** **Nuanced effects of class-balancing on group robustness",
+            "chars": 218
+          },
+          {
+            "chunk_id": "p004-c004",
+            "page": 4,
+            "section": "3.1** **Catastrophic collapse of class-balanced upsampling and upweighting",
+            "chars": 1990
+          },
+          {
+            "chunk_id": "p005-c001",
+            "page": 5,
+            "section": "3.1** **Catastrophic collapse of class-balanced upsampling and upweighting",
+            "chars": 1598
+          },
+          {
+            "chunk_id": "p005-c002",
+            "page": 5,
+            "section": "3.1** **Catastrophic collapse of class-balanced upsampling and upweighting",
+            "chars": 1783
+          },
+          {
+            "chunk_id": "p005-c003",
+            "page": 5,
+            "section": "Contextualization with previous work.** Our observations explain the decrease in WGA of CelebA",
+            "chars": 793
+          },
+          {
+            "chunk_id": "p006-c001",
+            "page": 6,
+            "section": "Contextualization with previous work.** Our observations explain the decrease in WGA of CelebA",
+            "chars": 1489
+          },
+          {
+            "chunk_id": "p006-c002",
+            "page": 6,
+            "section": "3.2** **Mixture balancing:** **interpolating between subsetting and upsampling",
+            "chars": 1521
+          },
+          {
+            "chunk_id": "p006-c003",
+            "page": 6,
+            "section": "3.2** **Mixture balancing:** **interpolating between subsetting and upsampling",
+            "chars": 572
+          },
+          {
+            "chunk_id": "p007-c001",
+            "page": 7,
+            "section": "3.2** **Mixture balancing:** **interpolating between subsetting and upsampling",
+            "chars": 829
+          },
+          {
+            "chunk_id": "p007-c002",
+            "page": 7,
+            "section": "Note on validation.** In Figure 2, we plot the best class-imbalance ratio achieved using validation on",
+            "chars": 697
+          },
+          {
+            "chunk_id": "p007-c003",
+            "page": 7,
+            "section": "Contextualization with previous work.** Increasing exposure to majority class data without oversampling the minority class was previously explored by [26], who ",
+            "chars": 837
+          },
+          {
+            "chunk_id": "p007-c004",
+            "page": 7,
+            "section": "4** **Model scaling improves WGA of class-balanced finetuning",
+            "chars": 1327
+          },
+          {
+            "chunk_id": "p007-c005",
+            "page": 7,
+            "section": "4** **Model scaling improves WGA of class-balanced finetuning",
+            "chars": 762
+          }
+        ],
+        "next_outline_offset": 30,
+        "remaining_chars": 40000,
+        "note": "Opening a paper returns no body text. Use read_paper to obtain citable excerpts."
+      },
+      "seconds": 2.123
+    },
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "iclr-2025/aqj9ifxrl6",
+        "outline_offset": 0
+      },
+      "result": {
+        "status": "download_error",
+        "paper_id": "iclr-2025/aqj9ifxrl6",
+        "message": "HTTPError: HTTP Error 403: Forbidden",
+        "note": "No full-text evidence returned by this call; read_abstract remains available"
+      },
+      "seconds": 2.031
+    },
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/fba9133d7fa896ab9414ddd1a6b1ecbf",
+        "outline_offset": 0
+      },
+      "result": {
+        "status": "timeout",
+        "paper_id": "neurips-2024/fba9133d7fa896ab9414ddd1a6b1ecbf",
+        "message": "PDF download/parse exceeded the paper open budget",
+        "note": "No full-text evidence returned by this call; read_abstract remains available"
+      },
+      "seconds": 60.197
+    },
+    {
+      "tool": "read_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/dc4db2ff2c1aefce3b594f821ea82fe6",
+        "chunk_ids": [
+          "p002-c004",
+          "p004-c004",
+          "p005-c001",
+          "p006-c002",
+          "p007-c002"
+        ]
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/dc4db2ff2c1aefce3b594f821ea82fe6",
+        "pdf_sha256": "f416dafcc09147c92a6ca447b0f45fb811b15da488defb85ddbab2eb43ea0ffc",
+        "text_sha256": "293220512e013c985ea3488224e94d543a70663f35b78689b5c6222d507aab9b",
+        "chunks": [
+          {
+            "chunk_id": "p002-c004",
+            "page": 2,
+            "section": "Class-balancing and group robustness.** _Group-balancing_, or training with an equal number of",
+            "chars": 1259,
+            "text": "**Class-balancing and group robustness.** _Group-balancing_, or training with an equal number of\nsamples from each group, has been proposed as a simple yet effective method to improve robustness\nto spurious correlations [17, 51, 6, 55]. However, group-balancing requires group annotations, which\nare often unknown or problematic to obtain [31, 72, 47, 29]. On the other hand, _class-balancing_, or\ntraining with an equal number of samples from each class, is a well-studied method in long-tailed\nclassification [24, 15, 4]. Recent work has shown that class-balancing is a surprisingly powerful\nmethod for improving worst-group accuracy which does not require group annotations [22, 29, 7, 53].\nIn particular, [22] study the WGA dynamics of two common class-balancing methods: removing data\nfrom the larger classes (which we call _subsetting_ ) and upsampling the smaller classes (which we call\n_upsampling_ ). Our results complement those of [22] and show more nuanced effects of class-balancing\nthan previously known; we provide additional contextualization with [22] in Section 3.1. We show\nsimilar nuanced behavior of _upweighting_ smaller classes in the loss function, a popular method in the\ngroup-balancing setting [31, 47, 55] which [22] did not study."
+          },
+          {
+            "chunk_id": "p004-c004",
+            "page": 4,
+            "section": "3.1** **Catastrophic collapse of class-balanced upsampling and upweighting",
+            "chars": 1990,
+            "text": "**3.1** **Catastrophic collapse of class-balanced upsampling and upweighting**\n\nIn a recent paper, [29] observed that contrary to the central hypothesis underlying the Just Train\nTwice method [31], the worst-group accuracy of ERM decreases dramatically with training epochs\non CelebA and CivilComments; however, they provide no explanation for this phenomenon. In this\nsection, we show that this degradation of WGA is due to their choice of class-balancing method ( _i.e._,\nupsampling). Specifically, ERM finetuned with upsampling experiences a _catastrophic collapse_ in\ntest WGA over the course of training, a phenomenon that was previously only noticed in synthetic\ndatasets with a linear classifier [22]. Moreover, while [22] state that class-balanced subsetting is not\nrecommended in practice, we show that it can in fact improve WGA conditional on the lack of of a\nsmall minority group _within the majority class_ . Finally, we show that class-balanced upweighting —\na popular technique which [22] do not study — experiences a similar WGA collapse as upsampling.\n\nWe finetune a ConvNeXt-V2 Base on Waterbirds and CelebA and a BERT Base on CivilComments,\nand we compare the subsetting, upsampling, and upweighting techniques to a class-imbalanced\n\n4We note that the Waterbirds dataset is known to contain incorrect labels [56]. We report results on the\noriginal, un-corrected version as is standard in the literature.\n\n5This version of CivilComments has four groups, used in this work and by [50, 22, 23, 26, 29]. There is\nanother version where the identity categories are not collapsed into one spurious feature; that version is used\nby [31, 72, 47]. Both versions use the WILDS split [27].\n\n6To be more specific, we finetune ConvNeXt-V2 Base roughly to a training loss of 10 _−_ 4 on Waterbirds and\n10 <sup>_−_</sup> <sup>3</sup> on CelebA, and BERT Base roughly to a training loss of 10 <sup>_−_</sup> <sup>3</sup> on CivilComments and 10 <sup>_−_</sup> <sup>2</sup> on MultiNLI.\n\n4"
+          },
+          {
+            "chunk_id": "p005-c001",
+            "page": 5,
+            "section": "3.1** **Catastrophic collapse of class-balanced upsampling and upweighting",
+            "chars": 1598,
+            "text": "(a) Waterbirds (b) CelebA (c) CivilComments\n\nFigure 1: **Class-balanced upsampling and upweighting experience catastrophic collapse.** We\ncompare _subsetting_, wherein data is removed to set every class to the same size as the smallest class,\n_upsampling_, wherein the sampling probabilities of each class are adjusted so that the mini-batches\nare class-balanced in expectation, and _upweighting_, wherein the loss for the smaller classes is scaled\nby the class-imbalance ratio. We observe a catastrophic collapse over the course of training of\nupsampling and upweighting on CelebA and CivilComments, the more class-imbalanced datasets.\nSubsetting reduces WGA on Waterbirds because it removes data from the small minority group\nwithin the majority class. MultiNLI is class-balanced _a priori_, so we do not include it here.\n\nbaseline. Our results are displayed in Figure 1, with additional models in Appendix B. On CelebA and\nCivilComments, the more class-imbalanced datasets, upsampling and upweighting both experience\ncatastrophic collapse over the course of training. We believe this collapse is caused by overfitting\nto the minority group within the minority class; any individual point from this group is sampled far\nmore often during upsampling and weighted far more heavily during upweighting, causing overfitting\nduring long training runs. In fact, upsampling does even worse on CelebA than observed in [29]\nbecause we train 3 _×_ longer to ensure convergence. With that said, optimally tuned early-stopping\nappears to mitigate the collapse (as previously noticed by [22] in a toy setting)."
+          },
+          {
+            "chunk_id": "p006-c002",
+            "page": 6,
+            "section": "3.2** **Mixture balancing:** **interpolating between subsetting and upsampling",
+            "chars": 1521,
+            "text": "**3.2** **Mixture balancing:** **interpolating between subsetting and upsampling**\n\nTo mitigate the catastrophic collapse of class-balanced upsampling and upweighting, we propose a\nsimple _mixture method_ which interpolates between subsetting and upsampling. Our method increases\nexposure to majority class data without over-sampling the minority class, which can improve WGA\nand mitigate overfitting to the minority group. We first create a data subset with a specified _class-_\n_imbalance_ _ratio_ by removing data from the larger classes uniformly at random until the desired\n(smaller) ratio is achieved. Next, we perform ERM finetuning on this subset by adjusting sampling\nprobabilities so that mini-batches are balanced in expectation. Using a class-imbalance ratio of 1:1\nreduces to subsetting, and using the original class-imbalance ratio reduces to upsampling.\n\nWe finetune ConvNeXt-V2 Base on Waterbirds and CelebA and BERT Base on CivilComments,\nand we compare our class-balanced mixture method to the subsetting, upsampling, and upweighting\ntechniques. The results of our experiments are displayed in Figure 2. We plot the performance of our\nmixture method with the best class-imbalance ratio during validation; an ablation study varying the\nratio is included in Appendix B. Remarkably, mixture balancing outperforms all three class-balancing\nmethods on Waterbirds and CivilComments, and while it does not outperform subsetting on CelebA,\nit significantly alleviates the WGA collapse experienced by upsampling."
+          },
+          {
+            "chunk_id": "p007-c002",
+            "page": 7,
+            "section": "Note on validation.** In Figure 2, we plot the best class-imbalance ratio achieved using validation on",
+            "chars": 697,
+            "text": "**Note on validation.** In Figure 2, we plot the best class-imbalance ratio achieved using validation on\na group annotated held-out set. While this is a common assumption in the literature [50, 31, 23, 26],\nit is nevertheless unrealistic when the training set does not have any group annotations. Therefore,\nwe compare with both worst-class accuracy [69] and the _bias-unsupervised validation score_ of [60],\nwhich do not use any group annotations for model selection. In Table 1 we list the method which\nmaximizes each validation metric as well as its average WGA. Overall, we show both methods are\neffective for model selection, often choosing the same method or mixture ratio as WGA validation."
+          }
+        ],
+        "not_returned_chunk_ids": [],
+        "remaining_chars": 32935,
+        "remaining_read_calls": 11
+      },
+      "seconds": 0.0
+    }
+  ],
+  "abstracts_read": {
+    "neurips-2024/fba9133d7fa896ab9414ddd1a6b1ecbf": "Last-layer retraining methods have emerged as an efficient framework for correcting existing base models. Within this framework, several methods have been proposed to deal with correcting models for subgroup fairness with and without group membership information. Importantly, prior work has demonstrated that many methods are susceptible to noisy labels. To this end, we propose a drop-in correction for label noise in last-layer retraining, and demonstrate that it achieves state-of-the-art worst-group accuracy for a broad range of symmetric label noise and across a wide variety of datasets exhibiting spurious correlations. Our proposed approach uses label spreading on a latent nearest neighbors graph and has minimal computational overhead compared to existing methods.",
+    "neurips-2024/dc4db2ff2c1aefce3b594f821ea82fe6": "Modern machine learning models are prone to over-reliance on spurious correlations, which can often lead to poor performance on minority groups. In this paper, we identify surprising and nuanced behavior of finetuned models on worst-group accuracy via comprehensive experiments on four well-established benchmarks across vision and language tasks. We first show that the commonly used class-balancing techniques of mini-batch upsampling and loss upweighting can induce a decrease in worst-group accuracy (WGA) with training epochs, leading to performance no better than without class-balancing. While in some scenarios, removing data to create a class-balanced subset is more effective, we show this depends on group structure and propose a mixture method which can outperform both techniques. Next, we show that scaling pretrained models is generally beneficial for worst-group accuracy, but only in conjunction with appropriate class-balancing. Finally, we identify spectral imbalance in finetuning features as a potential source of group disparities --- minority group covariance matrices incur a larger spectral norm than majority groups once conditioned on the classes. Our results show more nuanced interactions of modern finetuned models with group robustness than was previously known. Our code is available at https://github.com/tmlabonte/revisiting-finetuning.",
+    "neurips-2024/abbbb25cddb2c2cd08714e6bfa2f0634": "Machine learning models can often fail on subgroups that are underrepresentedduring training. While dataset balancing can improve performance onunderperforming groups, it requires access to training group annotations and canend up removing large portions of the dataset. In this paper, we introduceData Debiasing with Datamodels (D3M), a debiasing approachwhich isolates and removes specific training examples that drive the model'sfailures on minority groups. Our approach enables us to efficiently traindebiased classifiers while removing only a small number of examples, and doesnot require training group annotations or additional hyperparameter tuning.",
+    "iclr-2025/aqj9ifxrl6": "Machine learning models often have uneven performance among subpopulations\n(a.k.a., groups) in the data distributions. This poses a significant challenge for the\nmodels to generalize when the proportions of the groups shift during deployment.\nTo improve robustness to such shifts, existing approaches have developed strategies\nthat train models or perform hyperparameter tuning using the group-labeled data\nto minimize the worst-case loss over groups. However, a non-trivial amount of\nhigh-quality labels is often required to obtain noticeable improvements. Given\nthe costliness of the labels, we propose to adopt a different paradigm to enhance\ngroup label efficiency: utilizing the group-labeled data as a target set to optimize\nthe weights of other group-unlabeled data. We introduce Group-robust Sample\nReweighting (GSR), a two-stage approach that first learns the representations from\ngroup-unlabeled data, and then tinkers the model by iteratively retraining its last\nlayer on the reweighted data using influence functions. Our GSR is theoretically\nsound, practically lightweight, and effective in improving the robustness to sub-\npopulation shifts. In particular, GSR outperforms the previous state-of-the-art\napproaches that require the same amount or even more group labels. Our code is\navailable at https://github.com/qiaoruiyt/GSR.",
+    "iclr-2025/dikphooa2d": "Machine learning models are often required to perform well across several pre-defined settings, such as a set of user groups. Worst-case performance is a common metric to capture this requirement, and is the objective of group distributionally robust optimization (group DRO). Unfortunately, these methods struggle when the loss is non-convex in the parameters, or the model class is non-parametric. Here, we make a classical move to address this: we reparameterize group DRO from parameter space to function space, which results in a number of advantages. First, we show that group DRO over the space of bounded functions admits a minimax theorem. Second, for cross-entropy and mean squared error, we show that the minimax optimal mixture distribution is the solution of a simple convex optimization problem. Thus, provided one is working with a model class of universal function approximators, group DRO can be solved by a convex optimization problem followed by a classical risk minimization problem. We call our method MixMax. In our experiments, we found that MixMax matched or outperformed the standard group DRO baselines, and in particular, MixMax improved the performance of XGBoost over the only baseline, data balancing, for variations of the ACSIncome and CelebA annotations datasets.",
+    "neurips-2024/e574db41163e700545ff4114f96b3d7a": "The Area Under the ROC Curve (AUC) is a well-known metric for evaluating instance-level long-tail learning problems. In the past two decades, many AUC optimization methods have been proposed to improve model performance under long-tail distributions. In this paper, we explore AUC optimization methods in the context of pixel-level long-tail semantic segmentation, a much more complicated scenario. This task introduces two major challenges for AUC optimization techniques. On one hand, AUC optimization in a pixel-level task involves complex coupling across loss terms, with structured inner-image and pairwise inter-image dependencies, complicating theoretical analysis. On the other hand, we find that mini-batch estimation of AUC loss in this case requires a larger batch size, resulting in an unaffordable space complexity. To address these issues, we develop a pixel-level AUC loss function and conduct a dependency-graph-based theoretical analysis of the algorithm's generalization ability. Additionally, we design a Tail-Classes Memory Bank (T-Memory Bank) to manage the significant memory demand. Finally, comprehensive experiments across various benchmarks confirm the effectiveness of our proposed AUCSeg method. The code is available at https://github.com/boyuh/AUCSeg.",
+    "icml-2024/devic24a": "Rankings are ubiquitous across many applications, from search engines to hiring committees. In practice, many rankings are derived from the output of predictors. However, when predictors trained for classification tasks have intrinsic uncertainty, it is not obvious how this uncertainty should be represented in the derived rankings. Our work considers ranking functions: maps from individual predictions for a classification task to distributions over rankings. We focus on two aspects of ranking functions: stability to perturbations in predictions and fairness towards both individuals and subgroups. Not only is stability an important requirement for its own sake, but — as we show — it composes harmoniously with individual fairness in the sense of Dwork et al. (2012). While deterministic ranking functions cannot be stable aside from trivial scenarios, we show that the recently proposed uncertainty aware (UA) ranking functions of Singh et al. (2021) are stable. Our main result is that UA rankings also achieve group fairness through successful composition with multiaccurate or multicalibrated predictors. Our work demonstrates that UA rankings naturally interpolate between group and individual level fairness guarantees, while simultaneously satisfying stability guarantees important whenever machine-learned predictions are used.",
+    "icml-2024/setlur24a": "Machine learning models fail catastrophically under distribution shift, but a surprisingly effective way to empirically improve robustness to some types of shift (e.g., Imagenet-A/C) is to use stronger open-vocabulary classifiers derived from foundation models. In this work, we first note that for shifts governed by spurious correlations (features spuriously correlated with the label on the training data, but not on test), the zero-shot and few-shot performance of foundation models is no better than ERM models, and remains unchanged when pretrained data/model size is scaled. Secondly, even in these situations, foundation models are quite accurate at predicting the value of the spurious feature. In a simplified setup, we theoretically analyze both these findings. Specifically, we show that during contrastive pretraining, the simplicity bias of foundation models tends to result in the learning of features that mostly rely on the spurious attribute, compared to more robust features. We leverage these observations to propose Prompting for Robustness (PfR) which first uses foundation models to zero-shot predict the spurious attribute on labeled examples, and then learns a classifier with balanced performance across different groups of labels and spurious attribute. Across 5 vision and language tasks, we show that PfR’s performance nearly equals that of an oracle algorithm (group DRO) that leverages human labeled spurious attributes."
+  }
+}
