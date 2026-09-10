@@ -1,0 +1,54 @@
+{
+  "deployed_at": "2026-09-09T23:52:34.571215+00:00",
+  "files": {
+    "utils/mlebench_patch.py": {
+      "old": null,
+      "new": "5b37b10f87fc6ef98d5fff5d5a793c11cf03d0e9466b5ce0f68736941c88c5ed"
+    },
+    "utils/verify_mlebench_grading.py": {
+      "old": null,
+      "new": "91d1909f7296ae647fd73be340617a9af3ed27b94c0e14b0a06cc06570c2edf6"
+    },
+    "utils/grade_all.py": {
+      "old": "4b25bea918a159491646c688fb9c73cf8a60ae16e1b8c74fedb67160e80f5410",
+      "new": "b2dc3bfbe6276a1a13135ff8f0c00bd9061422ac9a3d06bb216ef5baeca9b4d0"
+    },
+    "utils/grade_local.py": {
+      "old": "851cd36299496c187ee621bb9c69343401805a4ccb9f9647dee4071ef2709e0c",
+      "new": "45c9553d80e3aa53ecd3f46e284d4c279d125bef19f8d668fcb495abe4330c8d"
+    },
+    "utils/compare_arms.py": {
+      "old": "18e55cfedeb8431d49fdd52e66e7115598a9e1e08612ac0bf738836582f7d313",
+      "new": "6e7e3ebbd9a427d058cb745b06e83f3835dc261ef60d756913c0a34ebbf7afd4"
+    },
+    "k8s/setup-venv.sh": {
+      "old": "ab62bf2b2ba1716fba16c4ffa6ac705cadb92206080a97ab6f4c488e938b8c4f",
+      "new": "d8891c528de1d82cf91cee15494b789fb541f9ee6e4a1d06e1eecdb7713f6e77"
+    },
+    "k8s/entrypoint.sh": {
+      "old": "b0e7a98bd629593e3f7d02dfedcce5d209a962d6987d1e8afa73f96ad92ac394",
+      "new": "71961f3ccbb7a689a587b6c531ba1692da54ef9dafb1abc97adfe1c257b816cd"
+    },
+    "patches/mlebench/README.md": {
+      "old": null,
+      "new": "1ad56d55822e82632d358399a97551ac084a0cbbeed5e4b0174b534e1560e84d"
+    },
+    "patches/mlebench/jubias-continuous-auc.patch": {
+      "old": null,
+      "new": "ff24dc657a41e743c3884f2ec8cfaca1457dfc0ceaed11cbb48a48148340f1c7"
+    },
+    "patches/mlebench/manifest.json": {
+      "old": null,
+      "new": "79a53396e6440ee396c66e0a0528519ceca1d93d47c57edc4b927d5a5560e678"
+    }
+  },
+  "metric_version": "jubias-continuous-auc-v1",
+  "regrading": {
+    "rows": 520,
+    "scored": 512,
+    "unscored": 8,
+    "jubias_scored": 37,
+    "score_sha256": "533f42f5121e82731660826eed649be0a4a87346961ef383f861906cb6e91dd1",
+    "note": "Eight pre-existing Jigsaw submissions return None; now recorded as failures with a note."
+  }
+}

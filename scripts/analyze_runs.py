@@ -173,7 +173,7 @@ TASKS: dict[str, dict[str, Any]] = {
 
 # Some early runs encoded the arm in exp_id itself ("openadmet-kb"), which would otherwise split
 # one competition into two incomparable tasks. The arm is recovered from the config regardless.
-EXP_ID_ARM_SUFFIXES = ("-kbimp", "-kbfix", "-kb", "-anad", "-ana", "-base")
+EXP_ID_ARM_SUFFIXES = ("-kbimp", "-kbfix", "-kb", "-anaf", "-anad", "-ana", "-base")
 
 
 # -- log patterns ----------------------------------------------------------------------
@@ -667,20 +667,31 @@ def load_scores(path: Path, variant: str = "capped") -> tuple[dict, dict]:
     """
     by_run: dict[str, dict[int, float]] = {}
     lower: dict[str, bool] = {}
+    provenance: dict[str, tuple[str, str]] = {}
     with path.open() as fh:
         for row in csv.DictReader(fh):
             if not row.get("score"):
                 continue
             if row.get("variant", "capped") != variant:
                 continue
-            by_run.setdefault(row["run"], {})[int(row["k"] or 0)] = float(row["score"])
             comp = row.get("competition", "")
+            identity = (row.get("metric_version") or "legacy-unversioned",
+                        row.get("grader_sha256") or "unknown")
+            if comp in provenance and provenance[comp] != identity:
+                raise ValueError(f"Mixed grading versions for {comp} in {path}: "
+                                 f"{provenance[comp]} vs {identity}; regrade consistently.")
+            provenance[comp] = identity
+            by_run.setdefault(row["run"], {})[int(row["k"] or 0)] = float(row["score"])
             short = TASKS.get(comp, {}).get("short", comp)
             if row.get("lower_better") not in (None, ""):
                 lower[short] = bool(int(row["lower_better"]))
             elif short in TASKS:
                 lower.setdefault(short, not TASKS[short.replace(short, comp)]["maximize"]
                                  if comp in TASKS else False)
+    for comp, (version, _) in provenance.items():
+        if comp == "jigsaw-unintended-bias-in-toxicity-classification" and version != "jubias-continuous-auc-v1":
+            raise ValueError(f"Uncorrected/unversioned jubias scores in {path}; use scores "
+                             "regraded with jubias-continuous-auc-v1.")
     return by_run, lower
 
 
@@ -730,7 +741,10 @@ def build_charts(groups: list[Group], scores: dict, lower_map: dict,
                         "Scores are graded against mle-bench private answers "
                         "(`MLEvolve/utils/grade_all.py`). The agent's own validation metric is "
                         "not used anywhere here: arms hold out different data, so it is not "
-                        "comparable across arms.", ""]
+                        "comparable across arms.", "",
+                        "Jigsaw Unintended Bias uses the corrected `jubias-continuous-auc-v1` "
+                        "metric (continuous predictions). Legacy scores that thresholded "
+                        "predictions at 0.5 must not be compared with these results.", ""]
     written: list[str] = []
 
     tasks = sorted({g.task for g in groups})

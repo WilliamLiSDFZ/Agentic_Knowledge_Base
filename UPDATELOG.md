@@ -4,6 +4,144 @@ A running record of notable changes to this project. Newest entries on top.
 
 ---
 
+## 2026-09-09 — Jigsaw S51–S53: A/F full-text manifests and wider analysis charts
+
+Added MLEvolve `k8s/job-jigsaw-unintended-af-s{51,52,53}.yaml`, each containing
+two Jobs for `jigsaw-unintended-bias-in-toxicity-classification`. A explicitly disables
+analogy; F enables both first-draft and improve-stage injection with full-text reading
+at both stages. These replace the initially prepared A/E manifests at the user's request;
+there is no E Job in this batch. F uses `jubias-anaf-s{51,52,53}` run names and
+`f-analogy-draft-improve` labels. Analysis already infers F from the two injection flags;
+`analyze_runs.py` also recognizes the `-anaf` suffix for legacy-style experiment IDs.
+
+The manifests follow S50's image, model (`gpt-5.6-terra`), CLIProxyAPI endpoint/Secret,
+8 CPU / 48 GiB / 1 GPU resources per Job, >=24 GiB GPU allowlist, shared PVC, and
+Job deadlines/retention. Other runtime defaults, including pretrained-model guidance,
+are unchanged. Seeds are 51/52/53; unique SERVER_ID pairs are 85/86, 87/88, and 89/90.
+F pins the agreed reading budgets per invocation (3 papers, 12 calls, 8,000 characters
+per read, 40,000 total) and the shared cache path. The budgets apply separately to each
+draft/improve invocation; other drafts retain the existing behavior without draft injection.
+
+`scripts/plot_effects.py` widens paired charts from 6.2 to at least 11 inches (13.2 for
+all six arms), splits long arm labels over two lines, and moves draw legends outside
+the axes. Effect/process figures are widened to 10.5 inches; score-vs-K panels are
+wider with a 10.5-inch minimum canvas. Scoring, grouping and exclusion rules are unchanged.
+
+Validation: all three manifests parse as A/F through the analysis config reader, retain
+S50's runtime/resources, and have no Job-name, run-name or SERVER_ID collisions with
+other local manifests. Two-arm and six-arm chart layouts pass label/legend bounds checks.
+Regenerated the four Jigsaw Unintended Bias charts in `results/9.8/charts` from the
+existing inventory and corrected scores; the numerical summary is unchanged. Visually
+checked the paired chart to confirm readable labels and an unobstructed plot.
+
+Prepared locally for the user to apply. No Jobs were submitted and no cluster files
+were synchronized as part of this change.
+
+## 2026-09-09 — analogy agent: on-demand original-paper reading with evidence provenance
+
+**Problem.** The analogy loop could search papers and read abstracts, but could not inspect
+the methods, assumptions, experiments or appendices behind a suggested transfer. S48's
+sampling suggestions exposed the need to distinguish a paper's actual method from the agent's
+adaptation. The existing KB methodology extractor truncates text and produces an LLM summary;
+it is not an original-text reading interface.
+
+**Change (MLEvolve).** Added `open_paper` / `read_paper` tools behind
+`analogy.fulltext.enabled`, shared by draft and improve. They accept only paper IDs returned by
+the current search. Source resolution uses corpus PDF links, deterministic conference/arXiv
+links and publisher `citation_pdf_url` metadata, including DOI redirects and gzip pages.
+No general web search or corpus/ranking change is introduced. Original extractable text is
+cached in page/section chunks without head-only truncation; appendices remain readable.
+
+Budgets are 3 distinct opening attempts, 12 reading calls, 8,000 body characters per read and
+40,000 cumulatively per invocation, increased at the user's request. Opens have a 60-second
+deadline and a cumulative 150-second limit. The existing 10 assistant turns and 8,000-character
+report budget remain. The YAML and structured config match; defaults stay abstract-only.
+
+The report now includes source assumptions, task fit, limitations, a minimal validation/rejection
+plan and references to actual returned text. Validation rejects unread/invented quotes and
+derives PDF page/hash metadata from the reading ledger. Abstract fallback is explicitly labelled.
+The cache pins source/PDF/text hashes, reader source hash and library versions; locks, subprocess
+timeouts, atomic publication and failure backoff contain download/parse failures. Exact tool
+responses and abstracts read are saved in `logs/analogy/*.fulltext.json`, including when a later
+model request fails. The KB snapshot and replay CLI carry the feature configuration/provenance.
+
+**Runtime findings.** The AAAI S48 record's `pdf_url` is a DOI landing page, whose publisher
+response is gzip-compressed; decoding it recovers the PDF metadata. PyMuPDF4LLM's default
+layout-model backend took about 140 seconds to parse the 32-page NeurIPS paper on the dev pod.
+The reader explicitly selects its deterministic text/table mode and reads PDF bytes into memory
+before parsing. Both S48 papers then succeed within the configured deadline. OCR/figure reading
+is not part of this version; complex equations can be incomplete and the tool states that limit.
+
+**Validation.** Fifteen CPU-only regressions pass in the cluster environment, including both
+entry points, feature-off behavior, quote provenance, abstract fallback, budgets, worker timeout,
+concurrent cache publication, hash checks, gzip/DOI handling and API-failure logging. All existing
+analogy injection/config checks pass. Real-paper tests cover AAAI (9 pages), NeurIPS (32), ACL
+(19), and ICML (18); all four also pass offline with identical PDF hashes. Representative PDF
+pages were visually checked against extracted text, including methods, an appendix table and the
+last page. The OpenReview sample returns HTTP 403 from this cluster and is recorded as unavailable,
+not successful full-text reading. No model API calls, training runs or benchmark claims are made.
+
+**Deployment/record.** Candidate code was tested in an isolated directory through the dev pod;
+the approved changes are synchronized to both project checkouts with preimage checks and backups.
+The optional `requirements_fulltext.txt` pins the already-installed parser versions (1.28.0;
+tabulate 0.9.0); no shared ML packages are upgraded. Validation, deployment manifests and original
+files live under `/workspace/fulltext-validation/2026-09-09/`. Usage and experiment guidance:
+`docs/analogy_fulltext_reading.md`.
+
+## 2026-09-09 — fix jubias grading: retain continuous predictions for ROC-AUC
+
+**Symptom.** The 9/8 charts showed S48 arm E at 0.50045 versus A at 0.76990,
+despite a strong validation ranking. MLE-bench's installed jubias grader thresholded
+submission probabilities at 0.5 before calculating overall/subgroup/BPSN/BNSP AUC.
+Only 8 of E48's 97,320 predictions crossed that threshold. An independent private
+recheck gave E=0.92454747, A=0.92099580 (E−A=+0.00355166); S50's apparent positive
+effect also reversed. The old effect sizes and variance estimates were invalid.
+
+**Change (MLEvolve).** `patches/mlebench/` records a one-hunk fix against upstream
+commit `507f92e1138bb6e40dac5c6ee7a6758e6424bf97`, with original/patched SHA-256
+hashes. It removes only prediction thresholding; ground-truth thresholds, identity
+handling, ID alignment, AUC aggregation and weights are unchanged. The existing
+MLE-bench API remains the scorer. `utils/mlebench_patch.py` rejects unknown sources,
+supports idempotent application, keeps the original grader, and replaces the file
+atomically. `k8s/setup-venv.sh` pins fresh installations and applies/checks the fix
+on existing installations; jubias Job startup verifies it. `grade_all.py`,
+`grade_local.py`, and `compare_arms.py` verify grading provenance before scoring.
+CSV output now records metric version, exact grader hash, package version and
+installation commit when available; the current local-tree install has no commit
+metadata, so that field is honestly left empty.
+
+The CSV audit also exposed a pre-existing reporting bug: `grade_all.py` counted a
+grader's `None` result as success while CSV serialized it as an empty score. It now
+records `None`/nonfinite scores as failures with a reason. The eight affected
+submissions are from an older Jigsaw run and were already unscored before this fix.
+
+**Change (analysis).** `scripts/analyze_runs.py` rejects mixed metric versions or
+grader hashes within a task and rejects uncorrected/unversioned jubias scores.
+Other tasks retain legacy-file compatibility. Summaries label the corrected
+`jubias-continuous-auc-v1` metric; analogy effect figures label it too and wrap long
+titles to avoid clipping. Original 9/8 scores, analogy summary and charts
+are preserved in `results/9.8/legacy_before_auc_fix/`; the diagnosis is recorded in
+`results/9.8/s48_analogy_review.md`.
+
+**Validation/deployment.** Five CPU-only metric tests pass both against an isolated
+candidate and against the installed patch: perfect ranking below 0.5, monotone
+transforms and an independent pairwise-AUC oracle, ties/ID alignment, preserved
+ground-truth thresholds, and idempotence/unknown-source rejection. Four score-loader
+tests pass. S48 A/E private scores from the candidate match the independent recheck
+to 1e-12. Applied through the dev pod after confirming no MLEvolve training/grading
+processes were active; the pre-existing executable bit on the cluster setup script
+was preserved. Deployment records and original source backups are on the PVC under
+`/workspace/grading-artifacts/jubias-continuous-auc-v1/`.
+
+**Regrading.** Processed the same 520 submission keys across 78 runs: 512 numeric
+scores and the same eight previously unscored submissions. All 37 jubias scores
+use the corrected metric; the other 475 existing numeric scores are exactly
+unchanged. `results/9.8/scores-continuous-auc-v1.csv`, `grading_audit.json`, and
+`deployment.json` record the results and provenance. Regenerated score figures
+using the existing 9/8 inventory/groups; process figures and selection rules are
+unchanged. The initial batch log's "520 graded" line is superseded by the CSV audit
+and the follow-up regression that correctly reports the eight unscored rows.
+
 ## 2026-09-07 — analogy packet: warnings out of the output tail, debug placeholder labelled
 
 **Symptom.** Reading `logs/analogy/*.md` of the 2026-09-05 jubias D runs: the packet's "Tail of

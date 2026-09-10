@@ -510,9 +510,11 @@ def plot_score(task: str, draws: list[dict], k: int, lower_better: bool, out: Pa
     ax.set_yticklabels([l + ("  (unpaired)" if h else "") for l, h in zip(labels, hollow)], fontsize=8)
     _style(ax, xlabel=f"{arm} − A at K={k} (sign-corrected, right = analogy better)")
     ax.set_title(f"{tname(task)} · score effect of arm {arm} · paired n={n}"
-                 + (f", mean {m:+.4f} [{lo:+.4f}, {hi:+.4f}]" if n >= 2 else ""), fontsize=9)
-    _footer(fig, "hollow = baseline from another launch batch (excluded from the mean/CI) · CI is a 95% t interval")
-    fig.tight_layout(rect=(0, 0.06, 1, 1))
+                 + (f"\nmean {m:+.4f} [{lo:+.4f}, {hi:+.4f}]" if n >= 2 else ""), fontsize=9)
+    metric_note = ("\nmetric: jubias-continuous-auc-v1 (continuous predictions)"
+                   if task == "jigsaw-unintended-bias-in-toxicity-classification" else "")
+    _footer(fig, "hollow = baseline from another launch batch (excluded from the mean/CI) · CI is a 95% t interval" + metric_note)
+    fig.tight_layout(rect=(0, 0.10 if metric_note else 0.06, 1, 1))
     p = out / (f"{task}_analogy_score.png" if arm == "D" else f"{task}_analogy_score_{arm}.png")
     fig.savefig(p, dpi=150)
     plt.close(fig)

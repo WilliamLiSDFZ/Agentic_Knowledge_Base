@@ -2,6 +2,8 @@
 
 Scores are graded against mle-bench private answers (`MLEvolve/utils/grade_all.py`). The agent's own validation metric is not used anywhere here: arms hold out different data, so it is not comparable across arms.
 
+Jigsaw Unintended Bias uses the corrected `jubias-continuous-auc-v1` metric (continuous predictions). Legacy scores that thresholded predictions at 0.5 must not be compared with these results.
+
 ## essay
 
 8 usable draw(s), compared at K=1. 14 run(s) excluded.
@@ -37,15 +39,15 @@ Scores are graded against mle-bench private answers (`MLEvolve/utils/grade_all.p
 
 | contrast | n | mean | 95% CI | signs | verdict |
 |---|---:|---:|---|---|---|
-| B-A | 2 | +0.11685 | [-1.28088, +1.51457] | ++ | **CI contains zero — no detectable effect** |
-| C-A | 1 | +0.20305 | — | + | n=1, no interval |
-| C-B | 1 | -0.02380 | — | - | n=1, no interval |
-| D-A | 4 | -0.03653 | [-0.36976, +0.29671] | +--+ | **CI contains zero — no detectable effect** (unpaired) |
-| E-A | 3 | +0.02275 | [-0.62455, +0.67006] | -++ | **CI contains zero — no detectable effect** (unpaired) |
+| B-A | 2 | +0.11351 | [-0.48926, +0.71628] | ++ | **CI contains zero — no detectable effect** |
+| C-A | 1 | +0.10583 | — | + | n=1, no interval |
+| C-B | 1 | -0.05512 | — | - | n=1, no interval |
+| D-A | 4 | -0.00234 | [-0.27100, +0.26633] | +--+ | **CI contains zero — no detectable effect** (unpaired) |
+| E-A | 3 | -0.00711 | [-0.03091, +0.01670] | +-- | **CI contains zero — no detectable effect** (unpaired) |
 
-- `B-A`: to detect 0.005 at ~80% power needs **7745 draws** (185873 GPU-hours at 12 h/run, 2 arms).  *(from n=2 — sd has 1 df, treat as a rough order of magnitude only)*
-- `D-A`: to detect 0.005 at ~80% power needs **14038 draws** (336920 GPU-hours at 12 h/run, 2 arms).
-- `E-A`: to detect 0.005 at ~80% power needs **21725 draws** (521389 GPU-hours at 12 h/run, 2 arms).
+- `B-A`: to detect 0.005 at ~80% power needs **1440 draws** (34569 GPU-hours at 12 h/run, 2 arms).  *(from n=2 — sd has 1 df, treat as a rough order of magnitude only)*
+- `D-A`: to detect 0.005 at ~80% power needs **9125 draws** (218995 GPU-hours at 12 h/run, 2 arms).
+- `E-A`: to detect 0.005 at ~80% power needs **29 draws** (705 GPU-hours at 12 h/run, 2 arms).
 
 ## lmsys
 

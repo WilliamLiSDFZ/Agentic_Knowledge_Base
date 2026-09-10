@@ -99,7 +99,8 @@ def plot_paired(task: str, draws: list[dict], k: int, lower_better: bool,
     if len(arms) < 2 or not draws:
         return None
 
-    fig, ax = plt.subplots(figsize=(6.2, 4.4))
+    # Leave room for up to six arms plus the draw legend outside the data area.
+    fig, ax = plt.subplots(figsize=(max(11.0, 2.2 * len(arms)), 4.4))
     xs = range(len(arms))
     for d in draws:
         ys = [d["scores"].get(a) for a in arms]
@@ -116,17 +117,18 @@ def plot_paired(task: str, draws: list[dict], k: int, lower_better: bool,
                     mec=line.get_color(), mew=1.6, zorder=1)
 
     ax.set_xticks(list(xs))
-    ax.set_xticklabels([ARM_LABEL.get(a, a) for a in arms], fontsize=9)
+    ax.set_xticklabels([ARM_LABEL.get(a, a).replace(" @ ", "\n@ ") for a in arms],
+                       fontsize=9)
     ax.set_ylabel(f"score at K={k}  ({'lower' if lower_better else 'higher'} is better)")
     ax.set_title(f"{task} — paired by draw" + ("  [SUPERSEDED CODE]" if legacy else ""),
                  fontsize=11)
     if lower_better:
         ax.invert_yaxis()          # so "up" always means "better" on every figure
     ax.grid(axis="y", alpha=0.25)
-    ax.legend(fontsize=7.5, frameon=False, loc="best")
+    ax.legend(fontsize=7.5, frameon=False, loc="upper left", bbox_to_anchor=(1.02, 1))
     if any("A" in d.get("borrowed", set()) for d in draws):
         ax.annotate("hollow ring = baseline borrowed from another batch (unpaired)",
-                    xy=(0.5, -0.14), xycoords="axes fraction", ha="center",
+                    xy=(0.5, -0.22), xycoords="axes fraction", ha="center",
                     fontsize=7, color="#a05000")
     _footer(fig, task, n_excluded)
     fig.tight_layout(rect=(0, 0.03, 1, 1))
@@ -158,7 +160,7 @@ def plot_effects(task: str, draws: list[dict], k: int, lower_better: bool,
     if not stats:
         return None, []
 
-    fig, ax = plt.subplots(figsize=(7.4, 0.85 * len(stats) + 1.9))
+    fig, ax = plt.subplots(figsize=(10.5, 0.85 * len(stats) + 1.9))
     for i, s in enumerate(stats):
         y = len(stats) - 1 - i
         ax.scatter(s["values"], [y] * len(s["values"]), s=42, zorder=3,
@@ -233,7 +235,7 @@ def plot_process(task: str, draws: list[dict], out: Path, n_excluded: int) -> tu
         return None, []
 
     keys = [k for k, _, _ in PROCESS_METRICS if any(s["key"] == k for s in stats)]
-    fig, axes = plt.subplots(len(keys), 1, figsize=(7.4, 2.1 * len(keys) + 1.0), squeeze=False)
+    fig, axes = plt.subplots(len(keys), 1, figsize=(10.5, 2.1 * len(keys) + 1.0), squeeze=False)
     for ax, key in zip(axes[:, 0], keys):
         rows = [s for s in stats if s["key"] == key]
         for i, s in enumerate(rows):
@@ -273,7 +275,7 @@ def plot_vs_k(task: str, draws: list[dict], lower_better: bool,
     usable = [d for d in draws if any(d["by_k"].get(a) for a in ARMS)]
     if not usable:
         return None
-    fig, axes = plt.subplots(1, len(usable), figsize=(3.5 * len(usable) + 0.6, 3.4),
+    fig, axes = plt.subplots(1, len(usable), figsize=(max(10.5, 4.2 * len(usable) + 0.6), 3.4),
                              sharey=True, squeeze=False)
     for ax, d in zip(axes[0], usable):
         for arm in ARMS:

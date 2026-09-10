@@ -1,0 +1,13 @@
+{
+  "total_rows": 520,
+  "runs": 78,
+  "scored_rows": 512,
+  "unscored_rows": 8,
+  "jubias_rows": 37,
+  "unchanged_scored_other_task_rows": 475,
+  "max_other_task_score_difference": 0.0,
+  "unscored_keys_unchanged": true,
+  "identical_submission_keys": true,
+  "jubias_metric_version": "jubias-continuous-auc-v1",
+  "note": "Eight pre-existing Jigsaw submissions contain NaN; the grader returns None. They remain unscored and now carry explicit failure notes. The final accounting is verified by none-score-regression.log."
+}

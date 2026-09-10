@@ -1,0 +1,27 @@
+{
+  "files": {
+    "UPDATELOG.md": {
+      "old": "c5dfd03fa4c3d696db7a3afafe55330bdf0447b587e185baa6ccccf573e5a763",
+      "new": "93f46551f02e959635a442c49c3f3da898e8bad13dfebd5498b62575ad937a5d"
+    },
+    "scripts/analyze_runs.py": {
+      "old": "4bcdf070fdf00a0ad467dad3862dbb11b865cafab2c6a409ab42441f88045e9f",
+      "new": "8af1df7ed9aaabbbd6a5de2725da930833631d320a683b326372b3b5f5d88ce3"
+    },
+    "scripts/plot_analogy.py": {
+      "old": null,
+      "new": "974f5d007dd837ddfb047ad7dfd31899c717405710c835b0d74430f34f25ec6f"
+    },
+    "scripts/plot_effects.py": {
+      "old": "584455c526f40dfdda4c708bcd33bc6fd9ac043fc52c12cb2896a668b7eb6911",
+      "new": "4ffd923b565541beea303f717da9735850c987219742690ebafedc9cb5db416f"
+    },
+    "tests/test_score_provenance.py": {
+      "old": null,
+      "new": "0e81b2dc02b5be9a5cd88f0406d39bd15a931848df26d51d0e5f06d82e64d3dc"
+    }
+  },
+  "loaded_scored_runs": 74,
+  "s48_e_k1_csv_score": 0.92455,
+  "existing_changelog_entries_preserved": true
+}
