@@ -1,0 +1,3035 @@
+{
+    "apiVersion": "v1",
+    "items": [
+        {
+            "apiVersion": "v1",
+            "kind": "Pod",
+            "metadata": {
+                "annotations": {
+                    "cni.projectcalico.org/containerID": "7303449f123b2b63759a636ed98fde51645fc3fdd726eb61c4b07d8a40e9778d",
+                    "cni.projectcalico.org/podIP": "10.244.60.247/32",
+                    "cni.projectcalico.org/podIPs": "10.244.60.247/32,fdf0:17b3:c3ec:1f79:10:0:a:f9a7/128",
+                    "kubernetes.io/limit-ranger": "LimitRanger plugin set: ephemeral-storage request for container mlevolve; ephemeral-storage limit for container mlevolve",
+                    "nrp.ai/username": "http://cilogon.org/serverE/users/532187"
+                },
+                "creationTimestamp": "2026-09-11T00:25:11Z",
+                "finalizers": [
+                    "batch.kubernetes.io/job-tracking"
+                ],
+                "generateName": "mlevolve-jubias-anaf-s54-",
+                "generation": 1,
+                "labels": {
+                    "app": "mlevolve",
+                    "arm": "f-analogy-draft-improve",
+                    "batch.kubernetes.io/controller-uid": "784fd778-7d90-4644-9b33-0f7cdb556587",
+                    "batch.kubernetes.io/job-name": "mlevolve-jubias-anaf-s54",
+                    "controller-uid": "784fd778-7d90-4644-9b33-0f7cdb556587",
+                    "experiment": "jigsaw-unintended-bias",
+                    "job-name": "mlevolve-jubias-anaf-s54",
+                    "repeat": "14",
+                    "variant": "analogy-draft-improve"
+                },
+                "name": "mlevolve-jubias-anaf-s54-72g57",
+                "namespace": "ecepxie",
+                "ownerReferences": [
+                    {
+                        "apiVersion": "batch/v1",
+                        "blockOwnerDeletion": true,
+                        "controller": true,
+                        "kind": "Job",
+                        "name": "mlevolve-jubias-anaf-s54",
+                        "uid": "784fd778-7d90-4644-9b33-0f7cdb556587"
+                    }
+                ],
+                "resourceVersion": "14765813123",
+                "uid": "53023cbf-e740-44ea-956b-52f3e4e96123"
+            },
+            "spec": {
+                "affinity": {
+                    "nodeAffinity": {
+                        "requiredDuringSchedulingIgnoredDuringExecution": {
+                            "nodeSelectorTerms": [
+                                {
+                                    "matchExpressions": [
+                                        {
+                                            "key": "nvidia.com/gpu.product",
+                                            "operator": "In",
+                                            "values": [
+                                                "NVIDIA-GeForce-RTX-3090",
+                                                "NVIDIA-GeForce-RTX-4090",
+                                                "NVIDIA-TITAN-RTX",
+                                                "NVIDIA-A10",
+                                                "NVIDIA-RTX-A5000",
+                                                "NVIDIA-L4",
+                                                "Tesla-V100-SXM2-32GB",
+                                                "NVIDIA-A40",
+                                                "NVIDIA-RTX-A6000",
+                                                "NVIDIA-L40",
+                                                "NVIDIA-L40S",
+                                                "Quadro-RTX-8000",
+                                                "NVIDIA-A100-PCIE-40GB",
+                                                "NVIDIA-A100-SXM4-40GB",
+                                                "NVIDIA-A100-80GB-PCIe",
+                                                "NVIDIA-A100-SXM4-80GB"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                "containers": [
+                    {
+                        "command": [
+                            "bash",
+                            "/workspace/MLEvolve/k8s/entrypoint.sh"
+                        ],
+                        "env": [
+                            {
+                                "name": "EXP_ID",
+                                "value": "jigsaw-unintended-bias-in-toxicity-classification"
+                            },
+                            {
+                                "name": "DATASET_DIR",
+                                "value": "/workspace/data/mlebench"
+                            },
+                            {
+                                "name": "REPO_DIR",
+                                "value": "/workspace/MLEvolve"
+                            },
+                            {
+                                "name": "EXP_NAME",
+                                "value": "jubias-anaf-s54"
+                            },
+                            {
+                                "name": "CPUS_PER_TASK",
+                                "value": "8"
+                            },
+                            {
+                                "name": "SERVER_ID",
+                                "value": "92"
+                            },
+                            {
+                                "name": "EXTRA_RUN_ARGS",
+                                "value": "agent.seed=54 agent.time_limit=43200 exec.max_parallel_run=1 candidate_runtime.enabled=True candidate_runtime.draft_budget_seconds=5400 candidate_runtime.candidate_budget_seconds=7200 candidate_runtime.first_validation_seconds=900 candidate_runtime.validation_interval_seconds=1800 candidate_runtime.export_interval_seconds=3600 candidate_runtime.smoke_steps=5 candidate_runtime.smoke_rows=128 candidate_runtime.finalization_reserve_seconds=900 candidate_runtime.finalization_safety_factor=1.5 candidate_runtime.validation_fraction=0.05 candidate_runtime.keep_snapshots=2 analogy.enabled=True analogy.draft=True analogy.improve=True analogy.corpus_path=/workspace/Agentic_Knowledge_Base/output/paper_corpus analogy.fulltext.enabled=True analogy.fulltext.cache_dir=/workspace/MLEvolve/cache/paper_fulltext analogy.fulltext.offline=False analogy.fulltext.max_papers=3 analogy.fulltext.max_read_calls=12 analogy.fulltext.read_chars=8000 analogy.fulltext.total_chars=40000 analogy.fulltext.open_timeout_seconds=60.0 analogy.fulltext.total_open_seconds=150.0"
+                            },
+                            {
+                                "name": "LLM_BASE_URL",
+                                "value": "http://cliproxy:8317/v1"
+                            },
+                            {
+                                "name": "LLM_MODEL",
+                                "value": "gpt-5.6-terra"
+                            }
+                        ],
+                        "envFrom": [
+                            {
+                                "secretRef": {
+                                    "name": "mlevolve-llm-proxy"
+                                }
+                            }
+                        ],
+                        "image": "pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime",
+                        "imagePullPolicy": "IfNotPresent",
+                        "name": "mlevolve",
+                        "resources": {
+                            "limits": {
+                                "cpu": "8",
+                                "ephemeral-storage": "50Gi",
+                                "memory": "48Gi",
+                                "nvidia.com/gpu": "1"
+                            },
+                            "requests": {
+                                "cpu": "8",
+                                "ephemeral-storage": "0",
+                                "memory": "48Gi",
+                                "nvidia.com/gpu": "1"
+                            }
+                        },
+                        "terminationMessagePath": "/dev/termination-log",
+                        "terminationMessagePolicy": "File",
+                        "volumeMounts": [
+                            {
+                                "mountPath": "/workspace",
+                                "name": "workspace"
+                            },
+                            {
+                                "mountPath": "/dev/shm",
+                                "name": "dshm"
+                            },
+                            {
+                                "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
+                                "name": "kube-api-access-65rmb",
+                                "readOnly": true
+                            }
+                        ]
+                    }
+                ],
+                "dnsPolicy": "ClusterFirst",
+                "enableServiceLinks": true,
+                "nodeName": "gpu-13.nrp.mghpcc.org",
+                "preemptionPolicy": "PreemptLowerPriority",
+                "priority": 0,
+                "restartPolicy": "Never",
+                "schedulerName": "default-scheduler",
+                "securityContext": {},
+                "serviceAccount": "default",
+                "serviceAccountName": "default",
+                "terminationGracePeriodSeconds": 30,
+                "tolerations": [
+                    {
+                        "effect": "NoExecute",
+                        "key": "node.kubernetes.io/not-ready",
+                        "operator": "Exists",
+                        "tolerationSeconds": 300
+                    },
+                    {
+                        "effect": "NoExecute",
+                        "key": "node.kubernetes.io/unreachable",
+                        "operator": "Exists",
+                        "tolerationSeconds": 300
+                    },
+                    {
+                        "effect": "PreferNoSchedule",
+                        "key": "nvidia.com/gpu",
+                        "operator": "Exists"
+                    }
+                ],
+                "volumes": [
+                    {
+                        "name": "workspace",
+                        "persistentVolumeClaim": {
+                            "claimName": "yuze-li-vol"
+                        }
+                    },
+                    {
+                        "emptyDir": {
+                            "medium": "Memory",
+                            "sizeLimit": "2Gi"
+                        },
+                        "name": "dshm"
+                    },
+                    {
+                        "name": "kube-api-access-65rmb",
+                        "projected": {
+                            "defaultMode": 420,
+                            "sources": [
+                                {
+                                    "serviceAccountToken": {
+                                        "expirationSeconds": 3607,
+                                        "path": "token"
+                                    }
+                                },
+                                {
+                                    "configMap": {
+                                        "items": [
+                                            {
+                                                "key": "ca.crt",
+                                                "path": "ca.crt"
+                                            }
+                                        ],
+                                        "name": "kube-root-ca.crt"
+                                    }
+                                },
+                                {
+                                    "downwardAPI": {
+                                        "items": [
+                                            {
+                                                "fieldRef": {
+                                                    "apiVersion": "v1",
+                                                    "fieldPath": "metadata.namespace"
+                                                },
+                                                "path": "namespace"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "status": {
+                "conditions": [
+                    {
+                        "lastProbeTime": null,
+                        "lastTransitionTime": "2026-09-11T00:25:23Z",
+                        "status": "True",
+                        "type": "PodReadyToStartContainers"
+                    },
+                    {
+                        "lastProbeTime": null,
+                        "lastTransitionTime": "2026-09-11T00:25:11Z",
+                        "status": "True",
+                        "type": "Initialized"
+                    },
+                    {
+                        "lastProbeTime": null,
+                        "lastTransitionTime": "2026-09-11T00:25:23Z",
+                        "status": "True",
+                        "type": "Ready"
+                    },
+                    {
+                        "lastProbeTime": null,
+                        "lastTransitionTime": "2026-09-11T00:25:23Z",
+                        "status": "True",
+                        "type": "ContainersReady"
+                    },
+                    {
+                        "lastProbeTime": null,
+                        "lastTransitionTime": "2026-09-11T00:25:11Z",
+                        "status": "True",
+                        "type": "PodScheduled"
+                    }
+                ],
+                "containerStatuses": [
+                    {
+                        "allocatedResources": {
+                            "cpu": "8",
+                            "ephemeral-storage": "0",
+                            "memory": "48Gi",
+                            "nvidia.com/gpu": "1"
+                        },
+                        "containerID": "containerd://da0e32f7df3c6a6e259393d346e6f681fee2c2fb02759cbfc08d4a9671b4e364",
+                        "image": "docker.io/pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime",
+                        "imageID": "docker.io/pytorch/pytorch@sha256:2b59b1b91885677814f78be1f8df48a25d5dc952eb6580eaecfefca510f9afd3",
+                        "lastState": {},
+                        "name": "mlevolve",
+                        "ready": true,
+                        "resources": {
+                            "limits": {
+                                "cpu": "8",
+                                "ephemeral-storage": "50Gi",
+                                "memory": "48Gi",
+                                "nvidia.com/gpu": "1"
+                            },
+                            "requests": {
+                                "cpu": "8",
+                                "ephemeral-storage": "0",
+                                "memory": "48Gi",
+                                "nvidia.com/gpu": "1"
+                            }
+                        },
+                        "restartCount": 0,
+                        "started": true,
+                        "state": {
+                            "running": {
+                                "startedAt": "2026-09-11T00:25:23Z"
+                            }
+                        },
+                        "user": {
+                            "linux": {
+                                "gid": 0,
+                                "supplementalGroups": [
+                                    0
+                                ],
+                                "uid": 0
+                            }
+                        },
+                        "volumeMounts": [
+                            {
+                                "mountPath": "/workspace",
+                                "name": "workspace"
+                            },
+                            {
+                                "mountPath": "/dev/shm",
+                                "name": "dshm"
+                            },
+                            {
+                                "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
+                                "name": "kube-api-access-65rmb",
+                                "readOnly": true,
+                                "recursiveReadOnly": "Disabled"
+                            }
+                        ]
+                    }
+                ],
+                "hostIP": "192.69.103.153",
+                "hostIPs": [
+                    {
+                        "ip": "192.69.103.153"
+                    }
+                ],
+                "phase": "Running",
+                "podIP": "10.244.60.247",
+                "podIPs": [
+                    {
+                        "ip": "10.244.60.247"
+                    },
+                    {
+                        "ip": "fdf0:17b3:c3ec:1f79:10:0:a:f9a7"
+                    }
+                ],
+                "qosClass": "Guaranteed",
+                "startTime": "2026-09-11T00:25:11Z"
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Pod",
+            "metadata": {
+                "annotations": {
+                    "cni.projectcalico.org/containerID": "32f106a7d65ea3f6f3b38a73fe08a8d7c2d4f6e64e88d9a18c645917166dd07a",
+                    "cni.projectcalico.org/podIP": "10.244.101.235/32",
+                    "cni.projectcalico.org/podIPs": "10.244.101.235/32,fdf0:17b3:c3ec:1f79:10:0:2:9949/128",
+                    "kubernetes.io/limit-ranger": "LimitRanger plugin set: ephemeral-storage request for container mlevolve; ephemeral-storage limit for container mlevolve",
+                    "nrp.ai/username": "http://cilogon.org/serverE/users/532187"
+                },
+                "creationTimestamp": "2026-09-11T00:25:12Z",
+                "finalizers": [
+                    "batch.kubernetes.io/job-tracking"
+                ],
+                "generateName": "mlevolve-jubias-anaf-s55-",
+                "generation": 1,
+                "labels": {
+                    "app": "mlevolve",
+                    "arm": "f-analogy-draft-improve",
+                    "batch.kubernetes.io/controller-uid": "ccd68fb4-24d3-4597-96ce-468ed133e942",
+                    "batch.kubernetes.io/job-name": "mlevolve-jubias-anaf-s55",
+                    "controller-uid": "ccd68fb4-24d3-4597-96ce-468ed133e942",
+                    "experiment": "jigsaw-unintended-bias",
+                    "job-name": "mlevolve-jubias-anaf-s55",
+                    "repeat": "15",
+                    "variant": "analogy-draft-improve"
+                },
+                "name": "mlevolve-jubias-anaf-s55-czvzd",
+                "namespace": "ecepxie",
+                "ownerReferences": [
+                    {
+                        "apiVersion": "batch/v1",
+                        "blockOwnerDeletion": true,
+                        "controller": true,
+                        "kind": "Job",
+                        "name": "mlevolve-jubias-anaf-s55",
+                        "uid": "ccd68fb4-24d3-4597-96ce-468ed133e942"
+                    }
+                ],
+                "resourceVersion": "14765813235",
+                "uid": "17efd40c-97da-453f-9084-65083e983422"
+            },
+            "spec": {
+                "affinity": {
+                    "nodeAffinity": {
+                        "requiredDuringSchedulingIgnoredDuringExecution": {
+                            "nodeSelectorTerms": [
+                                {
+                                    "matchExpressions": [
+                                        {
+                                            "key": "nvidia.com/gpu.product",
+                                            "operator": "In",
+                                            "values": [
+                                                "NVIDIA-GeForce-RTX-3090",
+                                                "NVIDIA-GeForce-RTX-4090",
+                                                "NVIDIA-TITAN-RTX",
+                                                "NVIDIA-A10",
+                                                "NVIDIA-RTX-A5000",
+                                                "NVIDIA-L4",
+                                                "Tesla-V100-SXM2-32GB",
+                                                "NVIDIA-A40",
+                                                "NVIDIA-RTX-A6000",
+                                                "NVIDIA-L40",
+                                                "NVIDIA-L40S",
+                                                "Quadro-RTX-8000",
+                                                "NVIDIA-A100-PCIE-40GB",
+                                                "NVIDIA-A100-SXM4-40GB",
+                                                "NVIDIA-A100-80GB-PCIe",
+                                                "NVIDIA-A100-SXM4-80GB"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                "containers": [
+                    {
+                        "command": [
+                            "bash",
+                            "/workspace/MLEvolve/k8s/entrypoint.sh"
+                        ],
+                        "env": [
+                            {
+                                "name": "EXP_ID",
+                                "value": "jigsaw-unintended-bias-in-toxicity-classification"
+                            },
+                            {
+                                "name": "DATASET_DIR",
+                                "value": "/workspace/data/mlebench"
+                            },
+                            {
+                                "name": "REPO_DIR",
+                                "value": "/workspace/MLEvolve"
+                            },
+                            {
+                                "name": "EXP_NAME",
+                                "value": "jubias-anaf-s55"
+                            },
+                            {
+                                "name": "CPUS_PER_TASK",
+                                "value": "8"
+                            },
+                            {
+                                "name": "SERVER_ID",
+                                "value": "94"
+                            },
+                            {
+                                "name": "EXTRA_RUN_ARGS",
+                                "value": "agent.seed=55 agent.time_limit=43200 exec.max_parallel_run=1 candidate_runtime.enabled=True candidate_runtime.draft_budget_seconds=5400 candidate_runtime.candidate_budget_seconds=7200 candidate_runtime.first_validation_seconds=900 candidate_runtime.validation_interval_seconds=1800 candidate_runtime.export_interval_seconds=3600 candidate_runtime.smoke_steps=5 candidate_runtime.smoke_rows=128 candidate_runtime.finalization_reserve_seconds=900 candidate_runtime.finalization_safety_factor=1.5 candidate_runtime.validation_fraction=0.05 candidate_runtime.keep_snapshots=2 analogy.enabled=True analogy.draft=True analogy.improve=True analogy.corpus_path=/workspace/Agentic_Knowledge_Base/output/paper_corpus analogy.fulltext.enabled=True analogy.fulltext.cache_dir=/workspace/MLEvolve/cache/paper_fulltext analogy.fulltext.offline=False analogy.fulltext.max_papers=3 analogy.fulltext.max_read_calls=12 analogy.fulltext.read_chars=8000 analogy.fulltext.total_chars=40000 analogy.fulltext.open_timeout_seconds=60.0 analogy.fulltext.total_open_seconds=150.0"
+                            },
+                            {
+                                "name": "LLM_BASE_URL",
+                                "value": "http://cliproxy:8317/v1"
+                            },
+                            {
+                                "name": "LLM_MODEL",
+                                "value": "gpt-5.6-terra"
+                            }
+                        ],
+                        "envFrom": [
+                            {
+                                "secretRef": {
+                                    "name": "mlevolve-llm-proxy"
+                                }
+                            }
+                        ],
+                        "image": "pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime",
+                        "imagePullPolicy": "IfNotPresent",
+                        "name": "mlevolve",
+                        "resources": {
+                            "limits": {
+                                "cpu": "8",
+                                "ephemeral-storage": "50Gi",
+                                "memory": "48Gi",
+                                "nvidia.com/gpu": "1"
+                            },
+                            "requests": {
+                                "cpu": "8",
+                                "ephemeral-storage": "0",
+                                "memory": "48Gi",
+                                "nvidia.com/gpu": "1"
+                            }
+                        },
+                        "terminationMessagePath": "/dev/termination-log",
+                        "terminationMessagePolicy": "File",
+                        "volumeMounts": [
+                            {
+                                "mountPath": "/workspace",
+                                "name": "workspace"
+                            },
+                            {
+                                "mountPath": "/dev/shm",
+                                "name": "dshm"
+                            },
+                            {
+                                "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
+                                "name": "kube-api-access-gjwbb",
+                                "readOnly": true
+                            }
+                        ]
+                    }
+                ],
+                "dnsPolicy": "ClusterFirst",
+                "enableServiceLinks": true,
+                "nodeName": "gpu-16.nrp.mghpcc.org",
+                "preemptionPolicy": "PreemptLowerPriority",
+                "priority": 0,
+                "restartPolicy": "Never",
+                "schedulerName": "default-scheduler",
+                "securityContext": {},
+                "serviceAccount": "default",
+                "serviceAccountName": "default",
+                "terminationGracePeriodSeconds": 30,
+                "tolerations": [
+                    {
+                        "effect": "NoExecute",
+                        "key": "node.kubernetes.io/not-ready",
+                        "operator": "Exists",
+                        "tolerationSeconds": 300
+                    },
+                    {
+                        "effect": "NoExecute",
+                        "key": "node.kubernetes.io/unreachable",
+                        "operator": "Exists",
+                        "tolerationSeconds": 300
+                    },
+                    {
+                        "effect": "PreferNoSchedule",
+                        "key": "nvidia.com/gpu",
+                        "operator": "Exists"
+                    }
+                ],
+                "volumes": [
+                    {
+                        "name": "workspace",
+                        "persistentVolumeClaim": {
+                            "claimName": "yuze-li-vol"
+                        }
+                    },
+                    {
+                        "emptyDir": {
+                            "medium": "Memory",
+                            "sizeLimit": "2Gi"
+                        },
+                        "name": "dshm"
+                    },
+                    {
+                        "name": "kube-api-access-gjwbb",
+                        "projected": {
+                            "defaultMode": 420,
+                            "sources": [
+                                {
+                                    "serviceAccountToken": {
+                                        "expirationSeconds": 3607,
+                                        "path": "token"
+                                    }
+                                },
+                                {
+                                    "configMap": {
+                                        "items": [
+                                            {
+                                                "key": "ca.crt",
+                                                "path": "ca.crt"
+                                            }
+                                        ],
+                                        "name": "kube-root-ca.crt"
+                                    }
+                                },
+                                {
+                                    "downwardAPI": {
+                                        "items": [
+                                            {
+                                                "fieldRef": {
+                                                    "apiVersion": "v1",
+                                                    "fieldPath": "metadata.namespace"
+                                                },
+                                                "path": "namespace"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "status": {
+                "conditions": [
+                    {
+                        "lastProbeTime": null,
+                        "lastTransitionTime": "2026-09-11T00:25:24Z",
+                        "status": "True",
+                        "type": "PodReadyToStartContainers"
+                    },
+                    {
+                        "lastProbeTime": null,
+                        "lastTransitionTime": "2026-09-11T00:25:12Z",
+                        "status": "True",
+                        "type": "Initialized"
+                    },
+                    {
+                        "lastProbeTime": null,
+                        "lastTransitionTime": "2026-09-11T00:25:24Z",
+                        "status": "True",
+                        "type": "Ready"
+                    },
+                    {
+                        "lastProbeTime": null,
+                        "lastTransitionTime": "2026-09-11T00:25:24Z",
+                        "status": "True",
+                        "type": "ContainersReady"
+                    },
+                    {
+                        "lastProbeTime": null,
+                        "lastTransitionTime": "2026-09-11T00:25:12Z",
+                        "status": "True",
+                        "type": "PodScheduled"
+                    }
+                ],
+                "containerStatuses": [
+                    {
+                        "allocatedResources": {
+                            "cpu": "8",
+                            "ephemeral-storage": "0",
+                            "memory": "48Gi",
+                            "nvidia.com/gpu": "1"
+                        },
+                        "containerID": "containerd://ece423c056d3844f9714bddf79606feec636edf9aa250be025444b90eae45eae",
+                        "image": "docker.io/pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime",
+                        "imageID": "docker.io/pytorch/pytorch@sha256:2b59b1b91885677814f78be1f8df48a25d5dc952eb6580eaecfefca510f9afd3",
+                        "lastState": {},
+                        "name": "mlevolve",
+                        "ready": true,
+                        "resources": {
+                            "limits": {
+                                "cpu": "8",
+                                "ephemeral-storage": "50Gi",
+                                "memory": "48Gi",
+                                "nvidia.com/gpu": "1"
+                            },
+                            "requests": {
+                                "cpu": "8",
+                                "ephemeral-storage": "0",
+                                "memory": "48Gi",
+                                "nvidia.com/gpu": "1"
+                            }
+                        },
+                        "restartCount": 0,
+                        "started": true,
+                        "state": {
+                            "running": {
+                                "startedAt": "2026-09-11T00:25:24Z"
+                            }
+                        },
+                        "user": {
+                            "linux": {
+                                "gid": 0,
+                                "supplementalGroups": [
+                                    0
+                                ],
+                                "uid": 0
+                            }
+                        },
+                        "volumeMounts": [
+                            {
+                                "mountPath": "/workspace",
+                                "name": "workspace"
+                            },
+                            {
+                                "mountPath": "/dev/shm",
+                                "name": "dshm"
+                            },
+                            {
+                                "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
+                                "name": "kube-api-access-gjwbb",
+                                "readOnly": true,
+                                "recursiveReadOnly": "Disabled"
+                            }
+                        ]
+                    }
+                ],
+                "hostIP": "192.69.103.156",
+                "hostIPs": [
+                    {
+                        "ip": "192.69.103.156"
+                    }
+                ],
+                "phase": "Running",
+                "podIP": "10.244.101.235",
+                "podIPs": [
+                    {
+                        "ip": "10.244.101.235"
+                    },
+                    {
+                        "ip": "fdf0:17b3:c3ec:1f79:10:0:2:9949"
+                    }
+                ],
+                "qosClass": "Guaranteed",
+                "startTime": "2026-09-11T00:25:12Z"
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Pod",
+            "metadata": {
+                "annotations": {
+                    "cni.projectcalico.org/containerID": "d788d433103090e97ebe94553cbb50d746e9085631a7ee824c232317a1026f8e",
+                    "cni.projectcalico.org/podIP": "10.244.101.152/32",
+                    "cni.projectcalico.org/podIPs": "10.244.101.152/32,fdf0:17b3:c3ec:1f79:10:0:1:e01b/128",
+                    "kubernetes.io/limit-ranger": "LimitRanger plugin set: ephemeral-storage request for container mlevolve; ephemeral-storage limit for container mlevolve",
+                    "nrp.ai/username": "http://cilogon.org/serverE/users/532187"
+                },
+                "creationTimestamp": "2026-09-11T00:25:11Z",
+                "finalizers": [
+                    "batch.kubernetes.io/job-tracking"
+                ],
+                "generateName": "mlevolve-jubias-base-s54-",
+                "generation": 1,
+                "labels": {
+                    "app": "mlevolve",
+                    "arm": "a-baseline",
+                    "batch.kubernetes.io/controller-uid": "5580b41b-8213-4640-ab74-4892c1f583e3",
+                    "batch.kubernetes.io/job-name": "mlevolve-jubias-base-s54",
+                    "controller-uid": "5580b41b-8213-4640-ab74-4892c1f583e3",
+                    "experiment": "jigsaw-unintended-bias",
+                    "job-name": "mlevolve-jubias-base-s54",
+                    "repeat": "14",
+                    "variant": "kb-off"
+                },
+                "name": "mlevolve-jubias-base-s54-m5f24",
+                "namespace": "ecepxie",
+                "ownerReferences": [
+                    {
+                        "apiVersion": "batch/v1",
+                        "blockOwnerDeletion": true,
+                        "controller": true,
+                        "kind": "Job",
+                        "name": "mlevolve-jubias-base-s54",
+                        "uid": "5580b41b-8213-4640-ab74-4892c1f583e3"
+                    }
+                ],
+                "resourceVersion": "14765813199",
+                "uid": "a33a1f4a-5a72-429a-bf4a-aa4893518a9d"
+            },
+            "spec": {
+                "affinity": {
+                    "nodeAffinity": {
+                        "requiredDuringSchedulingIgnoredDuringExecution": {
+                            "nodeSelectorTerms": [
+                                {
+                                    "matchExpressions": [
+                                        {
+                                            "key": "nvidia.com/gpu.product",
+                                            "operator": "In",
+                                            "values": [
+                                                "NVIDIA-GeForce-RTX-3090",
+                                                "NVIDIA-GeForce-RTX-4090",
+                                                "NVIDIA-TITAN-RTX",
+                                                "NVIDIA-A10",
+                                                "NVIDIA-RTX-A5000",
+                                                "NVIDIA-L4",
+                                                "Tesla-V100-SXM2-32GB",
+                                                "NVIDIA-A40",
+                                                "NVIDIA-RTX-A6000",
+                                                "NVIDIA-L40",
+                                                "NVIDIA-L40S",
+                                                "Quadro-RTX-8000",
+                                                "NVIDIA-A100-PCIE-40GB",
+                                                "NVIDIA-A100-SXM4-40GB",
+                                                "NVIDIA-A100-80GB-PCIe",
+                                                "NVIDIA-A100-SXM4-80GB"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                "containers": [
+                    {
+                        "command": [
+                            "bash",
+                            "/workspace/MLEvolve/k8s/entrypoint.sh"
+                        ],
+                        "env": [
+                            {
+                                "name": "EXP_ID",
+                                "value": "jigsaw-unintended-bias-in-toxicity-classification"
+                            },
+                            {
+                                "name": "DATASET_DIR",
+                                "value": "/workspace/data/mlebench"
+                            },
+                            {
+                                "name": "REPO_DIR",
+                                "value": "/workspace/MLEvolve"
+                            },
+                            {
+                                "name": "EXP_NAME",
+                                "value": "jubias-base-s54"
+                            },
+                            {
+                                "name": "CPUS_PER_TASK",
+                                "value": "8"
+                            },
+                            {
+                                "name": "SERVER_ID",
+                                "value": "91"
+                            },
+                            {
+                                "name": "EXTRA_RUN_ARGS",
+                                "value": "agent.seed=54 agent.time_limit=43200 exec.max_parallel_run=1 candidate_runtime.enabled=True candidate_runtime.draft_budget_seconds=5400 candidate_runtime.candidate_budget_seconds=7200 candidate_runtime.first_validation_seconds=900 candidate_runtime.validation_interval_seconds=1800 candidate_runtime.export_interval_seconds=3600 candidate_runtime.smoke_steps=5 candidate_runtime.smoke_rows=128 candidate_runtime.finalization_reserve_seconds=900 candidate_runtime.finalization_safety_factor=1.5 candidate_runtime.validation_fraction=0.05 candidate_runtime.keep_snapshots=2 analogy.enabled=False analogy.fulltext.enabled=False"
+                            },
+                            {
+                                "name": "LLM_BASE_URL",
+                                "value": "http://cliproxy:8317/v1"
+                            },
+                            {
+                                "name": "LLM_MODEL",
+                                "value": "gpt-5.6-terra"
+                            }
+                        ],
+                        "envFrom": [
+                            {
+                                "secretRef": {
+                                    "name": "mlevolve-llm-proxy"
+                                }
+                            }
+                        ],
+                        "image": "pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime",
+                        "imagePullPolicy": "IfNotPresent",
+                        "name": "mlevolve",
+                        "resources": {
+                            "limits": {
+                                "cpu": "8",
+                                "ephemeral-storage": "50Gi",
+                                "memory": "48Gi",
+                                "nvidia.com/gpu": "1"
+                            },
+                            "requests": {
+                                "cpu": "8",
+                                "ephemeral-storage": "0",
+                                "memory": "48Gi",
+                                "nvidia.com/gpu": "1"
+                            }
+                        },
+                        "terminationMessagePath": "/dev/termination-log",
+                        "terminationMessagePolicy": "File",
+                        "volumeMounts": [
+                            {
+                                "mountPath": "/workspace",
+                                "name": "workspace"
+                            },
+                            {
+                                "mountPath": "/dev/shm",
+                                "name": "dshm"
+                            },
+                            {
+                                "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
+                                "name": "kube-api-access-c6pp9",
+                                "readOnly": true
+                            }
+                        ]
+                    }
+                ],
+                "dnsPolicy": "ClusterFirst",
+                "enableServiceLinks": true,
+                "nodeName": "gpu-17.nrp.mghpcc.org",
+                "preemptionPolicy": "PreemptLowerPriority",
+                "priority": 0,
+                "restartPolicy": "Never",
+                "schedulerName": "default-scheduler",
+                "securityContext": {},
+                "serviceAccount": "default",
+                "serviceAccountName": "default",
+                "terminationGracePeriodSeconds": 30,
+                "tolerations": [
+                    {
+                        "effect": "NoExecute",
+                        "key": "node.kubernetes.io/not-ready",
+                        "operator": "Exists",
+                        "tolerationSeconds": 300
+                    },
+                    {
+                        "effect": "NoExecute",
+                        "key": "node.kubernetes.io/unreachable",
+                        "operator": "Exists",
+                        "tolerationSeconds": 300
+                    },
+                    {
+                        "effect": "PreferNoSchedule",
+                        "key": "nvidia.com/gpu",
+                        "operator": "Exists"
+                    }
+                ],
+                "volumes": [
+                    {
+                        "name": "workspace",
+                        "persistentVolumeClaim": {
+                            "claimName": "yuze-li-vol"
+                        }
+                    },
+                    {
+                        "emptyDir": {
+                            "medium": "Memory",
+                            "sizeLimit": "2Gi"
+                        },
+                        "name": "dshm"
+                    },
+                    {
+                        "name": "kube-api-access-c6pp9",
+                        "projected": {
+                            "defaultMode": 420,
+                            "sources": [
+                                {
+                                    "serviceAccountToken": {
+                                        "expirationSeconds": 3607,
+                                        "path": "token"
+                                    }
+                                },
+                                {
+                                    "configMap": {
+                                        "items": [
+                                            {
+                                                "key": "ca.crt",
+                                                "path": "ca.crt"
+                                            }
+                                        ],
+                                        "name": "kube-root-ca.crt"
+                                    }
+                                },
+                                {
+                                    "downwardAPI": {
+                                        "items": [
+                                            {
+                                                "fieldRef": {
+                                                    "apiVersion": "v1",
+                                                    "fieldPath": "metadata.namespace"
+                                                },
+                                                "path": "namespace"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "status": {
+                "conditions": [
+                    {
+                        "lastProbeTime": null,
+                        "lastTransitionTime": "2026-09-11T00:25:24Z",
+                        "status": "True",
+                        "type": "PodReadyToStartContainers"
+                    },
+                    {
+                        "lastProbeTime": null,
+                        "lastTransitionTime": "2026-09-11T00:25:11Z",
+                        "status": "True",
+                        "type": "Initialized"
+                    },
+                    {
+                        "lastProbeTime": null,
+                        "lastTransitionTime": "2026-09-11T00:25:24Z",
+                        "status": "True",
+                        "type": "Ready"
+                    },
+                    {
+                        "lastProbeTime": null,
+                        "lastTransitionTime": "2026-09-11T00:25:24Z",
+                        "status": "True",
+                        "type": "ContainersReady"
+                    },
+                    {
+                        "lastProbeTime": null,
+                        "lastTransitionTime": "2026-09-11T00:25:11Z",
+                        "status": "True",
+                        "type": "PodScheduled"
+                    }
+                ],
+                "containerStatuses": [
+                    {
+                        "allocatedResources": {
+                            "cpu": "8",
+                            "ephemeral-storage": "0",
+                            "memory": "48Gi",
+                            "nvidia.com/gpu": "1"
+                        },
+                        "containerID": "containerd://92b642df4785d5be0c6b37b130f707c3d70e549d7609220b0643f92926defe10",
+                        "image": "docker.io/pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime",
+                        "imageID": "docker.io/pytorch/pytorch@sha256:2b59b1b91885677814f78be1f8df48a25d5dc952eb6580eaecfefca510f9afd3",
+                        "lastState": {},
+                        "name": "mlevolve",
+                        "ready": true,
+                        "resources": {
+                            "limits": {
+                                "cpu": "8",
+                                "ephemeral-storage": "50Gi",
+                                "memory": "48Gi",
+                                "nvidia.com/gpu": "1"
+                            },
+                            "requests": {
+                                "cpu": "8",
+                                "ephemeral-storage": "0",
+                                "memory": "48Gi",
+                                "nvidia.com/gpu": "1"
+                            }
+                        },
+                        "restartCount": 0,
+                        "started": true,
+                        "state": {
+                            "running": {
+                                "startedAt": "2026-09-11T00:25:23Z"
+                            }
+                        },
+                        "user": {
+                            "linux": {
+                                "gid": 0,
+                                "supplementalGroups": [
+                                    0
+                                ],
+                                "uid": 0
+                            }
+                        },
+                        "volumeMounts": [
+                            {
+                                "mountPath": "/workspace",
+                                "name": "workspace"
+                            },
+                            {
+                                "mountPath": "/dev/shm",
+                                "name": "dshm"
+                            },
+                            {
+                                "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
+                                "name": "kube-api-access-c6pp9",
+                                "readOnly": true,
+                                "recursiveReadOnly": "Disabled"
+                            }
+                        ]
+                    }
+                ],
+                "hostIP": "192.69.103.157",
+                "hostIPs": [
+                    {
+                        "ip": "192.69.103.157"
+                    }
+                ],
+                "phase": "Running",
+                "podIP": "10.244.101.152",
+                "podIPs": [
+                    {
+                        "ip": "10.244.101.152"
+                    },
+                    {
+                        "ip": "fdf0:17b3:c3ec:1f79:10:0:1:e01b"
+                    }
+                ],
+                "qosClass": "Guaranteed",
+                "startTime": "2026-09-11T00:25:11Z"
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Pod",
+            "metadata": {
+                "annotations": {
+                    "cni.projectcalico.org/containerID": "48ba13af969f336e48a6315ed969da8625c4d551241aae0afdd11eb08e74e913",
+                    "cni.projectcalico.org/podIP": "10.244.245.174/32",
+                    "cni.projectcalico.org/podIPs": "10.244.245.174/32,fdf0:17b3:c3ec:1f79:10:0:3:ed10/128",
+                    "kubernetes.io/limit-ranger": "LimitRanger plugin set: ephemeral-storage request for container mlevolve; ephemeral-storage limit for container mlevolve",
+                    "nrp.ai/username": "http://cilogon.org/serverE/users/532187"
+                },
+                "creationTimestamp": "2026-09-11T00:25:12Z",
+                "finalizers": [
+                    "batch.kubernetes.io/job-tracking"
+                ],
+                "generateName": "mlevolve-jubias-base-s55-",
+                "generation": 1,
+                "labels": {
+                    "app": "mlevolve",
+                    "arm": "a-baseline",
+                    "batch.kubernetes.io/controller-uid": "07d65c6d-003f-45b6-a4f6-6ab07ade1951",
+                    "batch.kubernetes.io/job-name": "mlevolve-jubias-base-s55",
+                    "controller-uid": "07d65c6d-003f-45b6-a4f6-6ab07ade1951",
+                    "experiment": "jigsaw-unintended-bias",
+                    "job-name": "mlevolve-jubias-base-s55",
+                    "repeat": "15",
+                    "variant": "kb-off"
+                },
+                "name": "mlevolve-jubias-base-s55-7jnfp",
+                "namespace": "ecepxie",
+                "ownerReferences": [
+                    {
+                        "apiVersion": "batch/v1",
+                        "blockOwnerDeletion": true,
+                        "controller": true,
+                        "kind": "Job",
+                        "name": "mlevolve-jubias-base-s55",
+                        "uid": "07d65c6d-003f-45b6-a4f6-6ab07ade1951"
+                    }
+                ],
+                "resourceVersion": "14765813198",
+                "uid": "2754b47a-707a-4e7a-9c5e-3aee5b86d324"
+            },
+            "spec": {
+                "affinity": {
+                    "nodeAffinity": {
+                        "requiredDuringSchedulingIgnoredDuringExecution": {
+                            "nodeSelectorTerms": [
+                                {
+                                    "matchExpressions": [
+                                        {
+                                            "key": "nvidia.com/gpu.product",
+                                            "operator": "In",
+                                            "values": [
+                                                "NVIDIA-GeForce-RTX-3090",
+                                                "NVIDIA-GeForce-RTX-4090",
+                                                "NVIDIA-TITAN-RTX",
+                                                "NVIDIA-A10",
+                                                "NVIDIA-RTX-A5000",
+                                                "NVIDIA-L4",
+                                                "Tesla-V100-SXM2-32GB",
+                                                "NVIDIA-A40",
+                                                "NVIDIA-RTX-A6000",
+                                                "NVIDIA-L40",
+                                                "NVIDIA-L40S",
+                                                "Quadro-RTX-8000",
+                                                "NVIDIA-A100-PCIE-40GB",
+                                                "NVIDIA-A100-SXM4-40GB",
+                                                "NVIDIA-A100-80GB-PCIe",
+                                                "NVIDIA-A100-SXM4-80GB"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                "containers": [
+                    {
+                        "command": [
+                            "bash",
+                            "/workspace/MLEvolve/k8s/entrypoint.sh"
+                        ],
+                        "env": [
+                            {
+                                "name": "EXP_ID",
+                                "value": "jigsaw-unintended-bias-in-toxicity-classification"
+                            },
+                            {
+                                "name": "DATASET_DIR",
+                                "value": "/workspace/data/mlebench"
+                            },
+                            {
+                                "name": "REPO_DIR",
+                                "value": "/workspace/MLEvolve"
+                            },
+                            {
+                                "name": "EXP_NAME",
+                                "value": "jubias-base-s55"
+                            },
+                            {
+                                "name": "CPUS_PER_TASK",
+                                "value": "8"
+                            },
+                            {
+                                "name": "SERVER_ID",
+                                "value": "93"
+                            },
+                            {
+                                "name": "EXTRA_RUN_ARGS",
+                                "value": "agent.seed=55 agent.time_limit=43200 exec.max_parallel_run=1 candidate_runtime.enabled=True candidate_runtime.draft_budget_seconds=5400 candidate_runtime.candidate_budget_seconds=7200 candidate_runtime.first_validation_seconds=900 candidate_runtime.validation_interval_seconds=1800 candidate_runtime.export_interval_seconds=3600 candidate_runtime.smoke_steps=5 candidate_runtime.smoke_rows=128 candidate_runtime.finalization_reserve_seconds=900 candidate_runtime.finalization_safety_factor=1.5 candidate_runtime.validation_fraction=0.05 candidate_runtime.keep_snapshots=2 analogy.enabled=False analogy.fulltext.enabled=False"
+                            },
+                            {
+                                "name": "LLM_BASE_URL",
+                                "value": "http://cliproxy:8317/v1"
+                            },
+                            {
+                                "name": "LLM_MODEL",
+                                "value": "gpt-5.6-terra"
+                            }
+                        ],
+                        "envFrom": [
+                            {
+                                "secretRef": {
+                                    "name": "mlevolve-llm-proxy"
+                                }
+                            }
+                        ],
+                        "image": "pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime",
+                        "imagePullPolicy": "IfNotPresent",
+                        "name": "mlevolve",
+                        "resources": {
+                            "limits": {
+                                "cpu": "8",
+                                "ephemeral-storage": "50Gi",
+                                "memory": "48Gi",
+                                "nvidia.com/gpu": "1"
+                            },
+                            "requests": {
+                                "cpu": "8",
+                                "ephemeral-storage": "0",
+                                "memory": "48Gi",
+                                "nvidia.com/gpu": "1"
+                            }
+                        },
+                        "terminationMessagePath": "/dev/termination-log",
+                        "terminationMessagePolicy": "File",
+                        "volumeMounts": [
+                            {
+                                "mountPath": "/workspace",
+                                "name": "workspace"
+                            },
+                            {
+                                "mountPath": "/dev/shm",
+                                "name": "dshm"
+                            },
+                            {
+                                "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
+                                "name": "kube-api-access-9phzs",
+                                "readOnly": true
+                            }
+                        ]
+                    }
+                ],
+                "dnsPolicy": "ClusterFirst",
+                "enableServiceLinks": true,
+                "nodeName": "gpu-04.nrp.mghpcc.org",
+                "preemptionPolicy": "PreemptLowerPriority",
+                "priority": 0,
+                "restartPolicy": "Never",
+                "schedulerName": "default-scheduler",
+                "securityContext": {},
+                "serviceAccount": "default",
+                "serviceAccountName": "default",
+                "terminationGracePeriodSeconds": 30,
+                "tolerations": [
+                    {
+                        "effect": "NoExecute",
+                        "key": "node.kubernetes.io/not-ready",
+                        "operator": "Exists",
+                        "tolerationSeconds": 300
+                    },
+                    {
+                        "effect": "NoExecute",
+                        "key": "node.kubernetes.io/unreachable",
+                        "operator": "Exists",
+                        "tolerationSeconds": 300
+                    },
+                    {
+                        "effect": "PreferNoSchedule",
+                        "key": "nvidia.com/gpu",
+                        "operator": "Exists"
+                    }
+                ],
+                "volumes": [
+                    {
+                        "name": "workspace",
+                        "persistentVolumeClaim": {
+                            "claimName": "yuze-li-vol"
+                        }
+                    },
+                    {
+                        "emptyDir": {
+                            "medium": "Memory",
+                            "sizeLimit": "2Gi"
+                        },
+                        "name": "dshm"
+                    },
+                    {
+                        "name": "kube-api-access-9phzs",
+                        "projected": {
+                            "defaultMode": 420,
+                            "sources": [
+                                {
+                                    "serviceAccountToken": {
+                                        "expirationSeconds": 3607,
+                                        "path": "token"
+                                    }
+                                },
+                                {
+                                    "configMap": {
+                                        "items": [
+                                            {
+                                                "key": "ca.crt",
+                                                "path": "ca.crt"
+                                            }
+                                        ],
+                                        "name": "kube-root-ca.crt"
+                                    }
+                                },
+                                {
+                                    "downwardAPI": {
+                                        "items": [
+                                            {
+                                                "fieldRef": {
+                                                    "apiVersion": "v1",
+                                                    "fieldPath": "metadata.namespace"
+                                                },
+                                                "path": "namespace"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "status": {
+                "conditions": [
+                    {
+                        "lastProbeTime": null,
+                        "lastTransitionTime": "2026-09-11T00:25:24Z",
+                        "status": "True",
+                        "type": "PodReadyToStartContainers"
+                    },
+                    {
+                        "lastProbeTime": null,
+                        "lastTransitionTime": "2026-09-11T00:25:12Z",
+                        "status": "True",
+                        "type": "Initialized"
+                    },
+                    {
+                        "lastProbeTime": null,
+                        "lastTransitionTime": "2026-09-11T00:25:24Z",
+                        "status": "True",
+                        "type": "Ready"
+                    },
+                    {
+                        "lastProbeTime": null,
+                        "lastTransitionTime": "2026-09-11T00:25:24Z",
+                        "status": "True",
+                        "type": "ContainersReady"
+                    },
+                    {
+                        "lastProbeTime": null,
+                        "lastTransitionTime": "2026-09-11T00:25:12Z",
+                        "status": "True",
+                        "type": "PodScheduled"
+                    }
+                ],
+                "containerStatuses": [
+                    {
+                        "allocatedResources": {
+                            "cpu": "8",
+                            "ephemeral-storage": "0",
+                            "memory": "48Gi",
+                            "nvidia.com/gpu": "1"
+                        },
+                        "containerID": "containerd://2b500889831c1a6e6faa9c5f805af6c367f0cd3d57dc89391856c1ed8ed4f7a8",
+                        "image": "docker.io/pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime",
+                        "imageID": "docker.io/pytorch/pytorch@sha256:2b59b1b91885677814f78be1f8df48a25d5dc952eb6580eaecfefca510f9afd3",
+                        "lastState": {},
+                        "name": "mlevolve",
+                        "ready": true,
+                        "resources": {
+                            "limits": {
+                                "cpu": "8",
+                                "ephemeral-storage": "50Gi",
+                                "memory": "48Gi",
+                                "nvidia.com/gpu": "1"
+                            },
+                            "requests": {
+                                "cpu": "8",
+                                "ephemeral-storage": "0",
+                                "memory": "48Gi",
+                                "nvidia.com/gpu": "1"
+                            }
+                        },
+                        "restartCount": 0,
+                        "started": true,
+                        "state": {
+                            "running": {
+                                "startedAt": "2026-09-11T00:25:23Z"
+                            }
+                        },
+                        "user": {
+                            "linux": {
+                                "gid": 0,
+                                "supplementalGroups": [
+                                    0
+                                ],
+                                "uid": 0
+                            }
+                        },
+                        "volumeMounts": [
+                            {
+                                "mountPath": "/workspace",
+                                "name": "workspace"
+                            },
+                            {
+                                "mountPath": "/dev/shm",
+                                "name": "dshm"
+                            },
+                            {
+                                "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
+                                "name": "kube-api-access-9phzs",
+                                "readOnly": true,
+                                "recursiveReadOnly": "Disabled"
+                            }
+                        ]
+                    }
+                ],
+                "hostIP": "192.69.103.144",
+                "hostIPs": [
+                    {
+                        "ip": "192.69.103.144"
+                    }
+                ],
+                "phase": "Running",
+                "podIP": "10.244.245.174",
+                "podIPs": [
+                    {
+                        "ip": "10.244.245.174"
+                    },
+                    {
+                        "ip": "fdf0:17b3:c3ec:1f79:10:0:3:ed10"
+                    }
+                ],
+                "qosClass": "Guaranteed",
+                "startTime": "2026-09-11T00:25:12Z"
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Pod",
+            "metadata": {
+                "annotations": {
+                    "cni.projectcalico.org/containerID": "7529f4aa82801f6b9527f2a0c133f55dbb430c6ca0f08698fc296f524375af8b",
+                    "cni.projectcalico.org/podIP": "10.244.166.234/32",
+                    "cni.projectcalico.org/podIPs": "10.244.166.234/32,fdf0:17b3:c3ec:1f79:10:0:e:29df/128",
+                    "kubernetes.io/limit-ranger": "LimitRanger plugin set: ephemeral-storage request for container mlevolve; ephemeral-storage limit for container mlevolve",
+                    "nrp.ai/username": "http://cilogon.org/serverE/users/532187"
+                },
+                "creationTimestamp": "2026-09-11T00:25:12Z",
+                "finalizers": [
+                    "batch.kubernetes.io/job-tracking"
+                ],
+                "generateName": "mlevolve-jubias-base-s56-",
+                "generation": 1,
+                "labels": {
+                    "app": "mlevolve",
+                    "arm": "a-baseline",
+                    "batch.kubernetes.io/controller-uid": "de4b129a-7311-4937-8eeb-697b358376c1",
+                    "batch.kubernetes.io/job-name": "mlevolve-jubias-base-s56",
+                    "controller-uid": "de4b129a-7311-4937-8eeb-697b358376c1",
+                    "experiment": "jigsaw-unintended-bias",
+                    "job-name": "mlevolve-jubias-base-s56",
+                    "repeat": "16",
+                    "variant": "kb-off"
+                },
+                "name": "mlevolve-jubias-base-s56-svks2",
+                "namespace": "ecepxie",
+                "ownerReferences": [
+                    {
+                        "apiVersion": "batch/v1",
+                        "blockOwnerDeletion": true,
+                        "controller": true,
+                        "kind": "Job",
+                        "name": "mlevolve-jubias-base-s56",
+                        "uid": "de4b129a-7311-4937-8eeb-697b358376c1"
+                    }
+                ],
+                "resourceVersion": "14765813172",
+                "uid": "0a99fbf4-ae3b-4ef4-ab3c-d44413372838"
+            },
+            "spec": {
+                "affinity": {
+                    "nodeAffinity": {
+                        "requiredDuringSchedulingIgnoredDuringExecution": {
+                            "nodeSelectorTerms": [
+                                {
+                                    "matchExpressions": [
+                                        {
+                                            "key": "nvidia.com/gpu.product",
+                                            "operator": "In",
+                                            "values": [
+                                                "NVIDIA-GeForce-RTX-3090",
+                                                "NVIDIA-GeForce-RTX-4090",
+                                                "NVIDIA-TITAN-RTX",
+                                                "NVIDIA-A10",
+                                                "NVIDIA-RTX-A5000",
+                                                "NVIDIA-L4",
+                                                "Tesla-V100-SXM2-32GB",
+                                                "NVIDIA-A40",
+                                                "NVIDIA-RTX-A6000",
+                                                "NVIDIA-L40",
+                                                "NVIDIA-L40S",
+                                                "Quadro-RTX-8000",
+                                                "NVIDIA-A100-PCIE-40GB",
+                                                "NVIDIA-A100-SXM4-40GB",
+                                                "NVIDIA-A100-80GB-PCIe",
+                                                "NVIDIA-A100-SXM4-80GB"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                "containers": [
+                    {
+                        "command": [
+                            "bash",
+                            "/workspace/MLEvolve/k8s/entrypoint.sh"
+                        ],
+                        "env": [
+                            {
+                                "name": "EXP_ID",
+                                "value": "jigsaw-unintended-bias-in-toxicity-classification"
+                            },
+                            {
+                                "name": "DATASET_DIR",
+                                "value": "/workspace/data/mlebench"
+                            },
+                            {
+                                "name": "REPO_DIR",
+                                "value": "/workspace/MLEvolve"
+                            },
+                            {
+                                "name": "EXP_NAME",
+                                "value": "jubias-base-s56"
+                            },
+                            {
+                                "name": "CPUS_PER_TASK",
+                                "value": "8"
+                            },
+                            {
+                                "name": "SERVER_ID",
+                                "value": "95"
+                            },
+                            {
+                                "name": "EXTRA_RUN_ARGS",
+                                "value": "agent.seed=56 agent.time_limit=43200 exec.max_parallel_run=1 candidate_runtime.enabled=True candidate_runtime.draft_budget_seconds=5400 candidate_runtime.candidate_budget_seconds=7200 candidate_runtime.first_validation_seconds=900 candidate_runtime.validation_interval_seconds=1800 candidate_runtime.export_interval_seconds=3600 candidate_runtime.smoke_steps=5 candidate_runtime.smoke_rows=128 candidate_runtime.finalization_reserve_seconds=900 candidate_runtime.finalization_safety_factor=1.5 candidate_runtime.validation_fraction=0.05 candidate_runtime.keep_snapshots=2 analogy.enabled=False analogy.fulltext.enabled=False"
+                            },
+                            {
+                                "name": "LLM_BASE_URL",
+                                "value": "http://cliproxy:8317/v1"
+                            },
+                            {
+                                "name": "LLM_MODEL",
+                                "value": "gpt-5.6-terra"
+                            }
+                        ],
+                        "envFrom": [
+                            {
+                                "secretRef": {
+                                    "name": "mlevolve-llm-proxy"
+                                }
+                            }
+                        ],
+                        "image": "pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime",
+                        "imagePullPolicy": "IfNotPresent",
+                        "name": "mlevolve",
+                        "resources": {
+                            "limits": {
+                                "cpu": "8",
+                                "ephemeral-storage": "50Gi",
+                                "memory": "48Gi",
+                                "nvidia.com/gpu": "1"
+                            },
+                            "requests": {
+                                "cpu": "8",
+                                "ephemeral-storage": "0",
+                                "memory": "48Gi",
+                                "nvidia.com/gpu": "1"
+                            }
+                        },
+                        "terminationMessagePath": "/dev/termination-log",
+                        "terminationMessagePolicy": "File",
+                        "volumeMounts": [
+                            {
+                                "mountPath": "/workspace",
+                                "name": "workspace"
+                            },
+                            {
+                                "mountPath": "/dev/shm",
+                                "name": "dshm"
+                            },
+                            {
+                                "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
+                                "name": "kube-api-access-svdhq",
+                                "readOnly": true
+                            }
+                        ]
+                    }
+                ],
+                "dnsPolicy": "ClusterFirst",
+                "enableServiceLinks": true,
+                "nodeName": "hcc-nrp-shor-c6021.unl.edu",
+                "preemptionPolicy": "PreemptLowerPriority",
+                "priority": 0,
+                "restartPolicy": "Never",
+                "schedulerName": "default-scheduler",
+                "securityContext": {},
+                "serviceAccount": "default",
+                "serviceAccountName": "default",
+                "terminationGracePeriodSeconds": 30,
+                "tolerations": [
+                    {
+                        "effect": "NoExecute",
+                        "key": "node.kubernetes.io/not-ready",
+                        "operator": "Exists",
+                        "tolerationSeconds": 300
+                    },
+                    {
+                        "effect": "NoExecute",
+                        "key": "node.kubernetes.io/unreachable",
+                        "operator": "Exists",
+                        "tolerationSeconds": 300
+                    },
+                    {
+                        "effect": "PreferNoSchedule",
+                        "key": "nvidia.com/gpu",
+                        "operator": "Exists"
+                    }
+                ],
+                "volumes": [
+                    {
+                        "name": "workspace",
+                        "persistentVolumeClaim": {
+                            "claimName": "yuze-li-vol"
+                        }
+                    },
+                    {
+                        "emptyDir": {
+                            "medium": "Memory",
+                            "sizeLimit": "2Gi"
+                        },
+                        "name": "dshm"
+                    },
+                    {
+                        "name": "kube-api-access-svdhq",
+                        "projected": {
+                            "defaultMode": 420,
+                            "sources": [
+                                {
+                                    "serviceAccountToken": {
+                                        "expirationSeconds": 3607,
+                                        "path": "token"
+                                    }
+                                },
+                                {
+                                    "configMap": {
+                                        "items": [
+                                            {
+                                                "key": "ca.crt",
+                                                "path": "ca.crt"
+                                            }
+                                        ],
+                                        "name": "kube-root-ca.crt"
+                                    }
+                                },
+                                {
+                                    "downwardAPI": {
+                                        "items": [
+                                            {
+                                                "fieldRef": {
+                                                    "apiVersion": "v1",
+                                                    "fieldPath": "metadata.namespace"
+                                                },
+                                                "path": "namespace"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "status": {
+                "conditions": [
+                    {
+                        "lastProbeTime": null,
+                        "lastTransitionTime": "2026-09-11T00:25:24Z",
+                        "status": "True",
+                        "type": "PodReadyToStartContainers"
+                    },
+                    {
+                        "lastProbeTime": null,
+                        "lastTransitionTime": "2026-09-11T00:25:13Z",
+                        "status": "True",
+                        "type": "Initialized"
+                    },
+                    {
+                        "lastProbeTime": null,
+                        "lastTransitionTime": "2026-09-11T00:25:24Z",
+                        "status": "True",
+                        "type": "Ready"
+                    },
+                    {
+                        "lastProbeTime": null,
+                        "lastTransitionTime": "2026-09-11T00:25:24Z",
+                        "status": "True",
+                        "type": "ContainersReady"
+                    },
+                    {
+                        "lastProbeTime": null,
+                        "lastTransitionTime": "2026-09-11T00:25:12Z",
+                        "status": "True",
+                        "type": "PodScheduled"
+                    }
+                ],
+                "containerStatuses": [
+                    {
+                        "allocatedResources": {
+                            "cpu": "8",
+                            "ephemeral-storage": "0",
+                            "memory": "48Gi",
+                            "nvidia.com/gpu": "1"
+                        },
+                        "containerID": "containerd://d6230fd7bb900ed2474c6dcc7ae50591dd77143ad1120ef3928cc9f6d83156de",
+                        "image": "docker.io/pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime",
+                        "imageID": "docker.io/pytorch/pytorch@sha256:2b59b1b91885677814f78be1f8df48a25d5dc952eb6580eaecfefca510f9afd3",
+                        "lastState": {},
+                        "name": "mlevolve",
+                        "ready": true,
+                        "resources": {
+                            "limits": {
+                                "cpu": "8",
+                                "ephemeral-storage": "50Gi",
+                                "memory": "48Gi",
+                                "nvidia.com/gpu": "1"
+                            },
+                            "requests": {
+                                "cpu": "8",
+                                "ephemeral-storage": "0",
+                                "memory": "48Gi",
+                                "nvidia.com/gpu": "1"
+                            }
+                        },
+                        "restartCount": 0,
+                        "started": true,
+                        "state": {
+                            "running": {
+                                "startedAt": "2026-09-11T00:25:23Z"
+                            }
+                        },
+                        "user": {
+                            "linux": {
+                                "gid": 0,
+                                "supplementalGroups": [
+                                    0
+                                ],
+                                "uid": 0
+                            }
+                        },
+                        "volumeMounts": [
+                            {
+                                "mountPath": "/workspace",
+                                "name": "workspace"
+                            },
+                            {
+                                "mountPath": "/dev/shm",
+                                "name": "dshm"
+                            },
+                            {
+                                "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
+                                "name": "kube-api-access-svdhq",
+                                "readOnly": true,
+                                "recursiveReadOnly": "Disabled"
+                            }
+                        ]
+                    }
+                ],
+                "hostIP": "129.93.153.133",
+                "hostIPs": [
+                    {
+                        "ip": "129.93.153.133"
+                    }
+                ],
+                "phase": "Running",
+                "podIP": "10.244.166.234",
+                "podIPs": [
+                    {
+                        "ip": "10.244.166.234"
+                    },
+                    {
+                        "ip": "fdf0:17b3:c3ec:1f79:10:0:e:29df"
+                    }
+                ],
+                "qosClass": "Guaranteed",
+                "startTime": "2026-09-11T00:25:13Z"
+            }
+        },
+        {
+            "apiVersion": "batch/v1",
+            "kind": "Job",
+            "metadata": {
+                "annotations": {
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"batch/v1\",\"kind\":\"Job\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"mlevolve\",\"arm\":\"f-analogy-draft-improve\",\"experiment\":\"jigsaw-unintended-bias\",\"repeat\":\"14\",\"variant\":\"analogy-draft-improve\"},\"name\":\"mlevolve-jubias-anaf-s54\",\"namespace\":\"ecepxie\"},\"spec\":{\"activeDeadlineSeconds\":86400,\"backoffLimit\":0,\"template\":{\"metadata\":{\"labels\":{\"app\":\"mlevolve\",\"arm\":\"f-analogy-draft-improve\",\"experiment\":\"jigsaw-unintended-bias\",\"repeat\":\"14\",\"variant\":\"analogy-draft-improve\"}},\"spec\":{\"affinity\":{\"nodeAffinity\":{\"requiredDuringSchedulingIgnoredDuringExecution\":{\"nodeSelectorTerms\":[{\"matchExpressions\":[{\"key\":\"nvidia.com/gpu.product\",\"operator\":\"In\",\"values\":[\"NVIDIA-GeForce-RTX-3090\",\"NVIDIA-GeForce-RTX-4090\",\"NVIDIA-TITAN-RTX\",\"NVIDIA-A10\",\"NVIDIA-RTX-A5000\",\"NVIDIA-L4\",\"Tesla-V100-SXM2-32GB\",\"NVIDIA-A40\",\"NVIDIA-RTX-A6000\",\"NVIDIA-L40\",\"NVIDIA-L40S\",\"Quadro-RTX-8000\",\"NVIDIA-A100-PCIE-40GB\",\"NVIDIA-A100-SXM4-40GB\",\"NVIDIA-A100-80GB-PCIe\",\"NVIDIA-A100-SXM4-80GB\"]}]}]}}},\"containers\":[{\"command\":[\"bash\",\"/workspace/MLEvolve/k8s/entrypoint.sh\"],\"env\":[{\"name\":\"EXP_ID\",\"value\":\"jigsaw-unintended-bias-in-toxicity-classification\"},{\"name\":\"DATASET_DIR\",\"value\":\"/workspace/data/mlebench\"},{\"name\":\"REPO_DIR\",\"value\":\"/workspace/MLEvolve\"},{\"name\":\"EXP_NAME\",\"value\":\"jubias-anaf-s54\"},{\"name\":\"CPUS_PER_TASK\",\"value\":\"8\"},{\"name\":\"SERVER_ID\",\"value\":\"92\"},{\"name\":\"EXTRA_RUN_ARGS\",\"value\":\"agent.seed=54 agent.time_limit=43200 exec.max_parallel_run=1 candidate_runtime.enabled=True candidate_runtime.draft_budget_seconds=5400 candidate_runtime.candidate_budget_seconds=7200 candidate_runtime.first_validation_seconds=900 candidate_runtime.validation_interval_seconds=1800 candidate_runtime.export_interval_seconds=3600 candidate_runtime.smoke_steps=5 candidate_runtime.smoke_rows=128 candidate_runtime.finalization_reserve_seconds=900 candidate_runtime.finalization_safety_factor=1.5 candidate_runtime.validation_fraction=0.05 candidate_runtime.keep_snapshots=2 analogy.enabled=True analogy.draft=True analogy.improve=True analogy.corpus_path=/workspace/Agentic_Knowledge_Base/output/paper_corpus analogy.fulltext.enabled=True analogy.fulltext.cache_dir=/workspace/MLEvolve/cache/paper_fulltext analogy.fulltext.offline=False analogy.fulltext.max_papers=3 analogy.fulltext.max_read_calls=12 analogy.fulltext.read_chars=8000 analogy.fulltext.total_chars=40000 analogy.fulltext.open_timeout_seconds=60.0 analogy.fulltext.total_open_seconds=150.0\"},{\"name\":\"LLM_BASE_URL\",\"value\":\"http://cliproxy:8317/v1\"},{\"name\":\"LLM_MODEL\",\"value\":\"gpt-5.6-terra\"}],\"envFrom\":[{\"secretRef\":{\"name\":\"mlevolve-llm-proxy\"}}],\"image\":\"pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime\",\"name\":\"mlevolve\",\"resources\":{\"limits\":{\"cpu\":\"8\",\"memory\":\"48Gi\",\"nvidia.com/gpu\":1},\"requests\":{\"cpu\":\"8\",\"memory\":\"48Gi\",\"nvidia.com/gpu\":1}},\"volumeMounts\":[{\"mountPath\":\"/workspace\",\"name\":\"workspace\"},{\"mountPath\":\"/dev/shm\",\"name\":\"dshm\"}]}],\"restartPolicy\":\"Never\",\"volumes\":[{\"name\":\"workspace\",\"persistentVolumeClaim\":{\"claimName\":\"yuze-li-vol\"}},{\"emptyDir\":{\"medium\":\"Memory\",\"sizeLimit\":\"2Gi\"},\"name\":\"dshm\"}]}},\"ttlSecondsAfterFinished\":259200}}\n",
+                    "nrp.ai/username": "http://cilogon.org/serverE/users/532187"
+                },
+                "creationTimestamp": "2026-09-11T00:25:11Z",
+                "generation": 1,
+                "labels": {
+                    "app": "mlevolve",
+                    "arm": "f-analogy-draft-improve",
+                    "experiment": "jigsaw-unintended-bias",
+                    "repeat": "14",
+                    "variant": "analogy-draft-improve"
+                },
+                "name": "mlevolve-jubias-anaf-s54",
+                "namespace": "ecepxie",
+                "resourceVersion": "14765813231",
+                "uid": "784fd778-7d90-4644-9b33-0f7cdb556587"
+            },
+            "spec": {
+                "activeDeadlineSeconds": 86400,
+                "backoffLimit": 0,
+                "completionMode": "NonIndexed",
+                "completions": 1,
+                "manualSelector": false,
+                "parallelism": 1,
+                "podReplacementPolicy": "TerminatingOrFailed",
+                "selector": {
+                    "matchLabels": {
+                        "batch.kubernetes.io/controller-uid": "784fd778-7d90-4644-9b33-0f7cdb556587"
+                    }
+                },
+                "suspend": false,
+                "template": {
+                    "metadata": {
+                        "creationTimestamp": null,
+                        "labels": {
+                            "app": "mlevolve",
+                            "arm": "f-analogy-draft-improve",
+                            "batch.kubernetes.io/controller-uid": "784fd778-7d90-4644-9b33-0f7cdb556587",
+                            "batch.kubernetes.io/job-name": "mlevolve-jubias-anaf-s54",
+                            "controller-uid": "784fd778-7d90-4644-9b33-0f7cdb556587",
+                            "experiment": "jigsaw-unintended-bias",
+                            "job-name": "mlevolve-jubias-anaf-s54",
+                            "repeat": "14",
+                            "variant": "analogy-draft-improve"
+                        }
+                    },
+                    "spec": {
+                        "affinity": {
+                            "nodeAffinity": {
+                                "requiredDuringSchedulingIgnoredDuringExecution": {
+                                    "nodeSelectorTerms": [
+                                        {
+                                            "matchExpressions": [
+                                                {
+                                                    "key": "nvidia.com/gpu.product",
+                                                    "operator": "In",
+                                                    "values": [
+                                                        "NVIDIA-GeForce-RTX-3090",
+                                                        "NVIDIA-GeForce-RTX-4090",
+                                                        "NVIDIA-TITAN-RTX",
+                                                        "NVIDIA-A10",
+                                                        "NVIDIA-RTX-A5000",
+                                                        "NVIDIA-L4",
+                                                        "Tesla-V100-SXM2-32GB",
+                                                        "NVIDIA-A40",
+                                                        "NVIDIA-RTX-A6000",
+                                                        "NVIDIA-L40",
+                                                        "NVIDIA-L40S",
+                                                        "Quadro-RTX-8000",
+                                                        "NVIDIA-A100-PCIE-40GB",
+                                                        "NVIDIA-A100-SXM4-40GB",
+                                                        "NVIDIA-A100-80GB-PCIe",
+                                                        "NVIDIA-A100-SXM4-80GB"
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "containers": [
+                            {
+                                "command": [
+                                    "bash",
+                                    "/workspace/MLEvolve/k8s/entrypoint.sh"
+                                ],
+                                "env": [
+                                    {
+                                        "name": "EXP_ID",
+                                        "value": "jigsaw-unintended-bias-in-toxicity-classification"
+                                    },
+                                    {
+                                        "name": "DATASET_DIR",
+                                        "value": "/workspace/data/mlebench"
+                                    },
+                                    {
+                                        "name": "REPO_DIR",
+                                        "value": "/workspace/MLEvolve"
+                                    },
+                                    {
+                                        "name": "EXP_NAME",
+                                        "value": "jubias-anaf-s54"
+                                    },
+                                    {
+                                        "name": "CPUS_PER_TASK",
+                                        "value": "8"
+                                    },
+                                    {
+                                        "name": "SERVER_ID",
+                                        "value": "92"
+                                    },
+                                    {
+                                        "name": "EXTRA_RUN_ARGS",
+                                        "value": "agent.seed=54 agent.time_limit=43200 exec.max_parallel_run=1 candidate_runtime.enabled=True candidate_runtime.draft_budget_seconds=5400 candidate_runtime.candidate_budget_seconds=7200 candidate_runtime.first_validation_seconds=900 candidate_runtime.validation_interval_seconds=1800 candidate_runtime.export_interval_seconds=3600 candidate_runtime.smoke_steps=5 candidate_runtime.smoke_rows=128 candidate_runtime.finalization_reserve_seconds=900 candidate_runtime.finalization_safety_factor=1.5 candidate_runtime.validation_fraction=0.05 candidate_runtime.keep_snapshots=2 analogy.enabled=True analogy.draft=True analogy.improve=True analogy.corpus_path=/workspace/Agentic_Knowledge_Base/output/paper_corpus analogy.fulltext.enabled=True analogy.fulltext.cache_dir=/workspace/MLEvolve/cache/paper_fulltext analogy.fulltext.offline=False analogy.fulltext.max_papers=3 analogy.fulltext.max_read_calls=12 analogy.fulltext.read_chars=8000 analogy.fulltext.total_chars=40000 analogy.fulltext.open_timeout_seconds=60.0 analogy.fulltext.total_open_seconds=150.0"
+                                    },
+                                    {
+                                        "name": "LLM_BASE_URL",
+                                        "value": "http://cliproxy:8317/v1"
+                                    },
+                                    {
+                                        "name": "LLM_MODEL",
+                                        "value": "gpt-5.6-terra"
+                                    }
+                                ],
+                                "envFrom": [
+                                    {
+                                        "secretRef": {
+                                            "name": "mlevolve-llm-proxy"
+                                        }
+                                    }
+                                ],
+                                "image": "pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime",
+                                "imagePullPolicy": "IfNotPresent",
+                                "name": "mlevolve",
+                                "resources": {
+                                    "limits": {
+                                        "cpu": "8",
+                                        "memory": "48Gi",
+                                        "nvidia.com/gpu": "1"
+                                    },
+                                    "requests": {
+                                        "cpu": "8",
+                                        "memory": "48Gi",
+                                        "nvidia.com/gpu": "1"
+                                    }
+                                },
+                                "terminationMessagePath": "/dev/termination-log",
+                                "terminationMessagePolicy": "File",
+                                "volumeMounts": [
+                                    {
+                                        "mountPath": "/workspace",
+                                        "name": "workspace"
+                                    },
+                                    {
+                                        "mountPath": "/dev/shm",
+                                        "name": "dshm"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dnsPolicy": "ClusterFirst",
+                        "restartPolicy": "Never",
+                        "schedulerName": "default-scheduler",
+                        "securityContext": {},
+                        "terminationGracePeriodSeconds": 30,
+                        "volumes": [
+                            {
+                                "name": "workspace",
+                                "persistentVolumeClaim": {
+                                    "claimName": "yuze-li-vol"
+                                }
+                            },
+                            {
+                                "emptyDir": {
+                                    "medium": "Memory",
+                                    "sizeLimit": "2Gi"
+                                },
+                                "name": "dshm"
+                            }
+                        ]
+                    }
+                },
+                "ttlSecondsAfterFinished": 259200
+            },
+            "status": {
+                "active": 1,
+                "ready": 1,
+                "startTime": "2026-09-11T00:25:11Z",
+                "terminating": 0,
+                "uncountedTerminatedPods": {}
+            }
+        },
+        {
+            "apiVersion": "batch/v1",
+            "kind": "Job",
+            "metadata": {
+                "annotations": {
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"batch/v1\",\"kind\":\"Job\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"mlevolve\",\"arm\":\"f-analogy-draft-improve\",\"experiment\":\"jigsaw-unintended-bias\",\"repeat\":\"15\",\"variant\":\"analogy-draft-improve\"},\"name\":\"mlevolve-jubias-anaf-s55\",\"namespace\":\"ecepxie\"},\"spec\":{\"activeDeadlineSeconds\":86400,\"backoffLimit\":0,\"template\":{\"metadata\":{\"labels\":{\"app\":\"mlevolve\",\"arm\":\"f-analogy-draft-improve\",\"experiment\":\"jigsaw-unintended-bias\",\"repeat\":\"15\",\"variant\":\"analogy-draft-improve\"}},\"spec\":{\"affinity\":{\"nodeAffinity\":{\"requiredDuringSchedulingIgnoredDuringExecution\":{\"nodeSelectorTerms\":[{\"matchExpressions\":[{\"key\":\"nvidia.com/gpu.product\",\"operator\":\"In\",\"values\":[\"NVIDIA-GeForce-RTX-3090\",\"NVIDIA-GeForce-RTX-4090\",\"NVIDIA-TITAN-RTX\",\"NVIDIA-A10\",\"NVIDIA-RTX-A5000\",\"NVIDIA-L4\",\"Tesla-V100-SXM2-32GB\",\"NVIDIA-A40\",\"NVIDIA-RTX-A6000\",\"NVIDIA-L40\",\"NVIDIA-L40S\",\"Quadro-RTX-8000\",\"NVIDIA-A100-PCIE-40GB\",\"NVIDIA-A100-SXM4-40GB\",\"NVIDIA-A100-80GB-PCIe\",\"NVIDIA-A100-SXM4-80GB\"]}]}]}}},\"containers\":[{\"command\":[\"bash\",\"/workspace/MLEvolve/k8s/entrypoint.sh\"],\"env\":[{\"name\":\"EXP_ID\",\"value\":\"jigsaw-unintended-bias-in-toxicity-classification\"},{\"name\":\"DATASET_DIR\",\"value\":\"/workspace/data/mlebench\"},{\"name\":\"REPO_DIR\",\"value\":\"/workspace/MLEvolve\"},{\"name\":\"EXP_NAME\",\"value\":\"jubias-anaf-s55\"},{\"name\":\"CPUS_PER_TASK\",\"value\":\"8\"},{\"name\":\"SERVER_ID\",\"value\":\"94\"},{\"name\":\"EXTRA_RUN_ARGS\",\"value\":\"agent.seed=55 agent.time_limit=43200 exec.max_parallel_run=1 candidate_runtime.enabled=True candidate_runtime.draft_budget_seconds=5400 candidate_runtime.candidate_budget_seconds=7200 candidate_runtime.first_validation_seconds=900 candidate_runtime.validation_interval_seconds=1800 candidate_runtime.export_interval_seconds=3600 candidate_runtime.smoke_steps=5 candidate_runtime.smoke_rows=128 candidate_runtime.finalization_reserve_seconds=900 candidate_runtime.finalization_safety_factor=1.5 candidate_runtime.validation_fraction=0.05 candidate_runtime.keep_snapshots=2 analogy.enabled=True analogy.draft=True analogy.improve=True analogy.corpus_path=/workspace/Agentic_Knowledge_Base/output/paper_corpus analogy.fulltext.enabled=True analogy.fulltext.cache_dir=/workspace/MLEvolve/cache/paper_fulltext analogy.fulltext.offline=False analogy.fulltext.max_papers=3 analogy.fulltext.max_read_calls=12 analogy.fulltext.read_chars=8000 analogy.fulltext.total_chars=40000 analogy.fulltext.open_timeout_seconds=60.0 analogy.fulltext.total_open_seconds=150.0\"},{\"name\":\"LLM_BASE_URL\",\"value\":\"http://cliproxy:8317/v1\"},{\"name\":\"LLM_MODEL\",\"value\":\"gpt-5.6-terra\"}],\"envFrom\":[{\"secretRef\":{\"name\":\"mlevolve-llm-proxy\"}}],\"image\":\"pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime\",\"name\":\"mlevolve\",\"resources\":{\"limits\":{\"cpu\":\"8\",\"memory\":\"48Gi\",\"nvidia.com/gpu\":1},\"requests\":{\"cpu\":\"8\",\"memory\":\"48Gi\",\"nvidia.com/gpu\":1}},\"volumeMounts\":[{\"mountPath\":\"/workspace\",\"name\":\"workspace\"},{\"mountPath\":\"/dev/shm\",\"name\":\"dshm\"}]}],\"restartPolicy\":\"Never\",\"volumes\":[{\"name\":\"workspace\",\"persistentVolumeClaim\":{\"claimName\":\"yuze-li-vol\"}},{\"emptyDir\":{\"medium\":\"Memory\",\"sizeLimit\":\"2Gi\"},\"name\":\"dshm\"}]}},\"ttlSecondsAfterFinished\":259200}}\n",
+                    "nrp.ai/username": "http://cilogon.org/serverE/users/532187"
+                },
+                "creationTimestamp": "2026-09-11T00:25:12Z",
+                "generation": 1,
+                "labels": {
+                    "app": "mlevolve",
+                    "arm": "f-analogy-draft-improve",
+                    "experiment": "jigsaw-unintended-bias",
+                    "repeat": "15",
+                    "variant": "analogy-draft-improve"
+                },
+                "name": "mlevolve-jubias-anaf-s55",
+                "namespace": "ecepxie",
+                "resourceVersion": "14765813361",
+                "uid": "ccd68fb4-24d3-4597-96ce-468ed133e942"
+            },
+            "spec": {
+                "activeDeadlineSeconds": 86400,
+                "backoffLimit": 0,
+                "completionMode": "NonIndexed",
+                "completions": 1,
+                "manualSelector": false,
+                "parallelism": 1,
+                "podReplacementPolicy": "TerminatingOrFailed",
+                "selector": {
+                    "matchLabels": {
+                        "batch.kubernetes.io/controller-uid": "ccd68fb4-24d3-4597-96ce-468ed133e942"
+                    }
+                },
+                "suspend": false,
+                "template": {
+                    "metadata": {
+                        "creationTimestamp": null,
+                        "labels": {
+                            "app": "mlevolve",
+                            "arm": "f-analogy-draft-improve",
+                            "batch.kubernetes.io/controller-uid": "ccd68fb4-24d3-4597-96ce-468ed133e942",
+                            "batch.kubernetes.io/job-name": "mlevolve-jubias-anaf-s55",
+                            "controller-uid": "ccd68fb4-24d3-4597-96ce-468ed133e942",
+                            "experiment": "jigsaw-unintended-bias",
+                            "job-name": "mlevolve-jubias-anaf-s55",
+                            "repeat": "15",
+                            "variant": "analogy-draft-improve"
+                        }
+                    },
+                    "spec": {
+                        "affinity": {
+                            "nodeAffinity": {
+                                "requiredDuringSchedulingIgnoredDuringExecution": {
+                                    "nodeSelectorTerms": [
+                                        {
+                                            "matchExpressions": [
+                                                {
+                                                    "key": "nvidia.com/gpu.product",
+                                                    "operator": "In",
+                                                    "values": [
+                                                        "NVIDIA-GeForce-RTX-3090",
+                                                        "NVIDIA-GeForce-RTX-4090",
+                                                        "NVIDIA-TITAN-RTX",
+                                                        "NVIDIA-A10",
+                                                        "NVIDIA-RTX-A5000",
+                                                        "NVIDIA-L4",
+                                                        "Tesla-V100-SXM2-32GB",
+                                                        "NVIDIA-A40",
+                                                        "NVIDIA-RTX-A6000",
+                                                        "NVIDIA-L40",
+                                                        "NVIDIA-L40S",
+                                                        "Quadro-RTX-8000",
+                                                        "NVIDIA-A100-PCIE-40GB",
+                                                        "NVIDIA-A100-SXM4-40GB",
+                                                        "NVIDIA-A100-80GB-PCIe",
+                                                        "NVIDIA-A100-SXM4-80GB"
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "containers": [
+                            {
+                                "command": [
+                                    "bash",
+                                    "/workspace/MLEvolve/k8s/entrypoint.sh"
+                                ],
+                                "env": [
+                                    {
+                                        "name": "EXP_ID",
+                                        "value": "jigsaw-unintended-bias-in-toxicity-classification"
+                                    },
+                                    {
+                                        "name": "DATASET_DIR",
+                                        "value": "/workspace/data/mlebench"
+                                    },
+                                    {
+                                        "name": "REPO_DIR",
+                                        "value": "/workspace/MLEvolve"
+                                    },
+                                    {
+                                        "name": "EXP_NAME",
+                                        "value": "jubias-anaf-s55"
+                                    },
+                                    {
+                                        "name": "CPUS_PER_TASK",
+                                        "value": "8"
+                                    },
+                                    {
+                                        "name": "SERVER_ID",
+                                        "value": "94"
+                                    },
+                                    {
+                                        "name": "EXTRA_RUN_ARGS",
+                                        "value": "agent.seed=55 agent.time_limit=43200 exec.max_parallel_run=1 candidate_runtime.enabled=True candidate_runtime.draft_budget_seconds=5400 candidate_runtime.candidate_budget_seconds=7200 candidate_runtime.first_validation_seconds=900 candidate_runtime.validation_interval_seconds=1800 candidate_runtime.export_interval_seconds=3600 candidate_runtime.smoke_steps=5 candidate_runtime.smoke_rows=128 candidate_runtime.finalization_reserve_seconds=900 candidate_runtime.finalization_safety_factor=1.5 candidate_runtime.validation_fraction=0.05 candidate_runtime.keep_snapshots=2 analogy.enabled=True analogy.draft=True analogy.improve=True analogy.corpus_path=/workspace/Agentic_Knowledge_Base/output/paper_corpus analogy.fulltext.enabled=True analogy.fulltext.cache_dir=/workspace/MLEvolve/cache/paper_fulltext analogy.fulltext.offline=False analogy.fulltext.max_papers=3 analogy.fulltext.max_read_calls=12 analogy.fulltext.read_chars=8000 analogy.fulltext.total_chars=40000 analogy.fulltext.open_timeout_seconds=60.0 analogy.fulltext.total_open_seconds=150.0"
+                                    },
+                                    {
+                                        "name": "LLM_BASE_URL",
+                                        "value": "http://cliproxy:8317/v1"
+                                    },
+                                    {
+                                        "name": "LLM_MODEL",
+                                        "value": "gpt-5.6-terra"
+                                    }
+                                ],
+                                "envFrom": [
+                                    {
+                                        "secretRef": {
+                                            "name": "mlevolve-llm-proxy"
+                                        }
+                                    }
+                                ],
+                                "image": "pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime",
+                                "imagePullPolicy": "IfNotPresent",
+                                "name": "mlevolve",
+                                "resources": {
+                                    "limits": {
+                                        "cpu": "8",
+                                        "memory": "48Gi",
+                                        "nvidia.com/gpu": "1"
+                                    },
+                                    "requests": {
+                                        "cpu": "8",
+                                        "memory": "48Gi",
+                                        "nvidia.com/gpu": "1"
+                                    }
+                                },
+                                "terminationMessagePath": "/dev/termination-log",
+                                "terminationMessagePolicy": "File",
+                                "volumeMounts": [
+                                    {
+                                        "mountPath": "/workspace",
+                                        "name": "workspace"
+                                    },
+                                    {
+                                        "mountPath": "/dev/shm",
+                                        "name": "dshm"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dnsPolicy": "ClusterFirst",
+                        "restartPolicy": "Never",
+                        "schedulerName": "default-scheduler",
+                        "securityContext": {},
+                        "terminationGracePeriodSeconds": 30,
+                        "volumes": [
+                            {
+                                "name": "workspace",
+                                "persistentVolumeClaim": {
+                                    "claimName": "yuze-li-vol"
+                                }
+                            },
+                            {
+                                "emptyDir": {
+                                    "medium": "Memory",
+                                    "sizeLimit": "2Gi"
+                                },
+                                "name": "dshm"
+                            }
+                        ]
+                    }
+                },
+                "ttlSecondsAfterFinished": 259200
+            },
+            "status": {
+                "active": 1,
+                "ready": 1,
+                "startTime": "2026-09-11T00:25:12Z",
+                "terminating": 0,
+                "uncountedTerminatedPods": {}
+            }
+        },
+        {
+            "apiVersion": "batch/v1",
+            "kind": "Job",
+            "metadata": {
+                "annotations": {
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"batch/v1\",\"kind\":\"Job\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"mlevolve\",\"arm\":\"f-analogy-draft-improve\",\"experiment\":\"jigsaw-unintended-bias\",\"repeat\":\"16\",\"variant\":\"analogy-draft-improve\"},\"name\":\"mlevolve-jubias-anaf-s56\",\"namespace\":\"ecepxie\"},\"spec\":{\"activeDeadlineSeconds\":86400,\"backoffLimit\":0,\"template\":{\"metadata\":{\"labels\":{\"app\":\"mlevolve\",\"arm\":\"f-analogy-draft-improve\",\"experiment\":\"jigsaw-unintended-bias\",\"repeat\":\"16\",\"variant\":\"analogy-draft-improve\"}},\"spec\":{\"affinity\":{\"nodeAffinity\":{\"requiredDuringSchedulingIgnoredDuringExecution\":{\"nodeSelectorTerms\":[{\"matchExpressions\":[{\"key\":\"nvidia.com/gpu.product\",\"operator\":\"In\",\"values\":[\"NVIDIA-GeForce-RTX-3090\",\"NVIDIA-GeForce-RTX-4090\",\"NVIDIA-TITAN-RTX\",\"NVIDIA-A10\",\"NVIDIA-RTX-A5000\",\"NVIDIA-L4\",\"Tesla-V100-SXM2-32GB\",\"NVIDIA-A40\",\"NVIDIA-RTX-A6000\",\"NVIDIA-L40\",\"NVIDIA-L40S\",\"Quadro-RTX-8000\",\"NVIDIA-A100-PCIE-40GB\",\"NVIDIA-A100-SXM4-40GB\",\"NVIDIA-A100-80GB-PCIe\",\"NVIDIA-A100-SXM4-80GB\"]}]}]}}},\"containers\":[{\"command\":[\"bash\",\"/workspace/MLEvolve/k8s/entrypoint.sh\"],\"env\":[{\"name\":\"EXP_ID\",\"value\":\"jigsaw-unintended-bias-in-toxicity-classification\"},{\"name\":\"DATASET_DIR\",\"value\":\"/workspace/data/mlebench\"},{\"name\":\"REPO_DIR\",\"value\":\"/workspace/MLEvolve\"},{\"name\":\"EXP_NAME\",\"value\":\"jubias-anaf-s56\"},{\"name\":\"CPUS_PER_TASK\",\"value\":\"8\"},{\"name\":\"SERVER_ID\",\"value\":\"96\"},{\"name\":\"EXTRA_RUN_ARGS\",\"value\":\"agent.seed=56 agent.time_limit=43200 exec.max_parallel_run=1 candidate_runtime.enabled=True candidate_runtime.draft_budget_seconds=5400 candidate_runtime.candidate_budget_seconds=7200 candidate_runtime.first_validation_seconds=900 candidate_runtime.validation_interval_seconds=1800 candidate_runtime.export_interval_seconds=3600 candidate_runtime.smoke_steps=5 candidate_runtime.smoke_rows=128 candidate_runtime.finalization_reserve_seconds=900 candidate_runtime.finalization_safety_factor=1.5 candidate_runtime.validation_fraction=0.05 candidate_runtime.keep_snapshots=2 analogy.enabled=True analogy.draft=True analogy.improve=True analogy.corpus_path=/workspace/Agentic_Knowledge_Base/output/paper_corpus analogy.fulltext.enabled=True analogy.fulltext.cache_dir=/workspace/MLEvolve/cache/paper_fulltext analogy.fulltext.offline=False analogy.fulltext.max_papers=3 analogy.fulltext.max_read_calls=12 analogy.fulltext.read_chars=8000 analogy.fulltext.total_chars=40000 analogy.fulltext.open_timeout_seconds=60.0 analogy.fulltext.total_open_seconds=150.0\"},{\"name\":\"LLM_BASE_URL\",\"value\":\"http://cliproxy:8317/v1\"},{\"name\":\"LLM_MODEL\",\"value\":\"gpt-5.6-terra\"}],\"envFrom\":[{\"secretRef\":{\"name\":\"mlevolve-llm-proxy\"}}],\"image\":\"pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime\",\"name\":\"mlevolve\",\"resources\":{\"limits\":{\"cpu\":\"8\",\"memory\":\"48Gi\",\"nvidia.com/gpu\":1},\"requests\":{\"cpu\":\"8\",\"memory\":\"48Gi\",\"nvidia.com/gpu\":1}},\"volumeMounts\":[{\"mountPath\":\"/workspace\",\"name\":\"workspace\"},{\"mountPath\":\"/dev/shm\",\"name\":\"dshm\"}]}],\"restartPolicy\":\"Never\",\"volumes\":[{\"name\":\"workspace\",\"persistentVolumeClaim\":{\"claimName\":\"yuze-li-vol\"}},{\"emptyDir\":{\"medium\":\"Memory\",\"sizeLimit\":\"2Gi\"},\"name\":\"dshm\"}]}},\"ttlSecondsAfterFinished\":259200}}\n",
+                    "nrp.ai/username": "http://cilogon.org/serverE/users/532187"
+                },
+                "creationTimestamp": "2026-09-11T00:25:12Z",
+                "generation": 1,
+                "labels": {
+                    "app": "mlevolve",
+                    "arm": "f-analogy-draft-improve",
+                    "experiment": "jigsaw-unintended-bias",
+                    "repeat": "16",
+                    "variant": "analogy-draft-improve"
+                },
+                "name": "mlevolve-jubias-anaf-s56",
+                "namespace": "ecepxie",
+                "resourceVersion": "14766156239",
+                "uid": "3fda9bb5-f740-4417-835f-e70abb254013"
+            },
+            "spec": {
+                "activeDeadlineSeconds": 86400,
+                "backoffLimit": 0,
+                "completionMode": "NonIndexed",
+                "completions": 1,
+                "manualSelector": false,
+                "parallelism": 1,
+                "podReplacementPolicy": "TerminatingOrFailed",
+                "selector": {
+                    "matchLabels": {
+                        "batch.kubernetes.io/controller-uid": "3fda9bb5-f740-4417-835f-e70abb254013"
+                    }
+                },
+                "suspend": false,
+                "template": {
+                    "metadata": {
+                        "creationTimestamp": null,
+                        "labels": {
+                            "app": "mlevolve",
+                            "arm": "f-analogy-draft-improve",
+                            "batch.kubernetes.io/controller-uid": "3fda9bb5-f740-4417-835f-e70abb254013",
+                            "batch.kubernetes.io/job-name": "mlevolve-jubias-anaf-s56",
+                            "controller-uid": "3fda9bb5-f740-4417-835f-e70abb254013",
+                            "experiment": "jigsaw-unintended-bias",
+                            "job-name": "mlevolve-jubias-anaf-s56",
+                            "repeat": "16",
+                            "variant": "analogy-draft-improve"
+                        }
+                    },
+                    "spec": {
+                        "affinity": {
+                            "nodeAffinity": {
+                                "requiredDuringSchedulingIgnoredDuringExecution": {
+                                    "nodeSelectorTerms": [
+                                        {
+                                            "matchExpressions": [
+                                                {
+                                                    "key": "nvidia.com/gpu.product",
+                                                    "operator": "In",
+                                                    "values": [
+                                                        "NVIDIA-GeForce-RTX-3090",
+                                                        "NVIDIA-GeForce-RTX-4090",
+                                                        "NVIDIA-TITAN-RTX",
+                                                        "NVIDIA-A10",
+                                                        "NVIDIA-RTX-A5000",
+                                                        "NVIDIA-L4",
+                                                        "Tesla-V100-SXM2-32GB",
+                                                        "NVIDIA-A40",
+                                                        "NVIDIA-RTX-A6000",
+                                                        "NVIDIA-L40",
+                                                        "NVIDIA-L40S",
+                                                        "Quadro-RTX-8000",
+                                                        "NVIDIA-A100-PCIE-40GB",
+                                                        "NVIDIA-A100-SXM4-40GB",
+                                                        "NVIDIA-A100-80GB-PCIe",
+                                                        "NVIDIA-A100-SXM4-80GB"
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "containers": [
+                            {
+                                "command": [
+                                    "bash",
+                                    "/workspace/MLEvolve/k8s/entrypoint.sh"
+                                ],
+                                "env": [
+                                    {
+                                        "name": "EXP_ID",
+                                        "value": "jigsaw-unintended-bias-in-toxicity-classification"
+                                    },
+                                    {
+                                        "name": "DATASET_DIR",
+                                        "value": "/workspace/data/mlebench"
+                                    },
+                                    {
+                                        "name": "REPO_DIR",
+                                        "value": "/workspace/MLEvolve"
+                                    },
+                                    {
+                                        "name": "EXP_NAME",
+                                        "value": "jubias-anaf-s56"
+                                    },
+                                    {
+                                        "name": "CPUS_PER_TASK",
+                                        "value": "8"
+                                    },
+                                    {
+                                        "name": "SERVER_ID",
+                                        "value": "96"
+                                    },
+                                    {
+                                        "name": "EXTRA_RUN_ARGS",
+                                        "value": "agent.seed=56 agent.time_limit=43200 exec.max_parallel_run=1 candidate_runtime.enabled=True candidate_runtime.draft_budget_seconds=5400 candidate_runtime.candidate_budget_seconds=7200 candidate_runtime.first_validation_seconds=900 candidate_runtime.validation_interval_seconds=1800 candidate_runtime.export_interval_seconds=3600 candidate_runtime.smoke_steps=5 candidate_runtime.smoke_rows=128 candidate_runtime.finalization_reserve_seconds=900 candidate_runtime.finalization_safety_factor=1.5 candidate_runtime.validation_fraction=0.05 candidate_runtime.keep_snapshots=2 analogy.enabled=True analogy.draft=True analogy.improve=True analogy.corpus_path=/workspace/Agentic_Knowledge_Base/output/paper_corpus analogy.fulltext.enabled=True analogy.fulltext.cache_dir=/workspace/MLEvolve/cache/paper_fulltext analogy.fulltext.offline=False analogy.fulltext.max_papers=3 analogy.fulltext.max_read_calls=12 analogy.fulltext.read_chars=8000 analogy.fulltext.total_chars=40000 analogy.fulltext.open_timeout_seconds=60.0 analogy.fulltext.total_open_seconds=150.0"
+                                    },
+                                    {
+                                        "name": "LLM_BASE_URL",
+                                        "value": "http://cliproxy:8317/v1"
+                                    },
+                                    {
+                                        "name": "LLM_MODEL",
+                                        "value": "gpt-5.6-terra"
+                                    }
+                                ],
+                                "envFrom": [
+                                    {
+                                        "secretRef": {
+                                            "name": "mlevolve-llm-proxy"
+                                        }
+                                    }
+                                ],
+                                "image": "pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime",
+                                "imagePullPolicy": "IfNotPresent",
+                                "name": "mlevolve",
+                                "resources": {
+                                    "limits": {
+                                        "cpu": "8",
+                                        "memory": "48Gi",
+                                        "nvidia.com/gpu": "1"
+                                    },
+                                    "requests": {
+                                        "cpu": "8",
+                                        "memory": "48Gi",
+                                        "nvidia.com/gpu": "1"
+                                    }
+                                },
+                                "terminationMessagePath": "/dev/termination-log",
+                                "terminationMessagePolicy": "File",
+                                "volumeMounts": [
+                                    {
+                                        "mountPath": "/workspace",
+                                        "name": "workspace"
+                                    },
+                                    {
+                                        "mountPath": "/dev/shm",
+                                        "name": "dshm"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dnsPolicy": "ClusterFirst",
+                        "restartPolicy": "Never",
+                        "schedulerName": "default-scheduler",
+                        "securityContext": {},
+                        "terminationGracePeriodSeconds": 30,
+                        "volumes": [
+                            {
+                                "name": "workspace",
+                                "persistentVolumeClaim": {
+                                    "claimName": "yuze-li-vol"
+                                }
+                            },
+                            {
+                                "emptyDir": {
+                                    "medium": "Memory",
+                                    "sizeLimit": "2Gi"
+                                },
+                                "name": "dshm"
+                            }
+                        ]
+                    }
+                },
+                "ttlSecondsAfterFinished": 259200
+            },
+            "status": {
+                "conditions": [
+                    {
+                        "lastProbeTime": "2026-09-11T01:06:48Z",
+                        "lastTransitionTime": "2026-09-11T01:06:48Z",
+                        "message": "Job has reached the specified backoff limit",
+                        "reason": "BackoffLimitExceeded",
+                        "status": "True",
+                        "type": "FailureTarget"
+                    },
+                    {
+                        "lastProbeTime": "2026-09-11T01:06:57Z",
+                        "lastTransitionTime": "2026-09-11T01:06:57Z",
+                        "message": "Job has reached the specified backoff limit",
+                        "reason": "BackoffLimitExceeded",
+                        "status": "True",
+                        "type": "Failed"
+                    }
+                ],
+                "failed": 1,
+                "ready": 0,
+                "startTime": "2026-09-11T00:25:12Z",
+                "terminating": 0,
+                "uncountedTerminatedPods": {}
+            }
+        },
+        {
+            "apiVersion": "batch/v1",
+            "kind": "Job",
+            "metadata": {
+                "annotations": {
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"batch/v1\",\"kind\":\"Job\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"mlevolve\",\"arm\":\"a-baseline\",\"experiment\":\"jigsaw-unintended-bias\",\"repeat\":\"14\",\"variant\":\"kb-off\"},\"name\":\"mlevolve-jubias-base-s54\",\"namespace\":\"ecepxie\"},\"spec\":{\"activeDeadlineSeconds\":86400,\"backoffLimit\":0,\"template\":{\"metadata\":{\"labels\":{\"app\":\"mlevolve\",\"arm\":\"a-baseline\",\"experiment\":\"jigsaw-unintended-bias\",\"repeat\":\"14\",\"variant\":\"kb-off\"}},\"spec\":{\"affinity\":{\"nodeAffinity\":{\"requiredDuringSchedulingIgnoredDuringExecution\":{\"nodeSelectorTerms\":[{\"matchExpressions\":[{\"key\":\"nvidia.com/gpu.product\",\"operator\":\"In\",\"values\":[\"NVIDIA-GeForce-RTX-3090\",\"NVIDIA-GeForce-RTX-4090\",\"NVIDIA-TITAN-RTX\",\"NVIDIA-A10\",\"NVIDIA-RTX-A5000\",\"NVIDIA-L4\",\"Tesla-V100-SXM2-32GB\",\"NVIDIA-A40\",\"NVIDIA-RTX-A6000\",\"NVIDIA-L40\",\"NVIDIA-L40S\",\"Quadro-RTX-8000\",\"NVIDIA-A100-PCIE-40GB\",\"NVIDIA-A100-SXM4-40GB\",\"NVIDIA-A100-80GB-PCIe\",\"NVIDIA-A100-SXM4-80GB\"]}]}]}}},\"containers\":[{\"command\":[\"bash\",\"/workspace/MLEvolve/k8s/entrypoint.sh\"],\"env\":[{\"name\":\"EXP_ID\",\"value\":\"jigsaw-unintended-bias-in-toxicity-classification\"},{\"name\":\"DATASET_DIR\",\"value\":\"/workspace/data/mlebench\"},{\"name\":\"REPO_DIR\",\"value\":\"/workspace/MLEvolve\"},{\"name\":\"EXP_NAME\",\"value\":\"jubias-base-s54\"},{\"name\":\"CPUS_PER_TASK\",\"value\":\"8\"},{\"name\":\"SERVER_ID\",\"value\":\"91\"},{\"name\":\"EXTRA_RUN_ARGS\",\"value\":\"agent.seed=54 agent.time_limit=43200 exec.max_parallel_run=1 candidate_runtime.enabled=True candidate_runtime.draft_budget_seconds=5400 candidate_runtime.candidate_budget_seconds=7200 candidate_runtime.first_validation_seconds=900 candidate_runtime.validation_interval_seconds=1800 candidate_runtime.export_interval_seconds=3600 candidate_runtime.smoke_steps=5 candidate_runtime.smoke_rows=128 candidate_runtime.finalization_reserve_seconds=900 candidate_runtime.finalization_safety_factor=1.5 candidate_runtime.validation_fraction=0.05 candidate_runtime.keep_snapshots=2 analogy.enabled=False analogy.fulltext.enabled=False\"},{\"name\":\"LLM_BASE_URL\",\"value\":\"http://cliproxy:8317/v1\"},{\"name\":\"LLM_MODEL\",\"value\":\"gpt-5.6-terra\"}],\"envFrom\":[{\"secretRef\":{\"name\":\"mlevolve-llm-proxy\"}}],\"image\":\"pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime\",\"name\":\"mlevolve\",\"resources\":{\"limits\":{\"cpu\":\"8\",\"memory\":\"48Gi\",\"nvidia.com/gpu\":1},\"requests\":{\"cpu\":\"8\",\"memory\":\"48Gi\",\"nvidia.com/gpu\":1}},\"volumeMounts\":[{\"mountPath\":\"/workspace\",\"name\":\"workspace\"},{\"mountPath\":\"/dev/shm\",\"name\":\"dshm\"}]}],\"restartPolicy\":\"Never\",\"volumes\":[{\"name\":\"workspace\",\"persistentVolumeClaim\":{\"claimName\":\"yuze-li-vol\"}},{\"emptyDir\":{\"medium\":\"Memory\",\"sizeLimit\":\"2Gi\"},\"name\":\"dshm\"}]}},\"ttlSecondsAfterFinished\":259200}}\n",
+                    "nrp.ai/username": "http://cilogon.org/serverE/users/532187"
+                },
+                "creationTimestamp": "2026-09-11T00:25:11Z",
+                "generation": 1,
+                "labels": {
+                    "app": "mlevolve",
+                    "arm": "a-baseline",
+                    "experiment": "jigsaw-unintended-bias",
+                    "repeat": "14",
+                    "variant": "kb-off"
+                },
+                "name": "mlevolve-jubias-base-s54",
+                "namespace": "ecepxie",
+                "resourceVersion": "14765813331",
+                "uid": "5580b41b-8213-4640-ab74-4892c1f583e3"
+            },
+            "spec": {
+                "activeDeadlineSeconds": 86400,
+                "backoffLimit": 0,
+                "completionMode": "NonIndexed",
+                "completions": 1,
+                "manualSelector": false,
+                "parallelism": 1,
+                "podReplacementPolicy": "TerminatingOrFailed",
+                "selector": {
+                    "matchLabels": {
+                        "batch.kubernetes.io/controller-uid": "5580b41b-8213-4640-ab74-4892c1f583e3"
+                    }
+                },
+                "suspend": false,
+                "template": {
+                    "metadata": {
+                        "creationTimestamp": null,
+                        "labels": {
+                            "app": "mlevolve",
+                            "arm": "a-baseline",
+                            "batch.kubernetes.io/controller-uid": "5580b41b-8213-4640-ab74-4892c1f583e3",
+                            "batch.kubernetes.io/job-name": "mlevolve-jubias-base-s54",
+                            "controller-uid": "5580b41b-8213-4640-ab74-4892c1f583e3",
+                            "experiment": "jigsaw-unintended-bias",
+                            "job-name": "mlevolve-jubias-base-s54",
+                            "repeat": "14",
+                            "variant": "kb-off"
+                        }
+                    },
+                    "spec": {
+                        "affinity": {
+                            "nodeAffinity": {
+                                "requiredDuringSchedulingIgnoredDuringExecution": {
+                                    "nodeSelectorTerms": [
+                                        {
+                                            "matchExpressions": [
+                                                {
+                                                    "key": "nvidia.com/gpu.product",
+                                                    "operator": "In",
+                                                    "values": [
+                                                        "NVIDIA-GeForce-RTX-3090",
+                                                        "NVIDIA-GeForce-RTX-4090",
+                                                        "NVIDIA-TITAN-RTX",
+                                                        "NVIDIA-A10",
+                                                        "NVIDIA-RTX-A5000",
+                                                        "NVIDIA-L4",
+                                                        "Tesla-V100-SXM2-32GB",
+                                                        "NVIDIA-A40",
+                                                        "NVIDIA-RTX-A6000",
+                                                        "NVIDIA-L40",
+                                                        "NVIDIA-L40S",
+                                                        "Quadro-RTX-8000",
+                                                        "NVIDIA-A100-PCIE-40GB",
+                                                        "NVIDIA-A100-SXM4-40GB",
+                                                        "NVIDIA-A100-80GB-PCIe",
+                                                        "NVIDIA-A100-SXM4-80GB"
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "containers": [
+                            {
+                                "command": [
+                                    "bash",
+                                    "/workspace/MLEvolve/k8s/entrypoint.sh"
+                                ],
+                                "env": [
+                                    {
+                                        "name": "EXP_ID",
+                                        "value": "jigsaw-unintended-bias-in-toxicity-classification"
+                                    },
+                                    {
+                                        "name": "DATASET_DIR",
+                                        "value": "/workspace/data/mlebench"
+                                    },
+                                    {
+                                        "name": "REPO_DIR",
+                                        "value": "/workspace/MLEvolve"
+                                    },
+                                    {
+                                        "name": "EXP_NAME",
+                                        "value": "jubias-base-s54"
+                                    },
+                                    {
+                                        "name": "CPUS_PER_TASK",
+                                        "value": "8"
+                                    },
+                                    {
+                                        "name": "SERVER_ID",
+                                        "value": "91"
+                                    },
+                                    {
+                                        "name": "EXTRA_RUN_ARGS",
+                                        "value": "agent.seed=54 agent.time_limit=43200 exec.max_parallel_run=1 candidate_runtime.enabled=True candidate_runtime.draft_budget_seconds=5400 candidate_runtime.candidate_budget_seconds=7200 candidate_runtime.first_validation_seconds=900 candidate_runtime.validation_interval_seconds=1800 candidate_runtime.export_interval_seconds=3600 candidate_runtime.smoke_steps=5 candidate_runtime.smoke_rows=128 candidate_runtime.finalization_reserve_seconds=900 candidate_runtime.finalization_safety_factor=1.5 candidate_runtime.validation_fraction=0.05 candidate_runtime.keep_snapshots=2 analogy.enabled=False analogy.fulltext.enabled=False"
+                                    },
+                                    {
+                                        "name": "LLM_BASE_URL",
+                                        "value": "http://cliproxy:8317/v1"
+                                    },
+                                    {
+                                        "name": "LLM_MODEL",
+                                        "value": "gpt-5.6-terra"
+                                    }
+                                ],
+                                "envFrom": [
+                                    {
+                                        "secretRef": {
+                                            "name": "mlevolve-llm-proxy"
+                                        }
+                                    }
+                                ],
+                                "image": "pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime",
+                                "imagePullPolicy": "IfNotPresent",
+                                "name": "mlevolve",
+                                "resources": {
+                                    "limits": {
+                                        "cpu": "8",
+                                        "memory": "48Gi",
+                                        "nvidia.com/gpu": "1"
+                                    },
+                                    "requests": {
+                                        "cpu": "8",
+                                        "memory": "48Gi",
+                                        "nvidia.com/gpu": "1"
+                                    }
+                                },
+                                "terminationMessagePath": "/dev/termination-log",
+                                "terminationMessagePolicy": "File",
+                                "volumeMounts": [
+                                    {
+                                        "mountPath": "/workspace",
+                                        "name": "workspace"
+                                    },
+                                    {
+                                        "mountPath": "/dev/shm",
+                                        "name": "dshm"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dnsPolicy": "ClusterFirst",
+                        "restartPolicy": "Never",
+                        "schedulerName": "default-scheduler",
+                        "securityContext": {},
+                        "terminationGracePeriodSeconds": 30,
+                        "volumes": [
+                            {
+                                "name": "workspace",
+                                "persistentVolumeClaim": {
+                                    "claimName": "yuze-li-vol"
+                                }
+                            },
+                            {
+                                "emptyDir": {
+                                    "medium": "Memory",
+                                    "sizeLimit": "2Gi"
+                                },
+                                "name": "dshm"
+                            }
+                        ]
+                    }
+                },
+                "ttlSecondsAfterFinished": 259200
+            },
+            "status": {
+                "active": 1,
+                "ready": 1,
+                "startTime": "2026-09-11T00:25:11Z",
+                "terminating": 0,
+                "uncountedTerminatedPods": {}
+            }
+        },
+        {
+            "apiVersion": "batch/v1",
+            "kind": "Job",
+            "metadata": {
+                "annotations": {
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"batch/v1\",\"kind\":\"Job\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"mlevolve\",\"arm\":\"a-baseline\",\"experiment\":\"jigsaw-unintended-bias\",\"repeat\":\"15\",\"variant\":\"kb-off\"},\"name\":\"mlevolve-jubias-base-s55\",\"namespace\":\"ecepxie\"},\"spec\":{\"activeDeadlineSeconds\":86400,\"backoffLimit\":0,\"template\":{\"metadata\":{\"labels\":{\"app\":\"mlevolve\",\"arm\":\"a-baseline\",\"experiment\":\"jigsaw-unintended-bias\",\"repeat\":\"15\",\"variant\":\"kb-off\"}},\"spec\":{\"affinity\":{\"nodeAffinity\":{\"requiredDuringSchedulingIgnoredDuringExecution\":{\"nodeSelectorTerms\":[{\"matchExpressions\":[{\"key\":\"nvidia.com/gpu.product\",\"operator\":\"In\",\"values\":[\"NVIDIA-GeForce-RTX-3090\",\"NVIDIA-GeForce-RTX-4090\",\"NVIDIA-TITAN-RTX\",\"NVIDIA-A10\",\"NVIDIA-RTX-A5000\",\"NVIDIA-L4\",\"Tesla-V100-SXM2-32GB\",\"NVIDIA-A40\",\"NVIDIA-RTX-A6000\",\"NVIDIA-L40\",\"NVIDIA-L40S\",\"Quadro-RTX-8000\",\"NVIDIA-A100-PCIE-40GB\",\"NVIDIA-A100-SXM4-40GB\",\"NVIDIA-A100-80GB-PCIe\",\"NVIDIA-A100-SXM4-80GB\"]}]}]}}},\"containers\":[{\"command\":[\"bash\",\"/workspace/MLEvolve/k8s/entrypoint.sh\"],\"env\":[{\"name\":\"EXP_ID\",\"value\":\"jigsaw-unintended-bias-in-toxicity-classification\"},{\"name\":\"DATASET_DIR\",\"value\":\"/workspace/data/mlebench\"},{\"name\":\"REPO_DIR\",\"value\":\"/workspace/MLEvolve\"},{\"name\":\"EXP_NAME\",\"value\":\"jubias-base-s55\"},{\"name\":\"CPUS_PER_TASK\",\"value\":\"8\"},{\"name\":\"SERVER_ID\",\"value\":\"93\"},{\"name\":\"EXTRA_RUN_ARGS\",\"value\":\"agent.seed=55 agent.time_limit=43200 exec.max_parallel_run=1 candidate_runtime.enabled=True candidate_runtime.draft_budget_seconds=5400 candidate_runtime.candidate_budget_seconds=7200 candidate_runtime.first_validation_seconds=900 candidate_runtime.validation_interval_seconds=1800 candidate_runtime.export_interval_seconds=3600 candidate_runtime.smoke_steps=5 candidate_runtime.smoke_rows=128 candidate_runtime.finalization_reserve_seconds=900 candidate_runtime.finalization_safety_factor=1.5 candidate_runtime.validation_fraction=0.05 candidate_runtime.keep_snapshots=2 analogy.enabled=False analogy.fulltext.enabled=False\"},{\"name\":\"LLM_BASE_URL\",\"value\":\"http://cliproxy:8317/v1\"},{\"name\":\"LLM_MODEL\",\"value\":\"gpt-5.6-terra\"}],\"envFrom\":[{\"secretRef\":{\"name\":\"mlevolve-llm-proxy\"}}],\"image\":\"pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime\",\"name\":\"mlevolve\",\"resources\":{\"limits\":{\"cpu\":\"8\",\"memory\":\"48Gi\",\"nvidia.com/gpu\":1},\"requests\":{\"cpu\":\"8\",\"memory\":\"48Gi\",\"nvidia.com/gpu\":1}},\"volumeMounts\":[{\"mountPath\":\"/workspace\",\"name\":\"workspace\"},{\"mountPath\":\"/dev/shm\",\"name\":\"dshm\"}]}],\"restartPolicy\":\"Never\",\"volumes\":[{\"name\":\"workspace\",\"persistentVolumeClaim\":{\"claimName\":\"yuze-li-vol\"}},{\"emptyDir\":{\"medium\":\"Memory\",\"sizeLimit\":\"2Gi\"},\"name\":\"dshm\"}]}},\"ttlSecondsAfterFinished\":259200}}\n",
+                    "nrp.ai/username": "http://cilogon.org/serverE/users/532187"
+                },
+                "creationTimestamp": "2026-09-11T00:25:11Z",
+                "generation": 1,
+                "labels": {
+                    "app": "mlevolve",
+                    "arm": "a-baseline",
+                    "experiment": "jigsaw-unintended-bias",
+                    "repeat": "15",
+                    "variant": "kb-off"
+                },
+                "name": "mlevolve-jubias-base-s55",
+                "namespace": "ecepxie",
+                "resourceVersion": "14765813333",
+                "uid": "07d65c6d-003f-45b6-a4f6-6ab07ade1951"
+            },
+            "spec": {
+                "activeDeadlineSeconds": 86400,
+                "backoffLimit": 0,
+                "completionMode": "NonIndexed",
+                "completions": 1,
+                "manualSelector": false,
+                "parallelism": 1,
+                "podReplacementPolicy": "TerminatingOrFailed",
+                "selector": {
+                    "matchLabels": {
+                        "batch.kubernetes.io/controller-uid": "07d65c6d-003f-45b6-a4f6-6ab07ade1951"
+                    }
+                },
+                "suspend": false,
+                "template": {
+                    "metadata": {
+                        "creationTimestamp": null,
+                        "labels": {
+                            "app": "mlevolve",
+                            "arm": "a-baseline",
+                            "batch.kubernetes.io/controller-uid": "07d65c6d-003f-45b6-a4f6-6ab07ade1951",
+                            "batch.kubernetes.io/job-name": "mlevolve-jubias-base-s55",
+                            "controller-uid": "07d65c6d-003f-45b6-a4f6-6ab07ade1951",
+                            "experiment": "jigsaw-unintended-bias",
+                            "job-name": "mlevolve-jubias-base-s55",
+                            "repeat": "15",
+                            "variant": "kb-off"
+                        }
+                    },
+                    "spec": {
+                        "affinity": {
+                            "nodeAffinity": {
+                                "requiredDuringSchedulingIgnoredDuringExecution": {
+                                    "nodeSelectorTerms": [
+                                        {
+                                            "matchExpressions": [
+                                                {
+                                                    "key": "nvidia.com/gpu.product",
+                                                    "operator": "In",
+                                                    "values": [
+                                                        "NVIDIA-GeForce-RTX-3090",
+                                                        "NVIDIA-GeForce-RTX-4090",
+                                                        "NVIDIA-TITAN-RTX",
+                                                        "NVIDIA-A10",
+                                                        "NVIDIA-RTX-A5000",
+                                                        "NVIDIA-L4",
+                                                        "Tesla-V100-SXM2-32GB",
+                                                        "NVIDIA-A40",
+                                                        "NVIDIA-RTX-A6000",
+                                                        "NVIDIA-L40",
+                                                        "NVIDIA-L40S",
+                                                        "Quadro-RTX-8000",
+                                                        "NVIDIA-A100-PCIE-40GB",
+                                                        "NVIDIA-A100-SXM4-40GB",
+                                                        "NVIDIA-A100-80GB-PCIe",
+                                                        "NVIDIA-A100-SXM4-80GB"
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "containers": [
+                            {
+                                "command": [
+                                    "bash",
+                                    "/workspace/MLEvolve/k8s/entrypoint.sh"
+                                ],
+                                "env": [
+                                    {
+                                        "name": "EXP_ID",
+                                        "value": "jigsaw-unintended-bias-in-toxicity-classification"
+                                    },
+                                    {
+                                        "name": "DATASET_DIR",
+                                        "value": "/workspace/data/mlebench"
+                                    },
+                                    {
+                                        "name": "REPO_DIR",
+                                        "value": "/workspace/MLEvolve"
+                                    },
+                                    {
+                                        "name": "EXP_NAME",
+                                        "value": "jubias-base-s55"
+                                    },
+                                    {
+                                        "name": "CPUS_PER_TASK",
+                                        "value": "8"
+                                    },
+                                    {
+                                        "name": "SERVER_ID",
+                                        "value": "93"
+                                    },
+                                    {
+                                        "name": "EXTRA_RUN_ARGS",
+                                        "value": "agent.seed=55 agent.time_limit=43200 exec.max_parallel_run=1 candidate_runtime.enabled=True candidate_runtime.draft_budget_seconds=5400 candidate_runtime.candidate_budget_seconds=7200 candidate_runtime.first_validation_seconds=900 candidate_runtime.validation_interval_seconds=1800 candidate_runtime.export_interval_seconds=3600 candidate_runtime.smoke_steps=5 candidate_runtime.smoke_rows=128 candidate_runtime.finalization_reserve_seconds=900 candidate_runtime.finalization_safety_factor=1.5 candidate_runtime.validation_fraction=0.05 candidate_runtime.keep_snapshots=2 analogy.enabled=False analogy.fulltext.enabled=False"
+                                    },
+                                    {
+                                        "name": "LLM_BASE_URL",
+                                        "value": "http://cliproxy:8317/v1"
+                                    },
+                                    {
+                                        "name": "LLM_MODEL",
+                                        "value": "gpt-5.6-terra"
+                                    }
+                                ],
+                                "envFrom": [
+                                    {
+                                        "secretRef": {
+                                            "name": "mlevolve-llm-proxy"
+                                        }
+                                    }
+                                ],
+                                "image": "pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime",
+                                "imagePullPolicy": "IfNotPresent",
+                                "name": "mlevolve",
+                                "resources": {
+                                    "limits": {
+                                        "cpu": "8",
+                                        "memory": "48Gi",
+                                        "nvidia.com/gpu": "1"
+                                    },
+                                    "requests": {
+                                        "cpu": "8",
+                                        "memory": "48Gi",
+                                        "nvidia.com/gpu": "1"
+                                    }
+                                },
+                                "terminationMessagePath": "/dev/termination-log",
+                                "terminationMessagePolicy": "File",
+                                "volumeMounts": [
+                                    {
+                                        "mountPath": "/workspace",
+                                        "name": "workspace"
+                                    },
+                                    {
+                                        "mountPath": "/dev/shm",
+                                        "name": "dshm"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dnsPolicy": "ClusterFirst",
+                        "restartPolicy": "Never",
+                        "schedulerName": "default-scheduler",
+                        "securityContext": {},
+                        "terminationGracePeriodSeconds": 30,
+                        "volumes": [
+                            {
+                                "name": "workspace",
+                                "persistentVolumeClaim": {
+                                    "claimName": "yuze-li-vol"
+                                }
+                            },
+                            {
+                                "emptyDir": {
+                                    "medium": "Memory",
+                                    "sizeLimit": "2Gi"
+                                },
+                                "name": "dshm"
+                            }
+                        ]
+                    }
+                },
+                "ttlSecondsAfterFinished": 259200
+            },
+            "status": {
+                "active": 1,
+                "ready": 1,
+                "startTime": "2026-09-11T00:25:11Z",
+                "terminating": 0,
+                "uncountedTerminatedPods": {}
+            }
+        },
+        {
+            "apiVersion": "batch/v1",
+            "kind": "Job",
+            "metadata": {
+                "annotations": {
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"batch/v1\",\"kind\":\"Job\",\"metadata\":{\"annotations\":{},\"labels\":{\"app\":\"mlevolve\",\"arm\":\"a-baseline\",\"experiment\":\"jigsaw-unintended-bias\",\"repeat\":\"16\",\"variant\":\"kb-off\"},\"name\":\"mlevolve-jubias-base-s56\",\"namespace\":\"ecepxie\"},\"spec\":{\"activeDeadlineSeconds\":86400,\"backoffLimit\":0,\"template\":{\"metadata\":{\"labels\":{\"app\":\"mlevolve\",\"arm\":\"a-baseline\",\"experiment\":\"jigsaw-unintended-bias\",\"repeat\":\"16\",\"variant\":\"kb-off\"}},\"spec\":{\"affinity\":{\"nodeAffinity\":{\"requiredDuringSchedulingIgnoredDuringExecution\":{\"nodeSelectorTerms\":[{\"matchExpressions\":[{\"key\":\"nvidia.com/gpu.product\",\"operator\":\"In\",\"values\":[\"NVIDIA-GeForce-RTX-3090\",\"NVIDIA-GeForce-RTX-4090\",\"NVIDIA-TITAN-RTX\",\"NVIDIA-A10\",\"NVIDIA-RTX-A5000\",\"NVIDIA-L4\",\"Tesla-V100-SXM2-32GB\",\"NVIDIA-A40\",\"NVIDIA-RTX-A6000\",\"NVIDIA-L40\",\"NVIDIA-L40S\",\"Quadro-RTX-8000\",\"NVIDIA-A100-PCIE-40GB\",\"NVIDIA-A100-SXM4-40GB\",\"NVIDIA-A100-80GB-PCIe\",\"NVIDIA-A100-SXM4-80GB\"]}]}]}}},\"containers\":[{\"command\":[\"bash\",\"/workspace/MLEvolve/k8s/entrypoint.sh\"],\"env\":[{\"name\":\"EXP_ID\",\"value\":\"jigsaw-unintended-bias-in-toxicity-classification\"},{\"name\":\"DATASET_DIR\",\"value\":\"/workspace/data/mlebench\"},{\"name\":\"REPO_DIR\",\"value\":\"/workspace/MLEvolve\"},{\"name\":\"EXP_NAME\",\"value\":\"jubias-base-s56\"},{\"name\":\"CPUS_PER_TASK\",\"value\":\"8\"},{\"name\":\"SERVER_ID\",\"value\":\"95\"},{\"name\":\"EXTRA_RUN_ARGS\",\"value\":\"agent.seed=56 agent.time_limit=43200 exec.max_parallel_run=1 candidate_runtime.enabled=True candidate_runtime.draft_budget_seconds=5400 candidate_runtime.candidate_budget_seconds=7200 candidate_runtime.first_validation_seconds=900 candidate_runtime.validation_interval_seconds=1800 candidate_runtime.export_interval_seconds=3600 candidate_runtime.smoke_steps=5 candidate_runtime.smoke_rows=128 candidate_runtime.finalization_reserve_seconds=900 candidate_runtime.finalization_safety_factor=1.5 candidate_runtime.validation_fraction=0.05 candidate_runtime.keep_snapshots=2 analogy.enabled=False analogy.fulltext.enabled=False\"},{\"name\":\"LLM_BASE_URL\",\"value\":\"http://cliproxy:8317/v1\"},{\"name\":\"LLM_MODEL\",\"value\":\"gpt-5.6-terra\"}],\"envFrom\":[{\"secretRef\":{\"name\":\"mlevolve-llm-proxy\"}}],\"image\":\"pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime\",\"name\":\"mlevolve\",\"resources\":{\"limits\":{\"cpu\":\"8\",\"memory\":\"48Gi\",\"nvidia.com/gpu\":1},\"requests\":{\"cpu\":\"8\",\"memory\":\"48Gi\",\"nvidia.com/gpu\":1}},\"volumeMounts\":[{\"mountPath\":\"/workspace\",\"name\":\"workspace\"},{\"mountPath\":\"/dev/shm\",\"name\":\"dshm\"}]}],\"restartPolicy\":\"Never\",\"volumes\":[{\"name\":\"workspace\",\"persistentVolumeClaim\":{\"claimName\":\"yuze-li-vol\"}},{\"emptyDir\":{\"medium\":\"Memory\",\"sizeLimit\":\"2Gi\"},\"name\":\"dshm\"}]}},\"ttlSecondsAfterFinished\":259200}}\n",
+                    "nrp.ai/username": "http://cilogon.org/serverE/users/532187"
+                },
+                "creationTimestamp": "2026-09-11T00:25:12Z",
+                "generation": 1,
+                "labels": {
+                    "app": "mlevolve",
+                    "arm": "a-baseline",
+                    "experiment": "jigsaw-unintended-bias",
+                    "repeat": "16",
+                    "variant": "kb-off"
+                },
+                "name": "mlevolve-jubias-base-s56",
+                "namespace": "ecepxie",
+                "resourceVersion": "14765813285",
+                "uid": "de4b129a-7311-4937-8eeb-697b358376c1"
+            },
+            "spec": {
+                "activeDeadlineSeconds": 86400,
+                "backoffLimit": 0,
+                "completionMode": "NonIndexed",
+                "completions": 1,
+                "manualSelector": false,
+                "parallelism": 1,
+                "podReplacementPolicy": "TerminatingOrFailed",
+                "selector": {
+                    "matchLabels": {
+                        "batch.kubernetes.io/controller-uid": "de4b129a-7311-4937-8eeb-697b358376c1"
+                    }
+                },
+                "suspend": false,
+                "template": {
+                    "metadata": {
+                        "creationTimestamp": null,
+                        "labels": {
+                            "app": "mlevolve",
+                            "arm": "a-baseline",
+                            "batch.kubernetes.io/controller-uid": "de4b129a-7311-4937-8eeb-697b358376c1",
+                            "batch.kubernetes.io/job-name": "mlevolve-jubias-base-s56",
+                            "controller-uid": "de4b129a-7311-4937-8eeb-697b358376c1",
+                            "experiment": "jigsaw-unintended-bias",
+                            "job-name": "mlevolve-jubias-base-s56",
+                            "repeat": "16",
+                            "variant": "kb-off"
+                        }
+                    },
+                    "spec": {
+                        "affinity": {
+                            "nodeAffinity": {
+                                "requiredDuringSchedulingIgnoredDuringExecution": {
+                                    "nodeSelectorTerms": [
+                                        {
+                                            "matchExpressions": [
+                                                {
+                                                    "key": "nvidia.com/gpu.product",
+                                                    "operator": "In",
+                                                    "values": [
+                                                        "NVIDIA-GeForce-RTX-3090",
+                                                        "NVIDIA-GeForce-RTX-4090",
+                                                        "NVIDIA-TITAN-RTX",
+                                                        "NVIDIA-A10",
+                                                        "NVIDIA-RTX-A5000",
+                                                        "NVIDIA-L4",
+                                                        "Tesla-V100-SXM2-32GB",
+                                                        "NVIDIA-A40",
+                                                        "NVIDIA-RTX-A6000",
+                                                        "NVIDIA-L40",
+                                                        "NVIDIA-L40S",
+                                                        "Quadro-RTX-8000",
+                                                        "NVIDIA-A100-PCIE-40GB",
+                                                        "NVIDIA-A100-SXM4-40GB",
+                                                        "NVIDIA-A100-80GB-PCIe",
+                                                        "NVIDIA-A100-SXM4-80GB"
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "containers": [
+                            {
+                                "command": [
+                                    "bash",
+                                    "/workspace/MLEvolve/k8s/entrypoint.sh"
+                                ],
+                                "env": [
+                                    {
+                                        "name": "EXP_ID",
+                                        "value": "jigsaw-unintended-bias-in-toxicity-classification"
+                                    },
+                                    {
+                                        "name": "DATASET_DIR",
+                                        "value": "/workspace/data/mlebench"
+                                    },
+                                    {
+                                        "name": "REPO_DIR",
+                                        "value": "/workspace/MLEvolve"
+                                    },
+                                    {
+                                        "name": "EXP_NAME",
+                                        "value": "jubias-base-s56"
+                                    },
+                                    {
+                                        "name": "CPUS_PER_TASK",
+                                        "value": "8"
+                                    },
+                                    {
+                                        "name": "SERVER_ID",
+                                        "value": "95"
+                                    },
+                                    {
+                                        "name": "EXTRA_RUN_ARGS",
+                                        "value": "agent.seed=56 agent.time_limit=43200 exec.max_parallel_run=1 candidate_runtime.enabled=True candidate_runtime.draft_budget_seconds=5400 candidate_runtime.candidate_budget_seconds=7200 candidate_runtime.first_validation_seconds=900 candidate_runtime.validation_interval_seconds=1800 candidate_runtime.export_interval_seconds=3600 candidate_runtime.smoke_steps=5 candidate_runtime.smoke_rows=128 candidate_runtime.finalization_reserve_seconds=900 candidate_runtime.finalization_safety_factor=1.5 candidate_runtime.validation_fraction=0.05 candidate_runtime.keep_snapshots=2 analogy.enabled=False analogy.fulltext.enabled=False"
+                                    },
+                                    {
+                                        "name": "LLM_BASE_URL",
+                                        "value": "http://cliproxy:8317/v1"
+                                    },
+                                    {
+                                        "name": "LLM_MODEL",
+                                        "value": "gpt-5.6-terra"
+                                    }
+                                ],
+                                "envFrom": [
+                                    {
+                                        "secretRef": {
+                                            "name": "mlevolve-llm-proxy"
+                                        }
+                                    }
+                                ],
+                                "image": "pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime",
+                                "imagePullPolicy": "IfNotPresent",
+                                "name": "mlevolve",
+                                "resources": {
+                                    "limits": {
+                                        "cpu": "8",
+                                        "memory": "48Gi",
+                                        "nvidia.com/gpu": "1"
+                                    },
+                                    "requests": {
+                                        "cpu": "8",
+                                        "memory": "48Gi",
+                                        "nvidia.com/gpu": "1"
+                                    }
+                                },
+                                "terminationMessagePath": "/dev/termination-log",
+                                "terminationMessagePolicy": "File",
+                                "volumeMounts": [
+                                    {
+                                        "mountPath": "/workspace",
+                                        "name": "workspace"
+                                    },
+                                    {
+                                        "mountPath": "/dev/shm",
+                                        "name": "dshm"
+                                    }
+                                ]
+                            }
+                        ],
+                        "dnsPolicy": "ClusterFirst",
+                        "restartPolicy": "Never",
+                        "schedulerName": "default-scheduler",
+                        "securityContext": {},
+                        "terminationGracePeriodSeconds": 30,
+                        "volumes": [
+                            {
+                                "name": "workspace",
+                                "persistentVolumeClaim": {
+                                    "claimName": "yuze-li-vol"
+                                }
+                            },
+                            {
+                                "emptyDir": {
+                                    "medium": "Memory",
+                                    "sizeLimit": "2Gi"
+                                },
+                                "name": "dshm"
+                            }
+                        ]
+                    }
+                },
+                "ttlSecondsAfterFinished": 259200
+            },
+            "status": {
+                "active": 1,
+                "ready": 1,
+                "startTime": "2026-09-11T00:25:12Z",
+                "terminating": 0,
+                "uncountedTerminatedPods": {}
+            }
+        }
+    ],
+    "kind": "List",
+    "metadata": {
+        "resourceVersion": ""
+    }
+}

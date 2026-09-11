@@ -1,0 +1,592 @@
+{
+  "gpu_average_percent": {
+    "mlevolve-jubias-base-s55-7jnfp": 37.35071942446043,
+    "mlevolve-jubias-anaf-s54-72g57": 33.91187050359712,
+    "mlevolve-jubias-anaf-s55-czvzd": 49.83258325832583,
+    "mlevolve-jubias-base-s54-m5f24": 36.9136690647482,
+    "mlevolve-jubias-anaf-s56-nqrtg": 0.0,
+    "mlevolve-jubias-base-s56-svks2": 43.4986498649865
+  },
+  "closed_at_five_steps": [
+    {
+      "run": "20260911_003918_jubias-base-s56",
+      "node": "bbca6b3d82834ee6b9cf260bbb6339ae",
+      "preparation_minutes": 7.372176126639048,
+      "first_validation": {
+        "event": "validation",
+        "at": 1789090509.1095214,
+        "metric": 0.5394490441541175,
+        "optimizer_steps": 5,
+        "duration_seconds": 719.2637147903442,
+        "elapsed_seconds": 1483.7735841274261
+      },
+      "best_published_metric": 0.5394490441541175,
+      "closed": {
+        "event": "worker_finished",
+        "at": 1789092279.8578365,
+        "reason": "budget_exhausted",
+        "elapsed_seconds": 3254.522102832794
+      },
+      "smoke_validation_overestimate": 5.950312754602901,
+      "initial_reserve_minutes": 240.30142742432653
+    },
+    {
+      "run": "20260911_004436_jubias-base-s55",
+      "node": "f19d37868d68400389bedceb20ccd79a",
+      "preparation_minutes": 10.486655402183533,
+      "first_validation": {
+        "event": "validation",
+        "at": 1789091757.881224,
+        "metric": 0.5212566257167931,
+        "optimizer_steps": 5,
+        "duration_seconds": 402.655179977417,
+        "elapsed_seconds": 1496.6589877605438
+      },
+      "best_published_metric": 0.5212566257167931,
+      "closed": {
+        "event": "worker_finished",
+        "at": 1789092746.2739472,
+        "reason": "budget_exhausted",
+        "elapsed_seconds": 2485.0519123077393
+      },
+      "smoke_validation_overestimate": 5.281581536301799,
+      "initial_reserve_minutes": 127.26081897057593
+    },
+    {
+      "run": "20260911_004437_jubias-base-s54",
+      "node": "3d41536821c147c5bbb81a6fe7a84d06",
+      "preparation_minutes": 11.301125339667003,
+      "first_validation": {
+        "event": "validation",
+        "at": 1789091554.876182,
+        "metric": 0.5428934596028641,
+        "optimizer_steps": 5,
+        "duration_seconds": 398.5261058807373,
+        "elapsed_seconds": 1586.9663043022156
+      },
+      "best_published_metric": 0.5428934596028641,
+      "closed": {
+        "event": "worker_finished",
+        "at": 1789092573.0665505,
+        "reason": "budget_exhausted",
+        "elapsed_seconds": 2605.156865119934
+      },
+      "smoke_validation_overestimate": 7.5632950756143895,
+      "initial_reserve_minutes": 170.70789140574635
+    },
+    {
+      "run": "20260911_005107_jubias-anaf-s54",
+      "node": "7b748e97aae04ea9a33d588699929fb6",
+      "preparation_minutes": 6.384384556611379,
+      "first_validation": {
+        "event": "validation",
+        "at": 1789093005.749458,
+        "metric": 0.4820482122256518,
+        "optimizer_steps": 5,
+        "duration_seconds": 416.0876359939575,
+        "elapsed_seconds": 821.863038778305
+      },
+      "best_published_metric": 0.4820482122256518,
+      "closed": {
+        "event": "worker_finished",
+        "at": 1789094015.574372,
+        "reason": "budget_exhausted",
+        "elapsed_seconds": 1831.6881277561188
+      },
+      "smoke_validation_overestimate": 6.1298989200358,
+      "initial_reserve_minutes": 149.22405906431376
+    },
+    {
+      "run": "20260911_005107_jubias-anaf-s54",
+      "node": "b82e608097644fa799fc08b5fe2c85af",
+      "preparation_minutes": 5.880968292554219,
+      "first_validation": {
+        "event": "validation",
+        "at": 1789091163.413021,
+        "metric": 0.5856723501826007,
+        "optimizer_steps": 5,
+        "duration_seconds": 419.5091116428375,
+        "elapsed_seconds": 1307.2894928455353
+      },
+      "best_published_metric": 0.5856723501826007,
+      "closed": {
+        "event": "worker_finished",
+        "at": 1789092166.787578,
+        "reason": "budget_exhausted",
+        "elapsed_seconds": 2310.6643612384796
+      },
+      "smoke_validation_overestimate": 7.89834985960065,
+      "initial_reserve_minutes": 183.31226789839565
+    },
+    {
+      "run": "20260911_005107_jubias-anaf-s55",
+      "node": "2627589a169f444d9da693f4029ec6c6",
+      "preparation_minutes": 4.165504781405131,
+      "first_validation": {
+        "event": "validation",
+        "at": 1789091210.8631399,
+        "metric": 0.551615642008296,
+        "optimizer_steps": 5,
+        "duration_seconds": 570.489177942276,
+        "elapsed_seconds": 871.9179980754852
+      },
+      "best_published_metric": 0.551615642008296,
+      "closed": {
+        "event": "worker_finished",
+        "at": 1789092564.18492,
+        "reason": "budget_exhausted",
+        "elapsed_seconds": 2225.239892244339
+      },
+      "smoke_validation_overestimate": 2.872284720189308,
+      "initial_reserve_minutes": 106.3137788772583
+    },
+    {
+      "run": "20260911_005107_jubias-anaf-s55",
+      "node": "b3f2f933f0f847cc9b5f65aa43477cf9",
+      "preparation_minutes": 34.248985882600145,
+      "first_validation": {
+        "event": "validation",
+        "at": 1789095581.6830812,
+        "metric": 0.5457719628077382,
+        "optimizer_steps": 5,
+        "duration_seconds": 449.5775144100189,
+        "elapsed_seconds": 2998.497815847397
+      },
+      "best_published_metric": 0.5457719628077382,
+      "closed": {
+        "event": "worker_finished",
+        "at": 1789096688.7763505,
+        "reason": "budget_exhausted",
+        "elapsed_seconds": 4105.591254711151
+      },
+      "smoke_validation_overestimate": 4.844444095802661,
+      "initial_reserve_minutes": 128.0785936858505
+    }
+  ],
+  "events_by_run": {
+    "20260911_003918_jubias-base-s56": [
+      {
+        "node": "0375f7360c2e49daab646bdb97cce0da",
+        "preparation_minutes": 7.18609809478124,
+        "first_validation": {
+          "event": "validation",
+          "at": 1789095976.30584,
+          "metric": 0.9033621862988493,
+          "optimizer_steps": 902,
+          "duration_seconds": 718.976610660553,
+          "elapsed_seconds": 2050.773837327957
+        },
+        "best_published_metric": 0.9034227760058674,
+        "closed": {
+          "event": "worker_finished",
+          "at": 1789100272.0990708,
+          "reason": "budget_exhausted",
+          "elapsed_seconds": 6346.567330360413
+        },
+        "smoke_validation_overestimate": 1.7182694083014494,
+        "initial_reserve_minutes": 88.27164334282278
+      },
+      {
+        "node": "5aea72d9a3014cfa9db204db593bb709",
+        "preparation_minutes": 26.771509373188017,
+        "first_validation": null,
+        "best_published_metric": null,
+        "closed": null
+      },
+      {
+        "node": "bbca6b3d82834ee6b9cf260bbb6339ae",
+        "preparation_minutes": 7.372176126639048,
+        "first_validation": {
+          "event": "validation",
+          "at": 1789090509.1095214,
+          "metric": 0.5394490441541175,
+          "optimizer_steps": 5,
+          "duration_seconds": 719.2637147903442,
+          "elapsed_seconds": 1483.7735841274261
+        },
+        "best_published_metric": 0.5394490441541175,
+        "closed": {
+          "event": "worker_finished",
+          "at": 1789092279.8578365,
+          "reason": "budget_exhausted",
+          "elapsed_seconds": 3254.522102832794
+        },
+        "smoke_validation_overestimate": 5.950312754602901,
+        "initial_reserve_minutes": 240.30142742432653
+      },
+      {
+        "node": "d6e52eaacfe345048424b9fef95e2430",
+        "preparation_minutes": 30.288989214102426,
+        "first_validation": {
+          "event": "validation",
+          "at": 1789102792.337718,
+          "metric": 0.5148804488615434,
+          "optimizer_steps": 5,
+          "duration_seconds": 674.8587141036987,
+          "elapsed_seconds": 2500.6051099300385
+        },
+        "best_published_metric": null,
+        "closed": null,
+        "smoke_validation_overestimate": 1.5403320555297635,
+        "initial_reserve_minutes": 79.30254548117519
+      }
+    ],
+    "20260911_004331_jubias-anaf-s56": [],
+    "20260911_004436_jubias-base-s55": [
+      {
+        "node": "6e7b42b38827486982739637621219a1",
+        "preparation_minutes": 5.278391945362091,
+        "first_validation": null,
+        "best_published_metric": null,
+        "closed": null
+      },
+      {
+        "node": "eb183875523244a8a119787ae6d56d0e",
+        "preparation_minutes": 4.01872345606486,
+        "first_validation": {
+          "event": "validation",
+          "at": 1789094868.3508432,
+          "metric": 0.8982863484454775,
+          "optimizer_steps": 953,
+          "duration_seconds": 560.5192456245422,
+          "elapsed_seconds": 1702.3478758335114
+        },
+        "best_published_metric": 0.9164728509500017,
+        "closed": {
+          "event": "worker_finished",
+          "at": 1789099426.8952072,
+          "reason": "budget_exhausted",
+          "elapsed_seconds": 6261.037160873413
+        },
+        "smoke_validation_overestimate": 1.5865724407167292,
+        "initial_reserve_minutes": 67.93075234219432
+      },
+      {
+        "node": "f19d37868d68400389bedceb20ccd79a",
+        "preparation_minutes": 10.486655402183533,
+        "first_validation": {
+          "event": "validation",
+          "at": 1789091757.881224,
+          "metric": 0.5212566257167931,
+          "optimizer_steps": 5,
+          "duration_seconds": 402.655179977417,
+          "elapsed_seconds": 1496.6589877605438
+        },
+        "best_published_metric": 0.5212566257167931,
+        "closed": {
+          "event": "worker_finished",
+          "at": 1789092746.2739472,
+          "reason": "budget_exhausted",
+          "elapsed_seconds": 2485.0519123077393
+        },
+        "smoke_validation_overestimate": 5.281581536301799,
+        "initial_reserve_minutes": 127.26081897057593
+      }
+    ],
+    "20260911_004437_jubias-base-s54": [
+      {
+        "node": "3d41536821c147c5bbb81a6fe7a84d06",
+        "preparation_minutes": 11.301125339667003,
+        "first_validation": {
+          "event": "validation",
+          "at": 1789091554.876182,
+          "metric": 0.5428934596028641,
+          "optimizer_steps": 5,
+          "duration_seconds": 398.5261058807373,
+          "elapsed_seconds": 1586.9663043022156
+        },
+        "best_published_metric": 0.5428934596028641,
+        "closed": {
+          "event": "worker_finished",
+          "at": 1789092573.0665505,
+          "reason": "budget_exhausted",
+          "elapsed_seconds": 2605.156865119934
+        },
+        "smoke_validation_overestimate": 7.5632950756143895,
+        "initial_reserve_minutes": 170.70789140574635
+      },
+      {
+        "node": "4e1717d38a6341608ab2632c9669231b",
+        "preparation_minutes": 48.049009664853415,
+        "first_validation": null,
+        "best_published_metric": null,
+        "closed": null
+      },
+      {
+        "node": "50bdba65e74b4fca80cb640974aaa1b8",
+        "preparation_minutes": 6.87111273209254,
+        "first_validation": {
+          "event": "validation",
+          "at": 1789094456.073564,
+          "metric": 0.912071264546364,
+          "optimizer_steps": 2381,
+          "duration_seconds": 558.0861301422119,
+          "elapsed_seconds": 1870.5914838314056
+        },
+        "best_published_metric": 0.912071264546364,
+        "closed": {
+          "event": "worker_finished",
+          "at": 1789096395.0666401,
+          "reason": "budget_exhausted",
+          "elapsed_seconds": 3809.729991674423
+        },
+        "smoke_validation_overestimate": 1.5219160146752577,
+        "initial_reserve_minutes": 65.38713836930692
+      },
+      {
+        "node": "6c82b92ea2f140d693f9aa671d377f9a",
+        "preparation_minutes": 6.097075537840525,
+        "first_validation": {
+          "event": "validation",
+          "at": 1789101230.232626,
+          "metric": 0.9212326689109589,
+          "optimizer_steps": 3623,
+          "duration_seconds": 204.9194793701172,
+          "elapsed_seconds": 1470.7528278827667
+        },
+        "best_published_metric": 0.9212326689109589,
+        "closed": null,
+        "smoke_validation_overestimate": 2.5798375444795703,
+        "initial_reserve_minutes": 39.97162068150938
+      }
+    ],
+    "20260911_005107_jubias-anaf-s54": [
+      {
+        "node": "7b748e97aae04ea9a33d588699929fb6",
+        "preparation_minutes": 6.384384556611379,
+        "first_validation": {
+          "event": "validation",
+          "at": 1789093005.749458,
+          "metric": 0.4820482122256518,
+          "optimizer_steps": 5,
+          "duration_seconds": 416.0876359939575,
+          "elapsed_seconds": 821.863038778305
+        },
+        "best_published_metric": 0.4820482122256518,
+        "closed": {
+          "event": "worker_finished",
+          "at": 1789094015.574372,
+          "reason": "budget_exhausted",
+          "elapsed_seconds": 1831.6881277561188
+        },
+        "smoke_validation_overestimate": 6.1298989200358,
+        "initial_reserve_minutes": 149.22405906431376
+      },
+      {
+        "node": "b82e608097644fa799fc08b5fe2c85af",
+        "preparation_minutes": 5.880968292554219,
+        "first_validation": {
+          "event": "validation",
+          "at": 1789091163.413021,
+          "metric": 0.5856723501826007,
+          "optimizer_steps": 5,
+          "duration_seconds": 419.5091116428375,
+          "elapsed_seconds": 1307.2894928455353
+        },
+        "best_published_metric": 0.5856723501826007,
+        "closed": {
+          "event": "worker_finished",
+          "at": 1789092166.787578,
+          "reason": "budget_exhausted",
+          "elapsed_seconds": 2310.6643612384796
+        },
+        "smoke_validation_overestimate": 7.89834985960065,
+        "initial_reserve_minutes": 183.31226789839565
+      },
+      {
+        "node": "c58066247c4a4bd9ba65995d2a3a85a7",
+        "preparation_minutes": 35.75011878808339,
+        "first_validation": {
+          "event": "validation",
+          "at": 1789097515.0590656,
+          "metric": 0.9023608827428631,
+          "optimizer_steps": 1954,
+          "duration_seconds": 422.75021028518677,
+          "elapsed_seconds": 3467.7800753116608
+        },
+        "best_published_metric": 0.9141464753787167,
+        "closed": {
+          "event": "worker_finished",
+          "at": 1789100549.5211651,
+          "reason": "budget_exhausted",
+          "elapsed_seconds": 6502.242350578308
+        },
+        "smoke_validation_overestimate": 2.345661862865832,
+        "initial_reserve_minutes": 68.51899898760021
+      },
+      {
+        "node": "eb6bde0af6c14d0d954451691b8683c5",
+        "preparation_minutes": 38.67177338600159,
+        "first_validation": null,
+        "best_published_metric": null,
+        "closed": null
+      }
+    ],
+    "20260911_005107_jubias-anaf-s55": [
+      {
+        "node": "2627589a169f444d9da693f4029ec6c6",
+        "preparation_minutes": 4.165504781405131,
+        "first_validation": {
+          "event": "validation",
+          "at": 1789091210.8631399,
+          "metric": 0.551615642008296,
+          "optimizer_steps": 5,
+          "duration_seconds": 570.489177942276,
+          "elapsed_seconds": 871.9179980754852
+        },
+        "best_published_metric": 0.551615642008296,
+        "closed": {
+          "event": "worker_finished",
+          "at": 1789092564.18492,
+          "reason": "budget_exhausted",
+          "elapsed_seconds": 2225.239892244339
+        },
+        "smoke_validation_overestimate": 2.872284720189308,
+        "initial_reserve_minutes": 106.3137788772583
+      },
+      {
+        "node": "79fd7afeab5a4a05a7d1c02618f97996",
+        "preparation_minutes": 5.155252174536387,
+        "first_validation": null,
+        "best_published_metric": null,
+        "closed": null
+      },
+      {
+        "node": "7a537785b9b24c599d55db1f1bcbd5f7",
+        "preparation_minutes": 4.130038138230642,
+        "first_validation": {
+          "event": "validation",
+          "at": 1789098794.1682935,
+          "metric": 0.9068385175473292,
+          "optimizer_steps": 3381,
+          "duration_seconds": 623.6235935688019,
+          "elapsed_seconds": 1771.5644891262054
+        },
+        "best_published_metric": 0.9068385175473292,
+        "closed": null,
+        "smoke_validation_overestimate": 1.4761630500448544,
+        "initial_reserve_minutes": 76.75227124318481
+      },
+      {
+        "node": "b3f2f933f0f847cc9b5f65aa43477cf9",
+        "preparation_minutes": 34.248985882600145,
+        "first_validation": {
+          "event": "validation",
+          "at": 1789095581.6830812,
+          "metric": 0.5457719628077382,
+          "optimizer_steps": 5,
+          "duration_seconds": 449.5775144100189,
+          "elapsed_seconds": 2998.497815847397
+        },
+        "best_published_metric": 0.5457719628077382,
+        "closed": {
+          "event": "worker_finished",
+          "at": 1789096688.7763505,
+          "reason": "budget_exhausted",
+          "elapsed_seconds": 4105.591254711151
+        },
+        "smoke_validation_overestimate": 4.844444095802661,
+        "initial_reserve_minutes": 128.0785936858505
+      }
+    ]
+  },
+  "errors": [
+    {
+      "run": "20260911_003918_jubias-base-s56",
+      "errors": [
+        {
+          "id": "bbca6b3d82834ee6b9cf260bbb6339ae",
+          "stage": "draft",
+          "artifact_status": "scoreable",
+          "error": "RuntimeError: CandidateSession did not provide an official validation score."
+        },
+        {
+          "id": "5aea72d9a3014cfa9db204db593bb709",
+          "stage": "draft",
+          "artifact_status": "unavailable",
+          "error": "RuntimeError: Trying to backward through the graph a second time (or directly access saved tensors after they have already been freed). Saved intermediate values of the graph are freed when you call .backward() or autograd.grad(). Specify retain_graph=True if you need to backward through the graph a second time or if you need to access saved tensors after calling backward."
+        }
+      ]
+    },
+    {
+      "run": "20260911_004436_jubias-base-s55",
+      "errors": [
+        {
+          "id": "6e7b42b38827486982739637621219a1",
+          "stage": "draft",
+          "artifact_status": "unavailable",
+          "error": "RuntimeError: Trying to backward through the graph a second time (or directly access saved tensors after they have already been freed). Saved intermediate values of the graph are freed when you call .backward() or autograd.grad(). Specify retain_graph=True if you need to backward through the graph a second time or if you need to access saved tensors after calling backward."
+        }
+      ]
+    },
+    {
+      "run": "20260911_004437_jubias-base-s54",
+      "errors": [
+        {
+          "id": "bb2768e9bef345a5972ceae3b10ef0d4",
+          "stage": "improve",
+          "artifact_status": "unavailable",
+          "error": "SyntaxError: invalid syntax"
+        },
+        {
+          "id": "4e1717d38a6341608ab2632c9669231b",
+          "stage": "draft",
+          "artifact_status": "unavailable",
+          "error": "ValueError: Expected 128 finite scalar predictions; got (128,)"
+        },
+        {
+          "id": "566bd20bdb704b94a7076ab167a4051a",
+          "stage": "debug",
+          "artifact_status": "unavailable",
+          "error": "SyntaxError: invalid syntax"
+        }
+      ]
+    },
+    {
+      "run": "20260911_005107_jubias-anaf-s54",
+      "errors": [
+        {
+          "id": "b82e608097644fa799fc08b5fe2c85af",
+          "stage": "draft",
+          "artifact_status": "scoreable",
+          "error": "RuntimeError: CandidateSession completed without exposing its official validation score."
+        },
+        {
+          "id": "7b748e97aae04ea9a33d588699929fb6",
+          "stage": "draft",
+          "artifact_status": "scoreable",
+          "error": "RuntimeError: CandidateSession did not expose the official final validation score."
+        },
+        {
+          "id": "eb6bde0af6c14d0d954451691b8683c5",
+          "stage": "draft",
+          "artifact_status": "unavailable",
+          "error": "RuntimeError: Trying to backward through the graph a second time (or directly access saved tensors after they have already been freed). Saved intermediate values of the graph are freed when you call .backward() or autograd.grad(). Specify retain_graph=True if you need to backward through the graph a second time or if you need to access saved tensors after calling backward."
+        }
+      ]
+    },
+    {
+      "run": "20260911_005107_jubias-anaf-s55",
+      "errors": [
+        {
+          "id": "ab368aaabc204791917d7c748ac4095d",
+          "stage": "draft",
+          "artifact_status": "unavailable",
+          "error": "numpy.core._exceptions._UFuncNoLoopError: ufunc 'add' did not contain a loop with signature matching types (dtype('<U11'), dtype('<U16')) -> None"
+        },
+        {
+          "id": "b3f2f933f0f847cc9b5f65aa43477cf9",
+          "stage": "debug",
+          "artifact_status": "scoreable",
+          "error": "RuntimeError: CandidateSession did not expose the official final validation score."
+        },
+        {
+          "id": "79fd7afeab5a4a05a7d1c02618f97996",
+          "stage": "draft",
+          "artifact_status": "unavailable",
+          "error": "AttributeError: 'list' object has no attribute 'to'"
+        }
+      ]
+    }
+  ]
+}

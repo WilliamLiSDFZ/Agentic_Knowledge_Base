@@ -1,0 +1,636 @@
+[
+  {
+    "pod": "mlevolve-jubias-base-s54-m5f24",
+    "samples": [
+      {
+        "at": "2026-09-11T04:54:53.542911+00:00",
+        "gpus": "2026/09/11 04:54:53.525, 0, NVIDIA A10, GPU-cf2a9a87-ceb5-7436-493a-c4d430a1c03a, 74, 8752, 23028, 153.71",
+        "error": ""
+      },
+      {
+        "at": "2026-09-11T04:54:58.585381+00:00",
+        "gpus": "2026/09/11 04:54:58.569, 0, NVIDIA A10, GPU-cf2a9a87-ceb5-7436-493a-c4d430a1c03a, 88, 8752, 23028, 135.54",
+        "error": ""
+      },
+      {
+        "at": "2026-09-11T04:55:03.637307+00:00",
+        "gpus": "2026/09/11 04:55:03.611, 0, NVIDIA A10, GPU-cf2a9a87-ceb5-7436-493a-c4d430a1c03a, 91, 8752, 23028, 140.95",
+        "error": ""
+      }
+    ],
+    "compute_processes": "837, python, 806\n1816, /workspace/MLEvolve/.venv/bin/python, 7932",
+    "processes": [
+      {
+        "pid": 1,
+        "exe": "/usr/bin/bash",
+        "cwd": "/workspace/MLEvolve",
+        "scripts": [
+          "run_single_task.sh"
+        ],
+        "candidate_spec": null,
+        "rss": "3436 kB",
+        "threads": "1"
+      },
+      {
+        "pid": 764,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve",
+        "scripts": [],
+        "candidate_spec": null,
+        "rss": "185956 kB",
+        "threads": "9"
+      },
+      {
+        "pid": 836,
+        "exe": "/usr/bin/timeout",
+        "cwd": "/workspace/MLEvolve",
+        "scripts": [
+          "run.py"
+        ],
+        "candidate_spec": null,
+        "rss": "1704 kB",
+        "threads": "1"
+      },
+      {
+        "pid": 837,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve",
+        "scripts": [
+          "run.py"
+        ],
+        "candidate_spec": null,
+        "rss": "2436840 kB",
+        "threads": "33"
+      },
+      {
+        "pid": 1816,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve/runs/20260911_004437_jubias-base-s54/workspace",
+        "scripts": [
+          "/workspace/MLEvolve/runs/20260911_004437_jubias-base-s54/workspace/runfile_0.py"
+        ],
+        "candidate_spec": "/workspace/MLEvolve/runs/20260911_004437_jubias-base-s54/workspace/candidate_results/candidates/6c82b92ea2f140d693f9aa671d377f9a/execution_spec.json",
+        "rss": "5790512 kB",
+        "threads": "16"
+      },
+      {
+        "pid": 1843,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve/runs/20260911_004437_jubias-base-s54/workspace",
+        "scripts": [
+          "/workspace/MLEvolve/runs/20260911_004437_jubias-base-s54/workspace/runfile_0.py"
+        ],
+        "candidate_spec": "/workspace/MLEvolve/runs/20260911_004437_jubias-base-s54/workspace/candidate_results/candidates/6c82b92ea2f140d693f9aa671d377f9a/execution_spec.json",
+        "rss": "5017228 kB",
+        "threads": "11"
+      },
+      {
+        "pid": 1844,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve/runs/20260911_004437_jubias-base-s54/workspace",
+        "scripts": [
+          "/workspace/MLEvolve/runs/20260911_004437_jubias-base-s54/workspace/runfile_0.py"
+        ],
+        "candidate_spec": "/workspace/MLEvolve/runs/20260911_004437_jubias-base-s54/workspace/candidate_results/candidates/6c82b92ea2f140d693f9aa671d377f9a/execution_spec.json",
+        "rss": "5017204 kB",
+        "threads": "11"
+      },
+      {
+        "pid": 1999,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace",
+        "scripts": [],
+        "candidate_spec": null,
+        "rss": "11984 kB",
+        "threads": "1"
+      }
+    ]
+  },
+  {
+    "pod": "mlevolve-jubias-anaf-s54-72g57",
+    "samples": [
+      {
+        "at": "2026-09-11T04:54:53.419469+00:00",
+        "gpus": "2026/09/11 04:54:53.409, 0, NVIDIA A10, GPU-4ab1c615-3cef-aac3-e5f4-f7a3b59f554b, 0, 777, 23028, 92.99",
+        "error": ""
+      },
+      {
+        "at": "2026-09-11T04:54:58.452193+00:00",
+        "gpus": "2026/09/11 04:54:58.441, 0, NVIDIA A10, GPU-4ab1c615-3cef-aac3-e5f4-f7a3b59f554b, 0, 777, 23028, 93.14",
+        "error": ""
+      },
+      {
+        "at": "2026-09-11T04:55:03.484438+00:00",
+        "gpus": "2026/09/11 04:55:03.474, 0, NVIDIA A10, GPU-4ab1c615-3cef-aac3-e5f4-f7a3b59f554b, 0, 777, 23028, 92.99",
+        "error": ""
+      }
+    ],
+    "compute_processes": "853, python, 768",
+    "processes": [
+      {
+        "pid": 1,
+        "exe": "/usr/bin/bash",
+        "cwd": "/workspace/MLEvolve",
+        "scripts": [
+          "run_single_task.sh"
+        ],
+        "candidate_spec": null,
+        "rss": "3352 kB",
+        "threads": "1"
+      },
+      {
+        "pid": 780,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve",
+        "scripts": [],
+        "candidate_spec": null,
+        "rss": "186048 kB",
+        "threads": "9"
+      },
+      {
+        "pid": 852,
+        "exe": "/usr/bin/timeout",
+        "cwd": "/workspace/MLEvolve",
+        "scripts": [
+          "run.py"
+        ],
+        "candidate_spec": null,
+        "rss": "1476 kB",
+        "threads": "1"
+      },
+      {
+        "pid": 853,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve",
+        "scripts": [
+          "run.py"
+        ],
+        "candidate_spec": null,
+        "rss": "2651140 kB",
+        "threads": "33"
+      },
+      {
+        "pid": 2267,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve/runs/20260911_005107_jubias-anaf-s54/workspace",
+        "scripts": [
+          "/workspace/MLEvolve/runs/20260911_005107_jubias-anaf-s54/workspace/runfile_0.py"
+        ],
+        "candidate_spec": "/workspace/MLEvolve/runs/20260911_005107_jubias-anaf-s54/workspace/candidate_results/candidates/eb6bde0af6c14d0d954451691b8683c5/execution_spec.json",
+        "rss": "3361588 kB",
+        "threads": "17"
+      },
+      {
+        "pid": 3071,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace",
+        "scripts": [],
+        "candidate_spec": null,
+        "rss": "12032 kB",
+        "threads": "1"
+      }
+    ]
+  },
+  {
+    "pod": "mlevolve-jubias-base-s55-7jnfp",
+    "samples": [
+      {
+        "at": "2026-09-11T04:54:52.632558+00:00",
+        "gpus": "2026/09/11 04:54:52.623, 0, NVIDIA A10, GPU-12310812-a4dc-2642-fc6d-0b2570f2266d, 0, 787, 23028, 91.58",
+        "error": ""
+      },
+      {
+        "at": "2026-09-11T04:54:57.666296+00:00",
+        "gpus": "2026/09/11 04:54:57.656, 0, NVIDIA A10, GPU-12310812-a4dc-2642-fc6d-0b2570f2266d, 0, 787, 23028, 91.58",
+        "error": ""
+      },
+      {
+        "at": "2026-09-11T04:55:02.700333+00:00",
+        "gpus": "2026/09/11 04:55:02.690, 0, NVIDIA A10, GPU-12310812-a4dc-2642-fc6d-0b2570f2266d, 0, 787, 23028, 91.58",
+        "error": ""
+      }
+    ],
+    "compute_processes": "837, python, 778",
+    "processes": [
+      {
+        "pid": 1,
+        "exe": "/usr/bin/bash",
+        "cwd": "/workspace/MLEvolve",
+        "scripts": [
+          "run_single_task.sh"
+        ],
+        "candidate_spec": null,
+        "rss": "3380 kB",
+        "threads": "1"
+      },
+      {
+        "pid": 764,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve",
+        "scripts": [],
+        "candidate_spec": null,
+        "rss": "187688 kB",
+        "threads": "9"
+      },
+      {
+        "pid": 836,
+        "exe": "/usr/bin/timeout",
+        "cwd": "/workspace/MLEvolve",
+        "scripts": [
+          "run.py"
+        ],
+        "candidate_spec": null,
+        "rss": "1596 kB",
+        "threads": "1"
+      },
+      {
+        "pid": 837,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve",
+        "scripts": [
+          "run.py"
+        ],
+        "candidate_spec": null,
+        "rss": "2361760 kB",
+        "threads": "33"
+      },
+      {
+        "pid": 1566,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve/runs/20260911_004436_jubias-base-s55/workspace",
+        "scripts": [
+          "/workspace/MLEvolve/runs/20260911_004436_jubias-base-s55/workspace/runfile_0.py"
+        ],
+        "candidate_spec": "/workspace/MLEvolve/runs/20260911_004436_jubias-base-s55/workspace/candidate_results/candidates/64b885d4f8084838af28f6f547708c15/execution_spec.json",
+        "rss": "3506548 kB",
+        "threads": "18"
+      },
+      {
+        "pid": 1582,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve/runs/20260911_004436_jubias-base-s55/workspace",
+        "scripts": [
+          "/workspace/MLEvolve/.venv/lib/python3.11/site-packages/torch/_inductor/compile_worker/__main__.py"
+        ],
+        "candidate_spec": "/workspace/MLEvolve/runs/20260911_004436_jubias-base-s55/workspace/candidate_results/candidates/64b885d4f8084838af28f6f547708c15/execution_spec.json",
+        "rss": "494164 kB",
+        "threads": "5"
+      },
+      {
+        "pid": 1594,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve/runs/20260911_004436_jubias-base-s55/workspace",
+        "scripts": [
+          "/workspace/MLEvolve/.venv/lib/python3.11/site-packages/torch/_inductor/compile_worker/__main__.py"
+        ],
+        "candidate_spec": "/workspace/MLEvolve/runs/20260911_004436_jubias-base-s55/workspace/candidate_results/candidates/64b885d4f8084838af28f6f547708c15/execution_spec.json",
+        "rss": "348792 kB",
+        "threads": "2"
+      },
+      {
+        "pid": 1596,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve/runs/20260911_004436_jubias-base-s55/workspace",
+        "scripts": [
+          "/workspace/MLEvolve/.venv/lib/python3.11/site-packages/torch/_inductor/compile_worker/__main__.py"
+        ],
+        "candidate_spec": "/workspace/MLEvolve/runs/20260911_004436_jubias-base-s55/workspace/candidate_results/candidates/64b885d4f8084838af28f6f547708c15/execution_spec.json",
+        "rss": "348484 kB",
+        "threads": "2"
+      },
+      {
+        "pid": 1598,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve/runs/20260911_004436_jubias-base-s55/workspace",
+        "scripts": [
+          "/workspace/MLEvolve/.venv/lib/python3.11/site-packages/torch/_inductor/compile_worker/__main__.py"
+        ],
+        "candidate_spec": "/workspace/MLEvolve/runs/20260911_004436_jubias-base-s55/workspace/candidate_results/candidates/64b885d4f8084838af28f6f547708c15/execution_spec.json",
+        "rss": "348484 kB",
+        "threads": "2"
+      },
+      {
+        "pid": 1600,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve/runs/20260911_004436_jubias-base-s55/workspace",
+        "scripts": [
+          "/workspace/MLEvolve/.venv/lib/python3.11/site-packages/torch/_inductor/compile_worker/__main__.py"
+        ],
+        "candidate_spec": "/workspace/MLEvolve/runs/20260911_004436_jubias-base-s55/workspace/candidate_results/candidates/64b885d4f8084838af28f6f547708c15/execution_spec.json",
+        "rss": "348484 kB",
+        "threads": "2"
+      },
+      {
+        "pid": 1602,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve/runs/20260911_004436_jubias-base-s55/workspace",
+        "scripts": [
+          "/workspace/MLEvolve/.venv/lib/python3.11/site-packages/torch/_inductor/compile_worker/__main__.py"
+        ],
+        "candidate_spec": "/workspace/MLEvolve/runs/20260911_004436_jubias-base-s55/workspace/candidate_results/candidates/64b885d4f8084838af28f6f547708c15/execution_spec.json",
+        "rss": "348484 kB",
+        "threads": "2"
+      },
+      {
+        "pid": 1604,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve/runs/20260911_004436_jubias-base-s55/workspace",
+        "scripts": [
+          "/workspace/MLEvolve/.venv/lib/python3.11/site-packages/torch/_inductor/compile_worker/__main__.py"
+        ],
+        "candidate_spec": "/workspace/MLEvolve/runs/20260911_004436_jubias-base-s55/workspace/candidate_results/candidates/64b885d4f8084838af28f6f547708c15/execution_spec.json",
+        "rss": "348488 kB",
+        "threads": "2"
+      },
+      {
+        "pid": 1606,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve/runs/20260911_004436_jubias-base-s55/workspace",
+        "scripts": [
+          "/workspace/MLEvolve/.venv/lib/python3.11/site-packages/torch/_inductor/compile_worker/__main__.py"
+        ],
+        "candidate_spec": "/workspace/MLEvolve/runs/20260911_004436_jubias-base-s55/workspace/candidate_results/candidates/64b885d4f8084838af28f6f547708c15/execution_spec.json",
+        "rss": "348488 kB",
+        "threads": "2"
+      },
+      {
+        "pid": 1608,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve/runs/20260911_004436_jubias-base-s55/workspace",
+        "scripts": [
+          "/workspace/MLEvolve/.venv/lib/python3.11/site-packages/torch/_inductor/compile_worker/__main__.py"
+        ],
+        "candidate_spec": "/workspace/MLEvolve/runs/20260911_004436_jubias-base-s55/workspace/candidate_results/candidates/64b885d4f8084838af28f6f547708c15/execution_spec.json",
+        "rss": "348488 kB",
+        "threads": "2"
+      },
+      {
+        "pid": 1612,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace",
+        "scripts": [],
+        "candidate_spec": null,
+        "rss": "11996 kB",
+        "threads": "1"
+      }
+    ]
+  },
+  {
+    "pod": "mlevolve-jubias-anaf-s55-czvzd",
+    "samples": [
+      {
+        "at": "2026-09-11T04:54:51.070275+00:00",
+        "gpus": "2026/09/11 04:54:51.057, 0, NVIDIA A10, GPU-5145ef69-fb7a-8360-9ecf-7427663eb097, 100, 8258, 23028, 148.26",
+        "error": ""
+      },
+      {
+        "at": "2026-09-11T04:54:56.110667+00:00",
+        "gpus": "2026/09/11 04:54:56.094, 0, NVIDIA A10, GPU-5145ef69-fb7a-8360-9ecf-7427663eb097, 100, 8258, 23028, 149.77",
+        "error": ""
+      },
+      {
+        "at": "2026-09-11T04:55:01.150721+00:00",
+        "gpus": "2026/09/11 04:55:01.136, 0, NVIDIA A10, GPU-5145ef69-fb7a-8360-9ecf-7427663eb097, 98, 8258, 23028, 148.97",
+        "error": ""
+      }
+    ],
+    "compute_processes": "853, python, 806\n2318, /workspace/MLEvolve/.venv/bin/python, 7438",
+    "processes": [
+      {
+        "pid": 1,
+        "exe": "/usr/bin/bash",
+        "cwd": "/workspace/MLEvolve",
+        "scripts": [
+          "run_single_task.sh"
+        ],
+        "candidate_spec": null,
+        "rss": "3296 kB",
+        "threads": "1"
+      },
+      {
+        "pid": 780,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve",
+        "scripts": [],
+        "candidate_spec": null,
+        "rss": "186064 kB",
+        "threads": "9"
+      },
+      {
+        "pid": 852,
+        "exe": "/usr/bin/timeout",
+        "cwd": "/workspace/MLEvolve",
+        "scripts": [
+          "run.py"
+        ],
+        "candidate_spec": null,
+        "rss": "1532 kB",
+        "threads": "1"
+      },
+      {
+        "pid": 853,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve",
+        "scripts": [
+          "run.py"
+        ],
+        "candidate_spec": null,
+        "rss": "2737776 kB",
+        "threads": "33"
+      },
+      {
+        "pid": 2318,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve/runs/20260911_005107_jubias-anaf-s55/workspace",
+        "scripts": [
+          "/workspace/MLEvolve/runs/20260911_005107_jubias-anaf-s55/workspace/runfile_0.py"
+        ],
+        "candidate_spec": "/workspace/MLEvolve/runs/20260911_005107_jubias-anaf-s55/workspace/candidate_results/candidates/7a537785b9b24c599d55db1f1bcbd5f7/execution_spec.json",
+        "rss": "5741444 kB",
+        "threads": "19"
+      },
+      {
+        "pid": 2345,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve/runs/20260911_005107_jubias-anaf-s55/workspace",
+        "scripts": [
+          "/workspace/MLEvolve/runs/20260911_005107_jubias-anaf-s55/workspace/runfile_0.py"
+        ],
+        "candidate_spec": "/workspace/MLEvolve/runs/20260911_005107_jubias-anaf-s55/workspace/candidate_results/candidates/7a537785b9b24c599d55db1f1bcbd5f7/execution_spec.json",
+        "rss": "3850000 kB",
+        "threads": "3"
+      },
+      {
+        "pid": 2346,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve/runs/20260911_005107_jubias-anaf-s55/workspace",
+        "scripts": [
+          "/workspace/MLEvolve/runs/20260911_005107_jubias-anaf-s55/workspace/runfile_0.py"
+        ],
+        "candidate_spec": "/workspace/MLEvolve/runs/20260911_005107_jubias-anaf-s55/workspace/candidate_results/candidates/7a537785b9b24c599d55db1f1bcbd5f7/execution_spec.json",
+        "rss": "3849660 kB",
+        "threads": "3"
+      },
+      {
+        "pid": 2425,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve/runs/20260911_005107_jubias-anaf-s55/workspace",
+        "scripts": [
+          "/workspace/MLEvolve/runs/20260911_005107_jubias-anaf-s55/workspace/runfile_0.py"
+        ],
+        "candidate_spec": "/workspace/MLEvolve/runs/20260911_005107_jubias-anaf-s55/workspace/candidate_results/candidates/7a537785b9b24c599d55db1f1bcbd5f7/execution_spec.json",
+        "rss": "4949036 kB",
+        "threads": "3"
+      },
+      {
+        "pid": 2426,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve/runs/20260911_005107_jubias-anaf-s55/workspace",
+        "scripts": [
+          "/workspace/MLEvolve/runs/20260911_005107_jubias-anaf-s55/workspace/runfile_0.py"
+        ],
+        "candidate_spec": "/workspace/MLEvolve/runs/20260911_005107_jubias-anaf-s55/workspace/candidate_results/candidates/7a537785b9b24c599d55db1f1bcbd5f7/execution_spec.json",
+        "rss": "4949268 kB",
+        "threads": "3"
+      },
+      {
+        "pid": 2434,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace",
+        "scripts": [],
+        "candidate_spec": null,
+        "rss": "11976 kB",
+        "threads": "1"
+      }
+    ]
+  },
+  {
+    "pod": "mlevolve-jubias-base-s56-svks2",
+    "samples": [
+      {
+        "at": "2026-09-11T04:54:54.265914+00:00",
+        "gpus": "2026/09/11 04:54:54.252, 0, NVIDIA A10, GPU-9f72bd37-8803-f340-68f4-48b512873d08, 100, 10446, 23028, 150.62",
+        "error": ""
+      },
+      {
+        "at": "2026-09-11T04:54:59.307686+00:00",
+        "gpus": "2026/09/11 04:54:59.290, 0, NVIDIA A10, GPU-9f72bd37-8803-f340-68f4-48b512873d08, 99, 10446, 23028, 148.90",
+        "error": ""
+      },
+      {
+        "at": "2026-09-11T04:55:04.346185+00:00",
+        "gpus": "2026/09/11 04:55:04.331, 0, NVIDIA A10, GPU-9f72bd37-8803-f340-68f4-48b512873d08, 99, 10446, 23028, 148.87",
+        "error": ""
+      }
+    ],
+    "compute_processes": "837, python, 768\n1526, /workspace/MLEvolve/.venv/bin/python, 9664",
+    "processes": [
+      {
+        "pid": 1,
+        "exe": "/usr/bin/bash",
+        "cwd": "/workspace/MLEvolve",
+        "scripts": [
+          "run_single_task.sh"
+        ],
+        "candidate_spec": null,
+        "rss": "3388 kB",
+        "threads": "1"
+      },
+      {
+        "pid": 764,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve",
+        "scripts": [],
+        "candidate_spec": null,
+        "rss": "185928 kB",
+        "threads": "9"
+      },
+      {
+        "pid": 836,
+        "exe": "/usr/bin/timeout",
+        "cwd": "/workspace/MLEvolve",
+        "scripts": [
+          "run.py"
+        ],
+        "candidate_spec": null,
+        "rss": "1648 kB",
+        "threads": "1"
+      },
+      {
+        "pid": 837,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve",
+        "scripts": [
+          "run.py"
+        ],
+        "candidate_spec": null,
+        "rss": "2365056 kB",
+        "threads": "33"
+      },
+      {
+        "pid": 1526,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve/runs/20260911_003918_jubias-base-s56/workspace",
+        "scripts": [
+          "/workspace/MLEvolve/runs/20260911_003918_jubias-base-s56/workspace/runfile_0.py"
+        ],
+        "candidate_spec": "/workspace/MLEvolve/runs/20260911_003918_jubias-base-s56/workspace/candidate_results/candidates/d6e52eaacfe345048424b9fef95e2430/execution_spec.json",
+        "rss": "6063236 kB",
+        "threads": "19"
+      },
+      {
+        "pid": 1562,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve/runs/20260911_003918_jubias-base-s56/workspace",
+        "scripts": [
+          "/workspace/MLEvolve/runs/20260911_003918_jubias-base-s56/workspace/runfile_0.py"
+        ],
+        "candidate_spec": "/workspace/MLEvolve/runs/20260911_003918_jubias-base-s56/workspace/candidate_results/candidates/d6e52eaacfe345048424b9fef95e2430/execution_spec.json",
+        "rss": "5480520 kB",
+        "threads": "11"
+      },
+      {
+        "pid": 1563,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve/runs/20260911_003918_jubias-base-s56/workspace",
+        "scripts": [
+          "/workspace/MLEvolve/runs/20260911_003918_jubias-base-s56/workspace/runfile_0.py"
+        ],
+        "candidate_spec": "/workspace/MLEvolve/runs/20260911_003918_jubias-base-s56/workspace/candidate_results/candidates/d6e52eaacfe345048424b9fef95e2430/execution_spec.json",
+        "rss": "5480476 kB",
+        "threads": "11"
+      },
+      {
+        "pid": 1640,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve/runs/20260911_003918_jubias-base-s56/workspace",
+        "scripts": [
+          "/workspace/MLEvolve/runs/20260911_003918_jubias-base-s56/workspace/runfile_0.py"
+        ],
+        "candidate_spec": "/workspace/MLEvolve/runs/20260911_003918_jubias-base-s56/workspace/candidate_results/candidates/d6e52eaacfe345048424b9fef95e2430/execution_spec.json",
+        "rss": "5783528 kB",
+        "threads": "11"
+      },
+      {
+        "pid": 1641,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace/MLEvolve/runs/20260911_003918_jubias-base-s56/workspace",
+        "scripts": [
+          "/workspace/MLEvolve/runs/20260911_003918_jubias-base-s56/workspace/runfile_0.py"
+        ],
+        "candidate_spec": "/workspace/MLEvolve/runs/20260911_003918_jubias-base-s56/workspace/candidate_results/candidates/d6e52eaacfe345048424b9fef95e2430/execution_spec.json",
+        "rss": "5783480 kB",
+        "threads": "11"
+      },
+      {
+        "pid": 1665,
+        "exe": "/opt/conda/bin/python3.11",
+        "cwd": "/workspace",
+        "scripts": [],
+        "candidate_spec": null,
+        "rss": "11888 kB",
+        "threads": "1"
+      }
+    ]
+  }
+]

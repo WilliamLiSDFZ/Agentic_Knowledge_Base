@@ -1,0 +1,637 @@
+{
+    "apiVersion": "v1",
+    "items": [
+        {
+            "apiVersion": "v1",
+            "count": 2498,
+            "eventTime": null,
+            "firstTimestamp": "2026-09-02T20:32:55Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "PersistentVolumeClaim",
+                "name": "atharv-goedelv2-storage",
+                "namespace": "ecepxie",
+                "resourceVersion": "14669185080",
+                "uid": "9acf8bae-98a9-4ee7-a285-cfd0be779a5c"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-09-11T04:53:34Z",
+            "message": "External resizer is resizing volume pvc-9acf8bae-98a9-4ee7-a285-cfd0be779a5c",
+            "metadata": {
+                "creationTimestamp": "2026-09-02T20:32:55Z",
+                "name": "atharv-goedelv2-storage.18d19b3435145be0",
+                "namespace": "ecepxie",
+                "resourceVersion": "113569176",
+                "uid": "02ad8ec7-6db9-4c96-991e-7f739f1ac7ad"
+            },
+            "reason": "Resizing",
+            "reportingComponent": "external-resizer rook-system.rbd.csi.ceph.com",
+            "reportingInstance": "",
+            "source": {
+                "component": "external-resizer rook-system.rbd.csi.ceph.com"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2498,
+            "eventTime": null,
+            "firstTimestamp": "2026-09-02T20:35:22Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "PersistentVolumeClaim",
+                "name": "atharv-goedelv2-storage",
+                "namespace": "ecepxie",
+                "resourceVersion": "14669185080",
+                "uid": "9acf8bae-98a9-4ee7-a285-cfd0be779a5c"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-09-11T04:53:34Z",
+            "message": "Require file system resize of volume on node",
+            "metadata": {
+                "creationTimestamp": "2026-09-02T20:35:23Z",
+                "name": "atharv-goedelv2-storage.18d19b5655865543",
+                "namespace": "ecepxie",
+                "resourceVersion": "113569177",
+                "uid": "3e9a98b8-3e69-4401-94e2-cb190eb10e6c"
+            },
+            "reason": "FileSystemResizeRequired",
+            "reportingComponent": "external-resizer rook-system.rbd.csi.ceph.com",
+            "reportingInstance": "",
+            "source": {
+                "component": "external-resizer rook-system.rbd.csi.ceph.com"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-09-11T04:48:00Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{datamaster-triple}",
+                "kind": "Pod",
+                "name": "datamaster-cancer-t40-triple-a6000-s101-v1-tar-wn8pr",
+                "namespace": "ecepxie",
+                "resourceVersion": "14734786722",
+                "uid": "a6ecf6e7-fed2-4b9b-bfb3-7e078da7e291"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-09-11T04:48:00Z",
+            "message": "Stopping container datamaster-triple",
+            "metadata": {
+                "creationTimestamp": "2026-09-11T04:48:00Z",
+                "name": "datamaster-cancer-t40-triple-a6000-s101-v1-tar-wn8pr.18d42adcf6323606",
+                "namespace": "ecepxie",
+                "resourceVersion": "113565259",
+                "uid": "1c3c6716-2b81-45e0-b8b9-8a7091629b99"
+            },
+            "reason": "Killing",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "gpu00.nrp.hpc.udel.edu",
+            "source": {
+                "component": "kubelet",
+                "host": "gpu00.nrp.hpc.udel.edu"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-09-11T04:12:25Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "datamaster-whale-t40-triple-a6000-s101-v1-tar-52v6n",
+                "namespace": "ecepxie",
+                "resourceVersion": "14767084586",
+                "uid": "2f397db6-d442-4808-979c-1ab38fe75021"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-09-11T04:12:25Z",
+            "message": "Node is not ready",
+            "metadata": {
+                "creationTimestamp": "2026-09-11T04:12:27Z",
+                "name": "datamaster-whale-t40-triple-a6000-s101-v1-tar-52v6n.18d428ebe28fe047",
+                "namespace": "ecepxie",
+                "resourceVersion": "113543628",
+                "uid": "81dedd70-d529-40c4-a4ca-9e241a1dfdb8"
+            },
+            "reason": "NodeNotReady",
+            "reportingComponent": "node-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "node-controller"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-09-11T04:13:53Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "datamaster-whale-t40-triple-a6000-s101-v1-tar-52v6n",
+                "namespace": "ecepxie",
+                "resourceVersion": "14767663065",
+                "uid": "2f397db6-d442-4808-979c-1ab38fe75021"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-09-11T04:13:53Z",
+            "message": "Allocate failed due to no healthy devices present; cannot allocate unhealthy devices nvidia.com/rtxa6000, which is unexpected",
+            "metadata": {
+                "creationTimestamp": "2026-09-11T04:13:54Z",
+                "name": "datamaster-whale-t40-triple-a6000-s101-v1-tar-52v6n.18d4290063a2c088",
+                "namespace": "ecepxie",
+                "resourceVersion": "113544418",
+                "uid": "1fa4063e-b82a-4b68-a4bd-6cff31ff33a4"
+            },
+            "reason": "UnexpectedAdmissionError",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "hcc-prp-c5038.unl.edu",
+            "source": {
+                "component": "kubelet",
+                "host": "hcc-prp-c5038.unl.edu"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-09-11T04:13:53Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "datamaster-whale-t40-triple-a6000-s101-v1-tar-52v6n",
+                "namespace": "ecepxie",
+                "resourceVersion": "14767663065",
+                "uid": "2f397db6-d442-4808-979c-1ab38fe75021"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-09-11T04:13:54Z",
+            "message": "MountVolume.SetUp failed for volume \"runner\" : object \"ecepxie\"/\"datamaster-whale-t40-triple-a6000-v1-tar-runner\" not registered",
+            "metadata": {
+                "creationTimestamp": "2026-09-11T04:13:55Z",
+                "name": "datamaster-whale-t40-triple-a6000-s101-v1-tar-52v6n.18d4290078231692",
+                "namespace": "ecepxie",
+                "resourceVersion": "113544607",
+                "uid": "0ba8d590-7f01-442e-9100-cf07caf3a038"
+            },
+            "reason": "FailedMount",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "hcc-prp-c5038.unl.edu",
+            "source": {
+                "component": "kubelet",
+                "host": "hcc-prp-c5038.unl.edu"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-09-11T04:13:54Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "datamaster-whale-t40-triple-a6000-s101-v1-tar-52v6n",
+                "namespace": "ecepxie",
+                "resourceVersion": "14767663065",
+                "uid": "2f397db6-d442-4808-979c-1ab38fe75021"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-09-11T04:13:54Z",
+            "message": "MountVolume.MountDevice failed for volume \"pvc-39c7fa57-d48d-495a-be41-3c82b114cd2d\" : kubernetes.io/csi: attacher.MountDevice failed to create newCsiDriverClient: driver name rook-system.cephfs.csi.ceph.com not found in the list of registered CSI drivers",
+            "metadata": {
+                "creationTimestamp": "2026-09-11T04:13:55Z",
+                "name": "datamaster-whale-t40-triple-a6000-s101-v1-tar-52v6n.18d429007af6912d",
+                "namespace": "ecepxie",
+                "resourceVersion": "113544625",
+                "uid": "c70edb70-6658-4a68-8235-55553cab6279"
+            },
+            "reason": "FailedMount",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "hcc-prp-c5038.unl.edu",
+            "source": {
+                "component": "kubelet",
+                "host": "hcc-prp-c5038.unl.edu"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 2,
+            "eventTime": null,
+            "firstTimestamp": "2026-09-11T04:13:54Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "datamaster-whale-t40-triple-a6000-s101-v1-tar-52v6n",
+                "namespace": "ecepxie",
+                "resourceVersion": "14767663065",
+                "uid": "2f397db6-d442-4808-979c-1ab38fe75021"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-09-11T04:13:54Z",
+            "message": "MountVolume.SetUp failed for volume \"kube-api-access-p4nw5\" : object \"ecepxie\"/\"kube-root-ca.crt\" not registered",
+            "metadata": {
+                "creationTimestamp": "2026-09-11T04:13:56Z",
+                "name": "datamaster-whale-t40-triple-a6000-s101-v1-tar-52v6n.18d429007b1b512d",
+                "namespace": "ecepxie",
+                "resourceVersion": "113544623",
+                "uid": "5bd5d8f2-8a2f-4a18-8473-b9020fb8189a"
+            },
+            "reason": "FailedMount",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "hcc-prp-c5038.unl.edu",
+            "source": {
+                "component": "kubelet",
+                "host": "hcc-prp-c5038.unl.edu"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-09-11T04:13:57Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "datamaster-whale-t40-triple-a6000-s101-v1-tar-52v6n",
+                "namespace": "ecepxie"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-09-11T04:13:57Z",
+            "message": "Cancelling deletion of Pod ecepxie/datamaster-whale-t40-triple-a6000-s101-v1-tar-52v6n",
+            "metadata": {
+                "creationTimestamp": "2026-09-11T04:13:57Z",
+                "name": "datamaster-whale-t40-triple-a6000-s101-v1-tar-52v6n.18d429013e6f6c88",
+                "namespace": "ecepxie",
+                "resourceVersion": "113544559",
+                "uid": "8cfd8e18-c018-49fd-8826-1989054541e8"
+            },
+            "reason": "TaintManagerEviction",
+            "reportingComponent": "taint-eviction-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "taint-eviction-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-09-11T04:14:04Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "datamaster-whale-t40-triple-a6000-s101-v1-tar-52v6n",
+                "namespace": "ecepxie"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-09-11T04:14:04Z",
+            "message": "Marking for deletion Pod ecepxie/datamaster-whale-t40-triple-a6000-s101-v1-tar-52v6n",
+            "metadata": {
+                "creationTimestamp": "2026-09-11T04:14:09Z",
+                "name": "datamaster-whale-t40-triple-a6000-s101-v1-tar-52v6n.18d42902df7ef19c",
+                "namespace": "ecepxie",
+                "resourceVersion": "113544864",
+                "uid": "e113c05f-8baf-411c-8e56-5c27ce7eaff4"
+            },
+            "reason": "TaintManagerEviction",
+            "reportingComponent": "taint-eviction-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "taint-eviction-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-09-11T04:14:04Z",
+            "involvedObject": {
+                "apiVersion": "batch/v1",
+                "kind": "Job",
+                "name": "datamaster-whale-t40-triple-a6000-s101-v1-tar",
+                "namespace": "ecepxie",
+                "resourceVersion": "14767675187",
+                "uid": "7c999432-e346-4a29-98d2-39e2d632eafe"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-09-11T04:14:04Z",
+            "message": "Job has reached the specified backoff limit",
+            "metadata": {
+                "creationTimestamp": "2026-09-11T04:14:04Z",
+                "name": "datamaster-whale-t40-triple-a6000-s101-v1-tar.18d42902d3f6fc40",
+                "namespace": "ecepxie",
+                "resourceVersion": "113544735",
+                "uid": "16807b5c-9e62-4727-89bd-ae04d1dc8878"
+            },
+            "reason": "BackoffLimitExceeded",
+            "reportingComponent": "job-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "job-controller"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1741,
+            "eventTime": null,
+            "firstTimestamp": "2026-09-10T23:14:34Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "gpu-dev2-5f94756b9d-sn662",
+                "namespace": "ecepxie",
+                "resourceVersion": "14765222833",
+                "uid": "765b7607-6b92-4e8f-afa3-44c6b0ab5da6"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-09-11T04:54:36Z",
+            "message": "0/532 nodes are available: 1 Insufficient ephemeral-storage, 1 node(s) had untolerated taint {nautilus.io/issue: 1574}, 1 node(s) had untolerated taint {nautilus.io/issue: 1593-1685}, 1 node(s) had untolerated taint {nautilus.io/issue: 1641}, 1 node(s) had untolerated taint {nautilus.io/issue: 1692}, 1 node(s) had untolerated taint {nautilus.io/issue: 1726}, 1 node(s) had untolerated taint {nautilus.io/issue: slow-network}, 1 node(s) had untolerated taint {nautilus.io/issue: testing}, 1 node(s) had untolerated taint {nautilus.io/reservation: csun-ehuang}, 1 node(s) had untolerated taint {nautilus.io/reservation: internet2}, 1 node(s) had untolerated taint {nautilus.io/reservation: nrp-llm-test}, 1 node(s) had untolerated taint {nautilus.io/reservation: sage}, 1 node(s) had untolerated taint {nautilus.io/reservation: sdccd}, 1 node(s) had untolerated taint {nautilus.io/reservation: suncave}, 1 node(s) had untolerated taint {nautilus.io/reservation: unl-coe-ai-makerspace}, 1 node(s) had untolerated taint {n ...",
+            "metadata": {
+                "creationTimestamp": "2026-09-10T23:14:34Z",
+                "name": "gpu-dev2-5f94756b9d-sn662.18d418aaf1f5f0f6",
+                "namespace": "ecepxie",
+                "resourceVersion": "113569824",
+                "uid": "fdd5faf8-39bd-4f25-9d77-b2b55d93d3a4"
+            },
+            "reason": "FailedScheduling",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "",
+            "source": {
+                "component": "default-scheduler"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 6732,
+            "eventTime": null,
+            "firstTimestamp": "2026-09-10T23:15:23Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "gpu-dev2-5f94756b9d-sn662",
+                "namespace": "ecepxie",
+                "resourceVersion": "14765255749",
+                "uid": "765b7607-6b92-4e8f-afa3-44c6b0ab5da6"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-09-11T04:39:34Z",
+            "message": "0/532 nodes are available: 1 node(s) had untolerated taint {nautilus.io/issue: 1574}, 1 node(s) had untolerated taint {nautilus.io/issue: 1593-1685}, 1 node(s) had untolerated taint {nautilus.io/issue: 1641}, 1 node(s) had untolerated taint {nautilus.io/issue: 1692}, 1 node(s) had untolerated taint {nautilus.io/issue: 1726}, 1 node(s) had untolerated taint {nautilus.io/issue: slow-network}, 1 node(s) had untolerated taint {nautilus.io/issue: testing}, 1 node(s) had untolerated taint {nautilus.io/reservation: csun-ehuang}, 1 node(s) had untolerated taint {nautilus.io/reservation: internet2}, 1 node(s) had untolerated taint {nautilus.io/reservation: nrp-llm-test}, 1 node(s) had untolerated taint {nautilus.io/reservation: sage}, 1 node(s) had untolerated taint {nautilus.io/reservation: sdccd}, 1 node(s) had untolerated taint {nautilus.io/reservation: suncave}, 1 node(s) had untolerated taint {nautilus.io/reservation: unl-coe-ai-makerspace}, 1 node(s) had untolerated taint {nautilus.io/reservation: wifire-pyr ...",
+            "metadata": {
+                "creationTimestamp": "2026-09-10T23:19:35Z",
+                "name": "gpu-dev2-5f94756b9d-sn662.18d418b67355a86a",
+                "namespace": "ecepxie",
+                "resourceVersion": "113560339",
+                "uid": "3008d542-a11a-4b17-bd47-678e0a3e9fd3"
+            },
+            "reason": "FailedScheduling",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "",
+            "source": {
+                "component": "default-scheduler"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 8029,
+            "eventTime": null,
+            "firstTimestamp": "2026-09-10T23:26:15Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "hwdb-precision-20260910-j66jg",
+                "namespace": "ecepxie",
+                "resourceVersion": "14765324400",
+                "uid": "f5bdfb5e-0f78-41da-8516-f0c444341ecb"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-09-11T03:56:20Z",
+            "message": "0/532 nodes are available: 1 node(s) had untolerated taint {nautilus.io/issue: 1574}, 1 node(s) had untolerated taint {nautilus.io/issue: 1593-1685}, 1 node(s) had untolerated taint {nautilus.io/issue: 1641}, 1 node(s) had untolerated taint {nautilus.io/issue: 1692}, 1 node(s) had untolerated taint {nautilus.io/issue: 1726}, 1 node(s) had untolerated taint {nautilus.io/issue: slow-network}, 1 node(s) had untolerated taint {nautilus.io/issue: testing}, 1 node(s) had untolerated taint {nautilus.io/reservation: csun-ehuang}, 1 node(s) had untolerated taint {nautilus.io/reservation: internet2}, 1 node(s) had untolerated taint {nautilus.io/reservation: nrp-llm-test}, 1 node(s) had untolerated taint {nautilus.io/reservation: sage}, 1 node(s) had untolerated taint {nautilus.io/reservation: sdccd}, 1 node(s) had untolerated taint {nautilus.io/reservation: suncave}, 1 node(s) had untolerated taint {nautilus.io/reservation: unl-coe-ai-makerspace}, 1 node(s) had untolerated taint {nautilus.io/reservation: wifire-pyr ...",
+            "metadata": {
+                "creationTimestamp": "2026-09-10T23:26:15Z",
+                "name": "hwdb-precision-20260910-j66jg.18d4194e343a929b",
+                "namespace": "ecepxie",
+                "resourceVersion": "113532639",
+                "uid": "e928c392-3a5c-42f7-8ca0-86fca374bed5"
+            },
+            "reason": "FailedScheduling",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "",
+            "source": {
+                "component": "default-scheduler"
+            },
+            "type": "Warning"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-09-11T04:01:22Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "hwdb-precision-20260910-stzmj",
+                "namespace": "ecepxie",
+                "resourceVersion": "14767573675",
+                "uid": "f15859ce-a6df-44e8-8ccf-8ba21b577638"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-09-11T04:01:22Z",
+            "message": "Successfully assigned ecepxie/hwdb-precision-20260910-stzmj to gpu-06.nrp.mghpcc.org",
+            "metadata": {
+                "creationTimestamp": "2026-09-11T04:01:22Z",
+                "name": "hwdb-precision-20260910-stzmj.18d4285184c4ec36",
+                "namespace": "ecepxie",
+                "resourceVersion": "113536747",
+                "uid": "0768460e-108a-426a-b41a-29b64928f081"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "",
+            "source": {
+                "component": "default-scheduler"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-09-11T04:01:23Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "hwdb-precision-20260910-stzmj",
+                "namespace": "ecepxie",
+                "resourceVersion": "14767573677",
+                "uid": "f15859ce-a6df-44e8-8ccf-8ba21b577638"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-09-11T04:01:23Z",
+            "message": "AttachVolume.Attach succeeded for volume \"pvc-12864ef9-1e8a-49e3-846d-cf30979c9e7f\" ",
+            "metadata": {
+                "creationTimestamp": "2026-09-11T04:01:23Z",
+                "name": "hwdb-precision-20260910-stzmj.18d42851a5cba2d4",
+                "namespace": "ecepxie",
+                "resourceVersion": "113536760",
+                "uid": "48be24ea-232f-4ed2-a6e1-f6edfea62b23"
+            },
+            "reason": "SuccessfulAttachVolume",
+            "reportingComponent": "attachdetach-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "attachdetach-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-09-11T04:01:38Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{matrix}",
+                "kind": "Pod",
+                "name": "hwdb-precision-20260910-stzmj",
+                "namespace": "ecepxie",
+                "resourceVersion": "14767573677",
+                "uid": "f15859ce-a6df-44e8-8ccf-8ba21b577638"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-09-11T04:01:38Z",
+            "message": "Container image \"nvcr.io/nvidia/pytorch:26.04-py3\" already present on machine",
+            "metadata": {
+                "creationTimestamp": "2026-09-11T04:01:38Z",
+                "name": "hwdb-precision-20260910-stzmj.18d428553555c98e",
+                "namespace": "ecepxie",
+                "resourceVersion": "113536930",
+                "uid": "ae11e3d2-9982-4e98-965a-d54488219133"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "gpu-06.nrp.mghpcc.org",
+            "source": {
+                "component": "kubelet",
+                "host": "gpu-06.nrp.mghpcc.org"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-09-11T04:01:39Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{matrix}",
+                "kind": "Pod",
+                "name": "hwdb-precision-20260910-stzmj",
+                "namespace": "ecepxie",
+                "resourceVersion": "14767573677",
+                "uid": "f15859ce-a6df-44e8-8ccf-8ba21b577638"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-09-11T04:01:39Z",
+            "message": "Created container: matrix",
+            "metadata": {
+                "creationTimestamp": "2026-09-11T04:01:39Z",
+                "name": "hwdb-precision-20260910-stzmj.18d428556aef7f98",
+                "namespace": "ecepxie",
+                "resourceVersion": "113536934",
+                "uid": "73bcf779-56c0-4455-b9d0-2251ac679289"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "gpu-06.nrp.mghpcc.org",
+            "source": {
+                "component": "kubelet",
+                "host": "gpu-06.nrp.mghpcc.org"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-09-11T04:01:40Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{matrix}",
+                "kind": "Pod",
+                "name": "hwdb-precision-20260910-stzmj",
+                "namespace": "ecepxie",
+                "resourceVersion": "14767573677",
+                "uid": "f15859ce-a6df-44e8-8ccf-8ba21b577638"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-09-11T04:01:40Z",
+            "message": "Started container matrix",
+            "metadata": {
+                "creationTimestamp": "2026-09-11T04:01:40Z",
+                "name": "hwdb-precision-20260910-stzmj.18d42855c6a33128",
+                "namespace": "ecepxie",
+                "resourceVersion": "113536947",
+                "uid": "6b840844-4ebd-4f48-8223-843456ca9e61"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "gpu-06.nrp.mghpcc.org",
+            "source": {
+                "component": "kubelet",
+                "host": "gpu-06.nrp.mghpcc.org"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-09-11T04:01:22Z",
+            "involvedObject": {
+                "apiVersion": "batch/v1",
+                "kind": "Job",
+                "name": "hwdb-precision-20260910",
+                "namespace": "ecepxie",
+                "resourceVersion": "14767573652",
+                "uid": "12648293-4223-4da1-8ca2-f8c8d595fd40"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-09-11T04:01:22Z",
+            "message": "Created pod: hwdb-precision-20260910-stzmj",
+            "metadata": {
+                "creationTimestamp": "2026-09-11T04:01:22Z",
+                "name": "hwdb-precision-20260910.18d4285183583a89",
+                "namespace": "ecepxie",
+                "resourceVersion": "113536746",
+                "uid": "2bf3e68a-eecb-4fcd-bf0e-c06f4c5795dc"
+            },
+            "reason": "SuccessfulCreate",
+            "reportingComponent": "job-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "job-controller"
+            },
+            "type": "Normal"
+        }
+    ],
+    "kind": "List",
+    "metadata": {
+        "resourceVersion": ""
+    }
+}

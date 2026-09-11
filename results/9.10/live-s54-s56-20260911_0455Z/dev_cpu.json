@@ -1,0 +1,259 @@
+{
+    "apiVersion": "v1",
+    "kind": "Pod",
+    "metadata": {
+        "annotations": {
+            "cni.projectcalico.org/containerID": "786b06254361479bc76fcaa9d1fd7b0265b90a886edf7bee78a27f08eb166685",
+            "cni.projectcalico.org/podIP": "",
+            "cni.projectcalico.org/podIPs": "",
+            "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Pod\",\"metadata\":{\"annotations\":{},\"name\":\"mlevolve-agentic-knowledge-base-dev-cpu\",\"namespace\":\"ecepxie\"},\"spec\":{\"containers\":[{\"args\":[\"apt-get update \\u0026\\u0026 apt-get install -y git vim \\u0026\\u0026 sleep infinity\"],\"command\":[\"bash\",\"-c\"],\"env\":[{\"name\":\"NVIDIA_VISIBLE_DEVICES\",\"value\":\"void\"}],\"image\":\"pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime\",\"name\":\"dev\",\"resources\":{\"limits\":{\"cpu\":\"4\",\"memory\":\"32Gi\"},\"requests\":{\"cpu\":\"4\",\"memory\":\"32Gi\"}},\"volumeMounts\":[{\"mountPath\":\"/workspace\",\"name\":\"workspace\"}]}],\"volumes\":[{\"name\":\"workspace\",\"persistentVolumeClaim\":{\"claimName\":\"yuze-li-vol\"}}]}}\n",
+            "kubernetes.io/limit-ranger": "LimitRanger plugin set: ephemeral-storage request for container dev; ephemeral-storage limit for container dev",
+            "nrp.ai/username": "http://cilogon.org/serverE/users/532187"
+        },
+        "creationTimestamp": "2026-09-10T20:08:26Z",
+        "generation": 1,
+        "name": "mlevolve-agentic-knowledge-base-dev-cpu",
+        "namespace": "ecepxie",
+        "resourceVersion": "14766668666",
+        "uid": "f8eb60c2-68e2-4bbc-b7c5-04dcab50273f"
+    },
+    "spec": {
+        "activeDeadlineSeconds": 21600,
+        "containers": [
+            {
+                "args": [
+                    "apt-get update \u0026\u0026 apt-get install -y git vim \u0026\u0026 sleep infinity"
+                ],
+                "command": [
+                    "bash",
+                    "-c"
+                ],
+                "env": [
+                    {
+                        "name": "NVIDIA_VISIBLE_DEVICES",
+                        "value": "void"
+                    }
+                ],
+                "image": "pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime",
+                "imagePullPolicy": "IfNotPresent",
+                "name": "dev",
+                "resources": {
+                    "limits": {
+                        "cpu": "4",
+                        "ephemeral-storage": "50Gi",
+                        "memory": "32Gi"
+                    },
+                    "requests": {
+                        "cpu": "4",
+                        "ephemeral-storage": "0",
+                        "memory": "32Gi"
+                    }
+                },
+                "terminationMessagePath": "/dev/termination-log",
+                "terminationMessagePolicy": "File",
+                "volumeMounts": [
+                    {
+                        "mountPath": "/workspace",
+                        "name": "workspace"
+                    },
+                    {
+                        "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
+                        "name": "kube-api-access-5746c",
+                        "readOnly": true
+                    }
+                ]
+            }
+        ],
+        "dnsPolicy": "ClusterFirst",
+        "enableServiceLinks": true,
+        "nodeName": "exp-19-10.sdsc.optiputer.net",
+        "preemptionPolicy": "PreemptLowerPriority",
+        "priority": 0,
+        "restartPolicy": "Always",
+        "schedulerName": "default-scheduler",
+        "securityContext": {},
+        "serviceAccount": "default",
+        "serviceAccountName": "default",
+        "terminationGracePeriodSeconds": 30,
+        "tolerations": [
+            {
+                "effect": "NoExecute",
+                "key": "node.kubernetes.io/not-ready",
+                "operator": "Exists",
+                "tolerationSeconds": 300
+            },
+            {
+                "effect": "NoExecute",
+                "key": "node.kubernetes.io/unreachable",
+                "operator": "Exists",
+                "tolerationSeconds": 300
+            },
+            {
+                "effect": "PreferNoSchedule",
+                "key": "nvidia.com/gpu",
+                "operator": "Exists"
+            }
+        ],
+        "volumes": [
+            {
+                "name": "workspace",
+                "persistentVolumeClaim": {
+                    "claimName": "yuze-li-vol"
+                }
+            },
+            {
+                "name": "kube-api-access-5746c",
+                "projected": {
+                    "defaultMode": 420,
+                    "sources": [
+                        {
+                            "serviceAccountToken": {
+                                "expirationSeconds": 3607,
+                                "path": "token"
+                            }
+                        },
+                        {
+                            "configMap": {
+                                "items": [
+                                    {
+                                        "key": "ca.crt",
+                                        "path": "ca.crt"
+                                    }
+                                ],
+                                "name": "kube-root-ca.crt"
+                            }
+                        },
+                        {
+                            "downwardAPI": {
+                                "items": [
+                                    {
+                                        "fieldRef": {
+                                            "apiVersion": "v1",
+                                            "fieldPath": "metadata.namespace"
+                                        },
+                                        "path": "namespace"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "status": {
+        "conditions": [
+            {
+                "lastProbeTime": null,
+                "lastTransitionTime": "2026-09-11T02:08:58Z",
+                "status": "False",
+                "type": "PodReadyToStartContainers"
+            },
+            {
+                "lastProbeTime": null,
+                "lastTransitionTime": "2026-09-10T20:08:26Z",
+                "status": "True",
+                "type": "Initialized"
+            },
+            {
+                "lastProbeTime": null,
+                "lastTransitionTime": "2026-09-11T02:08:26Z",
+                "reason": "PodFailed",
+                "status": "False",
+                "type": "Ready"
+            },
+            {
+                "lastProbeTime": null,
+                "lastTransitionTime": "2026-09-11T02:08:26Z",
+                "reason": "PodFailed",
+                "status": "False",
+                "type": "ContainersReady"
+            },
+            {
+                "lastProbeTime": null,
+                "lastTransitionTime": "2026-09-10T20:08:26Z",
+                "status": "True",
+                "type": "PodScheduled"
+            }
+        ],
+        "containerStatuses": [
+            {
+                "allocatedResources": {
+                    "cpu": "4",
+                    "ephemeral-storage": "0",
+                    "memory": "32Gi"
+                },
+                "containerID": "containerd://57a99057787b8bbd04e65408f85334a0cc5f191d015d7c88bc16201f6ef5d00f",
+                "image": "docker.io/pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime",
+                "imageID": "docker.io/pytorch/pytorch@sha256:2b59b1b91885677814f78be1f8df48a25d5dc952eb6580eaecfefca510f9afd3",
+                "lastState": {},
+                "name": "dev",
+                "ready": false,
+                "resources": {
+                    "limits": {
+                        "cpu": "4",
+                        "ephemeral-storage": "50Gi",
+                        "memory": "32Gi"
+                    },
+                    "requests": {
+                        "cpu": "4",
+                        "ephemeral-storage": "0",
+                        "memory": "32Gi"
+                    }
+                },
+                "restartCount": 0,
+                "started": false,
+                "state": {
+                    "terminated": {
+                        "containerID": "containerd://57a99057787b8bbd04e65408f85334a0cc5f191d015d7c88bc16201f6ef5d00f",
+                        "exitCode": 137,
+                        "finishedAt": "2026-09-11T02:08:57Z",
+                        "reason": "Error",
+                        "startedAt": "2026-09-10T20:08:31Z"
+                    }
+                },
+                "user": {
+                    "linux": {
+                        "gid": 0,
+                        "supplementalGroups": [
+                            0
+                        ],
+                        "uid": 0
+                    }
+                },
+                "volumeMounts": [
+                    {
+                        "mountPath": "/workspace",
+                        "name": "workspace"
+                    },
+                    {
+                        "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
+                        "name": "kube-api-access-5746c",
+                        "readOnly": true,
+                        "recursiveReadOnly": "Disabled"
+                    }
+                ]
+            }
+        ],
+        "hostIP": "132.249.252.226",
+        "hostIPs": [
+            {
+                "ip": "132.249.252.226"
+            }
+        ],
+        "message": "Pod was active on the node longer than the specified deadline",
+        "phase": "Failed",
+        "podIP": "10.244.11.115",
+        "podIPs": [
+            {
+                "ip": "10.244.11.115"
+            },
+            {
+                "ip": "fdf0:17b3:c3ec:1f79:10:0:d:bffb"
+            }
+        ],
+        "qosClass": "Guaranteed",
+        "reason": "DeadlineExceeded",
+        "startTime": "2026-09-10T20:08:26Z"
+    }
+}

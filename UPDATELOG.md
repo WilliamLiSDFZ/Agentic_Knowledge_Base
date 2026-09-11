@@ -4,6 +4,43 @@ A running record of notable changes to this project. Newest entries on top.
 
 ---
 
+## 2026-09-10 — Correct candidate timing and final-result API after the S54–S56 pilot (local only)
+
+The live S54–S56 audit found seven candidates finalizing after only five optimizer
+updates: extrapolating the first smoke prediction call overestimated full validation
+by about 2.9–7.9 times. Four candidates also raised errors after publishing a result
+because generated code expected a score from `CandidateSession.finish()`, which
+returned None. Evidence is retained in
+`results/9.10/live-s54-s56-20260911_0455Z/REPORT.md`.
+
+MLEvolve now warms prediction callbacks and estimates fixed overhead separately from
+per-row cost using two sample sizes. If the provisional estimate requests premature
+finalization, the first complete validation/export cycle recalibrates the reserve;
+training resumes on the same model when the measured budget permits. Actual export
+time includes checkpoint reload and publication. The absolute deadline remains in
+force, including all preprocessing, timing, validation and export work. Validation
+intervals exclude runtime work, avoiding another full validation after one training
+update merely because the preceding export was slow. Same-update finalization reuses
+the completed validation.
+
+`finish()` now returns a stable result dictionary with the saved checkpoint's score,
+prediction paths, provenance, selected/total optimizer updates and completion reason.
+It also exposes read-only `best_validation_score` / `best_score` properties. Repeated
+finish calls do no additional inference. Generation and review share the documented
+API, including how to consume results after a budget stop. Details and return fields:
+`../MLEvolve/docs/candidate_runtime.md`.
+
+Validation: 38 candidate-runtime tests, 14 execution-pipeline tests, 4 best-result
+tests and 2 analysis-accounting tests pass (58 total). The 11 new regressions cover
+cold/fixed/noisy timing, minimum-reserve boundaries, calibration followed by resumed
+training, genuinely expensive finalization, training-only validation cadence and the
+result API. Real CPU subprocesses consume the return value after normal and budget
+exits; simulated long callbacks still save and independently verify real artifacts.
+Compilation and whitespace checks pass. GPU behavior and the unchanged 90/120-minute
+budgets still need a new pilot. Changes remain local: no cluster source, environment,
+Job or Pod was modified, and no Git commit/push was performed. The user will stop
+the current runs before synchronization.
+
 ## 2026-09-10 — Early candidate validation and durable scoreable results (local only)
 
 Implemented the approved MLEvolve candidate runtime protocol. It adds execution and
