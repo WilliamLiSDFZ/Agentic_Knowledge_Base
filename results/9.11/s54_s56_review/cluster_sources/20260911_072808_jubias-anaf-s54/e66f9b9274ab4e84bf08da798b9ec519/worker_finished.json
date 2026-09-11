@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "node_id": "e66f9b9274ab4e84bf08da798b9ec519",
+  "reason": "budget_exhausted",
+  "optimizer_steps": 16542,
+  "finished_at": 1789152151.755481,
+  "elapsed_seconds": 6473.372206449509,
+  "checkpoint_id": "cab8f95550434266b13fbc665f21cd96",
+  "snapshot_id": "e6673273bfb6408fb684a70b4da24fc3",
+  "selected_optimizer_steps": 16542,
+  "best_validation_score": 0.9156162612853471,
+  "maximize": true,
+  "submission_path": "/workspace/MLEvolve/runs/20260911_072808_jubias-anaf-s54/workspace/candidate_results/candidates/e66f9b9274ab4e84bf08da798b9ec519/snapshots/e6673273bfb6408fb684a70b4da24fc3/submission.csv",
+  "validation_path": "/workspace/MLEvolve/runs/20260911_072808_jubias-anaf-s54/workspace/candidate_results/candidates/e66f9b9274ab4e84bf08da798b9ec519/snapshots/e6673273bfb6408fb684a70b4da24fc3/validation.csv"
+}

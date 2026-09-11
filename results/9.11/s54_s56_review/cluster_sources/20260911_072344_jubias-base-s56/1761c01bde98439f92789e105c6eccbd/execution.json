@@ -1,0 +1,9 @@
+{
+  "node_id": "1761c01bde98439f92789e105c6eccbd",
+  "status": "failed",
+  "started_at": 1789113931.657017,
+  "deadline": 1789119331.657017,
+  "finished_at": 1789114370.3762918,
+  "elapsed_seconds": 438.6462445259094,
+  "exc_type": "RuntimeError"
+}

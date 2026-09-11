@@ -1,0 +1,21 @@
+{
+  "workspace": "/workspace/MLEvolve/runs/20260911_072611_jubias-anaf-s56/workspace",
+  "log_dir": "/workspace/MLEvolve/runs/20260911_072611_jubias-anaf-s56/logs",
+  "node_id": "b1738447ec61460dbe32f74c6978e42b",
+  "config": {
+    "enabled": true,
+    "draft_budget_seconds": 5400,
+    "candidate_budget_seconds": 7200,
+    "first_validation_seconds": 900.0,
+    "validation_interval_seconds": 1800.0,
+    "export_interval_seconds": 3600.0,
+    "smoke_steps": 5,
+    "smoke_rows": 128,
+    "finalization_reserve_seconds": 900.0,
+    "finalization_safety_factor": 1.5,
+    "validation_fraction": 0.05,
+    "keep_snapshots": 2
+  },
+  "started_at": 1789130991.3701344,
+  "deadline": 1789138191.3701344
+}

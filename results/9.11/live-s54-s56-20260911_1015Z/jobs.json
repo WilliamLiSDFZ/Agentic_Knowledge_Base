@@ -1,0 +1,74 @@
+[
+  {
+    "name": "mlevolve-jubias-anaf-s54",
+    "status": {
+      "active": 1,
+      "ready": 1,
+      "startTime": "2026-09-11T07:06:12Z",
+      "terminating": 0,
+      "uncountedTerminatedPods": {}
+    },
+    "activeDeadlineSeconds": 86400,
+    "backoffLimit": 0
+  },
+  {
+    "name": "mlevolve-jubias-anaf-s55",
+    "status": {
+      "active": 1,
+      "ready": 1,
+      "startTime": "2026-09-11T07:06:13Z",
+      "terminating": 0,
+      "uncountedTerminatedPods": {}
+    },
+    "activeDeadlineSeconds": 86400,
+    "backoffLimit": 0
+  },
+  {
+    "name": "mlevolve-jubias-anaf-s56",
+    "status": {
+      "active": 1,
+      "ready": 1,
+      "startTime": "2026-09-11T07:06:14Z",
+      "terminating": 0,
+      "uncountedTerminatedPods": {}
+    },
+    "activeDeadlineSeconds": 86400,
+    "backoffLimit": 0
+  },
+  {
+    "name": "mlevolve-jubias-base-s54",
+    "status": {
+      "active": 1,
+      "ready": 1,
+      "startTime": "2026-09-11T07:06:11Z",
+      "terminating": 0,
+      "uncountedTerminatedPods": {}
+    },
+    "activeDeadlineSeconds": 86400,
+    "backoffLimit": 0
+  },
+  {
+    "name": "mlevolve-jubias-base-s55",
+    "status": {
+      "active": 1,
+      "ready": 1,
+      "startTime": "2026-09-11T07:06:12Z",
+      "terminating": 0,
+      "uncountedTerminatedPods": {}
+    },
+    "activeDeadlineSeconds": 86400,
+    "backoffLimit": 0
+  },
+  {
+    "name": "mlevolve-jubias-base-s56",
+    "status": {
+      "active": 1,
+      "ready": 1,
+      "startTime": "2026-09-11T07:06:13Z",
+      "terminating": 0,
+      "uncountedTerminatedPods": {}
+    },
+    "activeDeadlineSeconds": 86400,
+    "backoffLimit": 0
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "node_id": "c85956866ac64a259385f82d7df954f5",
+  "status": "budget_exhausted",
+  "started_at": 1789145292.6898735,
+  "deadline": 1789152492.6898735,
+  "finished_at": 1789151452.0614662,
+  "elapsed_seconds": 6159.210265874863,
+  "exc_type": null
+}

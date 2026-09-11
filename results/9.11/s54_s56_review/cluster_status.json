@@ -1,0 +1,148 @@
+{
+  "checked_utc": "2026-09-11T21:09:46.855760+00:00",
+  "pods": [
+    {
+      "name": "mlevolve-agentic-knowledge-base-dev-cpu",
+      "phase": "Running",
+      "node": "chi-dgx-node02.csuchico.edu",
+      "start": "2026-09-11T20:07:28Z",
+      "containers": [
+        {
+          "name": "dev",
+          "restartCount": 0,
+          "state": {
+            "running": {
+              "startedAt": "2026-09-11T20:07:38Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "mlevolve-jubias-anaf-s54-qxh9w",
+      "phase": "Succeeded",
+      "node": "hcc-nrp-shor-c5909.unl.edu",
+      "start": "2026-09-11T07:06:12Z",
+      "containers": [
+        {
+          "name": "mlevolve",
+          "restartCount": 0,
+          "state": {
+            "terminated": {
+              "containerID": "containerd://424c5aba6a59dda6dcd15bb082cc64ad8287c34135d1d8d9aa4eb151e7fd982b",
+              "exitCode": 0,
+              "finishedAt": "2026-09-11T19:30:40Z",
+              "reason": "Completed",
+              "startedAt": "2026-09-11T07:06:26Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "mlevolve-jubias-anaf-s55-nq9pk",
+      "phase": "Succeeded",
+      "node": "hcc-nrp-shor-c6013.unl.edu",
+      "start": "2026-09-11T07:06:13Z",
+      "containers": [
+        {
+          "name": "mlevolve",
+          "restartCount": 0,
+          "state": {
+            "terminated": {
+              "containerID": "containerd://04d7efd5735eeee83fcd60f1224f70dd684bb6a0f9c08e6569ce1fb805c754ee",
+              "exitCode": 0,
+              "finishedAt": "2026-09-11T19:25:28Z",
+              "reason": "Completed",
+              "startedAt": "2026-09-11T07:06:28Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "mlevolve-jubias-anaf-s56-xxwbf",
+      "phase": "Succeeded",
+      "node": "hcc-nrp-shor-c6013.unl.edu",
+      "start": "2026-09-11T07:06:14Z",
+      "containers": [
+        {
+          "name": "mlevolve",
+          "restartCount": 0,
+          "state": {
+            "terminated": {
+              "containerID": "containerd://b38179f307b6511923ce52de1fd8da915f13c0c4f1e2dd40dc0f096e77994f66",
+              "exitCode": 0,
+              "finishedAt": "2026-09-11T19:26:37Z",
+              "reason": "Completed",
+              "startedAt": "2026-09-11T07:06:29Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "mlevolve-jubias-base-s54-4r97j",
+      "phase": "Succeeded",
+      "node": "cph-dgx-node6.humboldt.edu",
+      "start": "2026-09-11T07:06:12Z",
+      "containers": [
+        {
+          "name": "mlevolve",
+          "restartCount": 0,
+          "state": {
+            "terminated": {
+              "containerID": "containerd://bd7d394ecfd8dd923a095bf3c813fa7b07845d289c2516d1ee3841ff962c46e9",
+              "exitCode": 0,
+              "finishedAt": "2026-09-11T19:23:25Z",
+              "reason": "Completed",
+              "startedAt": "2026-09-11T07:06:24Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "mlevolve-jubias-base-s55-hzp8q",
+      "phase": "Succeeded",
+      "node": "hcc-nrp-shor-c5917.unl.edu",
+      "start": "2026-09-11T07:06:13Z",
+      "containers": [
+        {
+          "name": "mlevolve",
+          "restartCount": 0,
+          "state": {
+            "terminated": {
+              "containerID": "containerd://2475caf9620ae8defafaa693419b91ed5cfc1b97ac1f7dd2edfb36ba406c23f8",
+              "exitCode": 0,
+              "finishedAt": "2026-09-11T19:20:29Z",
+              "reason": "Completed",
+              "startedAt": "2026-09-11T07:06:26Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "mlevolve-jubias-base-s56-cbr28",
+      "phase": "Succeeded",
+      "node": "gpu-06.nrp.mghpcc.org",
+      "start": "2026-09-11T07:06:14Z",
+      "containers": [
+        {
+          "name": "mlevolve",
+          "restartCount": 0,
+          "state": {
+            "terminated": {
+              "containerID": "containerd://4aeaa97466a38572343014b0deba57d3bec6a1ee9abfe36c220e6585f402553f",
+              "exitCode": 0,
+              "finishedAt": "2026-09-11T19:26:58Z",
+              "reason": "Completed",
+              "startedAt": "2026-09-11T07:06:20Z"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

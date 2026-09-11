@@ -1,0 +1,56 @@
+[
+  {
+    "pod": "mlevolve-jubias-anaf-s54-qxh9w",
+    "at": "2026-09-11T10:16:50.224936+00:00",
+    "gpu": "NVIDIA A10, GPU-87b51a99-1c48-1681-e537-459e1ebcca16, 100 %, 11488 MiB, 23028 MiB\n",
+    "log_bytes": 61897,
+    "last_log": [
+      "2026-09-11T09:16:50.232440298Z [2026-09-11 09:16:50,085] INFO: Current running process: 1"
+    ]
+  },
+  {
+    "pod": "mlevolve-jubias-anaf-s55-nq9pk",
+    "at": "2026-09-11T10:16:50.395021+00:00",
+    "gpu": "NVIDIA A10, GPU-f0ef82b3-a613-41bb-b916-532d10c2cf30, 0 %, 779 MiB, 23028 MiB\n",
+    "log_bytes": 64543,
+    "last_log": [
+      "2026-09-11T10:16:42.097000415Z [2026-09-11 10:16:41,958] INFO: Current running process: 1"
+    ]
+  },
+  {
+    "pod": "mlevolve-jubias-anaf-s56-xxwbf",
+    "at": "2026-09-11T10:16:50.288897+00:00",
+    "gpu": "NVIDIA A10, GPU-b5677781-0f1e-615e-88a8-dc97d639369f, 0 %, 2678 MiB, 23028 MiB\n",
+    "log_bytes": 67030,
+    "last_log": [
+      "2026-09-11T10:12:44.499086749Z [2026-09-11 10:12:44,362] INFO: Current running process: 1"
+    ]
+  },
+  {
+    "pod": "mlevolve-jubias-base-s54-4r97j",
+    "at": "2026-09-11T10:16:50.035670+00:00",
+    "gpu": "Tesla V100-SXM2-32GB, GPU-18a19f2b-fe1d-be9c-6de4-29f1790c1132, 88 %, 9648 MiB, 32768 MiB\n",
+    "log_bytes": 66412,
+    "last_log": [
+      "2026-09-11T02:08:23.830074396-07:00 [2026-09-11 09:08:23,737] INFO: Current running process: 1"
+    ]
+  },
+  {
+    "pod": "mlevolve-jubias-base-s55-hzp8q",
+    "at": "2026-09-11T10:16:51.437382+00:00",
+    "gpu": "NVIDIA A10, GPU-1497145c-10a9-bdb5-ef63-f90033845c71, 0 %, 787 MiB, 23028 MiB\n",
+    "log_bytes": 64310,
+    "last_log": [
+      "2026-09-11T10:16:16.361093490Z [2026-09-11 10:16:16,218] INFO: Current running process: 1"
+    ]
+  },
+  {
+    "pod": "mlevolve-jubias-base-s56-cbr28",
+    "at": "2026-09-11T10:16:51.582125+00:00",
+    "gpu": "NVIDIA A10, GPU-59267e36-9f99-3971-ae70-0fa539f10eae, 53 %, 9620 MiB, 23028 MiB\n",
+    "log_bytes": 67295,
+    "last_log": [
+      "2026-09-11T10:09:00.430708470Z [2026-09-11 10:09:00,246] INFO: Current running process: 1"
+    ]
+  }
+]

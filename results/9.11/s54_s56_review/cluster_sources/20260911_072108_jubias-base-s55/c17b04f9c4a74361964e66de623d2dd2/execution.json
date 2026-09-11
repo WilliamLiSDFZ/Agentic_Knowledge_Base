@@ -1,0 +1,9 @@
+{
+  "node_id": "c17b04f9c4a74361964e66de623d2dd2",
+  "status": "timeout",
+  "started_at": 1789150549.501778,
+  "deadline": 1789154336.0,
+  "finished_at": 1789154337.568871,
+  "elapsed_seconds": 3788.0148463249207,
+  "exc_type": "TimeoutError"
+}

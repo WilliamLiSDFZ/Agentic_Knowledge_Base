@@ -1,0 +1,625 @@
+{
+  "source_scores": "/Users/william/nautilus/results/scores.csv",
+  "cohort_runs": [
+    "20260911_071931_jubias-base-s54",
+    "20260911_072108_jubias-base-s55",
+    "20260911_072344_jubias-base-s56",
+    "20260911_072611_jubias-anaf-s55",
+    "20260911_072611_jubias-anaf-s56",
+    "20260911_072808_jubias-anaf-s54"
+  ],
+  "statistics": {
+    "1": {
+      "paired": [
+        {
+          "seed": 54,
+          "A": 0.93388,
+          "F": 0.92639,
+          "delta_F_minus_A": -0.007489999999999997
+        },
+        {
+          "seed": 55,
+          "A": 0.92604,
+          "F": 0.92831,
+          "delta_F_minus_A": 0.0022699999999999942
+        },
+        {
+          "seed": 56,
+          "A": 0.92613,
+          "F": 0.92545,
+          "delta_F_minus_A": -0.0006800000000000139
+        }
+      ],
+      "mean": -0.001966666666666672,
+      "t95": [
+        -0.014401266886726497,
+        0.010467933553393153
+      ],
+      "n": 3,
+      "note": "Two-sided Student t interval, df=2, on rounded scores.csv values. Only 3 runs per arm; weak normality evidence; exploratory K comparisons."
+    },
+    "2": {
+      "paired": [
+        {
+          "seed": 54,
+          "A": 0.9361,
+          "F": 0.93274,
+          "delta_F_minus_A": -0.0033600000000000296
+        },
+        {
+          "seed": 55,
+          "A": 0.93332,
+          "F": 0.93389,
+          "delta_F_minus_A": 0.0005699999999999594
+        },
+        {
+          "seed": 56,
+          "A": 0.92848,
+          "F": 0.93353,
+          "delta_F_minus_A": 0.005049999999999999
+        }
+      ],
+      "mean": 0.0007533333333333095,
+      "t95": [
+        -0.009699909106268721,
+        0.011206575772935339
+      ],
+      "n": 3,
+      "note": "Two-sided Student t interval, df=2, on rounded scores.csv values. Only 3 runs per arm; weak normality evidence; exploratory K comparisons."
+    },
+    "3": {
+      "paired": [
+        {
+          "seed": 54,
+          "A": 0.93555,
+          "F": 0.93426,
+          "delta_F_minus_A": -0.0012900000000000134
+        },
+        {
+          "seed": 55,
+          "A": 0.93529,
+          "F": 0.93509,
+          "delta_F_minus_A": -0.00019999999999997797
+        },
+        {
+          "seed": 56,
+          "A": 0.92843,
+          "F": 0.9357,
+          "delta_F_minus_A": 0.007269999999999999
+        }
+      ],
+      "mean": 0.0019266666666666692,
+      "t95": [
+        -0.009648037873634217,
+        0.013501371206967554
+      ],
+      "n": 3,
+      "note": "Two-sided Student t interval, df=2, on rounded scores.csv values. Only 3 runs per arm; weak normality evidence; exploratory K comparisons."
+    },
+    "4": {
+      "paired": [
+        {
+          "seed": 54,
+          "A": 0.93629,
+          "F": 0.93452,
+          "delta_F_minus_A": -0.0017699999999999383
+        },
+        {
+          "seed": 55,
+          "A": 0.93588,
+          "F": 0.93624,
+          "delta_F_minus_A": 0.00035999999999991594
+        },
+        {
+          "seed": 56,
+          "A": 0.93036,
+          "F": 0.9365,
+          "delta_F_minus_A": 0.006140000000000034
+        }
+      ],
+      "mean": 0.0015766666666666707,
+      "t95": [
+        -0.008590782848202111,
+        0.011744116181535452
+      ],
+      "n": 3,
+      "note": "Two-sided Student t interval, df=2, on rounded scores.csv values. Only 3 runs per arm; weak normality evidence; exploratory K comparisons."
+    }
+  },
+  "runs": {
+    "20260911_071931_jubias-base-s54": {
+      "private_scores": {
+        "1": 0.93388,
+        "2": 0.9361,
+        "3": 0.93555,
+        "4": 0.93629
+      },
+      "cum_hours_selected_candidates": {
+        "1": 1.78,
+        "2": 3.56,
+        "3": 4.49,
+        "4": 5.84
+      },
+      "metric_version": "jubias-continuous-auc-v1",
+      "grader_sha256": "000e216bc0faea8041e11a7f4dccc873e84f18c9d0a27f00bf5ebddb7b0dcd61",
+      "contract_id": "5cea11299cbb7f25a5efb98f6a59f6bfe297ef245f44e37c178e5c855618b23f",
+      "split_sha256": "f7e2486740e7ba0d3bb6f25ee4c082953761a696cb9e0413fb21902b42038eeb",
+      "validation_metric": 0.9298346237195386,
+      "selected_node_id": "03f42164864743d4934497798bda3d09",
+      "ranked_candidates": [
+        {
+          "id": "03f42164864743d4934497798bda3d09",
+          "stage": "improve",
+          "validation_score": 0.9298346237195386,
+          "elapsed_hours": 1.7790229345692528
+        },
+        {
+          "id": "218911ca4aac4aa699f811d116a5be47",
+          "stage": "improve",
+          "validation_score": 0.9168745680658561,
+          "elapsed_hours": 1.784163231253624
+        },
+        {
+          "id": "49fa616e3a294bd396094aa8132a7fad",
+          "stage": "draft",
+          "validation_score": 0.9166657144683041,
+          "elapsed_hours": 0.9244348330630197
+        },
+        {
+          "id": "856506ee6afd4fefac4568eb524ab57f",
+          "stage": "draft",
+          "validation_score": 0.9150476902959329,
+          "elapsed_hours": 1.3509728264808656
+        },
+        {
+          "id": "7daab15ebb544fce82ac83a39f073af1",
+          "stage": "improve",
+          "validation_score": 0.8993209929299207,
+          "elapsed_hours": 1.8463810667064455
+        },
+        {
+          "id": "bda51d5655e84a6f8851c53ba674c494",
+          "stage": "debug",
+          "validation_score": 0.8864615351400048,
+          "elapsed_hours": 1.3828878883520763
+        },
+        {
+          "id": "da50a145351d4bddb12dba8dea811693",
+          "stage": "improve",
+          "validation_score": 0.8683489606705743,
+          "elapsed_hours": 1.835008767777019
+        }
+      ],
+      "top6_elapsed_hours": 9.067862780425283
+    },
+    "20260911_072108_jubias-base-s55": {
+      "private_scores": {
+        "1": 0.92604,
+        "2": 0.93332,
+        "3": 0.93529,
+        "4": 0.93588
+      },
+      "cum_hours_selected_candidates": {
+        "1": 1.75,
+        "2": 3.47,
+        "3": 5.14,
+        "4": 6.27
+      },
+      "metric_version": "jubias-continuous-auc-v1",
+      "grader_sha256": "000e216bc0faea8041e11a7f4dccc873e84f18c9d0a27f00bf5ebddb7b0dcd61",
+      "contract_id": "231fe4aa159c04da2d6d135c52d96407b6b53c57ae8c3676c8e534a818b0d44e",
+      "split_sha256": "f2c71e8cdc44eb940bd3fb7df161ad15ed308e686355986f23a286b8d2bdf558",
+      "validation_metric": 0.9276301830226341,
+      "selected_node_id": "20bbfe0ac57f45e4900176b36596cdc0",
+      "ranked_candidates": [
+        {
+          "id": "20bbfe0ac57f45e4900176b36596cdc0",
+          "stage": "debug",
+          "validation_score": 0.9276301830226341,
+          "elapsed_hours": 1.7485948924885857
+        },
+        {
+          "id": "bd1b4e2260714dbaaf1cd1b869cc5147",
+          "stage": "improve",
+          "validation_score": 0.9261694012120947,
+          "elapsed_hours": 1.7221051338646147
+        },
+        {
+          "id": "eecb92f43fd84b83a06a6dea2ef99e91",
+          "stage": "improve",
+          "validation_score": 0.925773676077686,
+          "elapsed_hours": 1.670809897184372
+        },
+        {
+          "id": "bb4314ad08484b8f983df5c757e3dc24",
+          "stage": "draft",
+          "validation_score": 0.9248377203745172,
+          "elapsed_hours": 1.1288575052552754
+        },
+        {
+          "id": "79a34999229c44fd87d953d0f82fa49b",
+          "stage": "draft",
+          "validation_score": 0.9172615605071083,
+          "elapsed_hours": 1.2800260316663319
+        },
+        {
+          "id": "e43131cca14840e8beeb30a41ca7facd",
+          "stage": "improve",
+          "validation_score": 0.9133662259099324,
+          "elapsed_hours": 1.8134526151418686
+        },
+        {
+          "id": "d4dac7ee3af74d5792b3a9a1f9d8da69",
+          "stage": "draft",
+          "validation_score": 0.9063671101053352,
+          "elapsed_hours": 1.0965427715248532
+        }
+      ],
+      "top6_elapsed_hours": 9.363846075601048
+    },
+    "20260911_072344_jubias-base-s56": {
+      "private_scores": {
+        "1": 0.92613,
+        "2": 0.92848,
+        "3": 0.92843,
+        "4": 0.93036
+      },
+      "cum_hours_selected_candidates": {
+        "1": 1.69,
+        "2": 3.37,
+        "3": 5.04,
+        "4": 6.74
+      },
+      "metric_version": "jubias-continuous-auc-v1",
+      "grader_sha256": "000e216bc0faea8041e11a7f4dccc873e84f18c9d0a27f00bf5ebddb7b0dcd61",
+      "contract_id": "55f6db81184689f3b9e3a73447c8b7247bf19581306827c0039f2f5049690d46",
+      "split_sha256": "e1965e5a988c9be19e62a89c1bb8d43f27189649ab64a362491d6f98025867e9",
+      "validation_metric": 0.9245550965663565,
+      "selected_node_id": "5a75e35928ce495f8c291cf70f8253a7",
+      "ranked_candidates": [
+        {
+          "id": "5a75e35928ce495f8c291cf70f8253a7",
+          "stage": "improve",
+          "validation_score": 0.9245550965663565,
+          "elapsed_hours": 1.6857143798801635
+        },
+        {
+          "id": "0480acbb4405414b88924fd6cb2bf7ec",
+          "stage": "improve",
+          "validation_score": 0.9179366192676551,
+          "elapsed_hours": 1.682124415172471
+        },
+        {
+          "id": "5864112afb89465ca559d74736f13ee2",
+          "stage": "debug",
+          "validation_score": 0.9153887363123135,
+          "elapsed_hours": 1.6732148230075836
+        },
+        {
+          "id": "49028cb1422a4c57ad8bf5acbfcbb8b9",
+          "stage": "debug",
+          "validation_score": 0.9152166638744028,
+          "elapsed_hours": 1.7002172244257396
+        },
+        {
+          "id": "f7cae131944146608a212ce72cf08536",
+          "stage": "improve",
+          "validation_score": 0.9083814071265317,
+          "elapsed_hours": 1.7066901155312857
+        },
+        {
+          "id": "bc4a08480e7c4f15a0c4ffe46c478851",
+          "stage": "debug",
+          "validation_score": 0.9019618706945497,
+          "elapsed_hours": 1.1546277649535073
+        },
+        {
+          "id": "e3adb9a7dfd2408f983169aa3dd4bf9e",
+          "stage": "improve",
+          "validation_score": 0.8807530794565157,
+          "elapsed_hours": 1.0568846774101257
+        }
+      ],
+      "top6_elapsed_hours": 9.60258872297075
+    },
+    "20260911_072611_jubias-anaf-s55": {
+      "private_scores": {
+        "1": 0.92831,
+        "2": 0.93389,
+        "3": 0.93509,
+        "4": 0.93624,
+        "6": 0.93597
+      },
+      "cum_hours_selected_candidates": {
+        "1": 1.81,
+        "2": 3.61,
+        "3": 4.92,
+        "4": 6.64,
+        "6": 8.74
+      },
+      "metric_version": "jubias-continuous-auc-v1",
+      "grader_sha256": "000e216bc0faea8041e11a7f4dccc873e84f18c9d0a27f00bf5ebddb7b0dcd61",
+      "contract_id": "231fe4aa159c04da2d6d135c52d96407b6b53c57ae8c3676c8e534a818b0d44e",
+      "split_sha256": "f2c71e8cdc44eb940bd3fb7df161ad15ed308e686355986f23a286b8d2bdf558",
+      "validation_metric": 0.9288847132558133,
+      "selected_node_id": "994b5cf69a17452ba51adeda04779b80",
+      "ranked_candidates": [
+        {
+          "id": "994b5cf69a17452ba51adeda04779b80",
+          "stage": "improve",
+          "validation_score": 0.9288847132558133,
+          "elapsed_hours": 1.8066995278994242
+        },
+        {
+          "id": "62fdc8e621314835a2062018cb2046eb",
+          "stage": "improve",
+          "validation_score": 0.9280407952096025,
+          "elapsed_hours": 1.8040758409765032
+        },
+        {
+          "id": "d5978d3693b944f6a504388371738862",
+          "stage": "draft",
+          "validation_score": 0.9279248695758001,
+          "elapsed_hours": 1.3134573517905341
+        },
+        {
+          "id": "c85956866ac64a259385f82d7df954f5",
+          "stage": "improve",
+          "validation_score": 0.9154149892492534,
+          "elapsed_hours": 1.7108917405207953
+        },
+        {
+          "id": "77b86b6e8ccc4fd5832595b36e465893",
+          "stage": "draft",
+          "validation_score": 0.9151653135273141,
+          "elapsed_hours": 1.091975554558966
+        },
+        {
+          "id": "3e133f6249164e1c9d0b05f56dfd5852",
+          "stage": "draft",
+          "validation_score": 0.9032408964915655,
+          "elapsed_hours": 1.0162743610805935
+        },
+        {
+          "id": "47d29cf7a18f46d9b4b283fed8d762a5",
+          "stage": "debug",
+          "validation_score": 0.8504587243397604,
+          "elapsed_hours": 1.7090657683875825
+        },
+        {
+          "id": "c32708633da647debdcfca45c6bde2ff",
+          "stage": "improve",
+          "validation_score": 0.5170297274808786,
+          "elapsed_hours": 0.7414234695831935
+        }
+      ],
+      "top6_elapsed_hours": 8.743374376826816
+    },
+    "20260911_072611_jubias-anaf-s56": {
+      "private_scores": {
+        "1": 0.92545,
+        "2": 0.93353,
+        "3": 0.9357,
+        "4": 0.9365,
+        "6": 0.93686
+      },
+      "cum_hours_selected_candidates": {
+        "1": 1.05,
+        "2": 2.72,
+        "3": 3.95,
+        "4": 4.92,
+        "6": 7.26
+      },
+      "metric_version": "jubias-continuous-auc-v1",
+      "grader_sha256": "000e216bc0faea8041e11a7f4dccc873e84f18c9d0a27f00bf5ebddb7b0dcd61",
+      "contract_id": "55f6db81184689f3b9e3a73447c8b7247bf19581306827c0039f2f5049690d46",
+      "split_sha256": "e1965e5a988c9be19e62a89c1bb8d43f27189649ab64a362491d6f98025867e9",
+      "validation_metric": 0.9269353103913712,
+      "selected_node_id": "4eed868ef31d4cbbad8722e4257772d9",
+      "ranked_candidates": [
+        {
+          "id": "4eed868ef31d4cbbad8722e4257772d9",
+          "stage": "draft",
+          "validation_score": 0.9269353103913712,
+          "elapsed_hours": 1.047240460647477
+        },
+        {
+          "id": "c87f0ec8e98d4e0abafdbd26384cb20c",
+          "stage": "improve",
+          "validation_score": 0.9263956660806858,
+          "elapsed_hours": 1.6746602959103054
+        },
+        {
+          "id": "0c6473deb89644a08d6d43e9cfd727c3",
+          "stage": "draft",
+          "validation_score": 0.9201884183345088,
+          "elapsed_hours": 1.229086627099249
+        },
+        {
+          "id": "0f76ee626bbe4b3e8275e9b8d7127e7b",
+          "stage": "draft",
+          "validation_score": 0.9139256653872562,
+          "elapsed_hours": 0.965875109831492
+        },
+        {
+          "id": "1f0059b2351543b29e7fb3e5a943548d",
+          "stage": "draft",
+          "validation_score": 0.9097310088742994,
+          "elapsed_hours": 1.0365229335096147
+        },
+        {
+          "id": "87d731b9e7dc4f29b23790dad6bb7177",
+          "stage": "draft",
+          "validation_score": 0.9094078632514763,
+          "elapsed_hours": 1.3116013999780018
+        },
+        {
+          "id": "f61ccbee0ba3463c96e5ff775cc0df54",
+          "stage": "improve",
+          "validation_score": 0.832325195285206,
+          "elapsed_hours": 0.8367662909295824
+        },
+        {
+          "id": "580ae58743eb49f19d6d95880176c291",
+          "stage": "improve",
+          "validation_score": 0.8215630124682864,
+          "elapsed_hours": 1.8113230600621966
+        },
+        {
+          "id": "b1738447ec61460dbe32f74c6978e42b",
+          "stage": "improve",
+          "validation_score": 0.6927282392931986,
+          "elapsed_hours": 1.536574063234859
+        }
+      ],
+      "top6_elapsed_hours": 7.26498682697614
+    },
+    "20260911_072808_jubias-anaf-s54": {
+      "private_scores": {
+        "1": 0.92639,
+        "2": 0.93274,
+        "3": 0.93426,
+        "4": 0.93452
+      },
+      "cum_hours_selected_candidates": {
+        "1": 1.8,
+        "2": 3.67,
+        "3": 5.47,
+        "4": 6.77
+      },
+      "metric_version": "jubias-continuous-auc-v1",
+      "grader_sha256": "000e216bc0faea8041e11a7f4dccc873e84f18c9d0a27f00bf5ebddb7b0dcd61",
+      "contract_id": "5cea11299cbb7f25a5efb98f6a59f6bfe297ef245f44e37c178e5c855618b23f",
+      "split_sha256": "f7e2486740e7ba0d3bb6f25ee4c082953761a696cb9e0413fb21902b42038eeb",
+      "validation_metric": 0.9227605227010429,
+      "selected_node_id": "27273be331554e12823618bb6de1d9e1",
+      "ranked_candidates": [
+        {
+          "id": "27273be331554e12823618bb6de1d9e1",
+          "stage": "improve",
+          "validation_score": 0.9227605227010429,
+          "elapsed_hours": 1.8026922448476155
+        },
+        {
+          "id": "c3b3d05c52184e07b57a7f17dabf0f9f",
+          "stage": "debug",
+          "validation_score": 0.9179505152583827,
+          "elapsed_hours": 1.8640795570611954
+        },
+        {
+          "id": "e66f9b9274ab4e84bf08da798b9ec519",
+          "stage": "improve",
+          "validation_score": 0.9156162612853471,
+          "elapsed_hours": 1.800354963408576
+        },
+        {
+          "id": "d24983a23a084bf6a3ac6ce46221a033",
+          "stage": "draft",
+          "validation_score": 0.9118065884086783,
+          "elapsed_hours": 1.3006189731756845
+        },
+        {
+          "id": "f7be07d55a034294be26d91924965997",
+          "stage": "improve",
+          "validation_score": 0.9100518340354058,
+          "elapsed_hours": 1.5230977537896897
+        },
+        {
+          "id": "4f9e22479e1049839e36dbc3249ca6df",
+          "stage": "draft",
+          "validation_score": 0.9026267486978717,
+          "elapsed_hours": 1.0483015890253915
+        },
+        {
+          "id": "1d927b4210294f65ab83db56d9c215a9",
+          "stage": "improve",
+          "validation_score": 0.47555194048144234,
+          "elapsed_hours": 0.6715744748380449
+        }
+      ],
+      "top6_elapsed_hours": 9.339145081308153
+    }
+  },
+  "excluded_earlier_attempts": [
+    {
+      "name": "20260911_003918_jubias-base-s56",
+      "verdict": "invalid",
+      "reasons": "insufficient_runtime;log_truncated;no_submission"
+    },
+    {
+      "name": "20260911_004331_jubias-anaf-s56",
+      "verdict": "invalid",
+      "reasons": "no_journal;insufficient_runtime;log_truncated;no_submission"
+    },
+    {
+      "name": "20260911_004436_jubias-base-s55",
+      "verdict": "invalid",
+      "reasons": "insufficient_runtime;log_truncated;no_submission"
+    },
+    {
+      "name": "20260911_004437_jubias-base-s54",
+      "verdict": "invalid",
+      "reasons": "insufficient_runtime;log_truncated;no_submission"
+    },
+    {
+      "name": "20260911_005107_jubias-anaf-s54",
+      "verdict": "invalid",
+      "reasons": "insufficient_runtime;log_truncated;no_submission"
+    },
+    {
+      "name": "20260911_005107_jubias-anaf-s55",
+      "verdict": "invalid",
+      "reasons": "insufficient_runtime;log_truncated;no_submission"
+    },
+    {
+      "name": "20260911_062246_jubias-base-s54",
+      "verdict": "invalid",
+      "reasons": "no_journal;insufficient_runtime;log_truncated;no_submission"
+    },
+    {
+      "name": "20260911_062324_jubias-anaf-s56",
+      "verdict": "invalid",
+      "reasons": "no_journal;insufficient_runtime;log_truncated;no_submission"
+    },
+    {
+      "name": "20260911_062324_jubias-base-s56",
+      "verdict": "invalid",
+      "reasons": "no_journal;insufficient_runtime;log_truncated;no_submission"
+    },
+    {
+      "name": "20260911_062623_jubias-anaf-s55",
+      "verdict": "invalid",
+      "reasons": "no_journal;insufficient_runtime;log_truncated;no_submission"
+    },
+    {
+      "name": "20260911_062726_jubias-base-s55",
+      "verdict": "invalid",
+      "reasons": "no_journal;insufficient_runtime;log_truncated;no_submission"
+    },
+    {
+      "name": "20260911_063801_jubias-anaf-s54",
+      "verdict": "invalid",
+      "reasons": "no_journal;insufficient_runtime;log_truncated;no_submission"
+    }
+  ],
+  "posthoc_selection_diagnostic": {
+    "source": "candidate_private_scores.jsonl",
+    "n_candidates": 45,
+    "official_scores_unchanged": true,
+    "F56": {
+      "public_top1_id": "4eed868ef31d4cbbad8722e4257772d9",
+      "public_top2_id": "c87f0ec8e98d4e0abafdbd26384cb20c",
+      "top2_minus_top1_validation": -0.0005396443106854276,
+      "top2_minus_top1_private": 0.005510000000000015,
+      "k2_minus_k1": 0.008079999999999976,
+      "k2_minus_stronger_single": 0.002569999999999961,
+      "k4_minus_k1": 0.011050000000000004,
+      "k2_share_of_k4_gain": 0.7312217194570111,
+      "k2_weights": [
+        0.6667960653776787,
+        0.33320393462232134
+      ]
+    },
+    "note": "Post hoc private scoring is diagnostic only; neither candidate nor checkpoint is reselected for official results. Increased training budget/steps confound mechanism attribution."
+  }
+}
