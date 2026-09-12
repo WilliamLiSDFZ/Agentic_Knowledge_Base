@@ -1,0 +1,23 @@
+[
+  {
+    "case": "f56_c87f",
+    "exit_code": 0,
+    "seconds": 189.54103944500093,
+    "source_run": "/workspace/MLEvolve/runs/20260911_072611_jubias-anaf-s56",
+    "node": "c87f0ec8e98d4e0abafdbd26384cb20c"
+  },
+  {
+    "case": "f55_994b",
+    "exit_code": 0,
+    "seconds": 206.13480175400036,
+    "source_run": "/workspace/MLEvolve/runs/20260911_072611_jubias-anaf-s55",
+    "node": "994b5cf69a17452ba51adeda04779b80"
+  },
+  {
+    "case": "f54_2727",
+    "exit_code": 0,
+    "seconds": 203.69703916402068,
+    "source_run": "/workspace/MLEvolve/runs/20260911_072808_jubias-anaf-s54",
+    "node": "27273be331554e12823618bb6de1d9e1"
+  }
+]

@@ -1,0 +1,2210 @@
+{
+  "schema": "paper-fulltext-v1",
+  "config": {
+    "enabled": true,
+    "cache_dir": "/workspace/MLEvolve/cache/paper_fulltext",
+    "offline": true,
+    "max_papers": 3,
+    "max_read_calls": 12,
+    "read_chars": 8000,
+    "total_chars": 40000,
+    "open_timeout_seconds": 60.0,
+    "total_open_seconds": 150.0
+  },
+  "cache_dir": "/workspace/MLEvolve/cache/paper_fulltext",
+  "parser": {
+    "schema": "paper-fulltext-v1",
+    "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+    "pymupdf": "1.28.0",
+    "pymupdf4llm": "1.28.0",
+    "pymupdf_layout": "1.28.0",
+    "tabulate": "0.9.0"
+  },
+  "read_calls": 7,
+  "body_chars": 31286,
+  "open_seconds": 0.567,
+  "attempts": {
+    "neurips-2024/e574db41163e700545ff4114f96b3d7a": {
+      "status": "ok",
+      "cache_hit": true
+    },
+    "neurips-2024/29021b06afa4c648ee438584f7ef3e7e": {
+      "status": "offline_cache_miss",
+      "message": "This exact paper/parser version is not cached"
+    },
+    "icml-2024/yu24a": {
+      "status": "ok",
+      "cache_hit": true
+    }
+  },
+  "documents": {
+    "neurips-2024/e574db41163e700545ff4114f96b3d7a": {
+      "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+      "title": "AUCSeg: AUC-oriented Pixel-level Long-tail Semantic Segmentation",
+      "corpus_source": "https://papers.nips.cc/paper_files/paper/2024/hash/e574db41163e700545ff4114f96b3d7a-Abstract-Conference.html",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/e574db41163e700545ff4114f96b3d7a-Paper-Conference.pdf",
+      "pdf_sha256": "d3e3b1c2d8e7abf2000348eb306b8cfa8f4cdff61b5afe7e9c9f3cb11cc7950f",
+      "text_sha256": "1749487c25109390e7ceee5df66b91d450c507582b4a1986aae32e0dadda39fb",
+      "parser": {
+        "schema": "paper-fulltext-v1",
+        "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+        "pymupdf": "1.28.0",
+        "pymupdf4llm": "1.28.0",
+        "pymupdf_layout": "1.28.0",
+        "tabulate": "0.9.0"
+      },
+      "parsed_at": "2026-09-10T02:47:05Z",
+      "extraction_mode": "pymupdf4llm-legacy-text",
+      "page_count": 45,
+      "title_check": "token_overlap_passed",
+      "warnings": [
+        "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+      ],
+      "fetched_at": "2026-09-10T02:46:20Z"
+    },
+    "icml-2024/yu24a": {
+      "paper_id": "icml-2024/yu24a",
+      "title": "Efficient Algorithms for Empirical Group Distributionally Robust Optimization and Beyond",
+      "corpus_source": "https://proceedings.mlr.press/v235/yu24a.html",
+      "source_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/yu24a/yu24a.pdf",
+      "pdf_sha256": "31f11cec020a9695ecb2fb1259f966113ab7a6c83acd3915e2878b15aa6c6fc8",
+      "text_sha256": "8fcff548f63e947018434c072c7fa424ace8936b287910ee35f5988726dcc2f2",
+      "parser": {
+        "schema": "paper-fulltext-v1",
+        "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+        "pymupdf": "1.28.0",
+        "pymupdf4llm": "1.28.0",
+        "pymupdf_layout": "1.28.0",
+        "tabulate": "0.9.0"
+      },
+      "parsed_at": "2026-09-11T07:43:52Z",
+      "extraction_mode": "pymupdf4llm-legacy-text",
+      "page_count": 31,
+      "title_check": "token_overlap_passed",
+      "warnings": [
+        "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+      ],
+      "fetched_at": "2026-09-11T00:59:17Z"
+    }
+  },
+  "events": [
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a"
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "title": "AUCSeg: AUC-oriented Pixel-level Long-tail Semantic Segmentation",
+        "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/e574db41163e700545ff4114f96b3d7a-Paper-Conference.pdf",
+        "pdf_sha256": "d3e3b1c2d8e7abf2000348eb306b8cfa8f4cdff61b5afe7e9c9f3cb11cc7950f",
+        "text_sha256": "1749487c25109390e7ceee5df66b91d450c507582b4a1986aae32e0dadda39fb",
+        "parser": {
+          "schema": "paper-fulltext-v1",
+          "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+          "pymupdf": "1.28.0",
+          "pymupdf4llm": "1.28.0",
+          "pymupdf_layout": "1.28.0",
+          "tabulate": "0.9.0"
+        },
+        "page_count": 45,
+        "warnings": [
+          "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+        ],
+        "cache_hit": true,
+        "outline": [
+          {
+            "chunk_id": "p001-c001",
+            "page": 1,
+            "section": "AUCSeg: AUC-oriented Pixel-level Long-tail** **Semantic Segmentation",
+            "chars": 74
+          },
+          {
+            "chunk_id": "p001-c002",
+            "page": 1,
+            "section": "Boyu Han** <sup>1</sup> <sup>_,_</sup> <sup>2</sup> **Qianqian Xu** <sup>1</sup> <sup>_,_</sup> <sup>3</sup> <sup>_∗_</sup> **Zhiyong Yang** <sup>2</sup> **Shil",
+            "chars": 777
+          },
+          {
+            "chunk_id": "p001-c003",
+            "page": 1,
+            "section": "Abstract",
+            "chars": 1345
+          },
+          {
+            "chunk_id": "p001-c004",
+            "page": 1,
+            "section": "1** **Introduction",
+            "chars": 1519
+          },
+          {
+            "chunk_id": "p002-c001",
+            "page": 2,
+            "section": "1** **Introduction",
+            "chars": 1930
+          },
+          {
+            "chunk_id": "p002-c002",
+            "page": 2,
+            "section": "1** **Introduction",
+            "chars": 1673
+          },
+          {
+            "chunk_id": "p002-c003",
+            "page": 2,
+            "section": "1** **Introduction",
+            "chars": 734
+          },
+          {
+            "chunk_id": "p003-c001",
+            "page": 3,
+            "section": "1** **Introduction",
+            "chars": 287
+          },
+          {
+            "chunk_id": "p003-c002",
+            "page": 3,
+            "section": "2** **Related Work",
+            "chars": 22
+          },
+          {
+            "chunk_id": "p003-c003",
+            "page": 3,
+            "section": "2.1** **Semantic Segmentation",
+            "chars": 1403
+          },
+          {
+            "chunk_id": "p003-c004",
+            "page": 3,
+            "section": "2.2** **AUC Optimization",
+            "chars": 1644
+          },
+          {
+            "chunk_id": "p003-c005",
+            "page": 3,
+            "section": "3** **Preliminaries",
+            "chars": 127
+          },
+          {
+            "chunk_id": "p003-c006",
+            "page": 3,
+            "section": "3.1** **Semantic Segmentation Training Framework",
+            "chars": 916
+          },
+          {
+            "chunk_id": "p004-c001",
+            "page": 4,
+            "section": "3.1** **Semantic Segmentation Training Framework",
+            "chars": 164
+          },
+          {
+            "chunk_id": "p004-c002",
+            "page": 4,
+            "section": "Y** ˆ",
+            "chars": 1038
+          },
+          {
+            "chunk_id": "p004-c003",
+            "page": 4,
+            "section": "Y** <sup>_ic_</sup> _u,v_ <sup>log(ˆ</sup> <sup>**Y**</sup>",
+            "chars": 698
+          },
+          {
+            "chunk_id": "p004-c004",
+            "page": 4,
+            "section": "3.2** **AUC Optimization",
+            "chars": 1917
+          },
+          {
+            "chunk_id": "p004-c005",
+            "page": 4,
+            "section": "4** **AUC-Oriented Semantic Segmentation",
+            "chars": 690
+          },
+          {
+            "chunk_id": "p005-c001",
+            "page": 5,
+            "section": "4** **AUC-Oriented Semantic Segmentation",
+            "chars": 32
+          },
+          {
+            "chunk_id": "p005-c002",
+            "page": 5,
+            "section": "4.1** **Pixel-level AUC Optimization",
+            "chars": 1939
+          },
+          {
+            "chunk_id": "p005-c003",
+            "page": 5,
+            "section": "4.1** **Pixel-level AUC Optimization",
+            "chars": 703
+          },
+          {
+            "chunk_id": "p005-c004",
+            "page": 5,
+            "section": "X** <sup>_p_</sup> _m_ <sup>_∈N_</sup> _c_",
+            "chars": 128
+          },
+          {
+            "chunk_id": "p005-c005",
+            "page": 5,
+            "section": "X** <sup>_p_</sup> _n_ <sup>_∈N_</sup> _c_ <sup>_′_</sup>",
+            "chars": 1167
+          },
+          {
+            "chunk_id": "p005-c006",
+            "page": 5,
+            "section": "4.2** **Generalization Bound",
+            "chars": 416
+          },
+          {
+            "chunk_id": "p006-c001",
+            "page": 6,
+            "section": "4.2** **Generalization Bound",
+            "chars": 627
+          },
+          {
+            "chunk_id": "p006-c002",
+            "page": 6,
+            "section": "Theorem 1** (Generalization Bound for AUCSeg) **.** _Let_ E _D_",
+            "chars": 1445
+          },
+          {
+            "chunk_id": "p006-c003",
+            "page": 6,
+            "section": "Theorem 1** (Generalization Bound for AUCSeg) **.** _Let_ E _D_",
+            "chars": 1089
+          },
+          {
+            "chunk_id": "p006-c004",
+            "page": 6,
+            "section": "Remark 1.** We achieve a bound of _O_ - _τ_ �log ( _τNk_ ) _/N_ <u>�, indicating reliable generalization with a</u>",
+            "chars": 432
+          },
+          {
+            "chunk_id": "p006-c005",
+            "page": 6,
+            "section": "Remark 1.** We achieve a bound of _O_",
+            "chars": 79
+          },
+          {
+            "chunk_id": "p006-c006",
+            "page": 6,
+            "section": "4.3** **Tail-class Memory Bank",
+            "chars": 34
+          }
+        ],
+        "next_outline_offset": 30,
+        "remaining_chars": 40000,
+        "note": "Opening a paper returns no body text. Use read_paper to obtain citable excerpts."
+      },
+      "seconds": 0.129
+    },
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/29021b06afa4c648ee438584f7ef3e7e"
+      },
+      "result": {
+        "status": "offline_cache_miss",
+        "paper_id": "neurips-2024/29021b06afa4c648ee438584f7ef3e7e",
+        "message": "This exact paper/parser version is not cached",
+        "note": "No full-text evidence returned by this call; read_abstract remains available"
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "outline_offset": 30
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "title": "AUCSeg: AUC-oriented Pixel-level Long-tail Semantic Segmentation",
+        "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/e574db41163e700545ff4114f96b3d7a-Paper-Conference.pdf",
+        "pdf_sha256": "d3e3b1c2d8e7abf2000348eb306b8cfa8f4cdff61b5afe7e9c9f3cb11cc7950f",
+        "text_sha256": "1749487c25109390e7ceee5df66b91d450c507582b4a1986aae32e0dadda39fb",
+        "parser": {
+          "schema": "paper-fulltext-v1",
+          "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+          "pymupdf": "1.28.0",
+          "pymupdf4llm": "1.28.0",
+          "pymupdf_layout": "1.28.0",
+          "tabulate": "0.9.0"
+        },
+        "page_count": 45,
+        "warnings": [
+          "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+        ],
+        "cache_hit": true,
+        "outline": [
+          {
+            "chunk_id": "p006-c007",
+            "page": 6,
+            "section": "Motivation.** Although we have examined the effectiveness of AUC for PLSS from the theoretical",
+            "chars": 1102
+          },
+          {
+            "chunk_id": "p006-c008",
+            "page": 6,
+            "section": "Proposition 1.** _Consider a dataset D_ _that includes images with K_ _different pixel categories._ _Let_",
+            "chars": 484
+          },
+          {
+            "chunk_id": "p006-c009",
+            "page": 6,
+            "section": "Remark** **2.** The proof is deferred to Appendix C. Proposition 1 suggests that the value of _B_ is",
+            "chars": 212
+          },
+          {
+            "chunk_id": "p007-c001",
+            "page": 7,
+            "section": "Remark** **2.** The proof is deferred to Appendix C. Proposition 1 suggests that the value of _B_ is",
+            "chars": 1087
+          },
+          {
+            "chunk_id": "p007-c002",
+            "page": 7,
+            "section": "X** <sup>_p_</sup>",
+            "chars": 20
+          },
+          {
+            "chunk_id": "p007-c003",
+            "page": 7,
+            "section": "X** _m_ <sup>_∈Nc∪Tc_</sup>",
+            "chars": 29
+          },
+          {
+            "chunk_id": "p007-c004",
+            "page": 7,
+            "section": "X** <sup>_p_</sup> <sup>_∈N_</sup> <sup>_′_</sup> <sup>_∪T_</sup> <sup>_′_</sup>",
+            "chars": 1132
+          },
+          {
+            "chunk_id": "p007-c005",
+            "page": 7,
+            "section": "Detailed Components.** As shown in Figure 2, T-Memory Bank comprises three main parts: **(1)",
+            "chars": 1407
+          },
+          {
+            "chunk_id": "p007-c006",
+            "page": 7,
+            "section": "Detailed Components.** As shown in Figure 2, T-Memory Bank comprises three main parts: **(1)",
+            "chars": 1560
+          },
+          {
+            "chunk_id": "p008-c001",
+            "page": 8,
+            "section": "<u>Algorithm 1:</u>** <u>AUCSeg Algorithm (Short Version)</u>",
+            "chars": 385
+          },
+          {
+            "chunk_id": "p008-c002",
+            "page": 8,
+            "section": "1** **for** _iter_ = 1 _to Tmax_ **do",
+            "chars": 41
+          },
+          {
+            "chunk_id": "p008-c003",
+            "page": 8,
+            "section": "2** _DB_ = _{_ ( **X** _i,_ **Y** _i_ ) _}_ <sup>_N_</sup> _i_ =1 <sup>_b_</sup>",
+            "chars": 192
+          },
+          {
+            "chunk_id": "p008-c004",
+            "page": 8,
+            "section": "3** _Cmiss_ _⊆Ct ←_ _MissingTailClasses_ ( _DB_ );",
+            "chars": 52
+          },
+          {
+            "chunk_id": "p008-c005",
+            "page": 8,
+            "section": "4** _Cmiss_ = _Ct_ _−Cmiss_ ;",
+            "chars": 31
+          },
+          {
+            "chunk_id": "p008-c006",
+            "page": 8,
+            "section": "5** - **for** _<u>cm</u>_ _in Cmiss_ **do",
+            "chars": 45
+          },
+          {
+            "chunk_id": "p008-c007",
+            "page": 8,
+            "section": "6** Extract pixels of class _<u>cm</u>_ from _DB_ and save them to _~~M~~_ _<u>cm</u>_ _←_ _RandomReplace_ ( _SM_ );",
+            "chars": 118
+          },
+          {
+            "chunk_id": "p008-c008",
+            "page": 8,
+            "section": "7** - **for** _i_ = 1 _to ⌈|Cmiss| × RS⌉_ **do",
+            "chars": 50
+          },
+          {
+            "chunk_id": "p008-c009",
+            "page": 8,
+            "section": "8** Randomly choose _cm_ from _Cmiss_ and sample pixels from _Mcm_ to paste into _DB_ _←_",
+            "chars": 114
+          },
+          {
+            "chunk_id": "p008-c010",
+            "page": 8,
+            "section": "9** - Calculate **Y** <sup>ˆ</sup> _i_ = _fθ_ ( **X** _i_ ) and _ℓ_ = _ℓ_ <sup>˜</sup> _auc_ + _λℓce_ ;",
+            "chars": 105
+          },
+          {
+            "chunk_id": "p008-c011",
+            "page": 8,
+            "section": "10** Backpropagation updates _θ_ .",
+            "chars": 36
+          },
+          {
+            "chunk_id": "p008-c012",
+            "page": 8,
+            "section": "Discussions.** We recognize that Memory Bank [82, 36] has achieved great success in deep",
+            "chars": 1008
+          },
+          {
+            "chunk_id": "p008-c013",
+            "page": 8,
+            "section": "5** **Experiments",
+            "chars": 221
+          },
+          {
+            "chunk_id": "p008-c014",
+            "page": 8,
+            "section": "5.1** **Experimental Setups",
+            "chars": 614
+          },
+          {
+            "chunk_id": "p008-c015",
+            "page": 8,
+            "section": "5.2** **Overall Performance",
+            "chars": 1032
+          },
+          {
+            "chunk_id": "p009-c001",
+            "page": 9,
+            "section": "5.2** **Overall Performance",
+            "chars": 215
+          },
+          {
+            "chunk_id": "p009-c002",
+            "page": 9,
+            "section": "Method",
+            "chars": 10
+          },
+          {
+            "chunk_id": "p009-c003",
+            "page": 9,
+            "section": "ADE20K** **Cityscapes** **COCO-Stuff 164K",
+            "chars": 168
+          },
+          {
+            "chunk_id": "p009-c004",
+            "page": 9,
+            "section": "ADE20K** **Cityscapes** **COCO-Stuff 164K",
+            "chars": 2000
+          },
+          {
+            "chunk_id": "p009-c005",
+            "page": 9,
+            "section": "ADE20K** **Cityscapes** **COCO-Stuff 164K",
+            "chars": 1035
+          },
+          {
+            "chunk_id": "p009-c006",
+            "page": 9,
+            "section": "ADE20K** **Cityscapes** **COCO-Stuff 164K",
+            "chars": 1736
+          }
+        ],
+        "next_outline_offset": 60,
+        "remaining_chars": 40000,
+        "note": "Opening a paper returns no body text. Use read_paper to obtain citable excerpts."
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "icml-2024/yu24a"
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "icml-2024/yu24a",
+        "title": "Efficient Algorithms for Empirical Group Distributionally Robust Optimization and Beyond",
+        "source_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/yu24a/yu24a.pdf",
+        "pdf_sha256": "31f11cec020a9695ecb2fb1259f966113ab7a6c83acd3915e2878b15aa6c6fc8",
+        "text_sha256": "8fcff548f63e947018434c072c7fa424ace8936b287910ee35f5988726dcc2f2",
+        "parser": {
+          "schema": "paper-fulltext-v1",
+          "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+          "pymupdf": "1.28.0",
+          "pymupdf4llm": "1.28.0",
+          "pymupdf_layout": "1.28.0",
+          "tabulate": "0.9.0"
+        },
+        "page_count": 31,
+        "warnings": [
+          "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+        ],
+        "cache_hit": true,
+        "outline": [
+          {
+            "chunk_id": "p001-c001",
+            "page": 1,
+            "section": "Efficient Algorithms for Empirical** **Group Distributionally Robust Optimization and Beyond",
+            "chars": 98
+          },
+          {
+            "chunk_id": "p001-c002",
+            "page": 1,
+            "section": "Dingzhi Yu** <sup>1 2</sup> **Yunuo Cai** <sup>2</sup> **Wei Jiang** <sup>1</sup> **Lijun Zhang** <sup>1 3</sup>",
+            "chars": 114
+          },
+          {
+            "chunk_id": "p001-c003",
+            "page": 1,
+            "section": "Abstract",
+            "chars": 1174
+          },
+          {
+            "chunk_id": "p001-c004",
+            "page": 1,
+            "section": "w** min _∈W_ _i_ <sup>max</sup> _∈_ [ _m_ ] <sup>E</sup> <sup>_ξ∼Pi_</sup> <sup>[</sup> <sup>_ℓ_</sup> <sup>(</sup> <sup>**w**</sup> <sup>;</sup> <sup>_ξ_</sup>",
+            "chars": 1651
+          },
+          {
+            "chunk_id": "p001-c005",
+            "page": 1,
+            "section": "1. Introduction",
+            "chars": 1778
+          },
+          {
+            "chunk_id": "p002-c001",
+            "page": 2,
+            "section": "<u>Effcient Algorithms for Empirical Group Distributionally Robust Optimization and Beyond</u>",
+            "chars": 1253
+          },
+          {
+            "chunk_id": "p002-c002",
+            "page": 2,
+            "section": "<u>Effcient Algorithms for Empirical Group Distributionally Robust Optimization and Beyond</u>",
+            "chars": 1426
+          },
+          {
+            "chunk_id": "p002-c003",
+            "page": 2,
+            "section": "2. Related Work",
+            "chars": 177
+          },
+          {
+            "chunk_id": "p002-c004",
+            "page": 2,
+            "section": "2.1. Group Distributionally Robust Optimization",
+            "chars": 1820
+          },
+          {
+            "chunk_id": "p002-c005",
+            "page": 2,
+            "section": "2.2. Empirical GDRO and Empirical MERO",
+            "chars": 1970
+          },
+          {
+            "chunk_id": "p002-c006",
+            "page": 2,
+            "section": "2.2. Empirical GDRO and Empirical MERO",
+            "chars": 1551
+          },
+          {
+            "chunk_id": "p002-c007",
+            "page": 2,
+            "section": "q** _iRi_ ( **w** ) _,_ (5)",
+            "chars": 761
+          },
+          {
+            "chunk_id": "p003-c001",
+            "page": 3,
+            "section": "<u>Effcient Algorithms for Empirical Group Distributionally Robust Optimization and Beyond</u>",
+            "chars": 181
+          },
+          {
+            "chunk_id": "p003-c002",
+            "page": 3,
+            "section": "Algorithm** **Computation Complexity",
+            "chars": 1117
+          },
+          {
+            "chunk_id": "p003-c003",
+            "page": 3,
+            "section": "ALEG** (Theorem 4.4 and Corollary 4.6) _<u>O</u>_",
+            "chars": 1844
+          },
+          {
+            "chunk_id": "p003-c004",
+            "page": 3,
+            "section": "2.3. Finite-Sum Convex-Concave Optimization",
+            "chars": 365
+          },
+          {
+            "chunk_id": "p003-c005",
+            "page": 3,
+            "section": "2.4. Complexity Comparisons",
+            "chars": 1779
+          },
+          {
+            "chunk_id": "p003-c006",
+            "page": 3,
+            "section": "2.4. Complexity Comparisons",
+            "chars": 1274
+          },
+          {
+            "chunk_id": "p004-c001",
+            "page": 4,
+            "section": "<u>Effcient Algorithms for Empirical Group Distributionally Robust Optimization and Beyond</u>",
+            "chars": 550
+          },
+          {
+            "chunk_id": "p004-c002",
+            "page": 4,
+            "section": "Assumption 3.3.** (Boundness on the domain) The domain",
+            "chars": 235
+          },
+          {
+            "chunk_id": "p004-c003",
+            "page": 4,
+            "section": "w** <sup>min</sup> _∈W_ <sup>_ψw_</sup> <sup>(</sup> <sup>**w**</sup> <sup>)</sup> <sup>_≤_</sup> <sup>_D_</sup> <sup>2</sup>",
+            "chars": 956
+          },
+          {
+            "chunk_id": "p004-c004",
+            "page": 4,
+            "section": "3. Preliminaries",
+            "chars": 127
+          },
+          {
+            "chunk_id": "p004-c005",
+            "page": 4,
+            "section": "3.1. Notations",
+            "chars": 688
+          },
+          {
+            "chunk_id": "p004-c006",
+            "page": 4,
+            "section": "3.2. Definitions and Assumptions",
+            "chars": 204
+          },
+          {
+            "chunk_id": "p004-c007",
+            "page": 4,
+            "section": "Definition 3.1.** We call a continuous function _ψx_ : _X_ R",
+            "chars": 544
+          },
+          {
+            "chunk_id": "p004-c008",
+            "page": 4,
+            "section": "Definition 3.2.** Define Bregman function _Bx_ : _X_ _X_ <sup>_o_</sup>",
+            "chars": 1077
+          },
+          {
+            "chunk_id": "p004-c009",
+            "page": 4,
+            "section": "Assumption** **3.4.** (Smoothness and Lipschitz continuity)",
+            "chars": 323
+          },
+          {
+            "chunk_id": "p004-c010",
+            "page": 4,
+            "section": "Assumption 3.6.** (Convexity) For every _i ∈_ [ _m_ ], empirical",
+            "chars": 297
+          },
+          {
+            "chunk_id": "p004-c011",
+            "page": 4,
+            "section": "3.3. Bregman Setups",
+            "chars": 663
+          },
+          {
+            "chunk_id": "p004-c012",
+            "page": 4,
+            "section": "z** <sup>_∗_</sup> _∗_ :=",
+            "chars": 1244
+          }
+        ],
+        "next_outline_offset": 30,
+        "remaining_chars": 40000,
+        "note": "Opening a paper returns no body text. Use read_paper to obtain citable excerpts."
+      },
+      "seconds": 0.439
+    },
+    {
+      "tool": "read_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "chunk_ids": [
+          "p002-c001",
+          "p002-c002",
+          "p005-c002"
+        ]
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "pdf_sha256": "d3e3b1c2d8e7abf2000348eb306b8cfa8f4cdff61b5afe7e9c9f3cb11cc7950f",
+        "text_sha256": "1749487c25109390e7ceee5df66b91d450c507582b4a1986aae32e0dadda39fb",
+        "chunks": [
+          {
+            "chunk_id": "p002-c001",
+            "page": 2,
+            "section": "1** **Introduction",
+            "chars": 1930,
+            "text": "Currently, mainstream studies fall into two camps. One is to develop carefully designed backbones\nfor long-tail distributions but leave the effect of loss functions unconsidered. The other is to conduct\nempirical studies on the loss functions without exploring their theoretical impact on the generalization\nperformance. A question then arises naturally:\n\n_Can we find a theoretically grounded loss function for PLSS on top of SOTA backbones?_\n\nThis paper provides an affirmative answer\nfrom the AUC perspective and proposes a\nnovel framework called _AUC-oriented_ _Pixel-_\n_level_ _Long-tail_ _Semantic_ _Segmentation_ _(AUC-_\n_Seg)_ . Specifically, AUC indicates the likelihood\nthat a positive sample scores higher than a negative one, which has been proven to be **insen-**\n**sitive** to data distribution [86, 101]. Applying\nAUC to **instance-level long-tail** classifications\nhas shown promising progress in the machine\nlearning community [86, 100, 88, 68]. Motivated by its success, this paper starts an early\ntrial to study AUC optimization for PLSS. The\nprimary concern is to study its effectiveness for\nPLSS from a theoretical perspective. The key\nchallenge is that the standard techniques for generalization analysis [62, 8, 21] require the loss\n\nFigure 1:\n\nfunction to be expressed as a sum of indepen\neach class in the Cityscapes\n\ndent terms. Unfortunately, the proposed loss\nfunction does not satisfy this assumption due\nto the dual effect of structured inner-image de\nSeg).\n\npendency and pairwise inter-image dependency.\n\nmance, particularly for tail\n\nThis complicated structure poses a big challenge\nto understanding its generalization behavior. To\naddress this, we decompose the loss function\n\nhead, middle, and tail classes.\n\ninto inner-image and inter-image terms. On top\nof this reformulation, we deploy the dependency\n\ngraph [103] to decouple the interdependency. Finally, we reach a bound of _O_\n\n<sup>�</sup>"
+          },
+          {
+            "chunk_id": "p002-c002",
+            "page": 2,
+            "section": "1** **Introduction",
+            "chars": 1673,
+            "text": "Figure 1: Statistic information of pixel number for\neach class in the Cityscapes training set and the\nperformance of previous methods (DeepLabV3+,\nHRNet and STDC) compared to our method (AUCSeg). Our method aims to improve overall performance, particularly for tail classes. The dashed\nlines represent mIoU values for each class, while\nthe solid lines represent the average mIoU for the\nhead, middle, and tail classes.\n\ngraph [103] to decouple the interdependency. Finally, we reach a bound of _O_ - _τ_ �log ( _τNk_ ) _/N_ <u>�,</u>\n\n<sup>�</sup>\n\nwhere _τ_ behaves like an indicator for imbalance degree, and _k_ denotes the number of pixels in each\nimage. This suggests optimizing AUC loss could ensure a promising performance under PLSS.\n\nBack to the practical AUC learning process, we realize that the stochastic gradient optimization\n(SGD) for structured pixel-level tasks imposes a greater computational burden compared to instancelevel long-tail problems. Specifically, the SGD algorithm of AUC requires **at** **least** **one** **sample**\n**from each class in each mini-batch** [99, 85]. In light of this, the primary choice is to adopt the\nso-called stratified sampling on all images [70, 60, 86] for mini-batch generation (See Equation (7)).\nUnfortunately, as shown in Figure 3(a) and (b), this is hard to implement under PLSS because\n**pixel-level labels are densely coupled in each image** . Meanwhile, as shown in Proposition 1, we\nalso argue that directly using random sampling to include all classes would require an extremely large\nbatch size. This leads to unaffordable GPU memory demands for optimization, as described in the\nexperiments in Appendix G.6."
+          },
+          {
+            "chunk_id": "p005-c002",
+            "page": 5,
+            "section": "4.1** **Pixel-level AUC Optimization",
+            "chars": 1939,
+            "text": "**4.1** **Pixel-level AUC Optimization**\n\nSemantic segmentation is a multi-class classification task. Therefore, to apply AUC, we follow\na popular multi-class AUC manner, _i.e._, the One vs. One (ovo) strategy [64, 34, 86], which is\nan average of binary AUC score introduced in Section 3.2. Specifically, on top of the notation of\nSection 3.1, we further denote _D_ <sup>_p_</sup> = _{_ ( **X** <sup>_i_</sup> _u,v_ <sup>_,_</sup> <sup>**Y**</sup> <sup>_i_</sup> _u,v_ <sup>)</sup> <sup>_|i ∈_</sup> <sup>[1</sup> <sup>_, n_</sup> <sup>]</sup> <sup>_, u ∈_</sup> <sup>[0</sup> <sup>_, H −_</sup> <sup>1]</sup> <sup>_, v_</sup> <sup>_∈_</sup> <sup>[0</sup> <sup>_, W_</sup> <sup>_−_</sup> <sup>1]</sup> <sup>_}_</sup> <sup>as the</sup>\n\nset of all pixels; the _j_ -th element ( _j_ _∈_ [1 _, n ×_ ( _H −_ 1) _×_ ( _W_ _−_ 1)]) in _D_ <sup>_p_</sup> is abbreviated as ( **X** <sup>_p,_</sup> <sup>**Y**</sup> <sup>_p_</sup> <sup>)</sup>\n\n<sup>_i_</sup> _u,v_ <sup>_,_</sup> <sup>**Y**</sup> <sup>_i_</sup>\n\n<sup>_p_</sup> _j_ <sup>_,_</sup> <sup>**Y**</sup> <sup>_p_</sup> _j_\n\n_j_ <sup>)</sup>\n\nfor convenience. Given the model prediction _fθ_ = ( _fθ_ <sup>(1)</sup>\n\n_θ_ <sup>(1)</sup> _, . . ., fθ_ <sup>(</sup> <sup>_K_</sup> <sup>)</sup>\n\n_θ_ <sup>(</sup> <sup>_K_</sup> <sup>)</sup> ), _∀c ∈_ [ _K_ ], _fθ_ <sup>(</sup> <sup>_c_</sup> <sup>)</sup>\n\nfor convenience. Given the model prediction _fθ_ = ( _fθ_ _, . . ., fθ_ ), _∀c ∈_ [ _K_ ], _fθ_ _∈_ [0 _,_ 1], where\n\n_fθ_ <sup>(</sup> <sup>_c_</sup> <sup>)</sup> serves as a continuous score function supporting class _c_, _AUCseg_ <sup>_ovo_</sup> <sup>calculates</sup> <sup>the</sup> <sup>average</sup> <sup>of</sup>\n\nbinary AUC scores for every class pair:\n\n_θ_ serves as a continuous score function supporting class _c_, _AUCseg_ <sup>_ovo_</sup>\n\n<u>1</u>\n\n_AUCseg_ <sup>_ovo_</sup> <sup>=</sup>\n\n_K_ ( _K −_ 1)\n\n_K_\n\n-\n\n_c_ =1 _c_ = _c_ <sup>_′_</sup>\n\n_AUCcc′_ ( _fθ_ ) _,_ (6)"
+          }
+        ],
+        "not_returned_chunk_ids": [],
+        "remaining_chars": 34458,
+        "remaining_read_calls": 11
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "read_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "chunk_ids": [
+          "p006-c007",
+          "p007-c001",
+          "p007-c004",
+          "p007-c005",
+          "p007-c006",
+          "p008-c012"
+        ]
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "pdf_sha256": "d3e3b1c2d8e7abf2000348eb306b8cfa8f4cdff61b5afe7e9c9f3cb11cc7950f",
+        "text_sha256": "1749487c25109390e7ceee5df66b91d450c507582b4a1986aae32e0dadda39fb",
+        "chunks": [
+          {
+            "chunk_id": "p006-c007",
+            "page": 6,
+            "section": "Motivation.** Although we have examined the effectiveness of AUC for PLSS from the theoretical",
+            "chars": 1102,
+            "text": "**Motivation.** Although we have examined the effectiveness of AUC for PLSS from the theoretical\npoint of view, there is **a** **practical** **challenge** when conducting AUC optimization for semantic\nsegmentation, as discussed in Section 1. Specifically, the stochastic AUC optimization, as defined in\nEquation (7), requires **at least one sample from each class** in a mini-batch. In **instance-level AUC**\n**optimization**, recent studies [87, 86] often use a stratified sampling technique that generates batches\nconsistent with the original class distribution, as shown in Figure 3(a). Such a strategy will work well\nwhen each image belongs to a unique category (say, ‘Banana’, ‘Apple’, or ‘Lemon’) in traditional\nclassifications. Yet it cannot apply to pixel-level cases because each sample involves multiple and\ncoupled labels, making it hard to split them for stratified sampling, as illustrated in Figure 3(b).\nMeanwhile, we also provide a bound (Proposition 1) to show that simply adopting random sampling\nwill suffer from an overlarge batch size _B_, making an unaffordable GPU memory burden."
+          },
+          {
+            "chunk_id": "p007-c001",
+            "page": 7,
+            "section": "Remark** **2.** The proof is deferred to Appendix C. Proposition 1 suggests that the value of _B_ is",
+            "chars": 1087,
+            "text": "Figure 3: Instance-level and pixel-level task sampling.\n\nsevere, leading to a larger _B_ . For example, in terms of the Cityscapes dataset with _K_ = 19 classes,\nassuming _δ_ = 0 _._ 01 and min _i pi_ = 1%, _B_ should be at least 759 to guarantee that each class of pixels\nappears at least once with a high probability. This results in a significant strain on GPU memory.\n\nTo address this, considering that the tail-class samples generally have less opportunity to be included\nin a mini-batch and are often more crucial for final performance, we thus develop a novel Tailclass Memory Bank (T-Memory Bank) to efficiently optimize Equation (7) and manage GPU usage\neffectively. As depicted in Figure 3(c), the high-level ideas of the T-Memory Bank are as follows: 1)\nidentify missing tail classes of all images involved in a mini-batch and 2) randomly replace some\npixels in the image with missing classes based on stored historical class information in T-Memory\nBank. In this sense, we can obtain an approximated batch-version of Equation (7), _i.e._,\n\n_c_ <sup>_′_</sup> = _c_\n_ncnc′_ =0"
+          },
+          {
+            "chunk_id": "p007-c004",
+            "page": 7,
+            "section": "X** <sup>_p_</sup> <sup>_∈N_</sup> <sup>_′_</sup> <sup>_∪T_</sup> <sup>_′_</sup>",
+            "chars": 1132,
+            "text": "**X** <sup>_p_</sup> <sup>_∈N_</sup> <sup>_′_</sup> <sup>_∪T_</sup> <sup>_′_</sup>\n\n_n_ <sup>_∈N_</sup> _c_ <sup>_′_</sup> <sup>_∪T_</sup> _c_ <sup>_′_</sup>\n\n_ℓ_ ˜ <sup>_c,c_</sup> _sq_ <sup>_′,m,n_</sup> (8)\n\n_ℓ_ ˜ _auc_ :=\n\n_K_\n\n_c_ =1\n\n<u>1</u>\n_|Nc||Nc′|_\n\nwhere _Nc_ and _Tc_ represent the set of pixels with label _c_ in the original image and those pixels stored\nin the T-Memory Bank, respectively; _ℓ_ <sup>˜</sup> <sup>_c,c′,m,n_</sup> := _ℓsq_ ( _f_ <sup>(</sup> <sup>_c_</sup> <sup>)(˜</sup> <sup>**X**</sup> _p_ <sup>)</sup> <sup>_−_</sup> <sup>_f_</sup> <sup>(</sup> <sup>_c_</sup> <sup>)(˜</sup> <sup>**X**</sup> _p_ <sup>));</sup> <sup>**X**</sup> <sup>˜</sup> _p_ represents the\n\nin the T-Memory Bank, respectively; _ℓ_ <sup>˜</sup> <sup>_c,c_</sup> _sq_ <sup>_′,m,n_</sup> := _ℓsq_ ( _fθ_ <sup>(</sup> <sup>_c_</sup> <sup>)(˜</sup> <sup>**X**</sup> _pm_ <sup>)</sup> <sup>_−_</sup> <sup>_f_</sup> _θ_ <sup>(</sup> <sup>_c_</sup> <sup>)(˜</sup> <sup>**X**</sup> _pn_ <sup>));</sup> <sup>**X**</sup> <sup>˜</sup> _p_ represents the\n\nsample after replacing some pixels with tail classes pixels from the T-Memory Bank."
+          },
+          {
+            "chunk_id": "p007-c005",
+            "page": 7,
+            "section": "Detailed Components.** As shown in Figure 2, T-Memory Bank comprises three main parts: **(1)",
+            "chars": 1407,
+            "text": "**Detailed Components.** As shown in Figure 2, T-Memory Bank comprises three main parts: **(1)**\n**Memory Branch** stores a set with _SM_ (the Memory Size) images for each tail class. We define the\nset as _M_ = _{Mc_ 1 _, . . ., Mcnt_ _}_, where _Ct_ = _{ci}_ <sup>_n_</sup> _i_ =1 <sup>_t_</sup> <sup>denotes the labels of tail classes, and</sup> <sup>_nt_</sup> <sup>is the</sup>\n\ntotal number of selected tail classes; **(2) Retrieve Branch** selects pixels from the Memory Branch to\nsupplement the missing tail classes and **(3) Store Branch** updates the Memory Branch whenever a\nnew image arrives. Algorithm 1 summarizes a short version of AUCSeg equipped with T-Memory\nBank. **Please refer to the detailed version in Appendix D.** Note that we introduce CE loss as a\nregularization term for our proposed AUCSeg, which is widely used in the AUC community [99] to\npursue robust feature learning. Experiments demonstrate that the performance is insensitive to the\nregularization weight _λ_, as shown in Figure 5d.\n\n_pn_ <sup>));</sup> <sup>**X**</sup> <sup>˜</sup>\n\n<sup>_c,c_</sup> _sq_ <sup>_′,m,n_</sup> := _ℓsq_ ( _fθ_ <sup>(</sup> <sup>_c_</sup> <sup>)</sup>\n\n_p_\n_m_ <sup>)</sup> <sup>_−_</sup> <sup>_f_</sup> _θ_ <sup>(</sup> <sup>_c_</sup> <sup>)</sup>\n\n<sup>(</sup> <sup>_c_</sup> <sup>)</sup>\n\n_θ_ <sup>(˜</sup> <sup>**X**</sup>\n\n_θ_ <sup>(</sup> <sup>_c_</sup> <sup>)(˜</sup> <sup>**X**</sup>"
+          },
+          {
+            "chunk_id": "p007-c006",
+            "page": 7,
+            "section": "Detailed Components.** As shown in Figure 2, T-Memory Bank comprises three main parts: **(1)",
+            "chars": 1560,
+            "text": "**Detailed Components.** As shown in Figure 2, T-Memory Bank comprises three main parts: **(1)**\n**Memory Branch** stores a set with _SM_ (the Memory Size) images for each tail class. We define the\nset as _M_ = _{Mc_ 1 _, . . ., Mcnt_ _}_, where _Ct_ = _{ci}_ <sup>_n_</sup> _i_ =1 <sup>_t_</sup> <sup>denotes the labels of tail classes, and</sup> <sup>_nt_</sup> <sup>is the</sup>\n\nAt the start of training, the Memory Branch is empty. In this case, we only calculate the loss\nfunction _ℓ_ for the classes present in the mini-batch, while the Retrieve Branch will not take any action.\nMeanwhile, the Store Branch will continuously append pixel data of tail classes to the Memory\nBranch. As the Memory Branch reaches its maximum capacity _SM_, we adopt a random replacement\nstrategy to update the Store Branch (Lines 5 to 6 in Algorithm 1 or Lines 6 to 11 in Algorithm 2).\n\nAs the training process progresses, if the Memory Branch is not empty, the Retrieve Branch kicks in\nto count the missing classes in each image of the mini-batch, denoted as _Cmiss_ . It then calculates\nthe number of classes needed to be added for optimization, _nsample_ = _⌈|Cmiss| × RS⌉_ . Here, we\nintroduce a tunable sample ratio _RS_ to strike a trade-off between the original and missing tail-class\nsemantic information. Finally, it uniformly retrieves the corresponding pixels of _nsample_ missing\nclasses from the Memory Branch, resizes them by the resize ratio _RR_, and randomly selects positions\nto overwrite (Lines 7 to 8 in Algorithm 1 or Lines 13 to 18 in Algorithm 2).\n\n7"
+          },
+          {
+            "chunk_id": "p008-c012",
+            "page": 8,
+            "section": "Discussions.** We recognize that Memory Bank [82, 36] has achieved great success in deep",
+            "chars": 1008,
+            "text": "**Discussions.** We recognize that Memory Bank [82, 36] has achieved great success in deep\nlearning. However, our T-Memory Bank behaves differently compared to earlier studies. **The**\n**key** **difference** **is** **that** **the** **Memory** **Bank** **and** **T-Memory** **Bank** **are** **designed** **for** **different**\n**tasks.** The goal of the previous Memory Bank is to facilitate the traditional classifications by\nstoring <u>instance-level or image-level features,</u> while our T-Memory Bank specifically stores the\n<u>original pixels</u> <u>for</u> <u>each</u> <u>object.</u> <u>This</u> <u>strategy</u> is particularly beneficial for our PLSS task. Addi<u>tionally, the T-Memory Bank enables AUCSeg without substantially increasing GPU workload as</u>\nwell as the number of samples per mini-batch by selectively replacing non-essential pixels. Our\nexperiments, detailed in Appendix G.6, include a comparison of GPU overhead. For more discussion\non the T-Memory Bank, please refer to Appendix E."
+          }
+        ],
+        "not_returned_chunk_ids": [],
+        "remaining_chars": 27162,
+        "remaining_read_calls": 10
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "outline_offset": 60
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "title": "AUCSeg: AUC-oriented Pixel-level Long-tail Semantic Segmentation",
+        "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/e574db41163e700545ff4114f96b3d7a-Paper-Conference.pdf",
+        "pdf_sha256": "d3e3b1c2d8e7abf2000348eb306b8cfa8f4cdff61b5afe7e9c9f3cb11cc7950f",
+        "text_sha256": "1749487c25109390e7ceee5df66b91d450c507582b4a1986aae32e0dadda39fb",
+        "parser": {
+          "schema": "paper-fulltext-v1",
+          "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+          "pymupdf": "1.28.0",
+          "pymupdf4llm": "1.28.0",
+          "pymupdf_layout": "1.28.0",
+          "tabulate": "0.9.0"
+        },
+        "page_count": 45,
+        "warnings": [
+          "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+        ],
+        "cache_hit": true,
+        "outline": [
+          {
+            "chunk_id": "p009-c007",
+            "page": 9,
+            "section": "ADE20K** **Cityscapes** **COCO-Stuff 164K",
+            "chars": 880
+          },
+          {
+            "chunk_id": "p009-c008",
+            "page": 9,
+            "section": "5.3** **Backbone Extension",
+            "chars": 752
+          },
+          {
+            "chunk_id": "p009-c009",
+            "page": 9,
+            "section": "5.4** **Ablation studies",
+            "chars": 104
+          },
+          {
+            "chunk_id": "p009-c010",
+            "page": 9,
+            "section": "Backbone** **AUCSeg** **Overall** **Tail",
+            "chars": 400
+          },
+          {
+            "chunk_id": "p010-c001",
+            "page": 10,
+            "section": "Backbone** **AUCSeg** **Overall** **Tail",
+            "chars": 238
+          },
+          {
+            "chunk_id": "p010-c002",
+            "page": 10,
+            "section": "<u>Overall</u>",
+            "chars": 18
+          },
+          {
+            "chunk_id": "p010-c003",
+            "page": 10,
+            "section": "~~<u>Tail</u>~~",
+            "chars": 361
+          },
+          {
+            "chunk_id": "p010-c004",
+            "page": 10,
+            "section": "The Effectiveness of AUC Optimization and** Table 3: Ablation study on the effectiveness of",
+            "chars": 944
+          },
+          {
+            "chunk_id": "p010-c005",
+            "page": 10,
+            "section": "Ablation Study on Hyper-Parameters.** Figure 5a ablates the maximum number of images stored",
+            "chars": 1197
+          },
+          {
+            "chunk_id": "p010-c006",
+            "page": 10,
+            "section": "Model** **AUC** **TMB** **Overall** **Tail",
+            "chars": 150
+          },
+          {
+            "chunk_id": "p010-c007",
+            "page": 10,
+            "section": "Ablation Study on Hyper-Parameters.** Figure 5a ablates the maximum number of images stored",
+            "chars": 983
+          },
+          {
+            "chunk_id": "p010-c008",
+            "page": 10,
+            "section": "6** **Conclusion",
+            "chars": 592
+          },
+          {
+            "chunk_id": "p011-c001",
+            "page": 11,
+            "section": "Acknowledgments",
+            "chars": 686
+          },
+          {
+            "chunk_id": "p011-c002",
+            "page": 11,
+            "section": "References",
+            "chars": 1996
+          },
+          {
+            "chunk_id": "p011-c003",
+            "page": 11,
+            "section": "References",
+            "chars": 1003
+          },
+          {
+            "chunk_id": "p012-c001",
+            "page": 12,
+            "section": "References",
+            "chars": 1964
+          },
+          {
+            "chunk_id": "p012-c002",
+            "page": 12,
+            "section": "References",
+            "chars": 1993
+          },
+          {
+            "chunk_id": "p013-c001",
+            "page": 13,
+            "section": "References",
+            "chars": 1973
+          },
+          {
+            "chunk_id": "p013-c002",
+            "page": 13,
+            "section": "References",
+            "chars": 1725
+          },
+          {
+            "chunk_id": "p014-c001",
+            "page": 14,
+            "section": "References",
+            "chars": 1998
+          },
+          {
+            "chunk_id": "p014-c002",
+            "page": 14,
+            "section": "References",
+            "chars": 1939
+          },
+          {
+            "chunk_id": "p015-c001",
+            "page": 15,
+            "section": "References",
+            "chars": 1965
+          },
+          {
+            "chunk_id": "p015-c002",
+            "page": 15,
+            "section": "References",
+            "chars": 1902
+          },
+          {
+            "chunk_id": "p016-c001",
+            "page": 16,
+            "section": "References",
+            "chars": 901
+          },
+          {
+            "chunk_id": "p017-c001",
+            "page": 17,
+            "section": "Contents",
+            "chars": 15
+          },
+          {
+            "chunk_id": "p017-c002",
+            "page": 17,
+            "section": "A** **Symbol Definitions** **18",
+            "chars": 35
+          },
+          {
+            "chunk_id": "p017-c003",
+            "page": 17,
+            "section": "B** **Generalization Bounds and Its Proofs** **18",
+            "chars": 334
+          },
+          {
+            "chunk_id": "p017-c004",
+            "page": 17,
+            "section": "C** **Proof for Propositions of Tail-class Memory Bank** **26",
+            "chars": 65
+          },
+          {
+            "chunk_id": "p017-c005",
+            "page": 17,
+            "section": "D** **Details of T-Memory Bank Algorithm** **27",
+            "chars": 51
+          },
+          {
+            "chunk_id": "p017-c006",
+            "page": 17,
+            "section": "E** **More Discussions about T-Memory Bank** **27",
+            "chars": 326
+          }
+        ],
+        "next_outline_offset": 90,
+        "remaining_chars": 27162,
+        "note": "Opening a paper returns no body text. Use read_paper to obtain citable excerpts."
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "read_paper",
+      "arguments": {
+        "paper_id": "icml-2024/yu24a",
+        "chunk_ids": [
+          "p002-c006",
+          "p002-c007",
+          "p004-c001",
+          "p004-c009",
+          "p004-c010"
+        ]
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "icml-2024/yu24a",
+        "pdf_sha256": "31f11cec020a9695ecb2fb1259f966113ab7a6c83acd3915e2878b15aa6c6fc8",
+        "text_sha256": "8fcff548f63e947018434c072c7fa424ace8936b287910ee35f5988726dcc2f2",
+        "chunks": [
+          {
+            "chunk_id": "p002-c006",
+            "page": 2,
+            "section": "2.2. Empirical GDRO and Empirical MERO",
+            "chars": 1551,
+            "text": "<sup>_<u>m</u>_</sup> <sup><u>(</u></sup> <sup>_<u>mn</u>_</sup> <sup><u>¯)3</u></sup> <sup>_/_</sup> <sup>4</sup>\n\n_ε_ <sup>) +</sup> _ε_\n\nmin\n**w** _∈W_ _i_ <sup>max</sup> _∈_ [ _m_\n\n_i_ (4)\n\n<sup>_},_</sup>\n\n_ε_ <sup><u>)</u></sup> ln <sup>7</sup> <sup>_/_</sup> <sup>2</sup> ( <sup><u>ln</u></sup> _ε_ <sup>_<u>m</u>_</sup>\n\nwhere we define _R_ <sup>_∗_</sup>\n\nwhere we define _Ri_ := min **w** _∈W Ri_ ( **w** ) as the mini\nmal empirical risk of group _i_, usually unknown. Compared with empirical GDRO, empirical MERO replaces\nthe raw empirical risk _Ri_ ( **w** ) with the _excess empirical risk_\n_<u>Ri</u>_ ( **w** ) := _Ri_ ( **w** ) _−_ _Ri_ <sup>_∗_</sup> <sup>to cope with heterogeneous noise.</sup>\n\n_<u>Ri</u>_ ( **w** ) := _Ri_ ( **w** ) _−_ _Ri_ <sup>to cope with heterogeneous noise.</sup>\n\nWe provide an efficient two-stage **Al** gorithm for **E** mpirical\n**M** ERO (ALEM) by following the two-stage schema (Zhang\net al., 2024), and making use of our empirical GDRO algorithm. In the first stage, _Ri_ <sup>_∗_</sup> <sup>is estimated by an approx-</sup>\n\nimate minimal empirical risk _R_ <sup>ˆ</sup> _i_ <sup>_∗_</sup> <sup>through</sup> <sup>running</sup> <sup>ALEG</sup>\n\nfor _m_ groups. In the second stage, we approximate the\noriginal problem by replacing the minimal empirical risks\n_{Ri_ <sup>_∗}_</sup> _i∈_ [ _m_ ] <sup>with</sup> <sup>the</sup> <sup>estimated</sup> <sup>values</sup> <sup>_{R_</sup> <sup>ˆ</sup> _i_ <sup>_∗}i∈_</sup> <sup>[</sup> <sup>_m_</sup> <sup>],</sup> <sup>and</sup> <sup>op-</sup>\n\n_m_\n\n_i_ =1"
+          },
+          {
+            "chunk_id": "p002-c007",
+            "page": 2,
+            "section": "q** _iRi_ ( **w** ) _,_ (5)",
+            "chars": 761,
+            "text": "**q** _iRi_ ( **w** ) _,_ (5)\n\nmin\n**w** _∈W_ **q** <sup>max</sup> _∈_ ∆ _m_\n\n_<u>F</u>_ <u>(</u> **w** _,_ **q** ) :=\n\n_i_ <sup>_∗}_</sup> _i∈_ [ _m_ ] <sup>with</sup> <sup>the</sup> <sup>estimated</sup> <sup>values</sup> <sup>_{R_</sup> <sup>ˆ</sup> _i_ <sup>_∗_</sup>\n\n_{_ timize _Ri_ <sup>_∗}_</sup> _i∈_ the[ _m_ ] new <sup>with</sup> problem <sup>the</sup> <sup>estimated</sup> by ALEG. <sup>values</sup> We <sup>_{R_</sup> <sup>ˆ</sup> demonstrate _i_ <sup>_∗}i∈_</sup> <sup>[</sup> <sup>_m_</sup> <sup>],</sup> <sup>and</sup> that <sup>op-</sup>\n\nwhere _<u>Ri</u>_ ( **w** ) := _Ri_ ( **w** ) _−Ri_ <sup>_∗_</sup> <sup>is the excess empirical risk. In</sup>\n\n1We use the _O_ ˜ notation to hide constant factors as well as\nlogarithmic factors in _ε_ .\n\n2"
+          },
+          {
+            "chunk_id": "p004-c001",
+            "page": 4,
+            "section": "<u>Effcient Algorithms for Empirical Group Distributionally Robust Optimization and Beyond</u>",
+            "chars": 550,
+            "text": "**<u>Effcient Algorithms for Empirical Group Distributionally Robust Optimization and Beyond</u>**\n\n- _<u>mn</u>_ <u>¯ ln(</u> _ε_ <sup>2</sup> _<u>mn</u>_ <u>¯)</u> �. Note that this result underestimates the\n\n_O_\n\noptimization complexity of ERM oracles and thus is excessively conservative. Zhang et al. (2024) develop a two-stage\nstochastic approximation (TSA) approach to target the population MERO. TSA can also be utilized in the empirical\nscenario, yielding a computation complexity of - _<u>m</u>_ <u>ln</u> _ε_ <sup>2</sup> _<u>m</u>_ �.\n_O_"
+          },
+          {
+            "chunk_id": "p004-c009",
+            "page": 4,
+            "section": "Assumption** **3.4.** (Smoothness and Lipschitz continuity)",
+            "chars": 323,
+            "text": "**Assumption** **3.4.** (Smoothness and Lipschitz continuity)\nFor any _i_ [ _m_ ], _j_ [ _ni_ ], _ℓ_ ( ; _ξij_ ) is _L_ -smooth and _G_ _∈_ _∈_ _·_\nLipschitz continuous.\n\n_Remark_ 3.5 _._ In the context of stochastic convex optimization, smoothness is of the essence to obtain a variance-based\nconvergence rate (Lan, 2012)."
+          },
+          {
+            "chunk_id": "p004-c010",
+            "page": 4,
+            "section": "Assumption 3.6.** (Convexity) For every _i ∈_ [ _m_ ], empirical",
+            "chars": 297,
+            "text": "**Assumption 3.6.** (Convexity) For every _i ∈_ [ _m_ ], empirical\nrisk function _Ri_ ( ) is convex.\n\n_·_\n\n_Remark_ 3.7 _._ Our convexity assumption is _weaker_ than Luo\net al. (2021) and Carmon & Hausler (2022), due to not requiring each component loss function _ℓ_ ( ; _ξij_ ) to be convex.\n\n_·_"
+          }
+        ],
+        "not_returned_chunk_ids": [],
+        "remaining_chars": 23680,
+        "remaining_read_calls": 9
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "icml-2024/yu24a",
+        "outline_offset": 30
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "icml-2024/yu24a",
+        "title": "Efficient Algorithms for Empirical Group Distributionally Robust Optimization and Beyond",
+        "source_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/yu24a/yu24a.pdf",
+        "pdf_sha256": "31f11cec020a9695ecb2fb1259f966113ab7a6c83acd3915e2878b15aa6c6fc8",
+        "text_sha256": "8fcff548f63e947018434c072c7fa424ace8936b287910ee35f5988726dcc2f2",
+        "parser": {
+          "schema": "paper-fulltext-v1",
+          "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+          "pymupdf": "1.28.0",
+          "pymupdf4llm": "1.28.0",
+          "pymupdf_layout": "1.28.0",
+          "tabulate": "0.9.0"
+        },
+        "page_count": 31,
+        "warnings": [
+          "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+        ],
+        "cache_hit": true,
+        "outline": [
+          {
+            "chunk_id": "p004-c013",
+            "page": 4,
+            "section": "q** _∈_ ∆ _m_ <sup>_F_</sup> <sup>( ¯</sup> <sup>**w**</sup> <sup>_,_</sup> <sup>**q**</sup> <sup>)</sup> <sup>_−_</sup> **w** <sup>min</sup> _∈W_",
+            "chars": 324
+          },
+          {
+            "chunk_id": "p005-c001",
+            "page": 5,
+            "section": "<u>Effcient Algorithms for Empirical Group Distributionally Robust Optimization and Beyond</u>",
+            "chars": 267
+          },
+          {
+            "chunk_id": "p005-c002",
+            "page": 5,
+            "section": "w** <sup>min</sup> _∈W_ _i_ <sup>max</sup> _∈_ [ _m_",
+            "chars": 152
+          },
+          {
+            "chunk_id": "p005-c003",
+            "page": 5,
+            "section": "q** _∈_ ∆ _m_",
+            "chars": 66
+          },
+          {
+            "chunk_id": "p005-c004",
+            "page": 5,
+            "section": "q** _iRi_ ( ¯ **w** ) min",
+            "chars": 42
+          },
+          {
+            "chunk_id": "p005-c005",
+            "page": 5,
+            "section": "q** _iRi_ ( ¯ **w** ) min",
+            "chars": 47
+          },
+          {
+            "chunk_id": "p005-c006",
+            "page": 5,
+            "section": "w** _∈W_ **q** <sup>max</sup> _∈_ ∆ _m_",
+            "chars": 41
+          },
+          {
+            "chunk_id": "p005-c007",
+            "page": 5,
+            "section": "4.1. Our Algorithm",
+            "chars": 790
+          },
+          {
+            "chunk_id": "p005-c008",
+            "page": 5,
+            "section": "q** _∈_ ∆ _m_",
+            "chars": 72
+          },
+          {
+            "chunk_id": "p005-c009",
+            "page": 5,
+            "section": "q** ¯ _iRi_ ( **w** ) = _ϵ_ (¯ **z** ) _._",
+            "chars": 44
+          },
+          {
+            "chunk_id": "p005-c010",
+            "page": 5,
+            "section": "4. Algorithm for Empirical GDRO",
+            "chars": 625
+          },
+          {
+            "chunk_id": "p005-c011",
+            "page": 5,
+            "section": "Variance Reduction Based on Group Sampling** To improve complexity bounds, we propose the group sampling",
+            "chars": 1142
+          },
+          {
+            "chunk_id": "p005-c012",
+            "page": 5,
+            "section": "Alterable** **Hyperparameters** To support variable algorithmic hyperparameters, we use the one-index-shifted",
+            "chars": 579
+          },
+          {
+            "chunk_id": "p005-c013",
+            "page": 5,
+            "section": "z** <sup>_s_</sup> =",
+            "chars": 1078
+          },
+          {
+            "chunk_id": "p005-c014",
+            "page": 5,
+            "section": "z** <sup>_s_</sup>",
+            "chars": 369
+          },
+          {
+            "chunk_id": "p005-c015",
+            "page": 5,
+            "section": "z** _∈Z_",
+            "chars": 1950
+          },
+          {
+            "chunk_id": "p006-c001",
+            "page": 6,
+            "section": "<u>Effcient Algorithms for Empirical Group Distributionally Robust Optimization and Beyond</u>",
+            "chars": 98
+          },
+          {
+            "chunk_id": "p006-c002",
+            "page": 6,
+            "section": "Algorithm** **1** Variance-Reduced Stochastic Mirror Prox",
+            "chars": 1124
+          },
+          {
+            "chunk_id": "p006-c003",
+            "page": 6,
+            "section": "g** <sup>_s_</sup>",
+            "chars": 438
+          },
+          {
+            "chunk_id": "p006-c004",
+            "page": 6,
+            "section": "z** <sup>_s_</sup>",
+            "chars": 958
+          },
+          {
+            "chunk_id": "p006-c005",
+            "page": 6,
+            "section": "z** _∈Z_",
+            "chars": 1017
+          },
+          {
+            "chunk_id": "p006-c006",
+            "page": 6,
+            "section": "z** _S_ =",
+            "chars": 1210
+          },
+          {
+            "chunk_id": "p006-c007",
+            "page": 6,
+            "section": "4.2. Theoretical Guarantee",
+            "chars": 125
+          },
+          {
+            "chunk_id": "p006-c008",
+            "page": 6,
+            "section": "Theorem 4.4.** _Under Assumptions 3.3, 3.4 and 3.6, by set-_",
+            "chars": 1414
+          },
+          {
+            "chunk_id": "p006-c009",
+            "page": 6,
+            "section": "Lemma** **4.3.** _For_ _any_ _s_ _∈_ [ _S_ ] <sup>0</sup> _, k_ _∈_ [ _Ks_ ] <sup>0</sup> _,_ _∇F_ ( **z** ; _ξk_ <sup>_s_</sup> <sup>)</sup> <sup>_is_</sup>",
+            "chars": 624
+          },
+          {
+            "chunk_id": "p006-c010",
+            "page": 6,
+            "section": "Corollary 4.6.** _Under conditions in Theorem 4.4, by setting_",
+            "chars": 752
+          },
+          {
+            "chunk_id": "p006-c011",
+            "page": 6,
+            "section": "Lemma** **4.3.** _For_ _any_ _s_ [ _S_ ] <sup>0</sup> _, k_ [ _Ks_ ] <sup>0</sup> _,_ _F_ ( **z** ; _ξk_ <sup>_s_</sup>",
+            "chars": 1473
+          },
+          {
+            "chunk_id": "p007-c001",
+            "page": 7,
+            "section": "<u>Effcient Algorithms for Empirical Group Distributionally Robust Optimization and Beyond</u>",
+            "chars": 98
+          },
+          {
+            "chunk_id": "p007-c002",
+            "page": 7,
+            "section": "5. Algorithm for Empirical MERO",
+            "chars": 587
+          },
+          {
+            "chunk_id": "p007-c003",
+            "page": 7,
+            "section": "Algorithm 2** Two-Stage **Al** gorithm for **E** mpirical **M** ERO",
+            "chars": 623
+          }
+        ],
+        "next_outline_offset": 60,
+        "remaining_chars": 23680,
+        "note": "Opening a paper returns no body text. Use read_paper to obtain citable excerpts."
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "read_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "chunk_ids": [
+          "p008-c014",
+          "p010-c004",
+          "p010-c005",
+          "p010-c006",
+          "p010-c007",
+          "p017-c006"
+        ]
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "pdf_sha256": "d3e3b1c2d8e7abf2000348eb306b8cfa8f4cdff61b5afe7e9c9f3cb11cc7950f",
+        "text_sha256": "1749487c25109390e7ceee5df66b91d450c507582b4a1986aae32e0dadda39fb",
+        "chunks": [
+          {
+            "chunk_id": "p008-c014",
+            "page": 8,
+            "section": "5.1** **Experimental Setups",
+            "chars": 614,
+            "text": "**5.1** **Experimental Setups**\n\nThe experiment includes three benchmark datasets: Cityscapes [19], ADE20K [109], and COCOStuff 164K [9]. We use SegNeXt [32] as the backbone for our model and the _mean of Intersection_\n_over Union (mIoU)_ as the evaluation metric. We compare our method with 13 **recent advancements**\n**and** 6 **long-tail approaches** in semantic segmentation. All the long-tail methods also use SegNeXt\nas the backbone. To ensure fairness, we re-implement the listed methods using their publicly shared\ncode and test them on the same hardware. Detailed introductions are deferred to Appendix F."
+          },
+          {
+            "chunk_id": "p010-c004",
+            "page": 10,
+            "section": "The Effectiveness of AUC Optimization and** Table 3: Ablation study on the effectiveness of",
+            "chars": 944,
+            "text": "**The Effectiveness of AUC Optimization and** Table 3: Ablation study on the effectiveness of\n**T-Memory Bank.** Table 3 details our step-by- AUC Optimization and T-Memory Bank (TMB) in\nstep ablation study on the AUC and T-Memory terms of mIoU (%).\nBank components of AUCSeg. Compared to\nthe baseline SegNeXt, AUC enhances perfor- **Model** **AUC** **TMB** **Overall** **Tail**\nmance by +1 _._ 01% and +1 _._ 42% in overall and SegNeXt 47.45 43.28\ntail classes. The T-Memory Bank further ad- SegNeXt+AUC ✓ 48.46 44.70\ndresses the imbalance issue, yielding improve- SegNeXt+TMB ✓ 47.86 43.86\nments of +1 _._ 75% overall and +2 _._ 24% in tail AUCSeg ✓ ✓ **49.20** **45.52**\nclasses. Our results also show that employing\nT-Memory Bank without AUC yields no significant improvements, underscoring the necessity of AUC Loss. More ablation experiments on the\neffectiveness of AUC optimization and TMB are deferred to Appendix G.6, G.7, G.8, and G.9."
+          },
+          {
+            "chunk_id": "p010-c005",
+            "page": 10,
+            "section": "Ablation Study on Hyper-Parameters.** Figure 5a ablates the maximum number of images stored",
+            "chars": 1197,
+            "text": "**Ablation Study on Hyper-Parameters.** Figure 5a ablates the maximum number of images stored\nper class in the Memory Branch, referred to as Memory Size ( _SM_ ). For the ADE20K dataset, optimal\nperformance occurs when _SM_ = 5, and performance shows little sensitivity to changes in _SM_ .\nFigure 5b ablates the Sample Ratio ( _RS_ ), the fraction of classes sampled from the Memory Branch\nrelative to the total number of missing tail classes. Figure 5c ablates the Resize Ratio ( _RR_ ), the\nscaling factor for the sampled pixels. For ADE20K, the best result is obtained when _RS_ = 0 _._ 05 and\n_RR_ = 0 _._ 4. A potential reason for their small value is that the original image is overwritten when _RS_\nand _RR_ are too large, resulting in poor training performance. Figure 5d ablates the weight _λ_ for _ℓce_\nand _ℓauc_, with _λ_ = <sup><u>1</u></sup> 4 <sup>providing slightly better results.</sup> <sup>The influence of</sup> <sup>_λ_</sup> <sup>on performance is minimal.</sup>\n\nDetailed results from this hyper-parameter ablation study are available in Appendix G.10 and G.11.\n\nTable 3: Ablation study on the effectiveness of\nAUC Optimization and T-Memory Bank (TMB) in\nterms of mIoU (%)."
+          },
+          {
+            "chunk_id": "p010-c006",
+            "page": 10,
+            "section": "Model** **AUC** **TMB** **Overall** **Tail",
+            "chars": 150,
+            "text": "**Model** **AUC** **TMB** **Overall** **Tail**\n\nSegNeXt 47.45 43.28\nSegNeXt+AUC ✓ 48.46 44.70\nSegNeXt+TMB ✓ 47.86 43.86\nAUCSeg ✓ ✓ **49.20** **45.52**"
+          },
+          {
+            "chunk_id": "p010-c007",
+            "page": 10,
+            "section": "Ablation Study on Hyper-Parameters.** Figure 5a ablates the maximum number of images stored",
+            "chars": 983,
+            "text": "**Ablation Study on Hyper-Parameters.** Figure 5a ablates the maximum number of images stored\nper class in the Memory Branch, referred to as Memory Size ( _SM_ ). For the ADE20K dataset, optimal\nperformance occurs when _SM_ = 5, and performance shows little sensitivity to changes in _SM_ .\nFigure 5b ablates the Sample Ratio ( _RS_ ), the fraction of classes sampled from the Memory Branch\nrelative to the total number of missing tail classes. Figure 5c ablates the Resize Ratio ( _RR_ ), the\nscaling factor for the sampled pixels. For ADE20K, the best result is obtained when _RS_ = 0 _._ 05 and\n_RR_ = 0 _._ 4. A potential reason for their small value is that the original image is overwritten when _RS_\nand _RR_ are too large, resulting in poor training performance. Figure 5d ablates the weight _λ_ for _ℓce_\nand _ℓauc_, with _λ_ = <sup><u>1</u></sup> <sup>providing slightly better results.</sup> <sup>The influence of</sup> <sup>_λ_</sup> <sup>on performance is minimal.</sup>"
+          },
+          {
+            "chunk_id": "p017-c006",
+            "page": 17,
+            "section": "E** **More Discussions about T-Memory Bank** **27",
+            "chars": 326,
+            "text": "**E** **More Discussions about T-Memory Bank** **27**\n\nE.1 Discussion on the Improved Version of Stratified Sampling . . . . . . . . . . . . . 27\n\nE.2 Discussion on Why the T-Memory Bank Works . . . . . . . . . . . . . . . . . . . 28\n\nE.3 Discussion on AUC and Contrastive Learning from the Perspective of the Loss Function 29"
+          }
+        ],
+        "not_returned_chunk_ids": [],
+        "remaining_chars": 19466,
+        "remaining_read_calls": 8
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "read_paper",
+      "arguments": {
+        "paper_id": "icml-2024/yu24a",
+        "chunk_ids": [
+          "p005-c007",
+          "p005-c010",
+          "p005-c011",
+          "p006-c002"
+        ]
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "icml-2024/yu24a",
+        "pdf_sha256": "31f11cec020a9695ecb2fb1259f966113ab7a6c83acd3915e2878b15aa6c6fc8",
+        "text_sha256": "8fcff548f63e947018434c072c7fa424ace8936b287910ee35f5988726dcc2f2",
+        "chunks": [
+          {
+            "chunk_id": "p005-c007",
+            "page": 5,
+            "section": "4.1. Our Algorithm",
+            "chars": 790,
+            "text": "**4.1. Our Algorithm**\n\nIn the outer loop of ALEG, we follow the standard variance\nreduction procedure (Zhang et al., 2013; Johnson & Zhang,\n2013) by periodically computing the snapshot points as well\nas the full gradient. In the inner loop of ALEG, we maintain\ntwo sets of solutions as mirror prox algorithm (Nemirovski,\n2004; Juditsky et al., 2011) and further accelerate it via\nsnapshot points.\n\nAt the beginning of the _s_ -th outer loop, we compute the\nsnapshot **z** <sup>_s_</sup> using the weighted average from the previous trajectory. The mirror snapshot _∇ψ_ (¯ **z** <sup>_s_</sup> ) is constructed\nsimilarly by the weighted average of the current trajectory\nmapped in the dual space <sup>2</sup> . Formally, we compute them via\nthe one-index-shifted weighted average as follows"
+          },
+          {
+            "chunk_id": "p005-c010",
+            "page": 5,
+            "section": "4. Algorithm for Empirical GDRO",
+            "chars": 625,
+            "text": "**4. Algorithm for Empirical GDRO**\n\nInspired by Alacaoglu & Malitsky (2022), we follow the\ncommon double-loop structure of variance reduction. The\nouter loop computes snapshot points in the primal space\nand the dual space, respectively. The inner loop runs a\nmodified mirror prox scheme with a full gradient plus a\nstochastic gradient, rather than a pair of stochastic gradients\nin the classic mirror prox algorithm (Nemirovski, 2004;\nJuditsky et al., 2011). We emphasize the following two\ntechniques that separate our algorithm from other similar\nwork (Luo et al., 2021; Carmon & Hausler, 2022; Alacaoglu\n& Malitsky, 2022)."
+          },
+          {
+            "chunk_id": "p005-c011",
+            "page": 5,
+            "section": "Variance Reduction Based on Group Sampling** To improve complexity bounds, we propose the group sampling",
+            "chars": 1142,
+            "text": "**Variance Reduction Based on Group Sampling** To improve complexity bounds, we propose the group sampling\ntechnique which samples uniformly from all groups per iteration and further reduces the variance of the stochastic\ngradient for each group. This strategy captures the two-level\nfinite-sum structure by eliminating the randomness on the\nfirst level of the finite-sum structure, i.e., the summation\n\n- _mi_ =1 <sup>**q**</sup> <sup>_iRi_</sup> <sup>(</sup> <sup>**w**</sup> <sup>).</sup> <sup>Although</sup> <sup>the</sup> <sup>group</sup> <sup>sampling</sup> <sup>of</sup> <sup>ALEG</sup>\nqueries _m_ times more stochastic gradients than uniform\nsampling or importance sampling of MPVR, it produces\na better stochastic gradient with a 1 _/m_ lower Lipschitz\nconstant (cf. Lemma 4.3), <u>which ultimately improves the</u>\ncomplexity by a factor of _<u>m</u>_ . The motivation behind this\n\n<sup>_√_</sup>\ntechnique is twofold: (i) identifying the nested finite-sum\nstructure of the objective _F_, and (ii) leveraging the inherent\nproperties of the stochastic gradient under _∞_ . Compre_∥·∥_\nhensive discussions can be found in Appendix C."
+          },
+          {
+            "chunk_id": "p006-c002",
+            "page": 6,
+            "section": "Algorithm** **1** Variance-Reduced Stochastic Mirror Prox",
+            "chars": 1124,
+            "text": "**Algorithm** **1** Variance-Reduced Stochastic Mirror Prox\n**<u>Al</u>** <u>gorithm for</u> **<u>E</u>** <u>mpirical</u> **<u>G</u>** <u>DRO (ALEG)</u>\n**Input** : Risk functions _Ri_ ( **w** ) _i∈_ [ _m_ ], epoch number _S_, it_{_ _}_\neration numbers _{Ks}_, learning rates _{ηk_ <sup>_s}_</sup> <sup>,</sup> <sup>and</sup> <sup>weights</sup>\n\n<sup>_s_</sup>\n\n_k_ <sup>_s_</sup> <sup>=</sup> <sup>_∇F_</sup> <sup>(</sup> <sup>**z**</sup> _k_ <sup>_s_</sup>\n\nvariance-reduced stochastic gradient estimator using the\nstochastic gradient at the snapshot **z** <sup>_s_</sup> and the full gradient\nin (16):\n\neration numbers _{Ks}_, learning rates _{ηk_ <sup>_s}_</sup> <sup>,</sup> <sup>and</sup> <sup>weights</sup>\n\n_{αk_ <sup>_s_</sup> <sup>_}_</sup> <sup>.</sup>\n\n<sup>_s_</sup> _k_ +1 _/_ 2 <sup>;</sup> <sup>_ξ_</sup> _k_ <sup>_s_</sup>\n\n_k_ <sup>_s_</sup> <sup>)</sup> <sup>_−∇F_</sup> <sup>(</sup> <sup>**z**</sup> <sup>_s_</sup> <sup>;</sup> <sup>_ξ_</sup> _k_ <sup>_s_</sup>\n\n_k_ <sup>_s_</sup> <sup>, it is easy to verify that</sup> <sup>**g**</sup> _k_ <sup>_s_</sup>\n\n_k_ <sup>_s_</sup> <sup>_}_</sup> <sup>.</sup>"
+          }
+        ],
+        "not_returned_chunk_ids": [],
+        "remaining_chars": 15785,
+        "remaining_read_calls": 7
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "icml-2024/yu24a",
+        "outline_offset": 60
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "icml-2024/yu24a",
+        "title": "Efficient Algorithms for Empirical Group Distributionally Robust Optimization and Beyond",
+        "source_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/yu24a/yu24a.pdf",
+        "pdf_sha256": "31f11cec020a9695ecb2fb1259f966113ab7a6c83acd3915e2878b15aa6c6fc8",
+        "text_sha256": "8fcff548f63e947018434c072c7fa424ace8936b287910ee35f5988726dcc2f2",
+        "parser": {
+          "schema": "paper-fulltext-v1",
+          "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+          "pymupdf": "1.28.0",
+          "pymupdf4llm": "1.28.0",
+          "pymupdf_layout": "1.28.0",
+          "tabulate": "0.9.0"
+        },
+        "page_count": 31,
+        "warnings": [
+          "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+        ],
+        "cache_hit": true,
+        "outline": [
+          {
+            "chunk_id": "p007-c004",
+            "page": 7,
+            "section": "w** ¯ _i_ ALEG( _Ri_ ( **w** ) _, S,_ _Ks_ _,_ _ηk_ <sup>_s_</sup>",
+            "chars": 128
+          },
+          {
+            "chunk_id": "p007-c005",
+            "page": 7,
+            "section": "w** ¯ _i_ _←_ ALEG( _Ri_ ( **w** ) _, S, {Ks}, {ηk_ <sup>_s}, {α_</sup> _k_ <sup>_s_</sup> <sup>_}_</sup> <sup>).</sup>",
+            "chars": 246
+          },
+          {
+            "chunk_id": "p007-c006",
+            "page": 7,
+            "section": "q** _iR_ <sup><u>ˆ</u></sup> _~~i~~_ ( **w** )",
+            "chars": 1780
+          },
+          {
+            "chunk_id": "p007-c007",
+            "page": 7,
+            "section": "Lemma 5.1.** _For any_ ¯ **z** = ( ¯ **w** ; ¯ **q** ) _∈Z, define the duality_",
+            "chars": 182
+          },
+          {
+            "chunk_id": "p007-c008",
+            "page": 7,
+            "section": "Stage 2:** **Solving Empirical GDRO** After we managed to",
+            "chars": 535
+          },
+          {
+            "chunk_id": "p007-c009",
+            "page": 7,
+            "section": "Theorem 5.3.** _Under the conditions in Theorem 5.2, our Al-_",
+            "chars": 229
+          },
+          {
+            "chunk_id": "p007-c010",
+            "page": 7,
+            "section": "q** _∈_ ∆ _m_ <sup>_<u>F</u>_</sup> <sup>( ¯</sup> <sup>**w**</sup> <sup>_,_</sup> <sup>**q**</sup> <sup>)</sup> <sup>_−_</sup> **w** <sup>min</sup> _∈W_",
+            "chars": 192
+          },
+          {
+            "chunk_id": "p007-c011",
+            "page": 7,
+            "section": "w** <sup>min</sup> _∈W_ <sup>_<u>F</u>_</sup> <sup><u>(</u></sup> <sup>**w**</sup> <sup>_,_</sup> <sup>¯</sup> <sup>**q**</sup> <sup>)</sup> <sup>_,_</sup>",
+            "chars": 321
+          },
+          {
+            "chunk_id": "p007-c012",
+            "page": 7,
+            "section": "q** _∈_ ∆ _m_",
+            "chars": 265
+          },
+          {
+            "chunk_id": "p007-c013",
+            "page": 7,
+            "section": "Corollary 5.4.** _Based on Theorems 5.2 and 5.3, the total_",
+            "chars": 698
+          },
+          {
+            "chunk_id": "p007-c014",
+            "page": 7,
+            "section": "Stage** **1:** **Empirical** **Risk** **Minimization** Noticing that",
+            "chars": 616
+          },
+          {
+            "chunk_id": "p007-c015",
+            "page": 7,
+            "section": "Theorem** **5.2.** _Under_ _Assumptions_ _3.3,_ _3.4_ _and_ _3.6,_ _run-_",
+            "chars": 1354
+          },
+          {
+            "chunk_id": "p007-c016",
+            "page": 7,
+            "section": "6. Experiments",
+            "chars": 153
+          },
+          {
+            "chunk_id": "p007-c017",
+            "page": 7,
+            "section": "6.1. Setup",
+            "chars": 131
+          },
+          {
+            "chunk_id": "p008-c001",
+            "page": 8,
+            "section": "<u>Effcient Algorithms for Empirical Group Distributionally Robust Optimization and Beyond</u>",
+            "chars": 1601
+          },
+          {
+            "chunk_id": "p008-c002",
+            "page": 8,
+            "section": "<u>Effcient Algorithms for Empirical Group Distributionally Robust Optimization and Beyond</u>",
+            "chars": 532
+          },
+          {
+            "chunk_id": "p008-c003",
+            "page": 8,
+            "section": "x** _ij_ (0 _, I_ ) _,_",
+            "chars": 1514
+          },
+          {
+            "chunk_id": "p008-c004",
+            "page": 8,
+            "section": "x** _ij_ (0 _, I_ ) _,_",
+            "chars": 532
+          },
+          {
+            "chunk_id": "p008-c005",
+            "page": 8,
+            "section": "6.2. Results for Empirical GDRO",
+            "chars": 919
+          },
+          {
+            "chunk_id": "p008-c006",
+            "page": 8,
+            "section": "x** _ij_ (0 _, I_ ) _,_",
+            "chars": 1868
+          },
+          {
+            "chunk_id": "p009-c001",
+            "page": 9,
+            "section": "<u>Effcient Algorithms for Empirical Group Distributionally Robust Optimization and Beyond</u>",
+            "chars": 1289
+          },
+          {
+            "chunk_id": "p009-c002",
+            "page": 9,
+            "section": "6.3. Results for Empirical MERO",
+            "chars": 1111
+          },
+          {
+            "chunk_id": "p009-c003",
+            "page": 9,
+            "section": "7. Conclusion",
+            "chars": 1457
+          },
+          {
+            "chunk_id": "p009-c004",
+            "page": 9,
+            "section": "Acknowledgements",
+            "chars": 155
+          },
+          {
+            "chunk_id": "p009-c005",
+            "page": 9,
+            "section": "Impact Statement",
+            "chars": 223
+          },
+          {
+            "chunk_id": "p009-c006",
+            "page": 9,
+            "section": "References",
+            "chars": 604
+          },
+          {
+            "chunk_id": "p010-c001",
+            "page": 10,
+            "section": "<u>Effcient Algorithms for Empirical Group Distributionally Robust Optimization and Beyond</u>",
+            "chars": 1869
+          },
+          {
+            "chunk_id": "p010-c002",
+            "page": 10,
+            "section": "<u>Effcient Algorithms for Empirical Group Distributionally Robust Optimization and Beyond</u>",
+            "chars": 1780
+          },
+          {
+            "chunk_id": "p010-c003",
+            "page": 10,
+            "section": "<u>Effcient Algorithms for Empirical Group Distributionally Robust Optimization and Beyond</u>",
+            "chars": 964
+          },
+          {
+            "chunk_id": "p011-c001",
+            "page": 11,
+            "section": "<u>Effcient Algorithms for Empirical Group Distributionally Robust Optimization and Beyond</u>",
+            "chars": 1916
+          }
+        ],
+        "next_outline_offset": 90,
+        "remaining_chars": 15785,
+        "note": "Opening a paper returns no body text. Use read_paper to obtain citable excerpts."
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "outline_offset": 150
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "title": "AUCSeg: AUC-oriented Pixel-level Long-tail Semantic Segmentation",
+        "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/e574db41163e700545ff4114f96b3d7a-Paper-Conference.pdf",
+        "pdf_sha256": "d3e3b1c2d8e7abf2000348eb306b8cfa8f4cdff61b5afe7e9c9f3cb11cc7950f",
+        "text_sha256": "1749487c25109390e7ceee5df66b91d450c507582b4a1986aae32e0dadda39fb",
+        "parser": {
+          "schema": "paper-fulltext-v1",
+          "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+          "pymupdf": "1.28.0",
+          "pymupdf4llm": "1.28.0",
+          "pymupdf_layout": "1.28.0",
+          "tabulate": "0.9.0"
+        },
+        "page_count": 45,
+        "warnings": [
+          "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+        ],
+        "cache_hit": true,
+        "outline": [
+          {
+            "chunk_id": "p027-c008",
+            "page": 27,
+            "section": "6** **for** _<u>cm</u>_ _in Cmiss_ **do",
+            "chars": 43
+          },
+          {
+            "chunk_id": "p027-c009",
+            "page": 27,
+            "section": "7** Divide a picture containing only the _<u>cm</u>_ <u>-th class pixels from</u> _DB_ and name it _P_ ;",
+            "chars": 106
+          },
+          {
+            "chunk_id": "p027-c010",
+            "page": 27,
+            "section": "8** **if** _|_ _~~M~~_ _<u>cm| < SM</u>_ **then",
+            "chars": 51
+          },
+          {
+            "chunk_id": "p027-c011",
+            "page": 27,
+            "section": "9** Add the divided image _P_ to _~~M~~_ _<u>cm</u>_ ~~;~~",
+            "chars": 60
+          },
+          {
+            "chunk_id": "p027-c012",
+            "page": 27,
+            "section": "10** **else",
+            "chars": 15
+          },
+          {
+            "chunk_id": "p027-c013",
+            "page": 27,
+            "section": "11** Randomly replace an image in _~~M~~_ _<u>cm</u>_ with the divided image _P_ ;",
+            "chars": 84
+          },
+          {
+            "chunk_id": "p027-c014",
+            "page": 27,
+            "section": "12** - Retrieve Branch",
+            "chars": 24
+          },
+          {
+            "chunk_id": "p027-c015",
+            "page": 27,
+            "section": "13** _nsample_ = _⌈|Cmiss| × RS⌉_ ;",
+            "chars": 37
+          },
+          {
+            "chunk_id": "p027-c016",
+            "page": 27,
+            "section": "14** **for** _i_ = 1 _to nsample_ **do",
+            "chars": 42
+          },
+          {
+            "chunk_id": "p027-c017",
+            "page": 27,
+            "section": "15** Randomly choose _cm_ from _Cmiss_ ;",
+            "chars": 42
+          },
+          {
+            "chunk_id": "p027-c018",
+            "page": 27,
+            "section": "16** Remove _cm_ in _Cmiss_ ;",
+            "chars": 31
+          },
+          {
+            "chunk_id": "p027-c019",
+            "page": 27,
+            "section": "17** **if** _|Mcm|̸_ = 0 **then",
+            "chars": 35
+          },
+          {
+            "chunk_id": "p027-c020",
+            "page": 27,
+            "section": "18** Sample from _Mcm_, scale according to _RR_, paste randomly into _DB_ ;",
+            "chars": 77
+          },
+          {
+            "chunk_id": "p027-c021",
+            "page": 27,
+            "section": "19** - Semantic Segmentation",
+            "chars": 30
+          },
+          {
+            "chunk_id": "p027-c022",
+            "page": 27,
+            "section": "20** **Y** ˆ _i_ _←_ _fθ_ ( **X** _i_ );",
+            "chars": 42
+          },
+          {
+            "chunk_id": "p027-c023",
+            "page": 27,
+            "section": "21** Calculate _ℓ_ = _ℓ_ <sup>˜</sup> _auc_ + _λℓce_ with Equation (2) and Equation (8);",
+            "chars": 90
+          },
+          {
+            "chunk_id": "p027-c024",
+            "page": 27,
+            "section": "22** Backpropagation updates _θ_ .",
+            "chars": 36
+          },
+          {
+            "chunk_id": "p027-c025",
+            "page": 27,
+            "section": "E** **More Discussions about T-Memory Bank",
+            "chars": 46
+          },
+          {
+            "chunk_id": "p027-c026",
+            "page": 27,
+            "section": "E.1** **Discussion on the Improved Version of Stratified Sampling",
+            "chars": 217
+          },
+          {
+            "chunk_id": "p027-c027",
+            "page": 27,
+            "section": "The definition of the improved version of stratified sampling.** The improved version of stratified",
+            "chars": 466
+          },
+          {
+            "chunk_id": "p027-c028",
+            "page": 27,
+            "section": "Reasons for inapplicability to PLSS task.** Conventional stratified sampling can hardly cover all the",
+            "chars": 771
+          },
+          {
+            "chunk_id": "p028-c001",
+            "page": 28,
+            "section": "Reasons for inapplicability to PLSS task.** Conventional stratified sampling can hardly cover all the",
+            "chars": 343
+          },
+          {
+            "chunk_id": "p028-c002",
+            "page": 28,
+            "section": "Class ID** **5** **0** **2** **8** **13** **1** **7** **10** **11** **6** **9** **18** **4** **12** **3** **17** **14** **15** **16",
+            "chars": 387
+          },
+          {
+            "chunk_id": "p028-c003",
+            "page": 28,
+            "section": "Class ID** **1** **4** **3** **5** **6** **2** **13** **9** **16** **18** **7** **23** **15** **20** **21** **37** **12** **11** **44",
+            "chars": 241
+          },
+          {
+            "chunk_id": "p028-c004",
+            "page": 28,
+            "section": "Class ID** **83** **10** **19** **88** **8** **14** **17** **40** **42** **25** **33** **67** **136** **28** **24** **126** **48** **31** **29",
+            "chars": 249
+          },
+          {
+            "chunk_id": "p028-c005",
+            "page": 28,
+            "section": "Class ID** **68** **135** **94** **99** **58** **54** **39** **43** **65** **35** **149** **22** **34** **139** **26** **70** **27** **113** **90",
+            "chars": 235
+          },
+          {
+            "chunk_id": "p028-c006",
+            "page": 28,
+            "section": "Class ID** **86** **60** **53** **103** **143** **45** **87** **72** **116** **137** **32** **148** **82** **30** **50** **111** **138** **96** **84",
+            "chars": 236
+          },
+          {
+            "chunk_id": "p028-c007",
+            "page": 28,
+            "section": "Class ID** **150** **124** **41** **38** **51** **140** **66** **36** **73** **46** **101** **128** **109** **64** **71** **76** **61** **125** **47",
+            "chars": 236
+          },
+          {
+            "chunk_id": "p028-c008",
+            "page": 28,
+            "section": "Class ID** **98** **77** **49** **133** **117** **63** **134** **69** **122** **75** **62** **81** **130** **142** **144** **119** **145** **132** **57",
+            "chars": 239
+          },
+          {
+            "chunk_id": "p028-c009",
+            "page": 28,
+            "section": "Class ID** **95** **93** **147** **56** **78** **74** **59** **120** **85** **91** **52** **146** **100** **121** **102** **131** **105** **127** **141",
+            "chars": 236
+          }
+        ],
+        "next_outline_offset": 180,
+        "remaining_chars": 15785,
+        "note": "Opening a paper returns no body text. Use read_paper to obtain citable excerpts."
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "read_paper",
+      "arguments": {
+        "paper_id": "icml-2024/yu24a",
+        "chunk_ids": [
+          "p008-c001",
+          "p008-c003",
+          "p008-c005",
+          "p009-c003"
+        ]
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "icml-2024/yu24a",
+        "pdf_sha256": "31f11cec020a9695ecb2fb1259f966113ab7a6c83acd3915e2878b15aa6c6fc8",
+        "text_sha256": "8fcff548f63e947018434c072c7fa424ace8936b287910ee35f5988726dcc2f2",
+        "chunks": [
+          {
+            "chunk_id": "p008-c001",
+            "page": 8,
+            "section": "<u>Effcient Algorithms for Empirical Group Distributionally Robust Optimization and Beyond</u>",
+            "chars": 1601,
+            "text": "**<u>Effcient Algorithms for Empirical Group Distributionally Robust Optimization and Beyond</u>**\n\n0 _._ 70\n\nALEG\n\n0 _._ 65 SMD\n\nMPVR\n\n0 _._ 60 AL-SVRE\n\n0 _._ 55\n\n0 _._ 50\n\n0 _._ 00 0 _._ 25 0 _._ 50 0 _._ 75 1 _._ 00\n# of _∇ℓ_ ( _·_ ; _ξij_ ) _×_ 10 <sup>6</sup>\n\n0 _._ 58\n\n0 _._ 56\n0 _._ 00 0 _._ 25 0 _._ 50 0 _._ 75 1 _._ 00\n# of _∇ℓ_ ( _·_ ; _ξij_ ) _×_ 10 <sup>6</sup>\n\n(b) Test on the synthetic data\n\nALEG\nSMD\nMPVR\nAL-SVRE\n\n0 2 4 6\n# of _∇ℓ_ ( _·_ ; _ξij_ ) _×_ 10 <sup>7</sup>\n\n0 _._ 70\n\n0 _._ 68\n\n0 _._ 66\n\n0 _._ 64\n\n0 _._ 62\n\n0 _._ 60\n\nALEG\nSMD\nMPVR\nAL-SVRE\n\n4 _._ 70\n\n4 _._ 65\n\n4 _._ 60\n\n4 _._ 55\n\n4 _._ 50\n\n4 _._ 45\n\n4 _._ 40\n\n4 _._ 35\n\nALEG\nSMD\nMPVR\nAL-SVRE\n\n0 2 4 6\n# of _∇ℓ_ ( _·_ ; _ξij_ ) _×_ 10 <sup>7</sup>\n\n4 _._ 6\n\n4 _._ 4\n\n4 _._ 2\n\n4 _._ 0\n\n3 _._ 8\n\n3 _._ 6\n\n(c) Training on CIFAR-100\n\n(a) Training on the synthetic data\n\n(d) Test on CIFAR-100\n\nFigure 1: Comparison of the max empirical risk max _i∈_ [ _m_ ] _Ri_ ( _·_ ) with respect to the number of stochastic gradient\n\nevaluations # of _ℓ_ ( ; _ξij_ ) on the synthetic dataset and the CIFAR-100 dataset.\n_∇_ _·_\n\n2022; Zhang et al., 2023), using both synthetic and realworld datasets. Our goal is to find a single classifier to\nminimize the maximal empirical risk across all categories.\n\nFor the synthetic dataset, we set the number of groups to\nbe 25. For each _i_ [25], we draw **w** _i_ <sup>_∗_</sup> <sup>from the</sup>\n\nuniform distribution _∈_ over the unit sphere. <sup>_∈_</sup> <sup>R</sup> The <sup>1024</sup> data sample _ξij_ _j∈_ [ _ni_ ] of group _i_ is generated by _ξij_ = ( **x** _ij, yij_ ),\n_{_ _}_\nwhere"
+          },
+          {
+            "chunk_id": "p008-c003",
+            "page": 8,
+            "section": "x** _ij_ (0 _, I_ ) _,_",
+            "chars": 1514,
+            "text": "**x** _ij_ (0 _, I_ ) _,_\n_∼N_\n\n<sup>_T_</sup> _ij_ <sup>**w**</sup> _i_ <sup>_∗_</sup>\n\n_i_\n\n_yij_ =\n\nsign\n\nsign - **x** <sup>_T_</sup> _ij_ <sup>**w**</sup> _i_ <sup>_∗_</sup> - _,_ with probability 0.9 _,_\n\nsign  - **x** <sup>_T_</sup> _ij_ <sup>**w**</sup> _i_ <sup>_∗_</sup>  - _,_ with probability 0.1 _._\n\n_−_\n\n- **x** <sup>_T_</sup>\n\n- **x** <sup>_T_</sup>\n\n<sup>_T_</sup> _ij_ <sup>**w**</sup> _i_ <sup>_∗_</sup>\n\n_i_\n\n- _,_ with probability 0.1 _._\n\nWe set _ℓ_ ( _·_ ; _·_ ) as the logistic loss and use different methods\nto train a linear model for this binary classification problem.\n\nFor the real-world dataset, we use CIFAR-100 (Krizhevsky\net al., 2009), which has 100 classes containing 500 training\nimages and 100 testing images for each class. Our goal is\nto determine the class for each image. We set _m_ = 100\naccording to the number of categories and therefore the\nempirical risk function for group _i_ is exactly the average\nloss function amongst all images of this class. We set _ℓ_ ( _·_ ; _·_ )\nas the softmax loss function for this multi-class classification\nproblem. The underlying predictive model remains to be\nlinear, which satisfies the convex-concave setting.\n\nFor the empirical MERO problem, we aim to conduct a\nsimilar task as before. We stick to CIFAR-100 as the realworld dataset. However, to simulate the scenario where the\ngroups of distributions differ from each other, we introduce\nheterogeneous noise in the synthetic dataset, and generate\n_ξij_ = ( **x** _ij, yij_ ), where"
+          },
+          {
+            "chunk_id": "p008-c005",
+            "page": 8,
+            "section": "6.2. Results for Empirical GDRO",
+            "chars": 919,
+            "text": "**6.2. Results for Empirical GDRO**\n\nTo evaluate the performance measure, we report the maximal empirical risk max _i∈_ [ _m_ ] _Ri_ ( _·_ ) on the training set. In\norder to show the generalization abilities, we also report the\nmaximal empirical risk on the test set. To evaluate different algorithms, we use the number of stochastic gradient\nevaluations to reflect the computation complexity.\n\nWe compare our algorithm ALEG with SMD (Nemirovski\net al., 2009), MPVR (Alacaoglu & Malitsky, 2022) and ALSVRE (Luo et al., 2021). The results are shown in Figure 1.\nWe emphasize that our implementation of ALEG supports\nchangeable hyperparameters in terms of _{Ks}, {αk_ <sup>_s_</sup> <sup>_}, {η_</sup> _k_ <sup>_s}_</sup> <sup>,</sup>\n\n_k_ <sup>_s_</sup> <sup>_}, {η_</sup> _k_ <sup>_s_</sup>\n\n_k_ <sup>_s_</sup> <sup>_}_</sup> <sup>and alterable</sup> <sup>_{η_</sup> _k_ <sup>_s_</sup>\n\n_k_ <sup>_s}_</sup> <sup>.</sup>"
+          },
+          {
+            "chunk_id": "p009-c003",
+            "page": 9,
+            "section": "7. Conclusion",
+            "chars": 1457,
+            "text": "**7. Conclusion**\n\nBased on ALEG, we develop a two-stage algorithm called\nALEM to cope with the empirical MERO problem. In the\nfirst stage, ALEM runs ALEG to estimate the minimal empirical risk for all groups. In the second stage, ALEM\nutilizes ALEG to solve an approximate empirical MERO\n\n_~~√~~_\n\nproblem. We also establish an <sup>˜</sup> - _<u>m</u>_ _<u>n</u>_ <u>¯</u> _ε_ <u>ln</u> _<u>m</u>_ - computation\n_O_\n\n_~~√~~_\n\n- _<u>m</u>_\n\n_<u>n</u>_ <u>¯ ln</u> _<u>m</u>_\n\nproblem. We also establish an <sup>˜</sup> - _<u>m</u>_ _<u>n</u>_ <u>¯</u> _ε_ <u>ln</u> _<u>m</u>_ - computation\n_O_\n\ncomplexity, improving over the existing methods. Finally,\nwe conduct experiments on the synthetic dataset as well as\nthe real-world dataset to validate the effectiveness of our\nalgorithms.\n\n_ε_\n\nWe develop a variance-reduced stochastic mirror prox algorithm called ALEG to target the empirical GDRO problem. Specifically, we propose a simple yet effective group\nsampling strategy and a novel variable routine to reduce\nthe complexity and enhance the algorithmic flexibility, re\n_~~√~~_\n\nspectively. ALEG attains an - _<u>m</u>_ _<u>n</u>_ <u>¯</u> _ε_ <u>ln</u> _<u>m</u>_ - computation\n_O_\n\n_~~√~~_\n\nspectively. ALEG attains an - _<u>m</u>_ _<u>n</u>_ <u>¯</u> _ε_ <u>ln</u> _<u>m</u>_ - computation\n_O_\n\ncomplexity, which improves the state-of-the-art result by a\nfactor of _<u>m</u>_ <u>.</u>\n\n<sup>_√_</sup>\n\n- _<u>m</u>_\n\n_<u>n</u>_ <u>¯ ln</u> _<u>m</u>_"
+          }
+        ],
+        "not_returned_chunk_ids": [],
+        "remaining_chars": 10294,
+        "remaining_read_calls": 6
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "read_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "chunk_ids": [
+          "p027-c027",
+          "p027-c028",
+          "p028-c001"
+        ]
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "pdf_sha256": "d3e3b1c2d8e7abf2000348eb306b8cfa8f4cdff61b5afe7e9c9f3cb11cc7950f",
+        "text_sha256": "1749487c25109390e7ceee5df66b91d450c507582b4a1986aae32e0dadda39fb",
+        "chunks": [
+          {
+            "chunk_id": "p027-c027",
+            "page": 27,
+            "section": "The definition of the improved version of stratified sampling.** The improved version of stratified",
+            "chars": 466,
+            "text": "**The definition of the improved version of stratified sampling.** The improved version of stratified\nsampling starts by grouping images according to their categories. Due to the multi-label nature,\ndifferent categories may contain the same images. After that, stratified sampling is applied to each\ncategory, making sure that even if an image is sampled more than once (as both head and tail), each\nmini-batch still includes at least one sample from every category."
+          },
+          {
+            "chunk_id": "p027-c028",
+            "page": 27,
+            "section": "Reasons for inapplicability to PLSS task.** Conventional stratified sampling can hardly cover all the",
+            "chars": 771,
+            "text": "**Reasons for inapplicability to PLSS task.** Conventional stratified sampling can hardly cover all the\ninvolved classes with a small batch size. To ensure coverage, one has to employ a much larger batch\nsize, which results in a significantly higher computational burden. Although the improved version of\nstratified sampling can cover all classes, images from tail classes may appear repeatedly, leading to\noverfitting and consequently a degradation in performance. In contrast, our Tail-class Memory Bank\nonly involves pasting a portion of one image onto another, effectively functioning as an implicit data\naugmentation. This approach mitigates the sampling problem without compromising generalization\nability. The following empirical results support our assertion.\n\n27"
+          },
+          {
+            "chunk_id": "p028-c001",
+            "page": 28,
+            "section": "Reasons for inapplicability to PLSS task.** Conventional stratified sampling can hardly cover all the",
+            "chars": 343,
+            "text": "First, we counted the number of images containing pixels from each class in the Cityscapes, ADE20K,\nand COCO-Stuff 164K datasets. The results are shown in Table 5, Table 6, and Table 7.\n\nTable 5: The number of images containing pixels from each class in the **Cityscapes** . Class ID\n<u>represents the class number in the original dataset.</u>"
+          }
+        ],
+        "not_returned_chunk_ids": [],
+        "remaining_chars": 8714,
+        "remaining_read_calls": 5
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "outline_offset": 180
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "title": "AUCSeg: AUC-oriented Pixel-level Long-tail Semantic Segmentation",
+        "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/e574db41163e700545ff4114f96b3d7a-Paper-Conference.pdf",
+        "pdf_sha256": "d3e3b1c2d8e7abf2000348eb306b8cfa8f4cdff61b5afe7e9c9f3cb11cc7950f",
+        "text_sha256": "1749487c25109390e7ceee5df66b91d450c507582b4a1986aae32e0dadda39fb",
+        "parser": {
+          "schema": "paper-fulltext-v1",
+          "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+          "pymupdf": "1.28.0",
+          "pymupdf4llm": "1.28.0",
+          "pymupdf_layout": "1.28.0",
+          "tabulate": "0.9.0"
+        },
+        "page_count": 45,
+        "warnings": [
+          "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+        ],
+        "cache_hit": true,
+        "outline": [
+          {
+            "chunk_id": "p028-c010",
+            "page": 28,
+            "section": "Class ID** **55** **92** **114** **108** **118** **89** **79** **107** **110** **80** **115** **123** **106** **104** **129** **112** **97",
+            "chars": 364
+          },
+          {
+            "chunk_id": "p028-c011",
+            "page": 28,
+            "section": "Class ID** **0** **157** **145** **160** **93** **84** **112** **120** **161** **128** **111** **153** **137** **169** **155** **56** **2** **60** **118",
+            "chars": 278
+          },
+          {
+            "chunk_id": "p028-c012",
+            "page": 28,
+            "section": "Class ID** **101** **131** **90** **99** **94** **85** **130** **127** **100** **41** **103** **39** **86** **45** **26** **109** **165** **105** **143",
+            "chars": 262
+          },
+          {
+            "chunk_id": "p028-c013",
+            "page": 28,
+            "section": "Class ID** **116** **106** **114** **7** **13** **24** **164** **73** **133** **159** **147** **97** **170** **123** **89** **142** **71** **95** **144",
+            "chars": 258
+          },
+          {
+            "chunk_id": "p028-c014",
+            "page": 28,
+            "section": "Class ID** **74** **62** **139** **58** **57** **16** **9** **80** **43** **25** **5** **32** **15** **88** **59** **67** **121** **6** **75",
+            "chars": 247
+          },
+          {
+            "chunk_id": "p028-c015",
+            "page": 28,
+            "section": "Class ID** **3** **63** **37** **36** **138** **38** **61** **107** **1** **44** **14** **42** **117** **92** **30** **8** **152** **65** **4",
+            "chars": 248
+          },
+          {
+            "chunk_id": "p028-c016",
+            "page": 28,
+            "section": "Class ID** **17** **53** **87** **98** **69** **82** **55** **135** **140** **149** **108** **113** **81** **35** **156** **23** **115** **34** **40",
+            "chars": 255
+          },
+          {
+            "chunk_id": "p028-c017",
+            "page": 28,
+            "section": "Class ID** **166** **27** **28** **72** **162** **136** **168** **33** **29** **20** **46** **110** **66** **77** **134** **48** **163** **158** **132",
+            "chars": 257
+          },
+          {
+            "chunk_id": "p028-c018",
+            "page": 28,
+            "section": "Class ID** **146** **129** **19** **22** **150** **64** **11** **50** **10** **83** **31** **49** **68** **18** **51** **47** **154** **54** **125",
+            "chars": 253
+          },
+          {
+            "chunk_id": "p028-c019",
+            "page": 28,
+            "section": "Class ID** **151** **126** **104** **52** **96** **102** **21** **76** **79** **148** **12** **124** **119** **141** **91** **122** **70** **78** **167",
+            "chars": 1060
+          },
+          {
+            "chunk_id": "p028-c020",
+            "page": 28,
+            "section": "E.2** **Discussion on Why the T-Memory Bank Works",
+            "chars": 477
+          },
+          {
+            "chunk_id": "p029-c001",
+            "page": 29,
+            "section": "E.2** **Discussion on Why the T-Memory Bank Works",
+            "chars": 500
+          },
+          {
+            "chunk_id": "p029-c002",
+            "page": 29,
+            "section": "E.3** **Discussion on AUC and Contrastive Learning from the Perspective of the Loss Function",
+            "chars": 194
+          },
+          {
+            "chunk_id": "p029-c003",
+            "page": 29,
+            "section": "Theorem** **2** (Comparison between AUC Loss and Contrastive Loss) **.** _Minimizing_ _the_ _weighted_",
+            "chars": 1964
+          },
+          {
+            "chunk_id": "p029-c004",
+            "page": 29,
+            "section": "Theorem** **2** (Comparison between AUC Loss and Contrastive Loss) **.** _Minimizing_ _the_ _weighted_",
+            "chars": 1393
+          },
+          {
+            "chunk_id": "p030-c001",
+            "page": 30,
+            "section": "F** **Additional Experimental Settings",
+            "chars": 102
+          },
+          {
+            "chunk_id": "p030-c002",
+            "page": 30,
+            "section": "F.1** **Datasets",
+            "chars": 104
+          },
+          {
+            "chunk_id": "p030-c003",
+            "page": 30,
+            "section": "Cityscapes** [19] is a dataset of urban road traffic scenes, with each image sized at 1024 _×_ 2048 pixels.",
+            "chars": 273
+          },
+          {
+            "chunk_id": "p030-c004",
+            "page": 30,
+            "section": "ADE20K** [109] is a benchmark for scene parsing with 150 class labels. It includes over 25000 images,",
+            "chars": 195
+          },
+          {
+            "chunk_id": "p030-c005",
+            "page": 30,
+            "section": "COCO-Stuff 164K** [9] is a large-scale dataset with 164 _K_ images. It is finely annotated across 171",
+            "chars": 329
+          },
+          {
+            "chunk_id": "p030-c006",
+            "page": 30,
+            "section": "F.2** **Implementation Details",
+            "chars": 34
+          },
+          {
+            "chunk_id": "p030-c007",
+            "page": 30,
+            "section": "Network Architecture.** We perform all experiments using mmsegmentation [18] on an NVIDIA",
+            "chars": 211
+          },
+          {
+            "chunk_id": "p030-c008",
+            "page": 30,
+            "section": "Data Augmentation.** For Cityscapes, we resize the images to 1024 _×_ 2048, randomly crop them",
+            "chars": 312
+          },
+          {
+            "chunk_id": "p030-c009",
+            "page": 30,
+            "section": "Training Strategy.** We use _Adam with Weight Decay (AdamW)_ [59] optimizer with an initial learning",
+            "chars": 660
+          },
+          {
+            "chunk_id": "p030-c010",
+            "page": 30,
+            "section": "Evaluation Metrics.** Following the setup outlined by SegNeXt [32], we conduct experiments using",
+            "chars": 191
+          },
+          {
+            "chunk_id": "p030-c011",
+            "page": 30,
+            "section": "F.3** **Competitors",
+            "chars": 632
+          },
+          {
+            "chunk_id": "p030-c012",
+            "page": 30,
+            "section": "DeepLabV3+** [14] combines the advantages of the spatial pyramid pooling module and the encoderdecoder structure. It explores the Xception model and applies dep",
+            "chars": 317
+          },
+          {
+            "chunk_id": "p030-c013",
+            "page": 30,
+            "section": "EncNet** [102] enhances semantic segmentation by utilizing a context encoding module that captures",
+            "chars": 189
+          },
+          {
+            "chunk_id": "p031-c001",
+            "page": 31,
+            "section": "EncNet** [102] enhances semantic segmentation by utilizing a context encoding module that captures",
+            "chars": 195
+          },
+          {
+            "chunk_id": "p031-c002",
+            "page": 31,
+            "section": "Label** **Pixel Ratio** **Label** **Pixel Ratio** **Label** **Pixel Ratio",
+            "chars": 1023
+          }
+        ],
+        "next_outline_offset": 210,
+        "remaining_chars": 8714,
+        "note": "Opening a paper returns no body text. Use read_paper to obtain citable excerpts."
+      },
+      "seconds": 0.0
+    }
+  ],
+  "abstracts_read": {
+    "neurips-2024/e574db41163e700545ff4114f96b3d7a": "The Area Under the ROC Curve (AUC) is a well-known metric for evaluating instance-level long-tail learning problems. In the past two decades, many AUC optimization methods have been proposed to improve model performance under long-tail distributions. In this paper, we explore AUC optimization methods in the context of pixel-level long-tail semantic segmentation, a much more complicated scenario. This task introduces two major challenges for AUC optimization techniques. On one hand, AUC optimization in a pixel-level task involves complex coupling across loss terms, with structured inner-image and pairwise inter-image dependencies, complicating theoretical analysis. On the other hand, we find that mini-batch estimation of AUC loss in this case requires a larger batch size, resulting in an unaffordable space complexity. To address these issues, we develop a pixel-level AUC loss function and conduct a dependency-graph-based theoretical analysis of the algorithm's generalization ability. Additionally, we design a Tail-Classes Memory Bank (T-Memory Bank) to manage the significant memory demand. Finally, comprehensive experiments across various benchmarks confirm the effectiveness of our proposed AUCSeg method. The code is available at https://github.com/boyuh/AUCSeg.",
+    "icml-2024/yu24a": "In this paper, we investigate the empirical counterpart of Group Distributionally Robust Optimization (GDRO), which aims to minimize the maximal empirical risk across $m$ distinct groups. We formulate empirical GDRO as a two-level finite-sum convex-concave minimax optimization problem and develop an algorithm called ALEG to benefit from its special structure. ALEG is a double-looped stochastic primal-dual algorithm that incorporates variance reduction techniques into a modified mirror prox routine. To exploit the two-level finite-sum structure, we propose a simple group sampling strategy to construct the stochastic gradient with a smaller Lipschitz constant and then perform variance reduction for all groups. Theoretical analysis shows that ALEG achieves $\\varepsilon$-accuracy within a computation complexity of $\\mathcal{O}\\left(\\frac{m\\sqrt{\\bar{n}\\ln{m}}}{\\varepsilon}\\right)$, where $\\bar n$ is the average number of samples among $m$ groups. Notably, our approach outperforms the state-of-the-art method by a factor of $\\sqrt{m}$. Based on ALEG, we further develop a two-stage optimization algorithm called ALEM to deal with the empirical Minimax Excess Risk Optimization (MERO) problem. The computation complexity of ALEM nearly matches that of ALEG, surpassing the rates of existing methods.",
+    "icml-2025/phan24b": "Models trained on data composed of different groups or domains can suffer from severe performance degradation under distribution shifts. While recent methods have largely focused on optimizing the worst-group objective, this often comes at the expense of good performance on other groups. To address this problem, we introduce an optimization scheme to achieve good performance across groups and find a good solution for all without severely sacrificing performance on any of them. However, directly applying such optimization involves updating the parameters of the entire network, making it both computationally expensive and challenging. Thus, we introduce Controllable Prompt Tuning (CPT), which couples our approach with prompt-tuning techniques. On spurious correlation benchmarks, our procedures achieve state-of-the-art results across both transformer and non-transformer architectures, as well as unimodal and multimodal data, while requiring only $0.4%$ tunable parameters.",
+    "neurips-2024/29021b06afa4c648ee438584f7ef3e7e": "Federated learning faces challenges due to the heterogeneity in data volumes and distributions at different clients, which can compromise model generalization ability to various distributions. Existing approaches to address this issue based on group distributionally robust optimization (GDRO) often lead to high communication and sample complexity.To this end, this work introduces algorithms tailored for communication-efficient Federated Group Distributionally Robust Optimization (FGDRO). Our contributions are threefold: Firstly, we introduce the FGDRO-CVaR algorithm, which optimizes the average top-K losses while reducing communication complexity to $O(1/\\epsilon^4)$, where $\\epsilon$ denotes the desired precision level. Secondly, our FGDRO-KL algorithm is crafted to optimize KL regularized FGDRO, cutting communication complexity to $O(1/\\epsilon^3)$. Lastly, we propose FGDRO-KL-Adam to utilize Adam-type local updates in FGDRO-KL, which not only maintains a communication cost of $O(1/\\epsilon^3)$ but also shows potential to surpass SGD-type local steps in practical applications.The effectiveness of our algorithms has been demonstrated on a variety of real-world tasks, including natural language processing and computer vision.",
+    "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021": "InfoNCE loss is commonly used to train dense retriever in information retrieval tasks. It is well known that a large batch is essential to stable and effective training with InfoNCE loss, which requires significant hardware resources. Due to the dependency of large batch, dense retriever has bottleneck of application and research. Recently, memory reduction methods have been broadly adopted to resolve the hardware bottleneck by decomposing forward and backward or using a memory bank. However, current methods still suffer from slow and unstable train. To address these issues, we propose Contrastive Accumulation (ContAccum), a stable and efficient memory reduction method for dense retriever trains that uses a dual memory bank structure to leverage previously generated query and passage representations. Experiments on widely used five information retrieval datasets indicate that ContAccum can surpass not only existing memory reduction methods but also high-resource scenarios. Moreover, theoretical analysis and experimental results confirm that ContAccum provides more stable dual-encoder training than current memory bank utilization methods."
+  }
+}

@@ -1,0 +1,1433 @@
+{
+  "schema": "paper-fulltext-v1",
+  "config": {
+    "enabled": true,
+    "cache_dir": "/workspace/MLEvolve/cache/paper_fulltext",
+    "offline": true,
+    "max_papers": 3,
+    "max_read_calls": 12,
+    "read_chars": 8000,
+    "total_chars": 40000,
+    "open_timeout_seconds": 60.0,
+    "total_open_seconds": 150.0
+  },
+  "cache_dir": "/workspace/MLEvolve/cache/paper_fulltext",
+  "parser": {
+    "schema": "paper-fulltext-v1",
+    "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+    "pymupdf": "1.28.0",
+    "pymupdf4llm": "1.28.0",
+    "pymupdf_layout": "1.28.0",
+    "tabulate": "0.9.0"
+  },
+  "read_calls": 6,
+  "body_chars": 11143,
+  "open_seconds": 0.561,
+  "attempts": {
+    "neurips-2024/4147dfaa46cd7e20a2aecb91097ae8cc": {
+      "status": "offline_cache_miss",
+      "message": "This exact paper/parser version is not cached"
+    },
+    "neurips-2024/e574db41163e700545ff4114f96b3d7a": {
+      "status": "ok",
+      "cache_hit": true
+    },
+    "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021": {
+      "status": "ok",
+      "cache_hit": true
+    }
+  },
+  "documents": {
+    "neurips-2024/e574db41163e700545ff4114f96b3d7a": {
+      "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+      "title": "AUCSeg: AUC-oriented Pixel-level Long-tail Semantic Segmentation",
+      "corpus_source": "https://papers.nips.cc/paper_files/paper/2024/hash/e574db41163e700545ff4114f96b3d7a-Abstract-Conference.html",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/e574db41163e700545ff4114f96b3d7a-Paper-Conference.pdf",
+      "pdf_sha256": "d3e3b1c2d8e7abf2000348eb306b8cfa8f4cdff61b5afe7e9c9f3cb11cc7950f",
+      "text_sha256": "1749487c25109390e7ceee5df66b91d450c507582b4a1986aae32e0dadda39fb",
+      "parser": {
+        "schema": "paper-fulltext-v1",
+        "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+        "pymupdf": "1.28.0",
+        "pymupdf4llm": "1.28.0",
+        "pymupdf_layout": "1.28.0",
+        "tabulate": "0.9.0"
+      },
+      "parsed_at": "2026-09-10T02:47:05Z",
+      "extraction_mode": "pymupdf4llm-legacy-text",
+      "page_count": 45,
+      "title_check": "token_overlap_passed",
+      "warnings": [
+        "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+      ],
+      "fetched_at": "2026-09-10T02:46:20Z"
+    },
+    "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021": {
+      "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+      "title": "A Gradient Accumulation Method for Dense Retriever under Memory Constraint",
+      "corpus_source": "https://papers.nips.cc/paper_files/paper/2024/hash/15ba84c1e19b0eb75f96922f5da0a021-Abstract-Conference.html",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/15ba84c1e19b0eb75f96922f5da0a021-Paper-Conference.pdf",
+      "pdf_sha256": "df8651892589943597045f0dfefc65ebc1b7918619eaeedf6095ec916bb6ff00",
+      "text_sha256": "27f65a80d542f8cb38ec669d0a4905dd742098d4665d505dec07d19734f9fe0e",
+      "parser": {
+        "schema": "paper-fulltext-v1",
+        "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+        "pymupdf": "1.28.0",
+        "pymupdf4llm": "1.28.0",
+        "pymupdf_layout": "1.28.0",
+        "tabulate": "0.9.0"
+      },
+      "parsed_at": "2026-09-11T12:14:29Z",
+      "extraction_mode": "pymupdf4llm-legacy-text",
+      "page_count": 24,
+      "title_check": "token_overlap_passed",
+      "warnings": [
+        "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+      ],
+      "fetched_at": "2026-09-11T12:14:23Z"
+    }
+  },
+  "events": [
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/4147dfaa46cd7e20a2aecb91097ae8cc"
+      },
+      "result": {
+        "status": "offline_cache_miss",
+        "paper_id": "neurips-2024/4147dfaa46cd7e20a2aecb91097ae8cc",
+        "message": "This exact paper/parser version is not cached",
+        "note": "No full-text evidence returned by this call; read_abstract remains available"
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a"
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "title": "AUCSeg: AUC-oriented Pixel-level Long-tail Semantic Segmentation",
+        "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/e574db41163e700545ff4114f96b3d7a-Paper-Conference.pdf",
+        "pdf_sha256": "d3e3b1c2d8e7abf2000348eb306b8cfa8f4cdff61b5afe7e9c9f3cb11cc7950f",
+        "text_sha256": "1749487c25109390e7ceee5df66b91d450c507582b4a1986aae32e0dadda39fb",
+        "parser": {
+          "schema": "paper-fulltext-v1",
+          "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+          "pymupdf": "1.28.0",
+          "pymupdf4llm": "1.28.0",
+          "pymupdf_layout": "1.28.0",
+          "tabulate": "0.9.0"
+        },
+        "page_count": 45,
+        "warnings": [
+          "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+        ],
+        "cache_hit": true,
+        "outline": [
+          {
+            "chunk_id": "p001-c001",
+            "page": 1,
+            "section": "AUCSeg: AUC-oriented Pixel-level Long-tail** **Semantic Segmentation",
+            "chars": 74
+          },
+          {
+            "chunk_id": "p001-c002",
+            "page": 1,
+            "section": "Boyu Han** <sup>1</sup> <sup>_,_</sup> <sup>2</sup> **Qianqian Xu** <sup>1</sup> <sup>_,_</sup> <sup>3</sup> <sup>_∗_</sup> **Zhiyong Yang** <sup>2</sup> **Shil",
+            "chars": 777
+          },
+          {
+            "chunk_id": "p001-c003",
+            "page": 1,
+            "section": "Abstract",
+            "chars": 1345
+          },
+          {
+            "chunk_id": "p001-c004",
+            "page": 1,
+            "section": "1** **Introduction",
+            "chars": 1519
+          },
+          {
+            "chunk_id": "p002-c001",
+            "page": 2,
+            "section": "1** **Introduction",
+            "chars": 1930
+          },
+          {
+            "chunk_id": "p002-c002",
+            "page": 2,
+            "section": "1** **Introduction",
+            "chars": 1673
+          },
+          {
+            "chunk_id": "p002-c003",
+            "page": 2,
+            "section": "1** **Introduction",
+            "chars": 734
+          },
+          {
+            "chunk_id": "p003-c001",
+            "page": 3,
+            "section": "1** **Introduction",
+            "chars": 287
+          },
+          {
+            "chunk_id": "p003-c002",
+            "page": 3,
+            "section": "2** **Related Work",
+            "chars": 22
+          },
+          {
+            "chunk_id": "p003-c003",
+            "page": 3,
+            "section": "2.1** **Semantic Segmentation",
+            "chars": 1403
+          },
+          {
+            "chunk_id": "p003-c004",
+            "page": 3,
+            "section": "2.2** **AUC Optimization",
+            "chars": 1644
+          },
+          {
+            "chunk_id": "p003-c005",
+            "page": 3,
+            "section": "3** **Preliminaries",
+            "chars": 127
+          },
+          {
+            "chunk_id": "p003-c006",
+            "page": 3,
+            "section": "3.1** **Semantic Segmentation Training Framework",
+            "chars": 916
+          },
+          {
+            "chunk_id": "p004-c001",
+            "page": 4,
+            "section": "3.1** **Semantic Segmentation Training Framework",
+            "chars": 164
+          },
+          {
+            "chunk_id": "p004-c002",
+            "page": 4,
+            "section": "Y** ˆ",
+            "chars": 1038
+          },
+          {
+            "chunk_id": "p004-c003",
+            "page": 4,
+            "section": "Y** <sup>_ic_</sup> _u,v_ <sup>log(ˆ</sup> <sup>**Y**</sup>",
+            "chars": 698
+          },
+          {
+            "chunk_id": "p004-c004",
+            "page": 4,
+            "section": "3.2** **AUC Optimization",
+            "chars": 1917
+          },
+          {
+            "chunk_id": "p004-c005",
+            "page": 4,
+            "section": "4** **AUC-Oriented Semantic Segmentation",
+            "chars": 690
+          },
+          {
+            "chunk_id": "p005-c001",
+            "page": 5,
+            "section": "4** **AUC-Oriented Semantic Segmentation",
+            "chars": 32
+          },
+          {
+            "chunk_id": "p005-c002",
+            "page": 5,
+            "section": "4.1** **Pixel-level AUC Optimization",
+            "chars": 1939
+          },
+          {
+            "chunk_id": "p005-c003",
+            "page": 5,
+            "section": "4.1** **Pixel-level AUC Optimization",
+            "chars": 703
+          },
+          {
+            "chunk_id": "p005-c004",
+            "page": 5,
+            "section": "X** <sup>_p_</sup> _m_ <sup>_∈N_</sup> _c_",
+            "chars": 128
+          },
+          {
+            "chunk_id": "p005-c005",
+            "page": 5,
+            "section": "X** <sup>_p_</sup> _n_ <sup>_∈N_</sup> _c_ <sup>_′_</sup>",
+            "chars": 1167
+          },
+          {
+            "chunk_id": "p005-c006",
+            "page": 5,
+            "section": "4.2** **Generalization Bound",
+            "chars": 416
+          },
+          {
+            "chunk_id": "p006-c001",
+            "page": 6,
+            "section": "4.2** **Generalization Bound",
+            "chars": 627
+          },
+          {
+            "chunk_id": "p006-c002",
+            "page": 6,
+            "section": "Theorem 1** (Generalization Bound for AUCSeg) **.** _Let_ E _D_",
+            "chars": 1445
+          },
+          {
+            "chunk_id": "p006-c003",
+            "page": 6,
+            "section": "Theorem 1** (Generalization Bound for AUCSeg) **.** _Let_ E _D_",
+            "chars": 1089
+          },
+          {
+            "chunk_id": "p006-c004",
+            "page": 6,
+            "section": "Remark 1.** We achieve a bound of _O_ - _τ_ �log ( _τNk_ ) _/N_ <u>�, indicating reliable generalization with a</u>",
+            "chars": 432
+          },
+          {
+            "chunk_id": "p006-c005",
+            "page": 6,
+            "section": "Remark 1.** We achieve a bound of _O_",
+            "chars": 79
+          },
+          {
+            "chunk_id": "p006-c006",
+            "page": 6,
+            "section": "4.3** **Tail-class Memory Bank",
+            "chars": 34
+          }
+        ],
+        "next_outline_offset": 30,
+        "remaining_chars": 40000,
+        "note": "Opening a paper returns no body text. Use read_paper to obtain citable excerpts."
+      },
+      "seconds": 0.554
+    },
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021"
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+        "title": "A Gradient Accumulation Method for Dense Retriever under Memory Constraint",
+        "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/15ba84c1e19b0eb75f96922f5da0a021-Paper-Conference.pdf",
+        "pdf_sha256": "df8651892589943597045f0dfefc65ebc1b7918619eaeedf6095ec916bb6ff00",
+        "text_sha256": "27f65a80d542f8cb38ec669d0a4905dd742098d4665d505dec07d19734f9fe0e",
+        "parser": {
+          "schema": "paper-fulltext-v1",
+          "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+          "pymupdf": "1.28.0",
+          "pymupdf4llm": "1.28.0",
+          "pymupdf_layout": "1.28.0",
+          "tabulate": "0.9.0"
+        },
+        "page_count": 24,
+        "warnings": [
+          "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+        ],
+        "cache_hit": true,
+        "outline": [
+          {
+            "chunk_id": "p001-c001",
+            "page": 1,
+            "section": "A Gradient Accumulation Method for Dense Retriever** **under Memory Constraint",
+            "chars": 84
+          },
+          {
+            "chunk_id": "p001-c002",
+            "page": 1,
+            "section": "Jaehee Kim** <sup>1</sup> **Yukyung Lee** <sup>2</sup> **Pilsung Kang** <sup>1</sup> <sup>_∗_</sup>",
+            "chars": 234
+          },
+          {
+            "chunk_id": "p001-c003",
+            "page": 1,
+            "section": "Abstract",
+            "chars": 1171
+          },
+          {
+            "chunk_id": "p001-c004",
+            "page": 1,
+            "section": "1** **Introduction",
+            "chars": 1860
+          },
+          {
+            "chunk_id": "p002-c001",
+            "page": 2,
+            "section": "1** **Introduction",
+            "chars": 1651
+          },
+          {
+            "chunk_id": "p002-c002",
+            "page": 2,
+            "section": "2** **Related works",
+            "chars": 438
+          },
+          {
+            "chunk_id": "p002-c003",
+            "page": 2,
+            "section": "2.1** **Memory reduction in information retrieval",
+            "chars": 1283
+          },
+          {
+            "chunk_id": "p003-c001",
+            "page": 3,
+            "section": "2.1** **Memory reduction in information retrieval",
+            "chars": 166
+          },
+          {
+            "chunk_id": "p003-c002",
+            "page": 3,
+            "section": "2.2** **Memory bank",
+            "chars": 1833
+          },
+          {
+            "chunk_id": "p003-c003",
+            "page": 3,
+            "section": "3** **Proposed Method",
+            "chars": 25
+          },
+          {
+            "chunk_id": "p003-c004",
+            "page": 3,
+            "section": "3.1** **Preliminary: InfoNCE loss with GradAccum",
+            "chars": 1970
+          },
+          {
+            "chunk_id": "p003-c005",
+            "page": 3,
+            "section": "3.1** **Preliminary: InfoNCE loss with GradAccum",
+            "chars": 249
+          },
+          {
+            "chunk_id": "p003-c006",
+            "page": 3,
+            "section": "q** <sup>_t_</sup> = _f_ <sup>_t_</sup>",
+            "chars": 550
+          },
+          {
+            "chunk_id": "p004-c001",
+            "page": 4,
+            "section": "q** <sup>_t_</sup> = _f_ <sup>_t_</sup>",
+            "chars": 540
+          },
+          {
+            "chunk_id": "p004-c002",
+            "page": 4,
+            "section": "Q** <sup>_t_</sup> _k_ <sup>=</sup> <sup>_{_</sup> <sup>**q**</sup> 1 <sup>_t_</sup> <sup>_, . . .,_</sup> <sup>**q**</sup> _N_ <sup>_t_</sup> local <sup>_} ∈_<",
+            "chars": 847
+          },
+          {
+            "chunk_id": "p004-c003",
+            "page": 4,
+            "section": "Q** <sup>_t_</sup>",
+            "chars": 1086
+          },
+          {
+            "chunk_id": "p004-c004",
+            "page": 4,
+            "section": "3.2** **CONTACCUM",
+            "chars": 1828
+          },
+          {
+            "chunk_id": "p004-c005",
+            "page": 4,
+            "section": "3.2** **CONTACCUM",
+            "chars": 187
+          },
+          {
+            "chunk_id": "p004-c006",
+            "page": 4,
+            "section": "Q** = **Q** <sup>_t_</sup>",
+            "chars": 28
+          },
+          {
+            "chunk_id": "p004-c007",
+            "page": 4,
+            "section": "P** = **P** <sup>_t_</sup>",
+            "chars": 963
+          },
+          {
+            "chunk_id": "p005-c001",
+            "page": 5,
+            "section": "3.3** **Gradient analysis with dual memory bank",
+            "chars": 914
+          },
+          {
+            "chunk_id": "p005-c002",
+            "page": 5,
+            "section": "q** _l∈Q_ <sup>_t_</sup>",
+            "chars": 74
+          },
+          {
+            "chunk_id": "p005-c003",
+            "page": 5,
+            "section": "p** _l∈P_ <sup>_t_</sup>",
+            "chars": 1876
+          },
+          {
+            "chunk_id": "p005-c004",
+            "page": 5,
+            "section": "p** _l∈P_ <sup>_t_</sup>",
+            "chars": 1136
+          },
+          {
+            "chunk_id": "p005-c005",
+            "page": 5,
+            "section": "4** **Experimental setups",
+            "chars": 29
+          },
+          {
+            "chunk_id": "p005-c006",
+            "page": 5,
+            "section": "Resources** . All experiments were conducted on a single A100 80GB GPU. For high-resource scenario,",
+            "chars": 698
+          },
+          {
+            "chunk_id": "p005-c007",
+            "page": 5,
+            "section": "Datasets and evaluation metrics** . The datasets used for the experiments were Natural Questions",
+            "chars": 1340
+          },
+          {
+            "chunk_id": "p006-c001",
+            "page": 6,
+            "section": "Datasets and evaluation metrics** . The datasets used for the experiments were Natural Questions",
+            "chars": 193
+          },
+          {
+            "chunk_id": "p006-c002",
+            "page": 6,
+            "section": "Implementation** **details** . The experimental code was adapted from nano-DPR <sup>3</sup>, which provides",
+            "chars": 872
+          },
+          {
+            "chunk_id": "p006-c003",
+            "page": 6,
+            "section": "Baselines** . We established three baselines for each scenario, and all methods were trained with hard",
+            "chars": 544
+          }
+        ],
+        "next_outline_offset": 30,
+        "remaining_chars": 40000,
+        "note": "Opening a paper returns no body text. Use read_paper to obtain citable excerpts."
+      },
+      "seconds": 0.007
+    },
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "outline_offset": 30
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "title": "AUCSeg: AUC-oriented Pixel-level Long-tail Semantic Segmentation",
+        "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/e574db41163e700545ff4114f96b3d7a-Paper-Conference.pdf",
+        "pdf_sha256": "d3e3b1c2d8e7abf2000348eb306b8cfa8f4cdff61b5afe7e9c9f3cb11cc7950f",
+        "text_sha256": "1749487c25109390e7ceee5df66b91d450c507582b4a1986aae32e0dadda39fb",
+        "parser": {
+          "schema": "paper-fulltext-v1",
+          "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+          "pymupdf": "1.28.0",
+          "pymupdf4llm": "1.28.0",
+          "pymupdf_layout": "1.28.0",
+          "tabulate": "0.9.0"
+        },
+        "page_count": 45,
+        "warnings": [
+          "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+        ],
+        "cache_hit": true,
+        "outline": [
+          {
+            "chunk_id": "p006-c007",
+            "page": 6,
+            "section": "Motivation.** Although we have examined the effectiveness of AUC for PLSS from the theoretical",
+            "chars": 1102
+          },
+          {
+            "chunk_id": "p006-c008",
+            "page": 6,
+            "section": "Proposition 1.** _Consider a dataset D_ _that includes images with K_ _different pixel categories._ _Let_",
+            "chars": 484
+          },
+          {
+            "chunk_id": "p006-c009",
+            "page": 6,
+            "section": "Remark** **2.** The proof is deferred to Appendix C. Proposition 1 suggests that the value of _B_ is",
+            "chars": 212
+          },
+          {
+            "chunk_id": "p007-c001",
+            "page": 7,
+            "section": "Remark** **2.** The proof is deferred to Appendix C. Proposition 1 suggests that the value of _B_ is",
+            "chars": 1087
+          },
+          {
+            "chunk_id": "p007-c002",
+            "page": 7,
+            "section": "X** <sup>_p_</sup>",
+            "chars": 20
+          },
+          {
+            "chunk_id": "p007-c003",
+            "page": 7,
+            "section": "X** _m_ <sup>_∈Nc∪Tc_</sup>",
+            "chars": 29
+          },
+          {
+            "chunk_id": "p007-c004",
+            "page": 7,
+            "section": "X** <sup>_p_</sup> <sup>_∈N_</sup> <sup>_′_</sup> <sup>_∪T_</sup> <sup>_′_</sup>",
+            "chars": 1132
+          },
+          {
+            "chunk_id": "p007-c005",
+            "page": 7,
+            "section": "Detailed Components.** As shown in Figure 2, T-Memory Bank comprises three main parts: **(1)",
+            "chars": 1407
+          },
+          {
+            "chunk_id": "p007-c006",
+            "page": 7,
+            "section": "Detailed Components.** As shown in Figure 2, T-Memory Bank comprises three main parts: **(1)",
+            "chars": 1560
+          },
+          {
+            "chunk_id": "p008-c001",
+            "page": 8,
+            "section": "<u>Algorithm 1:</u>** <u>AUCSeg Algorithm (Short Version)</u>",
+            "chars": 385
+          },
+          {
+            "chunk_id": "p008-c002",
+            "page": 8,
+            "section": "1** **for** _iter_ = 1 _to Tmax_ **do",
+            "chars": 41
+          },
+          {
+            "chunk_id": "p008-c003",
+            "page": 8,
+            "section": "2** _DB_ = _{_ ( **X** _i,_ **Y** _i_ ) _}_ <sup>_N_</sup> _i_ =1 <sup>_b_</sup>",
+            "chars": 192
+          },
+          {
+            "chunk_id": "p008-c004",
+            "page": 8,
+            "section": "3** _Cmiss_ _⊆Ct ←_ _MissingTailClasses_ ( _DB_ );",
+            "chars": 52
+          },
+          {
+            "chunk_id": "p008-c005",
+            "page": 8,
+            "section": "4** _Cmiss_ = _Ct_ _−Cmiss_ ;",
+            "chars": 31
+          },
+          {
+            "chunk_id": "p008-c006",
+            "page": 8,
+            "section": "5** - **for** _<u>cm</u>_ _in Cmiss_ **do",
+            "chars": 45
+          },
+          {
+            "chunk_id": "p008-c007",
+            "page": 8,
+            "section": "6** Extract pixels of class _<u>cm</u>_ from _DB_ and save them to _~~M~~_ _<u>cm</u>_ _←_ _RandomReplace_ ( _SM_ );",
+            "chars": 118
+          },
+          {
+            "chunk_id": "p008-c008",
+            "page": 8,
+            "section": "7** - **for** _i_ = 1 _to ⌈|Cmiss| × RS⌉_ **do",
+            "chars": 50
+          },
+          {
+            "chunk_id": "p008-c009",
+            "page": 8,
+            "section": "8** Randomly choose _cm_ from _Cmiss_ and sample pixels from _Mcm_ to paste into _DB_ _←_",
+            "chars": 114
+          },
+          {
+            "chunk_id": "p008-c010",
+            "page": 8,
+            "section": "9** - Calculate **Y** <sup>ˆ</sup> _i_ = _fθ_ ( **X** _i_ ) and _ℓ_ = _ℓ_ <sup>˜</sup> _auc_ + _λℓce_ ;",
+            "chars": 105
+          },
+          {
+            "chunk_id": "p008-c011",
+            "page": 8,
+            "section": "10** Backpropagation updates _θ_ .",
+            "chars": 36
+          },
+          {
+            "chunk_id": "p008-c012",
+            "page": 8,
+            "section": "Discussions.** We recognize that Memory Bank [82, 36] has achieved great success in deep",
+            "chars": 1008
+          },
+          {
+            "chunk_id": "p008-c013",
+            "page": 8,
+            "section": "5** **Experiments",
+            "chars": 221
+          },
+          {
+            "chunk_id": "p008-c014",
+            "page": 8,
+            "section": "5.1** **Experimental Setups",
+            "chars": 614
+          },
+          {
+            "chunk_id": "p008-c015",
+            "page": 8,
+            "section": "5.2** **Overall Performance",
+            "chars": 1032
+          },
+          {
+            "chunk_id": "p009-c001",
+            "page": 9,
+            "section": "5.2** **Overall Performance",
+            "chars": 215
+          },
+          {
+            "chunk_id": "p009-c002",
+            "page": 9,
+            "section": "Method",
+            "chars": 10
+          },
+          {
+            "chunk_id": "p009-c003",
+            "page": 9,
+            "section": "ADE20K** **Cityscapes** **COCO-Stuff 164K",
+            "chars": 168
+          },
+          {
+            "chunk_id": "p009-c004",
+            "page": 9,
+            "section": "ADE20K** **Cityscapes** **COCO-Stuff 164K",
+            "chars": 2000
+          },
+          {
+            "chunk_id": "p009-c005",
+            "page": 9,
+            "section": "ADE20K** **Cityscapes** **COCO-Stuff 164K",
+            "chars": 1035
+          },
+          {
+            "chunk_id": "p009-c006",
+            "page": 9,
+            "section": "ADE20K** **Cityscapes** **COCO-Stuff 164K",
+            "chars": 1736
+          }
+        ],
+        "next_outline_offset": 60,
+        "remaining_chars": 40000,
+        "note": "Opening a paper returns no body text. Use read_paper to obtain citable excerpts."
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+        "outline_offset": 30
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+        "title": "A Gradient Accumulation Method for Dense Retriever under Memory Constraint",
+        "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/15ba84c1e19b0eb75f96922f5da0a021-Paper-Conference.pdf",
+        "pdf_sha256": "df8651892589943597045f0dfefc65ebc1b7918619eaeedf6095ec916bb6ff00",
+        "text_sha256": "27f65a80d542f8cb38ec669d0a4905dd742098d4665d505dec07d19734f9fe0e",
+        "parser": {
+          "schema": "paper-fulltext-v1",
+          "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+          "pymupdf": "1.28.0",
+          "pymupdf4llm": "1.28.0",
+          "pymupdf_layout": "1.28.0",
+          "tabulate": "0.9.0"
+        },
+        "page_count": 24,
+        "warnings": [
+          "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+        ],
+        "cache_hit": true,
+        "outline": [
+          {
+            "chunk_id": "p006-c004",
+            "page": 6,
+            "section": "5** **Experimental results",
+            "chars": 30
+          },
+          {
+            "chunk_id": "p006-c005",
+            "page": 6,
+            "section": "5.1** **Performance across different resource constraints",
+            "chars": 650
+          },
+          {
+            "chunk_id": "p006-c006",
+            "page": 6,
+            "section": "Batch Size** **MS Marco** **NQ** **TriviaQA** **WebQ** **TREC",
+            "chars": 65
+          },
+          {
+            "chunk_id": "p006-c007",
+            "page": 6,
+            "section": "Method",
+            "chars": 1475
+          },
+          {
+            "chunk_id": "p006-c008",
+            "page": 6,
+            "section": "CONTACCUM outperforms the high-resource DPR even under low-resource constraints.** Table",
+            "chars": 421
+          },
+          {
+            "chunk_id": "p006-c009",
+            "page": 6,
+            "section": "CONTACCUM** **maintains** **consistent** **performance** **across** **different** **memory** **constraints.",
+            "chars": 454
+          },
+          {
+            "chunk_id": "p007-c001",
+            "page": 7,
+            "section": "CONTACCUM** **maintains** **consistent** **performance** **across** **different** **memory** **constraints.",
+            "chars": 109
+          },
+          {
+            "chunk_id": "p007-c002",
+            "page": 7,
+            "section": "The effectiveness of CONTACCUM is amplified under more severe memory constraints.** While",
+            "chars": 1035
+          },
+          {
+            "chunk_id": "p007-c003",
+            "page": 7,
+            "section": "5.2** **Influence of each components in CONTACCUM",
+            "chars": 268
+          },
+          {
+            "chunk_id": "p007-c004",
+            "page": 7,
+            "section": "w/ Hard Negative** **w/o Hard Negative",
+            "chars": 42
+          },
+          {
+            "chunk_id": "p007-c005",
+            "page": 7,
+            "section": "Method** **Top@20** **Method** **Top@20",
+            "chars": 116
+          },
+          {
+            "chunk_id": "p007-c006",
+            "page": 7,
+            "section": "CONTACCUM (ours)** **78.8** **CONTACCUM (ours)** **76.3",
+            "chars": 688
+          },
+          {
+            "chunk_id": "p007-c007",
+            "page": 7,
+            "section": "Passage memory bank alone degrades performance due to gradient norm imbalance.** Specifically,",
+            "chars": 389
+          },
+          {
+            "chunk_id": "p007-c008",
+            "page": 7,
+            "section": "GradAccum and past encoder representations are crucial for stable training and performance.",
+            "chars": 823
+          },
+          {
+            "chunk_id": "p007-c009",
+            "page": 7,
+            "section": "5.3** **Memory bank size analysis",
+            "chars": 535
+          },
+          {
+            "chunk_id": "p008-c001",
+            "page": 8,
+            "section": "5.3** **Memory bank size analysis",
+            "chars": 548
+          },
+          {
+            "chunk_id": "p008-c002",
+            "page": 8,
+            "section": "CONTACCUM** **consistently** **outperforms** **GradAccum** **and** **DPR** **regardless** **of** **the** **size** **of",
+            "chars": 994
+          },
+          {
+            "chunk_id": "p008-c003",
+            "page": 8,
+            "section": "5.4** **Train speed",
+            "chars": 532
+          },
+          {
+            "chunk_id": "p008-c004",
+            "page": 8,
+            "section": "CONTACCUM achieves faster iteration times than GradCache, even with large memory banks.",
+            "chars": 1038
+          },
+          {
+            "chunk_id": "p008-c005",
+            "page": 8,
+            "section": "5.5** **Gradient norm ratio",
+            "chars": 437
+          },
+          {
+            "chunk_id": "p009-c001",
+            "page": 9,
+            "section": "5.5** **Gradient norm ratio",
+            "chars": 353
+          },
+          {
+            "chunk_id": "p009-c002",
+            "page": 9,
+            "section": "Dual memory bank helps maintain gradient norm balance.** The experimental results show that",
+            "chars": 1281
+          },
+          {
+            "chunk_id": "p009-c003",
+            "page": 9,
+            "section": "6** **Conclusion",
+            "chars": 704
+          },
+          {
+            "chunk_id": "p009-c004",
+            "page": 9,
+            "section": "Limitations** . While CONTACCUM reduces computational costs and stabilizes training, this study is",
+            "chars": 635
+          },
+          {
+            "chunk_id": "p009-c005",
+            "page": 9,
+            "section": "Broader impacts** . CONTACCUM is designed to train dense retrievers efficiently, which allows it",
+            "chars": 556
+          },
+          {
+            "chunk_id": "p010-c001",
+            "page": 10,
+            "section": "Future works** . In future work, we plan to extend CONTACCUM to the pre-training phase with a",
+            "chars": 459
+          },
+          {
+            "chunk_id": "p010-c002",
+            "page": 10,
+            "section": "Acknowledgements",
+            "chars": 821
+          },
+          {
+            "chunk_id": "p011-c001",
+            "page": 11,
+            "section": "References",
+            "chars": 1659
+          },
+          {
+            "chunk_id": "p011-c002",
+            "page": 11,
+            "section": "References",
+            "chars": 1987
+          },
+          {
+            "chunk_id": "p011-c003",
+            "page": 11,
+            "section": "References",
+            "chars": 1111
+          }
+        ],
+        "next_outline_offset": 60,
+        "remaining_chars": 40000,
+        "note": "Opening a paper returns no body text. Use read_paper to obtain citable excerpts."
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "read_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+        "chunk_ids": [
+          "p004-c004",
+          "p004-c005",
+          "p004-c007",
+          "p005-c001",
+          "p005-c003",
+          "p005-c006",
+          "p006-c002"
+        ]
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+        "pdf_sha256": "df8651892589943597045f0dfefc65ebc1b7918619eaeedf6095ec916bb6ff00",
+        "text_sha256": "27f65a80d542f8cb38ec669d0a4905dd742098d4665d505dec07d19734f9fe0e",
+        "chunks": [
+          {
+            "chunk_id": "p004-c004",
+            "page": 4,
+            "section": "3.2** **CONTACCUM",
+            "chars": 1828,
+            "text": "**3.2** **CONTACCUM**\n\nTo address the issue of fewer negative passages being used with GradAccum, we propose\n\nCONTACCUM, a method that utilizes a dual memory bank structure to cache representations for\nboth queries and passages. The query and passage memory banks ( _M_ **q** _, M_ **p** ) are implemented as\nFirst-In-First-Out queues storing _N_ memory <sup>**q**</sup> <sup>and</sup> <sup>_N_</sup> memory <sup>**p**</sup> <sup>representations respectively. For example, as</sup>\n\nshown in Figure 2, the oldest representations in the memory bank ( **P** <sup>**t**</sup> **1** <sup>_−_</sup> <sup>**1**</sup>, **Q** <sup>**t**</sup> **1** <sup>_−_</sup> <sup>**1**</sup> ) are replaced with\n\nthe newly-generated ones ( **P** <sup>**t**</sup> <sup>,</sup> <sup>**Qt**</sup> <sup>). Memory bank strategy is computationally efficient as it reuses</sup>\n\nmemory <sup>**q**</sup> <sup>and</sup> <sup>_N_</sup> <sup>**p**</sup>\n\n<sup>**t**</sup> **1** <sup>_−_</sup> <sup>**1**</sup>, **Q** <sup>**t**</sup> **1** <sup>_−_</sup> <sup>**1**</sup>\n\nthe newly-generated ones ( **P** <sup>**t**</sup> **1** <sup>,</sup> <sup>**Qt**</sup> **1** <sup>). Memory bank strategy is computationally efficient as it reuses</sup>\n\ngenerated representations from previous iterations [37, 38, 19]. Unlike Lee et al. [19], which only\nutilized a passage memory bank _M_ **p**, CONTACCUM employs a dual memory bank by also utilizing a\nquery memory bank _M_ **q** .\n\nCONTACCUM constructs the similarity matrix using both current and stored representations from the\ndual memory bank as illustrated in Figure 2. It is equivalent to modifying _Sk_ in Equation 4 as:\n\n<sup>_t_</sup> _k_ <sup>_∪_</sup> <sup>sg(</sup> <sup>_M_</sup> <sup>**q**</sup> <sup>)</sup> <sup>_∈_</sup> <sup>R(</sup> <sup>_N_</sup> <sup>local+</sup> <sup>_N_</sup> <sup>**q**</sup>"
+          },
+          {
+            "chunk_id": "p004-c005",
+            "page": 4,
+            "section": "3.2** **CONTACCUM",
+            "chars": 187,
+            "text": "<sup>_t_</sup> _k_ <sup>_∪_</sup> <sup>sg(</sup> <sup>_M_</sup> <sup>**p**</sup> <sup>)</sup> <sup>_∈_</sup> <sup>R(</sup> <sup>_N_</sup> <sup>local+</sup> <sup>_N_</sup> <sup>**p**</sup>"
+          },
+          {
+            "chunk_id": "p004-c007",
+            "page": 4,
+            "section": "P** = **P** <sup>_t_</sup>",
+            "chars": 963,
+            "text": "**P** = **P** <sup>_t_</sup>\n\nmemory <sup>)</sup> <sup>_×d_</sup> <sup>model</sup> (5)\n\nmemory <sup>**p**</sup> <sup>)</sup> <sup>_×d_</sup> <sup>model</sup> (6)\n\n_Sk_ = Softmax( **Q** _·_ **P** <sup>_⊤_</sup> ) (7)\n\nThe backpropagation process using InfoNCE loss proceeds in the same manner as in Equation\n4. However, since the representations in the memory bank do not have stored activations by the\nstop-gradient operation(sg( _·_ )), the gradients are not back-propagated through the representations in\nthe memory bank.\n\nThe number of negative passages in CONTACCUM is _N_ local + _N_ memory <sup>**p**</sup> <sup>_−_</sup> <sup>1, which is greater than</sup>\n\nGradAccum. Furthermore, if _N_ memory <sup>**p**</sup> <sup>_> N_</sup> local <sup>_×_</sup> <sup>(</sup> <sup>_K −_</sup> <sup>1), CONTACCUM can utilize more negative</sup>\n\npassages than the total batch, enabling superior performance in low-resource setting compared to\nhigh-resource scenario.\n\n4"
+          },
+          {
+            "chunk_id": "p005-c001",
+            "page": 5,
+            "section": "3.3** **Gradient analysis with dual memory bank",
+            "chars": 914,
+            "text": "**3.3** **Gradient analysis with dual memory bank**\n\nWe analyze the InfoNCE loss backpropagation process in information retrieval tasks, extending\nthe analysis by Gao et al. [9] to consider using the memory bank. In the partial derivatives of the\nloss function with respect to the two encoders, _∇_ Θ _L_ ( _Sk_ ) = <sup>�</sup> **q** _l∈Q_ <sup>_t_</sup> _k_ _<u>∂L∂</u>_ <u>(</u> **q** _<u>Slk</u>_ <u>)</u> _·_ <sup>_<u>∂</u>_</sup> _∂_ <sup>**<u>q</u>**</sup> Θ <sup>_<u>l</u>_</sup> <sup>_,_</sup> _∇_ Λ _L_ ( _Sk_ ) =\n\nloss function with respect to the two encoders, _∇_ Θ _L_ ( _Sk_ ) = <sup>�</sup> **q** _l∈Q_ <sup>_t_</sup> _k_ _<u>∂L∂</u>_ <u>(</u> **q** _<u>Slk</u>_ <u>)</u> _·_ <sup>_<u>∂</u>_</sup> _∂_ <sup>**<u>q</u>**</sup> Θ <sup>_<u>l</u>_</sup> <sup>_,_</sup> _∇_ Λ _L_ ( _Sk_ ) =\n\n- _<u>∂L</u>_ <u>(</u> _<u>Sk</u>_ <u>)</u> <sup>_<u>∂</u>_</sup> <sup>**<u>p</u>**</sup> <sup>_<u>l</u>_</sup>"
+          },
+          {
+            "chunk_id": "p005-c003",
+            "page": 5,
+            "section": "p** _l∈P_ <sup>_t_</sup>",
+            "chars": 1876,
+            "text": "**p** _l∈P_ <sup>_t_</sup>\n\n_<u>∂L</u>_ <u>(</u> _<u>Sk</u>_ <u>)</u>\n\n_k_\n\n_∂_ <u>(</u> **p** _<u>Slk</u>_ <u>)</u> _·_ <sup>_<u>∂</u>_</sup> _∂_ <sup>**<u>p</u>**</sup> Λ <sup>_<u>l</u>_</sup> <sup>, the partial derivative terms for each representation are given by:</sup>\n\n_<u>∂L</u>_ <u>(</u> _<u>Sk</u>_ <u>)</u>\n\n_∂_ **q** _l_\n\n_<u>∂L</u>_ <u>(</u> _<u>Sk</u>_ <u>)</u>\n\n_∂_ **p** _l_\n\n<u>1</u>\n= _−_\n_N_ local + _N_ memory <sup>_<u>q</u>_</sup>\n\n<u>1</u>\n= _−_\n_N_ local + _N_ memory <sup>_<u>q</u>_</sup>\n\n_N_ local+ _N_ memory <sup>_p_</sup>\n\n_j_\n\n_N_ local+ _N_ memory <sup>_q_</sup>\n\n_i_\n\n_Sk_ ( _l,j_ ) _·_ **p** _j_ ) (8)\n\n_Sk_ ( _i,l_ ) _·_ **q** _j_ ) _,_ (9)\n\n( **p** _l −_\n\n( **q** _l −_\n\nwhere _Sk_ ( _i,j_ ) denotes the similarity between _i_ -th query and _j_ -th passage in the similarity matrix _Sk_\nof the _k_ -th accumulation step. Detailed differentiation steps are provided in Appendix 6.\n\nEquations 8 and 9 have a similar structure, indicating that the gradients of the two encoders are\ninfluenced by the representations generated by the opposite encoder. The difference lies in the\nsummation targets, which are determined by the size of the memory banks. The gradient calculation\nfor the query encoder uses _N_ local + _N_ memory <sup>**p**</sup> <sup>passage representations, while the passage encoder uses</sup>\n\nfor the query encoder uses _N_ local + _N_ memory <sup>passage representations, while the passage encoder uses</sup>\n\n_N_ local + _N_ memory <sup>**q**</sup> <sup>query representations.</sup>\n\nmemory <sup>query representations.</sup>\n\nPre-batch negatives only leverages the passage memory bank where _N_ <sup>**p**</sup>\n\nmemory <sup>**p**</sup> <sup>_>_</sup> <sup>_N_</sup> <sup>**q**</sup>\n\nPre-batch negatives only leverages the passage memory bank where _N_ memory <sup>_>_</sup> <sup>_N_</sup> memory <sup>=</sup> <sup>0.</sup>"
+          }
+        ],
+        "not_returned_chunk_ids": [
+          "p005-c006",
+          "p006-c002"
+        ],
+        "remaining_chars": 34232,
+        "remaining_read_calls": 11
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "read_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "chunk_ids": [
+          "p006-c007",
+          "p006-c008",
+          "p007-c001",
+          "p007-c004",
+          "p007-c005",
+          "p007-c006",
+          "p008-c012"
+        ]
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "pdf_sha256": "d3e3b1c2d8e7abf2000348eb306b8cfa8f4cdff61b5afe7e9c9f3cb11cc7950f",
+        "text_sha256": "1749487c25109390e7ceee5df66b91d450c507582b4a1986aae32e0dadda39fb",
+        "chunks": [
+          {
+            "chunk_id": "p006-c007",
+            "page": 6,
+            "section": "Motivation.** Although we have examined the effectiveness of AUC for PLSS from the theoretical",
+            "chars": 1102,
+            "text": "**Motivation.** Although we have examined the effectiveness of AUC for PLSS from the theoretical\npoint of view, there is **a** **practical** **challenge** when conducting AUC optimization for semantic\nsegmentation, as discussed in Section 1. Specifically, the stochastic AUC optimization, as defined in\nEquation (7), requires **at least one sample from each class** in a mini-batch. In **instance-level AUC**\n**optimization**, recent studies [87, 86] often use a stratified sampling technique that generates batches\nconsistent with the original class distribution, as shown in Figure 3(a). Such a strategy will work well\nwhen each image belongs to a unique category (say, ‘Banana’, ‘Apple’, or ‘Lemon’) in traditional\nclassifications. Yet it cannot apply to pixel-level cases because each sample involves multiple and\ncoupled labels, making it hard to split them for stratified sampling, as illustrated in Figure 3(b).\nMeanwhile, we also provide a bound (Proposition 1) to show that simply adopting random sampling\nwill suffer from an overlarge batch size _B_, making an unaffordable GPU memory burden."
+          },
+          {
+            "chunk_id": "p006-c008",
+            "page": 6,
+            "section": "Proposition 1.** _Consider a dataset D_ _that includes images with K_ _different pixel categories._ _Let_",
+            "chars": 484,
+            "text": "**Proposition 1.** _Consider a dataset D_ _that includes images with K_ _different pixel categories._ _Let_\n_pi_ _represent the probability of observing a pixel with label i in a given image._ _Randomly select B_\n_images from D as training data, where_\n\n\n\n\n\n _._\n\n_B_ = Ω\n\n<u>log(</u> _<u>δ/K</u>_ <u>)</u>\n log(1 _−_ min _pi_ )\n\n_i_\n\n_Then with probability at least_ 1 _−_ _δ, for any c ∈_ [ _K_ ] _, there exists_ **X** _in the training data that contains_\n\n_pixels of label c._"
+          },
+          {
+            "chunk_id": "p007-c001",
+            "page": 7,
+            "section": "Remark** **2.** The proof is deferred to Appendix C. Proposition 1 suggests that the value of _B_ is",
+            "chars": 1087,
+            "text": "Figure 3: Instance-level and pixel-level task sampling.\n\nsevere, leading to a larger _B_ . For example, in terms of the Cityscapes dataset with _K_ = 19 classes,\nassuming _δ_ = 0 _._ 01 and min _i pi_ = 1%, _B_ should be at least 759 to guarantee that each class of pixels\nappears at least once with a high probability. This results in a significant strain on GPU memory.\n\nTo address this, considering that the tail-class samples generally have less opportunity to be included\nin a mini-batch and are often more crucial for final performance, we thus develop a novel Tailclass Memory Bank (T-Memory Bank) to efficiently optimize Equation (7) and manage GPU usage\neffectively. As depicted in Figure 3(c), the high-level ideas of the T-Memory Bank are as follows: 1)\nidentify missing tail classes of all images involved in a mini-batch and 2) randomly replace some\npixels in the image with missing classes based on stored historical class information in T-Memory\nBank. In this sense, we can obtain an approximated batch-version of Equation (7), _i.e._,\n\n_c_ <sup>_′_</sup> = _c_\n_ncnc′_ =0"
+          },
+          {
+            "chunk_id": "p007-c004",
+            "page": 7,
+            "section": "X** <sup>_p_</sup> <sup>_∈N_</sup> <sup>_′_</sup> <sup>_∪T_</sup> <sup>_′_</sup>",
+            "chars": 1132,
+            "text": "**X** <sup>_p_</sup> <sup>_∈N_</sup> <sup>_′_</sup> <sup>_∪T_</sup> <sup>_′_</sup>\n\n_n_ <sup>_∈N_</sup> _c_ <sup>_′_</sup> <sup>_∪T_</sup> _c_ <sup>_′_</sup>\n\n_ℓ_ ˜ <sup>_c,c_</sup> _sq_ <sup>_′,m,n_</sup> (8)\n\n_ℓ_ ˜ _auc_ :=\n\n_K_\n\n_c_ =1\n\n<u>1</u>\n_|Nc||Nc′|_\n\nwhere _Nc_ and _Tc_ represent the set of pixels with label _c_ in the original image and those pixels stored\nin the T-Memory Bank, respectively; _ℓ_ <sup>˜</sup> <sup>_c,c′,m,n_</sup> := _ℓsq_ ( _f_ <sup>(</sup> <sup>_c_</sup> <sup>)(˜</sup> <sup>**X**</sup> _p_ <sup>)</sup> <sup>_−_</sup> <sup>_f_</sup> <sup>(</sup> <sup>_c_</sup> <sup>)(˜</sup> <sup>**X**</sup> _p_ <sup>));</sup> <sup>**X**</sup> <sup>˜</sup> _p_ represents the\n\nin the T-Memory Bank, respectively; _ℓ_ <sup>˜</sup> <sup>_c,c_</sup> _sq_ <sup>_′,m,n_</sup> := _ℓsq_ ( _fθ_ <sup>(</sup> <sup>_c_</sup> <sup>)(˜</sup> <sup>**X**</sup> _pm_ <sup>)</sup> <sup>_−_</sup> <sup>_f_</sup> _θ_ <sup>(</sup> <sup>_c_</sup> <sup>)(˜</sup> <sup>**X**</sup> _pn_ <sup>));</sup> <sup>**X**</sup> <sup>˜</sup> _p_ represents the\n\nsample after replacing some pixels with tail classes pixels from the T-Memory Bank."
+          }
+        ],
+        "not_returned_chunk_ids": [
+          "p007-c005",
+          "p007-c006",
+          "p008-c012"
+        ],
+        "remaining_chars": 30427,
+        "remaining_read_calls": 10
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "outline_offset": 60
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "title": "AUCSeg: AUC-oriented Pixel-level Long-tail Semantic Segmentation",
+        "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/e574db41163e700545ff4114f96b3d7a-Paper-Conference.pdf",
+        "pdf_sha256": "d3e3b1c2d8e7abf2000348eb306b8cfa8f4cdff61b5afe7e9c9f3cb11cc7950f",
+        "text_sha256": "1749487c25109390e7ceee5df66b91d450c507582b4a1986aae32e0dadda39fb",
+        "parser": {
+          "schema": "paper-fulltext-v1",
+          "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+          "pymupdf": "1.28.0",
+          "pymupdf4llm": "1.28.0",
+          "pymupdf_layout": "1.28.0",
+          "tabulate": "0.9.0"
+        },
+        "page_count": 45,
+        "warnings": [
+          "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+        ],
+        "cache_hit": true,
+        "outline": [
+          {
+            "chunk_id": "p009-c007",
+            "page": 9,
+            "section": "ADE20K** **Cityscapes** **COCO-Stuff 164K",
+            "chars": 880
+          },
+          {
+            "chunk_id": "p009-c008",
+            "page": 9,
+            "section": "5.3** **Backbone Extension",
+            "chars": 752
+          },
+          {
+            "chunk_id": "p009-c009",
+            "page": 9,
+            "section": "5.4** **Ablation studies",
+            "chars": 104
+          },
+          {
+            "chunk_id": "p009-c010",
+            "page": 9,
+            "section": "Backbone** **AUCSeg** **Overall** **Tail",
+            "chars": 400
+          },
+          {
+            "chunk_id": "p010-c001",
+            "page": 10,
+            "section": "Backbone** **AUCSeg** **Overall** **Tail",
+            "chars": 238
+          },
+          {
+            "chunk_id": "p010-c002",
+            "page": 10,
+            "section": "<u>Overall</u>",
+            "chars": 18
+          },
+          {
+            "chunk_id": "p010-c003",
+            "page": 10,
+            "section": "~~<u>Tail</u>~~",
+            "chars": 361
+          },
+          {
+            "chunk_id": "p010-c004",
+            "page": 10,
+            "section": "The Effectiveness of AUC Optimization and** Table 3: Ablation study on the effectiveness of",
+            "chars": 944
+          },
+          {
+            "chunk_id": "p010-c005",
+            "page": 10,
+            "section": "Ablation Study on Hyper-Parameters.** Figure 5a ablates the maximum number of images stored",
+            "chars": 1197
+          },
+          {
+            "chunk_id": "p010-c006",
+            "page": 10,
+            "section": "Model** **AUC** **TMB** **Overall** **Tail",
+            "chars": 150
+          },
+          {
+            "chunk_id": "p010-c007",
+            "page": 10,
+            "section": "Ablation Study on Hyper-Parameters.** Figure 5a ablates the maximum number of images stored",
+            "chars": 983
+          },
+          {
+            "chunk_id": "p010-c008",
+            "page": 10,
+            "section": "6** **Conclusion",
+            "chars": 592
+          },
+          {
+            "chunk_id": "p011-c001",
+            "page": 11,
+            "section": "Acknowledgments",
+            "chars": 686
+          },
+          {
+            "chunk_id": "p011-c002",
+            "page": 11,
+            "section": "References",
+            "chars": 1996
+          },
+          {
+            "chunk_id": "p011-c003",
+            "page": 11,
+            "section": "References",
+            "chars": 1003
+          },
+          {
+            "chunk_id": "p012-c001",
+            "page": 12,
+            "section": "References",
+            "chars": 1964
+          },
+          {
+            "chunk_id": "p012-c002",
+            "page": 12,
+            "section": "References",
+            "chars": 1993
+          },
+          {
+            "chunk_id": "p013-c001",
+            "page": 13,
+            "section": "References",
+            "chars": 1973
+          },
+          {
+            "chunk_id": "p013-c002",
+            "page": 13,
+            "section": "References",
+            "chars": 1725
+          },
+          {
+            "chunk_id": "p014-c001",
+            "page": 14,
+            "section": "References",
+            "chars": 1998
+          },
+          {
+            "chunk_id": "p014-c002",
+            "page": 14,
+            "section": "References",
+            "chars": 1939
+          },
+          {
+            "chunk_id": "p015-c001",
+            "page": 15,
+            "section": "References",
+            "chars": 1965
+          },
+          {
+            "chunk_id": "p015-c002",
+            "page": 15,
+            "section": "References",
+            "chars": 1902
+          },
+          {
+            "chunk_id": "p016-c001",
+            "page": 16,
+            "section": "References",
+            "chars": 901
+          },
+          {
+            "chunk_id": "p017-c001",
+            "page": 17,
+            "section": "Contents",
+            "chars": 15
+          },
+          {
+            "chunk_id": "p017-c002",
+            "page": 17,
+            "section": "A** **Symbol Definitions** **18",
+            "chars": 35
+          },
+          {
+            "chunk_id": "p017-c003",
+            "page": 17,
+            "section": "B** **Generalization Bounds and Its Proofs** **18",
+            "chars": 334
+          },
+          {
+            "chunk_id": "p017-c004",
+            "page": 17,
+            "section": "C** **Proof for Propositions of Tail-class Memory Bank** **26",
+            "chars": 65
+          },
+          {
+            "chunk_id": "p017-c005",
+            "page": 17,
+            "section": "D** **Details of T-Memory Bank Algorithm** **27",
+            "chars": 51
+          },
+          {
+            "chunk_id": "p017-c006",
+            "page": 17,
+            "section": "E** **More Discussions about T-Memory Bank** **27",
+            "chars": 326
+          }
+        ],
+        "next_outline_offset": 90,
+        "remaining_chars": 30427,
+        "note": "Opening a paper returns no body text. Use read_paper to obtain citable excerpts."
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "read_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+        "chunk_ids": [
+          "p005-c006",
+          "p006-c002",
+          "p007-c007",
+          "p007-c008",
+          "p008-c004",
+          "p009-c004"
+        ]
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+        "pdf_sha256": "df8651892589943597045f0dfefc65ebc1b7918619eaeedf6095ec916bb6ff00",
+        "text_sha256": "27f65a80d542f8cb38ec669d0a4905dd742098d4665d505dec07d19734f9fe0e",
+        "chunks": [
+          {
+            "chunk_id": "p005-c006",
+            "page": 5,
+            "section": "Resources** . All experiments were conducted on a single A100 80GB GPU. For high-resource scenario,",
+            "chars": 698,
+            "text": "**Resources** . All experiments were conducted on a single A100 80GB GPU. For high-resource scenario,\nwe considered situations where 80GB of memory is available. For low-resource settings, we assumed\n[available memory as widely used commercial GPUs: 11GB (GTX-1080Ti), 24GB (RTX-3080Ti,](https://www.nvidia.com/en-gb/geforce/graphics-cards/geforce-gtx-1080-ti/specifications/)\n[RTX-4090Ti). To ensure strict experimental conditions, we used a function from the PyTorch [27] to](https://www.nvidia.com/ko-kr/geforce/graphics-cards/40-series/rtx-4090/)\nlimit the available memory. <sup>2</sup> Unless otherwise stated, all experiments assumed low resource setting\nwhere only 11GB memory is available."
+          },
+          {
+            "chunk_id": "p006-c002",
+            "page": 6,
+            "section": "Implementation** **details** . The experimental code was adapted from nano-DPR <sup>3</sup>, which provides",
+            "chars": 872,
+            "text": "**Implementation** **details** . The experimental code was adapted from nano-DPR <sup>3</sup>, which provides\na simplified training and evaluation pipeline for DPR. All experiments were conducted using the\nBERT <sup>4</sup> [6] model. To maintain consistency with DPR’s experimental setup, NQ and TREC were\ntrained for 40 epochs, and TriviaQA and WebQ for 100 epochs. For MS Marco, performance saturated\nat 10 epochs, so it was trained for 10 epochs. Other training settings were also kept consistent with\nDPR. Detailed settings are provided in Appendix 6.\n\nThe optimal memory bank size, _N_ memory, was selected using evaluation data with candidates [128,\n512, 2048], resulting in 2,048 for NQ and 512 for TriviaQA. For MS Marco, WebQ, and TREC, due\nto the lack of evaluation data, _N_ memory were set based on dataset size: 1,024 for MS Marco, and 128\nfor WebQ and TREC."
+          }
+        ],
+        "not_returned_chunk_ids": [
+          "p007-c007",
+          "p007-c008",
+          "p008-c004",
+          "p009-c004"
+        ],
+        "remaining_chars": 28857,
+        "remaining_read_calls": 9
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "read_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "chunk_ids": [
+          "p007-c005",
+          "p007-c006",
+          "p008-c012"
+        ]
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "pdf_sha256": "d3e3b1c2d8e7abf2000348eb306b8cfa8f4cdff61b5afe7e9c9f3cb11cc7950f",
+        "text_sha256": "1749487c25109390e7ceee5df66b91d450c507582b4a1986aae32e0dadda39fb",
+        "chunks": [],
+        "not_returned_chunk_ids": [
+          "p007-c005",
+          "p007-c006",
+          "p008-c012"
+        ],
+        "remaining_chars": 28857,
+        "remaining_read_calls": 8
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "read_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "chunk_ids": [
+          "p008-c014",
+          "p010-c004",
+          "p010-c005",
+          "p010-c007"
+        ]
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+        "pdf_sha256": "d3e3b1c2d8e7abf2000348eb306b8cfa8f4cdff61b5afe7e9c9f3cb11cc7950f",
+        "text_sha256": "1749487c25109390e7ceee5df66b91d450c507582b4a1986aae32e0dadda39fb",
+        "chunks": [],
+        "not_returned_chunk_ids": [
+          "p008-c014",
+          "p010-c004",
+          "p010-c005",
+          "p010-c007"
+        ],
+        "remaining_chars": 28857,
+        "remaining_read_calls": 7
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "read_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+        "chunk_ids": [
+          "p007-c007",
+          "p007-c008",
+          "p008-c004",
+          "p009-c004"
+        ]
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+        "pdf_sha256": "df8651892589943597045f0dfefc65ebc1b7918619eaeedf6095ec916bb6ff00",
+        "text_sha256": "27f65a80d542f8cb38ec669d0a4905dd742098d4665d505dec07d19734f9fe0e",
+        "chunks": [],
+        "not_returned_chunk_ids": [
+          "p007-c007",
+          "p007-c008",
+          "p008-c004",
+          "p009-c004"
+        ],
+        "remaining_chars": 28857,
+        "remaining_read_calls": 6
+      },
+      "seconds": 0.0
+    }
+  ],
+  "abstracts_read": {
+    "neurips-2024/4147dfaa46cd7e20a2aecb91097ae8cc": "Adapting large language models (LLMs) for specific tasks usually involves fine-tuning through reinforcement learning with human feedback (RLHF) on preference data. While these data often come from diverse labelers' groups (e.g., different demographics, ethnicities, company teams, etc.), traditional RLHF approaches adopt a \"one-size-fits-all\" approach, i.e., they indiscriminately assume and optimize a single preference model, thus not being robust to unique characteristics and needs of the various groups. To address this limitation, we propose a novel Group Robust Preference Optimization (GRPO) method to align LLMs to individual groups' preferences robustly. Our approach builds upon reward-free direct preference optimization methods, but unlike previous approaches, it seeks a robust policy which maximizes the worst-case group performance.  To achieve this, GRPO adaptively and sequentially weights the importance of different groups, prioritizing groups with worse cumulative loss. We theoretically study the feasibility of GRPO and analyze its convergence for the log-linear policy class. By fine-tuning LLMs with GRPO using diverse group-based global opinion data, we significantly improved performance for the worst-performing groups, reduced loss imbalances across groups, and improved probability accuracies compared to non-robust baselines.",
+    "icml-2024/phan24b": "Models trained on data composed of different groups or domains can suffer from severe performance degradation under distribution shifts. While recent methods have largely focused on optimizing the worst-group objective, this often comes at the expense of good performance on other groups. To address this problem, we introduce an optimization scheme to achieve good performance across groups and find a good solution for all without severely sacrificing performance on any of them. However, directly applying such optimization involves updating the parameters of the entire network, making it both computationally expensive and challenging. Thus, we introduce Controllable Prompt Tuning (CPT), which couples our approach with prompt-tuning techniques. On spurious correlation benchmarks, our procedures achieve state-of-the-art results across both transformer and non-transformer architectures, as well as unimodal and multimodal data, while requiring only $0.4%$ tunable parameters.",
+    "neurips-2024/499b12df1531fe8ee0febcf08381f3a4": "Is it possible to understand or imitate a policy maker's rationale by looking at past decisions they made? We formalize this question as the problem of learning social welfare functions belonging to the well-studied family of power mean functions. We focus on two learning tasks; in the first, the input is vectors of utilities of an action (decision or policy) for individuals in a group and their associated social welfare as judged by a policy maker, whereas in the second, the input is pairwise comparisons between the welfares associated with a given pair of utility vectors. We show that power mean functions are learnable with polynomial sample complexity in both cases, even if the social welfare information is noisy. Finally, we design practical algorithms for these tasks and evaluate their performance.",
+    "icml-2024/zhang24aw": "AUC maximization is an effective approach to address the imbalanced data classification problem in federated learning. In the past few years, a couple of federated AUC maximization approaches have been developed based on the minimax optimization. However, directly solving a minimax optimization problem to maximize the AUC score cannot achieve satisfactory performance. To address this issue, we propose to maximize AUC via optimizing a federated multi-level compositional minimax problem. Specifically, we develop a novel federated multi-level compositional minimax algorithm with rigorous theoretical guarantees to solve this new learning paradigm in both algorithmic design and theoretical analysis. To the best of our knowledge, this is the first work studying the multi-level minimax optimization problem. Additionally, extensive empirical evaluations confirm the efficacy of our proposed approach.",
+    "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021": "InfoNCE loss is commonly used to train dense retriever in information retrieval tasks. It is well known that a large batch is essential to stable and effective training with InfoNCE loss, which requires significant hardware resources. Due to the dependency of large batch, dense retriever has bottleneck of application and research. Recently, memory reduction methods have been broadly adopted to resolve the hardware bottleneck by decomposing forward and backward or using a memory bank. However, current methods still suffer from slow and unstable train. To address these issues, we propose Contrastive Accumulation (ContAccum), a stable and efficient memory reduction method for dense retriever trains that uses a dual memory bank structure to leverage previously generated query and passage representations. Experiments on widely used five information retrieval datasets indicate that ContAccum can surpass not only existing memory reduction methods but also high-resource scenarios. Moreover, theoretical analysis and experimental results confirm that ContAccum provides more stable dual-encoder training than current memory bank utilization methods.",
+    "neurips-2024/e574db41163e700545ff4114f96b3d7a": "The Area Under the ROC Curve (AUC) is a well-known metric for evaluating instance-level long-tail learning problems. In the past two decades, many AUC optimization methods have been proposed to improve model performance under long-tail distributions. In this paper, we explore AUC optimization methods in the context of pixel-level long-tail semantic segmentation, a much more complicated scenario. This task introduces two major challenges for AUC optimization techniques. On one hand, AUC optimization in a pixel-level task involves complex coupling across loss terms, with structured inner-image and pairwise inter-image dependencies, complicating theoretical analysis. On the other hand, we find that mini-batch estimation of AUC loss in this case requires a larger batch size, resulting in an unaffordable space complexity. To address these issues, we develop a pixel-level AUC loss function and conduct a dependency-graph-based theoretical analysis of the algorithm's generalization ability. Additionally, we design a Tail-Classes Memory Bank (T-Memory Bank) to manage the significant memory demand. Finally, comprehensive experiments across various benchmarks confirm the effectiveness of our proposed AUCSeg method. The code is available at https://github.com/boyuh/AUCSeg.",
+    "neurips-2025/445ff69ea52306c704fcd8a003b3d28b": "Contrastive Language-Image Pretraining (CLIP) has demonstrated strong zero-shot performance across diverse downstream text-image tasks. Existing CLIP methods typically optimize a contrastive objective using negative samples drawn from each minibatch. To achieve robust representation learning, these methods require extremely large batch sizes and escalate computational demands to hundreds or even thousands of GPUs. Prior approaches to mitigate this issue often compromise downstream performance, prolong training duration, or face scalability challenges with very large datasets. To overcome these limitations, we propose AmorLIP, an efficient CLIP pretraining framework that amortizes expensive computations involved in contrastive learning through lightweight neural networks, which substantially improves training efficiency and performance. Leveraging insights from a spectral factorization of energy-based models, we introduce novel amortization objectives along with practical techniques to improve training stability. Extensive experiments across 38 downstream tasks demonstrate the superior zero-shot classification and retrieval capabilities of AmorLIP, consistently outperforming standard CLIP baselines with substantial relative improvements of up to 12.24%."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "environment": {
+    "local_python": "3.14",
+    "tested_openai_sdk": "1.66.3",
+    "dependencies": "isolated /tmp test directories; repository venv unchanged"
+  },
+  "suites": [
+    {
+      "script": "verify_gpt6_transport.py",
+      "tests": 12
+    },
+    {
+      "script": "verify_gpt6_configuration.py",
+      "tests": 4
+    },
+    {
+      "script": "verify_analogy_context.py",
+      "tests": 13
+    },
+    {
+      "script": "verify_runtime_diagnostics.py",
+      "tests": 10
+    },
+    {
+      "script": "verify_analogy_observation.py",
+      "tests": 16
+    },
+    {
+      "script": "verify_analogy_handoff.py",
+      "tests": 12
+    },
+    {
+      "script": "verify_analogy_fulltext.py",
+      "tests": 15
+    },
+    {
+      "script": "verify_candidate_runtime.py",
+      "tests": 38
+    },
+    {
+      "script": "verify_execution_pipeline.py",
+      "tests": 16
+    },
+    {
+      "script": "verify_best_solution.py",
+      "tests": 4
+    }
+  ],
+  "additional_checks": [
+    "verify_analogy_injection.py: all assertions passed",
+    "20 historical improve packets: source and selected snapshot checks passed",
+    "Compilation and git diff --check passed"
+  ],
+  "status": "all listed offline checks passed; live replay reported separately",
+  "test_count": 140
+}

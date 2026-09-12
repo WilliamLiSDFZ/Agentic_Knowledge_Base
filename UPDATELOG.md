@@ -4,6 +4,55 @@ A running record of notable changes to this project. Newest entries on top.
 
 ---
 
+## 2026-09-11 — Evidence-aware analogy context and GPT-6 experiment migration
+
+Implemented the approved `docs/analogy_context_and_gpt6_plan.md` in MLEvolve.
+Previously, analogy often received a runtime status instead of an implementation
+summary, and plan truncation hid changes already made to loss or sampling. Context
+v2 separates plans from observed implementation/runtime facts, cleans captured logs
+before truncation, and exposes selected checkpoint identity, training updates,
+validation history, costs and actual/unknown resource limits. Budgets are configurable:
+80K-character initial packet, 14 model turns, 12K-character complete report and
+196,608-token accumulated input cap per request with output/safety reserves.
+
+Three read-only tools index, page through and diff allow-listed candidate source.
+Runtime source must match the registered SHA256; runtime-off tasks use a frozen
+SearchNode copy. Exact returned text, source references and budgets are recorded.
+Jigsaw adds cached public-validation overall/subgroup/BPSN/BNSP diagnostics and
+same-contract parent comparisons without reading weights/private labels or changing
+the scalar metric. Other tasks retain the generic source/context path.
+
+Reports distinguish observations, hypotheses and unknowns, and preserve mechanism
+assumptions, constraints and validation/rejection conditions. Both planner paths now
+declare one selected mechanism, reject all, or record an unparseable decision as
+unknown. The selected mechanism reaches the coder independently of its compressed
+plan, including diff retries. Child records retain actual source hashes, full diff
+and execution provenance; they do not infer causal credit from score changes.
+
+Active defaults, the generic Job and a new Jigsaw A/F template use GPT-6 Astra/high.
+Code, feedback and analogy use the Responses transport with complete tool/opaque
+state replay, local schema checks, streaming completion checks and safe call metadata.
+The pinned `openai==1.66.3` works through its generic JSON endpoint, so no SDK upgrade
+is required. Terminal/exhausted transport errors propagate through generation and
+the pipeline instead of repeatedly rescheduling failed requests. Preflight rejects
+stale model/effort/context overrides for the new experiment template. Historical
+Jobs, previous model routes, scoring and one-candidate-per-GPU scheduling remain intact.
+
+Validation: 140 offline tests and 20 historical improve-packet checks pass. Three
+actual SDK wrapper checks and all three corrected GPT-6 node replays pass. The first
+live pass exposed over-conservative byte counting that prevented report correction;
+measured-prefix calibration and explicit report-size feedback fixed it without
+raising the limits. Replays used 9–10 turns and produced complete 7.7–11.0K-character
+reports; one retained mechanism has abstract-only evidence despite available reading
+tools. These checks establish usable information flow, not improved task scores.
+
+Validation and live replay evidence are recorded in
+`results/9.11/gpt6_context_v2_validation/REPORT.md`. Usage, replay and rollout
+instructions: `../MLEvolve/docs/analogy_context_v2.md`. Implementation is local;
+live CPU checks use an isolated `/tmp` source copy, with no shared repository/venv
+update, experiment Job submission or Git commit/push. New GPU experiments remain
+the user's next step after Git synchronization.
+
 ## 2026-09-10 — Correct candidate timing and final-result API after the S54–S56 pilot (local only)
 
 The live S54–S56 audit found seven candidates finalizing after only five optimizer

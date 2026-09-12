@@ -1,0 +1,681 @@
+{
+  "schema": "paper-fulltext-v1",
+  "config": {
+    "enabled": true,
+    "cache_dir": "/workspace/MLEvolve/cache/paper_fulltext",
+    "offline": true,
+    "max_papers": 3,
+    "max_read_calls": 12,
+    "read_chars": 8000,
+    "total_chars": 40000,
+    "open_timeout_seconds": 60.0,
+    "total_open_seconds": 150.0
+  },
+  "cache_dir": "/workspace/MLEvolve/cache/paper_fulltext",
+  "parser": {
+    "schema": "paper-fulltext-v1",
+    "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+    "pymupdf": "1.28.0",
+    "pymupdf4llm": "1.28.0",
+    "pymupdf_layout": "1.28.0",
+    "tabulate": "0.9.0"
+  },
+  "read_calls": 3,
+  "body_chars": 14034,
+  "open_seconds": 0.007,
+  "attempts": {
+    "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021": {
+      "status": "ok",
+      "cache_hit": true
+    },
+    "neurips-2024/4147dfaa46cd7e20a2aecb91097ae8cc": {
+      "status": "offline_cache_miss",
+      "message": "This exact paper/parser version is not cached"
+    }
+  },
+  "documents": {
+    "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021": {
+      "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+      "title": "A Gradient Accumulation Method for Dense Retriever under Memory Constraint",
+      "corpus_source": "https://papers.nips.cc/paper_files/paper/2024/hash/15ba84c1e19b0eb75f96922f5da0a021-Abstract-Conference.html",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/15ba84c1e19b0eb75f96922f5da0a021-Paper-Conference.pdf",
+      "pdf_sha256": "df8651892589943597045f0dfefc65ebc1b7918619eaeedf6095ec916bb6ff00",
+      "text_sha256": "27f65a80d542f8cb38ec669d0a4905dd742098d4665d505dec07d19734f9fe0e",
+      "parser": {
+        "schema": "paper-fulltext-v1",
+        "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+        "pymupdf": "1.28.0",
+        "pymupdf4llm": "1.28.0",
+        "pymupdf_layout": "1.28.0",
+        "tabulate": "0.9.0"
+      },
+      "parsed_at": "2026-09-11T12:14:29Z",
+      "extraction_mode": "pymupdf4llm-legacy-text",
+      "page_count": 24,
+      "title_check": "token_overlap_passed",
+      "warnings": [
+        "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+      ],
+      "fetched_at": "2026-09-11T12:14:23Z"
+    }
+  },
+  "events": [
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021"
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+        "title": "A Gradient Accumulation Method for Dense Retriever under Memory Constraint",
+        "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/15ba84c1e19b0eb75f96922f5da0a021-Paper-Conference.pdf",
+        "pdf_sha256": "df8651892589943597045f0dfefc65ebc1b7918619eaeedf6095ec916bb6ff00",
+        "text_sha256": "27f65a80d542f8cb38ec669d0a4905dd742098d4665d505dec07d19734f9fe0e",
+        "parser": {
+          "schema": "paper-fulltext-v1",
+          "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+          "pymupdf": "1.28.0",
+          "pymupdf4llm": "1.28.0",
+          "pymupdf_layout": "1.28.0",
+          "tabulate": "0.9.0"
+        },
+        "page_count": 24,
+        "warnings": [
+          "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+        ],
+        "cache_hit": true,
+        "outline": [
+          {
+            "chunk_id": "p001-c001",
+            "page": 1,
+            "section": "A Gradient Accumulation Method for Dense Retriever** **under Memory Constraint",
+            "chars": 84
+          },
+          {
+            "chunk_id": "p001-c002",
+            "page": 1,
+            "section": "Jaehee Kim** <sup>1</sup> **Yukyung Lee** <sup>2</sup> **Pilsung Kang** <sup>1</sup> <sup>_∗_</sup>",
+            "chars": 234
+          },
+          {
+            "chunk_id": "p001-c003",
+            "page": 1,
+            "section": "Abstract",
+            "chars": 1171
+          },
+          {
+            "chunk_id": "p001-c004",
+            "page": 1,
+            "section": "1** **Introduction",
+            "chars": 1860
+          },
+          {
+            "chunk_id": "p002-c001",
+            "page": 2,
+            "section": "1** **Introduction",
+            "chars": 1651
+          },
+          {
+            "chunk_id": "p002-c002",
+            "page": 2,
+            "section": "2** **Related works",
+            "chars": 438
+          },
+          {
+            "chunk_id": "p002-c003",
+            "page": 2,
+            "section": "2.1** **Memory reduction in information retrieval",
+            "chars": 1283
+          },
+          {
+            "chunk_id": "p003-c001",
+            "page": 3,
+            "section": "2.1** **Memory reduction in information retrieval",
+            "chars": 166
+          },
+          {
+            "chunk_id": "p003-c002",
+            "page": 3,
+            "section": "2.2** **Memory bank",
+            "chars": 1833
+          },
+          {
+            "chunk_id": "p003-c003",
+            "page": 3,
+            "section": "3** **Proposed Method",
+            "chars": 25
+          },
+          {
+            "chunk_id": "p003-c004",
+            "page": 3,
+            "section": "3.1** **Preliminary: InfoNCE loss with GradAccum",
+            "chars": 1970
+          },
+          {
+            "chunk_id": "p003-c005",
+            "page": 3,
+            "section": "3.1** **Preliminary: InfoNCE loss with GradAccum",
+            "chars": 249
+          },
+          {
+            "chunk_id": "p003-c006",
+            "page": 3,
+            "section": "q** <sup>_t_</sup> = _f_ <sup>_t_</sup>",
+            "chars": 550
+          },
+          {
+            "chunk_id": "p004-c001",
+            "page": 4,
+            "section": "q** <sup>_t_</sup> = _f_ <sup>_t_</sup>",
+            "chars": 540
+          },
+          {
+            "chunk_id": "p004-c002",
+            "page": 4,
+            "section": "Q** <sup>_t_</sup> _k_ <sup>=</sup> <sup>_{_</sup> <sup>**q**</sup> 1 <sup>_t_</sup> <sup>_, . . .,_</sup> <sup>**q**</sup> _N_ <sup>_t_</sup> local <sup>_} ∈_<",
+            "chars": 847
+          },
+          {
+            "chunk_id": "p004-c003",
+            "page": 4,
+            "section": "Q** <sup>_t_</sup>",
+            "chars": 1086
+          },
+          {
+            "chunk_id": "p004-c004",
+            "page": 4,
+            "section": "3.2** **CONTACCUM",
+            "chars": 1828
+          },
+          {
+            "chunk_id": "p004-c005",
+            "page": 4,
+            "section": "3.2** **CONTACCUM",
+            "chars": 187
+          },
+          {
+            "chunk_id": "p004-c006",
+            "page": 4,
+            "section": "Q** = **Q** <sup>_t_</sup>",
+            "chars": 28
+          },
+          {
+            "chunk_id": "p004-c007",
+            "page": 4,
+            "section": "P** = **P** <sup>_t_</sup>",
+            "chars": 963
+          },
+          {
+            "chunk_id": "p005-c001",
+            "page": 5,
+            "section": "3.3** **Gradient analysis with dual memory bank",
+            "chars": 914
+          },
+          {
+            "chunk_id": "p005-c002",
+            "page": 5,
+            "section": "q** _l∈Q_ <sup>_t_</sup>",
+            "chars": 74
+          },
+          {
+            "chunk_id": "p005-c003",
+            "page": 5,
+            "section": "p** _l∈P_ <sup>_t_</sup>",
+            "chars": 1876
+          },
+          {
+            "chunk_id": "p005-c004",
+            "page": 5,
+            "section": "p** _l∈P_ <sup>_t_</sup>",
+            "chars": 1136
+          },
+          {
+            "chunk_id": "p005-c005",
+            "page": 5,
+            "section": "4** **Experimental setups",
+            "chars": 29
+          },
+          {
+            "chunk_id": "p005-c006",
+            "page": 5,
+            "section": "Resources** . All experiments were conducted on a single A100 80GB GPU. For high-resource scenario,",
+            "chars": 698
+          },
+          {
+            "chunk_id": "p005-c007",
+            "page": 5,
+            "section": "Datasets and evaluation metrics** . The datasets used for the experiments were Natural Questions",
+            "chars": 1340
+          },
+          {
+            "chunk_id": "p006-c001",
+            "page": 6,
+            "section": "Datasets and evaluation metrics** . The datasets used for the experiments were Natural Questions",
+            "chars": 193
+          },
+          {
+            "chunk_id": "p006-c002",
+            "page": 6,
+            "section": "Implementation** **details** . The experimental code was adapted from nano-DPR <sup>3</sup>, which provides",
+            "chars": 872
+          },
+          {
+            "chunk_id": "p006-c003",
+            "page": 6,
+            "section": "Baselines** . We established three baselines for each scenario, and all methods were trained with hard",
+            "chars": 544
+          }
+        ],
+        "next_outline_offset": 30,
+        "remaining_chars": 40000,
+        "note": "Opening a paper returns no body text. Use read_paper to obtain citable excerpts."
+      },
+      "seconds": 0.007
+    },
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/4147dfaa46cd7e20a2aecb91097ae8cc"
+      },
+      "result": {
+        "status": "offline_cache_miss",
+        "paper_id": "neurips-2024/4147dfaa46cd7e20a2aecb91097ae8cc",
+        "message": "This exact paper/parser version is not cached",
+        "note": "No full-text evidence returned by this call; read_abstract remains available"
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "read_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+        "chunk_ids": [
+          "p003-c004",
+          "p004-c004",
+          "p004-c007",
+          "p005-c001",
+          "p005-c004",
+          "p005-c006"
+        ]
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+        "pdf_sha256": "df8651892589943597045f0dfefc65ebc1b7918619eaeedf6095ec916bb6ff00",
+        "text_sha256": "27f65a80d542f8cb38ec669d0a4905dd742098d4665d505dec07d19734f9fe0e",
+        "chunks": [
+          {
+            "chunk_id": "p003-c004",
+            "page": 3,
+            "section": "3.1** **Preliminary: InfoNCE loss with GradAccum",
+            "chars": 1970,
+            "text": "**3.1** **Preliminary: InfoNCE loss with GradAccum**\n\nBefore introducing our method, we first examine GradAccum with InfoNCE loss. Karpukhin et al.\n\n[16] proposed training method for dense retriever using InfoNCE loss. With a batch size _N_, dense\nretrievers are trained by minimizing the negative log-likelihood over all query representations ( **Q** )\nand passage representations. Specifically, they utilized in-batch negative sampling ( **P** ) in the same\nbatch for efficiency, encoded by the query and passage encoders as:\n\nexp( _S_ ( _i,i_ ) _/τ_ )\nlog\n\n<u>�</u> _N_\n_j_ <sup>exp(</sup> <sup>_S_</sup> <sup>(</sup> <sup>_i,j_</sup> <sup>)</sup> <sup>_/τ_</sup> <sup>)</sup>\n\n_L_ ( _S_ ) = _−_ <sup><u>1</u></sup>\n\n_N_\n\n_N_\n\n_i_\n\n_,_ where _S_ = Softmax( **Q** _·_ **P** <sup>_⊤_</sup> ) _∈_ R <sup>_N_</sup> <sup>_×N_</sup> (1)\n\nThe in-batch negative sampling efficiently obtains _N_ _−_ 1 negative passages per query from relevant\npassages of other queries, as shown in Equation 1. Consequently, the number of negative passages\nincreases with a larger batch size. Due to this characteristic of in-batch negative sampling, dense\nretriever is trained using extremely large batch size, ranging from 128 to 8192 [16, 12, 28, 5,\n29]. However, the need to process all data in memory simultaneously requires multiple high-cost\naccelerators, ranging from 8 [16, 28] to 32 [12]. This creates a hardware bottleneck that constrains\nvarious research and applications.\n\nIn low-resource setting, GradAccum is employed to train models with the total batch size ( _N_ total),\nwhich cannot be fitted in the limited memory. GradAccum decomposes the total batch into\naccumulation steps, _K_, and processes the local batch, _N_ local = _N_ total _/K_, through forward and\nbackpropagation K times to calculate gradients. The process of computing InfoNCE Loss with\nGradAccum is as follows.\n\nFirst, the query, _q_, and document, _p_, are encoded by the query encoder, _f_ <sup>_t_</sup>"
+          },
+          {
+            "chunk_id": "p004-c004",
+            "page": 4,
+            "section": "3.2** **CONTACCUM",
+            "chars": 1828,
+            "text": "**3.2** **CONTACCUM**\n\nTo address the issue of fewer negative passages being used with GradAccum, we propose\n\nCONTACCUM, a method that utilizes a dual memory bank structure to cache representations for\nboth queries and passages. The query and passage memory banks ( _M_ **q** _, M_ **p** ) are implemented as\nFirst-In-First-Out queues storing _N_ memory <sup>**q**</sup> <sup>and</sup> <sup>_N_</sup> memory <sup>**p**</sup> <sup>representations respectively. For example, as</sup>\n\nshown in Figure 2, the oldest representations in the memory bank ( **P** <sup>**t**</sup> **1** <sup>_−_</sup> <sup>**1**</sup>, **Q** <sup>**t**</sup> **1** <sup>_−_</sup> <sup>**1**</sup> ) are replaced with\n\nthe newly-generated ones ( **P** <sup>**t**</sup> <sup>,</sup> <sup>**Qt**</sup> <sup>). Memory bank strategy is computationally efficient as it reuses</sup>\n\nmemory <sup>**q**</sup> <sup>and</sup> <sup>_N_</sup> <sup>**p**</sup>\n\n<sup>**t**</sup> **1** <sup>_−_</sup> <sup>**1**</sup>, **Q** <sup>**t**</sup> **1** <sup>_−_</sup> <sup>**1**</sup>\n\nthe newly-generated ones ( **P** <sup>**t**</sup> **1** <sup>,</sup> <sup>**Qt**</sup> **1** <sup>). Memory bank strategy is computationally efficient as it reuses</sup>\n\ngenerated representations from previous iterations [37, 38, 19]. Unlike Lee et al. [19], which only\nutilized a passage memory bank _M_ **p**, CONTACCUM employs a dual memory bank by also utilizing a\nquery memory bank _M_ **q** .\n\nCONTACCUM constructs the similarity matrix using both current and stored representations from the\ndual memory bank as illustrated in Figure 2. It is equivalent to modifying _Sk_ in Equation 4 as:\n\n<sup>_t_</sup> _k_ <sup>_∪_</sup> <sup>sg(</sup> <sup>_M_</sup> <sup>**q**</sup> <sup>)</sup> <sup>_∈_</sup> <sup>R(</sup> <sup>_N_</sup> <sup>local+</sup> <sup>_N_</sup> <sup>**q**</sup>"
+          },
+          {
+            "chunk_id": "p004-c007",
+            "page": 4,
+            "section": "P** = **P** <sup>_t_</sup>",
+            "chars": 963,
+            "text": "**P** = **P** <sup>_t_</sup>\n\nmemory <sup>)</sup> <sup>_×d_</sup> <sup>model</sup> (5)\n\nmemory <sup>**p**</sup> <sup>)</sup> <sup>_×d_</sup> <sup>model</sup> (6)\n\n_Sk_ = Softmax( **Q** _·_ **P** <sup>_⊤_</sup> ) (7)\n\nThe backpropagation process using InfoNCE loss proceeds in the same manner as in Equation\n4. However, since the representations in the memory bank do not have stored activations by the\nstop-gradient operation(sg( _·_ )), the gradients are not back-propagated through the representations in\nthe memory bank.\n\nThe number of negative passages in CONTACCUM is _N_ local + _N_ memory <sup>**p**</sup> <sup>_−_</sup> <sup>1, which is greater than</sup>\n\nGradAccum. Furthermore, if _N_ memory <sup>**p**</sup> <sup>_> N_</sup> local <sup>_×_</sup> <sup>(</sup> <sup>_K −_</sup> <sup>1), CONTACCUM can utilize more negative</sup>\n\npassages than the total batch, enabling superior performance in low-resource setting compared to\nhigh-resource scenario.\n\n4"
+          },
+          {
+            "chunk_id": "p005-c001",
+            "page": 5,
+            "section": "3.3** **Gradient analysis with dual memory bank",
+            "chars": 914,
+            "text": "**3.3** **Gradient analysis with dual memory bank**\n\nWe analyze the InfoNCE loss backpropagation process in information retrieval tasks, extending\nthe analysis by Gao et al. [9] to consider using the memory bank. In the partial derivatives of the\nloss function with respect to the two encoders, _∇_ Θ _L_ ( _Sk_ ) = <sup>�</sup> **q** _l∈Q_ <sup>_t_</sup> _k_ _<u>∂L∂</u>_ <u>(</u> **q** _<u>Slk</u>_ <u>)</u> _·_ <sup>_<u>∂</u>_</sup> _∂_ <sup>**<u>q</u>**</sup> Θ <sup>_<u>l</u>_</sup> <sup>_,_</sup> _∇_ Λ _L_ ( _Sk_ ) =\n\nloss function with respect to the two encoders, _∇_ Θ _L_ ( _Sk_ ) = <sup>�</sup> **q** _l∈Q_ <sup>_t_</sup> _k_ _<u>∂L∂</u>_ <u>(</u> **q** _<u>Slk</u>_ <u>)</u> _·_ <sup>_<u>∂</u>_</sup> _∂_ <sup>**<u>q</u>**</sup> Θ <sup>_<u>l</u>_</sup> <sup>_,_</sup> _∇_ Λ _L_ ( _Sk_ ) =\n\n- _<u>∂L</u>_ <u>(</u> _<u>Sk</u>_ <u>)</u> <sup>_<u>∂</u>_</sup> <sup>**<u>p</u>**</sup> <sup>_<u>l</u>_</sup>"
+          },
+          {
+            "chunk_id": "p005-c004",
+            "page": 5,
+            "section": "p** _l∈P_ <sup>_t_</sup>",
+            "chars": 1136,
+            "text": "The tendency where _||∇_ Θ _L_ ( _Sk_ ) _||_ 2 _<_ _||∇_ Λ _L_ ( _Sk_ ) _||_ 2 is caused by the difference in the number of\nrepresentations used for the gradient calculations of the two encoders. In dual-encoder training, if the\ngradient norms of the two encoders remain imbalanced, the encoder with the larger gradient norm\nconverges faster, making balanced training challenging [4, 33]. Therefore, the unstable training with\na memory bank is caused not only by rapid changes in encoder representations [37, 38], but also\nby the difference in the gradient norms between the dual-encoders. We refer to this problem as the\n_gradient norm imbalance problem_ .\n\nThe _gradient norm imbalance problem_ can be resolved by using memory banks of equal size for\nqueries and passages, _N_ memory <sup>**q**</sup> <sup>=</sup> <sup>_N_</sup> memory <sup>**p**</sup> <sup>=</sup> <sup>_N_</sup> memory <sup>. This ensures that the gradient norms of the two</sup>\n\nencoders remain similar and stabilizes the training process. Further analysis is provided in Sections\n5.2 and 5.5.\n\nmemory <sup>**q**</sup> <sup>=</sup> <sup>_N_</sup> <sup>**p**</sup>"
+          },
+          {
+            "chunk_id": "p005-c006",
+            "page": 5,
+            "section": "Resources** . All experiments were conducted on a single A100 80GB GPU. For high-resource scenario,",
+            "chars": 698,
+            "text": "**Resources** . All experiments were conducted on a single A100 80GB GPU. For high-resource scenario,\nwe considered situations where 80GB of memory is available. For low-resource settings, we assumed\n[available memory as widely used commercial GPUs: 11GB (GTX-1080Ti), 24GB (RTX-3080Ti,](https://www.nvidia.com/en-gb/geforce/graphics-cards/geforce-gtx-1080-ti/specifications/)\n[RTX-4090Ti). To ensure strict experimental conditions, we used a function from the PyTorch [27] to](https://www.nvidia.com/ko-kr/geforce/graphics-cards/40-series/rtx-4090/)\nlimit the available memory. <sup>2</sup> Unless otherwise stated, all experiments assumed low resource setting\nwhere only 11GB memory is available."
+          }
+        ],
+        "not_returned_chunk_ids": [],
+        "remaining_chars": 32491,
+        "remaining_read_calls": 11
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+        "outline_offset": 30
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+        "title": "A Gradient Accumulation Method for Dense Retriever under Memory Constraint",
+        "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/15ba84c1e19b0eb75f96922f5da0a021-Paper-Conference.pdf",
+        "pdf_sha256": "df8651892589943597045f0dfefc65ebc1b7918619eaeedf6095ec916bb6ff00",
+        "text_sha256": "27f65a80d542f8cb38ec669d0a4905dd742098d4665d505dec07d19734f9fe0e",
+        "parser": {
+          "schema": "paper-fulltext-v1",
+          "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+          "pymupdf": "1.28.0",
+          "pymupdf4llm": "1.28.0",
+          "pymupdf_layout": "1.28.0",
+          "tabulate": "0.9.0"
+        },
+        "page_count": 24,
+        "warnings": [
+          "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+        ],
+        "cache_hit": true,
+        "outline": [
+          {
+            "chunk_id": "p006-c004",
+            "page": 6,
+            "section": "5** **Experimental results",
+            "chars": 30
+          },
+          {
+            "chunk_id": "p006-c005",
+            "page": 6,
+            "section": "5.1** **Performance across different resource constraints",
+            "chars": 650
+          },
+          {
+            "chunk_id": "p006-c006",
+            "page": 6,
+            "section": "Batch Size** **MS Marco** **NQ** **TriviaQA** **WebQ** **TREC",
+            "chars": 65
+          },
+          {
+            "chunk_id": "p006-c007",
+            "page": 6,
+            "section": "Method",
+            "chars": 1475
+          },
+          {
+            "chunk_id": "p006-c008",
+            "page": 6,
+            "section": "CONTACCUM outperforms the high-resource DPR even under low-resource constraints.** Table",
+            "chars": 421
+          },
+          {
+            "chunk_id": "p006-c009",
+            "page": 6,
+            "section": "CONTACCUM** **maintains** **consistent** **performance** **across** **different** **memory** **constraints.",
+            "chars": 454
+          },
+          {
+            "chunk_id": "p007-c001",
+            "page": 7,
+            "section": "CONTACCUM** **maintains** **consistent** **performance** **across** **different** **memory** **constraints.",
+            "chars": 109
+          },
+          {
+            "chunk_id": "p007-c002",
+            "page": 7,
+            "section": "The effectiveness of CONTACCUM is amplified under more severe memory constraints.** While",
+            "chars": 1035
+          },
+          {
+            "chunk_id": "p007-c003",
+            "page": 7,
+            "section": "5.2** **Influence of each components in CONTACCUM",
+            "chars": 268
+          },
+          {
+            "chunk_id": "p007-c004",
+            "page": 7,
+            "section": "w/ Hard Negative** **w/o Hard Negative",
+            "chars": 42
+          },
+          {
+            "chunk_id": "p007-c005",
+            "page": 7,
+            "section": "Method** **Top@20** **Method** **Top@20",
+            "chars": 116
+          },
+          {
+            "chunk_id": "p007-c006",
+            "page": 7,
+            "section": "CONTACCUM (ours)** **78.8** **CONTACCUM (ours)** **76.3",
+            "chars": 688
+          },
+          {
+            "chunk_id": "p007-c007",
+            "page": 7,
+            "section": "Passage memory bank alone degrades performance due to gradient norm imbalance.** Specifically,",
+            "chars": 389
+          },
+          {
+            "chunk_id": "p007-c008",
+            "page": 7,
+            "section": "GradAccum and past encoder representations are crucial for stable training and performance.",
+            "chars": 823
+          },
+          {
+            "chunk_id": "p007-c009",
+            "page": 7,
+            "section": "5.3** **Memory bank size analysis",
+            "chars": 535
+          },
+          {
+            "chunk_id": "p008-c001",
+            "page": 8,
+            "section": "5.3** **Memory bank size analysis",
+            "chars": 548
+          },
+          {
+            "chunk_id": "p008-c002",
+            "page": 8,
+            "section": "CONTACCUM** **consistently** **outperforms** **GradAccum** **and** **DPR** **regardless** **of** **the** **size** **of",
+            "chars": 994
+          },
+          {
+            "chunk_id": "p008-c003",
+            "page": 8,
+            "section": "5.4** **Train speed",
+            "chars": 532
+          },
+          {
+            "chunk_id": "p008-c004",
+            "page": 8,
+            "section": "CONTACCUM achieves faster iteration times than GradCache, even with large memory banks.",
+            "chars": 1038
+          },
+          {
+            "chunk_id": "p008-c005",
+            "page": 8,
+            "section": "5.5** **Gradient norm ratio",
+            "chars": 437
+          },
+          {
+            "chunk_id": "p009-c001",
+            "page": 9,
+            "section": "5.5** **Gradient norm ratio",
+            "chars": 353
+          },
+          {
+            "chunk_id": "p009-c002",
+            "page": 9,
+            "section": "Dual memory bank helps maintain gradient norm balance.** The experimental results show that",
+            "chars": 1281
+          },
+          {
+            "chunk_id": "p009-c003",
+            "page": 9,
+            "section": "6** **Conclusion",
+            "chars": 704
+          },
+          {
+            "chunk_id": "p009-c004",
+            "page": 9,
+            "section": "Limitations** . While CONTACCUM reduces computational costs and stabilizes training, this study is",
+            "chars": 635
+          },
+          {
+            "chunk_id": "p009-c005",
+            "page": 9,
+            "section": "Broader impacts** . CONTACCUM is designed to train dense retrievers efficiently, which allows it",
+            "chars": 556
+          },
+          {
+            "chunk_id": "p010-c001",
+            "page": 10,
+            "section": "Future works** . In future work, we plan to extend CONTACCUM to the pre-training phase with a",
+            "chars": 459
+          },
+          {
+            "chunk_id": "p010-c002",
+            "page": 10,
+            "section": "Acknowledgements",
+            "chars": 821
+          },
+          {
+            "chunk_id": "p011-c001",
+            "page": 11,
+            "section": "References",
+            "chars": 1659
+          },
+          {
+            "chunk_id": "p011-c002",
+            "page": 11,
+            "section": "References",
+            "chars": 1987
+          },
+          {
+            "chunk_id": "p011-c003",
+            "page": 11,
+            "section": "References",
+            "chars": 1111
+          }
+        ],
+        "next_outline_offset": 60,
+        "remaining_chars": 32491,
+        "note": "Opening a paper returns no body text. Use read_paper to obtain citable excerpts."
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "read_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+        "chunk_ids": [
+          "p006-c002",
+          "p006-c007",
+          "p007-c006",
+          "p007-c008",
+          "p008-c002",
+          "p008-c004",
+          "p009-c004"
+        ]
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+        "pdf_sha256": "df8651892589943597045f0dfefc65ebc1b7918619eaeedf6095ec916bb6ff00",
+        "text_sha256": "27f65a80d542f8cb38ec669d0a4905dd742098d4665d505dec07d19734f9fe0e",
+        "chunks": [
+          {
+            "chunk_id": "p006-c002",
+            "page": 6,
+            "section": "Implementation** **details** . The experimental code was adapted from nano-DPR <sup>3</sup>, which provides",
+            "chars": 872,
+            "text": "**Implementation** **details** . The experimental code was adapted from nano-DPR <sup>3</sup>, which provides\na simplified training and evaluation pipeline for DPR. All experiments were conducted using the\nBERT <sup>4</sup> [6] model. To maintain consistency with DPR’s experimental setup, NQ and TREC were\ntrained for 40 epochs, and TriviaQA and WebQ for 100 epochs. For MS Marco, performance saturated\nat 10 epochs, so it was trained for 10 epochs. Other training settings were also kept consistent with\nDPR. Detailed settings are provided in Appendix 6.\n\nThe optimal memory bank size, _N_ memory, was selected using evaluation data with candidates [128,\n512, 2048], resulting in 2,048 for NQ and 512 for TriviaQA. For MS Marco, WebQ, and TREC, due\nto the lack of evaluation data, _N_ memory were set based on dataset size: 1,024 for MS Marco, and 128\nfor WebQ and TREC."
+          },
+          {
+            "chunk_id": "p006-c007",
+            "page": 6,
+            "section": "Method",
+            "chars": 1475,
+            "text": "**Method**\n\n_VRAM=11GB_\n\nNDCG Recall Top Top Top Top\n_N_ l/ _K_ / _N_ t\n\n20 100 20 100 20 100 20 100 20 100 20 100\n\nDPR 8/ 1/ 8 27.9 23.5 8.3 15.2 72.2 81.5 73.7 81.9 72.5 81.4 80.8 88.9\nGradAccum 8/16/128 31.1 26.4 10.1 18.1 77.1 84.7 78.4 84.8 74.6 81.9 79.7 89.9\nGradCache 8/16/128 34.9 30.6 12.8 <sup>_⋆_</sup> 22.4 <sup>_⋆_</sup> 79.5 <sup>_⋆_</sup> 85.9 79.4 85.1 75.1 <sup>_⋆_</sup> **82.3** 81.6 90.2\nCONTACCUM (ours) 8/16/128 **39.1** <sup>_⋆_</sup> **32.9** <sup>_⋆_</sup> **14.4** <sup>_⋆_</sup> **23.8** <sup>_⋆_</sup> **80.1** <sup>_⋆_</sup> **86.5** <sup>_⋆_</sup> **79.8** <sup>_⋆_</sup> **85.3** <sup>_⋆_</sup> **75.4** <sup>_⋆_</sup> 82.1 **83.3** <sup>_⋆_</sup> **90.5**\n\n_VRAM=24GB_\n\nDPR 32/1/ 32 33.1 28.6 11.5 19.6 77.0 84.8 77.5 84.2 74.8 <sup>_⋆_</sup> 82.1 **82.7** <sup>_⋆_</sup> **89.8**\nGradAccum 32/4/128 33.1 28.2 11.8 20.0 77.9 85.4 **80.0** <sup>_⋆_</sup> 84.8 74.3 81.9 79.3 89.6\nGradCache 32/4/128 35.5 <sup>_⋆_</sup> 31.0 <sup>_⋆_</sup> 12.8 22.1 79.6 <sup>_⋆_</sup> 86.0 79.7 <sup>_⋆_</sup> **85.1** 74.7 81.8 81.3 89.6\nCONTACCUM (ours) 32/4/128 **39.0** <sup>_⋆_</sup> **32.9** <sup>_⋆_</sup> **14.6** <sup>_⋆_</sup> **24.1** <sup>_⋆_</sup> **80.6** <sup>_⋆_</sup> **86.3** <sup>_⋆_</sup> 79.4 **85.1** **75.0** <sup>_⋆_</sup> **82.5** <sup>_⋆_</sup> 81.8 89.5\n\n_VRAM=80GB_\n\nDPR (implemented) 128/1/128 35.1 30.8 12.7 22.2 79.4 86.1 79.5 85.1 74.7 82.4 82.0 90.5\nDPR (original) 128/1/128  -  -  -  - 78.4 85.4 79.4 85.0 73.2 81.4 79.8 89.1"
+          },
+          {
+            "chunk_id": "p007-c006",
+            "page": 7,
+            "section": "CONTACCUM (ours)** **78.8** **CONTACCUM (ours)** **76.3",
+            "chars": 688,
+            "text": "**CONTACCUM (ours)** **78.8** **CONTACCUM (ours)** **76.3**\nw/o. _Mq_ 70.8 w/o. _Mq_ 72.3\nw/o. Past Enc. 76.5 w/o. Past Enc. 73.4\nw/o. _Mq_ /Past Enc. 67.8 w/o. _Mq_ /Past Enc. 73.9\nw/o. GradAccum 76.7 w/o. GradAccum 74.1\n\nTable 2 shows the influence of key components in CONTACCUM by removing each component\nwith NQ. We also reported experiments that excluded hard negatives during training to observe the\ntendency. The most significant performance drop occurred when the query memory bank _Mq_ was\nremoved, indicating its crucial role in CONTACCUM. The other components of CONTACCUM also\ncontributed to the overall performance, with consistent trends regardless of using hard negatives."
+          },
+          {
+            "chunk_id": "p007-c008",
+            "page": 7,
+            "section": "GradAccum and past encoder representations are crucial for stable training and performance.",
+            "chars": 823,
+            "text": "**GradAccum and past encoder representations are crucial for stable training and performance.**\nMoreover, when GradAccum was not applied (w/o. GradAccum), a 2.1-point performance decline\nwas observed in Top@20, highlighting the importance of involving more data in gradient calculations\nfor stable training in CONTACCUM. Additionally, a 2.3-point performance decrease was noted\nwhen representations generated by past encoders were not used (w/o. Past Enc.). This finding\nconfirms that past encoder representations contribute to training, as suggested by previous studies\n\n[37, 38, 19]. However, unlike pre-batch negatives, query memory bank _Mq_ demonstrates that the\ngreatest performance improvement is achieved by employing a dual memory bank, which leverages\nrepresentations generated by past query and passage encoders."
+          },
+          {
+            "chunk_id": "p008-c002",
+            "page": 8,
+            "section": "CONTACCUM** **consistently** **outperforms** **GradAccum** **and** **DPR** **regardless** **of** **the** **size** **of",
+            "chars": 994,
+            "text": "**CONTACCUM** **consistently** **outperforms** **GradAccum** **and** **DPR** **regardless** **of** **the** **size** **of**\n**memory** **bank** **and** **accumulation** **step.** The results show that increasing the memory bank size\nimproves performance even when GradAccum is not used. This indicates that even without gradient\naccumulation, utilizing representations from the memory bank to construct a larger similarity matrix\nenhances performance. This trend remains consistent as the accumulation step increases. Moreover,\nCONTACCUM consistently outperforms GradAccum in all _N_ total settings. Remarkably, CONTACCUM\nwith _N_ local = 8 _, N_ total = 64, and _N_ memory = 128 surpasses the performance of DPR in a high-resource\nsetting ( _N_ total = _N_ local = 128). The performance improvement of CONTACCUM converges as the\naccumulation step and memory bank size increase, demonstrating that CONTACCUM can robustly\nenhance performance regardless of memory bank size and accumulation steps."
+          }
+        ],
+        "not_returned_chunk_ids": [
+          "p008-c004",
+          "p009-c004"
+        ],
+        "remaining_chars": 27639,
+        "remaining_read_calls": 10
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "read_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+        "chunk_ids": [
+          "p008-c004",
+          "p009-c004"
+        ]
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+        "pdf_sha256": "df8651892589943597045f0dfefc65ebc1b7918619eaeedf6095ec916bb6ff00",
+        "text_sha256": "27f65a80d542f8cb38ec669d0a4905dd742098d4665d505dec07d19734f9fe0e",
+        "chunks": [
+          {
+            "chunk_id": "p008-c004",
+            "page": 8,
+            "section": "CONTACCUM achieves faster iteration times than GradCache, even with large memory banks.",
+            "chars": 1038,
+            "text": "**CONTACCUM achieves faster iteration times than GradCache, even with large memory banks.**\nAs shown in Figure 4, CONTACCUM performs single iterations faster than GradCache in all total batch\nsize. Notably, when _N_ total = 512, GradCache is 93% slower than GradAccum, while CONTACCUM\nonly takes 26% more time, even with the largest memory bank size of _N_ memory = 8192. This indicates\nthat CONTACCUM completes iterations 34% faster than GradCache. The significant additional time\nfor computing one iteration in GradCache is due to the overhead of calculating and storing gradients\nof representations, as well as the repetitive forward and backpropagation. In contrast, CONTACCUM\nincurs a relatively minor loss of speed compared to GradAccum due to the additional computations\ninvolved in storing and retrieving representations from the memory bank and calculating the enlarged\nsimilarity matrix. While pre-batch negatives [19] shows similar computational efficiency to our\nmethod, it degrades the performance as demonstrated in Table 2."
+          },
+          {
+            "chunk_id": "p009-c004",
+            "page": 9,
+            "section": "Limitations** . While CONTACCUM reduces computational costs and stabilizes training, this study is",
+            "chars": 635,
+            "text": "**Limitations** . While CONTACCUM reduces computational costs and stabilizes training, this study is\nlimited by its focus on supervised fine-tuning. Recently, many studies have proposed a pre-training\nstage for dense retriever [12, 7, 8, 29]. It remains to be investigated whether the _gradient_ _norm_\n_imbalance problem_ arises during the pre-training stage and whether CONTACCUM can alleviate it.\nAdditionally, CONTACCUM still relies on the softmax operation, which incurs high computational\ncosts. Reducing this reliance on the softmax operation could lead to more efficient training and\nbroader application of the dense retriever."
+          }
+        ],
+        "not_returned_chunk_ids": [],
+        "remaining_chars": 25966,
+        "remaining_read_calls": 9
+      },
+      "seconds": 0.0
+    }
+  ],
+  "abstracts_read": {
+    "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021": "InfoNCE loss is commonly used to train dense retriever in information retrieval tasks. It is well known that a large batch is essential to stable and effective training with InfoNCE loss, which requires significant hardware resources. Due to the dependency of large batch, dense retriever has bottleneck of application and research. Recently, memory reduction methods have been broadly adopted to resolve the hardware bottleneck by decomposing forward and backward or using a memory bank. However, current methods still suffer from slow and unstable train. To address these issues, we propose Contrastive Accumulation (ContAccum), a stable and efficient memory reduction method for dense retriever trains that uses a dual memory bank structure to leverage previously generated query and passage representations. Experiments on widely used five information retrieval datasets indicate that ContAccum can surpass not only existing memory reduction methods but also high-resource scenarios. Moreover, theoretical analysis and experimental results confirm that ContAccum provides more stable dual-encoder training than current memory bank utilization methods.",
+    "iclr-2025/dikphooa2d": "Machine learning models are often required to perform well across several pre-defined settings, such as a set of user groups. Worst-case performance is a common metric to capture this requirement, and is the objective of group distributionally robust optimization (group DRO). Unfortunately, these methods struggle when the loss is non-convex in the parameters, or the model class is non-parametric. Here, we make a classical move to address this: we reparameterize group DRO from parameter space to function space, which results in a number of advantages. First, we show that group DRO over the space of bounded functions admits a minimax theorem. Second, for cross-entropy and mean squared error, we show that the minimax optimal mixture distribution is the solution of a simple convex optimization problem. Thus, provided one is working with a model class of universal function approximators, group DRO can be solved by a convex optimization problem followed by a classical risk minimization problem. We call our method MixMax. In our experiments, we found that MixMax matched or outperformed the standard group DRO baselines, and in particular, MixMax improved the performance of XGBoost over the only baseline, data balancing, for variations of the ACSIncome and CelebA annotations datasets.",
+    "icml-2024/zhang24aw": "AUC maximization is an effective approach to address the imbalanced data classification problem in federated learning. In the past few years, a couple of federated AUC maximization approaches have been developed based on the minimax optimization. However, directly solving a minimax optimization problem to maximize the AUC score cannot achieve satisfactory performance. To address this issue, we propose to maximize AUC via optimizing a federated multi-level compositional minimax problem. Specifically, we develop a novel federated multi-level compositional minimax algorithm with rigorous theoretical guarantees to solve this new learning paradigm in both algorithmic design and theoretical analysis. To the best of our knowledge, this is the first work studying the multi-level minimax optimization problem. Additionally, extensive empirical evaluations confirm the efficacy of our proposed approach.",
+    "neurips-2024/4147dfaa46cd7e20a2aecb91097ae8cc": "Adapting large language models (LLMs) for specific tasks usually involves fine-tuning through reinforcement learning with human feedback (RLHF) on preference data. While these data often come from diverse labelers' groups (e.g., different demographics, ethnicities, company teams, etc.), traditional RLHF approaches adopt a \"one-size-fits-all\" approach, i.e., they indiscriminately assume and optimize a single preference model, thus not being robust to unique characteristics and needs of the various groups. To address this limitation, we propose a novel Group Robust Preference Optimization (GRPO) method to align LLMs to individual groups' preferences robustly. Our approach builds upon reward-free direct preference optimization methods, but unlike previous approaches, it seeks a robust policy which maximizes the worst-case group performance.  To achieve this, GRPO adaptively and sequentially weights the importance of different groups, prioritizing groups with worse cumulative loss. We theoretically study the feasibility of GRPO and analyze its convergence for the log-linear policy class. By fine-tuning LLMs with GRPO using diverse group-based global opinion data, we significantly improved performance for the worst-performing groups, reduced loss imbalances across groups, and improved probability accuracies compared to non-robust baselines.",
+    "iclr-2025/pdf86dyos6": "The spectral risk has wide applications in machine learning, especially in real-world decision-making, where people are concerned with more than just average model performance. By assigning different weights to the losses of different sample points, rather than the same weights as in the empirical risk, it allows the model's performance to lie between the average performance and the worst-case performance. In this paper, we propose SOREL, the first stochastic gradient-based algorithm with convergence guarantees for spectral risks minimization. Previous approaches often rely on smoothing the spectral risk by adding a strongly concave function, thereby lacking convergence guarantees for the original spectral risk.  We theoretically prove that our algorithm achieves a near-optimal rate of $\\widetilde{O}(1/\\sqrt{\\epsilon})$ to obtain an $\\epsilon$-optimal solution in terms $\\epsilon$. Experiments on real datasets show that our algorithm outperforms existing ones in most cases, both in terms of runtime and sample complexity.",
+    "iclr-2024/brdeblwuw6": "The disparity in accuracy between classes in standard training is amplified during adversarial training, a phenomenon termed the robust fairness problem. Existing methodologies aimed to enhance robust fairness by sacrificing the model's performance on easier classes in order to improve its performance on harder ones. However, we observe that under adversarial attacks, the majority of the model's predictions for samples from the worst class are biased towards classes similar to the worst class, rather than towards the easy classes. Through theoretical and empirical analysis, we demonstrate that robust fairness deteriorates as the distance between classes decreases. Motivated by these insights, we introduce the Distance-Aware Fair Adversarial Training (DAFA) methodology, which addresses robust fairness by taking into account the similarities between classes. Specifically, our method assigns distinct adversarial margins and loss weights to each class and adjusts them to encourage a trade-off in robustness among similar classes. Experimental results across various datasets demonstrate that our method not only maintains average robust accuracy but also significantly improves the worst robust accuracy, indicating a marked improvement in robust fairness compared to existing methods."
+  }
+}

@@ -1,0 +1,1201 @@
+{
+  "schema": "paper-fulltext-v1",
+  "config": {
+    "enabled": true,
+    "cache_dir": "/workspace/MLEvolve/cache/paper_fulltext",
+    "offline": true,
+    "max_papers": 3,
+    "max_read_calls": 12,
+    "read_chars": 8000,
+    "total_chars": 40000,
+    "open_timeout_seconds": 60.0,
+    "total_open_seconds": 150.0
+  },
+  "cache_dir": "/workspace/MLEvolve/cache/paper_fulltext",
+  "parser": {
+    "schema": "paper-fulltext-v1",
+    "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+    "pymupdf": "1.28.0",
+    "pymupdf4llm": "1.28.0",
+    "pymupdf_layout": "1.28.0",
+    "tabulate": "0.9.0"
+  },
+  "read_calls": 4,
+  "body_chars": 19008,
+  "open_seconds": 0.419,
+  "attempts": {
+    "icml-2024/monath24a": {
+      "status": "ok",
+      "cache_hit": true
+    },
+    "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021": {
+      "status": "ok",
+      "cache_hit": true
+    },
+    "icml-2025/phan24b": {
+      "status": "offline_cache_miss",
+      "message": "This exact paper/parser version is not cached"
+    }
+  },
+  "documents": {
+    "icml-2024/monath24a": {
+      "paper_id": "icml-2024/monath24a",
+      "title": "A Fresh Take on Stale Embeddings: Improving Dense Retriever Training with Corrector Networks",
+      "corpus_source": "https://proceedings.mlr.press/v235/monath24a.html",
+      "source_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/monath24a/monath24a.pdf",
+      "pdf_sha256": "37fe0207aa637a439b573e86cdaa0732e50697e2fe7f7f5442a07291d5bf8fbb",
+      "text_sha256": "fca45641a224b4d485e58b775bf2ad766025cde08c64ca4905a00a8fd38b8559",
+      "parser": {
+        "schema": "paper-fulltext-v1",
+        "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+        "pymupdf": "1.28.0",
+        "pymupdf4llm": "1.28.0",
+        "pymupdf_layout": "1.28.0",
+        "tabulate": "0.9.0"
+      },
+      "parsed_at": "2026-09-11T16:01:23Z",
+      "extraction_mode": "pymupdf4llm-legacy-text",
+      "page_count": 16,
+      "title_check": "token_overlap_passed",
+      "warnings": [
+        "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+      ],
+      "fetched_at": "2026-09-11T16:00:54Z"
+    },
+    "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021": {
+      "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+      "title": "A Gradient Accumulation Method for Dense Retriever under Memory Constraint",
+      "corpus_source": "https://papers.nips.cc/paper_files/paper/2024/hash/15ba84c1e19b0eb75f96922f5da0a021-Abstract-Conference.html",
+      "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/15ba84c1e19b0eb75f96922f5da0a021-Paper-Conference.pdf",
+      "pdf_sha256": "df8651892589943597045f0dfefc65ebc1b7918619eaeedf6095ec916bb6ff00",
+      "text_sha256": "27f65a80d542f8cb38ec669d0a4905dd742098d4665d505dec07d19734f9fe0e",
+      "parser": {
+        "schema": "paper-fulltext-v1",
+        "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+        "pymupdf": "1.28.0",
+        "pymupdf4llm": "1.28.0",
+        "pymupdf_layout": "1.28.0",
+        "tabulate": "0.9.0"
+      },
+      "parsed_at": "2026-09-11T12:14:29Z",
+      "extraction_mode": "pymupdf4llm-legacy-text",
+      "page_count": 24,
+      "title_check": "token_overlap_passed",
+      "warnings": [
+        "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+      ],
+      "fetched_at": "2026-09-11T12:14:23Z"
+    }
+  },
+  "events": [
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "icml-2024/monath24a"
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "icml-2024/monath24a",
+        "title": "A Fresh Take on Stale Embeddings: Improving Dense Retriever Training with Corrector Networks",
+        "source_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/monath24a/monath24a.pdf",
+        "pdf_sha256": "37fe0207aa637a439b573e86cdaa0732e50697e2fe7f7f5442a07291d5bf8fbb",
+        "text_sha256": "fca45641a224b4d485e58b775bf2ad766025cde08c64ca4905a00a8fd38b8559",
+        "parser": {
+          "schema": "paper-fulltext-v1",
+          "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+          "pymupdf": "1.28.0",
+          "pymupdf4llm": "1.28.0",
+          "pymupdf_layout": "1.28.0",
+          "tabulate": "0.9.0"
+        },
+        "page_count": 16,
+        "warnings": [
+          "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+        ],
+        "cache_hit": true,
+        "outline": [
+          {
+            "chunk_id": "p001-c001",
+            "page": 1,
+            "section": "A Fresh Take on Stale Embeddings:** **Improving Dense Retriever Training with Corrector Networks",
+            "chars": 102
+          },
+          {
+            "chunk_id": "p001-c002",
+            "page": 1,
+            "section": "Nicholas Monath** <sup>* 1</sup> **Will Grathwohl** <sup>* 1</sup> **Michael Boratko** <sup>1</sup> **Rob Fergus** <sup>1</sup> **Andrew McCallum** <sup>1</sup>",
+            "chars": 193
+          },
+          {
+            "chunk_id": "p001-c003",
+            "page": 1,
+            "section": "Abstract",
+            "chars": 1399
+          },
+          {
+            "chunk_id": "p001-c004",
+            "page": 1,
+            "section": "1. Introduction",
+            "chars": 1051
+          },
+          {
+            "chunk_id": "p001-c005",
+            "page": 1,
+            "section": "1. Introduction",
+            "chars": 1160
+          },
+          {
+            "chunk_id": "p001-c006",
+            "page": 1,
+            "section": "1. Introduction",
+            "chars": 884
+          },
+          {
+            "chunk_id": "p002-c001",
+            "page": 2,
+            "section": "<u>A Fresh Take on Stale Embeddings:</u>** **<u>Improving Dense Retriever Training with Corrector Networks</u>",
+            "chars": 164
+          },
+          {
+            "chunk_id": "p002-c002",
+            "page": 2,
+            "section": "Methodological** (§3) - We describe a novel training procedure for large output space models. It is based on approximating softmax-parameterized categorical dis",
+            "chars": 274
+          },
+          {
+            "chunk_id": "p002-c003",
+            "page": 2,
+            "section": "Theoretical** (§4) - We analyze the generalization properties",
+            "chars": 240
+          },
+          {
+            "chunk_id": "p002-c004",
+            "page": 2,
+            "section": "Empirical** (§5) - We evaluate our approach in training both",
+            "chars": 273
+          },
+          {
+            "chunk_id": "p002-c005",
+            "page": 2,
+            "section": "2. Background",
+            "chars": 17
+          },
+          {
+            "chunk_id": "p002-c006",
+            "page": 2,
+            "section": "Softmax** Given an input point _x_, a distribution over a set",
+            "chars": 597
+          },
+          {
+            "chunk_id": "p002-c007",
+            "page": 2,
+            "section": "Initialization** We initialize the parameters of the dual encoders, Θ, using pre-trained models, such as pre-trained",
+            "chars": 207
+          },
+          {
+            "chunk_id": "p002-c008",
+            "page": 2,
+            "section": "Stale Cached Representations** When we are training the",
+            "chars": 1494
+          },
+          {
+            "chunk_id": "p002-c009",
+            "page": 2,
+            "section": "3. Improving Training with Target Correctors",
+            "chars": 1427
+          },
+          {
+            "chunk_id": "p002-c010",
+            "page": 2,
+            "section": "Dual-Encoders** We compute the unnormalized logits, _sx,y_,",
+            "chars": 298
+          },
+          {
+            "chunk_id": "p002-c011",
+            "page": 2,
+            "section": "Training** For a task-specific loss, _L_, such as cross-entropy,",
+            "chars": 680
+          },
+          {
+            "chunk_id": "p002-c012",
+            "page": 2,
+            "section": "Uniform** **Sampling** **Approximation** A simple approach",
+            "chars": 281
+          },
+          {
+            "chunk_id": "p002-c013",
+            "page": 2,
+            "section": "Top-K** **/** **Similarity-based** **Sampling** **Approximations",
+            "chars": 192
+          },
+          {
+            "chunk_id": "p003-c001",
+            "page": 3,
+            "section": "<u>A Fresh Take on Stale Embeddings:</u>** **<u>Improving Dense Retriever Training with Corrector Networks</u>",
+            "chars": 554
+          },
+          {
+            "chunk_id": "p003-c002",
+            "page": 3,
+            "section": "Warmup:** **Training** **the** **corrector** **network** **in** **isolation",
+            "chars": 1636
+          },
+          {
+            "chunk_id": "p003-c003",
+            "page": 3,
+            "section": "Warmup:** **Training** **the** **corrector** **network** **in** **isolation",
+            "chars": 562
+          },
+          {
+            "chunk_id": "p003-c004",
+            "page": 3,
+            "section": "Jointly Training Corrector Networks & Dual-Encoders",
+            "chars": 871
+          },
+          {
+            "chunk_id": "p003-c005",
+            "page": 3,
+            "section": "Jointly Training Corrector Networks & Dual-Encoders",
+            "chars": 1872
+          },
+          {
+            "chunk_id": "p003-c006",
+            "page": 3,
+            "section": "Jointly Training Corrector Networks & Dual-Encoders",
+            "chars": 941
+          },
+          {
+            "chunk_id": "p004-c001",
+            "page": 4,
+            "section": "<u>A Fresh Take on Stale Embeddings:</u>** **<u>Improving Dense Retriever Training with Corrector Networks</u>",
+            "chars": 536
+          },
+          {
+            "chunk_id": "p004-c002",
+            "page": 4,
+            "section": "<u>Algorithm 1</u>** <u>Training with target corrector networks</u>",
+            "chars": 1897
+          },
+          {
+            "chunk_id": "p004-c003",
+            "page": 4,
+            "section": "3.1. Latent Variables in Retrieval Augmented Models",
+            "chars": 1786
+          },
+          {
+            "chunk_id": "p004-c004",
+            "page": 4,
+            "section": "3.1. Latent Variables in Retrieval Augmented Models",
+            "chars": 1731
+          },
+          {
+            "chunk_id": "p004-c005",
+            "page": 4,
+            "section": "4. Analysis",
+            "chars": 604
+          }
+        ],
+        "next_outline_offset": 30,
+        "remaining_chars": 40000,
+        "note": "Opening a paper returns no body text. Use read_paper to obtain citable excerpts."
+      },
+      "seconds": 0.141
+    },
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021"
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+        "title": "A Gradient Accumulation Method for Dense Retriever under Memory Constraint",
+        "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/15ba84c1e19b0eb75f96922f5da0a021-Paper-Conference.pdf",
+        "pdf_sha256": "df8651892589943597045f0dfefc65ebc1b7918619eaeedf6095ec916bb6ff00",
+        "text_sha256": "27f65a80d542f8cb38ec669d0a4905dd742098d4665d505dec07d19734f9fe0e",
+        "parser": {
+          "schema": "paper-fulltext-v1",
+          "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+          "pymupdf": "1.28.0",
+          "pymupdf4llm": "1.28.0",
+          "pymupdf_layout": "1.28.0",
+          "tabulate": "0.9.0"
+        },
+        "page_count": 24,
+        "warnings": [
+          "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+        ],
+        "cache_hit": true,
+        "outline": [
+          {
+            "chunk_id": "p001-c001",
+            "page": 1,
+            "section": "A Gradient Accumulation Method for Dense Retriever** **under Memory Constraint",
+            "chars": 84
+          },
+          {
+            "chunk_id": "p001-c002",
+            "page": 1,
+            "section": "Jaehee Kim** <sup>1</sup> **Yukyung Lee** <sup>2</sup> **Pilsung Kang** <sup>1</sup> <sup>_∗_</sup>",
+            "chars": 234
+          },
+          {
+            "chunk_id": "p001-c003",
+            "page": 1,
+            "section": "Abstract",
+            "chars": 1171
+          },
+          {
+            "chunk_id": "p001-c004",
+            "page": 1,
+            "section": "1** **Introduction",
+            "chars": 1860
+          },
+          {
+            "chunk_id": "p002-c001",
+            "page": 2,
+            "section": "1** **Introduction",
+            "chars": 1651
+          },
+          {
+            "chunk_id": "p002-c002",
+            "page": 2,
+            "section": "2** **Related works",
+            "chars": 438
+          },
+          {
+            "chunk_id": "p002-c003",
+            "page": 2,
+            "section": "2.1** **Memory reduction in information retrieval",
+            "chars": 1283
+          },
+          {
+            "chunk_id": "p003-c001",
+            "page": 3,
+            "section": "2.1** **Memory reduction in information retrieval",
+            "chars": 166
+          },
+          {
+            "chunk_id": "p003-c002",
+            "page": 3,
+            "section": "2.2** **Memory bank",
+            "chars": 1833
+          },
+          {
+            "chunk_id": "p003-c003",
+            "page": 3,
+            "section": "3** **Proposed Method",
+            "chars": 25
+          },
+          {
+            "chunk_id": "p003-c004",
+            "page": 3,
+            "section": "3.1** **Preliminary: InfoNCE loss with GradAccum",
+            "chars": 1970
+          },
+          {
+            "chunk_id": "p003-c005",
+            "page": 3,
+            "section": "3.1** **Preliminary: InfoNCE loss with GradAccum",
+            "chars": 249
+          },
+          {
+            "chunk_id": "p003-c006",
+            "page": 3,
+            "section": "q** <sup>_t_</sup> = _f_ <sup>_t_</sup>",
+            "chars": 550
+          },
+          {
+            "chunk_id": "p004-c001",
+            "page": 4,
+            "section": "q** <sup>_t_</sup> = _f_ <sup>_t_</sup>",
+            "chars": 540
+          },
+          {
+            "chunk_id": "p004-c002",
+            "page": 4,
+            "section": "Q** <sup>_t_</sup> _k_ <sup>=</sup> <sup>_{_</sup> <sup>**q**</sup> 1 <sup>_t_</sup> <sup>_, . . .,_</sup> <sup>**q**</sup> _N_ <sup>_t_</sup> local <sup>_} ∈_<",
+            "chars": 847
+          },
+          {
+            "chunk_id": "p004-c003",
+            "page": 4,
+            "section": "Q** <sup>_t_</sup>",
+            "chars": 1086
+          },
+          {
+            "chunk_id": "p004-c004",
+            "page": 4,
+            "section": "3.2** **CONTACCUM",
+            "chars": 1828
+          },
+          {
+            "chunk_id": "p004-c005",
+            "page": 4,
+            "section": "3.2** **CONTACCUM",
+            "chars": 187
+          },
+          {
+            "chunk_id": "p004-c006",
+            "page": 4,
+            "section": "Q** = **Q** <sup>_t_</sup>",
+            "chars": 28
+          },
+          {
+            "chunk_id": "p004-c007",
+            "page": 4,
+            "section": "P** = **P** <sup>_t_</sup>",
+            "chars": 963
+          },
+          {
+            "chunk_id": "p005-c001",
+            "page": 5,
+            "section": "3.3** **Gradient analysis with dual memory bank",
+            "chars": 914
+          },
+          {
+            "chunk_id": "p005-c002",
+            "page": 5,
+            "section": "q** _l∈Q_ <sup>_t_</sup>",
+            "chars": 74
+          },
+          {
+            "chunk_id": "p005-c003",
+            "page": 5,
+            "section": "p** _l∈P_ <sup>_t_</sup>",
+            "chars": 1876
+          },
+          {
+            "chunk_id": "p005-c004",
+            "page": 5,
+            "section": "p** _l∈P_ <sup>_t_</sup>",
+            "chars": 1136
+          },
+          {
+            "chunk_id": "p005-c005",
+            "page": 5,
+            "section": "4** **Experimental setups",
+            "chars": 29
+          },
+          {
+            "chunk_id": "p005-c006",
+            "page": 5,
+            "section": "Resources** . All experiments were conducted on a single A100 80GB GPU. For high-resource scenario,",
+            "chars": 698
+          },
+          {
+            "chunk_id": "p005-c007",
+            "page": 5,
+            "section": "Datasets and evaluation metrics** . The datasets used for the experiments were Natural Questions",
+            "chars": 1340
+          },
+          {
+            "chunk_id": "p006-c001",
+            "page": 6,
+            "section": "Datasets and evaluation metrics** . The datasets used for the experiments were Natural Questions",
+            "chars": 193
+          },
+          {
+            "chunk_id": "p006-c002",
+            "page": 6,
+            "section": "Implementation** **details** . The experimental code was adapted from nano-DPR <sup>3</sup>, which provides",
+            "chars": 872
+          },
+          {
+            "chunk_id": "p006-c003",
+            "page": 6,
+            "section": "Baselines** . We established three baselines for each scenario, and all methods were trained with hard",
+            "chars": 544
+          }
+        ],
+        "next_outline_offset": 30,
+        "remaining_chars": 40000,
+        "note": "Opening a paper returns no body text. Use read_paper to obtain citable excerpts."
+      },
+      "seconds": 0.279
+    },
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "icml-2025/phan24b"
+      },
+      "result": {
+        "status": "offline_cache_miss",
+        "paper_id": "icml-2025/phan24b",
+        "message": "This exact paper/parser version is not cached",
+        "note": "No full-text evidence returned by this call; read_abstract remains available"
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "read_paper",
+      "arguments": {
+        "paper_id": "icml-2024/monath24a",
+        "chunk_ids": [
+          "p002-c008",
+          "p002-c009",
+          "p003-c002",
+          "p003-c004",
+          "p003-c005"
+        ]
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "icml-2024/monath24a",
+        "pdf_sha256": "37fe0207aa637a439b573e86cdaa0732e50697e2fe7f7f5442a07291d5bf8fbb",
+        "text_sha256": "fca45641a224b4d485e58b775bf2ad766025cde08c64ca4905a00a8fd38b8559",
+        "chunks": [
+          {
+            "chunk_id": "p002-c008",
+            "page": 2,
+            "section": "Stale Cached Representations** When we are training the",
+            "chars": 1494,
+            "text": "**Stale Cached Representations** When we are training the\nparameters, Θ, each target’s vector according to _g_ ( _y_ ; Θ)\nchanges at each step of training. Therefore, a commonly\nused approach is to define an approximation, _g_ <sup>_′_</sup> ( _y_ ), that\nis a lookup for a “stale” cached embedding for the given\ntarget. The stale embedding comes from running the target encoder at a particular time step _t_, of training, and\ncaching the result, i.e., _g_ ( _y,_ Θ _t_ ) in a buffer, _B_ _∈R_ <sup>_|Y|×D_</sup>,\ni.e. _g_ <sup>_′_</sup> ( _yi_ ) ≜ _Byi_ . To find the top- _k_ targets for input _x_ we\ncompute approximate logits _B_ <sup>_T_</sup> _f_ ( _x_ ) _∈R_ <sup>_|Y|_</sup> and select the\ntop- _k_ targets to define _S_ ( _Y_ ). Even before training, we can\nuse the pre-trained model to produce embeddings for all\ntargets _Byi_ = _g_ ( _yi_ ; Θ0). While _B_ may seem large, this is\nconsiderably more efficient than exact computation and is\npossible, on accelerators, for _|Y|_ in the tens of millions.\n\nThe bias of this approach (and subsequent degradation in\nperformance) depends on the _staleness_ or drift of the embeddings, i.e., _||Byi_ _−_ _g_ ( _yi_ ) _||_ which will increase as we\nupdate the parameters of _g_ ( _y_ ). This can be mitigated by\nrecomputing _B_ periodically throughout training (at notable\ncost). This approach of periodically recomputing has been\nused (Guu et al., 2020; Izacard et al., 2022; Monath et al.,\n2023), but there is still much room for improvement."
+          },
+          {
+            "chunk_id": "p002-c009",
+            "page": 2,
+            "section": "3. Improving Training with Target Correctors",
+            "chars": 1427,
+            "text": "**3. Improving Training with Target Correctors**\n\nOur proposed approach builds upon these stale buffer approximations by using an additional parametric model. The\nadditional model aims to improve upon the stale _g_ <sup>_′_</sup> ( _y_ ) to\nyield a better approximation of _g_ ( _y_ ).\n\nWe refer to this additional parametric model as a _target cor-_\n_rector network_, _h_ ( _·_ ; Ψ) or simply _h_ ( _·_ ) when the parameters\nΨ are not pertinent. This target corrector network takes as\ninput the existing stale vector embedding, _g_ <sup>_′_</sup> ( _y_ ), and yields\nthe following approximation of the softmax function:\n\n_Ph_ ( _y|x_ ) _∝_ exp( _β⟨f_ ( _x_ ) _, h ◦_ _g_ <sup>_′_</sup> ( _y_ ) _⟩_ ) _._ (4)\n\nWith significantly fewer parameters than a typical dualencoder, i.e., _|_ Ψ _|_ _≪|_ Θ _|_, this small parameteric model\nis efficient enough to provide approximately fresh representations of every target at every training step. The target\ncorrector network presents interesting research questions\nregarding whether the network can obviate the need for\nre-embedding, what kinds of staleness or drift can be effectively modeled, and how much training data is required.\n\nwhere _β_ is the temperature. In this paper, we focus on applications in retrieval and latent variable models. For example,\nin Natural Questions (Kwiatkowski et al., 2019), _x_ refers to\na question and targets, _y_, correspond to Wikipedia passages."
+          },
+          {
+            "chunk_id": "p003-c002",
+            "page": 3,
+            "section": "Warmup:** **Training** **the** **corrector** **network** **in** **isolation",
+            "chars": 1636,
+            "text": "**Warmup:** **Training** **the** **corrector** **network** **in** **isolation**\nWe begin by considering how we would train only the parameters of the target corrector network, independently of\nthe dual-encoders _f_ ( _x_ ) and _g_ ( _y_ ). Afterwards, we present\nan algorithm for jointly training the target corrector network\nand the dual-encoders. To train the parameters Ψ of the\ncorrector network, _h_ ( _·_ ; Ψ), we collect training examples of\ninput data points _xi_, the exact target embeddings _g_ ( _y_ ), and\nstale embeddings _g_ <sup>_′_</sup> ( _y_ ) for a subset of targets _S_ ( _Y_ ) _i_ _⊂Y_,\ni.e., _{_ ( _f_ ( _xi_ ) _, g_ ( _yb_ ) _, g_ <sup>_′_</sup> ( _yb_ )) _| yb_ _∈_ _S_ ( _Y_ ) _i}_ .\n\nWe consider two loss functions for training _h_ : the meansquared error between representations given by _g_ ( _y_ ) and\nthe corrected representations _h ◦_ _g_ <sup>_′_</sup> ( _y_ ) (Eq. 5) and the cross\nentropy loss between the truncated softmax using _g_ ( _y_ ) and\ntruncated softmax using _h ◦_ _g_ <sup>_′_</sup> ( _y_ ) (Eq. 6):\n\n_ℓMSE_ ( _yi_ ) = _||g_ ( _yi_ ) _−_ _h ◦_ _g_ <sup>_′_</sup> ( _yi_ ; Ψ) _||_ 2 (5)\n\n_ℓ_ d( _yi_ ) = log _P_ <sup>˜</sup> ( _y|x_ ) _−_ log _P_ <sup>˜</sup> _h_ ( _y|x_ ) (6)\n\n<u>exp(</u> _<u>β⟨f</u>_ <u>(</u> _<u>x</u>_ <u>)</u> _<u>, h ◦</u>_ _<u>g</u>_ <sup>_′_</sup> <u>(</u> _<u>y</u>_ <u>; Ψ)</u> _<u>⟩</u>_ <u>)</u>\n_P_ ˜ _h_ ( _y|x_ ) = <u>�</u>\n\n_y_ <sup>_′_</sup> _∈S_ ( _Y_ ) _i_ <sup>exp(</sup> <sup>_β⟨f_</sup> <sup>(</sup> <sup>_x_</sup> <sup>)</sup> <sup>_, h ◦_</sup> <sup>_g′_</sup> <sup>(</sup> <sup>_y′_</sup> <sup>; Ψ)</sup> <sup>_⟩_</sup> <sup>)</sup> <sup>_._</sup>"
+          },
+          {
+            "chunk_id": "p003-c004",
+            "page": 3,
+            "section": "Jointly Training Corrector Networks & Dual-Encoders",
+            "chars": 871,
+            "text": "**Jointly Training Corrector Networks & Dual-Encoders**\nWe present a method (Algorithm 1) for simultaneously training dual-encoders for a given task (e.g., retrieval or equivalently large output-space classification) and the target corrector network. The training algorithm will optimize both the\nparameters of the target corrector network and additionally\nuse the corrector network to approximate the softmax. Each\n\nstep consists of: (1) using the corrector network to provide\nan approximately updated representation of every target, (2)\npicking a subset of targets for the truncated softmax using\nthe output of the corrector network, (3) computing a task\nloss for the dual-encoder models and loss for the corrector\nnetworks, (4) updating, according to their respective losses,\nthe parameters for both the dual-encoders and the corrector\nnetworks using gradient descent."
+          },
+          {
+            "chunk_id": "p003-c005",
+            "page": 3,
+            "section": "Jointly Training Corrector Networks & Dual-Encoders",
+            "chars": 1872,
+            "text": "In more detail, we are given task training data, _X_ =\n_{_ ( _x_ 1 _, y_ 1) _, . . .,_ ( _xm, ym_ ) _}_ . We are given a task loss function _L_ and a corrector network loss _ℓ_ . The dual-encoder\nmodels are _f_ ( _x_ ) _, g_ ( _y_ ) and their initial parameters are Θ0.\nPrior to the first training step, we instantiate a buffer of the\ntargets’ representations, _By_ = _g_ <sup>_′_</sup> ( _y_ ) = _g_ ( _y_ ; Θ0). We will\navert the need for the expensive updating of the buffer by\nre-embedding targets with the target encoder. In each step,\nwe sample a training point and label pair _xi, yi_ from _X_ . We\napply the target corrector network to all of the stale representations in the buffer to obtain _h ◦_ _g_ <sup>_′_</sup> ( _y_ ) _∀y_ _∈Y_ . This\ncomputation does not require running a dual-encoder; we\nuse the cached buffer representation of each target as input\nto the corrector network. The corrector network is typically\na two-layer MLP and hence efficient enough to be used in\nthis way. With these representations from _h_ ( _·_ ), we sample\n(or select exact top- _k_ ) targets according to _Ph_ ( _y|x_ ) (Eq. 4)\nto form a subset of targets _Sxi_ ( _Y_ ) for the truncated softmax.\n\nGiven this subset, we compute the task and correction losses\nand update their respective model parameters. First, we\ncompute the task loss, which is cross-entropy. The task\nloss will only be used to update the parameters of the\ndual-encoders, Θ, not the parameters of the target corrector network. We compute the truncated softmax _P_ <sup>˜</sup> ( _y|x_ ) _∝_\nexp( _β⟨f_ ( _x_ ) _, g_ ( _y_ ) _⟩_ ) (Equation 3). We define a one-hot _P_ <sup>_⋆_</sup>\n\naccording to the training data label _yi_ . We compute the\ntask specific loss _L_ as a function of _P_ <sup>˜</sup> and _P_ <sup>_⋆_</sup>, and update the dual encoder parameters via gradient descent\nΘ _←_ Θ _−_ _η∇_ Θ _L_ ."
+          }
+        ],
+        "not_returned_chunk_ids": [],
+        "remaining_chars": 32700,
+        "remaining_read_calls": 11
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "read_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+        "chunk_ids": [
+          "p002-c003",
+          "p004-c004",
+          "p004-c007",
+          "p005-c001",
+          "p005-c003",
+          "p005-c004"
+        ]
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+        "pdf_sha256": "df8651892589943597045f0dfefc65ebc1b7918619eaeedf6095ec916bb6ff00",
+        "text_sha256": "27f65a80d542f8cb38ec669d0a4905dd742098d4665d505dec07d19734f9fe0e",
+        "chunks": [
+          {
+            "chunk_id": "p002-c003",
+            "page": 2,
+            "section": "2.1** **Memory reduction in information retrieval",
+            "chars": 1283,
+            "text": "**2.1** **Memory reduction in information retrieval**\n\nGradAccum is the most common method to address memory reduction problem. By using GradAccum,\ngradients of the total batch can be stored by sequentially processing local batches through forward\nand backward passes, even when the total batch cannot be processed at once. However, as shown in\nFigure 1 (b), GradAccum is not a proper memory reduction method for the in-batch negatives, as it\nuses fewer negative samples than the total batch. We will discuss the limitation of GradAccum for\ncontrastive learning in detail in subsection 3.1.\n\nGradCache reduces memory usage in contrastive learning by decomposing the backpropagation\nprocess. Specifically, as shown in Figure 1 (a), it calculates the loss without storing activations\nduring the forward pass using the total batch. Then, it computes and stores the gradient from the\nloss to the representations. Next, it performs additional forward passes for the local batch to store\nactivations and sequentially calculates gradients from each representation to the model weights. This\nallows GradCache to use the same number of negative samples as the total batch, approximating the\nperformance of the total batch. However, GradCache cannot surpass the performance of high-resource\n\n2"
+          },
+          {
+            "chunk_id": "p004-c004",
+            "page": 4,
+            "section": "3.2** **CONTACCUM",
+            "chars": 1828,
+            "text": "**3.2** **CONTACCUM**\n\nTo address the issue of fewer negative passages being used with GradAccum, we propose\n\nCONTACCUM, a method that utilizes a dual memory bank structure to cache representations for\nboth queries and passages. The query and passage memory banks ( _M_ **q** _, M_ **p** ) are implemented as\nFirst-In-First-Out queues storing _N_ memory <sup>**q**</sup> <sup>and</sup> <sup>_N_</sup> memory <sup>**p**</sup> <sup>representations respectively. For example, as</sup>\n\nshown in Figure 2, the oldest representations in the memory bank ( **P** <sup>**t**</sup> **1** <sup>_−_</sup> <sup>**1**</sup>, **Q** <sup>**t**</sup> **1** <sup>_−_</sup> <sup>**1**</sup> ) are replaced with\n\nthe newly-generated ones ( **P** <sup>**t**</sup> <sup>,</sup> <sup>**Qt**</sup> <sup>). Memory bank strategy is computationally efficient as it reuses</sup>\n\nmemory <sup>**q**</sup> <sup>and</sup> <sup>_N_</sup> <sup>**p**</sup>\n\n<sup>**t**</sup> **1** <sup>_−_</sup> <sup>**1**</sup>, **Q** <sup>**t**</sup> **1** <sup>_−_</sup> <sup>**1**</sup>\n\nthe newly-generated ones ( **P** <sup>**t**</sup> **1** <sup>,</sup> <sup>**Qt**</sup> **1** <sup>). Memory bank strategy is computationally efficient as it reuses</sup>\n\ngenerated representations from previous iterations [37, 38, 19]. Unlike Lee et al. [19], which only\nutilized a passage memory bank _M_ **p**, CONTACCUM employs a dual memory bank by also utilizing a\nquery memory bank _M_ **q** .\n\nCONTACCUM constructs the similarity matrix using both current and stored representations from the\ndual memory bank as illustrated in Figure 2. It is equivalent to modifying _Sk_ in Equation 4 as:\n\n<sup>_t_</sup> _k_ <sup>_∪_</sup> <sup>sg(</sup> <sup>_M_</sup> <sup>**q**</sup> <sup>)</sup> <sup>_∈_</sup> <sup>R(</sup> <sup>_N_</sup> <sup>local+</sup> <sup>_N_</sup> <sup>**q**</sup>"
+          },
+          {
+            "chunk_id": "p004-c007",
+            "page": 4,
+            "section": "P** = **P** <sup>_t_</sup>",
+            "chars": 963,
+            "text": "**P** = **P** <sup>_t_</sup>\n\nmemory <sup>)</sup> <sup>_×d_</sup> <sup>model</sup> (5)\n\nmemory <sup>**p**</sup> <sup>)</sup> <sup>_×d_</sup> <sup>model</sup> (6)\n\n_Sk_ = Softmax( **Q** _·_ **P** <sup>_⊤_</sup> ) (7)\n\nThe backpropagation process using InfoNCE loss proceeds in the same manner as in Equation\n4. However, since the representations in the memory bank do not have stored activations by the\nstop-gradient operation(sg( _·_ )), the gradients are not back-propagated through the representations in\nthe memory bank.\n\nThe number of negative passages in CONTACCUM is _N_ local + _N_ memory <sup>**p**</sup> <sup>_−_</sup> <sup>1, which is greater than</sup>\n\nGradAccum. Furthermore, if _N_ memory <sup>**p**</sup> <sup>_> N_</sup> local <sup>_×_</sup> <sup>(</sup> <sup>_K −_</sup> <sup>1), CONTACCUM can utilize more negative</sup>\n\npassages than the total batch, enabling superior performance in low-resource setting compared to\nhigh-resource scenario.\n\n4"
+          },
+          {
+            "chunk_id": "p005-c001",
+            "page": 5,
+            "section": "3.3** **Gradient analysis with dual memory bank",
+            "chars": 914,
+            "text": "**3.3** **Gradient analysis with dual memory bank**\n\nWe analyze the InfoNCE loss backpropagation process in information retrieval tasks, extending\nthe analysis by Gao et al. [9] to consider using the memory bank. In the partial derivatives of the\nloss function with respect to the two encoders, _∇_ Θ _L_ ( _Sk_ ) = <sup>�</sup> **q** _l∈Q_ <sup>_t_</sup> _k_ _<u>∂L∂</u>_ <u>(</u> **q** _<u>Slk</u>_ <u>)</u> _·_ <sup>_<u>∂</u>_</sup> _∂_ <sup>**<u>q</u>**</sup> Θ <sup>_<u>l</u>_</sup> <sup>_,_</sup> _∇_ Λ _L_ ( _Sk_ ) =\n\nloss function with respect to the two encoders, _∇_ Θ _L_ ( _Sk_ ) = <sup>�</sup> **q** _l∈Q_ <sup>_t_</sup> _k_ _<u>∂L∂</u>_ <u>(</u> **q** _<u>Slk</u>_ <u>)</u> _·_ <sup>_<u>∂</u>_</sup> _∂_ <sup>**<u>q</u>**</sup> Θ <sup>_<u>l</u>_</sup> <sup>_,_</sup> _∇_ Λ _L_ ( _Sk_ ) =\n\n- _<u>∂L</u>_ <u>(</u> _<u>Sk</u>_ <u>)</u> <sup>_<u>∂</u>_</sup> <sup>**<u>p</u>**</sup> <sup>_<u>l</u>_</sup>"
+          },
+          {
+            "chunk_id": "p005-c003",
+            "page": 5,
+            "section": "p** _l∈P_ <sup>_t_</sup>",
+            "chars": 1876,
+            "text": "**p** _l∈P_ <sup>_t_</sup>\n\n_<u>∂L</u>_ <u>(</u> _<u>Sk</u>_ <u>)</u>\n\n_k_\n\n_∂_ <u>(</u> **p** _<u>Slk</u>_ <u>)</u> _·_ <sup>_<u>∂</u>_</sup> _∂_ <sup>**<u>p</u>**</sup> Λ <sup>_<u>l</u>_</sup> <sup>, the partial derivative terms for each representation are given by:</sup>\n\n_<u>∂L</u>_ <u>(</u> _<u>Sk</u>_ <u>)</u>\n\n_∂_ **q** _l_\n\n_<u>∂L</u>_ <u>(</u> _<u>Sk</u>_ <u>)</u>\n\n_∂_ **p** _l_\n\n<u>1</u>\n= _−_\n_N_ local + _N_ memory <sup>_<u>q</u>_</sup>\n\n<u>1</u>\n= _−_\n_N_ local + _N_ memory <sup>_<u>q</u>_</sup>\n\n_N_ local+ _N_ memory <sup>_p_</sup>\n\n_j_\n\n_N_ local+ _N_ memory <sup>_q_</sup>\n\n_i_\n\n_Sk_ ( _l,j_ ) _·_ **p** _j_ ) (8)\n\n_Sk_ ( _i,l_ ) _·_ **q** _j_ ) _,_ (9)\n\n( **p** _l −_\n\n( **q** _l −_\n\nwhere _Sk_ ( _i,j_ ) denotes the similarity between _i_ -th query and _j_ -th passage in the similarity matrix _Sk_\nof the _k_ -th accumulation step. Detailed differentiation steps are provided in Appendix 6.\n\nEquations 8 and 9 have a similar structure, indicating that the gradients of the two encoders are\ninfluenced by the representations generated by the opposite encoder. The difference lies in the\nsummation targets, which are determined by the size of the memory banks. The gradient calculation\nfor the query encoder uses _N_ local + _N_ memory <sup>**p**</sup> <sup>passage representations, while the passage encoder uses</sup>\n\nfor the query encoder uses _N_ local + _N_ memory <sup>passage representations, while the passage encoder uses</sup>\n\n_N_ local + _N_ memory <sup>**q**</sup> <sup>query representations.</sup>\n\nmemory <sup>query representations.</sup>\n\nPre-batch negatives only leverages the passage memory bank where _N_ <sup>**p**</sup>\n\nmemory <sup>**p**</sup> <sup>_>_</sup> <sup>_N_</sup> <sup>**q**</sup>\n\nPre-batch negatives only leverages the passage memory bank where _N_ memory <sup>_>_</sup> <sup>_N_</sup> memory <sup>=</sup> <sup>0.</sup>"
+          },
+          {
+            "chunk_id": "p005-c004",
+            "page": 5,
+            "section": "p** _l∈P_ <sup>_t_</sup>",
+            "chars": 1136,
+            "text": "The tendency where _||∇_ Θ _L_ ( _Sk_ ) _||_ 2 _<_ _||∇_ Λ _L_ ( _Sk_ ) _||_ 2 is caused by the difference in the number of\nrepresentations used for the gradient calculations of the two encoders. In dual-encoder training, if the\ngradient norms of the two encoders remain imbalanced, the encoder with the larger gradient norm\nconverges faster, making balanced training challenging [4, 33]. Therefore, the unstable training with\na memory bank is caused not only by rapid changes in encoder representations [37, 38], but also\nby the difference in the gradient norms between the dual-encoders. We refer to this problem as the\n_gradient norm imbalance problem_ .\n\nThe _gradient norm imbalance problem_ can be resolved by using memory banks of equal size for\nqueries and passages, _N_ memory <sup>**q**</sup> <sup>=</sup> <sup>_N_</sup> memory <sup>**p**</sup> <sup>=</sup> <sup>_N_</sup> memory <sup>. This ensures that the gradient norms of the two</sup>\n\nencoders remain similar and stabilizes the training process. Further analysis is provided in Sections\n5.2 and 5.5.\n\nmemory <sup>**q**</sup> <sup>=</sup> <sup>_N_</sup> <sup>**p**</sup>"
+          }
+        ],
+        "not_returned_chunk_ids": [],
+        "remaining_chars": 24700,
+        "remaining_read_calls": 10
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "icml-2024/monath24a",
+        "outline_offset": 30
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "icml-2024/monath24a",
+        "title": "A Fresh Take on Stale Embeddings: Improving Dense Retriever Training with Corrector Networks",
+        "source_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/monath24a/monath24a.pdf",
+        "pdf_sha256": "37fe0207aa637a439b573e86cdaa0732e50697e2fe7f7f5442a07291d5bf8fbb",
+        "text_sha256": "fca45641a224b4d485e58b775bf2ad766025cde08c64ca4905a00a8fd38b8559",
+        "parser": {
+          "schema": "paper-fulltext-v1",
+          "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+          "pymupdf": "1.28.0",
+          "pymupdf4llm": "1.28.0",
+          "pymupdf_layout": "1.28.0",
+          "tabulate": "0.9.0"
+        },
+        "page_count": 16,
+        "warnings": [
+          "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+        ],
+        "cache_hit": true,
+        "outline": [
+          {
+            "chunk_id": "p005-c001",
+            "page": 5,
+            "section": "<u>A Fresh Take on Stale Embeddings:</u>** **<u>Improving Dense Retriever Training with Corrector Networks</u>",
+            "chars": 114
+          },
+          {
+            "chunk_id": "p005-c002",
+            "page": 5,
+            "section": "<u>Algorithm 2</u>** <u>Training RLMs with corrector models</u>",
+            "chars": 1872
+          },
+          {
+            "chunk_id": "p005-c003",
+            "page": 5,
+            "section": "<u>Algorithm 2</u>** <u>Training RLMs with corrector models</u>",
+            "chars": 903
+          },
+          {
+            "chunk_id": "p005-c004",
+            "page": 5,
+            "section": "Empirical** **Risk** On a set of _n_ -targets S <sup>˜</sup> _n_ = _{y_ 1 _, ..., yn}_",
+            "chars": 955
+          },
+          {
+            "chunk_id": "p005-c005",
+            "page": 5,
+            "section": "Lemma 4.1.** _Given a target encoder g and its stale approx-_",
+            "chars": 693
+          },
+          {
+            "chunk_id": "p005-c006",
+            "page": 5,
+            "section": "Lemma 4.2.** _Given a target encoder g, its stale approxima-_",
+            "chars": 566
+          },
+          {
+            "chunk_id": "p005-c007",
+            "page": 5,
+            "section": "Theorem 4.3.** _For a target encoder, g, its stale approxima-_",
+            "chars": 879
+          },
+          {
+            "chunk_id": "p005-c008",
+            "page": 5,
+            "section": "Stale Population Risk** The stale population risk is defined",
+            "chars": 267
+          },
+          {
+            "chunk_id": "p005-c009",
+            "page": 5,
+            "section": "Function Classes** The function class _φ_ _∈F_ is large. We",
+            "chars": 694
+          },
+          {
+            "chunk_id": "p006-c001",
+            "page": 6,
+            "section": "<u>A Fresh Take on Stale Embeddings:</u>** **<u>Improving Dense Retriever Training with Corrector Networks</u>",
+            "chars": 403
+          },
+          {
+            "chunk_id": "p006-c002",
+            "page": 6,
+            "section": "5. Experiments",
+            "chars": 502
+          },
+          {
+            "chunk_id": "p006-c003",
+            "page": 6,
+            "section": "No Re-embedding Needed** Training using target corrector",
+            "chars": 395
+          },
+          {
+            "chunk_id": "p006-c004",
+            "page": 6,
+            "section": "Best** **no** **re-embedding** **method** Compared to frozen approaches, stale approaches, and Dynnibal without reembedding, target corrector networks achieve o",
+            "chars": 271
+          },
+          {
+            "chunk_id": "p006-c005",
+            "page": 6,
+            "section": "Simpler and Less Computation** Target correctors perform",
+            "chars": 376
+          },
+          {
+            "chunk_id": "p006-c006",
+            "page": 6,
+            "section": "5.1. Supervised Dense Retrieval",
+            "chars": 35
+          },
+          {
+            "chunk_id": "p006-c007",
+            "page": 6,
+            "section": "Setting** **&** **Metrics** We evaluate training methods for supervised dense retrieval models. Each method is provided",
+            "chars": 1177
+          },
+          {
+            "chunk_id": "p006-c008",
+            "page": 6,
+            "section": "Data** We evaluate on Natural Questions (Kwiatkowski",
+            "chars": 283
+          },
+          {
+            "chunk_id": "p006-c009",
+            "page": 6,
+            "section": "Models** We initialize the dual encoder models with two",
+            "chars": 1874
+          },
+          {
+            "chunk_id": "p007-c001",
+            "page": 7,
+            "section": "<u>A Fresh Take on Stale Embeddings:</u>** **<u>Improving Dense Retriever Training with Corrector Networks</u>",
+            "chars": 1875
+          },
+          {
+            "chunk_id": "p007-c002",
+            "page": 7,
+            "section": "<u>A Fresh Take on Stale Embeddings:</u>** **<u>Improving Dense Retriever Training with Corrector Networks</u>",
+            "chars": 1851
+          },
+          {
+            "chunk_id": "p007-c003",
+            "page": 7,
+            "section": "<u>A Fresh Take on Stale Embeddings:</u>** **<u>Improving Dense Retriever Training with Corrector Networks</u>",
+            "chars": 1525
+          },
+          {
+            "chunk_id": "p008-c001",
+            "page": 8,
+            "section": "<u>A Fresh Take on Stale Embeddings:</u>** **<u>Improving Dense Retriever Training with Corrector Networks</u>",
+            "chars": 735
+          },
+          {
+            "chunk_id": "p008-c002",
+            "page": 8,
+            "section": "5.2. Retrieval Augmented Language Models",
+            "chars": 44
+          },
+          {
+            "chunk_id": "p008-c003",
+            "page": 8,
+            "section": "Setting & Metrics** We evaluate the latent variable use case",
+            "chars": 242
+          },
+          {
+            "chunk_id": "p008-c004",
+            "page": 8,
+            "section": "Datasets** We evaluate on the three question answering datasets: TriviaQA (Joshi et al., 2017), NQOpen",
+            "chars": 276
+          },
+          {
+            "chunk_id": "p008-c005",
+            "page": 8,
+            "section": "Models** We initialize the retriever with GTR-base or T5base and use T5-base as the reader in Fusion-In-Decoder",
+            "chars": 1928
+          },
+          {
+            "chunk_id": "p008-c006",
+            "page": 8,
+            "section": "5.3. Synthetic Experiments",
+            "chars": 265
+          },
+          {
+            "chunk_id": "p008-c007",
+            "page": 8,
+            "section": "Setting & Metrics** We will measure the ability of proposed",
+            "chars": 923
+          },
+          {
+            "chunk_id": "p008-c008",
+            "page": 8,
+            "section": "Data Generation** We directly generate vector representations corresponding to data points and targets. That is, rather",
+            "chars": 877
+          },
+          {
+            "chunk_id": "p009-c001",
+            "page": 9,
+            "section": "<u>A Fresh Take on Stale Embeddings:</u>** **<u>Improving Dense Retriever Training with Corrector Networks</u>",
+            "chars": 114
+          }
+        ],
+        "next_outline_offset": 60,
+        "remaining_chars": 24700,
+        "note": "Opening a paper returns no body text. Use read_paper to obtain citable excerpts."
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+        "outline_offset": 30
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+        "title": "A Gradient Accumulation Method for Dense Retriever under Memory Constraint",
+        "source_url": "https://papers.nips.cc/paper_files/paper/2024/file/15ba84c1e19b0eb75f96922f5da0a021-Paper-Conference.pdf",
+        "pdf_sha256": "df8651892589943597045f0dfefc65ebc1b7918619eaeedf6095ec916bb6ff00",
+        "text_sha256": "27f65a80d542f8cb38ec669d0a4905dd742098d4665d505dec07d19734f9fe0e",
+        "parser": {
+          "schema": "paper-fulltext-v1",
+          "reader_sha256": "5e308bc98d54a08e8fabb5784c5ec5c3f7b0c84602c16c614fa7d1ac5bf1dc1f",
+          "pymupdf": "1.28.0",
+          "pymupdf4llm": "1.28.0",
+          "pymupdf_layout": "1.28.0",
+          "tabulate": "0.9.0"
+        },
+        "page_count": 24,
+        "warnings": [
+          "Text extraction only: figures and complex equations may be incomplete; OCR is disabled"
+        ],
+        "cache_hit": true,
+        "outline": [
+          {
+            "chunk_id": "p006-c004",
+            "page": 6,
+            "section": "5** **Experimental results",
+            "chars": 30
+          },
+          {
+            "chunk_id": "p006-c005",
+            "page": 6,
+            "section": "5.1** **Performance across different resource constraints",
+            "chars": 650
+          },
+          {
+            "chunk_id": "p006-c006",
+            "page": 6,
+            "section": "Batch Size** **MS Marco** **NQ** **TriviaQA** **WebQ** **TREC",
+            "chars": 65
+          },
+          {
+            "chunk_id": "p006-c007",
+            "page": 6,
+            "section": "Method",
+            "chars": 1475
+          },
+          {
+            "chunk_id": "p006-c008",
+            "page": 6,
+            "section": "CONTACCUM outperforms the high-resource DPR even under low-resource constraints.** Table",
+            "chars": 421
+          },
+          {
+            "chunk_id": "p006-c009",
+            "page": 6,
+            "section": "CONTACCUM** **maintains** **consistent** **performance** **across** **different** **memory** **constraints.",
+            "chars": 454
+          },
+          {
+            "chunk_id": "p007-c001",
+            "page": 7,
+            "section": "CONTACCUM** **maintains** **consistent** **performance** **across** **different** **memory** **constraints.",
+            "chars": 109
+          },
+          {
+            "chunk_id": "p007-c002",
+            "page": 7,
+            "section": "The effectiveness of CONTACCUM is amplified under more severe memory constraints.** While",
+            "chars": 1035
+          },
+          {
+            "chunk_id": "p007-c003",
+            "page": 7,
+            "section": "5.2** **Influence of each components in CONTACCUM",
+            "chars": 268
+          },
+          {
+            "chunk_id": "p007-c004",
+            "page": 7,
+            "section": "w/ Hard Negative** **w/o Hard Negative",
+            "chars": 42
+          },
+          {
+            "chunk_id": "p007-c005",
+            "page": 7,
+            "section": "Method** **Top@20** **Method** **Top@20",
+            "chars": 116
+          },
+          {
+            "chunk_id": "p007-c006",
+            "page": 7,
+            "section": "CONTACCUM (ours)** **78.8** **CONTACCUM (ours)** **76.3",
+            "chars": 688
+          },
+          {
+            "chunk_id": "p007-c007",
+            "page": 7,
+            "section": "Passage memory bank alone degrades performance due to gradient norm imbalance.** Specifically,",
+            "chars": 389
+          },
+          {
+            "chunk_id": "p007-c008",
+            "page": 7,
+            "section": "GradAccum and past encoder representations are crucial for stable training and performance.",
+            "chars": 823
+          },
+          {
+            "chunk_id": "p007-c009",
+            "page": 7,
+            "section": "5.3** **Memory bank size analysis",
+            "chars": 535
+          },
+          {
+            "chunk_id": "p008-c001",
+            "page": 8,
+            "section": "5.3** **Memory bank size analysis",
+            "chars": 548
+          },
+          {
+            "chunk_id": "p008-c002",
+            "page": 8,
+            "section": "CONTACCUM** **consistently** **outperforms** **GradAccum** **and** **DPR** **regardless** **of** **the** **size** **of",
+            "chars": 994
+          },
+          {
+            "chunk_id": "p008-c003",
+            "page": 8,
+            "section": "5.4** **Train speed",
+            "chars": 532
+          },
+          {
+            "chunk_id": "p008-c004",
+            "page": 8,
+            "section": "CONTACCUM achieves faster iteration times than GradCache, even with large memory banks.",
+            "chars": 1038
+          },
+          {
+            "chunk_id": "p008-c005",
+            "page": 8,
+            "section": "5.5** **Gradient norm ratio",
+            "chars": 437
+          },
+          {
+            "chunk_id": "p009-c001",
+            "page": 9,
+            "section": "5.5** **Gradient norm ratio",
+            "chars": 353
+          },
+          {
+            "chunk_id": "p009-c002",
+            "page": 9,
+            "section": "Dual memory bank helps maintain gradient norm balance.** The experimental results show that",
+            "chars": 1281
+          },
+          {
+            "chunk_id": "p009-c003",
+            "page": 9,
+            "section": "6** **Conclusion",
+            "chars": 704
+          },
+          {
+            "chunk_id": "p009-c004",
+            "page": 9,
+            "section": "Limitations** . While CONTACCUM reduces computational costs and stabilizes training, this study is",
+            "chars": 635
+          },
+          {
+            "chunk_id": "p009-c005",
+            "page": 9,
+            "section": "Broader impacts** . CONTACCUM is designed to train dense retrievers efficiently, which allows it",
+            "chars": 556
+          },
+          {
+            "chunk_id": "p010-c001",
+            "page": 10,
+            "section": "Future works** . In future work, we plan to extend CONTACCUM to the pre-training phase with a",
+            "chars": 459
+          },
+          {
+            "chunk_id": "p010-c002",
+            "page": 10,
+            "section": "Acknowledgements",
+            "chars": 821
+          },
+          {
+            "chunk_id": "p011-c001",
+            "page": 11,
+            "section": "References",
+            "chars": 1659
+          },
+          {
+            "chunk_id": "p011-c002",
+            "page": 11,
+            "section": "References",
+            "chars": 1987
+          },
+          {
+            "chunk_id": "p011-c003",
+            "page": 11,
+            "section": "References",
+            "chars": 1111
+          }
+        ],
+        "next_outline_offset": 60,
+        "remaining_chars": 24700,
+        "note": "Opening a paper returns no body text. Use read_paper to obtain citable excerpts."
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "read_paper",
+      "arguments": {
+        "paper_id": "icml-2024/monath24a",
+        "chunk_ids": [
+          "p005-c005",
+          "p005-c006",
+          "p005-c007",
+          "p006-c007",
+          "p006-c009",
+          "p007-c003"
+        ]
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "icml-2024/monath24a",
+        "pdf_sha256": "37fe0207aa637a439b573e86cdaa0732e50697e2fe7f7f5442a07291d5bf8fbb",
+        "text_sha256": "fca45641a224b4d485e58b775bf2ad766025cde08c64ca4905a00a8fd38b8559",
+        "chunks": [
+          {
+            "chunk_id": "p005-c005",
+            "page": 5,
+            "section": "Lemma 4.1.** _Given a target encoder g and its stale approx-_",
+            "chars": 693,
+            "text": "**Lemma 4.1.** _Given a target encoder g and its stale approx-_\n_imation_ _g_ <sup>_′_</sup> _,_ _the_ _gap_ _between_ _the_ _true_ _population_ _risk_ _and_\n_stale population risk is bounded in the following way:_\n\n_Rℓ,φ_ (D _Y_ ) _−Rℓ,φ_ ( D <sup>˜</sup> _Y_ ) _≤W_ (D _Y,_ D <sup>˜</sup> _Y_ ) _≤∥g−g_ <sup>_′_</sup> _∥_ 1 (13)\n\n_where W_ _is the Wasserstein distance. Furthermore, if the_\n_approximation g_ <sup>_′_</sup> _comes from the same neural model as g_\n_with parameters perturbed by u as in aforementioned stale_\n_approximation, we have: ∥g −_ _g_ <sup>_′_</sup> _∥_ 1 _≤_ _L∥u∥_ _with L as the_\n_Lipschitz constant._\n\nNext, we connect stale population risk to the empirical risk."
+          },
+          {
+            "chunk_id": "p005-c006",
+            "page": 5,
+            "section": "Lemma 4.2.** _Given a target encoder g, its stale approxima-_",
+            "chars": 566,
+            "text": "**Lemma 4.2.** _Given a target encoder g, its stale approxima-_\n_tion_ _g_ <sup>_′_</sup> _,_ _and_ _a_ _set_ _of_ _n-targets_ S <sup>˜</sup> _n_ = _{y_ 1 _, ..., yn}_ _sampled_\n_from_ D <sup>˜</sup> _Y,_\n\n_Rℓ,_ ˜ _φn_ ( D <sup>˜</sup> _Y_ ) _≤_ _Rℓ,_ ˜ _φn_ (S <sup>˜</sup> _n_ ) + RS˜ _n_ ( _Gℓ,F_ ) _,_ (14)\n\n_where_ RS˜ _n_ ( _Gℓ,F_ ) _is the Rademacher complexity of Gℓ,F_ _._\n\nNow, we can relate the complexity of function class _F_ <sup>_g′_</sup>,\nnumber of samples _n_, and the discrepancy of the true _g_ and\nstale approximate encoders _g_ <sup>_′_</sup> :"
+          },
+          {
+            "chunk_id": "p005-c007",
+            "page": 5,
+            "section": "Theorem 4.3.** _For a target encoder, g, its stale approxima-_",
+            "chars": 879,
+            "text": "**Theorem 4.3.** _For a target encoder, g, its stale approxima-_\n_tion, g_ <sup>_′_</sup> _, and the Rademacher complexity_ R <sup>˜</sup> _n_ ( _Gℓ,F_ _g_ <sup>_′_</sup> ) _, the_\n_true population risk Rℓ,φ_ (D _Y_ ) _is bounded by the following_\n_with probability at least_ 1 _−_ _δ:_\n\n_Rℓ,φ_ (D _Y_ ) _≤_ _T_ 1 + _T_ 2 + _T_ 3 (15)\n\n_T_ 1 = _Rℓ,_ ˜ _φn_ (S <sup>˜</sup> _n_ )\n\n_T_ 2 = _W_ (D _Y,_ D <sup>˜</sup> _Y_ ) _≤_ _L∥u∥_\n\nover a function class _φ ∈F_ .\n**True** **Population** **Risk** For generalization error, we are\ninterested in how large the true population risk can become\nover a function class _φ ∈F_ .\n\n_Rℓ,φ_ (D _Y_ ) = E _Y ∼_ D _Y_ [ _ℓ_ ( _φ_ ( _Y_ ) _, g_ ( _Y_ ))] _,_ (11)\n\nWe consider the above quantity because we want to ensure\ngood alignment between _g_ ( _y_ ) and _φ_ ( _y_ ) where there is nontrivial probability mass under the true distribution."
+          }
+        ],
+        "not_returned_chunk_ids": [
+          "p006-c007",
+          "p006-c009",
+          "p007-c003"
+        ],
+        "remaining_chars": 22562,
+        "remaining_read_calls": 9
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "read_paper",
+      "arguments": {
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+        "chunk_ids": [
+          "p005-c006",
+          "p006-c002",
+          "p006-c007",
+          "p007-c008",
+          "p008-c004",
+          "p009-c004"
+        ]
+      },
+      "result": {
+        "status": "ok",
+        "paper_id": "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021",
+        "pdf_sha256": "df8651892589943597045f0dfefc65ebc1b7918619eaeedf6095ec916bb6ff00",
+        "text_sha256": "27f65a80d542f8cb38ec669d0a4905dd742098d4665d505dec07d19734f9fe0e",
+        "chunks": [
+          {
+            "chunk_id": "p005-c006",
+            "page": 5,
+            "section": "Resources** . All experiments were conducted on a single A100 80GB GPU. For high-resource scenario,",
+            "chars": 698,
+            "text": "**Resources** . All experiments were conducted on a single A100 80GB GPU. For high-resource scenario,\nwe considered situations where 80GB of memory is available. For low-resource settings, we assumed\n[available memory as widely used commercial GPUs: 11GB (GTX-1080Ti), 24GB (RTX-3080Ti,](https://www.nvidia.com/en-gb/geforce/graphics-cards/geforce-gtx-1080-ti/specifications/)\n[RTX-4090Ti). To ensure strict experimental conditions, we used a function from the PyTorch [27] to](https://www.nvidia.com/ko-kr/geforce/graphics-cards/40-series/rtx-4090/)\nlimit the available memory. <sup>2</sup> Unless otherwise stated, all experiments assumed low resource setting\nwhere only 11GB memory is available."
+          },
+          {
+            "chunk_id": "p006-c002",
+            "page": 6,
+            "section": "Implementation** **details** . The experimental code was adapted from nano-DPR <sup>3</sup>, which provides",
+            "chars": 872,
+            "text": "**Implementation** **details** . The experimental code was adapted from nano-DPR <sup>3</sup>, which provides\na simplified training and evaluation pipeline for DPR. All experiments were conducted using the\nBERT <sup>4</sup> [6] model. To maintain consistency with DPR’s experimental setup, NQ and TREC were\ntrained for 40 epochs, and TriviaQA and WebQ for 100 epochs. For MS Marco, performance saturated\nat 10 epochs, so it was trained for 10 epochs. Other training settings were also kept consistent with\nDPR. Detailed settings are provided in Appendix 6.\n\nThe optimal memory bank size, _N_ memory, was selected using evaluation data with candidates [128,\n512, 2048], resulting in 2,048 for NQ and 512 for TriviaQA. For MS Marco, WebQ, and TREC, due\nto the lack of evaluation data, _N_ memory were set based on dataset size: 1,024 for MS Marco, and 128\nfor WebQ and TREC."
+          }
+        ],
+        "not_returned_chunk_ids": [
+          "p006-c007",
+          "p007-c008",
+          "p008-c004",
+          "p009-c004"
+        ],
+        "remaining_chars": 20992,
+        "remaining_read_calls": 8
+      },
+      "seconds": 0.0
+    },
+    {
+      "tool": "open_paper",
+      "arguments": {
+        "paper_id": "icml-2024/monath24a",
+        "outline_offset": 60
+      },
+      "result": {
+        "status": "context_budget_exhausted",
+        "message": "No text returned; submit_report now."
+      },
+      "seconds": 0.0
+    }
+  ],
+  "abstracts_read": {
+    "icml-2024/monath24a": "In dense retrieval, deep encoders provide embeddings for both inputs and targets, and the softmax function is used to parameterize a distribution over a large number of candidate targets (e.g., textual passages for information retrieval). Significant challenges arise in training such encoders in the increasingly prevalent scenario of (1) a large number of targets, (2) a computationally expensive target encoder model, (3) cached target embeddings that are out-of-date due to ongoing training of target encoder parameters. This paper presents a simple and highly scalable response to these challenges by training a small parametric corrector network that adjusts stale cached target embeddings, enabling an accurate softmax approximation and thereby sampling of up-to-date high scoring \"hard negatives.\" We theoretically investigate the generalization properties of our proposed target corrector, relating the complexity of the network, staleness of cached representations, and the amount of training data. We present experimental results on large benchmark dense retrieval datasets as well as on QA with retrieval augmented language models. Our approach matches state-of-the-art results even when no target embedding updates are made during training beyond an initial cache from the unsupervised pre-trained model, providing a 4-80x reduction in re-embedding computational cost.",
+    "neurips-2024/15ba84c1e19b0eb75f96922f5da0a021": "InfoNCE loss is commonly used to train dense retriever in information retrieval tasks. It is well known that a large batch is essential to stable and effective training with InfoNCE loss, which requires significant hardware resources. Due to the dependency of large batch, dense retriever has bottleneck of application and research. Recently, memory reduction methods have been broadly adopted to resolve the hardware bottleneck by decomposing forward and backward or using a memory bank. However, current methods still suffer from slow and unstable train. To address these issues, we propose Contrastive Accumulation (ContAccum), a stable and efficient memory reduction method for dense retriever trains that uses a dual memory bank structure to leverage previously generated query and passage representations. Experiments on widely used five information retrieval datasets indicate that ContAccum can surpass not only existing memory reduction methods but also high-resource scenarios. Moreover, theoretical analysis and experimental results confirm that ContAccum provides more stable dual-encoder training than current memory bank utilization methods.",
+    "neurips-2024/e574db41163e700545ff4114f96b3d7a": "The Area Under the ROC Curve (AUC) is a well-known metric for evaluating instance-level long-tail learning problems. In the past two decades, many AUC optimization methods have been proposed to improve model performance under long-tail distributions. In this paper, we explore AUC optimization methods in the context of pixel-level long-tail semantic segmentation, a much more complicated scenario. This task introduces two major challenges for AUC optimization techniques. On one hand, AUC optimization in a pixel-level task involves complex coupling across loss terms, with structured inner-image and pairwise inter-image dependencies, complicating theoretical analysis. On the other hand, we find that mini-batch estimation of AUC loss in this case requires a larger batch size, resulting in an unaffordable space complexity. To address these issues, we develop a pixel-level AUC loss function and conduct a dependency-graph-based theoretical analysis of the algorithm's generalization ability. Additionally, we design a Tail-Classes Memory Bank (T-Memory Bank) to manage the significant memory demand. Finally, comprehensive experiments across various benchmarks confirm the effectiveness of our proposed AUCSeg method. The code is available at https://github.com/boyuh/AUCSeg.",
+    "icml-2025/phan24b": "Models trained on data composed of different groups or domains can suffer from severe performance degradation under distribution shifts. While recent methods have largely focused on optimizing the worst-group objective, this often comes at the expense of good performance on other groups. To address this problem, we introduce an optimization scheme to achieve good performance across groups and find a good solution for all without severely sacrificing performance on any of them. However, directly applying such optimization involves updating the parameters of the entire network, making it both computationally expensive and challenging. Thus, we introduce Controllable Prompt Tuning (CPT), which couples our approach with prompt-tuning techniques. On spurious correlation benchmarks, our procedures achieve state-of-the-art results across both transformer and non-transformer architectures, as well as unimodal and multimodal data, while requiring only $0.4%$ tunable parameters."
+  }
+}
