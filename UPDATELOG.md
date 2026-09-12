@@ -4,6 +4,42 @@ A running record of notable changes to this project. Newest entries on top.
 
 ---
 
+## 2026-09-11 — Fix S57–S59 streamed timeouts and candidate execution failures
+
+The live S57–S59 audit found F57, A58 and A59 terminating after a single
+`request_timeout` SSE event during their third initial draft. The GPT-6 transport
+recognized `timeout` but omitted `request_timeout`, so it incorrectly bypassed
+bounded retries and caused the pipeline to cancel active/queued candidates.
+MLEvolve now classifies this code consistently across JSON, streamed errors,
+response.failed and SDK error envelopes. Failed partial output is discarded and
+the original request is retried at most three times; deterministic failures and
+exhausted retries retain the existing terminal behavior.
+
+The audit also exposed an older executor bug: prepending CPU affinity statements
+made valid `from __future__` imports illegal. A separate launcher now sets affinity
+and execs the candidate normally, preserving module semantics, line numbers, GPU
+visibility and process groups. Execution summaries report actual elapsed seconds;
+a candidate-raised TimeoutError no longer claims that the executor's full time
+limit elapsed.
+
+Generation and review now explicitly use the runtime's remaining()/elapsed() APIs
+instead of deriving a candidate deadline from the whole-run or parent start time.
+They also consume finish()['submission_path'] instead of checking legacy output
+paths after a successful snapshot export. Conflicting runtime-mode directory and
+submission self-check guidance was removed. These rules reduce known generation
+mistakes; they do not guarantee correctness of arbitrary generated code.
+
+Validation: 75 regressions pass in the CPU dev pod's existing Python 3.11 / SDK
+1.66.3 environment (15 transport, 21 execution-pipeline, 39 candidate-runtime),
+including real Linux affinity and CPU training subprocesses. Another 12 local
+analogy-handoff tests pass; syntax and whitespace checks pass. Details are in
+`results/9.11/s57_s59_fixes_validation/REPORT.md`; original failure evidence remains
+in `results/9.11/s57_s59_live_errors_20260912_044127Z/REPORT.md`.
+Changes are local. CPU-dev verification uses an isolated temporary source copy,
+without updating shared code/venv, calling model APIs, running GPU training or
+restarting experiments. Git synchronization and experiment restarts remain with
+the user; the existing S57–S59 Job configurations can be reused.
+
 ## 2026-09-11 — Evidence-aware analogy context and GPT-6 experiment migration
 
 Implemented the approved `docs/analogy_context_and_gpt6_plan.md` in MLEvolve.

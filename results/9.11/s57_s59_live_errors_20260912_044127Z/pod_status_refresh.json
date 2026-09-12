@@ -1,0 +1,113 @@
+{
+  "sampled_at": "2026-09-12T04:50:08.640262+00:00",
+  "pods": [
+    {
+      "name": "mlevolve-jubias-anaf-gpt6-s57-7pnld",
+      "status": "Failed",
+      "node": "gpu-15.nrp.mghpcc.org",
+      "container": [
+        {
+          "name": "mlevolve",
+          "restartCount": 0,
+          "state": {
+            "terminated": {
+              "containerID": "containerd://68fec3195ef3376fdc9c002220ec9928f0dae0863df3cc77fb11cfbbbe94cc62",
+              "exitCode": 1,
+              "finishedAt": "2026-09-12T03:49:26Z",
+              "reason": "Error",
+              "startedAt": "2026-09-12T02:29:50Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "mlevolve-jubias-anaf-gpt6-s58-lhg4v",
+      "status": "Running",
+      "node": "hcc-nrp-shor-c5917.unl.edu",
+      "container": [
+        {
+          "name": "mlevolve",
+          "restartCount": 0,
+          "state": {
+            "running": {
+              "startedAt": "2026-09-12T02:29:59Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "mlevolve-jubias-anaf-gpt6-s59-gbthq",
+      "status": "Running",
+      "node": "nautilus-it-gpu02.fullerton.edu",
+      "container": [
+        {
+          "name": "mlevolve",
+          "restartCount": 0,
+          "state": {
+            "running": {
+              "startedAt": "2026-09-12T02:29:47Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "mlevolve-jubias-base-gpt6-s57-t79mc",
+      "status": "Running",
+      "node": "gpu-09.nrp.mghpcc.org",
+      "container": [
+        {
+          "name": "mlevolve",
+          "restartCount": 0,
+          "state": {
+            "running": {
+              "startedAt": "2026-09-12T02:30:00Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "mlevolve-jubias-base-gpt6-s58-hn6pv",
+      "status": "Failed",
+      "node": "gpu-04.nrp.mghpcc.org",
+      "container": [
+        {
+          "name": "mlevolve",
+          "restartCount": 0,
+          "state": {
+            "terminated": {
+              "containerID": "containerd://dc63f2c9d97133f678906138a0eb31becc58c1201e32e7d9427dbe5e06f6a1a5",
+              "exitCode": 1,
+              "finishedAt": "2026-09-12T03:47:53Z",
+              "reason": "Error",
+              "startedAt": "2026-09-12T02:29:51Z"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "mlevolve-jubias-base-gpt6-s59-6tx8v",
+      "status": "Failed",
+      "node": "gpu-17.nrp.mghpcc.org",
+      "container": [
+        {
+          "name": "mlevolve",
+          "restartCount": 0,
+          "state": {
+            "terminated": {
+              "containerID": "containerd://8ab228652f1278eb94f83469d0cc6c4e98708dbfe99a423d7a86575dff7b9526",
+              "exitCode": 1,
+              "finishedAt": "2026-09-12T03:42:31Z",
+              "reason": "Error",
+              "startedAt": "2026-09-12T02:30:00Z"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

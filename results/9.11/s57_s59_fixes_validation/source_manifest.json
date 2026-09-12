@@ -1,0 +1,34 @@
+[
+  {
+    "path": "llm/responses.py",
+    "sha256": "b5ff09c0d5908524f797b131947b4a24354ab74760be480a03ca9daa346b68ac"
+  },
+  {
+    "path": "engine/executor.py",
+    "sha256": "3067c9ee9e9136d6f8f3733e3c464b63a5fd0c264b4a17ce4a41255e9859c0ea"
+  },
+  {
+    "path": "engine/candidate_runtime/prompt.py",
+    "sha256": "da1e686d07d029478b58c197911075290b5c6affca49be241d50ddd45ac8d19a"
+  },
+  {
+    "path": "agents/code_review_agent.py",
+    "sha256": "37c3d960d392a4dc2fbc88225b04e13afe3e63f028a2a554078bb53635b78f3a"
+  },
+  {
+    "path": "agents/prompts/impl_guideline.py",
+    "sha256": "0cfddfa1ade34f8b3841d1d6a54ac9171f8dc00edb00a500089e5960b40da63a"
+  },
+  {
+    "path": "utils/verify_candidate_runtime.py",
+    "sha256": "6d9ca580589bf9a71af79c743425756e08c95246cf05087bc0909c0c8f4a113b"
+  },
+  {
+    "path": "utils/verify_execution_pipeline.py",
+    "sha256": "2efe4a524c8b83e2a7888739ccf8de6ef202dd2176c6a3ec9930cf8d49c6ee96"
+  },
+  {
+    "path": "utils/verify_gpt6_transport.py",
+    "sha256": "f8b8bdf6b359754478e16da8deb4d79faac0fb590613c5cbdec815f819adc457"
+  }
+]

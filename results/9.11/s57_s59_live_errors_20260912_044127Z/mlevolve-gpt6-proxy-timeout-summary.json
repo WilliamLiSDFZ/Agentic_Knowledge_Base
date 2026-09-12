@@ -1,0 +1,33 @@
+{
+  "source": "kubectl logs cliproxy-6bdcdcf5f8-qtx8h --since=3h --tail=5000 --timestamps=true",
+  "sampled_lines": 174,
+  "timestamp_first": "2026-09-12T01:44:43.162752355Z",
+  "timestamp_last": "2026-09-12T04:40:05.969201496Z",
+  "request_timeout_events": 0,
+  "matches": [
+    {
+      "case": "F57",
+      "client_ip": "10.244.124.254",
+      "last_proxy_finish": "2026-09-12T03:49:16.981056622Z",
+      "access_log_status": 200,
+      "request_id": "4a709f27",
+      "elapsed": "32.507s"
+    },
+    {
+      "case": "A58",
+      "client_ip": "10.244.245.150",
+      "last_proxy_finish": "2026-09-12T03:47:26.637113922Z",
+      "access_log_status": 200,
+      "request_id": "850969e1",
+      "elapsed": "38.207s"
+    },
+    {
+      "case": "A59",
+      "client_ip": "10.244.101.177",
+      "last_proxy_finish": "2026-09-12T03:42:19.637998866Z",
+      "access_log_status": 200,
+      "request_id": "c7a8ca3a",
+      "elapsed": "1m48s"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "linux": [
+    {
+      "script": "verify_gpt6_transport.py",
+      "exit_code": 0,
+      "tests": 15
+    },
+    {
+      "script": "verify_execution_pipeline.py",
+      "exit_code": 0,
+      "tests": 21
+    },
+    {
+      "script": "verify_candidate_runtime.py",
+      "exit_code": 0,
+      "tests": 39
+    }
+  ],
+  "local_handoff": {
+    "tests": 12,
+    "exit_code": 0
+  },
+  "distinct_tests": 87,
+  "live_model_calls": 0,
+  "shared_checkout_updated": false
+}

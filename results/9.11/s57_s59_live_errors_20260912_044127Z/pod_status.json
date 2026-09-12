@@ -1,0 +1,737 @@
+[
+  {
+    "pod": "mlevolve-jubias-anaf-gpt6-s57-7pnld",
+    "node": "gpu-15.nrp.mghpcc.org",
+    "created": "2026-09-12T02:29:41Z",
+    "status": {
+      "conditions": [
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T03:49:30Z",
+          "status": "False",
+          "type": "PodReadyToStartContainers"
+        },
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T02:29:42Z",
+          "status": "True",
+          "type": "Initialized"
+        },
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T03:49:27Z",
+          "reason": "PodFailed",
+          "status": "False",
+          "type": "Ready"
+        },
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T03:49:27Z",
+          "reason": "PodFailed",
+          "status": "False",
+          "type": "ContainersReady"
+        },
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T02:29:42Z",
+          "status": "True",
+          "type": "PodScheduled"
+        }
+      ],
+      "containerStatuses": [
+        {
+          "allocatedResources": {
+            "cpu": "8",
+            "ephemeral-storage": "0",
+            "memory": "48Gi",
+            "nvidia.com/gpu": "1"
+          },
+          "containerID": "containerd://68fec3195ef3376fdc9c002220ec9928f0dae0863df3cc77fb11cfbbbe94cc62",
+          "image": "docker.io/pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime",
+          "imageID": "docker.io/pytorch/pytorch@sha256:2b59b1b91885677814f78be1f8df48a25d5dc952eb6580eaecfefca510f9afd3",
+          "lastState": {},
+          "name": "mlevolve",
+          "ready": false,
+          "resources": {
+            "limits": {
+              "cpu": "8",
+              "ephemeral-storage": "50Gi",
+              "memory": "48Gi",
+              "nvidia.com/gpu": "1"
+            },
+            "requests": {
+              "cpu": "8",
+              "ephemeral-storage": "0",
+              "memory": "48Gi",
+              "nvidia.com/gpu": "1"
+            }
+          },
+          "restartCount": 0,
+          "started": false,
+          "state": {
+            "terminated": {
+              "containerID": "containerd://68fec3195ef3376fdc9c002220ec9928f0dae0863df3cc77fb11cfbbbe94cc62",
+              "exitCode": 1,
+              "finishedAt": "2026-09-12T03:49:26Z",
+              "reason": "Error",
+              "startedAt": "2026-09-12T02:29:50Z"
+            }
+          },
+          "user": {
+            "linux": {
+              "gid": 0,
+              "supplementalGroups": [
+                0
+              ],
+              "uid": 0
+            }
+          },
+          "volumeMounts": [
+            {
+              "mountPath": "/workspace",
+              "name": "workspace"
+            },
+            {
+              "mountPath": "/dev/shm",
+              "name": "dshm"
+            },
+            {
+              "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
+              "name": "kube-api-access-q2j8p",
+              "readOnly": true,
+              "recursiveReadOnly": "Disabled"
+            }
+          ]
+        }
+      ],
+      "hostIP": "192.69.103.155",
+      "hostIPs": [
+        {
+          "ip": "192.69.103.155"
+        }
+      ],
+      "phase": "Failed",
+      "podIP": "10.244.124.254",
+      "podIPs": [
+        {
+          "ip": "10.244.124.254"
+        },
+        {
+          "ip": "fdf0:17b3:c3ec:1f79:10:0:b:f950"
+        }
+      ],
+      "qosClass": "Guaranteed",
+      "startTime": "2026-09-12T02:29:42Z"
+    },
+    "job": "mlevolve-jubias-anaf-gpt6-s57"
+  },
+  {
+    "pod": "mlevolve-jubias-anaf-gpt6-s58-lhg4v",
+    "node": "hcc-nrp-shor-c5917.unl.edu",
+    "created": "2026-09-12T02:29:42Z",
+    "status": {
+      "conditions": [
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T02:29:59Z",
+          "status": "True",
+          "type": "PodReadyToStartContainers"
+        },
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T02:29:42Z",
+          "status": "True",
+          "type": "Initialized"
+        },
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T02:29:59Z",
+          "status": "True",
+          "type": "Ready"
+        },
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T02:29:59Z",
+          "status": "True",
+          "type": "ContainersReady"
+        },
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T02:29:42Z",
+          "status": "True",
+          "type": "PodScheduled"
+        }
+      ],
+      "containerStatuses": [
+        {
+          "allocatedResources": {
+            "cpu": "8",
+            "ephemeral-storage": "0",
+            "memory": "48Gi",
+            "nvidia.com/gpu": "1"
+          },
+          "containerID": "containerd://47cb3dc018406ea9c545e2c8091a71855946c9b952f29afd72e7438b6612fd4e",
+          "image": "docker.io/pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime",
+          "imageID": "docker.io/pytorch/pytorch@sha256:2b59b1b91885677814f78be1f8df48a25d5dc952eb6580eaecfefca510f9afd3",
+          "lastState": {},
+          "name": "mlevolve",
+          "ready": true,
+          "resources": {
+            "limits": {
+              "cpu": "8",
+              "ephemeral-storage": "50Gi",
+              "memory": "48Gi",
+              "nvidia.com/gpu": "1"
+            },
+            "requests": {
+              "cpu": "8",
+              "ephemeral-storage": "0",
+              "memory": "48Gi",
+              "nvidia.com/gpu": "1"
+            }
+          },
+          "restartCount": 0,
+          "started": true,
+          "state": {
+            "running": {
+              "startedAt": "2026-09-12T02:29:59Z"
+            }
+          },
+          "user": {
+            "linux": {
+              "gid": 0,
+              "supplementalGroups": [
+                0
+              ],
+              "uid": 0
+            }
+          },
+          "volumeMounts": [
+            {
+              "mountPath": "/workspace",
+              "name": "workspace"
+            },
+            {
+              "mountPath": "/dev/shm",
+              "name": "dshm"
+            },
+            {
+              "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
+              "name": "kube-api-access-m9wx2",
+              "readOnly": true,
+              "recursiveReadOnly": "Disabled"
+            }
+          ]
+        }
+      ],
+      "hostIP": "129.93.153.139",
+      "hostIPs": [
+        {
+          "ip": "129.93.153.139"
+        }
+      ],
+      "phase": "Running",
+      "podIP": "10.244.76.254",
+      "podIPs": [
+        {
+          "ip": "10.244.76.254"
+        },
+        {
+          "ip": "fdf0:17b3:c3ec:1f79:10:0:9:1342"
+        }
+      ],
+      "qosClass": "Guaranteed",
+      "startTime": "2026-09-12T02:29:42Z"
+    },
+    "job": "mlevolve-jubias-anaf-gpt6-s58"
+  },
+  {
+    "pod": "mlevolve-jubias-anaf-gpt6-s59-gbthq",
+    "node": "nautilus-it-gpu02.fullerton.edu",
+    "created": "2026-09-12T02:29:43Z",
+    "status": {
+      "conditions": [
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T02:29:48Z",
+          "status": "True",
+          "type": "PodReadyToStartContainers"
+        },
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T02:29:43Z",
+          "status": "True",
+          "type": "Initialized"
+        },
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T02:29:48Z",
+          "status": "True",
+          "type": "Ready"
+        },
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T02:29:48Z",
+          "status": "True",
+          "type": "ContainersReady"
+        },
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T02:29:43Z",
+          "status": "True",
+          "type": "PodScheduled"
+        }
+      ],
+      "containerStatuses": [
+        {
+          "allocatedResources": {
+            "cpu": "8",
+            "ephemeral-storage": "0",
+            "memory": "48Gi",
+            "nvidia.com/gpu": "1"
+          },
+          "containerID": "containerd://212e95963974525e190a117dec5e12085702b7cd247eef54de6f9cf2d4c6dc3e",
+          "image": "docker.io/pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime",
+          "imageID": "docker.io/pytorch/pytorch@sha256:2b59b1b91885677814f78be1f8df48a25d5dc952eb6580eaecfefca510f9afd3",
+          "lastState": {},
+          "name": "mlevolve",
+          "ready": true,
+          "resources": {
+            "limits": {
+              "cpu": "8",
+              "ephemeral-storage": "50Gi",
+              "memory": "48Gi",
+              "nvidia.com/gpu": "1"
+            },
+            "requests": {
+              "cpu": "8",
+              "ephemeral-storage": "0",
+              "memory": "48Gi",
+              "nvidia.com/gpu": "1"
+            }
+          },
+          "restartCount": 0,
+          "started": true,
+          "state": {
+            "running": {
+              "startedAt": "2026-09-12T02:29:47Z"
+            }
+          },
+          "user": {
+            "linux": {
+              "gid": 0,
+              "supplementalGroups": [
+                0
+              ],
+              "uid": 0
+            }
+          },
+          "volumeMounts": [
+            {
+              "mountPath": "/workspace",
+              "name": "workspace"
+            },
+            {
+              "mountPath": "/dev/shm",
+              "name": "dshm"
+            },
+            {
+              "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
+              "name": "kube-api-access-ntmg5",
+              "readOnly": true,
+              "recursiveReadOnly": "Disabled"
+            }
+          ]
+        }
+      ],
+      "hostIP": "209.129.60.132",
+      "hostIPs": [
+        {
+          "ip": "209.129.60.132"
+        }
+      ],
+      "phase": "Running",
+      "podIP": "10.244.166.39",
+      "podIPs": [
+        {
+          "ip": "10.244.166.39"
+        }
+      ],
+      "qosClass": "Guaranteed",
+      "startTime": "2026-09-12T02:29:43Z"
+    },
+    "job": "mlevolve-jubias-anaf-gpt6-s59"
+  },
+  {
+    "pod": "mlevolve-jubias-base-gpt6-s57-t79mc",
+    "node": "gpu-09.nrp.mghpcc.org",
+    "created": "2026-09-12T02:29:41Z",
+    "status": {
+      "conditions": [
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T02:30:00Z",
+          "status": "True",
+          "type": "PodReadyToStartContainers"
+        },
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T02:29:41Z",
+          "status": "True",
+          "type": "Initialized"
+        },
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T02:30:00Z",
+          "status": "True",
+          "type": "Ready"
+        },
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T02:30:00Z",
+          "status": "True",
+          "type": "ContainersReady"
+        },
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T02:29:41Z",
+          "status": "True",
+          "type": "PodScheduled"
+        }
+      ],
+      "containerStatuses": [
+        {
+          "allocatedResources": {
+            "cpu": "8",
+            "ephemeral-storage": "0",
+            "memory": "48Gi",
+            "nvidia.com/gpu": "1"
+          },
+          "containerID": "containerd://141b3eb1254cac301271921c24dd158c1b362e3ac9883425084f3673abcd160d",
+          "image": "docker.io/pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime",
+          "imageID": "docker.io/pytorch/pytorch@sha256:2b59b1b91885677814f78be1f8df48a25d5dc952eb6580eaecfefca510f9afd3",
+          "lastState": {},
+          "name": "mlevolve",
+          "ready": true,
+          "resources": {
+            "limits": {
+              "cpu": "8",
+              "ephemeral-storage": "50Gi",
+              "memory": "48Gi",
+              "nvidia.com/gpu": "1"
+            },
+            "requests": {
+              "cpu": "8",
+              "ephemeral-storage": "0",
+              "memory": "48Gi",
+              "nvidia.com/gpu": "1"
+            }
+          },
+          "restartCount": 0,
+          "started": true,
+          "state": {
+            "running": {
+              "startedAt": "2026-09-12T02:30:00Z"
+            }
+          },
+          "user": {
+            "linux": {
+              "gid": 0,
+              "supplementalGroups": [
+                0
+              ],
+              "uid": 0
+            }
+          },
+          "volumeMounts": [
+            {
+              "mountPath": "/workspace",
+              "name": "workspace"
+            },
+            {
+              "mountPath": "/dev/shm",
+              "name": "dshm"
+            },
+            {
+              "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
+              "name": "kube-api-access-c4jzj",
+              "readOnly": true,
+              "recursiveReadOnly": "Disabled"
+            }
+          ]
+        }
+      ],
+      "hostIP": "192.69.103.149",
+      "hostIPs": [
+        {
+          "ip": "192.69.103.149"
+        }
+      ],
+      "phase": "Running",
+      "podIP": "10.244.98.239",
+      "podIPs": [
+        {
+          "ip": "10.244.98.239"
+        },
+        {
+          "ip": "fdf0:17b3:c3ec:1f79:10:0:d:98ca"
+        }
+      ],
+      "qosClass": "Guaranteed",
+      "startTime": "2026-09-12T02:29:41Z"
+    },
+    "job": "mlevolve-jubias-base-gpt6-s57"
+  },
+  {
+    "pod": "mlevolve-jubias-base-gpt6-s58-hn6pv",
+    "node": "gpu-04.nrp.mghpcc.org",
+    "created": "2026-09-12T02:29:42Z",
+    "status": {
+      "conditions": [
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T03:47:56Z",
+          "status": "False",
+          "type": "PodReadyToStartContainers"
+        },
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T02:29:42Z",
+          "status": "True",
+          "type": "Initialized"
+        },
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T03:47:53Z",
+          "reason": "PodFailed",
+          "status": "False",
+          "type": "Ready"
+        },
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T03:47:53Z",
+          "reason": "PodFailed",
+          "status": "False",
+          "type": "ContainersReady"
+        },
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T02:29:42Z",
+          "status": "True",
+          "type": "PodScheduled"
+        }
+      ],
+      "containerStatuses": [
+        {
+          "allocatedResources": {
+            "cpu": "8",
+            "ephemeral-storage": "0",
+            "memory": "48Gi",
+            "nvidia.com/gpu": "1"
+          },
+          "containerID": "containerd://dc63f2c9d97133f678906138a0eb31becc58c1201e32e7d9427dbe5e06f6a1a5",
+          "image": "docker.io/pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime",
+          "imageID": "docker.io/pytorch/pytorch@sha256:2b59b1b91885677814f78be1f8df48a25d5dc952eb6580eaecfefca510f9afd3",
+          "lastState": {},
+          "name": "mlevolve",
+          "ready": false,
+          "resources": {
+            "limits": {
+              "cpu": "8",
+              "ephemeral-storage": "50Gi",
+              "memory": "48Gi",
+              "nvidia.com/gpu": "1"
+            },
+            "requests": {
+              "cpu": "8",
+              "ephemeral-storage": "0",
+              "memory": "48Gi",
+              "nvidia.com/gpu": "1"
+            }
+          },
+          "restartCount": 0,
+          "started": false,
+          "state": {
+            "terminated": {
+              "containerID": "containerd://dc63f2c9d97133f678906138a0eb31becc58c1201e32e7d9427dbe5e06f6a1a5",
+              "exitCode": 1,
+              "finishedAt": "2026-09-12T03:47:53Z",
+              "reason": "Error",
+              "startedAt": "2026-09-12T02:29:51Z"
+            }
+          },
+          "user": {
+            "linux": {
+              "gid": 0,
+              "supplementalGroups": [
+                0
+              ],
+              "uid": 0
+            }
+          },
+          "volumeMounts": [
+            {
+              "mountPath": "/workspace",
+              "name": "workspace"
+            },
+            {
+              "mountPath": "/dev/shm",
+              "name": "dshm"
+            },
+            {
+              "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
+              "name": "kube-api-access-szj7r",
+              "readOnly": true,
+              "recursiveReadOnly": "Disabled"
+            }
+          ]
+        }
+      ],
+      "hostIP": "192.69.103.144",
+      "hostIPs": [
+        {
+          "ip": "192.69.103.144"
+        }
+      ],
+      "phase": "Failed",
+      "podIP": "10.244.245.150",
+      "podIPs": [
+        {
+          "ip": "10.244.245.150"
+        },
+        {
+          "ip": "fdf0:17b3:c3ec:1f79:10:0:3:ed0e"
+        }
+      ],
+      "qosClass": "Guaranteed",
+      "startTime": "2026-09-12T02:29:42Z"
+    },
+    "job": "mlevolve-jubias-base-gpt6-s58"
+  },
+  {
+    "pod": "mlevolve-jubias-base-gpt6-s59-6tx8v",
+    "node": "gpu-17.nrp.mghpcc.org",
+    "created": "2026-09-12T02:29:43Z",
+    "status": {
+      "conditions": [
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T03:42:34Z",
+          "status": "False",
+          "type": "PodReadyToStartContainers"
+        },
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T02:29:43Z",
+          "status": "True",
+          "type": "Initialized"
+        },
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T03:42:31Z",
+          "reason": "PodFailed",
+          "status": "False",
+          "type": "Ready"
+        },
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T03:42:31Z",
+          "reason": "PodFailed",
+          "status": "False",
+          "type": "ContainersReady"
+        },
+        {
+          "lastProbeTime": null,
+          "lastTransitionTime": "2026-09-12T02:29:43Z",
+          "status": "True",
+          "type": "PodScheduled"
+        }
+      ],
+      "containerStatuses": [
+        {
+          "allocatedResources": {
+            "cpu": "8",
+            "ephemeral-storage": "0",
+            "memory": "48Gi",
+            "nvidia.com/gpu": "1"
+          },
+          "containerID": "containerd://8ab228652f1278eb94f83469d0cc6c4e98708dbfe99a423d7a86575dff7b9526",
+          "image": "docker.io/pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime",
+          "imageID": "docker.io/pytorch/pytorch@sha256:2b59b1b91885677814f78be1f8df48a25d5dc952eb6580eaecfefca510f9afd3",
+          "lastState": {},
+          "name": "mlevolve",
+          "ready": false,
+          "resources": {
+            "limits": {
+              "cpu": "8",
+              "ephemeral-storage": "50Gi",
+              "memory": "48Gi",
+              "nvidia.com/gpu": "1"
+            },
+            "requests": {
+              "cpu": "8",
+              "ephemeral-storage": "0",
+              "memory": "48Gi",
+              "nvidia.com/gpu": "1"
+            }
+          },
+          "restartCount": 0,
+          "started": false,
+          "state": {
+            "terminated": {
+              "containerID": "containerd://8ab228652f1278eb94f83469d0cc6c4e98708dbfe99a423d7a86575dff7b9526",
+              "exitCode": 1,
+              "finishedAt": "2026-09-12T03:42:31Z",
+              "reason": "Error",
+              "startedAt": "2026-09-12T02:30:00Z"
+            }
+          },
+          "user": {
+            "linux": {
+              "gid": 0,
+              "supplementalGroups": [
+                0
+              ],
+              "uid": 0
+            }
+          },
+          "volumeMounts": [
+            {
+              "mountPath": "/workspace",
+              "name": "workspace"
+            },
+            {
+              "mountPath": "/dev/shm",
+              "name": "dshm"
+            },
+            {
+              "mountPath": "/var/run/secrets/kubernetes.io/serviceaccount",
+              "name": "kube-api-access-skthl",
+              "readOnly": true,
+              "recursiveReadOnly": "Disabled"
+            }
+          ]
+        }
+      ],
+      "hostIP": "192.69.103.157",
+      "hostIPs": [
+        {
+          "ip": "192.69.103.157"
+        }
+      ],
+      "phase": "Failed",
+      "podIP": "10.244.101.177",
+      "podIPs": [
+        {
+          "ip": "10.244.101.177"
+        },
+        {
+          "ip": "fdf0:17b3:c3ec:1f79:10:0:1:e025"
+        }
+      ],
+      "qosClass": "Guaranteed",
+      "startTime": "2026-09-12T02:29:43Z"
+    },
+    "job": "mlevolve-jubias-base-gpt6-s59"
+  }
+]

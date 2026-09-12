@@ -1,0 +1,95 @@
+{
+  "run": "20260912_023629_jubias-anaf-gpt6-s59",
+  "scope": "Read-only immutable candidate source and runtime metadata; minimal snippets only. No cluster writes, candidate execution or code edits.",
+  "candidate_deadline_error": {
+    "candidate_id": "3b53cebda8444b078a48ea92c441ea54",
+    "classification": "generated candidate code uses whole-run start instead of candidate execution start",
+    "source_path": "/workspace/MLEvolve/runs/20260912_023629_jubias-anaf-gpt6-s59/workspace/candidate_results/candidates/3b53cebda8444b078a48ea92c441ea54/solution.py",
+    "source_snippets": [
+      {
+        "start_line": 97,
+        "end_line": 99,
+        "text": "def check_preparation_budget():\n    if _PREPARATION_DEADLINE is not None and time.time() >= _PREPARATION_DEADLINE:\n        raise TimeoutError(\"Admitted preparation/training budget exhausted.\")"
+      },
+      {
+        "start_line": 707,
+        "end_line": 720,
+        "text": "    # Create the runtime before data preparation/model loading.\n    session = CandidateSession.from_env()\n    run_started = time.time()\n    global _PREPARATION_DEADLINE\n    with open(\"./candidate_results/run.json\", encoding=\"utf-8\") as handle:\n        admitted_run = json.load(handle)\n    runtime_config = admitted_run[\"runtime_config\"]\n    # Never substitute the nominal 7200-second cap for the admitted budget.\n    _PREPARATION_DEADLINE = (\n        float(admitted_run[\"started_at\"])\n        + float(runtime_config[\"candidate_budget_seconds\"])\n        - float(runtime_config[\"finalization_reserve_seconds\"])\n    )\n    check_preparation_budget()"
+      }
+    ],
+    "metadata_sources": {
+      "run": "/workspace/MLEvolve/runs/20260912_023629_jubias-anaf-gpt6-s59/workspace/candidate_results/run.json",
+      "spec": "/workspace/MLEvolve/runs/20260912_023629_jubias-anaf-gpt6-s59/workspace/candidate_results/candidates/3b53cebda8444b078a48ea92c441ea54/execution_spec.json",
+      "execution": "/workspace/MLEvolve/runs/20260912_023629_jubias-anaf-gpt6-s59/workspace/candidate_results/candidates/3b53cebda8444b078a48ea92c441ea54/execution.json"
+    },
+    "timing": {
+      "run_started_at": 1789180589.0445757,
+      "candidate_started_at": 1789186751.3220158,
+      "admitted_seconds": 7200.0,
+      "candidate_deadline": 1789193951.3220158,
+      "configured_finalization_reserve_seconds": 900,
+      "generated_preparation_deadline": 1789186889.0445757,
+      "generated_seconds_from_candidate_start": 137.72255992889404,
+      "observed_elapsed_seconds": 140.24443316459656,
+      "finished_at": 1789186891.5860286,
+      "execution_status": "timeout",
+      "exc_type": "TimeoutError"
+    },
+    "framework_reference": {
+      "path": "engine/candidate_runtime/integration.py",
+      "line": 64,
+      "text": "deadline = min(started_at + timeout, started_at + budget, run_deadline)"
+    },
+    "existing_guidance": {
+      "path": "agents/prompts/impl_guideline.py",
+      "line": 38,
+      "text": "The runtime's remaining() is authoritative after queueing and model loading."
+    },
+    "conclusion": "The framework admitted 7200 seconds. Generated code set its own deadline only 137.72256 seconds after candidate start, explaining the observed 140.24443-second failure.",
+    "narrow_recommendation": "Use session.remaining() / the admitted candidate execution spec; do not derive a candidate deadline from run.json.started_at."
+  },
+  "future_import_error": {
+    "candidate_id": "18e399263a454872af69e66dead32791",
+    "classification": "existing executor source-prefix instrumentation bug",
+    "source_path": "/workspace/MLEvolve/runs/20260912_023629_jubias-anaf-gpt6-s59/workspace/candidate_results/candidates/18e399263a454872af69e66dead32791/solution.py",
+    "source_snippet": {
+      "start_line": 1,
+      "end_line": 3,
+      "text": "from __future__ import annotations\n\nimport os"
+    },
+    "executor_snippets": [
+      {
+        "path": "engine/executor.py",
+        "start_line": 244,
+        "end_line": 245,
+        "text": "pre_code = (\"import os\\nos.sched_setaffinity(0, {cpu_set})\\n\".format(cpu_set=cpu_set)\n            if hasattr(os, \"sched_setaffinity\") else \"\")"
+      },
+      {
+        "path": "engine/executor.py",
+        "line": 255,
+        "text": "code = pre_code + code"
+      }
+    ],
+    "compile_reproduction": {
+      "original_source_compiles": true,
+      "method": "compile() only; no candidate code executed",
+      "minimal_source": "from __future__ import annotations\n\nx: Missing = 1\n",
+      "executor_prefix": "import os\nos.sched_setaffinity(0, {0})\n",
+      "prefixed_source_compiles": false,
+      "error": "from __future__ imports must occur at the beginning of the file",
+      "error_line": 3
+    },
+    "history": {
+      "boundary_commit": "473b265",
+      "boundary_commit_date": "2026-02-14T15:13:39Z",
+      "historical_path": "engine/executor.py",
+      "historical_prefix_line": 187,
+      "historical_prepend_line": 191,
+      "historical_prefix": "pre_code = \"import os\\nos.sched_setaffinity(0, {cpu_set})\\n\".format(cpu_set=cpu_set)",
+      "recent_change_commit": "c8a1ef6adeeec54921539cc99ea84678d4ba33f6",
+      "recent_change_date": "2026-09-10T17:02:29-07:00",
+      "conclusion": "Prefix/prepend behavior is present at the repository history boundary dated 2026-02-14; it was not introduced by this GPT-6 change. The September10 edit adds platform guarding and changes surrounding executor scheduling."
+    },
+    "narrow_recommendation": "Preserve module docstrings and future imports when inserting affinity code, or perform affinity setup in a separate launcher."
+  }
+}
