@@ -1,0 +1,15 @@
+{
+  "base_commit": "3c79330526f338d11e2210e7da672bd1b24e816f",
+  "files": {
+    "agents/code_review_agent.py": "eabdc4318b8babe537ce653e276a8362c248631e697cbe8f2d23cbb8cc1d76db",
+    "agents/result_parse_agent.py": "3c883d826a68f4be053057767b36705fe6e8b6fc89e5de7ce6053bcf272099f8",
+    "utils/verify_review_contracts.py": "d53f7042f4ec250bd1ba288f5a92fb0be4e4dc964ed33d29156be9c807bccc9c"
+  },
+  "checks": {
+    "review_contracts": 12,
+    "transport": 30,
+    "configuration": 6
+  },
+  "http": "mocked; no model requests",
+  "deployment": "local only"
+}

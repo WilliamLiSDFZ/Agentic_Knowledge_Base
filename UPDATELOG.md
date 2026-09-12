@@ -4,6 +4,29 @@ A running record of notable changes to this project. Newest entries on top.
 
 ---
 
+## 2026-09-12 — Fix nullable review contracts terminating Sol experiments
+
+Sol S57 A generated its first draft, then exited during code review because the
+schema rejected `revised_code=null` even though the prompt explicitly permits it
+for approved code. A second contradiction required a numeric `metric` while
+instructing failed candidates to return null. Both schemas now admit their
+documented null values. Existing review decisions, bounded retries, bug marking,
+metric-direction checks and transport error handling remain intact.
+
+Added `utils/verify_review_contracts.py`, using the real review specs, agent
+functions and pinned OpenAI SDK with mocked HTTP. The pre-fix suite reproduced
+eight null-related errors across Sol and GPT-6; all 12 tests now pass, including
+runtime-enabled review, optional omission, diff application, bounded missing-fix
+handling, failed-result parsing, numeric/zero scores, direction mismatch and
+rejection of invalid types or missing required fields. The existing 30 transport
+and six configuration regressions also pass (48 total).
+
+Evidence: `results/9.12/sol_a57_schema_fix/REPORT.md`; original diagnosis remains
+in `results/9.12/sol_a57_schema_error/REPORT.md`. Only local code and records were
+changed. No cluster code, environment, Job or Pod was changed and no model API
+requests were made. The user will synchronize through Git and recreate the Jobs
+to rerun; existing S57–S59 YAML files remain usable.
+
 ## 2026-09-11 — Switch current experiments to GPT-5.6 Sol/high
 
 Following repeated GPT-6 service-limit failures, MLEvolve's defaults, generic Job

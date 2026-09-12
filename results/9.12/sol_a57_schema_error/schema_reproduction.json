@@ -1,0 +1,28 @@
+{
+  "fixture": "synthetic no-revision response with null; reproduces observed failing field, not captured full live payload",
+  "current_schema_failure": {
+    "message": "None is not of type 'string'",
+    "path": [
+      "revised_code"
+    ],
+    "schema_path": [
+      "properties",
+      "revised_code",
+      "type"
+    ]
+  },
+  "proposed_nullable_schema_in_memory": "accepts null and string; rejects number",
+  "source_hashes_match_cluster": true,
+  "production_files_modified": false,
+  "model_api_calls": 0,
+  "additional_result_parser_hazard": {
+    "observed_live": false,
+    "current_schema_failure": {
+      "message": "None is not of type 'number'",
+      "path": [
+        "metric"
+      ]
+    },
+    "proposed_nullable_schema_in_memory": "accepts failed candidate metric=null"
+  }
+}

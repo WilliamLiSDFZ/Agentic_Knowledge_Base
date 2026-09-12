@@ -1,0 +1,170 @@
+{
+    "apiVersion": "v1",
+    "items": [
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-09-12T07:03:38Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "mlevolve-jubias-base-gpt56sol-s57-dqs79",
+                "namespace": "ecepxie",
+                "resourceVersion": "14780746552",
+                "uid": "c253ddd7-04d1-47b0-8ff3-ea1588fd4832"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-09-12T07:03:38Z",
+            "message": "Successfully assigned ecepxie/mlevolve-jubias-base-gpt56sol-s57-dqs79 to k8s-haosu-24.sdsc.optiputer.net",
+            "metadata": {
+                "creationTimestamp": "2026-09-12T07:03:38Z",
+                "name": "mlevolve-jubias-base-gpt56sol-s57-dqs79.18d480d840070377",
+                "namespace": "ecepxie",
+                "resourceVersion": "114647267",
+                "uid": "761a9648-32d8-40c5-8f95-4ab7c2b3046e"
+            },
+            "reason": "Scheduled",
+            "reportingComponent": "default-scheduler",
+            "reportingInstance": "",
+            "source": {
+                "component": "default-scheduler"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-09-12T07:03:38Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "kind": "Pod",
+                "name": "mlevolve-jubias-base-gpt56sol-s57-dqs79",
+                "namespace": "ecepxie",
+                "resourceVersion": "14780746555",
+                "uid": "c253ddd7-04d1-47b0-8ff3-ea1588fd4832"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-09-12T07:03:38Z",
+            "message": "AttachVolume.Attach succeeded for volume \"pvc-12864ef9-1e8a-49e3-846d-cf30979c9e7f\" ",
+            "metadata": {
+                "creationTimestamp": "2026-09-12T07:03:38Z",
+                "name": "mlevolve-jubias-base-gpt56sol-s57-dqs79.18d480d8624549f4",
+                "namespace": "ecepxie",
+                "resourceVersion": "114647277",
+                "uid": "13b6a006-3c95-4c29-82c6-83aaa1f820fb"
+            },
+            "reason": "SuccessfulAttachVolume",
+            "reportingComponent": "attachdetach-controller",
+            "reportingInstance": "",
+            "source": {
+                "component": "attachdetach-controller"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-09-12T07:03:46Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{mlevolve}",
+                "kind": "Pod",
+                "name": "mlevolve-jubias-base-gpt56sol-s57-dqs79",
+                "namespace": "ecepxie",
+                "resourceVersion": "14780746555",
+                "uid": "c253ddd7-04d1-47b0-8ff3-ea1588fd4832"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-09-12T07:03:46Z",
+            "message": "Container image \"pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime\" already present on machine",
+            "metadata": {
+                "creationTimestamp": "2026-09-12T07:03:46Z",
+                "name": "mlevolve-jubias-base-gpt56sol-s57-dqs79.18d480da234efd19",
+                "namespace": "ecepxie",
+                "resourceVersion": "114647385",
+                "uid": "e9a8751d-22d4-498d-8387-89e03972912a"
+            },
+            "reason": "Pulled",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "k8s-haosu-24.sdsc.optiputer.net",
+            "source": {
+                "component": "kubelet",
+                "host": "k8s-haosu-24.sdsc.optiputer.net"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-09-12T07:03:46Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{mlevolve}",
+                "kind": "Pod",
+                "name": "mlevolve-jubias-base-gpt56sol-s57-dqs79",
+                "namespace": "ecepxie",
+                "resourceVersion": "14780746555",
+                "uid": "c253ddd7-04d1-47b0-8ff3-ea1588fd4832"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-09-12T07:03:46Z",
+            "message": "Created container: mlevolve",
+            "metadata": {
+                "creationTimestamp": "2026-09-12T07:03:46Z",
+                "name": "mlevolve-jubias-base-gpt56sol-s57-dqs79.18d480da24928784",
+                "namespace": "ecepxie",
+                "resourceVersion": "114647386",
+                "uid": "2d412804-35bd-4f66-a6a9-a07f3675cbb3"
+            },
+            "reason": "Created",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "k8s-haosu-24.sdsc.optiputer.net",
+            "source": {
+                "component": "kubelet",
+                "host": "k8s-haosu-24.sdsc.optiputer.net"
+            },
+            "type": "Normal"
+        },
+        {
+            "apiVersion": "v1",
+            "count": 1,
+            "eventTime": null,
+            "firstTimestamp": "2026-09-12T07:03:46Z",
+            "involvedObject": {
+                "apiVersion": "v1",
+                "fieldPath": "spec.containers{mlevolve}",
+                "kind": "Pod",
+                "name": "mlevolve-jubias-base-gpt56sol-s57-dqs79",
+                "namespace": "ecepxie",
+                "resourceVersion": "14780746555",
+                "uid": "c253ddd7-04d1-47b0-8ff3-ea1588fd4832"
+            },
+            "kind": "Event",
+            "lastTimestamp": "2026-09-12T07:03:46Z",
+            "message": "Started container mlevolve",
+            "metadata": {
+                "creationTimestamp": "2026-09-12T07:03:46Z",
+                "name": "mlevolve-jubias-base-gpt56sol-s57-dqs79.18d480da39e32f67",
+                "namespace": "ecepxie",
+                "resourceVersion": "114647389",
+                "uid": "f843427d-1b8a-48db-8751-ec702178e47c"
+            },
+            "reason": "Started",
+            "reportingComponent": "kubelet",
+            "reportingInstance": "k8s-haosu-24.sdsc.optiputer.net",
+            "source": {
+                "component": "kubelet",
+                "host": "k8s-haosu-24.sdsc.optiputer.net"
+            },
+            "type": "Normal"
+        }
+    ],
+    "kind": "List",
+    "metadata": {
+        "resourceVersion": ""
+    }
+}

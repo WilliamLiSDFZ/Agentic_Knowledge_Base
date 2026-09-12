@@ -1,0 +1,72 @@
+{
+  "mlevolve-jubias-anaf-gpt56sol-s57-n4ddf.log": {
+    "last_lines": [
+      "2026-09-12T07:32:55.513130549Z Your solution must stay aligned with the official competition task and official evaluation metric.",
+      "2026-09-12T07:32:55.513132659Z - Local validation must evaluate the same core task as the final submission.",
+      "2026-09-12T07:32:55.513135009Z - The reported `Final Validation Score` must use the official metric definition, or a task-faithful implementation of that same metric.",
+      "2026-09-12T07:32:55.513140439Z - Do NOT simplify the task into an easier proxy objective just to obtain a higher local score.",
+      "2026-09-12T07:32:55.513142589Z - Do NOT use a proxy metric as the main score for comparing solutions, ranking candidates, or selecting the best solution.",
+      "2026-09-12T07:32:55.513144779Z - The prediction target, output semantics, and post-processing used in validation must remain aligned with the required submission format.",
+      "2026-09-12T07:32:55.513147129Z - In short: task goal and metric must match the official specification; lazy task redefinition is forbidden.",
+      "2026-09-12T07:32:55.513149259Z ============================================================ ",
+      "2026-09-12T07:32:55.513151259Z ",
+      "2026-09-12T07:33:02.804841432Z [2026-09-12 07:33:02,550] INFO: [analogy] corpus: 38273 papers, sha1 5cd1d5e7afd0 (tokenize 4.1s, bm25 0.9s)"
+    ]
+  },
+  "mlevolve-jubias-base-gpt56sol-s59-rqr9m.log": {
+    "last_lines": [
+      "2026-09-12T07:50:57.265931587Z [2026-09-12 07:50:57,096] INFO: Pipeline: 3 search workers, 1 execution slots; initial drafts stay serial",
+      "2026-09-12T07:50:57.439897812Z [2026-09-12 07:50:57,265] INFO: Generating initial draft 1/3",
+      "2026-09-12T07:51:34.489124813Z [2026-09-12 07:51:34,294] INFO: 📊 Exploration mode (weight=100.00%, time=0.0%)",
+      "2026-09-12T07:51:34.668704758Z [2026-09-12 07:51:34,489] INFO: [reached_child_limit] node bd64ffcea8b34071ac5e2b76ca041f65 regular_draft_count=0, in_flight=0, limit=5",
+      "2026-09-12T07:51:34.843553870Z [2026-09-12 07:51:34,668] INFO: [select] → node bd64ffcea8b34071ac5e2b76ca041f65 (method=expand)",
+      "2026-09-12T07:51:35.018495703Z [2026-09-12 07:51:34,843] INFO: [reached_child_limit] node bd64ffcea8b34071ac5e2b76ca041f65 regular_draft_count=0, in_flight=0, limit=5",
+      "2026-09-12T07:51:35.194676916Z [2026-09-12 07:51:35,018] INFO: fetch_child_memory",
+      "2026-09-12T07:51:35.530669028Z [2026-09-12 07:51:35,355] INFO: current bd64ffcea8b34071ac5e2b76ca041f65 expected_child_count is 1.",
+      "2026-09-12T07:51:35.705359800Z [2026-09-12 07:51:35,530] INFO: Using stepwise generation route.",
+      "2026-09-12T07:51:35.880049093Z [2026-09-12 07:51:35,705] INFO: Step 1/3: data_processing_and_feature_engineering"
+    ]
+  },
+  "mlevolve-jubias-anaf-gpt56sol-s58-5plmm.log": {
+    "last_lines": [
+      "2026-09-12T07:33:26.417336756Z Your solution must stay aligned with the official competition task and official evaluation metric.",
+      "2026-09-12T07:33:26.417338856Z - Local validation must evaluate the same core task as the final submission.",
+      "2026-09-12T07:33:26.417344966Z - The reported `Final Validation Score` must use the official metric definition, or a task-faithful implementation of that same metric.",
+      "2026-09-12T07:33:26.417347246Z - Do NOT simplify the task into an easier proxy objective just to obtain a higher local score.",
+      "2026-09-12T07:33:26.417349435Z - Do NOT use a proxy metric as the main score for comparing solutions, ranking candidates, or selecting the best solution.",
+      "2026-09-12T07:33:26.417351555Z - The prediction target, output semantics, and post-processing used in validation must remain aligned with the required submission format.",
+      "2026-09-12T07:33:26.417353745Z - In short: task goal and metric must match the official specification; lazy task redefinition is forbidden.",
+      "2026-09-12T07:33:26.417355895Z ============================================================ ",
+      "2026-09-12T07:33:26.417357895Z ",
+      "2026-09-12T07:33:33.687114683Z [2026-09-12 07:33:33,529] INFO: [analogy] corpus: 38273 papers, sha1 5cd1d5e7afd0 (tokenize 4.2s, bm25 0.9s)"
+    ]
+  },
+  "mlevolve-jubias-anaf-gpt56sol-s59-26t2l.log": {
+    "last_lines": [
+      "2026-09-12T07:32:58.615021197Z Your solution must stay aligned with the official competition task and official evaluation metric.",
+      "2026-09-12T07:32:58.615023337Z - Local validation must evaluate the same core task as the final submission.",
+      "2026-09-12T07:32:58.615025457Z - The reported `Final Validation Score` must use the official metric definition, or a task-faithful implementation of that same metric.",
+      "2026-09-12T07:32:58.615027557Z - Do NOT simplify the task into an easier proxy objective just to obtain a higher local score.",
+      "2026-09-12T07:32:58.615029677Z - Do NOT use a proxy metric as the main score for comparing solutions, ranking candidates, or selecting the best solution.",
+      "2026-09-12T07:32:58.615031837Z - The prediction target, output semantics, and post-processing used in validation must remain aligned with the required submission format.",
+      "2026-09-12T07:32:58.615033937Z - In short: task goal and metric must match the official specification; lazy task redefinition is forbidden.",
+      "2026-09-12T07:32:58.615036057Z ============================================================ ",
+      "2026-09-12T07:32:58.615038527Z ",
+      "2026-09-12T07:33:05.881310520Z [2026-09-12 07:33:05,572] INFO: [analogy] corpus: 38273 papers, sha1 5cd1d5e7afd0 (tokenize 4.1s, bm25 0.9s)"
+    ]
+  },
+  "mlevolve-jubias-base-gpt56sol-s58-qwcz6.log": {
+    "last_lines": [
+      "2026-09-12T07:50:57.819803626Z [2026-09-12 07:50:57,607] INFO: Pipeline: 3 search workers, 1 execution slots; initial drafts stay serial",
+      "2026-09-12T07:50:58.051955940Z [2026-09-12 07:50:57,819] INFO: Generating initial draft 1/3",
+      "2026-09-12T07:51:47.852304083Z [2026-09-12 07:51:47,653] INFO: 📊 Exploration mode (weight=100.00%, time=0.0%)",
+      "2026-09-12T07:51:48.038052967Z [2026-09-12 07:51:47,852] INFO: [reached_child_limit] node 6929a7912df8418bb0bb60e559c7eef0 regular_draft_count=0, in_flight=0, limit=5",
+      "2026-09-12T07:51:48.228814577Z [2026-09-12 07:51:48,038] INFO: [select] → node 6929a7912df8418bb0bb60e559c7eef0 (method=expand)",
+      "2026-09-12T07:51:48.403805603Z [2026-09-12 07:51:48,228] INFO: [reached_child_limit] node 6929a7912df8418bb0bb60e559c7eef0 regular_draft_count=0, in_flight=0, limit=5",
+      "2026-09-12T07:51:48.584995503Z [2026-09-12 07:51:48,403] INFO: fetch_child_memory",
+      "2026-09-12T07:51:49.222591623Z [2026-09-12 07:51:48,990] INFO: current 6929a7912df8418bb0bb60e559c7eef0 expected_child_count is 1.",
+      "2026-09-12T07:51:49.412992892Z [2026-09-12 07:51:49,222] INFO: Using stepwise generation route.",
+      "2026-09-12T07:51:49.620792373Z [2026-09-12 07:51:49,413] INFO: Step 1/3: data_processing_and_feature_engineering"
+    ]
+  }
+}
