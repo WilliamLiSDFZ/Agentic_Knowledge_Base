@@ -1,0 +1,100 @@
+{
+  "scope": "current MLEvolve working files; no Git commit created",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "fe0e754a686353979a8085460a04df9b38663d5e4abd754bbc5c7e0751381785",
+      "matches_live_validation_archive": null
+    },
+    {
+      "path": "config/config.yaml",
+      "sha256": "b34de5acc8d050b0e7aca5562cfe2db35669cded14dc15eb4fc57f281e0efebd",
+      "matches_live_validation_archive": true
+    },
+    {
+      "path": "docs/analogy_context_v2.md",
+      "sha256": "39d79cb0cfdaf4c549000da31034122af5a7ddaf642283307fe1f95da72837ee",
+      "matches_live_validation_archive": null
+    },
+    {
+      "path": "engine/analogy/agent.py",
+      "sha256": "1d71a4ed3a366a9bd48e3a1a10c5f3ae5453d69733e84b8419467addf21f8088",
+      "matches_live_validation_archive": true
+    },
+    {
+      "path": "engine/analogy/observed_loop.py",
+      "sha256": "69d617f6f5694f2d28e99d56a177b2963317964a0a43f743a1f3bc914896f11a",
+      "matches_live_validation_archive": true
+    },
+    {
+      "path": "k8s/job-jigsaw-unintended-af-s57.yaml",
+      "sha256": "cf1498ff06b5adc4707760559ab381ee5afebb4c30d35ceaa442984960fe171f",
+      "matches_live_validation_archive": true
+    },
+    {
+      "path": "k8s/job-jigsaw-unintended-af-s58.yaml",
+      "sha256": "b7a1c1549f1d0e1eab7303a4c28c6a1612413d291aa9677963e460ac3cea1a91",
+      "matches_live_validation_archive": true
+    },
+    {
+      "path": "k8s/job-jigsaw-unintended-af-s59.yaml",
+      "sha256": "09c7cab30ae25fb0372cfd4521d4f29c7c886810032f2b0f272e4d6fcee49fd3",
+      "matches_live_validation_archive": true
+    },
+    {
+      "path": "k8s/job-jigsaw-unintended-af-sol.template.yaml",
+      "sha256": "82043fb18a35e3ecbcb2e565f5bef45c9e2cfd6021243121edf23cf1a7e03979",
+      "matches_live_validation_archive": true
+    },
+    {
+      "path": "k8s/job-mlevolve.yaml",
+      "sha256": "e359b501b377b3bba5f0246acaf5ca6ddb8587d87a01c64a5ca43d70606a0f12",
+      "matches_live_validation_archive": true
+    },
+    {
+      "path": "llm/__init__.py",
+      "sha256": "6bd624ac385b661775437973d3cb5d167b4eaa6a8047466f3d4ff29e547692f5",
+      "matches_live_validation_archive": true
+    },
+    {
+      "path": "llm/model_profiles.py",
+      "sha256": "9baabed9b0fc14650b8558493dfa5cb265ec40f0b396fb7e39a0f97b34ab31aa",
+      "matches_live_validation_archive": true
+    },
+    {
+      "path": "llm/openai.py",
+      "sha256": "ffcdef85744bae210c06bfd75835d44cb60cc9daef3b80b13da4e4a7b6b4c0e9",
+      "matches_live_validation_archive": true
+    },
+    {
+      "path": "llm/responses.py",
+      "sha256": "298a6bcc3878ebd815d73d48940bf30fb5a486c88e667636cabda85bb2e9196b",
+      "matches_live_validation_archive": true
+    },
+    {
+      "path": "utils/llm_preflight.py",
+      "sha256": "11378ae8fa75c8e0215336d5826b5aedaf94f6bfb8bc094c0e4975244d75698e",
+      "matches_live_validation_archive": true
+    },
+    {
+      "path": "utils/verify_analogy_observation.py",
+      "sha256": "1b4ee7c7b80dd5bf89b28e053c7b0a796cd8c064a6c9accabcfe252dfebb56fd",
+      "matches_live_validation_archive": true
+    },
+    {
+      "path": "utils/verify_gpt6_configuration.py",
+      "sha256": "f22325bad06553e992c2d542617b54a82e4e44b5ba20f05f3380dbcf9e49ce2a",
+      "matches_live_validation_archive": true
+    },
+    {
+      "path": "utils/verify_gpt6_transport.py",
+      "sha256": "0cc4e7862556c5445862434cc313fa036a2d36c0d9ac21beecb1cb49af3b160e",
+      "matches_live_validation_archive": true
+    },
+    {
+      "path": "utils/verify_sol_proxy.py",
+      "sha256": "97666b271f87a721535a130d8d89e139c832b91c0101592318160c992a915597",
+      "matches_live_validation_archive": true
+    }
+  ]
+}

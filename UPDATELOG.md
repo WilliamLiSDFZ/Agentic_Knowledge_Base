@@ -4,6 +4,36 @@ A running record of notable changes to this project. Newest entries on top.
 
 ---
 
+## 2026-09-11 — Switch current experiments to GPT-5.6 Sol/high
+
+Following repeated GPT-6 service-limit failures, MLEvolve's defaults, generic Job
+and S57–S59 A/F Jobs now explicitly use `gpt-5.6-sol/high`. Sol uses the existing
+Responses transport for code, feedback and analogy, retaining structured streaming,
+function calls, opaque reasoning replay and bounded transient retries. Context v2,
+source inspection, full-text reading, A/F injection, candidate runtime and all
+experiment budgets/GPU settings remain unchanged. This is a model migration rather
+than a rollback of the recent agent improvements.
+
+The new `MLEVOLVE_REQUIRED_MODEL` preflight guard verifies all model slots, effort
+and context version. The old GPT-6 guard/template and legacy Terra routes remain
+supported. A reusable Sol A/F template is added; S57–S59 Job and output names now
+contain `gpt56sol` to separate them from the interrupted GPT-6 batch.
+
+Validation: 84 offline tests pass and two Linux-affinity tests are skipped on macOS
+(86 cases across transport, configuration, observation, handoff and execution).
+A live CPU-dev probe using the existing Python 3.11 / OpenAI SDK 1.66.3 environment
+passes all four checks in six requests: text streaming, structured JSON, feedback
+function output and two consecutive tool rounds followed by a final answer. The
+three wrapper telemetry records confirm returned `gpt-5.6-sol/high`; the tool probe
+successfully replays encrypted state. These short checks establish compatibility,
+not sustained six-Job throughput or guaranteed freedom from proxy limits.
+
+Evidence: `results/9.11/sol_migration_validation/REPORT.md`. Changes are local and
+uncommitted; live validation uses an isolated temporary CPU-dev source copy and
+existing credentials without changing shared repositories, the venv, Secrets or
+experiment Pods. The user will synchronize through Git and apply the updated Jobs.
+New Sol Job names do not stop existing GPT-6 Jobs automatically.
+
 ## 2026-09-11 — Fix S57–S59 streamed timeouts and candidate execution failures
 
 The live S57–S59 audit found F57, A58 and A59 terminating after a single
@@ -39,6 +69,15 @@ Changes are local. CPU-dev verification uses an isolated temporary source copy,
 without updating shared code/venv, calling model APIs, running GPU training or
 restarting experiments. Git synchronization and experiment restarts remain with
 the user; the existing S57–S59 Job configurations can be reused.
+
+Follow-up after the user's restart: A58 on commit `76a1eae` failed at 23:01 PDT
+on the separately named `server_is_overloaded` SSE error. The previous fix was
+present on the cluster (commit and source hashes matched), but this overload alias
+was also missing from the transient-code set. Added it to the same bounded retry
+path. All 15 transport tests pass with both observed codes across six error
+representations, recovery and three-attempt exhaustion; unknown/deterministic
+errors remain terminal. This follow-up is local only and does not update the
+running Pods. Evidence: `results/9.11/s57_s59_overload_20260912_060422Z/REPORT.md`.
 
 ## 2026-09-11 — Evidence-aware analogy context and GPT-6 experiment migration
 

@@ -1,0 +1,55 @@
+{
+  "commit": "76a1eae8a29b8725f1da97fb46167b3ab51109de",
+  "hashes": {
+    "llm/responses.py": "b5ff09c0d5908524f797b131947b4a24354ab74760be480a03ca9daa346b68ac",
+    "engine/executor.py": "3067c9ee9e9136d6f8f3733e3c464b63a5fd0c264b4a17ce4a41255e9859c0ea"
+  },
+  "run": "/workspace/MLEvolve/runs/20260912_054152_jubias-base-gpt6-s58",
+  "llm_errors": [
+    {
+      "model": null,
+      "requested_model": "gpt-6-astra",
+      "created": null,
+      "response_id": null,
+      "endpoint_type": "responses",
+      "sdk_version": "1.66.3",
+      "reasoning_effort": "high",
+      "returned_reasoning_effort": null,
+      "status": null,
+      "incomplete_details": null,
+      "timestamp": "2026-09-12T06:01:14.082826+00:00",
+      "role": "code",
+      "endpoint_host": "cliproxy",
+      "max_output_tokens": 16384,
+      "elapsed_seconds": 3.155,
+      "context_budget": null,
+      "outcome": "error",
+      "error": {
+        "type": "ResponsesError",
+        "category": "response_error",
+        "http_status": null,
+        "attempts": 1
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2481469999e04bc8b78699b42cf2e2c7",
+      "execution": {
+        "node_id": "2481469999e04bc8b78699b42cf2e2c7",
+        "status": "failed",
+        "started_at": 1789192870.3242455,
+        "deadline": 1789198270.3242455,
+        "finished_at": 1789192874.400662,
+        "elapsed_seconds": 4.057041168212891,
+        "exc_type": "RuntimeError"
+      },
+      "snapshots": 0
+    }
+  ],
+  "local_baseline_commit": "76a1eae8a29b8725f1da97fb46167b3ab51109de",
+  "baseline_hashes_match": {
+    "llm/responses.py": true,
+    "engine/executor.py": true
+  }
+}
