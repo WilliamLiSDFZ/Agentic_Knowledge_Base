@@ -4,6 +4,36 @@ A running record of notable changes to this project. Newest entries on top.
 
 ---
 
+## 2026-09-13 — Reliable analogy report delivery (P0)
+
+Implemented only the approved report-delivery phase after the S57–S59 audit.
+Context-v2 reports now use explicit runtime-evidence arrays, visible packet path
+examples and field-level validation feedback. Legacy path strings are normalized
+deterministically with every reference checked and the conversion recorded.
+Code anchors and actually read paper quotes remain required; invalid shared facts
+block delivery, and invalid paper evidence cannot silently downgrade a mechanism.
+
+The existing 14-turn loop submits by turn 12, reserving correction opportunities
+without raising the turn or input limits. Correction permits one targeted read of
+known evidence. Feedback is bounded to 4,096 UTF-8 bytes and gives compression
+advice only for size errors. Submission attempts preserve raw/normalized reports,
+diagnostics, whole-mechanism removals and original-index-to-final-ID mappings.
+Complete acceptance, partial acceptance, explicit abstention and failure are
+recorded separately; the legacy `ok` field is preserved.
+
+Validation: 135 CPU regression tests plus the existing analogy-injection checks
+pass, including historical S57/S58 path failures, turn-12/13/14 correction,
+unread/invalid evidence rejection, partial-report provenance, bounded Unicode
+feedback, old configurations and the pinned OpenAI SDK's mocked transport/review
+contracts. No model API calls, GPU runs or cluster changes were made. P1 mechanism
+observation, early stopping, scoring and Job changes remain outside this update.
+
+Also removed 15 audited one-shot or duplicate scripts under `/tmp`. Reusable
+repository analysis/replay/regression tools and scripts referenced by reports
+were retained, along with all logs, results and source evidence. Removed paths
+and SHA256 hashes are recorded in `results/9.13/analogy_p0_validation/cleanup.json`.
+Details: `results/9.13/analogy_p0_validation/REPORT.md`.
+
 ## 2026-09-12 — Fix nullable review contracts terminating Sol experiments
 
 Sol S57 A generated its first draft, then exited during code review because the

@@ -1,0 +1,80 @@
+{
+  "scope": "obsolete one-shot /tmp scripts; retained reusable repository tools, reports and reproducibility sources",
+  "removed": [
+    {
+      "path": "/tmp/mlevolve_gpu_history.py",
+      "bytes": 1246,
+      "sha256": "34c7d6d16d05cba95b04da2d7b5080d17d7b01d9a9bc963a7a62ef1d33e57ef8"
+    },
+    {
+      "path": "/tmp/mlevolve_live_probe.py",
+      "bytes": 3625,
+      "sha256": "97307b5ac60ff1d7df0d63835f05c19991ed294bc0fa1a099f953c5e842237d1"
+    },
+    {
+      "path": "/tmp/mlevolve_check_current.py",
+      "bytes": 4758,
+      "sha256": "adc6d3216cbc10a0e4c280a4f2de96fe01fcc77ca4471bb6b55f4039c0acc944"
+    },
+    {
+      "path": "/tmp/mlevolve_check_latest.py",
+      "bytes": 2246,
+      "sha256": "ad429c1c2e049d7ed361122b7649451d7c9857b9fd8b61f3e5bc740cfa75190a"
+    },
+    {
+      "path": "/tmp/mlevolve_check_followup.py",
+      "bytes": 1910,
+      "sha256": "2260f4b5a6e0ceff66be7c1c97977c78348ac1e32ab0d6c85f706ea58e50d828"
+    },
+    {
+      "path": "/tmp/mlevolve_live_compact.py",
+      "bytes": 1904,
+      "sha256": "d6fd61724e692c9c85c930ed0537633e66022ef7df8802b354f4169e25a78ec0"
+    },
+    {
+      "path": "/tmp/read_mlevolve_s57_s59.py",
+      "bytes": 2771,
+      "sha256": "327e2cec649f65cd41ea5e3e3f89c5bcbaefe6661a62c016e04d5240febd9793"
+    },
+    {
+      "path": "/tmp/plot_latest_paired_scores.py",
+      "bytes": 2869,
+      "sha256": "ec6b0a4827e3fd48ca9963495adbffdac97c25cd315465c654b81fbf504f7c30"
+    },
+    {
+      "path": "/tmp/runtime_audit.py",
+      "bytes": 5175,
+      "sha256": "2d914fa5ee0fc49859864cf01dd055f885bfe1cbccd90410b4dea64ac1b9b4e9"
+    },
+    {
+      "path": "/tmp/write_runtime_notes.py",
+      "bytes": 8354,
+      "sha256": "b500a166240640466398548f3a820ca5e3030ad6f5d669e9dd77f748556889da"
+    },
+    {
+      "path": "/tmp/mlevolve_review_checks.py",
+      "bytes": 9118,
+      "sha256": "715367f551bf2c033dc48165059e88dfee0b6331aed61cd698df3e869696e1d8"
+    },
+    {
+      "path": "/tmp/mlevolve_review_execution_checks.py",
+      "bytes": 1678,
+      "sha256": "ebb8ac27056d2d622a78433e8491ef0d224a0d4bef54a45d27fe3461cf9d9eb1"
+    },
+    {
+      "path": "/tmp/fetch_review_sources.py",
+      "bytes": 1433,
+      "sha256": "3014b1ce5d5814022c545337a942a37b84afa09c737f7159e9258bc8974d4b0e"
+    },
+    {
+      "path": "/tmp/grade_review_candidates.py",
+      "bytes": 2556,
+      "sha256": "c952768247621a589bb1ad058662922feffc540ad5547f9b7c6eef9525b79f24"
+    },
+    {
+      "path": "/tmp/mlevolve-fetch-run-runtime.sh",
+      "bytes": 8864,
+      "sha256": "eec525360cecbb9c5f78d7d6e91974b513a31296385fc0388436d60449b45807"
+    }
+  ]
+}
