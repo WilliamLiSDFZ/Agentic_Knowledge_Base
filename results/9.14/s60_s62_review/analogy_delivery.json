@@ -1,0 +1,1619 @@
+[
+  {
+    "run": "20260914_043431_jubias-anaf-gpt56sol-s62",
+    "episodes": [
+      {
+        "parent_id": "draft",
+        "invocation": 1,
+        "stage": "draft",
+        "ok": true,
+        "turns": 7,
+        "first_submit_turn": 7,
+        "submission_count": 1,
+        "correction_succeeded": false,
+        "delivery_status": "accepted_partial",
+        "failure_kind": "",
+        "final_mechanism_count": 1,
+        "report_schema_revision": 2,
+        "in_tokens": 213388,
+        "out_tokens": 10601,
+        "seconds": 215.6,
+        "fulltext_body_chars": 14819,
+        "fulltext_papers_opened": 1,
+        "fulltext_read_calls": 2,
+        "file": "/Users/william/nautilus/results/20260914_043431_jubias-anaf-gpt56sol-s62/logs/analogy/draft_001.context.json",
+        "deadline": 12,
+        "attempts": [
+          {
+            "turn": 7,
+            "status": "accepted_partial",
+            "raw_mechanisms": 2,
+            "validated_mechanisms": 1,
+            "retained_mechanisms": 1,
+            "dropped_mechanisms": 1,
+            "budget_dropped_mechanisms": 0,
+            "issues": [
+              "paper_quote_not_returned",
+              "paper_quote_not_returned",
+              "paper_read_evidence_missing"
+            ],
+            "normalizations": []
+          }
+        ],
+        "quote_analysis": [
+          {
+            "turn": 7,
+            "kind": "text_diff_beyond_emphasis",
+            "location": "mechanisms[0].evidence_refs[0].quote",
+            "reference": {
+              "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+              "source": "full_text",
+              "chunk_id": "p004-c004",
+              "quote": "AUC is a well-known ranking performance metric for binary classification task, which measures the probability that a positive instance has a higher score than a negative one"
+            }
+          },
+          {
+            "turn": 7,
+            "kind": "markdown_emphasis_only",
+            "location": "mechanisms[0].evidence_refs[1].quote",
+            "reference": {
+              "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+              "source": "full_text",
+              "chunk_id": "p006-c007",
+              "quote": "the stochastic AUC optimization, as defined in Equation (7), requires at least one sample from each class in a mini-batch"
+            }
+          }
+        ],
+        "tools": {
+          "search_papers": 24,
+          "read_abstract": 3,
+          "open_paper": 5,
+          "read_paper": 2,
+          "submit_report": 1
+        },
+        "code_ledger_count": 0,
+        "evidence_levels": [
+          "abstract_only"
+        ],
+        "mechanism_titles": [
+          "Compute-aware, metric-stratified one-shot subset"
+        ]
+      },
+      {
+        "parent_id": "bbb6e3882ac8434ca44957649fbb6094",
+        "invocation": 2,
+        "stage": "improve",
+        "ok": true,
+        "turns": 13,
+        "first_submit_turn": 12,
+        "submission_count": 2,
+        "correction_succeeded": true,
+        "delivery_status": "accepted_partial",
+        "failure_kind": "",
+        "final_mechanism_count": 1,
+        "report_schema_revision": 2,
+        "in_tokens": 641446,
+        "out_tokens": 13454,
+        "seconds": 324.7,
+        "fulltext_body_chars": 32469,
+        "fulltext_papers_opened": 3,
+        "fulltext_read_calls": 6,
+        "file": "/Users/william/nautilus/results/20260914_043431_jubias-anaf-gpt56sol-s62/logs/analogy/bbb6e3882ac8434ca44957649fbb6094_002.context.json",
+        "deadline": 12,
+        "attempts": [
+          {
+            "turn": 12,
+            "status": "rejected",
+            "raw_mechanisms": 2,
+            "validated_mechanisms": 0,
+            "retained_mechanisms": 0,
+            "dropped_mechanisms": 2,
+            "budget_dropped_mechanisms": 0,
+            "issues": [
+              "paper_quote_not_returned",
+              "paper_quote_not_returned",
+              "paper_quote_not_returned"
+            ],
+            "normalizations": []
+          },
+          {
+            "turn": 13,
+            "status": "accepted_partial",
+            "raw_mechanisms": 2,
+            "validated_mechanisms": 2,
+            "retained_mechanisms": 1,
+            "dropped_mechanisms": 0,
+            "budget_dropped_mechanisms": 1,
+            "issues": [
+              "rendered_budget_exceeded"
+            ],
+            "normalizations": []
+          }
+        ],
+        "quote_analysis": [
+          {
+            "turn": 12,
+            "kind": "markdown_emphasis_only",
+            "location": "mechanisms[0].evidence_refs[0].quote",
+            "reference": {
+              "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+              "source": "full_text",
+              "chunk_id": "p006-c007",
+              "quote": "the stochastic AUC optimization, as defined in Equation (7), requires at least one sample from each class in a mini-batch."
+            }
+          },
+          {
+            "turn": 12,
+            "kind": "text_diff_beyond_emphasis",
+            "location": "mechanisms[0].evidence_refs[2].quote",
+            "reference": {
+              "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+              "source": "full_text",
+              "chunk_id": "p010-c004",
+              "quote": "The T-Memory Bank further addresses the imbalance issue, yielding improvements of +1.75% overall and +2.24% in tail classes."
+            }
+          },
+          {
+            "turn": 12,
+            "kind": "text_diff_beyond_emphasis",
+            "location": "mechanisms[1].evidence_refs[0].quote",
+            "reference": {
+              "paper_id": "neurips-2024/96ddbf813f042e8ff891b4d6f7149bb6",
+              "source": "full_text",
+              "chunk_id": "p004-c003",
+              "quote": "The goal is to select a small batch ... to compute gradients for model training with SGD, such that the model obtains top performance for the worst-class."
+            }
+          }
+        ],
+        "tools": {
+          "candidate_code_index": 1,
+          "read_candidate_code": 9,
+          "search_papers": 20,
+          "read_abstract": 1,
+          "open_paper": 7,
+          "read_paper": 6,
+          "submit_report": 2
+        },
+        "code_ledger_count": 10,
+        "evidence_levels": [
+          "full_text"
+        ],
+        "mechanism_titles": [
+          "Tail-cell replay for cross-batch AUC coverage"
+        ]
+      }
+    ],
+    "totals": {
+      "episodes": 2,
+      "status": {
+        "accepted_partial": 2
+      },
+      "sum_tokens": {
+        "in_tokens": 854834,
+        "out_tokens": 24055,
+        "seconds": 540.3,
+        "fulltext_body_chars": 47288,
+        "fulltext_papers_opened": 4,
+        "fulltext_read_calls": 8
+      },
+      "corrections": 1,
+      "final_mechanisms": 2,
+      "evidence_levels": {
+        "abstract_only": 1,
+        "full_text": 1
+      },
+      "quote_kinds": {
+        "text_diff_beyond_emphasis": 3,
+        "markdown_emphasis_only": 2
+      },
+      "issues": {
+        "paper_quote_not_returned": 5,
+        "paper_read_evidence_missing": 1,
+        "rendered_budget_exceeded": 1
+      },
+      "last_submission_raw_mechanisms": 4,
+      "last_submission_invalid_dropped": 1,
+      "last_submission_budget_dropped": 1,
+      "code_tools": {
+        "candidate_code_index": 1,
+        "read_candidate_code": 9
+      }
+    }
+  },
+  {
+    "run": "20260914_051428_jubias-anaf-gpt56sol-s60",
+    "episodes": [
+      {
+        "parent_id": "draft",
+        "invocation": 1,
+        "stage": "draft",
+        "ok": true,
+        "turns": 9,
+        "first_submit_turn": 9,
+        "submission_count": 1,
+        "correction_succeeded": false,
+        "delivery_status": "accepted_partial",
+        "failure_kind": "",
+        "final_mechanism_count": 1,
+        "report_schema_revision": 2,
+        "in_tokens": 310199,
+        "out_tokens": 10550,
+        "seconds": 224.7,
+        "fulltext_body_chars": 27947,
+        "fulltext_papers_opened": 2,
+        "fulltext_read_calls": 6,
+        "file": "/Users/william/nautilus/results/20260914_051428_jubias-anaf-gpt56sol-s60/logs/analogy/draft_001.context.json",
+        "deadline": 12,
+        "attempts": [
+          {
+            "turn": 9,
+            "status": "accepted_partial",
+            "raw_mechanisms": 3,
+            "validated_mechanisms": 2,
+            "retained_mechanisms": 1,
+            "dropped_mechanisms": 1,
+            "budget_dropped_mechanisms": 1,
+            "issues": [
+              "paper_quote_not_returned",
+              "paper_quote_not_returned",
+              "paper_quote_not_returned",
+              "paper_read_evidence_missing",
+              "rendered_budget_exceeded"
+            ],
+            "normalizations": []
+          }
+        ],
+        "quote_analysis": [
+          {
+            "turn": 9,
+            "kind": "text_diff_beyond_emphasis",
+            "location": "mechanisms[0].evidence_refs[0].quote",
+            "reference": {
+              "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+              "source": "full_text",
+              "chunk_id": "p004-c004",
+              "quote": "AUC is a well-known ranking performance metric for binary classification task, which measures the probability that a positive instance has a higher score than a negative one"
+            }
+          },
+          {
+            "turn": 9,
+            "kind": "markdown_emphasis_only",
+            "location": "mechanisms[0].evidence_refs[1].quote",
+            "reference": {
+              "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+              "source": "full_text",
+              "chunk_id": "p006-c007",
+              "quote": "the stochastic AUC optimization, as defined in Equation (7), requires at least one sample from each class in a mini-batch"
+            }
+          },
+          {
+            "turn": 9,
+            "kind": "text_diff_beyond_emphasis",
+            "location": "mechanisms[0].evidence_refs[2].quote",
+            "reference": {
+              "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+              "source": "full_text",
+              "chunk_id": "p010-c004",
+              "quote": "AUC enhances performance by +1.01% and +1.42% in overall and tail classes."
+            }
+          }
+        ],
+        "tools": {
+          "search_papers": 22,
+          "read_abstract": 3,
+          "open_paper": 6,
+          "read_paper": 6,
+          "submit_report": 1
+        },
+        "code_ledger_count": 0,
+        "evidence_levels": [
+          "abstract_only"
+        ],
+        "mechanism_titles": [
+          "Preserve vote fractions as soft supervision"
+        ]
+      }
+    ],
+    "totals": {
+      "episodes": 1,
+      "status": {
+        "accepted_partial": 1
+      },
+      "sum_tokens": {
+        "in_tokens": 310199,
+        "out_tokens": 10550,
+        "seconds": 224.7,
+        "fulltext_body_chars": 27947,
+        "fulltext_papers_opened": 2,
+        "fulltext_read_calls": 6
+      },
+      "corrections": 0,
+      "final_mechanisms": 1,
+      "evidence_levels": {
+        "abstract_only": 1
+      },
+      "quote_kinds": {
+        "text_diff_beyond_emphasis": 2,
+        "markdown_emphasis_only": 1
+      },
+      "issues": {
+        "paper_quote_not_returned": 3,
+        "paper_read_evidence_missing": 1,
+        "rendered_budget_exceeded": 1
+      },
+      "last_submission_raw_mechanisms": 3,
+      "last_submission_invalid_dropped": 1,
+      "last_submission_budget_dropped": 1,
+      "code_tools": {}
+    }
+  },
+  {
+    "run": "20260914_070253_jubias-anaf-gpt56sol-s62",
+    "episodes": [
+      {
+        "parent_id": "draft",
+        "invocation": 1,
+        "stage": "draft",
+        "ok": true,
+        "turns": 11,
+        "first_submit_turn": 11,
+        "submission_count": 1,
+        "correction_succeeded": false,
+        "delivery_status": "accepted_partial",
+        "failure_kind": "",
+        "final_mechanism_count": 1,
+        "report_schema_revision": 2,
+        "in_tokens": 387159,
+        "out_tokens": 8969,
+        "seconds": 295.5,
+        "fulltext_body_chars": 37541,
+        "fulltext_papers_opened": 3,
+        "fulltext_read_calls": 6,
+        "file": "/Users/william/nautilus/results/20260914_070253_jubias-anaf-gpt56sol-s62/logs/analogy/draft_001.context.json",
+        "deadline": 12,
+        "attempts": [
+          {
+            "turn": 11,
+            "status": "accepted_partial",
+            "raw_mechanisms": 2,
+            "validated_mechanisms": 1,
+            "retained_mechanisms": 1,
+            "dropped_mechanisms": 1,
+            "budget_dropped_mechanisms": 0,
+            "issues": [
+              "paper_quote_not_returned",
+              "paper_quote_not_returned",
+              "paper_read_evidence_missing"
+            ],
+            "normalizations": []
+          }
+        ],
+        "quote_analysis": [
+          {
+            "turn": 11,
+            "kind": "markdown_emphasis_only",
+            "location": "mechanisms[0].evidence_refs[0].quote",
+            "reference": {
+              "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+              "source": "full_text",
+              "chunk_id": "p006-c007",
+              "quote": "Specifically, the stochastic AUC optimization, as defined in Equation (7), requires at least one sample from each class in a mini-batch."
+            }
+          },
+          {
+            "turn": 11,
+            "kind": "markdown_emphasis_only",
+            "location": "mechanisms[0].evidence_refs[2].quote",
+            "reference": {
+              "paper_id": "neurips-2024/dc4db2ff2c1aefce3b594f821ea82fe6",
+              "source": "full_text",
+              "chunk_id": "p004-c004",
+              "quote": "ERM finetuned with upsampling experiences a catastrophic collapse in test WGA over the course of training"
+            }
+          }
+        ],
+        "tools": {
+          "search_papers": 28,
+          "read_abstract": 2,
+          "open_paper": 6,
+          "read_paper": 6,
+          "submit_report": 1
+        },
+        "code_ledger_count": 0,
+        "evidence_levels": [
+          "full_text"
+        ],
+        "mechanism_titles": [
+          "Preserve vote fractions as Bernoulli soft targets"
+        ]
+      },
+      {
+        "parent_id": "23f73be291de4357a2f6c75516480d18",
+        "invocation": 2,
+        "stage": "improve",
+        "ok": true,
+        "turns": 10,
+        "first_submit_turn": 10,
+        "submission_count": 1,
+        "correction_succeeded": false,
+        "delivery_status": "accepted_partial",
+        "failure_kind": "",
+        "final_mechanism_count": 1,
+        "report_schema_revision": 2,
+        "in_tokens": 345849,
+        "out_tokens": 9325,
+        "seconds": 270.2,
+        "fulltext_body_chars": 11755,
+        "fulltext_papers_opened": 1,
+        "fulltext_read_calls": 2,
+        "file": "/Users/william/nautilus/results/20260914_070253_jubias-anaf-gpt56sol-s62/logs/analogy/23f73be291de4357a2f6c75516480d18_002.context.json",
+        "deadline": 12,
+        "attempts": [
+          {
+            "turn": 10,
+            "status": "accepted_partial",
+            "raw_mechanisms": 2,
+            "validated_mechanisms": 1,
+            "retained_mechanisms": 1,
+            "dropped_mechanisms": 1,
+            "budget_dropped_mechanisms": 0,
+            "issues": [
+              "paper_quote_not_returned",
+              "paper_quote_not_returned"
+            ],
+            "normalizations": []
+          }
+        ],
+        "quote_analysis": [
+          {
+            "turn": 10,
+            "kind": "text_diff_beyond_emphasis",
+            "location": "mechanisms[0].evidence_refs[0].quote",
+            "reference": {
+              "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+              "source": "full_text",
+              "chunk_id": "p004-c004",
+              "quote": "AUC is a well-known ranking performance metric for binary classification task, which measures the probability that a positive instance has a higher score than a negative one"
+            }
+          },
+          {
+            "turn": 10,
+            "kind": "text_diff_beyond_emphasis",
+            "location": "mechanisms[0].evidence_refs[1].quote",
+            "reference": {
+              "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+              "source": "full_text",
+              "chunk_id": "p006-c007",
+              "quote": "the stochastic AUC optimization... requires at least one sample from each class in a mini-batch"
+            }
+          }
+        ],
+        "tools": {
+          "candidate_code_index": 1,
+          "read_candidate_code": 7,
+          "search_papers": 13,
+          "read_abstract": 3,
+          "open_paper": 4,
+          "read_paper": 2,
+          "submit_report": 1
+        },
+        "code_ledger_count": 8,
+        "evidence_levels": [
+          "abstract_only"
+        ],
+        "mechanism_titles": [
+          "Component-tail CVaR aggregation"
+        ]
+      },
+      {
+        "parent_id": "0095452fe4b24761a23335cd205b9e2b",
+        "invocation": 3,
+        "stage": "improve",
+        "ok": true,
+        "turns": 11,
+        "first_submit_turn": 11,
+        "submission_count": 1,
+        "correction_succeeded": false,
+        "delivery_status": "accepted_partial",
+        "failure_kind": "",
+        "final_mechanism_count": 1,
+        "report_schema_revision": 2,
+        "in_tokens": 483087,
+        "out_tokens": 11990,
+        "seconds": 422.5,
+        "fulltext_body_chars": 34764,
+        "fulltext_papers_opened": 3,
+        "fulltext_read_calls": 6,
+        "file": "/Users/william/nautilus/results/20260914_070253_jubias-anaf-gpt56sol-s62/logs/analogy/0095452fe4b24761a23335cd205b9e2b_003.context.json",
+        "deadline": 12,
+        "attempts": [
+          {
+            "turn": 11,
+            "status": "accepted_partial",
+            "raw_mechanisms": 2,
+            "validated_mechanisms": 1,
+            "retained_mechanisms": 1,
+            "dropped_mechanisms": 1,
+            "budget_dropped_mechanisms": 0,
+            "issues": [
+              "paper_quote_not_returned",
+              "paper_quote_not_returned"
+            ],
+            "normalizations": []
+          }
+        ],
+        "quote_analysis": [
+          {
+            "turn": 11,
+            "kind": "markdown_emphasis_only",
+            "location": "mechanisms[1].evidence_refs[0].quote",
+            "reference": {
+              "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+              "source": "full_text",
+              "chunk_id": "p006-c007",
+              "quote": "the stochastic AUC optimization, as defined in Equation (7), requires at least one sample from each class in a mini-batch."
+            }
+          },
+          {
+            "turn": 11,
+            "kind": "markdown_emphasis_only",
+            "location": "mechanisms[1].evidence_refs[2].quote",
+            "reference": {
+              "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+              "source": "full_text",
+              "chunk_id": "p007-c005",
+              "quote": "Memory Branch stores a set with SM (the Memory Size) images for each tail class."
+            }
+          }
+        ],
+        "tools": {
+          "candidate_code_index": 1,
+          "read_candidate_code": 9,
+          "search_papers": 16,
+          "read_abstract": 1,
+          "open_paper": 6,
+          "read_paper": 6,
+          "submit_report": 1
+        },
+        "code_ledger_count": 10,
+        "evidence_levels": [
+          "full_text"
+        ],
+        "mechanism_titles": [
+          "Tailored, role-stratified proxy evaluation with exact final verification"
+        ]
+      },
+      {
+        "parent_id": "e78e5836c55b426381d8673b9eea1d2b",
+        "invocation": 4,
+        "stage": "improve",
+        "ok": true,
+        "turns": 13,
+        "first_submit_turn": 12,
+        "submission_count": 2,
+        "correction_succeeded": true,
+        "delivery_status": "accepted_partial",
+        "failure_kind": "",
+        "final_mechanism_count": 1,
+        "report_schema_revision": 2,
+        "in_tokens": 587683,
+        "out_tokens": 14011,
+        "seconds": 437.6,
+        "fulltext_body_chars": 14641,
+        "fulltext_papers_opened": 2,
+        "fulltext_read_calls": 2,
+        "file": "/Users/william/nautilus/results/20260914_070253_jubias-anaf-gpt56sol-s62/logs/analogy/e78e5836c55b426381d8673b9eea1d2b_004.context.json",
+        "deadline": 12,
+        "attempts": [
+          {
+            "turn": 12,
+            "status": "rejected",
+            "raw_mechanisms": 2,
+            "validated_mechanisms": 0,
+            "retained_mechanisms": 0,
+            "dropped_mechanisms": 2,
+            "budget_dropped_mechanisms": 0,
+            "issues": [
+              "paper_quote_not_returned",
+              "paper_quote_not_returned",
+              "paper_quote_not_returned",
+              "paper_read_evidence_missing"
+            ],
+            "normalizations": []
+          },
+          {
+            "turn": 13,
+            "status": "accepted_partial",
+            "raw_mechanisms": 2,
+            "validated_mechanisms": 1,
+            "retained_mechanisms": 1,
+            "dropped_mechanisms": 1,
+            "budget_dropped_mechanisms": 0,
+            "issues": [
+              "paper_quote_not_returned"
+            ],
+            "normalizations": []
+          }
+        ],
+        "quote_analysis": [
+          {
+            "turn": 12,
+            "kind": "markdown_emphasis_only",
+            "location": "mechanisms[0].evidence_refs[0].quote",
+            "reference": {
+              "paper_id": "neurips-2024/4147dfaa46cd7e20a2aecb91097ae8cc",
+              "source": "full_text",
+              "chunk_id": "p006-c003",
+              "quote": "the weights α are determined by the cumulative losses l ( πθ ; · ) accrued by each group, ensuring that groups with higher cumulative losses get higher weights."
+            }
+          },
+          {
+            "turn": 12,
+            "kind": "text_diff_beyond_emphasis",
+            "location": "mechanisms[1].evidence_refs[0].quote",
+            "reference": {
+              "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+              "source": "full_text",
+              "chunk_id": "p006-c007",
+              "quote": "the stochastic AUC optimization... requires at least one sample from each class in a mini-batch."
+            }
+          },
+          {
+            "turn": 12,
+            "kind": "text_diff_beyond_emphasis",
+            "location": "mechanisms[1].evidence_refs[1].quote",
+            "reference": {
+              "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+              "source": "full_text",
+              "chunk_id": "p007-c005",
+              "quote": "Memory Branch stores a set with SM (the Memory Size) images for each tail class... Retrieve Branch selects pixels from the Memory Branch to supplement the missing tail classes"
+            }
+          },
+          {
+            "turn": 13,
+            "kind": "markdown_emphasis_only",
+            "location": "mechanisms[1].evidence_refs[1].quote",
+            "reference": {
+              "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+              "source": "full_text",
+              "chunk_id": "p007-c005",
+              "quote": "**Retrieve Branch** selects pixels from the Memory Branch to\nsupplement the missing tail classes"
+            }
+          }
+        ],
+        "tools": {
+          "candidate_code_index": 1,
+          "read_candidate_code": 7,
+          "diff_candidate_code": 1,
+          "search_papers": 18,
+          "read_abstract": 1,
+          "open_paper": 5,
+          "read_paper": 2,
+          "submit_report": 2
+        },
+        "code_ledger_count": 9,
+        "evidence_levels": [
+          "full_text"
+        ],
+        "mechanism_titles": [
+          "Sequential multiplicative weighting of weak identity-ranking components"
+        ]
+      },
+      {
+        "parent_id": "ff76237c93e84d6f843ad7a6d75cec5d",
+        "invocation": 5,
+        "stage": "improve",
+        "ok": true,
+        "turns": 12,
+        "first_submit_turn": 12,
+        "submission_count": 1,
+        "correction_succeeded": false,
+        "delivery_status": "accepted_partial",
+        "failure_kind": "",
+        "final_mechanism_count": 1,
+        "report_schema_revision": 2,
+        "in_tokens": 588053,
+        "out_tokens": 10843,
+        "seconds": 375.5,
+        "fulltext_body_chars": 22754,
+        "fulltext_papers_opened": 3,
+        "fulltext_read_calls": 3,
+        "file": "/Users/william/nautilus/results/20260914_070253_jubias-anaf-gpt56sol-s62/logs/analogy/ff76237c93e84d6f843ad7a6d75cec5d_005.context.json",
+        "deadline": 12,
+        "attempts": [
+          {
+            "turn": 12,
+            "status": "accepted_partial",
+            "raw_mechanisms": 2,
+            "validated_mechanisms": 2,
+            "retained_mechanisms": 1,
+            "dropped_mechanisms": 0,
+            "budget_dropped_mechanisms": 1,
+            "issues": [
+              "rendered_budget_exceeded"
+            ],
+            "normalizations": []
+          }
+        ],
+        "quote_analysis": [],
+        "tools": {
+          "candidate_code_index": 1,
+          "read_candidate_code": 9,
+          "search_papers": 24,
+          "read_abstract": 2,
+          "open_paper": 5,
+          "read_paper": 3,
+          "submit_report": 1
+        },
+        "code_ledger_count": 10,
+        "evidence_levels": [
+          "mixed"
+        ],
+        "mechanism_titles": [
+          "Partitioned cross-batch memory for the AUC surrogate"
+        ]
+      },
+      {
+        "parent_id": "ff36137ccbc24a639318142f7a4f49ac",
+        "invocation": 6,
+        "stage": "improve",
+        "ok": true,
+        "turns": 14,
+        "first_submit_turn": 12,
+        "submission_count": 2,
+        "correction_succeeded": true,
+        "delivery_status": "accepted_partial",
+        "failure_kind": "",
+        "final_mechanism_count": 2,
+        "report_schema_revision": 2,
+        "in_tokens": 722889,
+        "out_tokens": 14332,
+        "seconds": 324.2,
+        "fulltext_body_chars": 15049,
+        "fulltext_papers_opened": 2,
+        "fulltext_read_calls": 2,
+        "file": "/Users/william/nautilus/results/20260914_070253_jubias-anaf-gpt56sol-s62/logs/analogy/ff36137ccbc24a639318142f7a4f49ac_006.context.json",
+        "deadline": 12,
+        "attempts": [
+          {
+            "turn": 12,
+            "status": "rejected",
+            "raw_mechanisms": 3,
+            "validated_mechanisms": 0,
+            "retained_mechanisms": 0,
+            "dropped_mechanisms": 3,
+            "budget_dropped_mechanisms": 0,
+            "issues": [
+              "paper_quote_not_returned",
+              "paper_quote_not_returned",
+              "paper_read_evidence_missing",
+              "paper_quote_not_returned",
+              "paper_read_evidence_missing",
+              "paper_quote_not_returned",
+              "paper_quote_not_returned",
+              "paper_read_evidence_missing"
+            ],
+            "normalizations": []
+          },
+          {
+            "turn": 14,
+            "status": "accepted_partial",
+            "raw_mechanisms": 3,
+            "validated_mechanisms": 3,
+            "retained_mechanisms": 2,
+            "dropped_mechanisms": 0,
+            "budget_dropped_mechanisms": 1,
+            "issues": [
+              "rendered_budget_exceeded"
+            ],
+            "normalizations": []
+          }
+        ],
+        "quote_analysis": [
+          {
+            "turn": 12,
+            "kind": "text_diff_beyond_emphasis",
+            "location": "mechanisms[0].evidence_refs[0].quote",
+            "reference": {
+              "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+              "source": "full_text",
+              "chunk_id": "p006-c007",
+              "quote": "the stochastic AUC optimization... requires at least one sample from each class in a mini-batch"
+            }
+          },
+          {
+            "turn": 12,
+            "kind": "text_diff_beyond_emphasis",
+            "location": "mechanisms[0].evidence_refs[1].quote",
+            "reference": {
+              "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+              "source": "full_text",
+              "chunk_id": "p007-c005",
+              "quote": "Memory Branch stores a set... for each tail class... Retrieve Branch selects... missing tail classes and... Store Branch updates"
+            }
+          },
+          {
+            "turn": 12,
+            "kind": "abstract_mismatch",
+            "location": "mechanisms[1].evidence_refs[0].quote",
+            "reference": {
+              "paper_id": "aaai-2024/2f5d66a013e81bebd3ed12753919fabaf7b30901",
+              "source": "abstract",
+              "quote": "DBM loss comprises two components: a class-wise margin... and an instance-wise margin assigned to hard positive samples based on their individual difficulty."
+            }
+          },
+          {
+            "turn": 12,
+            "kind": "text_diff_beyond_emphasis",
+            "location": "mechanisms[2].evidence_refs[0].quote",
+            "reference": {
+              "paper_id": "iccv-2023/jingorder-preservingconsistencyregularizationfordomainadaptationandgeneralizationiccv2023paper",
+              "source": "full_text",
+              "chunk_id": "p001-c004",
+              "quote": "Consistency regularization enforces the model to output the same representation or prediction... These constraints, however, are either too strict or not order-preserving"
+            }
+          },
+          {
+            "turn": 12,
+            "kind": "text_diff_beyond_emphasis",
+            "location": "mechanisms[2].evidence_refs[1].quote",
+            "reference": {
+              "paper_id": "iccv-2023/jingorder-preservingconsistencyregularizationfordomainadaptationandgeneralizationiccv2023paper",
+              "source": "full_text",
+              "chunk_id": "p002-c002",
+              "quote": "we allow the model to output different representations for two views... as long as the residual component contains as little task-related information as possible"
+            }
+          }
+        ],
+        "tools": {
+          "candidate_code_index": 1,
+          "read_candidate_code": 9,
+          "search_papers": 24,
+          "read_abstract": 3,
+          "open_paper": 5,
+          "read_paper": 2,
+          "submit_report": 2
+        },
+        "code_ledger_count": 10,
+        "evidence_levels": [
+          "abstract_only",
+          "abstract_only"
+        ],
+        "mechanism_titles": [
+          "Cross-batch stratum memory for AUC comparisons",
+          "Difficulty-aware margins instead of frequency-only balancing"
+        ]
+      },
+      {
+        "parent_id": "ff36137ccbc24a639318142f7a4f49ac",
+        "invocation": 7,
+        "stage": "improve",
+        "ok": true,
+        "turns": 12,
+        "first_submit_turn": 12,
+        "submission_count": 1,
+        "correction_succeeded": false,
+        "delivery_status": "accepted_partial",
+        "failure_kind": "",
+        "final_mechanism_count": 1,
+        "report_schema_revision": 2,
+        "in_tokens": 502180,
+        "out_tokens": 10381,
+        "seconds": 243.6,
+        "fulltext_body_chars": 7700,
+        "fulltext_papers_opened": 1,
+        "fulltext_read_calls": 1,
+        "file": "/Users/william/nautilus/results/20260914_070253_jubias-anaf-gpt56sol-s62/logs/analogy/ff36137ccbc24a639318142f7a4f49ac_007.context.json",
+        "deadline": 12,
+        "attempts": [
+          {
+            "turn": 12,
+            "status": "accepted_partial",
+            "raw_mechanisms": 3,
+            "validated_mechanisms": 2,
+            "retained_mechanisms": 1,
+            "dropped_mechanisms": 1,
+            "budget_dropped_mechanisms": 1,
+            "issues": [
+              "paper_quote_not_returned",
+              "paper_quote_not_returned",
+              "paper_quote_not_returned",
+              "paper_read_evidence_missing",
+              "rendered_budget_exceeded"
+            ],
+            "normalizations": []
+          }
+        ],
+        "quote_analysis": [
+          {
+            "turn": 12,
+            "kind": "markdown_emphasis_only",
+            "location": "mechanisms[0].evidence_refs[0].quote",
+            "reference": {
+              "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+              "source": "full_text",
+              "chunk_id": "p006-c007",
+              "quote": "the stochastic AUC optimization, as defined in Equation (7), requires at least one sample from each class in a mini-batch."
+            }
+          },
+          {
+            "turn": 12,
+            "kind": "markdown_emphasis_only",
+            "location": "mechanisms[0].evidence_refs[1].quote",
+            "reference": {
+              "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+              "source": "full_text",
+              "chunk_id": "p007-c005",
+              "quote": "Memory Branch stores a set with SM (the Memory Size) images for each tail class."
+            }
+          },
+          {
+            "turn": 12,
+            "kind": "text_diff_beyond_emphasis",
+            "location": "mechanisms[0].evidence_refs[2].quote",
+            "reference": {
+              "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+              "source": "full_text",
+              "chunk_id": "p010-c004",
+              "quote": "The T-Memory Bank further addresses the imbalance issue, yielding improvements of +1.75% overall and +2.24% in tail classes."
+            }
+          }
+        ],
+        "tools": {
+          "candidate_code_index": 1,
+          "read_candidate_code": 9,
+          "search_papers": 18,
+          "read_abstract": 1,
+          "open_paper": 5,
+          "read_paper": 1,
+          "submit_report": 1
+        },
+        "code_ledger_count": 10,
+        "evidence_levels": [
+          "abstract_only"
+        ],
+        "mechanism_titles": [
+          "Influence-guided group-robust last-layer reweighting"
+        ]
+      },
+      {
+        "parent_id": "425aff0f4a374a04bdddeccc94775631",
+        "invocation": 8,
+        "stage": "improve",
+        "ok": true,
+        "turns": 11,
+        "first_submit_turn": 11,
+        "submission_count": 1,
+        "correction_succeeded": false,
+        "delivery_status": "accepted_partial",
+        "failure_kind": "",
+        "final_mechanism_count": 1,
+        "report_schema_revision": 2,
+        "in_tokens": 466371,
+        "out_tokens": 11946,
+        "seconds": 260.5,
+        "fulltext_body_chars": 10912,
+        "fulltext_papers_opened": 1,
+        "fulltext_read_calls": 2,
+        "file": "/Users/william/nautilus/results/20260914_070253_jubias-anaf-gpt56sol-s62/logs/analogy/425aff0f4a374a04bdddeccc94775631_008.context.json",
+        "deadline": 12,
+        "attempts": [
+          {
+            "turn": 11,
+            "status": "accepted_partial",
+            "raw_mechanisms": 2,
+            "validated_mechanisms": 1,
+            "retained_mechanisms": 1,
+            "dropped_mechanisms": 1,
+            "budget_dropped_mechanisms": 0,
+            "issues": [
+              "paper_quote_not_returned"
+            ],
+            "normalizations": []
+          }
+        ],
+        "quote_analysis": [
+          {
+            "turn": 11,
+            "kind": "text_diff_beyond_emphasis",
+            "location": "mechanisms[0].evidence_refs[0].quote",
+            "reference": {
+              "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+              "source": "full_text",
+              "chunk_id": "p008-c012",
+              "quote": "the T-Memory Bank specifically stores the original pixels for each object."
+            }
+          }
+        ],
+        "tools": {
+          "candidate_code_index": 1,
+          "read_candidate_code": 8,
+          "diff_candidate_code": 1,
+          "search_papers": 13,
+          "read_abstract": 2,
+          "open_paper": 5,
+          "read_paper": 2,
+          "submit_report": 1
+        },
+        "code_ledger_count": 10,
+        "evidence_levels": [
+          "abstract_only"
+        ],
+        "mechanism_titles": [
+          "Influence-guided last-layer reweighting for the worst component tail"
+        ]
+      }
+    ],
+    "totals": {
+      "episodes": 8,
+      "status": {
+        "accepted_partial": 8
+      },
+      "sum_tokens": {
+        "in_tokens": 4083271,
+        "out_tokens": 91797,
+        "seconds": 2629.6,
+        "fulltext_body_chars": 155116,
+        "fulltext_papers_opened": 16,
+        "fulltext_read_calls": 24
+      },
+      "corrections": 2,
+      "final_mechanisms": 9,
+      "evidence_levels": {
+        "full_text": 3,
+        "abstract_only": 5,
+        "mixed": 1
+      },
+      "quote_kinds": {
+        "markdown_emphasis_only": 8,
+        "text_diff_beyond_emphasis": 10,
+        "abstract_mismatch": 1
+      },
+      "issues": {
+        "paper_quote_not_returned": 19,
+        "paper_read_evidence_missing": 6,
+        "rendered_budget_exceeded": 3
+      },
+      "last_submission_raw_mechanisms": 18,
+      "last_submission_invalid_dropped": 6,
+      "last_submission_budget_dropped": 3,
+      "code_tools": {
+        "candidate_code_index": 7,
+        "read_candidate_code": 58,
+        "diff_candidate_code": 2
+      }
+    }
+  },
+  {
+    "run": "20260914_070847_jubias-anaf-gpt56sol-s61",
+    "episodes": [
+      {
+        "parent_id": "draft",
+        "invocation": 1,
+        "stage": "draft",
+        "ok": true,
+        "turns": 13,
+        "first_submit_turn": 12,
+        "submission_count": 2,
+        "correction_succeeded": true,
+        "delivery_status": "accepted_complete",
+        "failure_kind": "",
+        "final_mechanism_count": 2,
+        "report_schema_revision": 2,
+        "in_tokens": 541017,
+        "out_tokens": 13110,
+        "seconds": 589.8,
+        "fulltext_body_chars": 32387,
+        "fulltext_papers_opened": 3,
+        "fulltext_read_calls": 5,
+        "file": "/Users/william/nautilus/results/20260914_070847_jubias-anaf-gpt56sol-s61/logs/analogy/draft_001.context.json",
+        "deadline": 12,
+        "attempts": [
+          {
+            "turn": 12,
+            "status": "rejected",
+            "raw_mechanisms": 2,
+            "validated_mechanisms": 0,
+            "retained_mechanisms": 0,
+            "dropped_mechanisms": 2,
+            "budget_dropped_mechanisms": 0,
+            "issues": [
+              "paper_quote_not_returned",
+              "paper_quote_not_returned",
+              "paper_quote_not_returned",
+              "paper_read_evidence_missing",
+              "paper_quote_not_returned",
+              "paper_quote_not_returned"
+            ],
+            "normalizations": []
+          },
+          {
+            "turn": 13,
+            "status": "accepted_complete",
+            "raw_mechanisms": 2,
+            "validated_mechanisms": 2,
+            "retained_mechanisms": 2,
+            "dropped_mechanisms": 0,
+            "budget_dropped_mechanisms": 0,
+            "issues": [],
+            "normalizations": []
+          }
+        ],
+        "quote_analysis": [
+          {
+            "turn": 12,
+            "kind": "text_diff_beyond_emphasis",
+            "location": "mechanisms[0].evidence_refs[0].quote",
+            "reference": {
+              "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+              "source": "full_text",
+              "chunk_id": "p004-c004",
+              "quote": "AUC is a well-known ranking performance metric for binary classification task, which measures the probability that a positive instance has a higher score than a negative one"
+            }
+          },
+          {
+            "turn": 12,
+            "kind": "text_diff_beyond_emphasis",
+            "location": "mechanisms[0].evidence_refs[1].quote",
+            "reference": {
+              "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+              "source": "full_text",
+              "chunk_id": "p006-c007",
+              "quote": "the stochastic AUC optimization... requires at least one sample from each class in a mini-batch"
+            }
+          },
+          {
+            "turn": 12,
+            "kind": "text_diff_beyond_emphasis",
+            "location": "mechanisms[0].evidence_refs[2].quote",
+            "reference": {
+              "paper_id": "neurips-2024/e574db41163e700545ff4114f96b3d7a",
+              "source": "full_text",
+              "chunk_id": "p010-c004",
+              "quote": "Compared to the baseline SegNeXt, AUC enhances performance by +1.01% and +1.42% in overall and tail classes."
+            }
+          },
+          {
+            "turn": 12,
+            "kind": "text_diff_beyond_emphasis",
+            "location": "mechanisms[1].evidence_refs[1].quote",
+            "reference": {
+              "paper_id": "aaai-2025/150b28ab6b1d5a47f8126f1073afdf668e5bb9f6",
+              "source": "full_text",
+              "chunk_id": "p007-c004",
+              "quote": "when the attribute s presents, the proposed DBCM... achieves the highest average accuracy among all the considered datasets"
+            }
+          },
+          {
+            "turn": 12,
+            "kind": "markdown_emphasis_only",
+            "location": "mechanisms[1].evidence_refs[2].quote",
+            "reference": {
+              "paper_id": "neurips-2024/ac4c13a5c6ec1bba68c9ce1d908321d2",
+              "source": "full_text",
+              "chunk_id": "p005-c009",
+              "quote": "the soft label is a weighted aggregation over M one-hot vectors of annotations"
+            }
+          }
+        ],
+        "tools": {
+          "search_papers": 32,
+          "read_abstract": 1,
+          "open_paper": 8,
+          "read_paper": 5,
+          "submit_report": 2
+        },
+        "code_ledger_count": 0,
+        "evidence_levels": [
+          "abstract_only",
+          "mixed"
+        ],
+        "mechanism_titles": [
+          "Identity-conditioned pairwise AUC auxiliary",
+          "Clipped importance weighting of bias-conflicting cells"
+        ]
+      },
+      {
+        "parent_id": "634a0b90d6924eb08536bda8a43fc174",
+        "invocation": 2,
+        "stage": "improve",
+        "ok": true,
+        "turns": 11,
+        "first_submit_turn": 11,
+        "submission_count": 1,
+        "correction_succeeded": false,
+        "delivery_status": "accepted_partial",
+        "failure_kind": "",
+        "final_mechanism_count": 1,
+        "report_schema_revision": 2,
+        "in_tokens": 444774,
+        "out_tokens": 13805,
+        "seconds": 440.2,
+        "fulltext_body_chars": 7524,
+        "fulltext_papers_opened": 1,
+        "fulltext_read_calls": 1,
+        "file": "/Users/william/nautilus/results/20260914_070847_jubias-anaf-gpt56sol-s61/logs/analogy/634a0b90d6924eb08536bda8a43fc174_002.context.json",
+        "deadline": 12,
+        "attempts": [
+          {
+            "turn": 11,
+            "status": "accepted_partial",
+            "raw_mechanisms": 2,
+            "validated_mechanisms": 1,
+            "retained_mechanisms": 1,
+            "dropped_mechanisms": 1,
+            "budget_dropped_mechanisms": 0,
+            "issues": [
+              "paper_quote_not_returned"
+            ],
+            "normalizations": []
+          }
+        ],
+        "quote_analysis": [
+          {
+            "turn": 11,
+            "kind": "text_diff_beyond_emphasis",
+            "location": "mechanisms[1].evidence_refs[0].quote",
+            "reference": {
+              "paper_id": "iccv-2023/hanneglectedfreelunch-learningimageclassifiersusingannotationbyproductsiccv2023paper",
+              "source": "full_text",
+              "chunk_id": "p006-c002",
+              "quote": "We propose a simple baseline based on a multi-task objective for the classification of Y and the regression of Z."
+            }
+          }
+        ],
+        "tools": {
+          "candidate_code_index": 1,
+          "read_candidate_code": 9,
+          "search_papers": 19,
+          "read_abstract": 1,
+          "open_paper": 5,
+          "read_paper": 1,
+          "submit_report": 1
+        },
+        "code_ledger_count": 10,
+        "evidence_levels": [
+          "abstract_only"
+        ],
+        "mechanism_titles": [
+          "Cell-aware AUC memory-bank training"
+        ]
+      },
+      {
+        "parent_id": "ab8aff27d71840e9a08d2e2ff4846fb9",
+        "invocation": 3,
+        "stage": "improve",
+        "ok": true,
+        "turns": 10,
+        "first_submit_turn": 10,
+        "submission_count": 1,
+        "correction_succeeded": false,
+        "delivery_status": "accepted_partial",
+        "failure_kind": "",
+        "final_mechanism_count": 1,
+        "report_schema_revision": 2,
+        "in_tokens": 422669,
+        "out_tokens": 10059,
+        "seconds": 328.3,
+        "fulltext_body_chars": 28644,
+        "fulltext_papers_opened": 2,
+        "fulltext_read_calls": 5,
+        "file": "/Users/william/nautilus/results/20260914_070847_jubias-anaf-gpt56sol-s61/logs/analogy/ab8aff27d71840e9a08d2e2ff4846fb9_003.context.json",
+        "deadline": 12,
+        "attempts": [
+          {
+            "turn": 10,
+            "status": "accepted_partial",
+            "raw_mechanisms": 2,
+            "validated_mechanisms": 2,
+            "retained_mechanisms": 1,
+            "dropped_mechanisms": 0,
+            "budget_dropped_mechanisms": 1,
+            "issues": [
+              "rendered_budget_exceeded"
+            ],
+            "normalizations": []
+          }
+        ],
+        "quote_analysis": [],
+        "tools": {
+          "candidate_code_index": 1,
+          "read_candidate_code": 9,
+          "search_papers": 15,
+          "read_abstract": 3,
+          "open_paper": 6,
+          "read_paper": 5,
+          "submit_report": 1
+        },
+        "code_ledger_count": 10,
+        "evidence_levels": [
+          "abstract_only"
+        ],
+        "mechanism_titles": [
+          "Replace the parallel masked-text backbone with a lightweight auxiliary-view prompt"
+        ]
+      },
+      {
+        "parent_id": "62b4b50bec1d41dc80f9cc9b28bc0653",
+        "invocation": 4,
+        "stage": "improve",
+        "ok": true,
+        "turns": 12,
+        "first_submit_turn": 11,
+        "submission_count": 2,
+        "correction_succeeded": true,
+        "delivery_status": "accepted_partial",
+        "failure_kind": "",
+        "final_mechanism_count": 1,
+        "report_schema_revision": 2,
+        "in_tokens": 573294,
+        "out_tokens": 15607,
+        "seconds": 422.7,
+        "fulltext_body_chars": 26782,
+        "fulltext_papers_opened": 2,
+        "fulltext_read_calls": 4,
+        "file": "/Users/william/nautilus/results/20260914_070847_jubias-anaf-gpt56sol-s61/logs/analogy/62b4b50bec1d41dc80f9cc9b28bc0653_004.context.json",
+        "deadline": 12,
+        "attempts": [
+          {
+            "turn": 11,
+            "status": "rejected",
+            "raw_mechanisms": 2,
+            "validated_mechanisms": 0,
+            "retained_mechanisms": 0,
+            "dropped_mechanisms": 0,
+            "budget_dropped_mechanisms": 0,
+            "issues": [
+              "invalid_arguments"
+            ],
+            "normalizations": []
+          },
+          {
+            "turn": 12,
+            "status": "accepted_partial",
+            "raw_mechanisms": 2,
+            "validated_mechanisms": 2,
+            "retained_mechanisms": 1,
+            "dropped_mechanisms": 0,
+            "budget_dropped_mechanisms": 1,
+            "issues": [
+              "rendered_budget_exceeded"
+            ],
+            "normalizations": []
+          }
+        ],
+        "quote_analysis": [],
+        "tools": {
+          "candidate_code_index": 1,
+          "diff_candidate_code": 1,
+          "read_candidate_code": 8,
+          "search_papers": 8,
+          "read_abstract": 1,
+          "open_paper": 5,
+          "read_paper": 4,
+          "submit_report": 1
+        },
+        "code_ledger_count": 10,
+        "evidence_levels": [
+          "full_text"
+        ],
+        "mechanism_titles": [
+          "Dual-role contrastive accumulation across every microbatch"
+        ]
+      },
+      {
+        "parent_id": "2d09a649b32c4d55b786a42e0c3900a6",
+        "invocation": 5,
+        "stage": "improve",
+        "ok": true,
+        "turns": 14,
+        "first_submit_turn": 12,
+        "submission_count": 2,
+        "correction_succeeded": true,
+        "delivery_status": "accepted_partial",
+        "failure_kind": "",
+        "final_mechanism_count": 1,
+        "report_schema_revision": 2,
+        "in_tokens": 739602,
+        "out_tokens": 14700,
+        "seconds": 326.0,
+        "fulltext_body_chars": 15498,
+        "fulltext_papers_opened": 1,
+        "fulltext_read_calls": 3,
+        "file": "/Users/william/nautilus/results/20260914_070847_jubias-anaf-gpt56sol-s61/logs/analogy/2d09a649b32c4d55b786a42e0c3900a6_005.context.json",
+        "deadline": 12,
+        "attempts": [
+          {
+            "turn": 12,
+            "status": "rejected",
+            "raw_mechanisms": 2,
+            "validated_mechanisms": 0,
+            "retained_mechanisms": 0,
+            "dropped_mechanisms": 2,
+            "budget_dropped_mechanisms": 0,
+            "issues": [
+              "paper_quote_not_returned",
+              "paper_quote_not_returned",
+              "paper_read_evidence_missing",
+              "paper_quote_not_returned"
+            ],
+            "normalizations": []
+          },
+          {
+            "turn": 14,
+            "status": "accepted_partial",
+            "raw_mechanisms": 2,
+            "validated_mechanisms": 2,
+            "retained_mechanisms": 1,
+            "dropped_mechanisms": 0,
+            "budget_dropped_mechanisms": 1,
+            "issues": [
+              "rendered_budget_exceeded"
+            ],
+            "normalizations": []
+          }
+        ],
+        "quote_analysis": [
+          {
+            "turn": 12,
+            "kind": "text_diff_beyond_emphasis",
+            "location": "mechanisms[0].evidence_refs[0].quote",
+            "reference": {
+              "paper_id": "neurips-2024/4147dfaa46cd7e20a2aecb91097ae8cc",
+              "source": "full_text",
+              "chunk_id": "p006-c003",
+              "quote": "the weights α are determined by the cumulative losses accrued by each group, ensuring that groups with higher cumulative losses get higher weights"
+            }
+          },
+          {
+            "turn": 12,
+            "kind": "markdown_emphasis_only",
+            "location": "mechanisms[0].evidence_refs[1].quote",
+            "reference": {
+              "paper_id": "neurips-2024/4147dfaa46cd7e20a2aecb91097ae8cc",
+              "source": "full_text",
+              "chunk_id": "p006-c004",
+              "quote": "the scaling factor Ng guarantees that groups with a smaller volume of data do not face a disadvantage"
+            }
+          },
+          {
+            "turn": 12,
+            "kind": "abstract_mismatch",
+            "location": "mechanisms[1].evidence_refs[2].quote",
+            "reference": {
+              "paper_id": "neurips-2025/85a47d32fbf29bb8d42cdd980b719959",
+              "source": "abstract",
+              "quote": "separation—also known as equalized odds (Ŷ ⟂ S | Y)"
+            }
+          }
+        ],
+        "tools": {
+          "candidate_code_index": 2,
+          "read_candidate_code": 8,
+          "search_papers": 16,
+          "read_abstract": 3,
+          "open_paper": 4,
+          "read_paper": 3,
+          "submit_report": 2
+        },
+        "code_ledger_count": 10,
+        "evidence_levels": [
+          "mixed"
+        ],
+        "mechanism_titles": [
+          "Dual-weighted per-component pairwise optimization"
+        ]
+      },
+      {
+        "parent_id": "0a060fbe2cb3481b929422d70e302fc9",
+        "invocation": 6,
+        "stage": "improve",
+        "ok": true,
+        "turns": 12,
+        "first_submit_turn": 12,
+        "submission_count": 1,
+        "correction_succeeded": false,
+        "delivery_status": "accepted_partial",
+        "failure_kind": "",
+        "final_mechanism_count": 1,
+        "report_schema_revision": 2,
+        "in_tokens": 567433,
+        "out_tokens": 9337,
+        "seconds": 272.2,
+        "fulltext_body_chars": 18752,
+        "fulltext_papers_opened": 3,
+        "fulltext_read_calls": 3,
+        "file": "/Users/william/nautilus/results/20260914_070847_jubias-anaf-gpt56sol-s61/logs/analogy/0a060fbe2cb3481b929422d70e302fc9_006.context.json",
+        "deadline": 12,
+        "attempts": [
+          {
+            "turn": 12,
+            "status": "accepted_partial",
+            "raw_mechanisms": 2,
+            "validated_mechanisms": 1,
+            "retained_mechanisms": 1,
+            "dropped_mechanisms": 1,
+            "budget_dropped_mechanisms": 0,
+            "issues": [
+              "code_anchor_unread",
+              "paper_quote_not_returned"
+            ],
+            "normalizations": []
+          }
+        ],
+        "quote_analysis": [
+          {
+            "turn": 12,
+            "kind": "text_diff_beyond_emphasis",
+            "location": "mechanisms[1].evidence_refs[1].quote",
+            "reference": {
+              "paper_id": "icml-2024/kim24l",
+              "source": "full_text",
+              "chunk_id": "p004-c005",
+              "quote": "our algorithm encourages a model to achieve the minimax Pareto solution among Pareto-stationary solutions, which minimizes the maximum group loss by emphasizing groups with lower accuracy"
+            }
+          }
+        ],
+        "tools": {
+          "candidate_code_index": 1,
+          "read_candidate_code": 7,
+          "diff_candidate_code": 1,
+          "search_papers": 22,
+          "read_abstract": 1,
+          "open_paper": 6,
+          "read_paper": 3,
+          "submit_report": 1
+        },
+        "code_ledger_count": 9,
+        "evidence_levels": [
+          "full_text"
+        ],
+        "mechanism_titles": [
+          "Gradient-deficit accumulation-window sampling"
+        ]
+      }
+    ],
+    "totals": {
+      "episodes": 6,
+      "status": {
+        "accepted_complete": 1,
+        "accepted_partial": 5
+      },
+      "sum_tokens": {
+        "in_tokens": 3288789,
+        "out_tokens": 76618,
+        "seconds": 2379.2,
+        "fulltext_body_chars": 129587,
+        "fulltext_papers_opened": 12,
+        "fulltext_read_calls": 21
+      },
+      "corrections": 3,
+      "final_mechanisms": 7,
+      "evidence_levels": {
+        "abstract_only": 3,
+        "mixed": 2,
+        "full_text": 2
+      },
+      "quote_kinds": {
+        "text_diff_beyond_emphasis": 7,
+        "markdown_emphasis_only": 2,
+        "abstract_mismatch": 1
+      },
+      "issues": {
+        "paper_quote_not_returned": 10,
+        "paper_read_evidence_missing": 2,
+        "rendered_budget_exceeded": 3,
+        "invalid_arguments": 1,
+        "code_anchor_unread": 1
+      },
+      "last_submission_raw_mechanisms": 12,
+      "last_submission_invalid_dropped": 2,
+      "last_submission_budget_dropped": 3,
+      "code_tools": {
+        "candidate_code_index": 6,
+        "read_candidate_code": 41,
+        "diff_candidate_code": 2
+      }
+    }
+  }
+]

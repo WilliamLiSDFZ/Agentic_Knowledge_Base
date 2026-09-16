@@ -1,0 +1,474 @@
+{
+  "schema_version": 1,
+  "metric_scope": "public validation; distinct from private grading",
+  "source_root": "/Users/william/nautilus/results",
+  "runs": {
+    "F60": {
+      "run": "20260914_051428_jubias-anaf-gpt56sol-s60",
+      "journal_available": false,
+      "final_submission_available": false,
+      "execution_records": [
+        {
+          "relative_path": "logs/candidate_results/0ca71c26ea514060ae9f0cab3237f029/execution.json",
+          "node_id": "0ca71c26ea514060ae9f0cab3237f029",
+          "status": "running",
+          "started_at": 1789365306.3128095,
+          "deadline": 1789370706.3128095
+        },
+        {
+          "relative_path": "logs/candidate_results/78e7d3cc934440f7a73889fde0404f69/execution.json",
+          "node_id": "78e7d3cc934440f7a73889fde0404f69",
+          "status": "failed",
+          "started_at": 1789364330.3194573,
+          "deadline": 1789369730.3194573,
+          "finished_at": 1789365305.613833,
+          "elapsed_seconds": 975.2748095989227,
+          "exc_type": "RuntimeError"
+        }
+      ],
+      "log_tail_state": "Third initial draft at Step 3/3: training_evaluation; first finished result awaiting initial-generation barrier; exact pod termination unknown",
+      "log_last_timestamp": "2026-09-14 06:01:13,255"
+    },
+    "F61": {
+      "run": "20260914_070847_jubias-anaf-gpt56sol-s61",
+      "journal_available": true,
+      "candidate_count": 7,
+      "buggy_count": 1,
+      "best": {
+        "node_id": "0a060fbe2cb3481b929422d70e302fc9",
+        "public_metric": 0.9129383177905106,
+        "stage": "improve",
+        "model": "answerdotai/ModernBERT-large",
+        "source_relative_path": "logs/best_solution.py",
+        "source_matches_journal": true
+      },
+      "improve_relationships": [
+        {
+          "node_id": "62b4b50bec1d41dc80f9cc9b28bc0653",
+          "parent_id": "634a0b90d6924eb08536bda8a43fc174",
+          "public_metric": 0.9032031548048887,
+          "parent_public_metric": 0.9117620184705593,
+          "public_delta": -0.008558863665670602,
+          "adoption_status": "selected",
+          "selected_mechanism_id": "m1",
+          "decision_reason": "The offered memory-bank mechanism directly addresses the observed mismatch between pointwise BCE and the competition's pairwise, worst-subgroup-sensitive metric, and it supplies rare cell counterparts that batch size 4 cannot reliably provide. Its evidence is abstract-level and not causal for this text task, so adoption is conditional on strict official-metric, overall-AUC, component-floor, and runtime checks rather than assumed improvement.",
+          "adaptation": "Adapt the tail-class memory bank into bounded per-identity membership-by-toxicity FIFO embedding queues, and use them to construct the exact global, subgroup, BPSN, and BNSP positive-negative comparisons required by this competition. Preserve the successful baseline's runtime-owned split, preprocessing, numeric features, ModernBERT-large architecture, fractional-label weighted BCE, optimizer settings, one scalar inference output, and absence of inference-time identity labels; reject the mechanism under the stated score, power-mean, overall-AUC, or identity-floor criteria.",
+          "execution_status": "budget_exhausted",
+          "artifact_status": "scoreable",
+          "elapsed_seconds": 6480.926849603653,
+          "handoff_relative_path": "logs/analogy/handoffs/62b4b50bec1d41dc80f9cc9b28bc0653.json"
+        },
+        {
+          "node_id": "2d09a649b32c4d55b786a42e0c3900a6",
+          "parent_id": "ab8aff27d71840e9a08d2e2ff4846fb9",
+          "public_metric": 0.8882293700976123,
+          "parent_public_metric": 0.4182901545539573,
+          "public_delta": 0.469939215543655,
+          "adoption_status": "selected",
+          "selected_mechanism_id": "m1",
+          "decision_reason": "Mechanism m1 directly addresses the verified dominant bottleneck and is especially plausible here because the auxiliary identity view is deterministically aligned with the original text, making token-span prompting a natural substitute for a second contextual encoding. The evidence is only abstract-level and comes from another modality, so acceptance depends on measured throughput, prompt-ablation value, and the task-faithful official metric rather than assumed transfer.",
+          "adaptation": "Derive binary identity spans from the existing normalized-text matcher, align them to tokenizer offsets, project them through a low-rank learned prompt, and inject that prompt before the final trainable DeBERTa block while retaining one original-text encoding, numeric features, toxicity/subtype heads, identity adversary, and pooled fairness-ranking objectives. Preserve seed 2025, the CandidateSession split, train-only preprocessing fitting, maximum length 128, official-metric validation, and submission schema; reject the adaptation if it misses the 1.5x throughput target, fails to exceed five optimizer updates, or cannot improve beyond 0.41829 without materially harming overall AUC or BPSN power mean.",
+          "execution_status": "budget_exhausted",
+          "artifact_status": "scoreable",
+          "elapsed_seconds": 6096.919168710709,
+          "handoff_relative_path": "logs/analogy/handoffs/2d09a649b32c4d55b786a42e0c3900a6.json"
+        },
+        {
+          "node_id": "0a060fbe2cb3481b929422d70e302fc9",
+          "parent_id": "62b4b50bec1d41dc80f9cc9b28bc0653",
+          "public_metric": 0.9129383177905106,
+          "parent_public_metric": 0.9032031548048887,
+          "public_delta": 0.009735162985621937,
+          "adoption_status": "selected",
+          "selected_mechanism_id": "m1",
+          "decision_reason": "m1 matches the observed code-level bottleneck because both roles of the pairwise objective need current encoder-connected examples plus detached cached counterparts across gradient-accumulation microbatches. Its retrieval evidence is not assumed to transfer causally to toxicity AUC optimization, so adoption remains conditional on matched-step throughput and the official composite, overall-AUC, power-mean, and identity-floor criteria.",
+          "adaptation": "Adapt CONTACCUM's dual-role banks to the existing global and per-identity toxicity cells: use every current positive and negative endpoint, augment both roles with FIFO rows sampled without replacement up to 16 endpoints per role, compute ranking on every microbatch with 1/4 scaling, and enqueue detached embeddings only after successful optimizer updates. Preserve the leakage-safe split, training-only cell labels, preprocessing and numeric features, weighted fractional-target BCE, ModernBERT-large architecture, optimizer configuration, seed, official-metric checkpointing, scalar inference output, and required submission schema; reject the adaptation if it completes fewer than 896 updates or violates any stated validation floor.",
+          "execution_status": "budget_exhausted",
+          "artifact_status": "scoreable",
+          "elapsed_seconds": 6492.087275505066,
+          "handoff_relative_path": "logs/analogy/handoffs/0a060fbe2cb3481b929422d70e302fc9.json"
+        }
+      ],
+      "failed_candidates": [
+        {
+          "node_id": "d5887d696f604170b23b6d435c60be31",
+          "stage": "draft",
+          "execution_status": "failed",
+          "artifact_status": "unavailable",
+          "elapsed_seconds": 3467.753479719162,
+          "error_lines": [
+            "RuntimeError: scatter(): Expected self.dtype to be equal to src.dtype"
+          ]
+        }
+      ]
+    },
+    "F62": {
+      "run": "20260914_070253_jubias-anaf-gpt56sol-s62",
+      "journal_available": true,
+      "candidate_count": 8,
+      "buggy_count": 0,
+      "best": {
+        "node_id": "ff36137ccbc24a639318142f7a4f49ac",
+        "public_metric": 0.9545658025805361,
+        "stage": "improve",
+        "model": "unitary/unbiased-toxic-roberta",
+        "source_relative_path": "logs/best_solution.py",
+        "source_matches_journal": true
+      },
+      "improve_relationships": [
+        {
+          "node_id": "e78e5836c55b426381d8673b9eea1d2b",
+          "parent_id": "23f73be291de4357a2f6c75516480d18",
+          "public_metric": 0.9202344348849794,
+          "parent_public_metric": 0.922871942433753,
+          "public_delta": -0.0026375075487736765,
+          "adoption_status": "rejected",
+          "selected_mechanism_id": null,
+          "decision_reason": "Reject m1 because worst-three CVaR requires simultaneous, reliable current-logit estimates for several identity components, which an eight-row microbatch representing only one identity cannot provide without extra forward passes, retained computation graphs, or noisy stale estimates. The offered evidence is abstract-only, and the initial controlled experiment is better served by first testing the average four-block pairwise objective against the established baseline under the same seed and compute budget.",
+          "adaptation": "",
+          "execution_status": "budget_exhausted",
+          "artifact_status": "scoreable",
+          "elapsed_seconds": 6678.806333780289,
+          "handoff_relative_path": "logs/analogy/handoffs/e78e5836c55b426381d8673b9eea1d2b.json"
+        },
+        {
+          "node_id": "ff36137ccbc24a639318142f7a4f49ac",
+          "parent_id": "0095452fe4b24761a23335cd205b9e2b",
+          "public_metric": 0.9545658025805361,
+          "parent_public_metric": 0.48162885586957604,
+          "public_delta": 0.4729369467109601,
+          "adoption_status": "rejected",
+          "selected_mechanism_id": null,
+          "decision_reason": "Reject m1 because it would introduce a proxy validation score into checkpoint-ranking decisions, whereas the task explicitly requires the official composite metric to remain the main selection signal and CandidateSession owns validation scheduling and checkpoint selection. The offered evidence also has only one full checkpoint, so proxy-to-full ordering and component-error assumptions cannot yet be validated; the smaller task-pretrained model addresses the measured wall-clock and cold-start bottleneck without weakening evaluation fidelity.",
+          "adaptation": "",
+          "execution_status": "budget_exhausted",
+          "artifact_status": "scoreable",
+          "elapsed_seconds": 6674.474671840668,
+          "handoff_relative_path": "logs/analogy/handoffs/ff36137ccbc24a639318142f7a4f49ac.json"
+        },
+        {
+          "node_id": "86e9091f66934cb480b9319a8dd0cfb2",
+          "parent_id": "e78e5836c55b426381d8673b9eea1d2b",
+          "public_metric": 0.9136874536698096,
+          "parent_public_metric": 0.9202344348849794,
+          "public_delta": -0.006546981215169723,
+          "adoption_status": "selected",
+          "selected_mechanism_id": "m1",
+          "decision_reason": "Mechanism m1 directly addresses the observed mismatch between uniform training weights and the negative-power evaluation aggregate while remaining feasible with one sampled identity and one encoder forward per microbatch. Unlike the previously rejected interpretation, sequential multiplicative updates do not require simultaneous current losses for all 27 components, although EMA smoothing, bounds, and official component-AUC validation are necessary because pair loss was demonstrably imperfect as a proxy for BNSP performance.",
+          "adaptation": "Map each group to one of the 27 identity-by-ranking-family components, retain 25% of the objective for fractional-target BCE, and allocate the remaining 75% through a bounded global alpha simplex with inverse round-robin sampling correction. Use pre-update weights for backward, then update alpha from detached EMA pair losses, while preserving the split, preprocessing, architecture, sampler, optimizer, inference, checkpoint-selection metric, and submission interfaces; accept the adaptation only under the stated composite, family-power-mean, overall-AUC, and non-collapse criteria.",
+          "execution_status": "budget_exhausted",
+          "artifact_status": "scoreable",
+          "elapsed_seconds": 6653.8175938129425,
+          "handoff_relative_path": "logs/analogy/handoffs/86e9091f66934cb480b9319a8dd0cfb2.json"
+        },
+        {
+          "node_id": "425aff0f4a374a04bdddeccc94775631",
+          "parent_id": "ff76237c93e84d6f843ad7a6d75cec5d",
+          "public_metric": 0.9086893932133607,
+          "parent_public_metric": 0.9076226030769223,
+          "public_delta": 0.0010667901364384003,
+          "adoption_status": "selected",
+          "selected_mechanism_id": "m1",
+          "decision_reason": "Select m1 because its bounded cross-batch memory directly addresses the verified mismatch between global AUC ordering and capped within-batch pair coverage, especially for the weaker subgroup and BPSN components, without replacing the successful sparse model or adding inference cost. The evidence transfer is imperfect because the cited methods store samples or representations rather than stale scalar logits, so this must remain a fixed-seed, tightly monitored ablation with explicit stale-score and runtime rejection criteria.",
+          "adaptation": "Use 256-entry FIFO banks of detached training logits keyed by scored identity, metric family, and pair side; combine live and memory ranking terms equally, allow gradients only through current logits, commit entries only after successful optimizer steps, and clear banks on checkpoint load rather than serializing them. Preserve all preprocessing, fractional targets, architecture, auxiliary/adversarial losses, replay and weighting, optimization settings, official-metric checkpoint selection, prediction semantics, and submission interfaces.",
+          "execution_status": "completed",
+          "artifact_status": "scoreable",
+          "elapsed_seconds": 3256.7534205913544,
+          "handoff_relative_path": "logs/analogy/handoffs/425aff0f4a374a04bdddeccc94775631.json"
+        },
+        {
+          "node_id": "9412f9dcbf6745988d1e075bd940b87f",
+          "parent_id": "ff36137ccbc24a639318142f7a4f49ac",
+          "public_metric": 0.9536290576579207,
+          "parent_public_metric": 0.9545658025805361,
+          "public_delta": -0.0009367449226154179,
+          "adoption_status": "selected",
+          "selected_mechanism_id": "m1",
+          "decision_reason": "Select m1 because it directly addresses the observed mismatch between dataset-level AUC rankings and sparse within-batch pair availability without replacing the successful task-pretrained model, sampler, inference path, or official checkpoint metric. Its evidence is abstract-only and stale scalar logits are an uncertainty, so adoption is limited to a controlled atomic test with explicit coverage, freshness, component-level, overall-AUC, and composite-score rejection criteria.",
+          "adaptation": "Adapt the source memory-bank idea to deterministic scalar-logit FIFO queues rather than sample or feature replay, using only detached, recently observed complementary identity strata and ensuring every added pair contains at least one current logit so gradients remain meaningful. Preserve seed 2025, the CandidateSession split, preprocessing, sequence length 192, model architecture, weighted BCE, fairness and counterfactual weights, optimizer schedule, batch construction, official metric selection, sigmoid prediction semantics, and the exact `id,prediction` submission contract.",
+          "execution_status": "budget_exhausted",
+          "artifact_status": "scoreable",
+          "elapsed_seconds": 4831.439933300018,
+          "handoff_relative_path": "logs/analogy/handoffs/9412f9dcbf6745988d1e075bd940b87f.json"
+        }
+      ],
+      "failed_candidates": []
+    },
+    "A60": {
+      "run": "20260914_071735_jubias-base-gpt56sol-s60",
+      "journal_available": true,
+      "candidate_count": 10,
+      "buggy_count": 4,
+      "best": {
+        "node_id": "ad8530ab54af405ea3407373c664213f",
+        "public_metric": 0.9161916029733326,
+        "stage": "improve",
+        "model": "answerdotai/ModernBERT-large",
+        "source_relative_path": "logs/best_solution.py",
+        "source_matches_journal": true
+      },
+      "improve_relationships": [],
+      "failed_candidates": [
+        {
+          "node_id": "b444b62ca8474207bb1f95c1cc0f63de",
+          "stage": "draft",
+          "execution_status": "failed",
+          "artifact_status": "unavailable",
+          "elapsed_seconds": 1887.937523841858,
+          "error_lines": []
+        },
+        {
+          "node_id": "f9aac469d5ce4f2c9040d8159b0048c2",
+          "stage": "draft",
+          "execution_status": "failed",
+          "artifact_status": "unavailable",
+          "elapsed_seconds": 2633.2536993026733,
+          "error_lines": [
+            "RuntimeError: torch.nn.functional.binary_cross_entropy and torch.nn.BCELoss are unsafe to autocast."
+          ]
+        },
+        {
+          "node_id": "678a7a9c39274e1d9249ac25dea4f23b",
+          "stage": "debug",
+          "execution_status": "failed",
+          "artifact_status": "unavailable",
+          "elapsed_seconds": 2546.3223321437836,
+          "error_lines": [
+            "RuntimeError: Trying to backward through the graph a second time (or directly access saved tensors after they have already been freed). Saved intermediate values of the graph are freed when you call .backward() or autograd.grad(). Specify retain_graph=True if you need to backward through the graph a second time or if you need to access saved tensors after calling backward."
+          ]
+        },
+        {
+          "node_id": "040da4d714144acca3a9efa043d32281",
+          "stage": "improve",
+          "execution_status": "failed",
+          "artifact_status": "unavailable",
+          "elapsed_seconds": 1963.5150680541992,
+          "error_lines": [
+            "ValueError: Reloaded checkpoint does not reproduce validation predictions"
+          ]
+        }
+      ]
+    },
+    "A61": {
+      "run": "20260914_062456_jubias-base-gpt56sol-s61",
+      "journal_available": true,
+      "candidate_count": 10,
+      "buggy_count": 4,
+      "best": {
+        "node_id": "21a46713938c43ffb9587aa71ca3a29c",
+        "public_metric": 0.9306822086653425,
+        "stage": "debug",
+        "model": "microsoft/deberta-v3-small",
+        "source_relative_path": "logs/best_solution.py",
+        "source_matches_journal": true
+      },
+      "improve_relationships": [],
+      "failed_candidates": [
+        {
+          "node_id": "667512cfe81341f2a8bc416985de1914",
+          "stage": "draft",
+          "execution_status": "failed",
+          "artifact_status": "unavailable",
+          "elapsed_seconds": 2949.5375838279724,
+          "error_lines": [
+            "RuntimeError: Sizes of tensors must match except in dimension 0. Expected size 222 but got size 223 for tensor number 1 in the list."
+          ]
+        },
+        {
+          "node_id": "935c1a648ff34963b3d5bb7074b9454b",
+          "stage": "debug",
+          "execution_status": "timeout",
+          "artifact_status": "unavailable",
+          "elapsed_seconds": 7203.021654367447,
+          "error_lines": []
+        },
+        {
+          "node_id": "d3d4c16f3cce4c16944bb9429532c6e4",
+          "stage": "improve",
+          "execution_status": "failed",
+          "artifact_status": "unavailable",
+          "elapsed_seconds": 541.8289947509766,
+          "error_lines": [
+            "RuntimeError: Trying to backward through the graph a second time (or directly access saved tensors after they have already been freed). Saved intermediate values of the graph are freed when you call .backward() or autograd.grad(). Specify retain_graph=True if you need to backward through the graph a second time or if you need to access saved tensors after calling backward."
+          ]
+        },
+        {
+          "node_id": "a6eb3390241e4e908fccc9e78204c8cb",
+          "stage": "draft",
+          "execution_status": "failed",
+          "artifact_status": "unavailable",
+          "elapsed_seconds": 866.6267082691193,
+          "error_lines": [
+            "RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!"
+          ]
+        }
+      ]
+    },
+    "A62": {
+      "run": "20260914_070227_jubias-base-gpt56sol-s62",
+      "journal_available": true,
+      "candidate_count": 13,
+      "buggy_count": 2,
+      "best": {
+        "node_id": "f6d035418b0a409ab7d51a04ea5199c8",
+        "public_metric": 0.9226153596045379,
+        "stage": "improve",
+        "model": "answerdotai/ModernBERT-large",
+        "source_relative_path": "logs/best_solution.py",
+        "source_matches_journal": true
+      },
+      "improve_relationships": [],
+      "failed_candidates": [
+        {
+          "node_id": "f6bdf93138254764992647084c3bf1df",
+          "stage": "draft",
+          "execution_status": "failed",
+          "artifact_status": "unavailable",
+          "elapsed_seconds": 1131.2377939224243,
+          "error_lines": [
+            "RuntimeError: torch.nn.functional.binary_cross_entropy and torch.nn.BCELoss are unsafe to autocast."
+          ]
+        },
+        {
+          "node_id": "7c624b6f670046d78091e0be766881c0",
+          "stage": "debug",
+          "execution_status": "failed",
+          "artifact_status": "unavailable",
+          "elapsed_seconds": 1009.7999269962311,
+          "error_lines": [
+            "TypeError: clamp() received an invalid combination of arguments - got (max=Tensor, min=float, ), but expected one of:"
+          ]
+        }
+      ]
+    }
+  },
+  "findings": [
+    {
+      "id": "f62_best_model_swap",
+      "run": "F62",
+      "node": "ff36137ccbc24a639318142f7a4f49ac",
+      "claim": "Best candidate rejected analogy proxy-evaluation proposal and used task-pretrained unitary/unbiased-toxic-roberta instead of almost-untrained DeBERTa-v3-large. The score jump is not evidence of adoption of that analogy mechanism.",
+      "source_relative_path": "logs/best_solution.py",
+      "source_line": 594,
+      "parent_optimizer_updates": 5,
+      "best_non_task_pretrained_public_candidate": {
+        "node_id": "23f73be291de4357a2f6c75516480d18",
+        "public_metric": 0.922871942433753
+      },
+      "provenance_caution": "Task-specific pretraining is a confound; public-internal-validation overlap requires training membership verification. No claim of private-test leakage. Parent verified MLEbench uses original private test for private grading."
+    },
+    {
+      "id": "f61_gradient_coverage_repair",
+      "run": "F61",
+      "parent_node": "62b4b50bec1d41dc80f9cc9b28bc0653",
+      "child_node": "0a060fbe2cb3481b929422d70e302fc9",
+      "claim": "Analogy correctly diagnosed that ranking ran only on last accumulation microbatch and bank was ignored whenever current rows existed; child applies ranking on all four microbatches.",
+      "report_relative_path": "logs/analogy/62b4b50bec1d41dc80f9cc9b28bc0653_004.context.json",
+      "parent_source_ranges": [
+        [
+          2117,
+          2159
+        ],
+        [
+          1065,
+          1098
+        ]
+      ],
+      "child_source_relative_path": "logs/best_solution.py",
+      "child_source_range": [
+        2341,
+        2353
+      ],
+      "observed": {
+        "ranking_calls_by_microbatch": [
+          909,
+          909,
+          909,
+          909
+        ],
+        "ranking_gradient_microbatches": [
+          909,
+          909,
+          909,
+          909
+        ],
+        "ranking_gradient_coverage_by_microbatch": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "queue_min": 8,
+        "queue_mean": 101.21,
+        "queue_max": 128,
+        "parent_optimizer_updates": 896,
+        "child_optimizer_updates": 1156,
+        "net_public_gain_over_original_draft": 0.001176299319951335
+      },
+      "observed_source": "logs/journal.json nodes[id=0a060fbe2cb3481b929422d70e302fc9]._term_out"
+    },
+    {
+      "id": "f61_undertrained_branch_recovery",
+      "run": "F61",
+      "parent_node": "ab8aff27d71840e9a08d2e2ff4846fb9",
+      "child_node": "2d09a649b32c4d55b786a42e0c3900a6",
+      "claim": "Replacing parallel dual-view encoding with lightweight auxiliary prompt rescued a severely undertrained branch; not a gain over the best baseline.",
+      "parent_optimizer_updates": 5,
+      "child_optimizer_updates": 23547,
+      "report_relative_path": "logs/analogy/ab8aff27d71840e9a08d2e2ff4846fb9_003.context.json",
+      "observed_source": "logs/journal.json child._term_out"
+    },
+    {
+      "id": "f62_dynamic_weights_active",
+      "run": "F62",
+      "node": "86e9091f66934cb480b9319a8dd0cfb2",
+      "claim": "Dynamic weights actually changed; previous batch boolean-index-copy defect is not supported as the explanation for this candidate regression.",
+      "observed": {
+        "alpha_update_count": 32266,
+        "weight_min": 0.009259259259259259,
+        "weight_max": 0.14805819820196559,
+        "normalized_simplex_entropy": 0.7935854844698242,
+        "public_delta": -0.006546981215169723
+      },
+      "observed_source": "logs/journal.json node._term_out adaptive_objective JSON"
+    },
+    {
+      "id": "f62_fifo_active",
+      "run": "F62",
+      "node": "9412f9dcbf6745988d1e075bd940b87f",
+      "claim": "Scalar FIFO memory executed, but child score slightly below its task-pretrained parent.",
+      "observed": {
+        "total_occupancy": 9216,
+        "update_counter": 11576,
+        "post_warmup": true,
+        "families": {
+          "bnsp": {
+            "eligible_updates": 11076,
+            "contributing_updates": 11076,
+            "current_memory_pairs": 18105024
+          },
+          "bpsn": {
+            "eligible_updates": 11076,
+            "contributing_updates": 11076,
+            "current_memory_pairs": 7414080
+          },
+          "subgroup": {
+            "eligible_updates": 11076,
+            "contributing_updates": 11076,
+            "current_memory_pairs": 1508096
+          }
+        },
+        "public_delta": -0.0009367449226154179
+      },
+      "observed_source": "logs/journal.json node._term_out Fairness Memory Diagnostics JSON"
+    },
+    {
+      "id": "adoption_summary",
+      "scope": "F61 and F62 completed journal improve children only; excludes pending handoffs",
+      "selected_improve_children": 6,
+      "public_gains": 3,
+      "public_losses": 3,
+      "caution": "One gain rescues a 5-update weak branch; raw mean is not an estimate of general mechanism quality."
+    }
+  ]
+}
