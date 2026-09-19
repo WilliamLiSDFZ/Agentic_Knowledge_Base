@@ -4,6 +4,28 @@ A running record of notable changes to this project. Newest entries on top.
 
 ---
 
+## 2026-09-18 — Reusable arm-diversity comparison with Vendi
+
+Added `scripts/compare_vendi.py` with a small offline statistics helper. It reads
+MLEvolve journals or generic candidate JSONL, compares consistent proposal/code
+mechanism representations, and reports standard cosine Vendi at matched candidate
+counts within each task/stage/view. Parent and child implementations are extracted
+separately before comparing changes. Long source is chunked without silent prefix
+truncation; summaries and embeddings are cached by content and model identity.
+
+Arbitrary arm labels and explicit run pairing are supported. No seed-based pairing,
+borrowed baseline, cross-task pooling, or significance claims are introduced.
+Repeated solutions remain samples; duplicate exports are merged. Missing sources
+and extraction failures are reported separately from valid scores. CSV tables,
+auditable candidate records, wide plots and a settings manifest are generated;
+dry-run and precomputed-vector input work without model/API calls. Usage and
+measurement limits are documented in `docs/compare_vendi.md`.
+
+Validation: 27 offline mathematical, input/cache and end-to-end CLI tests pass;
+CSV/plot generation was exercised on synthetic vectors and plots visually checked.
+A read-only dry-run also passes on the fetched S61/S62 journals. No live LLM calls, embedding
+downloads, training, cluster changes or experiment-result modifications were made.
+
 ## 2026-09-13 — Reliable analogy report delivery (P0)
 
 Implemented only the approved report-delivery phase after the S57–S59 audit.
@@ -261,39 +283,6 @@ and whitespace checks pass. Actual GPU training and 90/120-minute budget calibra
 still require an isolated pilot. No cluster source, running experiment or task was
 updated/applied; changes remain local and no Git push was performed.
 
-## 2026-09-10 — Post-run audit of Jigsaw S51–S53 A/F
-
-Reviewed the user's fetched final artifacts and generated charts. Added
-`results/9.10/s51_s53_review/REPORT.md`, a reproducible `audit.py`, structured
-`audit.json` with source hashes, and a focused chart excluding borrowed baselines.
-No training, scoring or existing plotting code was changed.
-
-Only S52 and S53 have complete paired K=1 scores (F−A: −0.01766 and +0.03652).
-A-S51 has no submission; the existing n=3 summary borrows seed 42's 0.77717
-baseline from September 1, creating an unpaired +0.14490 difference. The two
-complete pairs have descriptive mean +0.00943, with opposite signs.
-
-The six journals contain 41 completed candidates: 6 valid (all debug), 18 six-hour
-timeouts, 10 OOMs, 6 checkpoint backward errors and 1 AttributeError. Four improve
-analogy calls generated children, but none has a completed result in the final
-journals. S52's sampler is present in its successful code despite the lexical
-adoption proxy reporting zero. S51/S53's directly injected branches have no valid
-completed nodes. Full-text opening succeeded in 8 of 21 attempts; the other
-attempts show 8 HTTP 403 errors and 5 timeouts. Only S52's first-draft report
-retains full-text evidence; the other two render abstract-only evidence.
-
-Validated totals, branch ancestry, configuration and scoring-version consistency;
-visually checked the focused chart. Original experiment Pods are no longer present,
-so their exact final container exit reasons could not be independently checked.
-
-## 2026-09-10 — Fetch run results through the CPU dev pod
-
-Changed `~/nautilus/fetch-run.sh` to default to
-`mlevolve-agentic-knowledge-base-dev-cpu`, matching `devpod-cpu.yaml`, and updated
-the missing-Pod startup hint to that manifest. The `POD` override, download paths,
-archive contents and grading behavior are unchanged. Shell syntax check passed.
-Only the local script was edited; no download, grading or cluster changes were run.
-
 ## 2026-09-10 — Early draft execution and one candidate per visible GPU (local only)
 
 MLEvolve now generates initial drafts sequentially while submitting each reviewed draft
@@ -326,64 +315,6 @@ or virtualenv edits, and no Job/Pod changes. Existing S51–S53 A/F experiments 
 Use a separate cluster checkout for new Jobs while those experiments are running.
 Implementation notes: `MLEvolve/docs/execution_pipeline.md`;
 regression command: `python utils/verify_execution_pipeline.py`.
-
-## 2026-09-10 — Live diagnosis of six Jigsaw S51–S53 A/F runs
-
-Pulled all six Pod logs, journals, analogy traces, active candidate code and read-only
-GPU/process snapshots into `results/9.10/live-pods-20260910_071510Z/`; findings are in
-`REPORT.md` with structured timings and errors in `summary.json`. At 00:15–00:17 PDT,
-all six Pods were running without restarts and GPUs were at 99–100%, but all 15 completed
-candidates had failed (9 CUDA OOM, 6 checkpoint-related backward errors); 18 candidate
-main processes were still running. These are interim observations, not final results.
-
-Identified 65–93 minutes before first candidate execution, including slow dependency
-checks, global-memory initialization and serial draft generation. Full-text analogy
-worked in all F runs and took 138–186 seconds per draft invocation; no improve invocation
-had occurred yet. No cluster workload or source code was changed.
-
-## 2026-09-09 — CPU-only development pod
-
-Added `~/nautilus/devpod-cpu.yaml`, based on the existing GPU `devpod.yaml`, with
-Pod name `mlevolve-agentic-knowledge-base-dev-cpu`. It keeps the same PyTorch image,
-4 CPU / 32Gi requests and limits, Git/Vim startup setup, and `yuze-li-vol` PVC mounted
-at `/workspace`. Removed GPU requests/limits and set `NVIDIA_VISIBLE_DEVICES=void`.
-Keeping the image preserves compatibility with the shared environment used by Jobs.
-
-Validated YAML and compared all retained fields with the original. Created locally;
-the original GPU manifest is unchanged and no Pod was applied.
-
-## 2026-09-09 — Jigsaw S51–S53: A/F full-text manifests and wider analysis charts
-
-Added MLEvolve `k8s/job-jigsaw-unintended-af-s{51,52,53}.yaml`, each containing
-two Jobs for `jigsaw-unintended-bias-in-toxicity-classification`. A explicitly disables
-analogy; F enables both first-draft and improve-stage injection with full-text reading
-at both stages. These replace the initially prepared A/E manifests at the user's request;
-there is no E Job in this batch. F uses `jubias-anaf-s{51,52,53}` run names and
-`f-analogy-draft-improve` labels. Analysis already infers F from the two injection flags;
-`analyze_runs.py` also recognizes the `-anaf` suffix for legacy-style experiment IDs.
-
-The manifests follow S50's image, model (`gpt-5.6-terra`), CLIProxyAPI endpoint/Secret,
-8 CPU / 48 GiB / 1 GPU resources per Job, >=24 GiB GPU allowlist, shared PVC, and
-Job deadlines/retention. Other runtime defaults, including pretrained-model guidance,
-are unchanged. Seeds are 51/52/53; unique SERVER_ID pairs are 85/86, 87/88, and 89/90.
-F pins the agreed reading budgets per invocation (3 papers, 12 calls, 8,000 characters
-per read, 40,000 total) and the shared cache path. The budgets apply separately to each
-draft/improve invocation; other drafts retain the existing behavior without draft injection.
-
-`scripts/plot_effects.py` widens paired charts from 6.2 to at least 11 inches (13.2 for
-all six arms), splits long arm labels over two lines, and moves draw legends outside
-the axes. Effect/process figures are widened to 10.5 inches; score-vs-K panels are
-wider with a 10.5-inch minimum canvas. Scoring, grouping and exclusion rules are unchanged.
-
-Validation: all three manifests parse as A/F through the analysis config reader, retain
-S50's runtime/resources, and have no Job-name, run-name or SERVER_ID collisions with
-other local manifests. Two-arm and six-arm chart layouts pass label/legend bounds checks.
-Regenerated the four Jigsaw Unintended Bias charts in `results/9.8/charts` from the
-existing inventory and corrected scores; the numerical summary is unchanged. Visually
-checked the paired chart to confirm readable labels and an unobstructed plot.
-
-Prepared locally for the user to apply. No Jobs were submitted and no cluster files
-were synchronized as part of this change.
 
 ## 2026-09-09 — analogy agent: on-demand original-paper reading with evidence provenance
 
