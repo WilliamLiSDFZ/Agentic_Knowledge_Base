@@ -1,0 +1,59 @@
+{
+  "version": "1",
+  "reader_version": "2",
+  "args": {
+    "runs": "/Users/william/nautilus/results",
+    "input": null,
+    "inventory": "results/9.14/run_inventory.csv",
+    "run_glob": "20260914_*s6[12]",
+    "arms": [
+      "A",
+      "F"
+    ],
+    "stages": [
+      "draft",
+      "improve"
+    ],
+    "views": [
+      "proposal",
+      "implementation"
+    ],
+    "baseline": "A",
+    "include_invalid": false,
+    "valid_only": false,
+    "out": "results/vendi_s61_s62",
+    "cache": "/Users/william/Documents/project/python/Agentic_Knowledge_Base/cache/vendi",
+    "summary_model": null,
+    "summary_api": "chat",
+    "chunk_chars": 32000,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_revision": null,
+    "embedding_max_length": 512,
+    "reembed": false,
+    "repeats": 1000,
+    "seed": 42,
+    "dry_run": false,
+    "no_plots": false
+  },
+  "embedding": {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": null,
+    "resolved_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "max_seq_length": 512,
+    "backend": "sentence-transformers",
+    "backend_version": "5.6.0"
+  },
+  "summary_model": "gpt-5.6-terra",
+  "summary_prompt_sha256": "71d1ef874996644991859b0f76e44a95a938ae50e36648a8210b836c81231aeb",
+  "summary_api_calls": 22,
+  "change_assessment_version": "diff-v1",
+  "change_prompt_sha256": "a2bf633c1c0f1381b6ce2ed21f3371e99cf830c2c58d4b285b90cea32ad28410",
+  "samples": 62,
+  "available": 61,
+  "assessment_counts": {
+    "not_applicable": 46,
+    "changed": 15,
+    "insufficient_evidence": 1
+  },
+  "comparison": "fixed cohort; within-run; q=1; descriptive; diff view conditional on measurable static changes"
+}

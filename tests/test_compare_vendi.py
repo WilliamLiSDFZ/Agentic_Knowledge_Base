@@ -162,7 +162,7 @@ class ExtractionTests(WorkspaceTest):
                 return types.SimpleNamespace(auto_model=types.SimpleNamespace(
                     config=types.SimpleNamespace(_commit_hash=self.revision)))
 
-            def tokenizer(self, text, truncation):
+            def tokenizer(self, text, truncation, verbose=False):
                 tokenized.append((text, truncation))
                 return {"input_ids": list(range(len(text.split())))}
 

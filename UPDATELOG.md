@@ -4,6 +4,55 @@ A running record of notable changes to this project. Newest entries on top.
 
 ---
 
+## 2026-09-20 — Evidence-based implementation-change evaluation for Vendi
+
+The S61/S62 audit found that comparing separate parent/child summaries could miss
+small operative changes: connecting an existing sampler to the training loader,
+or changing ranking-loss microbatch coverage and accumulation scaling. Improve
+implementation evaluation now reads the complete raw diff with selected source
+context and static call/use locations. Full diff hunks are never silently truncated;
+over-budget packets become unavailable and omitted optional context is recorded.
+
+Assessments distinguish `changed`, `no_change` and `insufficient_evidence`. Claimed
+changes must cite matching parent/child source quotes, a changed code line and a
+child use/call. Identical/equivalent ASTs support deterministic no-change decisions;
+unsupported no-change claims about different ASTs remain unresolved. Evidence
+validation does not prove semantic correctness, whole-program reachability or
+runtime activation. Only supported change descriptions enter embeddings; refusal
+and uncertainty prose never become diversity samples or zero scores.
+
+Coverage, plots and reports now expose changed/no-change/insufficient counts and
+candidate denominators. Implementation Vendi is explicitly conditional on measurable
+static changes. Non-scoring states survive JSONL import and re-embedding; runs
+without scores remain in the report. A separate `diff-v1` cache preserves existing
+proposal/draft caches and prevents mixing old and new implementation representations.
+Raw evidence packets are saved for audit; usage and rerun instructions are in
+`docs/compare_vendi.md`.
+
+Validation: 81 offline tests pass, including source-evidence rejection, the two
+regression mechanisms, bounded correction, cache isolation and scoring/coverage
+contracts. All 16 actual S61/S62 improve packets fit their full diff and selected
+context within the 160,000-character budget. Two manually authored assessments
+validate against the actual source lines; they are regression fixtures, not live
+model results. Live LLM validation and score recomputation remain pending explicit
+authorization after automatic approval review rejected source transfer to the
+configured proxy. No successful live API call, training or cluster change occurred;
+previous experiment results remain intact. Offline evidence is recorded in
+`results/vendi_evaluation_validation/offline_validation.json`.
+
+Follow-up on the user's 59/62 rerun: two improve assessments were unresolved and
+one A62 extraction timed out. A61's sampler was genuinely not connected, but F62's
+RoBERTa replacement was excluded because optimizer-group context omitted the
+connection to AdamW. Packet v2 now includes short surrounding statements/control
+blocks and bounded module-variable connections; no evidence gate was relaxed.
+Diff API transport calls now participate in the shared three-attempt retry budget.
+All 85 offline tests pass. All 16 real improve packets still fit their selected
+context within 160,000 characters (maximum 145,699); F62's optimizer wiring is now
+present. Re-extraction uses fresh versioned diff cache keys while proposal/draft
+caches remain valid. No new API requests were made in this follow-up; the user's
+current score files remain unchanged. Details: `results/vendi_s61_s62_fixed/DIFF_REVIEW.md`
+and `results/vendi_evaluation_validation/context_v2_validation.json`.
+
 ## 2026-09-18 — Reusable arm-diversity comparison with Vendi
 
 Added `scripts/compare_vendi.py` with a small offline statistics helper. It reads
@@ -25,6 +74,22 @@ Validation: 27 offline mathematical, input/cache and end-to-end CLI tests pass;
 CSV/plot generation was exercised on synthetic vectors and plots visually checked.
 A read-only dry-run also passes on the fetched S61/S62 journals. No live LLM calls, embedding
 downloads, training, cluster changes or experiment-result modifications were made.
+
+2026-09-19 follow-up: the first live S61/S62 analysis produced all 62 summaries,
+but MiniLM's 256-token default excluded eight representations (six A, two F).
+Added an explicit, model-capacity-checked `--embedding-max-length` override and
+`--reembed` to replace all vectors from saved summaries without LLM calls. Incomplete
+coverage now prints failure counts. Offline CPU encoding with the cached MiniLM at
+512 tokens includes all 62 original summaries; old experiment outputs are preserved.
+
+The same audit found that MLEvolve serializes parent relationships in top-level
+`node2parent`, with inline `parent` null. The reader now resolves that map and checks
+conflicting IDs; missing parent code cannot silently turn an improve implementation
+into a whole-code sample. All 16 fetched improve implementations resolve their
+parent code. Existing summary-cache keys remain valid, but these improve summaries
+need new parent extraction/comparison calls before interpreting change diversity.
+Regression tests cover parent maps, length/capacity checks and uniform re-embedding;
+the recovery check did not call an LLM or modify the cluster.
 
 ## 2026-09-13 — Reliable analogy report delivery (P0)
 

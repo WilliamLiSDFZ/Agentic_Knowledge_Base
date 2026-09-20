@@ -1,0 +1,8 @@
+task,stage,view,m,arm,baseline,pair_id,run_id,baseline_run_id,n_runs,n_baseline_runs,n_pairs,arm_vendi,baseline_vendi,delta,status,kind
+jigsaw-unintended-bias-in-toxicity-classification,draft,implementation,2,F,A,,,,2,2,0,1.6029112601655857,1.5702088946195918,0.03270236554599393,descriptive,unpaired_mean
+jigsaw-unintended-bias-in-toxicity-classification,draft,implementation,3,F,A,,,,2,2,0,2.037001064723083,1.9803511445509048,0.05664992017217818,descriptive,unpaired_mean
+jigsaw-unintended-bias-in-toxicity-classification,draft,proposal,2,F,A,,,,2,2,0,1.6598214817814434,1.7855036962659212,-0.1256822144844778,descriptive,unpaired_mean
+jigsaw-unintended-bias-in-toxicity-classification,draft,proposal,3,F,A,,,,2,2,0,2.1657533023521087,2.4420770213817002,-0.2763237190295915,descriptive,unpaired_mean
+jigsaw-unintended-bias-in-toxicity-classification,improve,implementation,2,F,A,,,,2,2,0,1.8026911869279036,1.8177191565611097,-0.015027969633206073,descriptive,unpaired_mean
+jigsaw-unintended-bias-in-toxicity-classification,improve,proposal,2,F,A,,,,2,2,0,1.6427998727143585,1.7005821117357147,-0.05778223902135626,descriptive,unpaired_mean
+jigsaw-unintended-bias-in-toxicity-classification,improve,proposal,3,F,A,,,,2,2,0,2.120869884406918,2.220151250640135,-0.09928136623321704,descriptive,unpaired_mean

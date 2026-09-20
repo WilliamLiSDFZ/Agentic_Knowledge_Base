@@ -34,18 +34,91 @@ Defaults are `--views proposal implementation --stages draft improve`. Other nod
 stages can be selected explicitly. One node contributes one sample **per view**:
 
 - `proposal`: same plan field for all arms; no analogy report is substituted for F.
-- `implementation`: complete child code. When parent code exists, parent and child
-  are independently summarized, then compared to emphasize the child's mechanism
-  changes. The two sources remain separate through chunking and merging. Drafts
-  describe the complete implementation. Missing parent context is not invented.
+- `implementation`: drafts describe the complete implementation. When parent code
+  exists, assess the **raw parent-to-child diff** with related source context and
+  static call/use locations. The reader uses MLEvolve's top-level
+  `node2parent` map and supports older inline parent IDs. An improve implementation
+  missing parent code is marked unavailable rather than treated as a whole-code
+  summary. Coverage includes missing-parent counts.
 
-Summaries use six neutral English fields: model, objective, data, update, inference,
-change. Arm labels, scores, paper names and analogy prose are excluded by the
-extraction prompt. Code/plan references and model-produced evidence are retained
-for manual audit; they are not a proof of semantic accuracy or runtime activation.
-Every source character is processed: long inputs are chunked and merged. Embedding
+Proposal/draft summaries use six neutral English fields: model, objective, data,
+update, inference, change. Long inputs are chunked and merged without dropping source
+characters. Parent-child assessments instead retain every diff hunk and select related
+source context within a 160,000-character packet budget. If the full diff cannot fit,
+the candidate is marked `insufficient_evidence`; omitted optional context is recorded.
+Python AST parsing locates enclosing definitions, related uses and one-step aliases.
+Short surrounding control-flow blocks and related module-level variable uses are
+included to expose connections such as parameter grouping into an optimizer.
+Parse failures fall back to nearby lines with an explicit limitation. Zero omitted
+context means the helper's selected context fits; it does not guarantee every
+dependency was selected. This is a
+bounded source-context helper, not a complete call graph; candidate code is never run.
+
+Parent-child assessments return one of three states:
+
+- `changed`: typed changes (`new_mechanism`, `activation`, `parameter_change`,
+  `bug_fix`, `removal`, `refactor`) with parent and child line references, matching
+  source quotes, at least one changed code line and a child call/use reference.
+  Only the neutral change descriptions are embedded.
+- `no_change`: identical code or equivalent parsed ASTs. This is deliberately
+  conservative; a model's no-change claim about a different AST becomes unresolved.
+- `insufficient_evidence`: the available source or model assessment cannot support
+  a connected change. An unused definition or an uncertain connection is not counted
+  as an implemented mechanism. Unsupported claims get bounded correction attempts.
+
+Arm labels, scores, paper names and analogy prose are excluded by the extraction
+prompt. Evidence guards check source provenance and a static use/call, not semantic
+correctness, whole-program reachability or successful runtime activation. The two
+non-scoring states retain their rationale and contribute to coverage, never to the
+embedding matrix. Assessment text is limited to 160 words across all change descriptions.
+Embedding
 token overflow produces an explicit error, not silent truncation. If it occurs,
 use a suitable longer-context embedding model **for the whole comparison**.
+
+For the default MiniLM, the sentence-embedding window is 256 tokens while its BERT
+config supports 512 positions. `--embedding-max-length 512` explicitly selects that
+window, including special tokens. The override is part of the embedding cache
+identity, so all vectors use the same configuration. Raising the window beyond a
+model's default is allowed only when its BERT config verifies the position capacity;
+other architectures require a model with a sufficient default window. This changes
+the measurement configuration; it is not a claim about accuracy beyond the model's
+default training window.
+
+To recover just a length failure without new LLM calls:
+
+```bash
+.venv/bin/python scripts/compare_vendi.py \
+  --input results/vendi_s61_s62/samples.jsonl --reembed \
+  --embedding-max-length 512 --out results/vendi_reembedded
+```
+
+`--reembed` requires text for every selected scoring sample and removes **all** old
+scoring vectors and embedding errors, retaining summaries and source provenance.
+Saved `no_change`/`insufficient_evidence` states remain non-scoring with empty text
+and no vector. It prevents mixing
+the surviving old vectors with newly generated ones. The final console output lists
+failure reasons whenever coverage is incomplete.
+
+**Earlier S61/S62 improve implementation outputs need re-extraction.** Before the
+2026-09-19 reader fix, top-level `node2parent` was missed. The subsequent separate
+parent/child summary comparison also missed small but consequential changes. The
+2026-09-20 `diff-v1` assessment replaces that comparison with raw diff evidence.
+`--input --reembed` cannot repair either representation problem. Rerun the original
+sources into a new directory:
+
+```bash
+.venv/bin/python scripts/compare_vendi.py \
+  --runs /Users/william/nautilus/results \
+  --inventory results/9.14/run_inventory.csv \
+  --run-glob '20260914_*s6[12]' --arms A F \
+  --embedding-max-length 512 --out results/vendi_s61_s62_diff
+```
+
+Keep the same cache, summary model and endpoint to reuse existing proposal/draft
+summaries and vectors. Diff assessments use a separate versioned `cache/vendi/changes`
+namespace; old change summaries are never reused. Mixed representation versions
+within one task/stage/view are rejected. Live diff assessment sends the displayed
+source diff/context to the configured LLM endpoint.
 
 The optional inventory is an allow-list, keyed by `name` (or `run_id`); it can be
 the existing `run_inventory.csv` or a small CSV with `name,task,arm,pair_id`.
@@ -102,6 +175,10 @@ text-only records. For example, replace `text` with:
 
 Previously exported `samples.jsonl` containing successful embeddings can also be
 used as input. Keep the same `--stages`/`--views`, or specify the desired subset.
+For assessed changes, carry `representation_version`, `assessment_status` and
+`mechanism_card` forward. Non-scoring states survive import and re-embedding;
+conflicting row/card states are rejected. Generic input is treated as prepared
+data, not revalidated against source or certified as evidence-checked extraction.
 
 ## Statistics and outputs
 
@@ -122,14 +199,25 @@ sensitivity analysis, requiring `is_valid: true`; save it to a different output
 directory. Missing summaries, missing runs and extraction failures are never zero
 scores. Inspect coverage: selective failures can bias even an equal-count comparison.
 
+Diff-based implementation Vendi measures diversity **conditional on evidenced static
+changes**. Always read it together with each run's changed/no-change/insufficient
+counts and fractions of all selected candidates. High conditional diversity does
+not establish that an arm produces more useful changes. Entire runs with no
+measurable changes remain in coverage even when they cannot produce a Vendi curve.
+Parameter changes and bug fixes count as computational changes, not scientific novelty.
+
 Outputs:
 
 - `samples.jsonl`: canonical text, vectors, source hashes/references, extraction
   evidence and errors; no complete source code or run credentials.
+- `change_evidence/*.json`: raw diff, selected context, original line references,
+  source hashes and packet limitations for each assessed implementation; contains
+  source excerpts and supports manual audit.
 - `run_scores.csv`: matched-count Vendi per run, with candidate-subset percentiles.
 - `comparisons.csv`: unpaired means, explicit paired differences and paired means.
 - `coverage.csv`: candidate counts, valid/failed counts when known, missing sources,
-  extraction failures, excluded runs and available inventory runtime.
+  extraction failures, changed/no-change/insufficient counts and fractions,
+  excluded runs and available inventory runtime.
 - `vendi_*.png`, optionally `paired_deltas.png`: wide plots; `--no-plots` skips them.
 - `manifest.json`, `REPORT.md`: settings, model identity and interpretation limits.
 
@@ -144,8 +232,16 @@ and model identity under `cache/vendi` (override with `--cache`). Partial succes
 survives interruption; failed calls are retried at most three times and are not
 cached as valid results. A rerun retries failures and reuses successes. Output tables
 are replaced; script-generated plots are refreshed. Use separate output directories
-for different comparison settings. Exit code 2 means extraction/embedding errors or
-no scoreable cohort; inspect the saved coverage/report.
+for different comparison settings. Exit code 2 means missing representations,
+extraction/embedding errors or no scoreable cohort; inspect the saved coverage/report.
+`no_change` is not an extraction error; an entirely verified no-change input exits
+successfully while producing coverage rather than fabricated zero scores.
+Diff extraction shares its three-attempt budget between transport retries and
+evidence corrections. A timeout retries the same prompt; malformed evidence gets
+validation feedback. Accepted `insufficient_evidence` decisions are cached and do
+not disappear merely by rerunning. Source-context packet versions are included in
+cache keys, so updating context extraction consistently reassesses parent-child
+implementations while retaining proposal/draft caches.
 
 Dependencies are the existing NumPy, matplotlib, sentence-transformers, OpenAI SDK,
 python-dotenv, plus PyYAML for config fallback. Pure precomputed-vector scoring with
