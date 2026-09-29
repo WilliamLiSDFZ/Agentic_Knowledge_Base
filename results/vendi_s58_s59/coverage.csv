@@ -1,0 +1,17 @@
+task,run_id,arm,stage,view,pair_id,n_candidates,n_available,n_missing,n_errors,n_pending,n_changed,n_no_change,n_insufficient,changed_fraction,no_change_fraction,insufficient_fraction,n_valid,n_failed,n_missing_parent,usable_h,issue
+jigsaw-unintended-bias-in-toxicity-classification,20260912_081346_jubias-anaf-gpt56sol-s58,F,draft,implementation,,4,4,0,0,0,0,0,0,,,,4,0,0,12.0,
+jigsaw-unintended-bias-in-toxicity-classification,20260912_081346_jubias-anaf-gpt56sol-s58,F,draft,proposal,,4,4,0,0,0,0,0,0,,,,4,0,0,12.0,
+jigsaw-unintended-bias-in-toxicity-classification,20260912_081346_jubias-anaf-gpt56sol-s58,F,improve,implementation,,6,5,0,0,0,5,0,1,0.8333333333333334,0.0,0.16666666666666666,5,1,0,12.0,incomplete_or_too_few_candidates
+jigsaw-unintended-bias-in-toxicity-classification,20260912_081346_jubias-anaf-gpt56sol-s58,F,improve,proposal,,6,6,0,0,0,0,0,0,,,,5,1,0,12.0,
+jigsaw-unintended-bias-in-toxicity-classification,20260912_082030_jubias-base-gpt56sol-s59,A,draft,implementation,,3,3,0,0,0,0,0,0,,,,2,1,0,12.0,
+jigsaw-unintended-bias-in-toxicity-classification,20260912_082030_jubias-base-gpt56sol-s59,A,draft,proposal,,3,3,0,0,0,0,0,0,,,,2,1,0,12.0,
+jigsaw-unintended-bias-in-toxicity-classification,20260912_082030_jubias-base-gpt56sol-s59,A,improve,implementation,,6,6,0,0,0,6,0,0,1.0,0.0,0.0,6,0,0,12.0,
+jigsaw-unintended-bias-in-toxicity-classification,20260912_082030_jubias-base-gpt56sol-s59,A,improve,proposal,,6,6,0,0,0,0,0,0,,,,6,0,0,12.0,
+jigsaw-unintended-bias-in-toxicity-classification,20260912_082058_jubias-base-gpt56sol-s58,A,draft,implementation,,3,3,0,0,0,0,0,0,,,,3,0,0,12.0,
+jigsaw-unintended-bias-in-toxicity-classification,20260912_082058_jubias-base-gpt56sol-s58,A,draft,proposal,,3,3,0,0,0,0,0,0,,,,3,0,0,12.0,
+jigsaw-unintended-bias-in-toxicity-classification,20260912_082058_jubias-base-gpt56sol-s58,A,improve,implementation,,5,4,0,1,0,4,0,0,0.8,0.0,0.0,4,1,0,12.0,incomplete_or_too_few_candidates
+jigsaw-unintended-bias-in-toxicity-classification,20260912_082058_jubias-base-gpt56sol-s58,A,improve,proposal,,5,5,0,0,0,0,0,0,,,,4,1,0,12.0,
+jigsaw-unintended-bias-in-toxicity-classification,20260912_082449_jubias-anaf-gpt56sol-s59,F,draft,implementation,,4,4,0,0,0,0,0,0,,,,1,3,0,12.0,
+jigsaw-unintended-bias-in-toxicity-classification,20260912_082449_jubias-anaf-gpt56sol-s59,F,draft,proposal,,4,4,0,0,0,0,0,0,,,,1,3,0,12.0,
+jigsaw-unintended-bias-in-toxicity-classification,20260912_082449_jubias-anaf-gpt56sol-s59,F,improve,implementation,,5,5,0,0,0,5,0,0,1.0,0.0,0.0,4,1,0,12.0,
+jigsaw-unintended-bias-in-toxicity-classification,20260912_082449_jubias-anaf-gpt56sol-s59,F,improve,proposal,,5,5,0,0,0,0,0,0,,,,4,1,0,12.0,

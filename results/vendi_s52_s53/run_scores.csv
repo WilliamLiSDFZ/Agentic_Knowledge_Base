@@ -1,0 +1,17 @@
+task,stage,view,run_id,arm,pair_id,n_total,m,vendi,subset_low,subset_high,n_subsets
+jigsaw-unintended-bias-in-toxicity-classification,draft,implementation,20260910_022413_jubias-base-s53,A,,3,2,1.5141523169313473,1.4826469157066005,1.5460260090311722,3
+jigsaw-unintended-bias-in-toxicity-classification,draft,implementation,20260910_022912_jubias-anaf-s53,F,,3,2,1.4034931982448409,1.320263487544156,1.4716890137575072,3
+jigsaw-unintended-bias-in-toxicity-classification,draft,implementation,20260910_022943_jubias-anaf-s52,F,,3,2,1.4648589286549865,1.4293201359426095,1.4927818834720414,3
+jigsaw-unintended-bias-in-toxicity-classification,draft,implementation,20260910_022953_jubias-base-s52,A,,3,2,1.3794900310487,1.3727552905137965,1.390966525096517,3
+jigsaw-unintended-bias-in-toxicity-classification,draft,implementation,20260910_022413_jubias-base-s53,A,,3,3,1.8697640514110059,1.8697640514110059,1.8697640514110059,1
+jigsaw-unintended-bias-in-toxicity-classification,draft,implementation,20260910_022912_jubias-anaf-s53,F,,3,3,1.652500344585019,1.652500344585019,1.652500344585019,1
+jigsaw-unintended-bias-in-toxicity-classification,draft,implementation,20260910_022943_jubias-anaf-s52,F,,3,3,1.773969826902293,1.773969826902293,1.773969826902293,1
+jigsaw-unintended-bias-in-toxicity-classification,draft,implementation,20260910_022953_jubias-base-s52,A,,3,3,1.6157013134944576,1.6157013134944576,1.6157013134944576,1
+jigsaw-unintended-bias-in-toxicity-classification,draft,proposal,20260910_022413_jubias-base-s53,A,,3,2,1.6454601317212447,1.5404197781619249,1.7282309785108851,3
+jigsaw-unintended-bias-in-toxicity-classification,draft,proposal,20260910_022912_jubias-anaf-s53,F,,3,2,1.496610650914375,1.4615619151433619,1.5483572116960143,3
+jigsaw-unintended-bias-in-toxicity-classification,draft,proposal,20260910_022943_jubias-anaf-s52,F,,3,2,1.6732873927476966,1.6202163109205852,1.7485750946242362,3
+jigsaw-unintended-bias-in-toxicity-classification,draft,proposal,20260910_022953_jubias-base-s52,A,,3,2,1.7049017370097976,1.578726177082308,1.7950761259750379,3
+jigsaw-unintended-bias-in-toxicity-classification,draft,proposal,20260910_022413_jubias-base-s53,A,,3,3,2.128331176535227,2.128331176535227,2.128331176535227,1
+jigsaw-unintended-bias-in-toxicity-classification,draft,proposal,20260910_022912_jubias-anaf-s53,F,,3,3,1.8338266471466476,1.8338266471466476,1.8338266471466476,1
+jigsaw-unintended-bias-in-toxicity-classification,draft,proposal,20260910_022943_jubias-anaf-s52,F,,3,3,2.19319407258933,2.19319407258933,2.19319407258933,1
+jigsaw-unintended-bias-in-toxicity-classification,draft,proposal,20260910_022953_jubias-base-s52,A,,3,3,2.252619837870802,2.252619837870802,2.252619837870802,1
