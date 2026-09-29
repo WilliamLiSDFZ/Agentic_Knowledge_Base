@@ -4,6 +4,32 @@ A running record of notable changes to this project. Newest entries on top.
 
 ---
 
+## 2026-09-28 — Complete solution Vendi for MLEvolve
+
+Added `scripts/compare_solution_vendi.py`, following autoresearch's complete-code
+summary convention. Each non-root candidate, including debug and fusion versions,
+is summarized independently into a neutral title, at most 160 words of mechanism
+description, and source-line evidence. Only the description is embedded. Source
+fragments cover the complete code and merge in bounded groups; parents and diff
+assessments are unnecessary. Different candidates with identical implementations
+retain their frequency, with successful extraction reused from a separate cache.
+
+The new entry point reuses existing run filtering, CPU embedding, cosine Vendi,
+matched-count comparisons and wide plots. It also exports full-run descriptive
+scores, auditable solution cards, stage/coverage counts and settings/code hashes.
+Explicit pairing, failed-candidate sensitivity, offline vector recomputation and
+summary-only re-embedding are supported. Missing sources/journals or failed
+extraction remain visible rather than becoming zero scores. Legacy diff summaries
+cannot be imported or overwritten as solution results. Usage is documented in
+`docs/compare_solution_vendi.md`; the existing change-based analysis remains intact.
+
+Validation: all 109 offline Vendi tests pass, including 24 new solution tests.
+The S61/S62 dry-run reads 38 complete candidates across four valid runs (15 draft,
+16 improve, six debug and one fusion draft); the old reader still yields its
+original 62 proposal/implementation records. Synthetic precomputed vectors exercise
+CSV/report generation and both plots, which were visually checked. No live LLM
+calls, model downloads, cluster changes or existing-result modifications occurred.
+
 ## 2026-09-20 — Evidence-based implementation-change evaluation for Vendi
 
 The S61/S62 audit found that comparing separate parent/child summaries could miss

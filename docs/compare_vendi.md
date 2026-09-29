@@ -1,5 +1,8 @@
 # Comparing arm diversity with Vendi
 
+For whole-candidate solution diversity, use [the complete solution analysis](compare_solution_vendi.md).
+The script documented below retains the separate proposal/draft and implementation-change views.
+
 `scripts/compare_vendi.py` compares **candidate mechanism diversity**, not scientific
 novelty or task scores. It is a post-processing script; it never executes candidate
 code, changes experiments, or accesses the cluster.

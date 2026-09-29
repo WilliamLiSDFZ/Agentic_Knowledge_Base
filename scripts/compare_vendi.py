@@ -109,7 +109,7 @@ def numbered_source(label, text):
     return "\n".join(f"{label}:{i}: {line}" for i, line in enumerate(text.splitlines(), 1))
 
 
-def load_runs(root, inventory, pattern, views, include_invalid=False):
+def load_runs(root, inventory, pattern, views, include_invalid=False, *, whole_solutions=False):
     """Inventory is an optional allow-list; pair_id is explicit, never inferred from seed."""
     metadata = {}
     if inventory:
@@ -151,7 +151,7 @@ def load_runs(root, inventory, pattern, views, include_invalid=False):
             issues.append(issue | {"issue": f"journal_unavailable:{type(error).__name__}"})
             continue
         by_id = {str(n.get("id", i)): n for i, n in enumerate(nodes)}
-        parent_map = data.get("node2parent", {}) if isinstance(data, dict) else {}
+        parent_map = data.get("node2parent", {}) if isinstance(data, dict) and not whole_solutions else {}
         if not isinstance(parent_map, dict):
             raise ValueError(f"{journal}: node2parent must be an object mapping node IDs to parent IDs")
         if any(not isinstance(key, str) or key not in by_id for key in parent_map):
@@ -159,6 +159,9 @@ def load_runs(root, inventory, pattern, views, include_invalid=False):
         parents = {}
         for i, node in enumerate(nodes):
             node_id = str(node.get("id", i))
+            if whole_solutions:
+                parents[node_id] = ""
+                continue
             mapped, inline = parent_map.get(node_id), node.get("parent")
             for label, value in (("node2parent", mapped), ("parent", inline)):
                 if value is not None and not isinstance(value, str):
@@ -188,6 +191,21 @@ def load_runs(root, inventory, pattern, views, include_invalid=False):
                                  is_buggy=node.get("is_buggy"), is_valid=node.get("is_valid"),
                                  artifact_status=node.get("artifact_status"), seed=meta.get("seed", ""),
                                  source_refs=[f"{journal}#nodes[{i}]"])
+            if whole_solutions:
+                # Every complete candidate stands alone, including debug/fusion nodes.
+                # No parent or change assessment is needed for this representation.
+                source = node.get("code") or ""
+                if not isinstance(source, str):
+                    source = ""
+                common.pop("parent_id")
+                common.pop("parent_status")
+                samples.append(common | dict(
+                    original_stage=common["stage"], stage="solution", view="solution",
+                    source=numbered_source("SOURCE", source), text="",
+                    source_hash=hashlib.sha256(source.encode()).hexdigest(),
+                    representation_version="solution-v1",
+                    extraction_status="pending" if source.strip() else "missing_source"))
+                continue
             for view in views:
                 source = node.get("plan" if view == "proposal" else "code") or ""
                 if not isinstance(source, str):
@@ -486,7 +504,7 @@ def coverage_rows(samples, issues):
     return coverage + issues
 
 
-def plot_results(out, scores, comparisons, coverage=None):
+def plot_results(out, scores, comparisons, coverage=None, prefix=""):
     if not scores:
         return
     import matplotlib
@@ -514,7 +532,7 @@ def plot_results(out, scores, comparisons, coverage=None):
         ax.legend(loc="upper left", bbox_to_anchor=(1.01, 1), fontsize=8)
         ax.grid(alpha=.2)
         fig.text(.1, .01, "Bands: candidate-subset variation, NOT confidence intervals for arm effects.", fontsize=9)
-        fig.savefig(out / f"vendi_{index:02d}.png", bbox_inches="tight", dpi=160)
+        fig.savefig(out / f"{prefix}vendi_{index:02d}.png", bbox_inches="tight", dpi=160)
         plt.close(fig)
     pairs = [r for r in comparisons if r["kind"] == "pair" and r.get("delta") is not None]
     if pairs:
@@ -529,7 +547,7 @@ def plot_results(out, scores, comparisons, coverage=None):
         ax.set(xlabel="Candidates per run (matched m)", ylabel="Vendi difference vs baseline")
         ax.xaxis.set_major_locator(MaxNLocator(integer=True))
         ax.legend(loc="upper left", bbox_to_anchor=(1.01, 1), fontsize=8)
-        fig.savefig(out / "paired_deltas.png", bbox_inches="tight", dpi=160)
+        fig.savefig(out / f"{prefix}paired_deltas.png", bbox_inches="tight", dpi=160)
         plt.close(fig)
 
 

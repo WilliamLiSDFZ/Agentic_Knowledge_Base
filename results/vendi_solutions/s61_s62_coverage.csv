@@ -1,0 +1,6 @@
+task,run_id,arm,pair_id,stage,view,n_candidates,n_available,n_missing,n_errors,n_pending,n_excluded,n_valid,n_failed,stages,issue,inventory_verdict,usable_h
+jigsaw-unintended-bias-in-toxicity-classification,20260914_062456_jubias-base-gpt56sol-s61,A,,solution,solution,10,10,0,0,0,0,6,4,"{""debug"": 3, ""draft"": 4, ""improve"": 3}",,,
+jigsaw-unintended-bias-in-toxicity-classification,20260914_070227_jubias-base-gpt56sol-s62,A,,solution,solution,13,13,0,0,0,0,11,2,"{""debug"": 2, ""draft"": 5, ""fusion_draft"": 1, ""improve"": 5}",,,
+jigsaw-unintended-bias-in-toxicity-classification,20260914_070253_jubias-anaf-gpt56sol-s62,F,,solution,solution,8,8,0,0,0,0,8,0,"{""draft"": 3, ""improve"": 5}",,,
+jigsaw-unintended-bias-in-toxicity-classification,20260914_070847_jubias-anaf-gpt56sol-s61,F,,solution,solution,7,7,0,0,0,0,6,1,"{""debug"": 1, ""draft"": 3, ""improve"": 3}",,,
+jigsaw-unintended-bias-in-toxicity-classification,20260914_043431_jubias-anaf-gpt56sol-s62,F,,,,,,,,,,,,,excluded_inventory_verdict,invalid,2.2
