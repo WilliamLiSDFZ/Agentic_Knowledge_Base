@@ -5,7 +5,7 @@ import unittest
 
 import numpy as np
 
-from scripts.vendi_metrics import compare_samples, vendi_score
+from scripts.vendi.metrics import compare_samples, full_solution_scores, score_samples, vendi_score
 
 
 def samples(run, arm, vectors, task="task", pair_id="", stage="draft", view="proposal"):
@@ -117,6 +117,79 @@ class VendiComparisonTests(unittest.TestCase):
         self.assertEqual(compare_samples([]), ([], []))
         with self.assertRaises(ValueError):
             compare_samples([], repeats=0)
+
+    def test_explicit_maximum_limits_comparison_without_changing_cohort(self):
+        data = samples("a", "A", [[1, 0]] * 5) + samples("f", "F", [[1, 0], [0, 1]] * 2)
+        scores, _ = compare_samples(data, max_m=3)
+        self.assertEqual({row["m"] for row in scores}, {2, 3})
+        self.assertEqual({row["n_total"] for row in scores}, {4, 5})
+        for maximum in (0, 1, True, 2.5):
+            with self.subTest(maximum=maximum), self.assertRaises(ValueError):
+                compare_samples(data, max_m=maximum)
+
+
+def solution_samples(run, arm, vectors, batch="early", **kwargs):
+    return [row | dict(batch=batch, extraction_status="ok")
+            for row in samples(run, arm, vectors, stage="solution", view="solution", **kwargs)]
+
+
+class BatchComparisonTests(unittest.TestCase):
+    def test_all_batches_share_task_m_but_never_pool_effects(self):
+        data = (solution_samples("early-a", "A", [[1, 0]] * 3, pair_id="p1")
+                + solution_samples("early-f", "F", [[1, 0], [0, 1]], pair_id="p1")
+                + solution_samples("late-a", "A", [[1, 0]] * 4, batch="late", pair_id="p1")
+                + solution_samples("late-f", "F", [[1, 0], [0, 1]] * 2, batch="late", pair_id="p1")
+                + solution_samples("singleton", "F", [[1, 0]], batch="late"))
+        scores, comparisons = score_samples(data)
+        self.assertEqual({row["m"] for row in scores}, {2})
+        self.assertEqual({row["task_common_m"] for row in scores + comparisons}, {2})
+        self.assertEqual({row["batch"] for row in scores + comparisons}, {"early", "late"})
+        self.assertEqual(len(scores), 4)
+        pairs = {row["batch"]: row for row in comparisons if row["kind"] == "pair"}
+        self.assertAlmostEqual(pairs["early"]["delta"], 1)
+        self.assertAlmostEqual(pairs["late"]["delta"], 2 / 3)
+        self.assertEqual(pairs["early"]["baseline_run_id"], "early-a")
+        self.assertEqual(pairs["late"]["baseline_run_id"], "late-a")
+        self.assertEqual(score_samples(list(reversed(data))), (scores, comparisons))
+
+    def test_tasks_have_independent_common_m_and_missing_data_do_not_reduce_it(self):
+        data = (solution_samples("a", "A", [[1, 0]] * 2)
+                + solution_samples("b", "F", [[1, 0]] * 4, task="second")
+                + solution_samples("c", "A", [[1, 0]] * 3, task="second"))
+        data.append(dict(task="second", batch="early", run_id="bad", arm="A",
+                         stage="solution", view="solution", extraction_status="missing_source"))
+        scores, _ = score_samples(data)
+        self.assertEqual({(row["task"], row["task_common_m"]) for row in scores}, {("task", 2), ("second", 3)})
+        self.assertEqual({row["m"] for row in scores if row["task"] == "second"}, {2, 3})
+
+    def test_baseline_is_never_borrowed_from_another_batch(self):
+        data = (solution_samples("a", "A", [[1, 0]] * 2)
+                + solution_samples("f", "F", [[1, 0], [0, 1]], batch="late"))
+        _, comparisons = score_samples(data)
+        self.assertEqual(len(comparisons), 1)
+        self.assertEqual(comparisons[0]["batch"], "late")
+        self.assertEqual(comparisons[0]["status"], "missing_baseline")
+        self.assertIsNone(comparisons[0]["delta"])
+
+    def test_conflicting_run_batch_and_cross_batch_dimensions_are_rejected(self):
+        data = solution_samples("a", "A", [[1, 0]] * 2)
+        with self.assertRaisesRegex(ValueError, "Inconsistent batch"):
+            score_samples(data + solution_samples("a", "A", [[1, 0]], batch="late"))
+        with self.assertRaisesRegex(ValueError, "dimensions"):
+            score_samples(data + solution_samples("f", "F", [[1, 0, 0]] * 2, batch="late"))
+        with self.assertRaisesRegex(ValueError, "explicit batch"):
+            score_samples(solution_samples("a", "A", [[1, 0]] * 2, batch=""))
+
+    def test_full_run_scores_keep_batch_singletons_and_duplicate_frequency(self):
+        data = (solution_samples("a", "A", [[1, 0]] * 3 + [[0, 1]])
+                + solution_samples("f", "F", [[1, 0]], batch="late"))
+        data.append(solution_samples("excluded", "F", [[1, 0]])[0] | {"extraction_status": "excluded"})
+        rows = {row["run_id"]: row for row in full_solution_scores(data)}
+        self.assertEqual(set(rows), {"a", "f"})
+        self.assertEqual(rows["f"]["batch"], "late")
+        self.assertEqual(rows["f"]["vendi"], 1)
+        self.assertEqual(rows["a"]["n_total"], 4)
+        self.assertAlmostEqual(rows["a"]["vendi"], math.exp(-.75 * math.log(.75) - .25 * math.log(.25)))
 
 
 if __name__ == "__main__":

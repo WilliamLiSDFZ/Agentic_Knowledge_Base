@@ -4,6 +4,37 @@ A running record of notable changes to this project. Newest entries on top.
 
 ---
 
+## 2026-09-30 — One entry point for complete-solution Vendi analysis
+
+Consolidated Vendi input handling, cached solution summaries, embeddings, metrics
+and plotting under `scripts/vendi/`, with `scripts/compare_solution_vendi.py` as
+the sole command. Removed the obsolete diff/proposal implementation, its tests
+and documentation, and the per-batch shell wrapper. Existing solution prompts,
+cache identities and numerical Vendi calculations are preserved.
+
+One invocation now processes all selected batches and writes a single set of
+Vendi, effect and paired PNG/PDF figures plus their exact CSV data to
+`result/vendi_solutions/`. It retains reusable vectors, source/evidence cards,
+coverage, detailed scores and input/code provenance. Each task uses a common
+candidate-count range across batches; effects remain within their experimental
+batch. Imported legacy samples require an explicit batch manifest rather than
+silently pooling experiment versions. Pairing is explicit, never inferred from
+seed equality. The bundled 18-run manifest was checked against the nine two-Job
+A/F configurations and saved run configs; actual GPU equality is not assumed.
+
+The Vendi and effect figures now place all batches of a task on the same axes:
+18 run curves and nine paired-difference curves for the current Jigsaw cohort.
+Pair colors are shared between figures, arm line styles distinguish A/F, and
+batch labels remain in external legends. Score calculations are unchanged.
+
+Validation: all 67 remaining offline tests passed. Reused 166/166 existing
+solution vectors across 18 runs and nine pairs without LLM calls or model
+downloads. Generated and visually checked all three figures at shared m=2..6;
+every overlapping run score exactly matches the previous per-batch outputs.
+Verified all 577 pre-existing result files retained their size and modification
+time. Original `results/vendi_solutions` exports and all other experiment data
+remain untouched. Rerun instructions are in `scripts/vendi/README.md`.
+
 ## 2026-09-28 — Complete solution Vendi for MLEvolve
 
 Added `scripts/compare_solution_vendi.py`, following autoresearch's complete-code

@@ -20,7 +20,7 @@ import compare_solution_vendi as sv
 
 
 def sample(candidate="one", **changes):
-    return dict(task="test-task", run_id="run-A", arm="A", candidate_id=candidate,
+    return dict(task="test-task", run_id="run-A", arm="A", candidate_id=candidate, batch="batch-one",
                 stage="solution", view="solution", original_stage="draft",
                 representation_version="solution-v1", text="Linear classifier.") | changes
 
@@ -45,9 +45,9 @@ class SolutionVendiTests(unittest.TestCase):
     def inventory(self, rows):
         path = self.root / "inventory.csv"
         with path.open("w", newline="") as stream:
-            writer = csv.DictWriter(stream, fieldnames=["name", "task", "arm", "pair_id", "verdict"])
+            writer = csv.DictWriter(stream, fieldnames=["name", "task", "arm", "pair_id", "verdict", "batch"])
             writer.writeheader()
-            writer.writerows(rows)
+            writer.writerows(dict(batch="batch-one") | row for row in rows)
         return path
 
     def read_csv(self, path):
@@ -81,7 +81,7 @@ runpy.run_path(script, run_name='__main__')
         # A broken ancestry map must not make available whole implementations unusable.
         self.journal("example", nodes, node2parent={"unknown-child": 123})
         inventory = self.inventory([dict(name="example", task="task", arm="F", pair_id="p1", verdict="ok")])
-        rows, issues = sv.load_solution_runs(self.root / "runs", inventory)
+        rows, issues = sv.load_runs(self.root / "runs", inventory)
         self.assertEqual(issues, [])
         self.assertEqual(len(rows), 4)
         self.assertEqual({r["original_stage"] for r in rows}, {"draft", "improve", "debug", "fusion_draft"})
@@ -101,7 +101,7 @@ runpy.run_path(script, run_name='__main__')
         self.journal("example", [dict(id="parent", stage="draft", code="print(1)"),
                                  dict(id="child", stage="improve", parent="parent", plan="Use a tree")])
         inventory = self.inventory([dict(name="example", task="task", arm="A", verdict="ok")])
-        rows, _ = sv.load_solution_runs(self.root / "runs", inventory)
+        rows, _ = sv.load_runs(self.root / "runs", inventory)
         child = next(row for row in rows if row["candidate_id"] == "child")
         self.assertEqual(child["extraction_status"], "missing_source")
         self.assertFalse(child["source"])
@@ -114,20 +114,18 @@ runpy.run_path(script, run_name='__main__')
             dict(name="invalid", task="task", arm="F", verdict="invalid"),
             dict(name="missing", task="task", arm="F", verdict="ok"),
         ])
-        rows, issues = sv.load_solution_runs(self.root / "runs", inventory)
+        rows, issues = sv.load_runs(self.root / "runs", inventory)
         self.assertEqual([row["run_id"] for row in rows], ["valid"])
         by_run = {row["run_id"]: row["issue"] for row in issues}
-        self.assertEqual(by_run["invalid"], "excluded_inventory_verdict")
+        self.assertEqual(by_run["invalid"], "excluded_manifest")
         self.assertTrue(by_run["missing"].startswith("journal_unavailable:"))
-        included, _ = sv.load_solution_runs(self.root / "runs", inventory, include_invalid=True)
-        self.assertEqual({row["run_id"] for row in included}, {"valid", "invalid"})
 
     def test_dry_run_reads_candidates_without_clients_or_writes(self):
         self.journal("example", [dict(id="d", stage="draft", code="print(1)"),
                                  dict(id="b", stage="debug", code="print(2)")])
         inventory = self.inventory([dict(name="example", task="task", arm="F", verdict="ok")])
         out, cache = self.root / "out", self.root / "cache"
-        result = self.run_cli(["--runs", str(self.root / "runs"), "--inventory", str(inventory),
+        result = self.run_cli(["--runs", str(self.root / "runs"), "--manifest", str(inventory),
                                "--out", str(out), "--cache", str(cache), "--dry-run"])
         self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
         self.assertEqual(json.loads(result.stdout)["samples"], 2)
@@ -246,7 +244,7 @@ runpy.run_path(script, run_name='__main__')
             summarizer = factory.return_value
             summarizer.model, summarizer.calls = "fixture-summary", 2
             summarizer.summarize_solution.side_effect = [(card, 1) for card in cards]
-            result = sv.main(["--runs", str(self.root / "runs"), "--inventory", str(inventory),
+            result = sv.main(["--runs", str(self.root / "runs"), "--manifest", str(inventory),
                               "--out", str(out), "--no-plots"])
         self.assertEqual(result, 0)
         supplied = [call.args for call in summarizer.summarize_solution.call_args_list]
@@ -265,8 +263,8 @@ runpy.run_path(script, run_name='__main__')
             inventory_rows.append(dict(name=name, task="task", arm="A", pair_id="same", verdict="ok"))
         inventory, out = self.inventory(inventory_rows), self.root / "out"
         with patch.object(sv, "SolutionSummarizer") as summarize, patch.object(sv, "embed_samples") as embed:
-            with self.assertRaisesRegex(ValueError, "Multiple runs for task/pair_id/arm"):
-                sv.main(["--runs", str(self.root / "runs"), "--inventory", str(inventory), "--out", str(out)])
+            with self.assertRaisesRegex(ValueError, "Multiple runs for task/batch/pair_id/arm"):
+                sv.main(["--runs", str(self.root / "runs"), "--manifest", str(inventory), "--out", str(out)])
         summarize.assert_not_called()
         embed.assert_not_called()
         self.assertFalse(out.exists())
@@ -304,7 +302,7 @@ runpy.run_path(script, run_name='__main__')
                     summarizer = factory.return_value
                     summarizer.model, summarizer.calls = "fixture-summary", 2
                     summarizer.summarize_solution.return_value = (card, 1)
-                    result = sv.main(["--runs", str(self.root / "runs"), "--inventory", str(inventory),
+                    result = sv.main(["--runs", str(self.root / "runs"), "--manifest", str(inventory),
                                       "--out", str(out), "--no-plots"])
                 self.assertEqual(result, expected, stdout.getvalue())
                 self.assertEqual(len(self.read_csv(out / "run_scores.csv")), 1)
@@ -315,7 +313,7 @@ runpy.run_path(script, run_name='__main__')
                     self.assertTrue(missing["issue"].startswith("journal_unavailable:"))
                 else:
                     self.assertNotIn("INCOMPLETE", stdout.getvalue())
-                    self.assertEqual(missing["issue"], "excluded_inventory_verdict")
+                    self.assertEqual(missing["issue"], "excluded_manifest")
 
     def test_nonfinite_precomputed_vectors_become_reported_errors(self):
         rows = [sample(str(i), embedding=vector, embedding_model="fixture-v1")
@@ -333,66 +331,112 @@ runpy.run_path(script, run_name='__main__')
         self.assertTrue(all(row["error"] == "invalid_embedding" and "embedding" not in row for row in failed))
         self.assertTrue((out / "manifest.json").exists())
 
-    def test_prefixes_share_folder_and_cleanup_only_their_own_plots(self):
-        source = self.jsonl([sample(str(i), embedding=vector, embedding_model="fixture-v1")
-                             for i, vector in enumerate(([1, 0], [0, 1]))])
+    def test_multiple_files_write_one_set_and_can_reuse_own_output(self):
+        sources = []
+        for batch, count in (("old", 3), ("new", 2)):
+            rows = [sample(str(i), run_id=f"{batch}-{arm}", batch=batch, arm=arm, pair_id="p",
+                           embedding=[1, 0] if arm == "A" else ([1, 0] if i % 2 else [0, 1]),
+                           embedding_model="fixture-v1")
+                    for arm in ("A", "F") for i in range(count)]
+            path = self.root / f"{batch}.jsonl"
+            path.write_text("".join(json.dumps(row) + "\n" for row in rows))
+            sources.append(path)
         out = self.root / "out"
+        out.mkdir()
+        unrelated = out / "unrelated.txt"
+        unrelated.write_text("keep me")
+        result = self.run_cli(["--input", *map(str, sources), "--out", str(out), "--no-plots"])
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        scores = self.read_csv(out / "run_scores.csv")
+        self.assertEqual(len(scores), 4)
+        self.assertEqual({r["m"] for r in scores}, {"2"})
+        self.assertEqual({r["batch"] for r in scores}, {"old", "new"})
+        self.assertEqual(len(self.read_csv(out / "paired.csv")), 2)
+        original_samples = (out / "samples.jsonl").read_bytes()
+        result = self.run_cli(["--input", str(out / "samples.jsonl"), "--out", str(out), "--no-plots"])
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        self.assertEqual(self.read_csv(out / "run_scores.csv"), scores)
+        self.assertEqual((out / "samples.jsonl").read_bytes(), original_samples)
+        self.assertEqual(unrelated.read_text(), "keep me")
+        for name in ("vendi.csv", "effect.csv", "paired.csv"):
+            self.assertTrue((out / name).exists())
 
-        def fake_plots(directory, scores, comparisons, coverage=None, prefix=""):
-            (directory / f"{prefix}vendi_01.png").write_bytes(b"plot")
-            (directory / f"{prefix}paired_deltas.png").write_bytes(b"pairs")
+    def test_manifest_imports_explicit_batch_and_pair_and_reports_absent_run(self):
+        source = self.jsonl([sample(str(i), embedding=v, embedding_model="fixture-v1")
+                             for i, v in enumerate(([1, 0], [0, 1]))])
+        manifest = self.inventory([
+            dict(name="run-A", task="test-task", arm="A", pair_id="p", verdict="ok"),
+            dict(name="run-F", task="test-task", arm="F", pair_id="p", verdict="ok")])
+        out = self.root / "out"
+        result = self.run_cli(["--input", str(source), "--manifest", str(manifest), "--out", str(out), "--no-plots"])
+        self.assertEqual(result.returncode, 2, result.stdout + result.stderr)
+        score = self.read_csv(out / "run_scores.csv")[0]
+        self.assertEqual((score["batch"], score["pair_id"]), ("batch-one", "p"))
+        self.assertIn("samples_unavailable", result.stdout)
+        self.assertEqual(self.read_csv(out / "paired.csv"), [])
 
-        filenames = ("solution_cards.csv", "full_run_scores.csv", "run_scores.csv", "comparisons.csv",
-                     "coverage.csv", "samples.jsonl", "manifest.json", "REPORT.md", "vendi_01.png", "paired_deltas.png")
-        with patch.object(sv, "plot_results", side_effect=fake_plots), contextlib.redirect_stdout(io.StringIO()):
-            self.assertEqual(sv.main(["--input", str(source), "--out", str(out), "--prefix", "first"]), 0)
-            first = {name: (out / f"first_{name}").read_bytes() for name in filenames}
-            self.assertEqual(sv.main(["--input", str(source), "--out", str(out), "--prefix", "second"]), 0)
-            second = {name: (out / f"second_{name}").read_bytes() for name in filenames}
-            self.assertEqual(first, {name: (out / f"first_{name}").read_bytes() for name in filenames})
-            for name in ("vendi_01.png", "paired_deltas.png", "unrelated_vendi_01.png"):
-                (out / name).write_bytes(b"unrelated")
-            (out / "first_vendi_02.png").write_bytes(b"stale")
-            self.assertEqual(sv.main(["--input", str(source), "--out", str(out), "--prefix", "first", "--no-plots"]), 0)
-        self.assertEqual(second, {name: (out / f"second_{name}").read_bytes() for name in filenames})
-        for name in ("first_vendi_01.png", "first_vendi_02.png", "first_paired_deltas.png"):
-            self.assertFalse((out / name).exists(), name)
-        for name in ("vendi_01.png", "paired_deltas.png", "unrelated_vendi_01.png"):
-            self.assertEqual((out / name).read_bytes(), b"unrelated")
-        for name in filenames[:-2]:
-            self.assertFalse((out / name).exists(), name)
-        report = (out / "first_REPORT.md").read_text()
-        for name in ("run_scores.csv", "comparisons.csv", "full_run_scores.csv", "solution_cards.csv",
-                     "samples.jsonl", "coverage.csv", "manifest.json"):
-            self.assertIn(f"first_{name}", report)
-
-    def test_prefix_rejects_paths_globs_and_non_ascii_before_writes(self):
-        source = self.jsonl([sample(embedding=[1, 0], embedding_model="fixture-v1")])
-        for prefix in ("../escape", "path/name", "path\\name", "all*", "x[ab]", "with space", "a.b", "中文"):
-            with self.subTest(prefix=prefix):
-                out = self.root / "out"
-                result = self.run_cli(["--input", str(source), "--out", str(out), "--prefix", prefix, "--no-plots"])
-                self.assertEqual(result.returncode, 2, result.stdout + result.stderr)
-                self.assertIn("prefix", result.stderr)
+    def test_rejects_conflicting_export_and_mixed_summary_measurements(self):
+        cases = ([sample(embedding=[1, 0], embedding_model="v"), sample(embedding=[0, 1], embedding_model="v")],
+                 [sample(str(i), summary_model=model, embedding=[1, 0], embedding_model="v")
+                  for i, model in enumerate(("first", "second"))],
+                 [sample(embedding=[1, 0], embedding_model="")],
+                 [sample(batch=None, embedding=[1, 0], embedding_model="v")])
+        for rows in cases:
+            with self.subTest(rows=rows):
+                source, out = self.jsonl(rows), self.root / "out"
+                result = self.run_cli(["--input", str(source), "--out", str(out), "--no-plots"])
+                self.assertNotEqual(result.returncode, 0)
                 self.assertNotIn("Offline CLI imported", result.stderr)
                 self.assertFalse(out.exists())
 
-    def test_prefixed_manifest_guard_only_checks_its_own_artifacts(self):
-        source = self.jsonl([sample(str(i), embedding=vector, embedding_model="fixture-v1")
-                             for i, vector in enumerate(([1, 0], [0, 1]))])
+    def test_import_records_actual_prompt_provenance(self):
+        source = self.jsonl([sample(str(i), summary_prompt_sha256="original-prompt",
+                                    embedding=v, embedding_model="v")
+                             for i, v in enumerate(([1, 0], [0, 1]))])
+        out = self.root / "out"
+        result = self.run_cli(["--input", str(source), "--out", str(out), "--no-plots"])
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        manifest = json.loads((out / "manifest.json").read_text())
+        self.assertEqual(manifest["summary_prompt_sha256"], "original-prompt")
+        self.assertNotEqual(manifest["configured_summary_prompt_sha256"], "original-prompt")
+
+    def test_missing_node_ids_preserve_frequency_and_duplicate_ids_fail(self):
+        manifest = self.inventory([dict(name="example", task="task", arm="A")])
+        self.journal("example", [dict(id=None, code="print(1)"), dict(id=None, code="print(1)")])
+        rows, issues = sv.load_runs(self.root / "runs", manifest)
+        self.assertEqual(len(rows), 2)
+        self.assertEqual(len({r["candidate_id"] for r in rows}), 2)
+        self.assertFalse(issues)
+        self.journal("example", [dict(id="x", code="print(1)"), dict(id="x", code="print(1)")])
+        with self.assertRaisesRegex(ValueError, "Duplicate candidate ID"):
+            sv.load_runs(self.root / "runs", manifest)
+
+    def test_optional_pair_column_does_not_erase_saved_pairing(self):
+        manifest = self.root / "manifest.csv"
+        manifest.write_text("name,task,arm,batch\nrun-A,test-task,A,first\n")
+        source = self.jsonl([sample(pair_id="p", batch="", embedding=[1, 0], embedding_model="v")])
+        rows, issues = sv.load_samples([source], manifest)
+        self.assertEqual(rows[0]["pair_id"], "p")
+        self.assertFalse(issues)
+
+    def test_output_guard_preserves_legacy_and_raw_results(self):
+        source = self.jsonl([sample(str(i), embedding=v, embedding_model="v")
+                             for i, v in enumerate(([1, 0], [0, 1]))])
         out = self.root / "out"
         out.mkdir()
-        legacy = json.dumps({"representation_version": "diff-v1"})
-        for name in ("manifest.json", "legacy_manifest.json"):
-            (out / name).write_text(legacy)
-        result = self.run_cli(["--input", str(source), "--out", str(out), "--prefix", "fresh", "--no-plots"])
-        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
-        result = self.run_cli(["--input", str(source), "--out", str(out), "--prefix", "legacy", "--no-plots"])
+        legacy = json.dumps(dict(representation_version="diff-v1"))
+        (out / "manifest.json").write_text(legacy)
+        result = self.run_cli(["--input", str(source), "--out", str(out), "--no-plots"])
         self.assertNotEqual(result.returncode, 0)
-        self.assertNotIn("Offline CLI imported", result.stderr)
-        self.assertFalse((out / "legacy_run_scores.csv").exists())
-        for name in ("manifest.json", "legacy_manifest.json"):
-            self.assertEqual((out / name).read_text(), legacy)
+        self.assertEqual((out / "manifest.json").read_text(), legacy)
+        self.assertFalse((out / "samples.jsonl").exists())
+        self.journal("example", [dict(id="x", code="print(1)")])
+        manifest = self.inventory([dict(name="example", task="task", arm="A")])
+        result = self.run_cli(["--runs", str(self.root / "runs"), "--manifest", str(manifest),
+                               "--out", str(self.root / "runs" / "analysis"), "--no-plots"])
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("outside the raw runs", result.stderr)
+        self.assertFalse((self.root / "runs/analysis").exists())
 
 
 if __name__ == "__main__":

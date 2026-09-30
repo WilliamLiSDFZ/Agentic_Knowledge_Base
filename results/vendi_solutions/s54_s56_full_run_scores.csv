@@ -1,7 +1,0 @@
-task,run_id,arm,pair_id,n_total,vendi,status
-jigsaw-unintended-bias-in-toxicity-classification,20260911_071931_jubias-base-s54,A,,8,1.9019530132330735,descriptive_unmatched_counts
-jigsaw-unintended-bias-in-toxicity-classification,20260911_072108_jubias-base-s55,A,,8,2.070773063554231,descriptive_unmatched_counts
-jigsaw-unintended-bias-in-toxicity-classification,20260911_072344_jubias-base-s56,A,,11,2.1043348029281517,descriptive_unmatched_counts
-jigsaw-unintended-bias-in-toxicity-classification,20260911_072611_jubias-anaf-s55,F,,14,2.3971027579991855,descriptive_unmatched_counts
-jigsaw-unintended-bias-in-toxicity-classification,20260911_072611_jubias-anaf-s56,F,,11,2.141370029807692,descriptive_unmatched_counts
-jigsaw-unintended-bias-in-toxicity-classification,20260911_072808_jubias-anaf-s54,F,,7,2.004973184563058,descriptive_unmatched_counts

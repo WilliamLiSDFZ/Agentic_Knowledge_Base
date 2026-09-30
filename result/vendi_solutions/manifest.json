@@ -1,0 +1,189 @@
+{
+  "representation_version": "solution-v1",
+  "args": {
+    "runs": null,
+    "input": [
+      "result/vendi_solutions/samples.jsonl"
+    ],
+    "manifest": null,
+    "run_glob": "*",
+    "arms": null,
+    "baseline": "A",
+    "valid_only": false,
+    "out": "/Users/william/Documents/project/python/Agentic_Knowledge_Base/result/vendi_solutions",
+    "cache": "/Users/william/Documents/project/python/Agentic_Knowledge_Base/cache/vendi_solutions",
+    "summary_model": null,
+    "summary_api": "chat",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "embedding_max_length": 512,
+    "reembed": false,
+    "repeats": 1000,
+    "seed": 42,
+    "dry_run": false,
+    "no_plots": false
+  },
+  "embedding": {
+    "model": "26b5e4558503e4cfb5aab0e413b42f95ed206bbb0be5e9f68cf69290fa96ba5d",
+    "backend": "precomputed"
+  },
+  "summary_models": [
+    "gpt-5.6-terra"
+  ],
+  "summary_prompt_sha256": "cf716b3f2947a5b201e5eee277599dc8b6f9db35ad234979c3e7268b32a459a5",
+  "configured_summary_prompt_sha256": "cf716b3f2947a5b201e5eee277599dc8b6f9db35ad234979c3e7268b32a459a5",
+  "summary_api_calls": 0,
+  "source_hashes": {
+    "scripts/compare_solution_vendi.py": "379182139ae3d9a706972bfcd50007ebe8ee472becc34e1e3211f7071134d01e",
+    "scripts/vendi/__init__.py": "f844a2a84c86db5ac3c0c795eb85416393c6eac8461a9582662c4bda337f867c",
+    "scripts/vendi/metrics.py": "557e4b7b321d6d788ad71042c2ca833750a4a85809d137d81ee17ccfd84b7bdf",
+    "scripts/vendi/reader.py": "d440caddb7bfefde33e00a9d33bd586f5fcb1503499a67e38c06a0ca60081e3e",
+    "scripts/vendi/reporting.py": "d41a51de8e840b8fcfa1b1a04ff4342220afc4fb6fc561f6ad10debc7efb5f42",
+    "scripts/vendi/runtime.py": "571574b1fef039025a31848d5641ba3b06514b59b3b666841aed79e861a42311"
+  },
+  "input_hashes": {
+    "result/vendi_solutions/samples.jsonl": "e982cef27cc8454a7a6b930a0767ec0ba45e4b95c90972c7d9b36efc4c7df2cf"
+  },
+  "samples": 166,
+  "available": 166,
+  "plots": [
+    "vendi.csv",
+    "effect.csv",
+    "paired.csv",
+    "vendi.png",
+    "vendi.pdf",
+    "effect.png",
+    "effect.pdf",
+    "paired.png",
+    "paired.pdf"
+  ],
+  "run_metadata": [
+    {
+      "task": "jigsaw-unintended-bias-in-toxicity-classification",
+      "batch": "s52_s53",
+      "run_id": "20260910_022413_jubias-base-s53",
+      "arm": "A",
+      "pair_id": "S53"
+    },
+    {
+      "task": "jigsaw-unintended-bias-in-toxicity-classification",
+      "batch": "s52_s53",
+      "run_id": "20260910_022912_jubias-anaf-s53",
+      "arm": "F",
+      "pair_id": "S53"
+    },
+    {
+      "task": "jigsaw-unintended-bias-in-toxicity-classification",
+      "batch": "s52_s53",
+      "run_id": "20260910_022943_jubias-anaf-s52",
+      "arm": "F",
+      "pair_id": "S52"
+    },
+    {
+      "task": "jigsaw-unintended-bias-in-toxicity-classification",
+      "batch": "s52_s53",
+      "run_id": "20260910_022953_jubias-base-s52",
+      "arm": "A",
+      "pair_id": "S52"
+    },
+    {
+      "task": "jigsaw-unintended-bias-in-toxicity-classification",
+      "batch": "s54_s56",
+      "run_id": "20260911_071931_jubias-base-s54",
+      "arm": "A",
+      "pair_id": "S54"
+    },
+    {
+      "task": "jigsaw-unintended-bias-in-toxicity-classification",
+      "batch": "s54_s56",
+      "run_id": "20260911_072108_jubias-base-s55",
+      "arm": "A",
+      "pair_id": "S55"
+    },
+    {
+      "task": "jigsaw-unintended-bias-in-toxicity-classification",
+      "batch": "s54_s56",
+      "run_id": "20260911_072344_jubias-base-s56",
+      "arm": "A",
+      "pair_id": "S56"
+    },
+    {
+      "task": "jigsaw-unintended-bias-in-toxicity-classification",
+      "batch": "s54_s56",
+      "run_id": "20260911_072611_jubias-anaf-s55",
+      "arm": "F",
+      "pair_id": "S55"
+    },
+    {
+      "task": "jigsaw-unintended-bias-in-toxicity-classification",
+      "batch": "s54_s56",
+      "run_id": "20260911_072611_jubias-anaf-s56",
+      "arm": "F",
+      "pair_id": "S56"
+    },
+    {
+      "task": "jigsaw-unintended-bias-in-toxicity-classification",
+      "batch": "s54_s56",
+      "run_id": "20260911_072808_jubias-anaf-s54",
+      "arm": "F",
+      "pair_id": "S54"
+    },
+    {
+      "task": "jigsaw-unintended-bias-in-toxicity-classification",
+      "batch": "s58_s59",
+      "run_id": "20260912_081346_jubias-anaf-gpt56sol-s58",
+      "arm": "F",
+      "pair_id": "S58"
+    },
+    {
+      "task": "jigsaw-unintended-bias-in-toxicity-classification",
+      "batch": "s58_s59",
+      "run_id": "20260912_082030_jubias-base-gpt56sol-s59",
+      "arm": "A",
+      "pair_id": "S59"
+    },
+    {
+      "task": "jigsaw-unintended-bias-in-toxicity-classification",
+      "batch": "s58_s59",
+      "run_id": "20260912_082058_jubias-base-gpt56sol-s58",
+      "arm": "A",
+      "pair_id": "S58"
+    },
+    {
+      "task": "jigsaw-unintended-bias-in-toxicity-classification",
+      "batch": "s58_s59",
+      "run_id": "20260912_082449_jubias-anaf-gpt56sol-s59",
+      "arm": "F",
+      "pair_id": "S59"
+    },
+    {
+      "task": "jigsaw-unintended-bias-in-toxicity-classification",
+      "batch": "s61_s62",
+      "run_id": "20260914_062456_jubias-base-gpt56sol-s61",
+      "arm": "A",
+      "pair_id": "S61"
+    },
+    {
+      "task": "jigsaw-unintended-bias-in-toxicity-classification",
+      "batch": "s61_s62",
+      "run_id": "20260914_070227_jubias-base-gpt56sol-s62",
+      "arm": "A",
+      "pair_id": "S62"
+    },
+    {
+      "task": "jigsaw-unintended-bias-in-toxicity-classification",
+      "batch": "s61_s62",
+      "run_id": "20260914_070253_jubias-anaf-gpt56sol-s62",
+      "arm": "F",
+      "pair_id": "S62"
+    },
+    {
+      "task": "jigsaw-unintended-bias-in-toxicity-classification",
+      "batch": "s61_s62",
+      "run_id": "20260914_070847_jubias-anaf-gpt56sol-s61",
+      "arm": "F",
+      "pair_id": "S61"
+    }
+  ],
+  "comparison": "q=1 cosine Vendi; complete solutions; common m within task; effects within batch; descriptive"
+}

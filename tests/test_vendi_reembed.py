@@ -2,8 +2,6 @@
 
 import contextlib
 import copy
-import io
-import json
 from pathlib import Path
 import sys
 import tempfile
@@ -14,12 +12,13 @@ from unittest.mock import patch
 import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-import compare_vendi as cv
+from vendi import runtime as vr
 
 
 def sample(candidate="one", text="linear classifier", **changes):
-    return dict(task="task", run_id="run", arm="A", candidate_id=candidate, stage="draft",
-                view="implementation", text=text, extraction_status="ok") | changes
+    return dict(task="task", run_id="run", arm="A", candidate_id=candidate, stage="solution",
+                view="solution", representation_version=vr.SOLUTION_VERSION,
+                text=text, extraction_status="ok") | changes
 
 
 class ReembeddingTests(unittest.TestCase):
@@ -57,7 +56,7 @@ class ReembeddingTests(unittest.TestCase):
             yield calls
 
     def embed(self, row, max_length=None):
-        return cv.embed_samples([row], self.root / "cache", "fake/model", max_length=max_length)
+        return vr.embed_samples([row], self.root / "cache", "fake/model", max_length=max_length)
 
     def test_explicit_512_window_encodes_full_294_tokens_without_changing_default(self):
         text = " ".join(f"token{i}" for i in range(294))
@@ -99,47 +98,55 @@ class ReembeddingTests(unittest.TestCase):
         self.assertEqual(len(list((self.root / "cache" / "embeddings").glob("*.json"))), 2)
 
     def test_reembed_clears_all_old_embedding_state_but_preserves_source(self):
+        card = {"title": "Linear classifier", "summary": "Fit a linear classifier.", "evidence": ["SOURCE:1"]}
         rows = [sample(embedding=[0, 1], embedding_model="old-model", embedding_tokens=21,
-                       source_hash="original-code-hash", mechanism_card={"model": "linear classifier"}),
+                       source_hash="original-code-hash", mechanism_card=card),
                 sample("two", extraction_status="error", error="embedding_token_limit", embedding_tokens=294,
-                       source_hash="second-code-hash", mechanism_card={"model": "linear classifier"})]
+                       source_hash="second-code-hash", mechanism_card=card)]
         originals = copy.deepcopy(rows)
-        cv.prepare_reembedding(rows)
+        vr.prepare_reembedding(rows)
         for row, original in zip(rows, originals):
-            for key in ("embedding", "embedding_model", "embedding_tokens", "error", "extraction_status"):
+            for key in ("embedding", "embedding_model", "embedding_tokens", "error"):
                 self.assertNotIn(key, row)
+            self.assertEqual(row["extraction_status"], "ok")
             for key in ("text", "source_hash", "mechanism_card", "candidate_id"):
                 self.assertEqual(row[key], original[key])
 
-        # Exercise the actual CLI entry on a mixed prior result without any LLM calls.
-        source, out = self.root / "input.jsonl", self.root / "out"
-        source.write_text("".join(json.dumps(row) + "\n" for row in originals))
-        with self.model() as calls, patch.object(cv, "Summarizer") as summarize, \
-                contextlib.redirect_stdout(io.StringIO()):
-            result = cv.main(["--input", str(source), "--reembed", "--embedding-max-length", "512",
-                              "--cache", str(self.root / "cache"), "--out", str(out), "--no-plots"])
-        summarize.assert_not_called()
-        self.assertEqual(result, 0)
-        exported = [json.loads(line) for line in (out / "samples.jsonl").read_text().splitlines()]
-        self.assertEqual(len(exported), 2)
+        with self.model() as calls:
+            identity = vr.embed_samples(rows, self.root / "cache", "fake/model", max_length=512)
         self.assertEqual(len(calls["encoded"]), 1)  # Identical summaries reuse the new vector.
-        for row, original in zip(exported, originals):
+        for row, original in zip(rows, originals):
             self.assertEqual(row["extraction_status"], "ok")
             self.assertEqual(row["embedding"], [1.0, 0.0])
             self.assertNotEqual(row["embedding_model"], "old-model")
             self.assertEqual(row["source_hash"], original["source_hash"])
             self.assertEqual(row["mechanism_card"], original["mechanism_card"])
             self.assertNotIn("error", row)
-        manifest = json.loads((out / "manifest.json").read_text())
-        self.assertEqual(manifest["summary_api_calls"], 0)
-        self.assertEqual(manifest["embedding"]["max_seq_length"], 512)
+        self.assertEqual(identity["max_seq_length"], 512)
 
     def test_reembed_rejects_missing_text_before_mutating_any_rows(self):
         for text in ("", "   "):
-            rows = [sample(embedding=[1, 0], embedding_model="old"), sample("two", text=text)]
+            rows = [sample(embedding=[1, 0], embedding_model="old"),
+                    sample("two", text=text, embedding=[0, 1], embedding_model="old")]
             original = copy.deepcopy(rows)
             with self.assertRaisesRegex(ValueError, "requires nonempty text"):
-                cv.prepare_reembedding(rows)
+                vr.prepare_reembedding(rows)
+            self.assertEqual(rows, original)
+
+    def test_reembed_preserves_missing_and_excluded_rows(self):
+        rows = [sample("missing", text="", extraction_status="missing_source"),
+                sample("failed", text="", extraction_status="error", error="summary_failed:TimeoutError"),
+                sample("excluded", embedding=[1, 0], embedding_model="old", extraction_status="excluded")]
+        originals = copy.deepcopy(rows)
+        vr.prepare_reembedding(rows)
+        self.assertEqual(rows, originals)
+
+    def test_reembed_requires_solution_representation_before_mutating_any_rows(self):
+        for changes in ({"stage": "draft"}, {"view": "implementation"}, {"representation_version": "other"}):
+            rows = [sample(embedding=[1, 0], embedding_model="old"), sample("two", **changes)]
+            original = copy.deepcopy(rows)
+            with self.subTest(changes=changes), self.assertRaisesRegex(ValueError, "solution-v1"):
+                vr.prepare_reembedding(rows)
             self.assertEqual(rows, original)
 
     def test_precomputed_vectors_cannot_claim_new_window(self):
