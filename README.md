@@ -156,10 +156,38 @@ python scripts/measure_adoption.py --runs ~/nautilus/results \
 python scripts/show_models.py --runs ~/nautilus/results --task jigsaw
 ```
 
+For the draft Top-25 experiment, keep downloads in the existing `~/nautilus/results/` directory
+(the fetch script's default). List the available runs first, then download the six full run names
+from the same launch batch; `--all jubias-draft` would also include earlier interrupted/restarted
+batches. Pass those same six names to `--run-names` when plotting to select them from the shared
+directory and `scores.csv`; a missing run folder is reported as an error.
+
+```bash
+NS=ecepxie bash ~/nautilus/fetch-run.sh --list jubias-draft
+NS=ecepxie bash ~/nautilus/fetch-run.sh "<full-run-name>"
+python scripts/analyze_runs.py --runs ~/nautilus/results \
+    --run-names "<base-s42-full-name>" "<rerank-s42-full-name>" \
+                "<base-s43-full-name>" "<rerank-s43-full-name>" \
+                "<base-s44-full-name>" "<rerank-s44-full-name>" \
+    --scores ~/nautilus/results/scores.csv --out results/draft-top25 --charts
+```
+
+The fetch script includes `logs/draft_technique_rerank.json`, `logs/draft_techniques.json`,
+`logs/draft_techniques.md` and `logs/executions/` without `--full`. A/G comparisons use the
+existing paired, effect, process and score-vs-K figures. If G has no same-batch A, it borrows an
+`ok` A from the same task and seed with the closest start time (before or after G), marked
+`borrowed` / `unpaired`. G gets first choice of donors; each A can be borrowed only once.
+Include the donor in `--run-names` when selecting runs. `plot_analogy.py` remains specific to
+D/E/F. Recoverable initial-generation and search-task errors are recorded in the inventory as
+`n_generation_failures` and
+`n_search_failures`; early termination and missing outputs still invalidate a run.
+
 Vocabulary, all of it load-bearing:
 
-- **Arms** — `A` = no KB, `B` = KB at draft, `C` = KB at draft + improve. Recovered from each run's
-  `logs/config.yaml`, never from the directory name.
+- **Arms** — `A` = baseline, `B/C` = historical KB at draft / draft + improve,
+  `D/E/F` = analogy at improve / first draft / both, `G` = task-specific corpus Top-25 at every
+  draft (`draft_techniques.enabled=True`). Recovered from each run's `logs/config.yaml`, never
+  from the directory name. A and G both retain pretrained-model guidance in the new experiment.
 - **Draw** — one launch batch, clustered by start time. **`agent.seed` is not a draw id**: it seeds
   the generated code, not the agent's search, and the LLM is sampled, so two runs at the same seed
   are two independent draws — demonstrated when a same-seed pair flipped the sign of B−A.

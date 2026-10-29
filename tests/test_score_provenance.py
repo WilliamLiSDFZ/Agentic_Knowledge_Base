@@ -13,7 +13,7 @@ JUBIAS = "jigsaw-unintended-bias-in-toxicity-classification"
 
 
 class ScoreProvenanceTests(unittest.TestCase):
-    def load(self, rows, variant="capped"):
+    def load(self, rows, variant="capped", run_names=None):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "scores.csv"
             with path.open("w", newline="") as fh:
@@ -22,7 +22,7 @@ class ScoreProvenanceTests(unittest.TestCase):
                 writer = csv.DictWriter(fh, fieldnames=fields)
                 writer.writeheader()
                 writer.writerows(rows)
-            return load_scores(path, variant)
+            return load_scores(path, variant, run_names)
 
     def row(self, **changes):
         row = dict(run="run-a", competition=JUBIAS, variant="capped", k=1, score=0.92,
@@ -48,6 +48,18 @@ class ScoreProvenanceTests(unittest.TestCase):
     def test_other_fusion_variant_is_not_mixed(self):
         scores, _ = self.load([self.row(), self.row(run="run-b", variant="uncapped", metric_version="old")])
         self.assertEqual(set(scores), {"run-a"})
+
+    def test_selected_runs_ignore_unrelated_old_scores(self):
+        rows = [self.row(), self.row(run="old-run", metric_version="", grader_sha256="")]
+        scores, lower = self.load(rows, run_names={"run-a"})
+        self.assertEqual(scores, {"run-a": {1: 0.92}})
+        self.assertEqual(lower, {JUBIAS: False})
+        self.assertEqual(self.load(rows, run_names=set()), ({}, {}))
+
+    def test_selected_runs_still_require_consistent_grading(self):
+        rows = [self.row(), self.row(run="run-b", grader_sha256="different")]
+        with self.assertRaisesRegex(ValueError, "Mixed grading versions"):
+            self.load(rows, run_names={"run-a", "run-b"})
 
 
 if __name__ == "__main__":

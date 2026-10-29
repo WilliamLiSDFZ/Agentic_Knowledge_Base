@@ -1,6 +1,6 @@
 """Step 1 of the run analysis: decide which experiment records are usable.
 
-Reads every run directory under --runs and emits two tables:
+Reads run directories under --runs (optionally selected by --run-names) and emits two tables:
 
     run_inventory.csv   one row per run, every extracted field plus its verdict
     groups.csv          one row per comparison group (task x seed x wiring)
@@ -161,6 +161,9 @@ THRESHOLDS = Thresholds()
 TASKS: dict[str, dict[str, Any]] = {
     "jigsaw-toxic-comment-classification-challenge":
         {"short": "jigsaw", "maximize": True,  "metric": "mean col-wise ROC AUC"},
+    "jigsaw-unintended-bias-in-toxicity-classification":
+        {"short": "jigsaw-unintended-bias-in-toxicity-classification",
+         "maximize": True, "metric": "bias-aware ROC AUC"},
     "learning-agency-lab-automated-essay-scoring-2":
         {"short": "essay",  "maximize": True,  "metric": "quadratic weighted kappa"},
     "lmsys-chatbot-arena":
@@ -182,6 +185,8 @@ RE_RATELIMIT = re.compile(r"Error code: 429|RateLimitError|insufficient_quota|mo
 RE_DIRECTION_DEFAULTED = re.compile(r"default value maximize", re.I)
 RE_DIRECTION_OK = re.compile(r"metric direction validated: maximize=(True|False)", re.I)
 RE_TASK_EXC = re.compile(r"Exception during task execution")
+RE_GENERATION_FAILURE = re.compile(r"^\[\d{4}-[^\n]+\] ERROR: Initial draft \d+ generation failed\b", re.M)
+RE_SEARCH_FAILURE = re.compile(r"^\[\d{4}-[^\n]+\] ERROR: Search task failed\b", re.M)
 
 # A node that defines its own network or estimator rather than instantiating a known one. The
 # hypothesis this measures: when the agent has no concrete technique to implement it invents an
@@ -237,7 +242,7 @@ class Run:
     task: str = ""
     exp_id: str = ""
     seed: Any = None
-    arm: str = ""              # A = baseline | B = KB at draft | C = KB at draft+improve
+    arm: str = ""              # A = baseline; B/C = old KB; D/E/F = analogy; G = corpus Top-25
     wiring: str = ""           # fixed | legacy
     retrieval: str = ""
     model: str = ""
@@ -259,6 +264,8 @@ class Run:
     n_valid: int = 0
     buggy_fraction: float = 0.0
     n_coded: int = 0
+    n_generation_failures: int = 0
+    n_search_failures: int = 0
     custom_arch_fraction: float = 0.0
     best_metric: Any = None
     maximize_used: Any = None
@@ -303,6 +310,10 @@ def parse_log(run: Run, log: Path) -> None:
     m = RE_DIRECTION_OK.search(text)
     if m:
         run.direction_validated = m.group(1) == "True"
+
+    # The new pipeline catches these failures and continues; they are not run-level crashes.
+    run.n_generation_failures = len(RE_GENERATION_FAILURE.findall(text))
+    run.n_search_failures = len(RE_SEARCH_FAILURE.findall(text))
 
     # A traceback only indicates a broken run if it is not just the API refusing to serve. In the
     # quota-exhausted runs every single traceback is a 429; counting those as crashes would
@@ -380,7 +391,10 @@ def parse_config(run: Run, cfg_path: Path) -> None:
     kb_on = bool(cfg.get("methodology_kb_path")) and run.retrieval == "lazy"
     an = cfg.get("analogy") or {}
     analogy_on = bool(an.get("enabled"))
-    if analogy_on:
+    if bool(_dig(cfg, "draft_techniques", "enabled", default=False)):
+        run.arm = "G"
+        run.retrieval = "corpus_top25"
+    elif analogy_on:
         at_improve = bool(an.get("improve", True))
         at_draft = bool(an.get("draft", False))
         run.arm = {(True, False): "D", (False, True): "E", (True, True): "F"}.get((at_improve, at_draft), "D")
@@ -392,7 +406,8 @@ def parse_config(run: Run, cfg_path: Path) -> None:
     # techniques being concatenated onto the pretrained-model guidance (which also defeated the
     # "None model" sentinel, so the arms differed by a whole extra prompt section). Its presence
     # is a structural marker of the code version — more reliable than comparing dates.
-    run.wiring = "fixed" if ("methodology_text" in cs or analogy_on or "analogy" in cfg) else "legacy"
+    run.wiring = "fixed" if ("methodology_text" in cs or analogy_on or "analogy" in cfg
+                             or "draft_techniques" in cfg) else "legacy"
 
 
 def parse_journal(run: Run, jr: Path) -> None:
@@ -530,6 +545,10 @@ RULES: list[tuple[str, str, Any]] = [
      lambda r: r.buggy_fraction > THRESHOLDS.max_buggy_fraction),
     ("ratelimit_minor", "",
      lambda r: 0 < r.n_ratelimit <= THRESHOLDS.max_ratelimit_errors),
+    ("generation_failures", "",
+     lambda r: r.n_generation_failures > 0),
+    ("search_failures", "",
+     lambda r: r.n_search_failures > 0),
 ]
 
 
@@ -651,16 +670,23 @@ def build_groups(runs: list[Run]) -> list[Group]:
             # same number twice as if it were two independent observations, shrinking the
             # variance estimate and inventing significance.
             pool = [g.arms["A"] for g in tg if "A" in g.arms and g.arms["A"].verdict == "ok"]
-            needy = [g for g in tg if "A" not in g.arms and ({"B", "C", "D", "E", "F"} & set(g.arms))]
+            needy = [g for g in tg if "A" not in g.arms
+                     and ({"B", "C", "D", "E", "F", "G"} & set(g.arms))]
 
-            # Prefer the donor whose seed matches, purely to preserve the original pairing
-            # intent; seed carries no statistical meaning here (see draw_gap_hours). Anything
-            # left over is matched in draw order.
-            for g in needy:
+            # G requires the same seed and takes the closest launch time, before or after G.
+            # Allocate G first so historical arms cannot consume its nearest donor. B-F retain
+            # their seed preference and draw-order fallback; all borrowing remains unpaired.
+            for g in sorted(needy, key=lambda g: "G" not in g.arms):
                 want = {r.seed for r in g.arms.values() if r.seed is not None}
-                match = next((d for d in pool if d.seed in want), None)
-                if match is None and pool:
-                    match = pool[0]
+                if "G" in g.arms:
+                    started = datetime.strptime(g.arms["G"].started, "%Y-%m-%d %H:%M:%S")
+                    match = min((d for d in pool if d.seed in want),
+                                key=lambda d: abs(datetime.strptime(d.started, "%Y-%m-%d %H:%M:%S")
+                                                  - started), default=None)
+                else:
+                    match = next((d for d in pool if d.seed in want), None)
+                    if match is None and pool:
+                        match = pool[0]
                 if match is None:
                     continue
                 pool.remove(match)
@@ -696,9 +722,11 @@ def build_groups(runs: list[Run]) -> list[Group]:
 # ══════════════════════════════════════════════════════════════════════════════════════
 
 
-def load_scores(path: Path, variant: str = "capped") -> tuple[dict, dict]:
+def load_scores(path: Path, variant: str = "capped",
+                run_names: set[str] | None = None) -> tuple[dict, dict]:
     """Read scores.csv from MLEvolve/utils/grade_all.py.
 
+    If run_names is supplied, only those runs are loaded and checked for grading consistency.
     Returns (by_run_k, lower_better_by_task) where by_run_k[run][k] = score. Scores cannot be
     computed here: mle-bench's private answers only exist on the cluster.
 
@@ -712,6 +740,8 @@ def load_scores(path: Path, variant: str = "capped") -> tuple[dict, dict]:
     provenance: dict[str, tuple[str, str]] = {}
     with path.open() as fh:
         for row in csv.DictReader(fh):
+            if run_names is not None and row.get("run") not in run_names:
+                continue
             if not row.get("score"):
                 continue
             if row.get("variant", "capped") != variant:
@@ -768,7 +798,7 @@ def build_process_charts(groups: list[Group], runs: list[Run], out: Path) -> tup
                   "process": {a: _process_of(r) for a, r in g.arms.items()},
                   "borrowed": g.borrowed}
                  for g in groups if g.task == task and g.usable and g.wiring != "legacy"]
-        if len(draws) < 2:
+        if not draws:
             continue
         n_excluded = sum(1 for r in runs if r.task == task and r.verdict != "ok")
         p, stats = pe.plot_process(task, draws, out, n_excluded)
@@ -883,6 +913,7 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--runs", required=True, help="directory containing the run folders")
+    ap.add_argument("--run-names", nargs="+", help="analyse only these exact run folder names")
     ap.add_argument("--out", default=None, help="output dir (default: parent of --runs)")
     ap.add_argument("--manual-exclusions", default=None,
                     help="YAML mapping run name -> reason, for problems that leave no trace in "
@@ -898,6 +929,13 @@ def main() -> int:
     args = ap.parse_args()
 
     root = Path(args.runs)
+    run_dirs = sorted(p for p in root.iterdir() if p.is_dir())
+    selected = set(args.run_names) if args.run_names else None
+    if selected is not None:
+        missing = selected - {p.name for p in run_dirs}
+        if missing:
+            ap.error(f"run folders not found in {root}: {', '.join(sorted(missing))}")
+        run_dirs = [p for p in run_dirs if p.name in selected]
     out = Path(args.out) if args.out else root.parent
     out.mkdir(parents=True, exist_ok=True)
     manual: dict[str, str] = {}
@@ -905,7 +943,7 @@ def main() -> int:
         manual = yaml.safe_load(Path(args.manual_exclusions).read_text()) or {}
 
     runs: list[Run] = []
-    for d in sorted(p for p in root.iterdir() if p.is_dir()):
+    for d in run_dirs:
         r = Run(name=d.name, path=str(d))
         parse_log(r, d / "logs" / "MLEvolve.log")
         parse_config(r, d / "logs" / "config.yaml")
@@ -990,7 +1028,7 @@ def main() -> int:
         elif not Path(args.scores).exists():
             print(f"\n--scores file not found: {args.scores}")
         else:
-            scores, lower_map = load_scores(Path(args.scores), args.variant)
+            scores, lower_map = load_scores(Path(args.scores), args.variant, selected)
             missing = [r.name for r in runs if r.verdict == "ok" and r.name not in scores]
             if missing:
                 print(f"\nWARNING: {len(missing)} usable run(s) have no score in "

@@ -36,13 +36,16 @@ _T95 = {1: 12.706, 2: 4.303, 3: 3.182, 4: 2.776, 5: 2.571, 6: 2.447, 7: 2.365, 8
         9: 2.262, 10: 2.228, 11: 2.201, 12: 2.179, 13: 2.160, 14: 2.145, 15: 2.131,
         16: 2.120, 17: 2.110, 18: 2.101, 19: 2.093, 20: 2.086, 25: 2.060, 30: 2.042}
 
-ARMS = ("A", "B", "C", "D", "E", "F")
+ARMS = ("A", "B", "C", "D", "E", "F", "G")
 ARM_LABEL = {"A": "A  baseline", "B": "B  KB @ draft", "C": "C  KB @ draft+improve",
-             "D": "D  analogy @ improve", "E": "E  analogy @ first draft", "F": "F  analogy @ draft+improve"}
-ARM_COLOR = {"A": "#555555", "B": "#1f77b4", "C": "#d62728", "D": "#2ca02c", "E": "#9467bd", "F": "#8c564b"}
+             "D": "D  analogy @ improve", "E": "E  analogy @ first draft", "F": "F  analogy @ draft+improve",
+             "G": "G  Top-25 @ every draft"}
+ARM_COLOR = {"A": "#555555", "B": "#1f77b4", "C": "#d62728", "D": "#2ca02c", "E": "#9467bd", "F": "#8c564b",
+             "G": "#17becf"}
 # B/C are the retired cold-start retrieval arms (historical runs); D/E/F are the analogy agent
-# at improve / first draft / both. Each is only ever launched against A, so no cross contrasts.
-CONTRASTS = [("B", "A"), ("C", "A"), ("C", "B"), ("D", "A"), ("E", "A"), ("F", "A")]
+# at improve / first draft / both. G injects the reranked corpus into every draft.
+# D/E/F/G are only launched against A, so no cross contrasts.
+CONTRASTS = [("B", "A"), ("C", "A"), ("C", "B"), ("D", "A"), ("E", "A"), ("F", "A"), ("G", "A")]
 
 
 def plot_candidate_runtime(runs, out: Path) -> Path:
@@ -146,7 +149,7 @@ def plot_paired(task: str, draws: list[dict], k: int, lower_better: bool,
     if len(arms) < 2 or not draws:
         return None
 
-    # Leave room for up to six arms plus the draw legend outside the data area.
+    # Leave room for all arms plus the draw legend outside the data area.
     fig, ax = plt.subplots(figsize=(max(11.0, 2.2 * len(arms)), 4.4))
     xs = range(len(arms))
     for d in draws:
@@ -273,7 +276,7 @@ def plot_process(task: str, draws: list[dict], out: Path, n_excluded: int) -> tu
                 vals.append(a[key] - b[key])
                 if {hi, lo} & set(d.get("borrowed", ())):
                     unpaired = True
-            if len(vals) >= 2:
+            if vals:
                 m, lo_ci, hi_ci, n = mean_ci(vals)
                 stats.append({"key": key, "label": label, "direction": direction,
                               "contrast": f"{hi}-{lo}", "values": vals, "mean": m,
